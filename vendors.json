@@ -31,7 +31,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "alabama",
+    "regionGroup": "south",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Recreative%20Natives%20125%20Valley%20View%20Road%2C%20Cropwell%2C%20AL%2035054"
   },
@@ -64,7 +64,7 @@
     ],
     "category": "retail",
     "focus": "connecticut",
-    "regionGroup": "connecticut",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -96,7 +96,7 @@
     ],
     "category": "retail",
     "focus": "connecticut",
-    "regionGroup": "connecticut",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -128,7 +128,7 @@
     ],
     "category": "retail",
     "focus": "connecticut",
-    "regionGroup": "connecticut",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -165,7 +165,7 @@
     "focus": "connecticut",
     "approx": false,
     "nativeTier": "specialist",
-    "regionGroup": "connecticut"
+    "regionGroup": "northeast"
   },
   {
     "id": "native-plant-nursery-fairfield",
@@ -196,7 +196,7 @@
     ],
     "category": "retail",
     "focus": "connecticut",
-    "regionGroup": "connecticut",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -228,7 +228,7 @@
     ],
     "category": "retail",
     "focus": "connecticut",
-    "regionGroup": "connecticut",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -257,7 +257,7 @@
     "focus": "connecticut",
     "approx": false,
     "nativeTier": "documented",
-    "regionGroup": "connecticut"
+    "regionGroup": "northeast"
   },
   {
     "id": "rewild-native-nursery",
@@ -288,7 +288,7 @@
     ],
     "category": "retail",
     "focus": "connecticut",
-    "regionGroup": "connecticut",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -320,7 +320,7 @@
     ],
     "category": "retail",
     "focus": "connecticut",
-    "regionGroup": "connecticut",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -352,7 +352,7 @@
     ],
     "category": "retail",
     "focus": "connecticut",
-    "regionGroup": "connecticut",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -384,7 +384,7 @@
     ],
     "category": "seasonal",
     "focus": "delawarevalley",
-    "regionGroup": "delawarevalley",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -415,7 +415,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "florida",
+    "regionGroup": "south",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=All%20Native%20Garden%20Center%20%26%20Plant%20Nursery%20300%20Center%20Road%2C%20Fort%20Myers%2C%20FL%2033907"
   },
@@ -451,7 +451,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "georgia",
+    "regionGroup": "south",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Cottage%20Garden%20Natives%206244%20Holt%20Road%2C%20Lithonia%2C%20GA%2030058"
   },
@@ -486,7 +486,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "georgia",
+    "regionGroup": "south",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Nearly%20Native%20Nursery%20776%20McBride%20Road%2C%20Fayetteville%2C%20GA%2030215"
   },
@@ -521,7 +521,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "georgia",
+    "regionGroup": "south",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=North%20Georgia%20Native%20Plant%20Nursery%201095%20Epperson%20Road%2C%20Canton%2C%20GA%2030115"
   },
@@ -556,7 +556,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "illinois",
+    "regionGroup": "greatlakes",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Pizzo%20Native%20Plant%20Nursery%2010729%20Pine%20Road%2C%20Leland%2C%20IL%2060531"
   },
@@ -591,7 +591,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "illinois",
+    "regionGroup": "greatlakes",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Possibility%20Place%20Nursery%207548%20W%20Manhattan%20Monee%20Road%2C%20Monee%2C%20IL%2060449"
   },
@@ -626,7 +626,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "kentucky",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Dropseed%20Native%20Plant%20Nursery%201205%20S%20Buckeye%20Lane%2C%20Goshen%2C%20KY%2040026"
   },
@@ -657,7 +657,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "kentucky",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Joy%20of%20Natives%20Nancy%2C%20KY%20%28contact%20seller%20for%20pickup%20location%20and%20hours%29"
   },
@@ -693,7 +693,7 @@
       }
     ],
     "category": "seasonal",
-    "regionGroup": "louisiana",
+    "regionGroup": "south",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Beaver%E2%80%99s%20Abundance%20Native%20Plant%20Nursery%2017873%20Old%20Jefferson%20Highway%2C%20Prairieville%2C%20LA%2070769"
   },
@@ -726,7 +726,7 @@
     ],
     "category": "retail",
     "focus": "boston",
-    "regionGroup": "boston",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -758,7 +758,7 @@
     ],
     "category": "retail",
     "focus": "newengland",
-    "regionGroup": "newengland",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -790,7 +790,7 @@
     ],
     "category": "retail",
     "focus": "boston",
-    "regionGroup": "boston",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -822,7 +822,7 @@
     ],
     "category": "retail",
     "focus": "boston",
-    "regionGroup": "boston",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -854,7 +854,7 @@
     ],
     "category": "retail",
     "focus": "boston",
-    "regionGroup": "boston",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -886,7 +886,7 @@
     ],
     "category": "retail",
     "focus": "newengland",
-    "regionGroup": "newengland",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -918,7 +918,7 @@
     ],
     "category": "retail",
     "focus": "boston",
-    "regionGroup": "boston",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -950,7 +950,7 @@
     ],
     "category": "retail",
     "focus": "boston",
-    "regionGroup": "boston",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -982,7 +982,7 @@
     ],
     "category": "retail",
     "focus": "boston",
-    "regionGroup": "boston",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -1014,7 +1014,7 @@
     ],
     "category": "retail",
     "focus": "dmv",
-    "regionGroup": "dmv",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -1047,7 +1047,7 @@
     "focus": "maryland",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "maryland"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "bloom-wild",
@@ -1078,7 +1078,7 @@
     ],
     "category": "retail",
     "focus": "dmv",
-    "regionGroup": "dmv",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -1110,7 +1110,7 @@
     ],
     "category": "retail",
     "focus": "dmv",
-    "regionGroup": "dmv",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -1142,7 +1142,7 @@
     ],
     "category": "retail",
     "focus": "dmv",
-    "regionGroup": "dmv",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -1175,7 +1175,7 @@
     "focus": "maryland",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "maryland"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "ecoplantia",
@@ -1207,7 +1207,7 @@
     "focus": "maryland",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "maryland"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "ecotone-native-nursery",
@@ -1239,7 +1239,7 @@
     "focus": "maryland",
     "approx": true,
     "nativeTier": "documented",
-    "regionGroup": "maryland"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "herring-run-nursery",
@@ -1270,7 +1270,7 @@
     ],
     "category": "retail",
     "focus": "dmv",
-    "regionGroup": "dmv",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -1303,7 +1303,7 @@
     "focus": "maryland",
     "approx": true,
     "nativeTier": "documented",
-    "regionGroup": "maryland"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "seeds-of-change",
@@ -1335,7 +1335,7 @@
     "focus": "maryland",
     "approx": true,
     "nativeTier": "documented",
-    "regionGroup": "maryland"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "wildflower-native-nursery",
@@ -1366,7 +1366,7 @@
     ],
     "category": "retail",
     "focus": "dmv",
-    "regionGroup": "dmv",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -1400,7 +1400,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "maine",
+    "regionGroup": "northeast",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Blue%20Aster%20Native%20Plants%20South%20China%2C%20ME%20%28check%20current%20sales/pickup%20details%29"
   },
@@ -1436,7 +1436,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "maine",
+    "regionGroup": "northeast",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Eastfield%20Native%20Plants%203%20Eastfield%20Drive%2C%20Gray%2C%20ME%2004039"
   },
@@ -1472,7 +1472,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "maine",
+    "regionGroup": "northeast",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Edgewood%20Nursery%204%20Cruston%20Way%2C%20Falmouth%2C%20ME%2004105"
   },
@@ -1508,7 +1508,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "maine",
+    "regionGroup": "northeast",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Haunts%20297%20Mountain%20Road%2C%20Alfred%2C%20ME%2004002"
   },
@@ -1544,7 +1544,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "michigan",
+    "regionGroup": "greatlakes",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wildtype%20Plants%20%26%20Ecological%20Services%20900%20N%20Every%20Road%2C%20Mason%2C%20MI%2048854"
   },
@@ -1580,7 +1580,7 @@
       }
     ],
     "category": "delivery",
-    "regionGroup": "minnesota",
+    "regionGroup": "greatlakes",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Prairie%20Moon%20Nursery%2032115%20Prairie%20Lane%2C%20Winona%2C%20MN%2055987"
   },
@@ -1616,7 +1616,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "northcarolina",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Carolina%20Native%20Nursery%201126%20Prices%20Creek%20Road%2C%20Burnsville%2C%20NC%2028714"
   },
@@ -1652,7 +1652,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "northcarolina",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Deep%20Roots%20Natives%203666%20Guess%20Road%2C%20Durham%2C%20NC%2027705"
   },
@@ -1684,7 +1684,7 @@
       }
     ],
     "category": "seasonal",
-    "regionGroup": "northcarolina",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Ever%20Laughter%20Farm%20%26%20Nursery%202921%20Open%20Lane%2C%20Hillsborough%2C%20NC%2027278"
   },
@@ -1716,7 +1716,7 @@
       }
     ],
     "category": "seasonal",
-    "regionGroup": "northcarolina",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Little%20Bluets%20Native%20Plants%20104%20Porcino%20Lane%2C%20Holly%20Springs%2C%20NC%2027540"
   },
@@ -1752,7 +1752,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "northcarolina",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Roots%20Nursery%20571%20Moseley%20Avenue%2C%20Clinton%2C%20NC%2028328"
   },
@@ -1784,7 +1784,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "northcarolina",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Natural%20Selections%20Nursery%20268%20Herron%20Cover%20Road%2C%20Weaverville%2C%20NC%2028787"
   },
@@ -1819,7 +1819,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "northcarolina",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Piedmont%20Plants%20Nursery%20614%20Bethania-Rural%20Hall%20Road%2C%20Rural%20Hall%2C%20NC%2027045"
   },
@@ -1851,7 +1851,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "northcarolina",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Sandy%20Mush%20Herb%20Nursery%20316%20Surrett%20Cove%20Road%2C%20Leicester%2C%20NC%2028748"
   },
@@ -1889,7 +1889,7 @@
     "focus": "newhampshire",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "newhampshire"
+    "regionGroup": "northeast"
   },
   {
     "id": "cat-swamp-farm",
@@ -1917,7 +1917,7 @@
     "focus": "newhampshire",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "newhampshire"
+    "regionGroup": "northeast"
   },
   {
     "id": "fassett-farm-nursery",
@@ -1949,7 +1949,7 @@
     "focus": "newhampshire",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "newhampshire"
+    "regionGroup": "northeast"
   },
   {
     "id": "found-well-farm",
@@ -1981,7 +1981,7 @@
     "focus": "newhampshire",
     "approx": true,
     "nativeTier": "documented",
-    "regionGroup": "newhampshire"
+    "regionGroup": "northeast"
   },
   {
     "id": "grow-native-nh",
@@ -1990,8 +1990,8 @@
     "area": "New Hampshire · location details not published",
     "borough": "NH",
     "address": "New Hampshire · contact for current pickup location",
-    "lat": null,
-    "lng": null,
+    "lat": 43.9,
+    "lng": -71.6,
     "access": "Contact the nursery for current sales and pickup arrangements.",
     "native": "confirmed",
     "nativeBasis": "Describes itself as a 100% native plant nursery, with plants grown for New Hampshire ecosystems.",
@@ -2011,9 +2011,9 @@
     ],
     "category": "delivery",
     "focus": "newhampshire",
-    "approx": false,
+    "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "newhampshire"
+    "regionGroup": "northeast"
   },
   {
     "id": "alpine-nursery",
@@ -2045,7 +2045,7 @@
     "focus": "montclair",
     "approx": true,
     "nativeTier": "unverified",
-    "regionGroup": "northjersey"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "cedar-grove-garden-center",
@@ -2081,7 +2081,7 @@
     "focus": "montclair",
     "approx": false,
     "nativeTier": "unverified",
-    "regionGroup": "northjersey"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "condursos",
@@ -2117,7 +2117,7 @@
     "focus": "montclair",
     "approx": false,
     "nativeTier": "documented",
-    "regionGroup": "northjersey"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "glenwild",
@@ -2149,7 +2149,7 @@
     "focus": "montclair",
     "approx": false,
     "nativeTier": "documented",
-    "regionGroup": "northjersey"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "goffle-brook",
@@ -2185,7 +2185,7 @@
     "focus": "montclair",
     "approx": false,
     "nativeTier": "documented",
-    "regionGroup": "northjersey"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "hope-grows",
@@ -2221,7 +2221,7 @@
     "focus": "montclair",
     "approx": false,
     "nativeTier": "documented",
-    "regionGroup": "northjersey"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "orange-garden-center",
@@ -2257,7 +2257,7 @@
     "focus": "montclair",
     "approx": false,
     "nativeTier": "documented",
-    "regionGroup": "northjersey"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "plant-detectives",
@@ -2313,7 +2313,7 @@
     ],
     "category": "retail",
     "focus": "northjersey",
-    "regionGroup": "northjersey",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -2350,7 +2350,7 @@
     "focus": "montclair",
     "approx": false,
     "nativeTier": "unverified",
-    "regionGroup": "northjersey"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "rohslers-allendale",
@@ -2378,7 +2378,7 @@
     "focus": "northjersey",
     "approx": false,
     "nativeTier": "documented",
-    "regionGroup": "northjersey"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "toadshade-wildflower-farm",
@@ -2409,7 +2409,7 @@
     ],
     "category": "retail",
     "focus": "delawarevalley",
-    "regionGroup": "delawarevalley",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -2438,7 +2438,7 @@
     "focus": "montclair",
     "approx": true,
     "nativeTier": "documented",
-    "regionGroup": "northjersey"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "bay-gardens",
@@ -2474,7 +2474,7 @@
     "focus": "longisland",
     "approx": false,
     "nativeTier": "documented",
-    "regionGroup": "longisland"
+    "regionGroup": "northeast"
   },
   {
     "id": "capital-native-plants",
@@ -2505,7 +2505,7 @@
     ],
     "category": "retail",
     "focus": "upstate",
-    "regionGroup": "upstate",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -2537,7 +2537,7 @@
     ],
     "category": "retail",
     "focus": "upstate",
-    "regionGroup": "upstate",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -2570,7 +2570,7 @@
     "focus": "longisland",
     "approx": false,
     "nativeTier": "specialist",
-    "regionGroup": "longisland"
+    "regionGroup": "northeast"
   },
   {
     "id": "flower-power-red-hook",
@@ -2601,7 +2601,7 @@
     ],
     "category": "retail",
     "focus": "upstate",
-    "regionGroup": "upstate",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -2630,7 +2630,7 @@
     "focus": "longisland",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "longisland"
+    "regionGroup": "northeast"
   },
   {
     "id": "grow-wild-ithaca",
@@ -2661,7 +2661,7 @@
     ],
     "category": "retail",
     "focus": "upstate",
-    "regionGroup": "upstate",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -2693,7 +2693,7 @@
     ],
     "category": "retail",
     "focus": "upstate",
-    "regionGroup": "upstate",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -2726,7 +2726,7 @@
     "focus": "longisland",
     "approx": false,
     "nativeTier": "specialist",
-    "regionGroup": "longisland"
+    "regionGroup": "northeast"
   },
   {
     "id": "linpi",
@@ -2758,7 +2758,7 @@
     "focus": "longisland",
     "approx": false,
     "nativeTier": "specialist",
-    "regionGroup": "longisland"
+    "regionGroup": "northeast"
   },
   {
     "id": "long-island-natives",
@@ -2786,7 +2786,7 @@
     "focus": "longisland",
     "approx": false,
     "nativeTier": "specialist",
-    "regionGroup": "longisland"
+    "regionGroup": "northeast"
   },
   {
     "id": "lowlands-nursery",
@@ -2822,7 +2822,7 @@
     "focus": "nyc",
     "approx": false,
     "nativeTier": "specialist",
-    "regionGroup": "nyc"
+    "regionGroup": "northeast"
   },
   {
     "id": "native-ny-gardens",
@@ -2831,8 +2831,8 @@
     "borough": "Brooklyn",
     "state": "NY",
     "address": "Brooklyn, NY · plant delivery; no walk-in retail location confirmed",
-    "lat": null,
-    "lng": null,
+    "lat": 40.68,
+    "lng": -73.98,
     "access": "Local plant delivery and native landscape design; not listed as a retail storefront",
     "native": "confirmed",
     "nativeBasis": "The business describes itself as specializing in native plants and offers an evolving plant selection for local delivery.",
@@ -2852,9 +2852,9 @@
     ],
     "category": "delivery",
     "focus": "nyc",
-    "approx": false,
+    "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "nyc"
+    "regionGroup": "northeast"
   },
   {
     "id": "nbk-native-nursery",
@@ -2882,7 +2882,7 @@
     "focus": "greenpoint",
     "approx": true,
     "nativeTier": "community",
-    "regionGroup": "nyc"
+    "regionGroup": "northeast"
   },
   {
     "id": "newtown-native-nursery",
@@ -2918,7 +2918,7 @@
     "focus": "greenpoint",
     "approx": false,
     "nativeTier": "specialist",
-    "regionGroup": "nyc"
+    "regionGroup": "northeast"
   },
   {
     "id": "north-shore-plant-company",
@@ -2946,7 +2946,7 @@
     "focus": "longisland",
     "approx": true,
     "nativeTier": "documented",
-    "regionGroup": "longisland"
+    "regionGroup": "northeast"
   },
   {
     "id": "one-nature-nursery",
@@ -2977,7 +2977,7 @@
     ],
     "category": "retail",
     "focus": "upstate",
-    "regionGroup": "upstate",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -3014,7 +3014,7 @@
     "focus": "nyc",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "nyc"
+    "regionGroup": "northeast"
   },
   {
     "id": "seed-on-hudson",
@@ -3050,7 +3050,7 @@
     "focus": "westchester",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "upstate"
+    "regionGroup": "northeast"
   },
   {
     "id": "tend-greenpoint",
@@ -3095,7 +3095,7 @@
     "approx": true,
     "nativeTier": "documented",
     "nativeRange": "select",
-    "regionGroup": "nyc"
+    "regionGroup": "northeast"
   },
   {
     "id": "native-plant-center-wcc",
@@ -3131,7 +3131,7 @@
     "focus": "westchester",
     "approx": true,
     "nativeTier": "community",
-    "regionGroup": "upstate"
+    "regionGroup": "northeast"
   },
   {
     "id": "old-dairy-nursery",
@@ -3162,7 +3162,7 @@
     ],
     "category": "retail",
     "focus": "upstate",
-    "regionGroup": "upstate",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -3194,7 +3194,7 @@
     ],
     "category": "retail",
     "focus": "upstate",
-    "regionGroup": "upstate",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -3227,7 +3227,7 @@
     "focus": "longisland",
     "approx": false,
     "nativeTier": "unverified",
-    "regionGroup": "longisland"
+    "regionGroup": "northeast"
   },
   {
     "id": "wild-gardens-nursery",
@@ -3259,7 +3259,7 @@
     "focus": "westchester",
     "approx": true,
     "nativeTier": "documented",
-    "regionGroup": "upstate"
+    "regionGroup": "northeast"
   },
   {
     "id": "zoes-plants",
@@ -3287,7 +3287,7 @@
     "focus": "westchester",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "upstate"
+    "regionGroup": "northeast"
   },
   {
     "id": "meadow-city-native-plant-nursery",
@@ -3321,7 +3321,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "ohio",
+    "regionGroup": "greatlakes",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Meadow%20City%20Native%20Plant%20Nursery%2015006%20Westropp%20Avenue%2C%20Cleveland%2C%20OH%2044110"
   },
@@ -3357,7 +3357,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "ohio",
+    "regionGroup": "greatlakes",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Natives%20in%20Harmony%204652%20Township%20Road%20179%2C%20Marengo%2C%20OH%2043334"
   },
@@ -3388,7 +3388,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "ohio",
+    "regionGroup": "greatlakes",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Scioto%20Gardens%203351%20State%20Route%2037%20W%2C%20Delaware%2C%20OH%2043015"
   },
@@ -3421,7 +3421,7 @@
     ],
     "category": "retail",
     "focus": "delawarevalley",
-    "regionGroup": "delawarevalley",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -3454,7 +3454,7 @@
     "focus": "pennsylvania",
     "approx": true,
     "nativeTier": "documented",
-    "regionGroup": "pennsylvania"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "bowmans-hill",
@@ -3485,7 +3485,7 @@
     ],
     "category": "retail",
     "focus": "delawarevalley",
-    "regionGroup": "delawarevalley",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -3517,7 +3517,7 @@
     ],
     "category": "retail",
     "focus": "delawarevalley",
-    "regionGroup": "delawarevalley",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -3550,7 +3550,7 @@
     "focus": "pennsylvania",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "pennsylvania"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "go-native-tree-farm",
@@ -3582,7 +3582,7 @@
     "focus": "pennsylvania",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "pennsylvania"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "keystone-wildflowers",
@@ -3614,7 +3614,7 @@
     "focus": "pennsylvania",
     "approx": true,
     "nativeTier": "documented",
-    "regionGroup": "pennsylvania"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "redbud-native-nursery",
@@ -3645,7 +3645,7 @@
     ],
     "category": "retail",
     "focus": "delawarevalley",
-    "regionGroup": "delawarevalley",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -3678,7 +3678,7 @@
     "focus": "pennsylvania",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "pennsylvania"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "yellow-springs-farm",
@@ -3709,7 +3709,7 @@
     ],
     "category": "retail",
     "focus": "delawarevalley",
-    "regionGroup": "delawarevalley",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -3741,7 +3741,7 @@
     ],
     "category": "retail",
     "focus": "newengland",
-    "regionGroup": "newengland",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -3773,7 +3773,7 @@
     ],
     "category": "retail",
     "focus": "newengland",
-    "regionGroup": "newengland",
+    "regionGroup": "northeast",
     "approx": true
   },
   {
@@ -3808,7 +3808,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "southcarolina",
+    "regionGroup": "south",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Carolina%20Wild%20Native%20Plant%20Nursery%20314%20Camellia%20Drive%2C%20Anderson%2C%20SC%2029625"
   },
@@ -3844,7 +3844,7 @@
       }
     ],
     "category": "seasonal",
-    "regionGroup": "southcarolina",
+    "regionGroup": "south",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Plants%20to%20the%20People%20James%20Island%2C%20SC%20%28weekly%20sale%20and%20pickup%20locations%20vary%29"
   },
@@ -3880,7 +3880,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "southcarolina",
+    "regionGroup": "south",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Roots%20%26%20Shoots%20Nursery%201108%20Wappoo%20Road%2C%20Charleston%2C%20SC%2029407"
   },
@@ -3916,7 +3916,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "tennessee",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=GroWild%20Native%20Plant%20Nursery%207190%20Hill%20Hughes%20Road%2C%20Fairview%2C%20TN%2037062"
   },
@@ -3952,7 +3952,7 @@
       }
     ],
     "category": "retail",
-    "regionGroup": "tennessee",
+    "regionGroup": "appalachia",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Tennessee%20Naturescapes%202131%20Oliver%20Springs%20Highway%2C%20Clinton%2C%20TN%2037716"
   },
@@ -3985,7 +3985,7 @@
     ],
     "category": "retail",
     "focus": "dmv",
-    "regionGroup": "dmv",
+    "regionGroup": "midatlantic",
     "approx": true
   },
   {
@@ -4022,7 +4022,7 @@
     "focus": "virginia",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "virginia"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "morningside-farm-nursery",
@@ -4054,7 +4054,7 @@
     "focus": "virginia",
     "approx": true,
     "nativeTier": "documented",
-    "regionGroup": "virginia"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "seven-bends-nursery",
@@ -4090,7 +4090,7 @@
     "focus": "virginia",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "virginia"
+    "regionGroup": "midatlantic"
   },
   {
     "id": "champlain-valley-restoration-nursery",
@@ -4122,7 +4122,7 @@
     "focus": "vermont",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "vermont"
+    "regionGroup": "northeast"
   },
   {
     "id": "green-mountain-natives",
@@ -4158,7 +4158,7 @@
     "focus": "vermont",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "vermont"
+    "regionGroup": "northeast"
   },
   {
     "id": "intervale-conservation-nursery",
@@ -4190,7 +4190,7 @@
     "focus": "vermont",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "vermont"
+    "regionGroup": "northeast"
   },
   {
     "id": "miller-hill-farm-vt",
@@ -4222,7 +4222,7 @@
     "focus": "vermont",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "vermont"
+    "regionGroup": "northeast"
   },
   {
     "id": "northeast-pollinator-plants",
@@ -4258,7 +4258,7 @@
     "focus": "vermont",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "vermont"
+    "regionGroup": "northeast"
   },
   {
     "id": "agrecol-native-nursery",
@@ -4287,7 +4287,7 @@
       }
     ],
     "category": "delivery",
-    "regionGroup": "wisconsin",
+    "regionGroup": "greatlakes",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Agrecol%20Native%20Nursery%2010101%20N%20Casey%20Road%2C%20Evansville%2C%20WI%2053536"
   },
@@ -4319,7 +4319,7 @@
       }
     ],
     "category": "delivery",
-    "regionGroup": "wisconsin",
+    "regionGroup": "greatlakes",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Prairie%20Nursery%20Westfield%2C%20WI%2053964%20%28online%20retailer%3B%20confirm%20pickup%20arrangements%29"
   },
@@ -4353,6 +4353,803 @@
     "focus": "westvirginia",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "westvirginia"
+    "regionGroup": "appalachia"
+  },
+  {
+    "id": "alaska-seed-n-tree",
+    "name": "Alaska Seed-N-Tree Farms",
+    "area": "Palmer",
+    "borough": "",
+    "state": "AK",
+    "address": "Palmer, AK 99645 (contact for current pickup details)",
+    "lat": 61.6,
+    "lng": -149.12,
+    "access": "Open by appointment; confirm seasonal availability.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Grows native Alaska trees and shrubs; contact the farm for current stock and pickup arrangements.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.seedntreeak.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.seedntreeak.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.seedntreeak.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "pacific",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Alaska%20Seed-N-Tree%20Farms%20Palmer%2C%20AK%2099645%20%28contact%20for%20current%20pickup%20details%29"
+  },
+  {
+    "id": "desert-survivors",
+    "name": "Desert Survivors",
+    "area": "Tucson",
+    "borough": "",
+    "state": "AZ",
+    "address": "1020 W Starr Pass Blvd, Tucson, AZ 85713",
+    "lat": 32.22,
+    "lng": -110.99,
+    "access": "Retail nursery; check current hours and stock.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Nonprofit nursery and conservation organization with a substantial selection of native and desert-adapted plants; species should be checked for local provenance.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://desertsurvivors.org/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://desertsurvivors.org/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://desertsurvivors.org/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "southwest",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Desert%20Survivors%201020%20W%20Starr%20Pass%20Blvd%2C%20Tucson%2C%20AZ%2085713"
+  },
+  {
+    "id": "pine-ridge-gardens",
+    "name": "Pine Ridge Gardens",
+    "area": "Dardanelle",
+    "borough": "",
+    "state": "AR",
+    "address": "10989 Fulton Road, Dardanelle, AR 72834",
+    "lat": 35.22,
+    "lng": -93.16,
+    "access": "Open houses and appointment visits; confirm before traveling.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Native plant specialist with a broad catalog of Arkansas and regional native plants, including perennials, grasses, shrubs, and trees.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://pineridgegardens.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://pineridgegardens.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://pineridgegardens.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Pine%20Ridge%20Gardens%2010989%20Fulton%20Road%2C%20Dardanelle%2C%20AR%2072834"
+  },
+  {
+    "id": "theodore-payne-foundation",
+    "name": "Theodore Payne Foundation Nursery",
+    "area": "Sun Valley",
+    "borough": "",
+    "state": "CA",
+    "address": "10459 Tuxford St, Sun Valley, CA 91352",
+    "lat": 34.25,
+    "lng": -118.38,
+    "access": "Retail nursery and seed sales; confirm current hours and stock.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "California native plant nursery; its catalog lists hundreds of California native species and cultivars.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://theodorepayne.org/plants-and-seeds/nursery/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://theodorepayne.org/plants-and-seeds/nursery/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://theodorepayne.org/plants-and-seeds/nursery/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "pacific",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Theodore%20Payne%20Foundation%20Nursery%2010459%20Tuxford%20St%2C%20Sun%20Valley%2C%20CA%2091352"
+  },
+  {
+    "id": "native-west-nursery",
+    "name": "Native West Nursery",
+    "area": "San Diego",
+    "borough": "",
+    "state": "CA",
+    "address": "1849 Leon Ave, San Diego, CA 92154",
+    "lat": 32.58,
+    "lng": -117.08,
+    "access": "Retail and wholesale; check current hours.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "California native plant nursery with a public retail location and a catalog of more than 100 native species.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.nativewest.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.nativewest.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.nativewest.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "pacific",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20West%20Nursery%201849%20Leon%20Ave%2C%20San%20Diego%2C%20CA%2092154"
+  },
+  {
+    "id": "colorado-native-plant-nursery",
+    "name": "Colorado Native Plant Nursery",
+    "area": "Denver metro",
+    "borough": "",
+    "state": "CO",
+    "address": "Denver metro; appointment location details provided by nursery",
+    "lat": 39.74,
+    "lng": -104.99,
+    "access": "Appointment access; contact for current location and inventory.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "select",
+    "nativeBasis": "Grows Colorado native plants, including locally adapted perennials, grasses, shrubs, and trees.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.coloradonativeplantnursery.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.coloradonativeplantnursery.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.coloradonativeplantnursery.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "mountainwest",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Colorado%20Native%20Plant%20Nursery%20Denver%20metro%3B%20appointment%20location%20details%20provided%20by%20nursery"
+  },
+  {
+    "id": "aikane-nursery",
+    "name": "Aikane Nursery & Landscaping",
+    "area": "Hawi",
+    "borough": "",
+    "state": "HI",
+    "address": "55-3472 Akoni Pule Hwy, Hawi, HI 96719",
+    "lat": 20.24,
+    "lng": -155.83,
+    "access": "Retail nursery; confirm current hours and availability.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Nursery states that it aims to supply Hawaiian native plants; check species and island provenance for current stock.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.aikanenursery.com/nursery",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.aikanenursery.com/nursery"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.aikanenursery.com/nursery"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "pacific",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Aikane%20Nursery%20%26%20Landscaping%2055-3472%20Akoni%20Pule%20Hwy%2C%20Hawi%2C%20HI%2096719"
+  },
+  {
+    "id": "serviceberry-native-plant-nursery",
+    "name": "Serviceberry Native Plant Nursery",
+    "area": "Salmon",
+    "borough": "",
+    "state": "ID",
+    "address": "36 Wagon Wheel Rd, Salmon, ID 83467",
+    "lat": 45.18,
+    "lng": -113.9,
+    "access": "Direct-to-public by scheduled appointment and at pop-up sales.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Specializes in Intermountain native plants propagated from seed and cuttings.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.serviceberrynursery.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.serviceberrynursery.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.serviceberrynursery.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "mountainwest",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Serviceberry%20Native%20Plant%20Nursery%2036%20Wagon%20Wheel%20Rd%2C%20Salmon%2C%20ID%2083467"
+  },
+  {
+    "id": "new-leaf-nursery",
+    "name": "New Leaf Nursery",
+    "area": "Nappanee",
+    "borough": "",
+    "state": "IN",
+    "address": "26131 County Road 46, Nappanee, IN 46550",
+    "lat": 41.44,
+    "lng": -86.0,
+    "access": "Retail nursery; confirm species and stock.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Indiana Native Plant Society lists the nursery as a native plant source; nursery stock includes a documented native selection.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.nlnursery.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://indiananativeplants.org/native-plant-sources/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.nlnursery.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "greatlakes",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=New%20Leaf%20Nursery%2026131%20County%20Road%2046%2C%20Nappanee%2C%20IN%2046550"
+  },
+  {
+    "id": "iowa-state-forest-nursery",
+    "name": "Iowa DNR State Forest Nursery",
+    "area": "Ames",
+    "borough": "",
+    "state": "IA",
+    "address": "2404 S Duff Ave, Ames, IA 50010",
+    "lat": 42.01,
+    "lng": -93.61,
+    "access": "Seasonal seedling sales; order windows and pickup vary.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "State forest nursery offering Iowa native tree and shrub seedlings for conservation and planting.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.iowadnr.gov/Conservation/Forestry/State-Forest-Nursery",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://xerces.org/native-plant-supplier/iowa-dnr-state-forest-nursery"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.iowadnr.gov/Conservation/Forestry/State-Forest-Nursery"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "plains",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Iowa%20DNR%20State%20Forest%20Nursery%202404%20S%20Duff%20Ave%2C%20Ames%2C%20IA%2050010"
+  },
+  {
+    "id": "wells-creek-nursery",
+    "name": "Wells Creek Nursery",
+    "area": "Wamego area",
+    "borough": "",
+    "state": "KS",
+    "address": "Wamego area, KS (contact nursery for pickup location)",
+    "lat": 39.2,
+    "lng": -96.3,
+    "access": "Contact for current access and location details.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "select",
+    "nativeBasis": "Raises native Kansas trees, shrubs, and plants; contact the nursery for current catalog and pickup details.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://wellscreeknursery.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://wellscreeknursery.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://wellscreeknursery.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "plains",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wells%20Creek%20Nursery%20Wamego%20area%2C%20KS%20%28contact%20nursery%20for%20pickup%20location%29"
+  },
+  {
+    "id": "maypop-hill",
+    "name": "Maypop Hill",
+    "area": "Centreville",
+    "borough": "",
+    "state": "MS",
+    "address": "805 State Line Rd, Centreville, MS 39631",
+    "lat": 31.09,
+    "lng": -91.06,
+    "access": "Pickup, markets, and appointment access; confirm before visiting.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Offers southeastern native plants, including trees, vines, ferns, and sedges.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.maypophill.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.maypophill.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.maypophill.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Maypop%20Hill%20805%20State%20Line%20Rd%2C%20Centreville%2C%20MS%2039631"
+  },
+  {
+    "id": "missouri-wildflowers-nursery",
+    "name": "Missouri Wildflowers Nursery",
+    "area": "Brazito",
+    "borough": "",
+    "state": "MO",
+    "address": "9814 Pleasant Hill Rd, Brazito, MO 65109",
+    "lat": 38.47,
+    "lng": -92.33,
+    "access": "Retail, mail order, and seasonal access; verify current details.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Native plant specialist offering Missouri-origin native wildflowers, grasses, trees, and shrubs.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://mowildflowers.net/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://mowildflowers.net/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://mowildflowers.net/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "plains",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Missouri%20Wildflowers%20Nursery%209814%20Pleasant%20Hill%20Rd%2C%20Brazito%2C%20MO%2065109"
+  },
+  {
+    "id": "center-for-native-plants",
+    "name": "Center for Native Plants",
+    "area": "Flathead Valley",
+    "borough": "",
+    "state": "MT",
+    "address": "Flathead Valley, MT (contact nursery for current retail location)",
+    "lat": 48.2,
+    "lng": -114.31,
+    "access": "Contact for current location, hours, and stock.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Native-focused nursery offering a large selection of plants native to Montana and the Intermountain Northwest.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://centerfornativeplants.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://centerfornativeplants.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://centerfornativeplants.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "mountainwest",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Center%20for%20Native%20Plants%20Flathead%20Valley%2C%20MT%20%28contact%20nursery%20for%20current%20retail%20location%29"
+  },
+  {
+    "id": "plant-nebraska",
+    "name": "PlantNebraska seasonal plant sales",
+    "area": "Lincoln",
+    "borough": "",
+    "state": "NE",
+    "address": "University of Nebraska–Lincoln East Campus, 2150 N 38th St, Lincoln, NE 68503",
+    "lat": 40.84,
+    "lng": -96.7,
+    "access": "Seasonal spring and fall sales; check event listings.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Seasonal sales include native and regionally adapted trees, shrubs, and other plants. This is an event-based source, not a year-round nursery.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://plantnebraska.org/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://plantnebraska.org/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://plantnebraska.org/"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "plains",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=PlantNebraska%20seasonal%20plant%20sales%20University%20of%20Nebraska%E2%80%93Lincoln%20East%20Campus%2C%202150%20N%2038th%20St%2C%20Lincoln%2C%20NE%2068503"
+  },
+  {
+    "id": "washoe-state-tree-nursery",
+    "name": "Washoe State Tree Nursery",
+    "area": "Carson City",
+    "borough": "",
+    "state": "NV",
+    "address": "885 Eastlake Blvd, Carson City, NV 89704",
+    "lat": 39.16,
+    "lng": -119.77,
+    "access": "Retail sales on selected dates; check the current catalog and schedule.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "State conservation nursery offers native or adapted trees and plants in scheduled retail sales; native species vary by catalog.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://forestry.nv.gov/nurseries",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://forestry.nv.gov/nurseries"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://forestry.nv.gov/nurseries"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "mountainwest",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Washoe%20State%20Tree%20Nursery%20885%20Eastlake%20Blvd%2C%20Carson%20City%2C%20NV%2089704"
+  },
+  {
+    "id": "osuna-nursery-native-department",
+    "name": "Osuna Nursery · Native Plants",
+    "area": "Albuquerque",
+    "borough": "",
+    "state": "NM",
+    "address": "501 Osuna Rd NW, Albuquerque, NM 87107",
+    "lat": 35.15,
+    "lng": -106.63,
+    "access": "Retail nursery; current inventory varies.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Dedicated native section lists native trees, shrubs, grasses, and wildflowers suited to the Albuquerque region.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.osunanursery.com/natives",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.osunanursery.com/natives"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.osunanursery.com/natives"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "southwest",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Osuna%20Nursery%20%C2%B7%20Native%20Plants%20501%20Osuna%20Rd%20NW%2C%20Albuquerque%2C%20NM%2087107"
+  },
+  {
+    "id": "cashman-nursery",
+    "name": "Cashman Nursery",
+    "area": "Bismarck",
+    "borough": "",
+    "state": "ND",
+    "address": "3400 E Main Ave, Bismarck, ND 58501",
+    "lat": 46.82,
+    "lng": -100.75,
+    "access": "Retail nursery; check seasonal stock.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Broad garden center with a listed selection of North Dakota native perennial varieties.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.cashman-nursery.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.cashman-nursery.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.cashman-nursery.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "plains",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Cashman%20Nursery%203400%20E%20Main%20Ave%2C%20Bismarck%2C%20ND%2058501"
+  },
+  {
+    "id": "native-plants-nursery-okc",
+    "name": "Native Plants Nursery",
+    "area": "Oklahoma City",
+    "borough": "",
+    "state": "OK",
+    "address": "1330 NW 1st St, Oklahoma City, OK 73106",
+    "lat": 35.47,
+    "lng": -97.53,
+    "access": "Retail nursery; confirm current hours and stock.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Dedicated native plant nursery; its public materials describe native stock and monthly education/events.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.nativeplantsokc.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.nativeplantsokc.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.nativeplantsokc.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "plains",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Plants%20Nursery%201330%20NW%201st%20St%2C%20Oklahoma%20City%2C%20OK%2073106"
+  },
+  {
+    "id": "echo-valley-natives",
+    "name": "Echo Valley Natives",
+    "area": "Sandy",
+    "borough": "",
+    "state": "OR",
+    "address": "19300 SE Longstreet Lane, Sandy, OR 97055",
+    "lat": 45.39,
+    "lng": -122.26,
+    "access": "Year-round retail, weather dependent; contact before traveling.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Retail nursery specializing in Pacific Northwest native plants, with about 200 species listed and plants grown on site.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.echovalleynatives.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.echovalleynatives.com/plant-list"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.echovalleynatives.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "pacific",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Echo%20Valley%20Natives%2019300%20SE%20Longstreet%20Lane%2C%20Sandy%2C%20OR%2097055"
+  },
+  {
+    "id": "wilbers-seed-solutions",
+    "name": "Wilber’s Seed Solutions",
+    "area": "Miller",
+    "borough": "",
+    "state": "SD",
+    "address": "800 N Broadway, Miller, SD 57362",
+    "lat": 44.52,
+    "lng": -98.99,
+    "access": "Retail, wholesale, and mail order; confirm current plant availability.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Supplier directory profile reports that about half of inventory is native; no current seller website was located, so contact the business to confirm its current catalog and sales.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Directory profile lists retail, wholesale, and mail-order access; it does not replace confirmation with the seller.",
+    "website": "https://plantnative.org/nursery/sd/miller/wilbers-seed-solutions",
+    "sources": [
+      {
+        "label": "PlantNative supplier profile",
+        "url": "https://plantnative.org/nursery/sd/miller/wilbers-seed-solutions"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "plains",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wilber%E2%80%99s%20Seed%20Solutions%20800%20N%20Broadway%2C%20Miller%2C%20SD%2057362",
+    "websiteLabel": "Native supplier directory profile (no seller website located)"
+  },
+  {
+    "id": "brushwolf-prairies",
+    "name": "Brushwolf Prairies Native Nursery",
+    "area": "Bedias",
+    "borough": "",
+    "state": "TX",
+    "address": "Bedias, TX 77831 (contact for nursery access)",
+    "lat": 30.78,
+    "lng": -95.94,
+    "access": "Contact for current nursery access and stock.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Native Texas nursery offering locally native perennials and other prairie plants for retail, wholesale, and restoration projects.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.brushwolfprairies.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.brushwolfprairies.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.brushwolfprairies.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Brushwolf%20Prairies%20Native%20Nursery%20Bedias%2C%20TX%2077831%20%28contact%20for%20nursery%20access%29"
+  },
+  {
+    "id": "cache-valley-native-plants",
+    "name": "Cache Valley Native Plants",
+    "area": "Richmond",
+    "borough": "",
+    "state": "UT",
+    "address": "11583 N 2000 E, Richmond, UT 84333",
+    "lat": 41.94,
+    "lng": -111.81,
+    "access": "Retail sales; verify hours and current inventory.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Native-only nursery offering locally sourced Utah native trees, shrubs, and perennials.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.cachevalleynativeplants.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.unps.org/NativePlantSuppliers.php"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.cachevalleynativeplants.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "mountainwest",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Cache%20Valley%20Native%20Plants%2011583%20N%202000%20E%2C%20Richmond%2C%20UT%2084333"
+  },
+  {
+    "id": "plantas-nativa",
+    "name": "Plantas Nativa LLC",
+    "area": "Bellingham",
+    "borough": "",
+    "state": "WA",
+    "address": "315 E Champion St, Bellingham, WA 98225",
+    "lat": 48.75,
+    "lng": -122.48,
+    "access": "Retail pickup, online sales, and wholesale; confirm current hours.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Pacific Northwest native plant nursery with more than 100 species available through retail and online channels.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.plantasnativa.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.plantasnativa.com/retail-nursery/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.plantasnativa.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "pacific",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Plantas%20Nativa%20LLC%20315%20E%20Champion%20St%2C%20Bellingham%2C%20WA%2098225"
+  },
+  {
+    "id": "piney-island-native-plants",
+    "name": "Piney Island Native Plants",
+    "area": "Sheridan area",
+    "borough": "",
+    "state": "WY",
+    "address": "Sheridan area, WY (contact for current nursery access)",
+    "lat": 44.8,
+    "lng": -106.96,
+    "access": "Contact for public sales and pickup availability.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "select",
+    "nativeBasis": "Produces locally sourced and adapted Wyoming native plants for restoration, reclamation, and conservation projects.",
+    "availability": "Inventory and access can change; contact the provider before visiting.",
+    "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
+    "website": "https://www.pineyislandnatives.com/",
+    "sources": [
+      {
+        "label": "Native offering / seller information",
+        "url": "https://www.pineyislandnatives.com/"
+      },
+      {
+        "label": "Seller website",
+        "url": "https://www.pineyislandnatives.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "mountainwest",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Piney%20Island%20Native%20Plants%20Sheridan%20area%2C%20WY%20%28contact%20for%20current%20nursery%20access%29"
   }
 ]
