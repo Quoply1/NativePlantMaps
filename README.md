@@ -28,11 +28,11 @@ The public listing and map work from the embedded seed data without D1. Communit
 1. Create a Cloudflare D1 database.
 2. In its SQL console, run `0000_community_submissions.sql` from this repository.
 3. In the Pages project's **Settings → Bindings**, add a D1 binding named `DB` and select that database.
-4. Add the runtime variable `NATIVE_ADMIN_EMAIL` with the email address that Cloudflare Access will use for the editor.
-5. In Cloudflare Zero Trust → Access → Applications, create a self-hosted application for `nativeplantmaps.pages.dev` and restrict `/admin*` and `/api/admin/*` to the editor email.
-6. Redeploy and verify that a visitor can submit a suggestion, while `/admin` and `/api/admin/*` reject visitors without editor access.
+4. In Cloudflare Zero Trust → Access → Applications, create a self-hosted application for `nativeplantmaps.pages.dev`. Add policies that allow only the editor to reach `/admin*` and `/api/admin/*`.
+5. In the Pages project's **Settings → Variables and Secrets**, add production variables: `NATIVE_ADMIN_EMAIL` (the editor's Access email), `NATIVE_ACCESS_TEAM_DOMAIN` (the Access team domain, such as `example.cloudflareaccess.com`, without `https://`), and `NATIVE_ACCESS_AUD` (the application AUD tag shown in its Access overview).
+6. Redeploy. Check that `/admin` requires Access and that a visitor can submit a suggestion.
 
-The worker checks Cloudflare Access's `cf-access-authenticated-user-email` header and compares it with `NATIVE_ADMIN_EMAIL`. Never put access credentials or tokens in repository files. If D1 is not bound, suggestions show a clear temporary-unavailable response; public seed listings still load.
+The worker validates the signed `Cf-Access-Jwt-Assertion` token against the Access team's published signing keys, issuer, audience, expiry, and editor email; an email header alone is not trusted. Reviewer routes fail closed if the Access variables are missing or invalid. Never put access credentials or tokens in repository files. If D1 is not bound, suggestions cannot be saved and return a service-unavailable response; public seed listings still load.
 
 ## Evidence and coverage
 
