@@ -8,8 +8,46 @@ const ADMIN_PAGE = '<!doctype html><html lang="en"><head><meta charset="utf-8"><
 
 const json = (body, status = 200, extra = {}) => new Response(JSON.stringify(body), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store", "x-content-type-options": "nosniff", ...extra } });
 const validUrl = value => { try { const u = new URL(value); return (u.protocol === "https:" || u.protocol === "http:") && u.hostname.includes("."); } catch { return false; } };
-const clean = (value, max) => typeof value === "string" ? value.trim().slice(0, max) : "";
-function isAdmin(request, env) { const email=(request.headers.get("cf-access-authenticated-user-email")||request.headers.get("oai-authenticated-user-email")||"").trim().toLowerCase(), allowed=(env.NATIVE_ADMIN_EMAIL||"").trim().toLowerCase(); return !!allowed && !!email && email===allowed; }
+const clean = (value, max) => typeof value === "string" ? value.trim().slice(0, max) : "";const accessJwksCache = new Map();
+function decodeBase64Url(value) {
+  const base64=value.replace(/-/g,"+").replace(/_/g,"/");
+  const binary=atob(base64+"=".repeat((4-base64.length%4)%4));
+  return Uint8Array.from(binary,c=>c.charCodeAt(0));
+}
+function accessIssuer(env) {
+  const domain=(env.NATIVE_ACCESS_TEAM_DOMAIN||"").trim().replace(/^https:\/\//i,"").replace(/\/$/,"").toLowerCase();
+  if(!/^[a-z0-9-]+\.cloudflareaccess\.com$/.test(domain))return null;
+  return `https://${domain}`;
+}
+async function getAccessKeys(issuer, forceRefresh=false) {
+  const cached=accessJwksCache.get(issuer);
+  if(!forceRefresh&&cached&&cached.expires>Date.now())return cached.keys;
+  const response=await fetch(`${issuer}/cdn-cgi/access/certs`,{headers:{accept:"application/json"}});
+  if(!response.ok)throw new Error("Access signing keys unavailable");
+  const body=await response.json();
+  if(!Array.isArray(body.keys))throw new Error("Invalid Access signing keys");
+  accessJwksCache.set(issuer,{keys:body.keys,expires:Date.now()+5*60*1000});
+  return body.keys;
+}
+async function isAdmin(request, env) {
+  const issuer=accessIssuer(env),audience=(env.NATIVE_ACCESS_AUD||"").trim(),allowed=(env.NATIVE_ADMIN_EMAIL||"").trim().toLowerCase();
+  const token=request.headers.get("cf-access-jwt-assertion")||"";
+  if(!issuer||!audience||!allowed||!token)return false;
+  try {
+    const parts=token.split(".");if(parts.length!==3)return false;
+    const header=JSON.parse(new TextDecoder().decode(decodeBase64Url(parts[0])));
+    const claims=JSON.parse(new TextDecoder().decode(decodeBase64Url(parts[1])));
+    if(header.alg!=="RS256"||typeof header.kid!=="string")return false;
+    const now=Math.floor(Date.now()/1000);
+    if(claims.iss!==issuer||!Array.isArray(claims.aud)||!claims.aud.includes(audience)||!Number.isFinite(claims.exp)||claims.exp<=now||(Number.isFinite(claims.nbf)&&claims.nbf>now+60))return false;
+    if(String(claims.email||"").trim().toLowerCase()!==allowed)return false;
+    let keys=await getAccessKeys(issuer),jwk=keys.find(key=>key.kid===header.kid&&key.kty==="RSA");
+    if(!jwk){keys=await getAccessKeys(issuer,true);jwk=keys.find(key=>key.kid===header.kid&&key.kty==="RSA");}
+    if(!jwk)return false;
+    const publicKey=await crypto.subtle.importKey("jwk",jwk,{name:"RSASSA-PKCS1-v1_5",hash:"SHA-256"},false,["verify"]);
+    return await crypto.subtle.verify("RSASSA-PKCS1-v1_5",publicKey,decodeBase64Url(parts[2]),new TextEncoder().encode(`${parts[0]}.${parts[1]}`));
+  } catch { return false; }
+}
 function isSameOrigin(request) { const origin=request.headers.get("origin"); return !origin || origin===new URL(request.url).origin; }
 function publicSubmission(row) {
   const mapQuery=encodeURIComponent(row.name+" "+row.address), sources=[{label:"Submitted evidence link · reviewed for directory inclusion",url:row.evidence_url}];
@@ -41,11 +79,11 @@ export default {
   async fetch(request,env) {
     const url=new URL(request.url),path=url.pathname.replace(/\/+$/,"")||"/";
     if(request.method==="GET"&&(path==="/"||path==="/index.html"))return new Response(PAGE,{headers:{"content-type":"text/html; charset=utf-8","x-content-type-options":"nosniff"}});
-    if(request.method==="GET"&&path==="/admin")return new Response(ADMIN_PAGE,{headers:{"content-type":"text/html; charset=utf-8","cache-control":"no-store","x-content-type-options":"nosniff"}});
+    if(request.method==="GET"&&path==="/admin")return await isAdmin(request,env)?new Response(ADMIN_PAGE,{headers:{"content-type":"text/html; charset=utf-8","cache-control":"no-store","x-content-type-options":"nosniff"}}):json({error:"Editor sign-in is required."},401);
     if(request.method==="GET"&&path==="/api/vendors")try{return json([...SEED,...await approvedRows(env)],200,{"cache-control":"public, max-age=60"})}catch{return json({error:"The directory database is temporarily unavailable."},503)}
     if(request.method==="POST"&&path==="/api/submissions")return handleSubmission(request,env);
     if(path.startsWith("/api/admin/")) {
-      if(!isAdmin(request,env))return json({error:"Editor sign-in is required."},401);
+      if(!await isAdmin(request,env))return json({error:"Editor sign-in is required."},401);
       if(request.method==="GET"&&path==="/api/admin/submissions") {
         if(!env.DB)return json({error:"The review database is unavailable."},503);
         try{const {results=[]}=await env.DB.prepare("SELECT id,name,category,region,area,state,address,website,evidence_url,native_description,access,submitted_at FROM community_submissions WHERE status = ? ORDER BY submitted_at ASC LIMIT 100").bind("pending").all();return json({submissions:results.map(x=>({id:x.id,name:x.name,category:x.category,region:x.region,area:x.area,state:x.state,address:x.address,website:x.website,evidenceUrl:x.evidence_url,nativeDescription:x.native_description,access:x.access,submittedAt:x.submitted_at}))})}catch{return json({error:"Could not read pending suggestions."},503)}
