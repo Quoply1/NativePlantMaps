@@ -1,0 +1,63 @@
+const PAGE = __PAGE__;
+const SEED = __SEED__;
+const ADMIN_PAGE = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Review suggestions · Native Plant Access Map</title><style>body{font:15px/1.5 system-ui,sans-serif;margin:0;background:#f5f3ea;color:#20342d}main{max-width:900px;margin:36px auto;padding:0 18px}h1{font:36px Georgia,serif;color:#183e35}a{color:#28614e}button{border:0;border-radius:6px;padding:8px 11px;background:#285b4b;color:white;cursor:pointer;font-weight:700}.reject{background:#a8563e}.card{background:#fffefa;border:1px solid #d8ded4;border-radius:10px;padding:16px;margin:12px 0}.meta{color:#68776f;font-size:12px}.actions{display:flex;gap:8px;margin-top:12px}.empty{padding:20px;background:#fffefa;border-radius:8px}</style></head><body><main><p><a href="/">← Public directory</a></p><h1>Review place suggestions</h1><p>Sign in as the directory editor to load pending submissions. Approving a place publishes the listing; it does not mark its native plants as independently verified.</p><p>This review page is protected by Cloudflare Access. Sign in with the approved editor account to review pending suggestions.</p><div id="status" aria-live="polite">Loading pending suggestions…</div><div id="items"></div><script>\n'+
+'const h=s=>String(s??"").replace(/[&<>"\x27]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","\x27":"&#39;"}[c]));\n'+
+'async function load(){const status=document.querySelector("#status"),root=document.querySelector("#items");try{const r=await fetch("/api/admin/submissions");const j=await r.json();if(!r.ok)throw new Error(j.error||"Could not load suggestions");status.textContent=j.submissions.length?j.submissions.length+" pending suggestions":"No pending suggestions";root.innerHTML=j.submissions.map(x=>"<article class=card data-id=\""+x.id+"\"><h2>"+h(x.name)+"</h2><div class=meta>"+h(x.category)+" · "+h(x.area)+", "+h(x.state)+" · Submitted "+h(x.submittedAt)+"</div><p><b>Address / service area:</b> "+h(x.address)+"</p><p><b>Native offering / access:</b> "+h(x.nativeDescription)+"</p><p><b>Access note:</b> "+h(x.access||"None provided")+"</p><p><a href=\""+h(x.website)+"\" target=_blank rel=noreferrer>Website ↗</a> · <a href=\""+h(x.evidenceUrl)+"\" target=_blank rel=noreferrer>Evidence ↗</a> · <a href=\"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(x.name+" "+x.address)+"\" target=_blank rel=noreferrer>Google Maps ↗</a></p><div class=actions><button data-decision=approved>Approve listing</button><button class=reject data-decision=rejected>Reject</button></div></article>").join("");root.querySelectorAll("button[data-decision]").forEach(b=>b.addEventListener("click",()=>review(b.closest(".card").dataset.id,b.dataset.decision)))}catch(e){status.textContent=e.message+" · If this is an editor page, use the sign-in link above."}}\n'+
+'async function review(id,decision){const status=document.querySelector("#status");try{const r=await fetch("/api/admin/review",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({id:Number(id),decision})});const j=await r.json();if(!r.ok)throw new Error(j.error||"Review failed");load()}catch(e){status.textContent=e.message}}\n'+
+'load();</script></main></body></html>';
+
+const json = (body, status = 200, extra = {}) => new Response(JSON.stringify(body), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store", "x-content-type-options": "nosniff", ...extra } });
+const validUrl = value => { try { const u = new URL(value); return (u.protocol === "https:" || u.protocol === "http:") && u.hostname.includes("."); } catch { return false; } };
+const clean = (value, max) => typeof value === "string" ? value.trim().slice(0, max) : "";
+function isAdmin(request, env) { const email=(request.headers.get("cf-access-authenticated-user-email")||"").trim().toLowerCase(), allowed=(env.NATIVE_ADMIN_EMAIL||"").trim().toLowerCase(); return !!allowed && !!email && email===allowed; }
+function isSameOrigin(request) { const origin=request.headers.get("origin"); return !origin || origin===new URL(request.url).origin; }
+function publicSubmission(row) {
+  const mapQuery=encodeURIComponent(row.name+" "+row.address), sources=[{label:"Submitted evidence link · reviewed for directory inclusion",url:row.evidence_url}];
+  if(row.website!==row.evidence_url)sources.push({label:"Place website",url:row.website});
+  const areaName={newengland:"New England",midatlantic:"Mid-Atlantic",midwest:"Midwest",appalachia:"Appalachia",south:"South"}[row.region]||"Eastern United States";
+  return {id:"community-"+row.id,name:row.name,area:row.area,borough:areaName,state:row.state,address:row.address,lat:null,lng:null,access:row.access||"Confirm current access directly with the provider.",native:"unverified",nativeBasis:"Community-submitted description: "+row.native_description+" Directory listing approved; native species and current stock have not been independently verified.",availability:row.access||"Contact the provider before visiting.",reviewNote:"Community submission reviewed for directory inclusion. Native status remains unverified until supported by current evidence.",reviewUrl:"https://www.google.com/maps/search/?api=1&query="+mapQuery,website:row.website,sources,category:row.category,focus:row.region,regionGroup:row.region,nativeTier:"unverified",approx:true};
+}
+async function approvedRows(env) {
+  if(!env.DB)return [];
+  const {results=[]}=await env.DB.prepare("SELECT id,name,category,region,area,state,address,website,evidence_url,native_description,access FROM community_submissions WHERE status = ? ORDER BY name COLLATE NOCASE LIMIT 500").bind("approved").all();
+  return results.map(publicSubmission);
+}
+async function handleSubmission(request,env) {
+  if(!isSameOrigin(request))return json({error:"Cross-site submissions are not accepted."},403);
+  if(!env.DB)return json({error:"Submission service is temporarily unavailable."},503);
+  if(!request.headers.get("content-type")?.includes("application/json"))return json({error:"Send the form as JSON."},415);
+  let body;try{body=await request.json()}catch{return json({error:"The submission could not be read."},400)}
+  if(clean(body.company,200))return json({ok:true},202);
+  const name=clean(body.name,120),category=clean(body.category,20),region=clean(body.region,30),area=clean(body.area,100),state=clean(body.state,2),address=clean(body.address,240),website=clean(body.website,500),evidenceUrl=clean(body.evidenceUrl,500),nativeDescription=clean(body.nativeDescription,1200),access=clean(body.access,500);
+  if(name.length<2||area.length<2||address.length<3||nativeDescription.length<12)return json({error:"Please complete the required fields with a little more detail."},400);
+  if(!["retail","seasonal","community","delivery"].includes(category))return json({error:"Choose a listed place type."},400);
+  const regionStates={newengland:["ME","NH","VT","MA","RI","CT"],midatlantic:["NY","NJ","PA","DE","MD","DC","VA"],midwest:["IA","IL","IN","MI","MN","MO","OH","WI"],appalachia:["PA","WV","VA","KY","TN","NC","GA","AL"],south:["KY","TN","NC","SC","GA","FL","AL","MS","LA","AR"]};
+  if(!regionStates[region]?.includes(state))return json({error:"Choose a state in the selected broad region."},400);
+  if(!["AL","AR","CT","DE","FL","GA","IL","IN","IA","KY","LA","ME","MD","MA","MI","MN","MS","MO","NH","NJ","NY","NC","OH","PA","RI","SC","TN","VT","VA","WV","WI","DC"].includes(state))return json({error:"Choose a listed eastern U.S. state or district."},400);
+  if(!validUrl(website)||!validUrl(evidenceUrl))return json({error:"Enter valid website and evidence links that start with http or https."},400);
+  try{await env.DB.prepare("INSERT INTO community_submissions (name,category,region,area,state,address,website,evidence_url,native_description,access,status) VALUES (?,?,?,?,?,?,?,?,?,?,'pending')").bind(name,category,region,area,state,address,website,evidenceUrl,nativeDescription,access).run();return json({ok:true,status:"pending"},201)}catch{return json({error:"The submission could not be saved. Please try again later."},503)}
+}
+export default {
+  async fetch(request,env) {
+    const url=new URL(request.url),path=url.pathname.replace(/\/+$/,"")||"/";
+    if(request.method==="GET"&&(path==="/"||path==="/index.html"))return new Response(PAGE,{headers:{"content-type":"text/html; charset=utf-8","x-content-type-options":"nosniff"}});
+    if(request.method==="GET"&&path==="/admin")return new Response(ADMIN_PAGE,{headers:{"content-type":"text/html; charset=utf-8","cache-control":"no-store","x-content-type-options":"nosniff"}});
+    if(request.method==="GET"&&path==="/api/vendors")try{return json([...SEED,...await approvedRows(env)],200,{"cache-control":"public, max-age=60"})}catch{return json({error:"The directory database is temporarily unavailable."},503)}
+    if(request.method==="POST"&&path==="/api/submissions")return handleSubmission(request,env);
+    if(path.startsWith("/api/admin/")) {
+      if(!isAdmin(request,env))return json({error:"Editor sign-in is required."},401);
+      if(request.method==="GET"&&path==="/api/admin/submissions") {
+        if(!env.DB)return json({error:"The review database is unavailable."},503);
+        try{const {results=[]}=await env.DB.prepare("SELECT id,name,category,region,area,state,address,website,evidence_url,native_description,access,submitted_at FROM community_submissions WHERE status = ? ORDER BY submitted_at ASC LIMIT 100").bind("pending").all();return json({submissions:results.map(x=>({id:x.id,name:x.name,category:x.category,region:x.region,area:x.area,state:x.state,address:x.address,website:x.website,evidenceUrl:x.evidence_url,nativeDescription:x.native_description,access:x.access,submittedAt:x.submitted_at}))})}catch{return json({error:"Could not read pending suggestions."},503)}
+      }
+      if(request.method==="POST"&&path==="/api/admin/review") {
+        if(!isSameOrigin(request))return json({error:"Cross-site review requests are not accepted."},403);
+        let body;try{body=await request.json()}catch{return json({error:"Invalid review request."},400)}
+        const id=Number(body.id),decision=clean(body.decision,20);
+        if(!Number.isInteger(id)||id<1||!["approved","rejected"].includes(decision))return json({error:"Invalid review decision."},400);
+        try{const result=await env.DB.prepare("UPDATE community_submissions SET status = ?, reviewed_at = CURRENT_TIMESTAMP WHERE id = ? AND status = 'pending'").bind(decision,id).run();if(!result.meta?.changes)return json({error:"This suggestion has already been reviewed or no longer exists."},404);return json({ok:true,status:decision})}catch{return json({error:"Could not update this suggestion."},503)}
+      }
+    }
+    return json({error:"Not found."},404);
+  }
+};
