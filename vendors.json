@@ -1,115 +1,96 @@
-    "native": "confirmed",
-    "nativeTier": "documented",
-    "nativeRange": "select",
-    "nativeBasis": "Seller says native and pollinator plants are a core part of its regular nursery stock.",
-    "availability": "Contact the shop for current species and availability.",
-    "reviewNote": "Native offering and access details are based on the linked seller or regional source; current inventory may change.",
-    "website": "https://www.newrootslandscapinghouston.com/our-plant-nursery-and-shop",
-    "sources": [
-      {
-        "label": "Official plant nursery page",
-        "url": "https://www.newrootslandscapinghouston.com/our-plant-nursery-and-shop"
-      }
-    ],
-    "category": "retail",
-    "regionGroup": "south",
-    "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=New%20Roots%20Landscaping%20Plant%20Nursery%20%26%20Shop%205117%20N%20Main%20St%2C%20Houston%2C%20TX%2077009"
-  },
+[
   {
-    "id": "buchanans-native-plants",
-    "name": "Buchanan’s Native Plants",
-    "area": "Houston",
-    "borough": "",
-    "state": "TX",
-    "address": "611 E 11th St, Houston, TX 77008",
-    "lat": 29.79,
-    "lng": -95.39,
-    "access": "Retail garden center; check store hours and current stock.",
-    "native": "confirmed",
-    "nativeTier": "specialist",
-    "nativeRange": "wide",
-    "nativeBasis": "Houston garden center devoted to Texas native plants and organic gardening.",
-    "availability": "Check the store website or call before visiting for species-level availability.",
-    "reviewNote": "Native offering and access details are based on the linked seller or regional source; current inventory may change.",
-    "website": "https://buchanansplants.com/",
-    "sources": [
-      {
-        "label": "Official about page",
-        "url": "https://buchanansplants.com/about-us/"
-      },
-      {
-        "label": "Official store location",
-        "url": "https://buchanansplants.com/store-location/"
-      }
-    ],
-    "category": "retail",
-    "regionGroup": "south",
-    "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Buchanan%E2%80%99s%20Native%20Plants%20611%20E%2011th%20St%2C%20Houston%2C%20TX%2077008"
-  },
-  {
-    "id": "flora-of-miami",
-    "name": "Flora of Miami Native Garden Center",
-    "area": "Miami",
-    "borough": "",
-    "state": "FL",
-    "address": "1757 NW 21st St, Miami, FL 33142",
-    "lat": 25.79,
-    "lng": -80.22,
-    "access": "Retail native garden center with workshops and plant advice.",
-    "native": "confirmed",
-    "nativeTier": "specialist",
-    "nativeRange": "wide",
-    "nativeBasis": "Native garden center offering locally sourced Florida native plants, from gallon containers to large trees.",
-    "availability": "Check current offerings and store hours before visiting.",
-    "reviewNote": "Native offering and access details are based on the linked seller or regional source; current inventory may change.",
-    "website": "https://floraofmiami.com/",
-    "sources": [
-      {
-        "label": "Official garden center website",
-        "url": "https://floraofmiami.com/"
-      },
-      {
-        "label": "Florida Association of Native Nurseries listing",
-        "url": "https://plantrealflorida.org/professionals/detail/retail-nurserygarden-center/flora-of-miami/1757-nw-21st-st"
-      }
-    ],
-    "category": "retail",
-    "regionGroup": "south",
-    "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Flora%20of%20Miami%20Native%20Garden%20Center%201757%20NW%2021st%20St%2C%20Miami%2C%20FL%2033142"
-  },
-  {
-    "id": "atlanta-native-plant-nursery",
-    "name": "Atlanta Native Plant Nursery",
-    "area": "Atlanta",
-    "borough": "",
-    "state": "GA",
-    "address": "Atlanta, GA (nursery pickup address not published; check event schedule)",
-    "lat": 33.75,
-    "lng": -84.39,
-    "access": "Online inventory, pickup and local delivery; also sells at scheduled markets and events.",
+    "id": "recreative-natives",
+    "name": "Recreative Natives",
+    "area": "Cropwell",
+    "borough": "St. Clair County",
+    "state": "AL",
+    "address": "125 Valley View Road, Cropwell, AL 35054",
+    "lat": 33.51,
+    "lng": -86.26,
+    "access": "Seasonal Saturday sales and appointment visits; pickup only, check winter schedule",
     "native": "confirmed",
     "nativeTier": "specialist",
     "nativeRange": "select",
-    "nativeBasis": "Georgia Native Plant Society lists its native inventory as 100% native; nursery sells through pickup, delivery, markets, and events.",
-    "availability": "Check the seller’s current pickup address and market schedule before traveling.",
-    "reviewNote": "Native offering and access details are based on the linked seller or regional source; current inventory may change.",
-    "website": "https://www.atlnativeplants.com/",
+    "nativeBasis": "A small retail nursery specializing in plants native to Alabama and the Southeast.",
+    "availability": "Seasonal hours and appointment options vary; contact the nursery before traveling.",
+    "reviewNote": "Native specialty and access details are described on the nursery website and listed by Alabama Extension and Xerces.",
+    "website": "https://recreativenatives.com/",
     "sources": [
       {
         "label": "Official nursery website",
-        "url": "https://www.atlnativeplants.com/"
+        "url": "https://recreativenatives.com/"
       },
       {
-        "label": "Georgia Native Plant Society supplier profile",
-        "url": "https://gnps.org/plant_source/atlanta-native-plant-nursery/"
+        "label": "Alabama Cooperative Extension supplier list",
+        "url": "https://www.aces.edu/blog/topics/landscaping/native-landscape-plant-seed-suppliers-for-north-alabama-growers/"
+      },
+      {
+        "label": "Xerces Society supplier profile",
+        "url": "https://xerces.org/native-plant-supplier/recreative-natives"
       }
     ],
-    "category": "seasonal",
+    "category": "retail",
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Atlanta%20Native%20Plant%20Nursery%20Atlanta%2C%20GA%20%28nursery%20pickup%20address%20not%20published%3B%20check%20event%20schedule%29"
-  }
-]
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Recreative%20Natives%20125%20Valley%20View%20Road%2C%20Cropwell%2C%20AL%2035054"
+  },
+  {
+    "id": "broken-arrow-nursery",
+    "name": "Broken Arrow Nursery",
+    "area": "Hamden",
+    "borough": "connecticut",
+    "state": "CT",
+    "address": "13 Broken Arrow Road, Hamden, CT 06518",
+    "lat": 41.406,
+    "lng": -72.896,
+    "access": "Retail stock varies by season; call ahead to verify species and quantity.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeBasis": "UConn’s native-plant availability resource includes this broad nursery; native inventory is a subset of its catalog.",
+    "availability": "Check the linked source for current hours and ordering details. Contact the seller before making a trip, especially for appointment-only or seasonal locations.",
+    "reviewNote": "No reliable recent customer review describing native-plant inventory was confirmed in this research pass; the linked native-plant source is used as evidence.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Broken%20Arrow%20Nursery%2013%20Broken%20Arrow%20Road%2C%20Hamden%2C%20CT%2006518",
+    "website": "https://www.brokenarrownursery.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://www.brokenarrownursery.com/"
+      },
+      {
+        "label": "Native selection evidence",
+        "url": "https://ipm.cahnr.uconn.edu/connecticut-native-availability/"
+      }
+    ],
+    "category": "retail",
+    "focus": "connecticut",
+    "regionGroup": "northeast",
+    "approx": true
+  },
+  {
+    "id": "earth-tones",
+    "name": "Earth Tones Native Plant Nursery",
+    "area": "Woodbury",
+    "borough": "connecticut",
+    "state": "CT",
+    "address": "212 Grassy Hill Road, Woodbury, CT 06798",
+    "lat": 41.544,
+    "lng": -73.209,
+    "access": "Seasonal, appointment, online order or limited pickup access; check the current seller calendar.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeBasis": "Native plant nursery and landscape service; its catalog describes locally sourced native species.",
+    "availability": "Check the linked source for current hours and ordering details. Contact the seller before making a trip, especially for appointment-only or seasonal locations.",
+    "reviewNote": "No reliable recent customer review describing native-plant inventory was confirmed in this research pass; the linked native-plant source is used as evidence.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Earth%20Tones%20Native%20Plant%20Nursery%20212%20Grassy%20Hill%20Road%2C%20Woodbury%2C%20CT%2006798",
+    "website": "https://earthtonesnatives.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://earthtonesnatives.com/"
+      },
+      {
+        "label": "Native selection evidence",
+        "url": "https://earthtonesnatives.com/"
+      }
+    ],
