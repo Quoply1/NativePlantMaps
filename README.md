@@ -8,8 +8,9 @@ The project is a Cloudflare Pages Worker with static page assets embedded at bui
 
 1. Upload the project files to the connected GitHub repository, preserving the flat root layout.
 2. Keep the Cloudflare Pages build command as `npm run build` and output directory as `dist`.
-3. If the D1 submission workflow is enabled, keep the `DB` D1 binding and the required production variables configured in Cloudflare.
-4. Deploy the repository’s `main` branch from Cloudflare Pages.
+3. Bind D1 as `DB`. Run `0000_community_submissions.sql` for place suggestions and `0001_vendor_field_reports.sql` to enable public field reports.
+4. Keep the required production variables configured in Cloudflare.
+5. Deploy the repository’s `main` branch from Cloudflare Pages.
 
 The build reads `index.html`, `vendors.json`, and `runtime-template.js`, then writes `dist/_worker.js`. It should report the number of directory listings embedded. Do not set the Pages deploy command to `npm run build`; the build command is sufficient.
 
@@ -21,7 +22,7 @@ The build reads `index.html`, `vendors.json`, and `runtime-template.js`, then wr
 - `nativeTier` describes evidence strength: `specialist`, `documented`, or `unverified`.
 - `nativeRange` describes catalog breadth: `wide`, `select`, or `unverified` where evidence is insufficient.
 - `approx: true` marks an approximate map pin. Seasonal, appointment-only, wholesale, and delivery access is recorded in `access` and `availability`.
-- Public suggestions go to the private review queue and are not published until approved.
+- Place suggestions and field reports go to a private review queue. Approved field reports appear on the matching listing with their date, report type, and plant names. They remain visitor accounts, not guarantees of current stock or independent verification of native status.
 
 ## Audit files
 
@@ -29,5 +30,5 @@ The build reads `index.html`, `vendors.json`, and `runtime-template.js`, then wr
 
 ## Privacy and evidence
 
-Field notes are stored in the visitor’s browser. Public reviews are for access context only and do not prove native status. Source links document an offering but do not promise current stock, local provenance, pesticide practices, or suitability for a particular planting site. Confirm current hours and inventory before visiting.
+Personal field checks remain in the visitor’s browser. Public reports are stored in D1 and shown only after editor approval; the report date and named plants describe one visitor’s experience and do not prove current inventory or regional nativity. Source links document an offering but do not promise current stock, local provenance, pesticide practices, or suitability for a particular planting site. Confirm current hours and inventory before visiting.
 
