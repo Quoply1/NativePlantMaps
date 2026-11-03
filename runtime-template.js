@@ -8,7 +8,8 @@ const ADMIN_PAGE = '<!doctype html><html lang="en"><head><meta charset="utf-8"><
 
 const json = (body, status = 200, extra = {}) => new Response(JSON.stringify(body), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store", "x-content-type-options": "nosniff", ...extra } });
 const validUrl = value => { try { const u = new URL(value); return (u.protocol === "https:" || u.protocol === "http:") && u.hostname.includes("."); } catch { return false; } };
-const clean = (value, max) => typeof value === "string" ? value.trim().slice(0, max) : "";const accessJwksCache = new Map();
+const clean = (value, max) => typeof value === "string" ? value.trim().slice(0, max) : "";
+const accessJwksCache = new Map();
 function decodeBase64Url(value) {
   const base64=value.replace(/-/g,"+").replace(/_/g,"/");
   const binary=atob(base64+"=".repeat((4-base64.length%4)%4));

@@ -1,39 +1,33 @@
 # Native Plant Access Map
 
-A public, source-linked directory of native-plant nurseries, growers, seasonal sales, and community sources. This update includes 156 listings representing all 50 states. Pins can be approximate, native inventory changes, and state coverage does not mean every community has a listing.
+A source-linked public directory and map of nurseries, growers, seasonal sales, and other ways to find native plants in the United States.
 
-## Update the existing GitHub repository
+## Build and publish
 
-This package intentionally uses a **flat root layout**. Upload and replace these files directly in the root of the existing `Quoply1/Test` repository:
+The project is a Cloudflare Pages Worker with static page assets embedded at build time.
 
-- `index.html`
-- `vendors.json`
-- `runtime-template.js`
-- `build-pages.mjs`
-- `package.json`
-- `0000_community_submissions.sql`
-- `.gitignore`
-- `README.md`
+1. Upload the project files to the connected GitHub repository, preserving the flat root layout.
+2. Keep the Cloudflare Pages build command as `npm run build` and output directory as `dist`.
+3. If the D1 submission workflow is enabled, keep the `DB` D1 binding and the required production variables configured in Cloudflare.
+4. Deploy the repository’s `main` branch from Cloudflare Pages.
 
-Do not upload the containing folder as a nested directory. Cloudflare's build command is `npm run build`; build output is `dist`. The build script reads all three source files from the repository root.
+The build reads `index.html`, `vendors.json`, and `runtime-template.js`, then writes `dist/_worker.js`. It should report the number of directory listings embedded. Do not set the Pages deploy command to `npm run build`; the build command is sufficient.
 
-## Cloudflare Pages build
+## Data and community contributions
 
-For the existing `nativeplantmaps.pages.dev` project, use root directory `/`, build command `npm run build`, and build output directory `dist`. There are no runtime package dependencies. If the dashboard has a separate deploy command, leave it blank for this Pages build.
+- `vendors.json` is the public directory seed data.
+- `vendors-additions.json` contains the three listings from this audit pass. To merge them by hand, add each object to the `vendors.json` array before its final `]`, with a comma after the previous final object.
+- Every listing links to its website and a Google Maps search in the interface. `sources` link to the evidence used for the native-stock description.
+- `nativeTier` describes evidence strength: `specialist`, `documented`, or `unverified`.
+- `nativeRange` describes catalog breadth: `wide`, `select`, or `unverified` where evidence is insufficient.
+- `approx: true` marks an approximate map pin. Seasonal, appointment-only, wholesale, and delivery access is recorded in `access` and `availability`.
+- Public suggestions go to the private review queue and are not published until approved.
 
-## Enable public submissions and editor review
+## Audit files
 
-The public listing and map work from the embedded seed data without D1. Community submissions and moderation need a D1 database:
+`AUDIT_PROGRESS.md` explains the scope and limits of the current nationwide pass. The supplied `CITY_AUDIT_CITY_FRAME.csv` contains 824 places. One city-specific discovery search was run for each; captured results and the checklist are in `CITY_AUDIT_SEARCH_RESULTS.csv` and `CITY_AUDIT_CHECKLIST.csv`. City-radius reviews are still pending, so the current pass must not be described as an exhaustive 30-mile audit.
 
-1. Create a Cloudflare D1 database.
-2. In its SQL console, run `0000_community_submissions.sql` from this repository.
-3. In the Pages project's **Settings → Bindings**, add a D1 binding named `DB` and select that database.
-4. In Cloudflare Zero Trust → Access → Applications, create a self-hosted application for `nativeplantmaps.pages.dev`. Add policies that allow only the editor to reach `/admin*` and `/api/admin/*`.
-5. In the Pages project's **Settings → Variables and Secrets**, add production variables: `NATIVE_ADMIN_EMAIL` (the editor's Access email), `NATIVE_ACCESS_TEAM_DOMAIN` (the Access team domain, such as `example.cloudflareaccess.com`, without `https://`), and `NATIVE_ACCESS_AUD` (the application AUD tag shown in its Access overview).
-6. Redeploy. Check that `/admin` requires Access and that a visitor can submit a suggestion.
+## Privacy and evidence
 
-The worker validates the signed `Cf-Access-Jwt-Assertion` token against the Access team's published signing keys, issuer, audience, expiry, and editor email; an email header alone is not trusted. Reviewer routes fail closed if the Access variables are missing or invalid. Never put access credentials or tokens in repository files. If D1 is not bound, suggestions cannot be saved and return a service-unavailable response; public seed listings still load.
+Field notes are stored in the visitor’s browser. Public reviews are for access context only and do not prove native status. Source links document an offering but do not promise current stock, local provenance, pesticide practices, or suitability for a particular planting site. Confirm current hours and inventory before visiting.
 
-## Evidence and coverage
-
-A documented native offering can come from the seller's catalog or a relevant state, extension, conservation, or native-plant organization. “Native specialist” means native plants are a core focus. “Documented native stock” means a native selection is documented within a broader business. “Wide selection” and “Select native stock” are qualitative summaries of visible catalogs, not live counts. A seller's claim or directory entry is linked for visitors to check; availability, provenance, and local nativity should be confirmed directly.
