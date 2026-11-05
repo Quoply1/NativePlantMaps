@@ -14778,5 +14778,629 @@
     "category": "retail",
     "regionGroup": "greatlakes",
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Greenscape+Gardens+2832+Barrett+Station+Road+Manchester+MO"
+  },
+  {
+    "id": "autumn-hill-nursery",
+    "name": "Autumn Hill Nursery",
+    "area": "Woodstock",
+    "borough": "Cherokee County",
+    "state": "GA",
+    "address": "4256 Earney Road, Woodstock, GA",
+    "lat": 34.1,
+    "lng": -84.52,
+    "access": "Retail nursery; seasonal stock varies. Check current hours before visiting.",
+    "website": "https://www.autumnhillnursery.com/",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://www.autumnhillnursery.com/"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Autumn%20Hill%20Nursery%204256%20Earney%20Road%2C%20Woodstock%2C%20GA"
+  },
+  {
+    "id": "beech-hollow-farms-intown",
+    "name": "Beech Hollow Farms — Intown",
+    "area": "Scottdale",
+    "borough": "DeKalb County",
+    "state": "GA",
+    "address": "389 North Clarendon Avenue, Scottdale, GA",
+    "lat": 33.79,
+    "lng": -84.26,
+    "access": "Retail, appointment visits, online orders and seasonal events; confirm current access.",
+    "website": "https://beechhollowfarms.com/",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://beechhollowfarms.com/"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Beech%20Hollow%20Farms%20%E2%80%94%20Intown%20389%20North%20Clarendon%20Avenue%2C%20Scottdale%2C%20GA"
+  },
+  {
+    "id": "buck-jones-nursery",
+    "name": "Buck Jones Nursery",
+    "area": "Lawrenceville",
+    "borough": "Gwinnett County",
+    "state": "GA",
+    "address": "689 Grayson New Hope Road, Lawrenceville, GA",
+    "lat": 33.91,
+    "lng": -83.94,
+    "access": "Retail nursery and online orders; verify native selection and availability before visiting.",
+    "website": "https://buckjones.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://buckjones.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Buck%20Jones%20Nursery%20689%20Grayson%20New%20Hope%20Road%2C%20Lawrenceville%2C%20GA"
+  },
+  {
+    "id": "florabundance-gardens-native-plant-nursery",
+    "name": "Florabundance Gardens Native Plant Nursery",
+    "area": "Darien",
+    "borough": "McIntosh County",
+    "state": "GA",
+    "address": "Darien, GA (mailing address only in directory)",
+    "lat": 31.37,
+    "lng": -81.43,
+    "access": "Online orders, seasonal events and appointment visits; confirm pickup details with the nursery.",
+    "website": "https://www.florabundancegardens.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://www.florabundancegardens.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Florabundance%20Gardens%20Native%20Plant%20Nursery%20Darien%2C%20GA%20(mailing%20address%20only%20in%20directory)"
+  },
+  {
+    "id": "garden-delights-lazy-k-nursery",
+    "name": "Garden Delights / Lazy K Nursery",
+    "area": "Pine Mountain",
+    "borough": "Harris County",
+    "state": "GA",
+    "address": "705 Wright Road, Pine Mountain, GA",
+    "lat": 32.86,
+    "lng": -84.85,
+    "access": "Retail, appointment visits and seasonal events; confirm current hours and native stock.",
+    "website": "https://lazyknursery.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://lazyknursery.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Garden%20Delights%20%2F%20Lazy%20K%20Nursery%20705%20Wright%20Road%2C%20Pine%20Mountain%2C%20GA"
+  },
+  {
+    "id": "gardens-of-the-blue-ridge",
+    "name": "Gardens of the Blue Ridge",
+    "area": "Danielsville",
+    "borough": "Madison County",
+    "state": "GA",
+    "address": "565 General Daniel Avenue North, Danielsville, GA",
+    "lat": 34.13,
+    "lng": -83.22,
+    "access": "Retail and local delivery; confirm current hours and native availability.",
+    "website": "https://www.gardensoftheblueridge.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://www.gardensoftheblueridge.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Gardens%20of%20the%20Blue%20Ridge%20565%20General%20Daniel%20Avenue%20North%2C%20Danielsville%2C%20GA"
+  },
+  {
+    "id": "gsu-pc-native-botanical-garden",
+    "name": "GSU PC Native Botanical Garden",
+    "area": "Decatur",
+    "borough": "DeKalb County",
+    "state": "GA",
+    "address": "3251 Panthersville Road, Decatur, GA",
+    "lat": 33.7,
+    "lng": -84.27,
+    "access": "Retail by appointment; contact the garden to confirm current plant sales and visitor access.",
+    "website": "https://sites.gsu.edu/pcnativegarden/",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://sites.gsu.edu/pcnativegarden/"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=GSU%20PC%20Native%20Botanical%20Garden%203251%20Panthersville%20Road%2C%20Decatur%2C%20GA"
+  },
+  {
+    "id": "kinsey-family-farm",
+    "name": "Kinsey Family Farm",
+    "area": "Gainesville",
+    "borough": "Hall County",
+    "state": "GA",
+    "address": "7140 Jot-em Down Road, Gainesville, GA",
+    "lat": 34.3,
+    "lng": -83.83,
+    "access": "Retail nursery; verify current hours and native selection before visiting.",
+    "website": "https://www.kinseyfamilyfarm.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://www.kinseyfamilyfarm.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Kinsey%20Family%20Farm%207140%20Jot-em%20Down%20Road%2C%20Gainesville%2C%20GA"
+  },
+  {
+    "id": "little-creek-farm-nursery",
+    "name": "Little Creek Farm Nursery",
+    "area": "Dallas",
+    "borough": "Paulding County",
+    "state": "GA",
+    "address": "774 Seals Road, Dallas, GA",
+    "lat": 33.92,
+    "lng": -84.84,
+    "access": "Retail nursery and seasonal sales; no delivery listed. Confirm current hours before visiting.",
+    "website": "https://www.littlecreekfarmnursery.com/",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://www.littlecreekfarmnursery.com/"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Little%20Creek%20Farm%20Nursery%20774%20Seals%20Road%2C%20Dallas%2C%20GA"
+  },
+  {
+    "id": "mail-order-natives",
+    "name": "Mail Order Natives",
+    "area": "Lee",
+    "borough": "Madison County",
+    "state": "FL",
+    "address": "PO Box 9343, Lee, FL",
+    "lat": 30.42,
+    "lng": -83.3,
+    "access": "Mail order and appointment sales; ships to most states. Contact seller for pickup details.",
+    "website": "https://www.mailordernatives.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://www.mailordernatives.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Mail%20Order%20Natives%20PO%20Box%209343%2C%20Lee%2C%20FL"
+  },
+  {
+    "id": "native-forest-nursery",
+    "name": "Native Forest Nursery",
+    "area": "Chatsworth",
+    "borough": "Murray County",
+    "state": "GA",
+    "address": "11306 Highway 411 South, Chatsworth, GA",
+    "lat": 34.77,
+    "lng": -84.77,
+    "access": "Mail orders, appointment visits and wholesale; contact seller for current availability.",
+    "website": "https://www.nativeforestnursery.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://www.nativeforestnursery.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Forest%20Nursery%2011306%20Highway%20411%20South%2C%20Chatsworth%2C%20GA"
+  },
+  {
+    "id": "natives-by-john",
+    "name": "Natives by John",
+    "area": "Roswell",
+    "borough": "Fulton County",
+    "state": "GA",
+    "address": "Roswell, GA; event and appointment locations vary",
+    "lat": 34.02,
+    "lng": -84.36,
+    "access": "Seasonal sales and appointment visits; confirm current location and availability.",
+    "category": "seasonal",
+    "website": "https://nativesbyjohn.com/",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://nativesbyjohn.com/"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Natives%20by%20John%20Roswell%2C%20GA%3B%20event%20and%20appointment%20locations%20vary"
+  },
+  {
+    "id": "growild-inc",
+    "name": "GroWild, Inc.",
+    "area": "Fairview",
+    "borough": "Williamson County",
+    "state": "TN",
+    "address": "7190 Hill Hughes Road, Fairview, TN",
+    "lat": 35.98,
+    "lng": -87.13,
+    "access": "Retail by appointment and wholesale; serves nearby areas. Confirm availability before traveling.",
+    "website": "https://www.growildinc.com/",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://www.growildinc.com/"
+      }
+    ],
+    "regionGroup": "appalachia",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=GroWild%2C%20Inc.%207190%20Hill%20Hughes%20Road%2C%20Fairview%2C%20TN"
+  },
+  {
+    "id": "planted-wellness-co",
+    "name": "Planted Wellness Co.",
+    "area": "Marietta",
+    "borough": "Cobb County",
+    "state": "GA",
+    "address": "Marietta area; online ordering and seasonal sales",
+    "lat": 33.95,
+    "lng": -84.55,
+    "access": "Online orders and seasonal events; contact seller for current pickup locations.",
+    "category": "seasonal",
+    "website": "https://www.plantedwellness.co",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://www.plantedwellness.co"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Planted%20Wellness%20Co.%20Marietta%20area%3B%20online%20ordering%20and%20seasonal%20sales"
+  },
+  {
+    "id": "servescape",
+    "name": "ServeScape",
+    "area": "Atlanta",
+    "borough": "DeKalb County",
+    "state": "GA",
+    "address": "3708 North Peachtree Road, Atlanta, GA",
+    "lat": 33.91,
+    "lng": -84.31,
+    "access": "Online native plant orders and delivery; check current service areas.",
+    "category": "delivery",
+    "website": "https://www.servescape.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://www.servescape.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=ServeScape%203708%20North%20Peachtree%20Road%2C%20Atlanta%2C%20GA"
+  },
+  {
+    "id": "spirit-tree-farms",
+    "name": "Spirit Tree Farms",
+    "area": "Ringgold",
+    "borough": "Catoosa County",
+    "state": "GA",
+    "address": "514 Old Hickory Lane, Ringgold, GA",
+    "lat": 34.91,
+    "lng": -85.11,
+    "access": "Online orders, seasonal events and appointment visits; confirm before traveling.",
+    "website": "https://spirittreefarms.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://spirittreefarms.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Spirit%20Tree%20Farms%20514%20Old%20Hickory%20Lane%2C%20Ringgold%2C%20GA"
+  },
+  {
+    "id": "swallowtail-center",
+    "name": "Swallowtail Center",
+    "area": "Decatur",
+    "borough": "DeKalb County",
+    "state": "GA",
+    "address": "617 Clairmont Circle, Decatur, GA",
+    "lat": 33.78,
+    "lng": -84.29,
+    "access": "Native plant sales and visits by appointment; check the center for current access.",
+    "website": "https://www.swallowtailcenter.org",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://www.swallowtailcenter.org"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Swallowtail%20Center%20617%20Clairmont%20Circle%2C%20Decatur%2C%20GA"
+  },
+  {
+    "id": "trunks-and-bloomers",
+    "name": "Trunks and Bloomers",
+    "area": "Barney",
+    "borough": "Brooks County",
+    "state": "GA",
+    "address": "2128 Old Coffee Road, Barney, GA",
+    "lat": 30.97,
+    "lng": -83.33,
+    "access": "Retail and appointment visits; online orders and local delivery may be available. Confirm first.",
+    "website": "https://trunksandbloomers.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://trunksandbloomers.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Trunks%20and%20Bloomers%202128%20Old%20Coffee%20Road%2C%20Barney%2C%20GA"
+  },
+  {
+    "id": "twin-branch-nursery",
+    "name": "Twin Branch Nursery",
+    "area": "Woodstock",
+    "borough": "Cherokee County",
+    "state": "GA",
+    "address": "1169 West Wylie Bridge Road, Woodstock, GA",
+    "lat": 34.15,
+    "lng": -84.45,
+    "access": "Retail nursery; serves nearby areas. Confirm current hours and stock.",
+    "website": "https://twinbranch.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://twinbranch.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Twin%20Branch%20Nursery%201169%20West%20Wylie%20Bridge%20Road%2C%20Woodstock%2C%20GA"
+  },
+  {
+    "id": "wild-roots-native-nursery",
+    "name": "Wild Roots Native Nursery",
+    "area": "Stockbridge / Tucker",
+    "borough": "Metro Atlanta",
+    "state": "GA",
+    "address": "Stockbridge / Tucker area; confirm sales location before visiting",
+    "lat": 33.54,
+    "lng": -84.23,
+    "access": "Online orders, seasonal events and appointment visits; confirm location and current availability.",
+    "category": "seasonal",
+    "website": "https://wildrootsnativenursery.com",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Listed in the Georgia Native Plant Society’s provider directory as a source for native plants. The organization states that its directory is not an endorsement; confirm species, provenance and current stock with the seller.",
+    "availability": "The linked directory describes this provider’s access options. Contact the seller to confirm current stock, hours and pickup details.",
+    "reviewNote": "Native plant availability is reported in the Georgia Native Plant Society provider directory. Check species and current stock directly with the provider.",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider directory",
+        "url": "https://gnps.org/georgias-native-plants/sources-native-plants/"
+      },
+      {
+        "label": "Provider website",
+        "url": "https://wildrootsnativenursery.com"
+      }
+    ],
+    "regionGroup": "south",
+    "approx": true,
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wild%20Roots%20Native%20Nursery%20Stockbridge%20%2F%20Tucker%20area%3B%20confirm%20sales%20location%20before%20visiting"
   }
 ]
