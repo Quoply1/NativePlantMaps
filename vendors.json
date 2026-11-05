@@ -4619,7 +4619,7 @@
     "state": "IN",
     "address": "26131 County Road 46, Nappanee, IN 46550",
     "lat": 41.44,
-    "lng": -86.0,
+    "lng": -86,
     "access": "Retail nursery; confirm species and stock.",
     "native": "confirmed",
     "nativeTier": "documented",
@@ -5595,7 +5595,7 @@
     "borough": "",
     "state": "NY",
     "address": "Lockport and Amherst, NY (contact for current sales and pickup location)",
-    "lat": 43.0,
+    "lat": 43,
     "lng": -78.73,
     "access": "Farm and native nursery serving the Buffalo–Niagara area; check 2026 availability and contact for access.",
     "native": "confirmed",
@@ -6823,7 +6823,7 @@
     "borough": "",
     "state": "WI",
     "address": "3233 N Riley Circle, Verona, WI 53593",
-    "lat": 43.0,
+    "lat": 43,
     "lng": -89.55,
     "access": "Native-focused supplier; online and email orders, appointment pickup, and delivery. Xerces lists wholesale sales, so check whether small retail orders are accepted.",
     "native": "confirmed",
@@ -7079,34 +7079,6 @@
     "regionGroup": "south",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Dawn%E2%80%99s%20Harvest%20San%20Antonio%2C%20TX%20%28Denver%20Heights%3B%20current%20address%20and%20hours%20on%20seller%20site%29"
-  },
-  {
-    "id": "birds-houston-natives-nursery",
-    "name": "Birds Houston Natives Nursery",
-    "area": "Houston",
-    "borough": "",
-    "state": "TX",
-    "address": "Edith L. Moore Nature Sanctuary, 440 Wilchester Boulevard, Houston, TX 77079",
-    "lat": 29.77,
-    "lng": -95.6,
-    "access": "Public sales from a conservation organization’s native nursery; online orders with scheduled pickup at the sanctuary.",
-    "native": "confirmed",
-    "nativeTier": "specialist",
-    "nativeRange": "select",
-    "nativeBasis": "Birds Houston says the nursery specializes in local native prairie grasses and wildflowers grown from seed collected in coastal prairie remnants in Harris and surrounding counties.",
-    "availability": "Pickup windows are posted by the seller; check online inventory and schedule.",
-    "reviewNote": "Native offering is supported by the linked seller or regional source. Confirm current stock and access directly; seasonal listings can change.",
-    "website": "https://birdshouston.org/conservation/nursery.html",
-    "sources": [
-      {
-        "label": "Official nursery page and pickup instructions",
-        "url": "https://birdshouston.org/conservation/nursery.html"
-      }
-    ],
-    "category": "seasonal",
-    "regionGroup": "south",
-    "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Birds%20Houston%20Natives%20Nursery%20Edith%20L.%20Moore%20Nature%20Sanctuary%2C%20440%20Wilchester%20Boulevard%2C%20Houston%2C%20TX%2077079"
   },
   {
     "id": "fort-collins-nursery-natives",
@@ -7367,7 +7339,7 @@
     "borough": "",
     "state": "TN",
     "address": "400 Garden Road, Chattanooga, TN 37419",
-    "lat": 35.0,
+    "lat": 35,
     "lng": -85.37,
     "access": "Nature-center nursery sells native plants to the public during seasonal sales periods.",
     "native": "confirmed",
@@ -7787,19 +7759,19 @@
   {
     "id": "ironweed-native-plant-nursery",
     "name": "Ironweed Native Plant Nursery",
-    "area": "Lexington",
-    "borough": "",
+    "area": "Waddy",
+    "borough": "Shelby County",
     "state": "KY",
-    "address": "Online nursery serving Lexington, KY",
-    "lat": 38.04,
-    "lng": -84.5,
+    "address": "400 Waddy Road, Waddy, KY 40076",
+    "lat": 38.12,
+    "lng": -85.12,
     "access": "Online nursery selling Kentucky native plants; verify shipping and current inventory on the seller site. Approximate city-level pin.",
     "native": "confirmed",
     "nativeTier": "specialist",
     "nativeRange": "wide",
     "nativeBasis": "Lexington-Fayette government and Wild Ones Lexington list Ironweed as a source for Kentucky native plants; seller grows wildflowers and forbs plus some woody species.",
-    "availability": "Online orders; confirm current inventory and delivery/pickup options.",
-    "reviewNote": "Native offering is documented by the seller or an organization source. Current stock and access can change; contact the seller before traveling.",
+    "availability": "Nursery by appointment; call or text ahead before visiting.",
+    "reviewNote": "The seller’s current contact page lists its nursery address in Waddy, KY. The pin and area have been moved west from Lexington to reflect that location.",
     "website": "https://www.ironweednursery.com/",
     "sources": [
       {
@@ -7809,6 +7781,10 @@
       {
         "label": "Wild Ones Lexington supplier guide",
         "url": "https://lexington.wildones.org/sourcesforplants/"
+      },
+      {
+        "label": "Official nursery address and access",
+        "url": "https://www.ironweednursery.com/aboutus.php"
       }
     ],
     "category": "delivery",
@@ -8303,7 +8279,7 @@
     "borough": "",
     "state": "VT",
     "address": "Online seed seller serving Vermont",
-    "lat": 44.0,
+    "lat": 44,
     "lng": -72.7,
     "access": "Online ordering, delivery, or pickup as described by the seller; this is not a walk-in location.",
     "native": "confirmed",
@@ -10282,20 +10258,20 @@
   },
   {
     "id": "houston-audubon-natives-nursery",
-    "name": "Houston Audubon Natives Nursery",
+    "name": "Houston Audubon Native Plant Nursery",
     "area": "Houston",
     "borough": "",
     "state": "TX",
-    "address": "Edith L. Moore Nature Sanctuary, Houston, TX",
-    "lat": 29.76,
-    "lng": -95.58,
-    "access": "Seasonal sale or appointment access; check the linked source before traveling.",
+    "address": "Edith L. Moore Nature Sanctuary, 440 Wilchester Boulevard, Houston, TX 77079",
+    "lat": 29.77,
+    "lng": -95.6,
+    "access": "Seasonal nursery sales at Edith L. Moore Nature Sanctuary; check current access and hours.",
     "native": "confirmed",
     "nativeTier": "specialist",
     "nativeRange": "wide",
-    "nativeBasis": "Houston Audubon’s native nursery is listed by NPSOT; check pickup hours, open houses, and shopping events.",
-    "availability": "Native stock and access may vary by season; confirm directly before visiting or ordering.",
-    "reviewNote": "The linked source documents the native offering. Ask about species, provenance, and current availability. Pins are approximate when an exact visitor address is not published.",
+    "nativeBasis": "Houston Audubon (formerly Birds Houston) offers native plants through its native plant nursery and seasonal sales.",
+    "availability": "Sales and access can vary. Check Houston Audubon’s current plant nursery information before visiting.",
+    "reviewNote": "Community feedback identified Birds Houston and Houston Audubon as the same organization under its newer name; the listing is consolidated here.",
     "website": "https://houstonaudubon.org/",
     "sources": [
       {
@@ -10305,12 +10281,20 @@
       {
         "label": "Seller or contact page",
         "url": "https://houstonaudubon.org/"
+      },
+      {
+        "label": "Official nursery page and pickup instructions",
+        "url": "https://birdshouston.org/conservation/nursery.html"
       }
     ],
     "category": "seasonal",
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Houston%20Audubon%20Natives%20Nursery%20Edith%20L.%20Moore%20Nature%20Sanctuary%2C%20Houston%2C%20TX"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Houston%20Audubon%20Natives%20Nursery%20Edith%20L.%20Moore%20Nature%20Sanctuary%2C%20Houston%2C%20TX",
+    "searchAliases": [
+      "Birds Houston",
+      "Birds Houston Natives Nursery"
+    ]
   },
   {
     "id": "arbor-gate-tomball",
@@ -10475,19 +10459,19 @@
   {
     "id": "next-door-nursery-texas",
     "name": "Next Door Nursery",
-    "area": "Houston area",
+    "area": "Houston",
     "borough": "",
     "state": "TX",
-    "address": "Online seller serving the Houston area",
-    "lat": 29.76,
-    "lng": -95.37,
+    "address": "2930 Bellevue Street, Houston, TX 77017",
+    "lat": 29.68,
+    "lng": -95.28,
     "access": "Online, mail-order, or wholesale access; confirm purchasing terms and pickup/delivery details.",
     "native": "confirmed",
     "nativeTier": "specialist",
     "nativeRange": "select",
     "nativeBasis": "NPSOT lists online shopping and appointment access for this native plant seller.",
     "availability": "Native stock and access may vary by season; confirm directly before visiting or ordering.",
-    "reviewNote": "The linked source documents the native offering. Ask about species, provenance, and current availability. Pins are approximate when an exact visitor address is not published.",
+    "reviewNote": "The seller's official shop lists 2930 Bellevue Street, Houston, TX 77017. Location updated from a community correction; confirm pickup details before traveling.",
     "website": "https://next-door-nursery.myshopify.com/",
     "sources": [
       {
@@ -10497,6 +10481,10 @@
       {
         "label": "Seller or contact page",
         "url": "https://next-door-nursery.myshopify.com/"
+      },
+      {
+        "label": "Seller shop and pickup address",
+        "url": "https://next-door-nursery.myshopify.com/collections/native-grasses/products/andropogon-calipepes-chalky-bluestem"
       }
     ],
     "category": "delivery",
@@ -14090,5 +14078,705 @@
     "regionGroup": "south",
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Roots+and+Shoots+Nursery+1108+Wappoo+Road+Charleston+SC",
     "nativeRange": "wide"
+  },
+  {
+    "id": "nearly-wild-native-flowers",
+    "name": "Nearly Wild Native Flowers",
+    "area": "Chicod · Greenville area",
+    "borough": "Pitt County",
+    "state": "NC",
+    "address": "Chicod Township, south of Greenville, NC (appointment address provided by seller)",
+    "lat": 35.58,
+    "lng": -77.37,
+    "approx": true,
+    "access": "Backyard nursery; appointment only; occasional regional deliveries",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "select",
+    "nativeBasis": "The grower says it propagates native wildflowers, shrubs, trees, vines, and grasses for the Pitt County area from seed or cuttings.",
+    "availability": "No walk-in sales. Contact the grower to arrange a visit or order; the exact address is shared after scheduling.",
+    "reviewNote": "The seller describes its native propagation and appointment-only access; North Carolina Native Plant Society includes it in its nursery collection.",
+    "website": "https://thenearlywild.com/",
+    "sources": [
+      {
+        "label": "Official nursery website",
+        "url": "https://thenearlywild.com/"
+      },
+      {
+        "label": "North Carolina Native Plant Society nursery list",
+        "url": "https://ncwildflower.org/native-plant-nurseries/"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Nearly+Wild+Native+Flowers+Chicod+NC"
+  },
+  {
+    "id": "nemophily-natives",
+    "name": "Nemophily Natives",
+    "area": "Auburn",
+    "borough": "Lee County",
+    "state": "AL",
+    "address": "3938 Cotton Valley Lane, Auburn, AL",
+    "lat": 32.59,
+    "lng": -85.49,
+    "approx": true,
+    "access": "Retail nursery; winter access by appointment—check current hours",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "The nursery describes its retail offering as native plants adapted to Southeastern gardens.",
+    "availability": "Check current hours and inventory directly before visiting.",
+    "reviewNote": "The seller describes its Auburn retail nursery and native plant inventory.",
+    "website": "https://nemophilynatives.com/",
+    "sources": [
+      {
+        "label": "Official nursery website",
+        "url": "https://nemophilynatives.com/"
+      },
+      {
+        "label": "Nursery contact and address",
+        "url": "https://nemophilynatives.com/contact-us"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Nemophily+Natives+3938+Cotton+Valley+Lane+Auburn+AL"
+  },
+  {
+    "id": "plant-life-nursery-rome-ga",
+    "name": "Plant Life Nursery",
+    "area": "Rome",
+    "borough": "Floyd County",
+    "state": "GA",
+    "address": "4763 Alabama Highway, Rome, GA 30165",
+    "lat": 34.25,
+    "lng": -85.17,
+    "approx": true,
+    "access": "Retail nursery; current hours and native availability vary",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "The Georgia Native Plant Society supplier survey reports a 60–89% native inventory and year-round retail availability.",
+    "availability": "Check the nursery website or call before traveling.",
+    "reviewNote": "The Georgia Native Plant Society supplier directory reports its inventory share, address, and year-round retail access.",
+    "website": "https://plantlifenursery.weebly.com/",
+    "sources": [
+      {
+        "label": "Georgia Native Plant Society provider profile",
+        "url": "https://gnps.org/plant_source/plant-life-nursery/"
+      },
+      {
+        "label": "Nursery website",
+        "url": "https://plantlifenursery.weebly.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Plant+Life+Nursery+4763+Alabama+Highway+Rome+GA"
+  },
+  {
+    "id": "wild-ginger-woodlands",
+    "name": "Wild Ginger Woodlands",
+    "area": "Haslett",
+    "borough": "Ingham County",
+    "state": "MI",
+    "address": "221 Shoesmith Road, Haslett, MI 48840",
+    "lat": 42.75,
+    "lng": -84.39,
+    "approx": true,
+    "access": "Native plant nursery and online shop; confirm current pickup hours",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "select",
+    "nativeBasis": "The nursery sells a broad selection of woodland natives, including wildflowers, ferns, sedges, and grasses; most plants are native to Michigan.",
+    "availability": "Plants are not shipped. Check the shop or contact the nursery about pickup.",
+    "reviewNote": "The seller’s shop and contact pages describe plant offerings, its Haslett location, and no-shipping policy.",
+    "website": "https://www.wildgingerwoodlands.com/",
+    "sources": [
+      {
+        "label": "Official nursery shop",
+        "url": "https://www.wildgingerwoodlands.com/wild-ginger-woodlands-shop"
+      },
+      {
+        "label": "Official contact and location",
+        "url": "https://www.wildgingerwoodlands.com/contact"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wild+Ginger+Woodlands+221+Shoesmith+Road+Haslett+MI"
+  },
+  {
+    "id": "designs-by-nature-laingsburg",
+    "name": "Designs By Nature, LLC",
+    "area": "Laingsburg",
+    "borough": "Shiawassee County",
+    "state": "MI",
+    "address": "9874 Chadwick Road, Laingsburg, MI 48848",
+    "lat": 42.89,
+    "lng": -84.35,
+    "approx": true,
+    "access": "Michigan-genotype native plants; pickup, online ordering, and seasonal availability",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "The licensed greenhouse says it grows Michigan native genotypes and offers plants and native garden kits.",
+    "availability": "Check online inventory and arrange pickup or shipping before visiting.",
+    "reviewNote": "The greenhouse describes its Michigan-genotype native plants, location, and sales options on its official site.",
+    "website": "https://designsbynaturellc.com/",
+    "sources": [
+      {
+        "label": "Official nursery website",
+        "url": "https://designsbynaturellc.com/"
+      },
+      {
+        "label": "Official nursery location",
+        "url": "https://designsbynaturellc.com/location/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Designs+By+Nature+9874+Chadwick+Road+Laingsburg+MI"
+  },
+  {
+    "id": "arcadia-natives",
+    "name": "Arcadia Natives",
+    "area": "Washington",
+    "borough": "Washington County",
+    "state": "PA",
+    "address": "2273 South Main Street Extension, Washington, PA 15370",
+    "lat": 40.17,
+    "lng": -80.25,
+    "approx": true,
+    "access": "Seasonal retail nursery; check current stock lists and opening dates",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "The grower focuses on native species and lists plants including Pennsylvania ecotypes.",
+    "availability": "The nursery closes seasonally. Check its current plant lists and hours before visiting.",
+    "reviewNote": "The seller describes its native plant focus and publishes current inventory lists.",
+    "website": "https://arcadianatives.com/",
+    "sources": [
+      {
+        "label": "Official nursery website",
+        "url": "https://arcadianatives.com/"
+      },
+      {
+        "label": "Official directions and address",
+        "url": "https://arcadianatives.com/about/directions/"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Arcadia+Natives+2273+South+Main+Street+Extension+Washington+PA"
+  },
+  {
+    "id": "erics-prairie",
+    "name": "Eric’s Prairie",
+    "area": "Madison area",
+    "borough": "Dane County",
+    "state": "WI",
+    "address": "Madison Eastside and Verona Downtown Farmers Markets; check seller schedule",
+    "lat": 43.07,
+    "lng": -89.39,
+    "approx": true,
+    "access": "Farmers market vendor; online orders and market pickups vary by season",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "select",
+    "nativeBasis": "The grower sells native plants to Wisconsin gardeners, with market dates listed on its website.",
+    "availability": "No permanent retail address. Check the seller’s current market schedule and online shop.",
+    "reviewNote": "The seller lists the Madison Eastside and Verona Downtown farmers markets and its online native plant shop.",
+    "website": "https://www.ericsprairie.com/",
+    "sources": [
+      {
+        "label": "Official nursery website",
+        "url": "https://www.ericsprairie.com/"
+      },
+      {
+        "label": "Official about and market schedule",
+        "url": "https://www.ericsprairie.com/about"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Eric%27s+Prairie+Madison+WI"
+  },
+  {
+    "id": "watermark-woods",
+    "name": "Watermark Woods – Native Plants",
+    "area": "Hamilton",
+    "borough": "Loudoun County",
+    "state": "VA",
+    "address": "16764 Hamilton Station Road, Hamilton, VA 20158",
+    "lat": 39.13,
+    "lng": -77.66,
+    "approx": true,
+    "access": "Seasonal nursery, generally open April through October; verify hours before visiting",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "The nursery reports growing and selling native plants, including locally sourced herbaceous and woody species.",
+    "availability": "Open seasonally; check the website for current hours and access details.",
+    "reviewNote": "The seller and Virginia Native Plant Society list its address and native-plant specialty.",
+    "website": "https://www.watermarkwoods.com/",
+    "sources": [
+      {
+        "label": "Official nursery website",
+        "url": "https://www.watermarkwoods.com/"
+      },
+      {
+        "label": "Virginia Native Plant Society nursery list",
+        "url": "https://vnps.org/native-plant-nursery-list/"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Watermark+Woods+16764+Hamilton+Station+Road+Hamilton+VA"
+  },
+  {
+    "id": "checkerspot-farm",
+    "name": "Checkerspot Farm",
+    "area": "Colrain",
+    "borough": "Franklin County",
+    "state": "MA",
+    "address": "30 Jacksonville Road, Colrain, MA 01340",
+    "lat": 42.69,
+    "lng": -72.72,
+    "approx": true,
+    "access": "Seasonal weekend hours June–October or by appointment; verify before traveling",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "select",
+    "nativeBasis": "Grow Native Massachusetts describes this small nursery as offering seed-grown native wildflowers and grasses.",
+    "availability": "Seasonal hours and appointment access vary; contact the farm before visiting.",
+    "reviewNote": "Grow Native Massachusetts lists the farm, its location, season, and native plant offering.",
+    "website": "https://www.checkerspotfarm.com/",
+    "sources": [
+      {
+        "label": "Official farm website",
+        "url": "https://www.checkerspotfarm.com/"
+      },
+      {
+        "label": "Grow Native Massachusetts nursery list",
+        "url": "https://grownativemass.org/Great-Resources/nurseries-seed"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "northeast",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Checkerspot+Farm+30+Jacksonville+Road+Colrain+MA"
+  },
+  {
+    "id": "red-trillium-gardens",
+    "name": "Red Trillium Gardens",
+    "area": "Lunenburg",
+    "borough": "Worcester County",
+    "state": "MA",
+    "address": "Lunenburg, MA 01462 · sales at farmers markets and local events",
+    "lat": 42.59,
+    "lng": -71.72,
+    "approx": true,
+    "access": "Farmers markets and local events; check the seller’s website for upcoming sales",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "select",
+    "nativeBasis": "Grow Native Massachusetts describes the grower as selling sustainably grown native plants sourced primarily from local seed.",
+    "availability": "No permanent retail storefront is listed. Check the seller’s event schedule before traveling.",
+    "reviewNote": "Grow Native Massachusetts lists the business as a native plant source with market and event sales.",
+    "website": "https://redtrilliumgardens.com/",
+    "sources": [
+      {
+        "label": "Official garden website",
+        "url": "https://redtrilliumgardens.com/"
+      },
+      {
+        "label": "Grow Native Massachusetts nursery list",
+        "url": "https://grownativemass.org/Great-Resources/nurseries-seed"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "northeast",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Red+Trillium+Gardens+Lunenburg+MA"
+  },
+  {
+    "id": "wing-and-a-prayer-nursery",
+    "name": "Wing and a Prayer Nursery",
+    "area": "Cummington",
+    "borough": "Hampshire County",
+    "state": "MA",
+    "address": "Corner of Powell Road and West Cummington Road, Cummington, MA",
+    "lat": 42.46,
+    "lng": -72.92,
+    "approx": true,
+    "access": "Seasonal hours May–October; confirm dates and directions before visiting",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Grow Native Massachusetts describes the nursery as growing more than 100 species, primarily native wildflowers, grasses, shrubs, and trees.",
+    "availability": "Open seasonally with limited hours; contact the nursery before making a trip.",
+    "reviewNote": "Grow Native Massachusetts lists the nursery, its seasonal schedule, and native plant offerings.",
+    "website": "https://wingandaprayernursery.com/",
+    "sources": [
+      {
+        "label": "Official nursery website",
+        "url": "https://wingandaprayernursery.com/"
+      },
+      {
+        "label": "Grow Native Massachusetts nursery list",
+        "url": "https://grownativemass.org/Great-Resources/nurseries-seed"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "northeast",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wing+and+a+Prayer+Nursery+Cummington+MA"
+  },
+  {
+    "id": "garden-guru-rockford",
+    "name": "The Garden Guru Kzoo",
+    "area": "Rockford",
+    "borough": "Kent County",
+    "state": "MI",
+    "address": "9065 Myers Lake Avenue, Rockford, MI 49341",
+    "lat": 43.12,
+    "lng": -85.56,
+    "approx": true,
+    "access": "Native plant nursery and landscape services; contact the seller for current plant sales",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "The seller describes native-plant nursery, garden design, and restoration services; Michigan native-plant directories include the business.",
+    "availability": "Contact the nursery for current availability and pickup details.",
+    "reviewNote": "The seller and Michigan native plant directories describe native offerings and the Rockford location.",
+    "website": "https://www.thegardengurukzoo.com/",
+    "sources": [
+      {
+        "label": "Official native plant page",
+        "url": "https://www.thegardengurukzoo.com/native-plants"
+      },
+      {
+        "label": "Wild Ones River City Michigan native plant sources",
+        "url": "https://rivercitygrandrapids.wildones.org/2026-native-plant-sources/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=The+Garden+Guru+9065+Myers+Lake+Avenue+Rockford+MI"
+  },
+  {
+    "id": "finding-nectar",
+    "name": "Finding Nectar Nursery",
+    "area": "Arvada",
+    "borough": "Jefferson County",
+    "state": "CO",
+    "address": "15550 Colorado Highway 72, Arvada, CO 80007",
+    "lat": 39.83,
+    "lng": -105.29,
+    "approx": true,
+    "access": "Retail nursery with Colorado native plants; check seasonal hours",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "The nursery describes a Colorado-native plant selection grown for pollinators and Front Range gardens.",
+    "availability": "Check current opening hours and plant inventory before visiting.",
+    "reviewNote": "The nursery’s official site describes its Colorado native plant offerings and location.",
+    "website": "https://findingnectar.com/",
+    "sources": [
+      {
+        "label": "Official nursery and Colorado native plant catalog",
+        "url": "https://findingnectar.com/collections/colorado"
+      },
+      {
+        "label": "Official contact and address",
+        "url": "https://findingnectar.com/pages/contact"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "mountainwest",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Finding+Nectar+Nursery+15550+Colorado+Highway+72+Arvada+CO"
+  },
+  {
+    "id": "high-plains-environmental-center",
+    "name": "High Plains Environmental Center Native Plant Nursery",
+    "area": "Loveland",
+    "borough": "Larimer County",
+    "state": "CO",
+    "address": "2698 Bluestem Willow Drive, Loveland, CO 80538",
+    "lat": 40.42,
+    "lng": -105.02,
+    "approx": true,
+    "access": "Seasonal sales April–September; nursery access otherwise limited to select sales, tours, or volunteers",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "The environmental center grows and sells native plants for pollinator-friendly and sustainable landscapes.",
+    "availability": "The nursery is not generally open to walk-ins; check the sale page for current dates and ordering.",
+    "reviewNote": "The center's official site describes its native nursery and seasonal sales at its Loveland visitor center.",
+    "website": "https://suburbitat.org/native-plant-nursery/",
+    "sources": [
+      {
+        "label": "Official native plant nursery",
+        "url": "https://suburbitat.org/native-plant-nursery/"
+      },
+      {
+        "label": "Official visit/access page",
+        "url": "https://suburbitat.org/visit/"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "mountainwest",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=High+Plains+Environmental+Center+2698+Bluestem+Willow+Drive+Loveland+CO"
+  },
+  {
+    "id": "queens-nursery-memphis",
+    "name": "Queens Nursery",
+    "area": "Memphis",
+    "borough": "Shelby County",
+    "state": "TN",
+    "address": "Memphis, TN · appointment and market sales",
+    "lat": 35.15,
+    "lng": -89.99,
+    "approx": true,
+    "access": "Appointment-only, farmers markets, seasonal pop-up sales and community events",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "Tennessee's Pick TN Products directory describes its Tennessee-grown pollinator-friendly native perennials, grasses, shrubs, and trees.",
+    "availability": "Check the directory for upcoming market dates and contact the grower before visiting.",
+    "reviewNote": "The Tennessee Department of Agriculture's Pick TN Products profile describes its native offerings and appointment/market access.",
+    "website": "https://www.picktnproducts.org/picktn-producers/picktn-listing.27775.html",
+    "sources": [
+      {
+        "label": "Pick TN Products provider profile",
+        "url": "https://www.picktnproducts.org/picktn-producers/picktn-listing.27775.html"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Queens+Nursery+Memphis+TN"
+  },
+  {
+    "id": "memphis-native-tree-works",
+    "name": "Memphis Native Tree Works",
+    "area": "Frayser · Memphis",
+    "borough": "Shelby County",
+    "state": "TN",
+    "address": "1471 Genesis Circle, Memphis, TN 38106",
+    "lat": 35.17,
+    "lng": -89.98,
+    "approx": true,
+    "access": "Wholesale native nursery and project sales; contact the grower to confirm public purchasing",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "The Works describes a wholesale nursery growing native trees and wildflowers for the greater Mid-South, with community outreach and plant sales.",
+    "availability": "Wholesale/project-focused; confirm purchase eligibility, inventory, and pickup arrangements before traveling.",
+    "reviewNote": "The Works' official page identifies the nursery and its Memphis location; the Xerces supplier profile describes its native focus.",
+    "website": "https://www.theworkscdc.org/memphis-native-tree-works",
+    "sources": [
+      {
+        "label": "The Works official nursery page",
+        "url": "https://www.theworkscdc.org/memphis-native-tree-works"
+      },
+      {
+        "label": "Xerces Society supplier profile",
+        "url": "https://www.xerces.org/native-plant-supplier/memphis-native-tree-works"
+      }
+    ],
+    "category": "delivery",
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Memphis+Native+Tree+Works+1471+Genesis+Circle+Memphis+TN"
+  },
+  {
+    "id": "midtown-bramble-bloom",
+    "name": "Midtown Bramble & Bloom",
+    "area": "Cooper-Young · Memphis",
+    "borough": "Shelby County",
+    "state": "TN",
+    "address": "2294 Young Avenue, Memphis, TN 38104",
+    "lat": 35.12,
+    "lng": -89.98,
+    "approx": true,
+    "access": "Flower farm and florist; occasional seasonal native plant sales and farmers market offerings—check current availability",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "The grower cultivates native plants in its Midtown urban farm and sells at the farmers market and its florist shop.",
+    "availability": "Native plants are a seasonal part of a broader flower farm and florist offering; contact the seller about current stock.",
+    "reviewNote": "The seller confirms its Memphis address; a local source describes its native growing and market sales.",
+    "website": "https://midtownbramble.com/",
+    "sources": [
+      {
+        "label": "Official farm and florist website",
+        "url": "https://midtownbramble.com/"
+      },
+      {
+        "label": "Official address and contact",
+        "url": "https://midtownbramble.com/pages/contact-us"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Midtown+Bramble+%26+Bloom+2294+Young+Avenue+Memphis+TN"
+  },
+  {
+    "id": "harris-nature-center-plant-sale",
+    "name": "Harris Nature Center Native Plant Sales",
+    "area": "Okemos",
+    "borough": "Ingham County",
+    "state": "MI",
+    "address": "3998 Van Atta Road, Okemos, MI 48864",
+    "lat": 42.71,
+    "lng": -84.42,
+    "approx": true,
+    "access": "Seasonal spring and fall plant sales; check the Meridian Township events calendar for dates and ordering",
+    "native": "confirmed",
+    "nativeTier": "community",
+    "nativeRange": "select",
+    "nativeBasis": "Meridian Township posts native plant sale events hosted by the nature center, featuring plants from local growers.",
+    "availability": "Event-based sales. Check the current township event calendar and preorder details before visiting.",
+    "reviewNote": "Meridian Township's events calendar and sale information identify the native plant sales and location.",
+    "website": "https://www.meridian.mi.us/recreation-leisure/harris-nature-center/",
+    "sources": [
+      {
+        "label": "Meridian Township native plant sale event",
+        "url": "https://events.meridian.mi.us/default/Detail/2026-10-03-0900-Fall-Native-Plant-Sale"
+      },
+      {
+        "label": "Harris Nature Center",
+        "url": "https://www.meridian.mi.us/recreation-leisure/harris-nature-center/"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Harris+Nature+Center+3998+Van+Atta+Road+Okemos+MI"
+  },
+  {
+    "id": "calvin-ecosystem-native-plant-sale",
+    "name": "Calvin Ecosystem Preserve & Native Gardens",
+    "area": "Grand Rapids",
+    "borough": "Kent County",
+    "state": "MI",
+    "address": "1750 E. Beltline Avenue SE, Grand Rapids, MI 49546",
+    "lat": 42.92,
+    "lng": -85.59,
+    "approx": true,
+    "access": "Annual native plant sales and special events; check Calvin’s event calendar for dates",
+    "native": "confirmed",
+    "nativeTier": "community",
+    "nativeRange": "wide",
+    "nativeBasis": "Calvin grows native plants for its annual plant sale, with public events and sales benefiting education and stewardship.",
+    "availability": "Sales are seasonal and event-based. Check the current Calvin University event page for dates and inventory.",
+    "reviewNote": "Calvin University documents its annual native plant sale, plant propagation, and public sale events.",
+    "website": "https://calvin.edu/ecosystem-preserve/native-gardens/native-plant-sale",
+    "sources": [
+      {
+        "label": "Calvin Ecosystem Preserve Native Plant Sale",
+        "url": "https://calvin.edu/ecosystem-preserve/native-gardens/native-plant-sale"
+      },
+      {
+        "label": "Native Gardens and annual sale",
+        "url": "https://calvin.edu/ecosystem-preserve/native-gardens"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Calvin+Ecosystem+Preserve+1750+E+Beltline+Avenue+SE+Grand+Rapids+MI"
+  },
+  {
+    "id": "southern-branch-vb-farmers-market",
+    "name": "Southern Branch Nursery at Virginia Beach Farmers Market",
+    "area": "Virginia Beach",
+    "borough": "Virginia Beach City",
+    "state": "VA",
+    "address": "3640 Dam Neck Road, Virginia Beach, VA 23453",
+    "lat": 36.78,
+    "lng": -76.05,
+    "approx": true,
+    "access": "Farmers market nursery location; posted hours vary by season—check the seller’s location page",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Southern Branch lists Virginia and North Carolina native plants available for pickup at its Virginia Beach Farmers Market location.",
+    "availability": "The seller lists this as an alternate pickup/sales location. Confirm stock and hours before visiting.",
+    "reviewNote": "Southern Branch Nursery’s official site identifies the Farmers Market location and describes the native plants available there.",
+    "website": "https://southernbranchnursery.com/virginia-beach",
+    "sources": [
+      {
+        "label": "Official Virginia Beach Farmers Market location",
+        "url": "https://southernbranchnursery.com/virginia-beach"
+      },
+      {
+        "label": "Current native plant availability",
+        "url": "https://southernbranchnursery.com/in-stock"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Southern+Branch+Nursery+3640+Dam+Neck+Road+Virginia+Beach+VA"
+  },
+  {
+    "id": "bright-lane-gardens",
+    "name": "Bright Lane Gardens",
+    "area": "Lake Ann",
+    "borough": "Benzie County",
+    "state": "MI",
+    "address": "6443 Bright Lane, Lake Ann, MI 49650",
+    "lat": 44.73,
+    "lng": -85.85,
+    "approx": true,
+    "access": "Retail nursery with a focus on native Northern Michigan plants; check current hours",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "The nursery describes its selection as including native Northern Michigan plants, alongside other garden plants.",
+    "availability": "Check the website for current hours and availability before traveling.",
+    "reviewNote": "The seller's official site describes its native plant focus and Lake Ann location.",
+    "website": "https://brightlanegardens.com/",
+    "sources": [
+      {
+        "label": "Official nursery website",
+        "url": "https://brightlanegardens.com/"
+      },
+      {
+        "label": "Official Michigan native plant page",
+        "url": "https://brightlanegardens.com/native-plants/midwest-native-plants/michigan-native-plants/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Bright+Lane+Gardens+6443+Bright+Lane+Lake+Ann+MI"
+  },
+  {
+    "id": "greenscape-gardens-manchester",
+    "name": "Greenscape Gardens",
+    "area": "Manchester · St. Louis area",
+    "borough": "St. Louis County",
+    "state": "MO",
+    "address": "2832 Barrett Station Road, Manchester, MO 63021",
+    "lat": 38.61,
+    "lng": -90.51,
+    "approx": true,
+    "access": "Retail garden center; Missouri natives are sold in-store, strongest selection usually spring through summer",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "The garden center has a dedicated Missouri native plant department and in-store native inventory.",
+    "availability": "Native stock changes with season and suppliers. Check current hours and call about species before visiting.",
+    "reviewNote": "The garden center documents its Missouri native plants department and native availability guidance.",
+    "website": "https://www.greenscapegardens.com/",
+    "sources": [
+      {
+        "label": "Official garden center and location",
+        "url": "https://www.greenscapegardens.com/"
+      },
+      {
+        "label": "Official native plant availability FAQ",
+        "url": "https://www.greenscapegardens.com/faq"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Greenscape+Gardens+2832+Barrett+Station+Road+Manchester+MO"
   }
 ]
