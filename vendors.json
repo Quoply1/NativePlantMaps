@@ -15402,5 +15402,1321 @@
     "regionGroup": "south",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wild%20Roots%20Native%20Nursery%20Stockbridge%20%2F%20Tucker%20area%3B%20confirm%20sales%20location%20before%20visiting"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Public nursery; posted hours Thursday–Saturday, 10–4; call for an appointment.",
+    "availability": "Thursday–Saturday 10–4 or by appointment; confirm before visiting.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "backhouse-garden-ms",
+    "name": "Backhouse Garden",
+    "area": "Carriere",
+    "state": "MS",
+    "address": "40 James Jarrell Road, Carriere, MS 39426",
+    "lat": 30.62,
+    "lng": -89.65,
+    "nativeBasis": "Mississippi Native Plant Society and Wild Ones list it as a native plant nursery; the Gulf Coast chapter reports 80% native plants from seed and plugs.",
+    "website": "https://facebook.com/backhousegarden",
+    "sources": [
+      {
+        "label": "Mississippi Native Plant Society",
+        "url": "https://www.mississippinativeplantsociety.org/native-plant-resources.html"
+      },
+      {
+        "label": "Wild Ones Pontchartrain Basin",
+        "url": "https://pontchartrainbasin.wildones.org/plant-and-seed-resources/"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Backhouse%20Garden%2040%20James%20Jarrell%20Road%2C%20Carriere%2C%20MS%2039426"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Retail nursery; check the seller's current hours before visiting.",
+    "availability": "Check the seller's current hours, sales dates, and stock before traveling.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "leaves-for-wildlife-oh",
+    "name": "Leaves for Wildlife Native Plant Nursery",
+    "area": "Sunbury",
+    "state": "OH",
+    "address": "1655 North County Road 605, Sunbury, OH 43074",
+    "lat": 40.24,
+    "lng": -82.85,
+    "nativeBasis": "The seller describes a locally owned nursery with dozens of native plants; Ohio Native Plant Month includes it in its native-source list.",
+    "website": "https://www.leavesforwildlife.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://www.leavesforwildlife.com/"
+      },
+      {
+        "label": "Ohio Native Plant Month",
+        "url": "https://ohionativeplantmonth.squarespace.com/native-plant-sources"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Leaves%20for%20Wildlife%20Native%20Plant%20Nursery%201655%20North%20County%20Road%20605%2C%20Sunbury%2C%20OH%2043074"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Public retail nursery; Thursday–Sunday hours are posted by the seller. Seasonal closures may apply.",
+    "availability": "Current posted retail hours and seasonal breaks are on the seller website.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "michiganense-natives",
+    "name": "Michiganense Natives",
+    "area": "Plymouth",
+    "state": "MI",
+    "address": "8820 North Lilley Road, Plymouth, MI 48170",
+    "lat": 42.37,
+    "lng": -83.47,
+    "nativeBasis": "The seller identifies this as a retail native plant nursery; Michigan State University Extension lists it among native plant producers.",
+    "website": "https://www.michiganensenatives.com/",
+    "sources": [
+      {
+        "label": "Seller website and retail hours",
+        "url": "https://www.michiganensenatives.com/"
+      },
+      {
+        "label": "Michigan State University native plant producers",
+        "url": "https://pollinators.msu.edu/resources/pollinator-planting/native-seed-producers.aspx"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Michiganense%20Natives%208820%20North%20Lilley%20Road%2C%20Plymouth%2C%20MI%2048170"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Public retail nursery Tuesday, Friday, and Saturday 10–4; other weekdays by appointment.",
+    "availability": "Open year-round; call ahead for directions and current hours.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "doak-creek-native-nursery",
+    "name": "Doak Creek Native Plant Nursery",
+    "area": "Eugene · Lorane Valley",
+    "state": "OR",
+    "address": "83331 Marlow Road, Eugene, OR 97405",
+    "lat": 43.96,
+    "lng": -123.18,
+    "nativeBasis": "The seller grows containerized Northwest native plants and publishes a 2026 retail catalog.",
+    "website": "https://doakcreeknursery.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://doakcreeknursery.com/index.htm"
+      },
+      {
+        "label": "2026 retail catalog",
+        "url": "https://doakcreeknursery.com/plant-list.html"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "pacific",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Doak%20Creek%20Native%20Plant%20Nursery%2083331%20Marlow%20Road%2C%20Eugene%2C%20OR%2097405"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Retail sales online, by phone, email, and in person; pickup by appointment.",
+    "availability": "Selection varies seasonally; arrange pickup before traveling.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "elder-oaks-nursery",
+    "name": "Elder Oaks Native Plant Nursery",
+    "area": "Roseburg · Umpqua Valley",
+    "state": "OR",
+    "address": "2430 Happy Valley Road, Roseburg, OR 97470",
+    "lat": 43.22,
+    "lng": -123.34,
+    "nativeBasis": "The seller lists native seeds and plants propagated for the Umpqua Basin; Xerces identifies retail and appointment pickup.",
+    "website": "https://www.elderoaksnursery.net/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://www.elderoaksnursery.net/"
+      },
+      {
+        "label": "Xerces Society supplier profile",
+        "url": "https://xerces.org/native-plant-supplier/elder-oaks-native-plant-nursery"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "pacific",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Elder%20Oaks%20Native%20Plant%20Nursery%202430%20Happy%20Valley%20Road%2C%20Roseburg%2C%20OR%2097470"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Seasonal farm nursery with posted public hours and appointment visits; follow gate and visit instructions.",
+    "availability": "Seasonal public hours; call or text before visiting and check the current schedule.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "seasonal",
+    "id": "shy-valley-farm",
+    "name": "Shy Valley Farm",
+    "area": "Fall Branch",
+    "state": "TN",
+    "address": "315 Ridge Road, Fall Branch, TN 37656",
+    "lat": 36.42,
+    "lng": -82.63,
+    "nativeBasis": "The farm describes nursery-propagated regional native plants alongside herbs and vegetables and posts a current fall 2026 visit schedule.",
+    "website": "https://www.shyvalleyfarm.com/",
+    "sources": [
+      {
+        "label": "Seller website and visit information",
+        "url": "https://www.shyvalleyfarm.com/"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "appalachia",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Shy%20Valley%20Farm%20315%20Ridge%20Road%2C%20Fall%20Branch%2C%20TN%2037656"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Contact the grower for current inventory and pickup arrangements; exact public sales address is not listed.",
+    "availability": "Confirm sales dates and pickup location directly.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "seasonal",
+    "id": "humbirds-natives-spokane",
+    "name": "Humbird’s Natives & Nearby Nursery",
+    "area": "Spokane area",
+    "state": "WA",
+    "address": "Spokane area; contact the grower for current pickup details",
+    "lat": 47.66,
+    "lng": -117.43,
+    "nativeBasis": "The Washington Native Plant Society lists Humbird’s Natives among Greater Spokane native plant nurseries; Reddit visitors recommend its native selections.",
+    "website": "https://www.wnps.org/ne-programs/northeast-wa-gardening",
+    "sources": [
+      {
+        "label": "Washington Native Plant Society, Northeast Washington",
+        "url": "https://www.wnps.org/ne-programs/northeast-wa-gardening"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "pacific",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Humbird%E2%80%99s%20Natives%20%26%20Nearby%20Nursery%20Spokane%20area%3B%20contact%20the%20grower%20for%20current%20pickup%20details"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Retail nursery; seasonal closure in winter.",
+    "availability": "Seasonal retail sales; the seller says it reopens in March.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "floralia-spokane",
+    "name": "Floralia Nursery",
+    "area": "Spokane",
+    "state": "WA",
+    "address": "1013 West Knox Avenue, Spokane, WA 99205",
+    "lat": 47.66,
+    "lng": -117.43,
+    "nativeBasis": "The nursery offers climate-adapted plants, including Inland Northwest natives, within a broader low-water selection.",
+    "website": "https://www.floralianursery.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://www.floralianursery.com/"
+      },
+      {
+        "label": "Washington Native Plant Society, Northeast Washington",
+        "url": "https://www.wnps.org/ne-programs/northeast-wa-gardening"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "pacific",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Floralia%20Nursery%201013%20West%20Knox%20Avenue%2C%20Spokane%2C%20WA%2099205"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Retail nursery, open Monday–Saturday 9–4.",
+    "availability": "Check the seller's site for current hours and stock.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "heartwood-nursery-pa",
+    "name": "Heartwood Nursery",
+    "area": "Felton",
+    "state": "PA",
+    "address": "8957 Hickory Road, Felton, PA 17322",
+    "lat": 39.86,
+    "lng": -76.56,
+    "nativeBasis": "The seller specializes in Mid-Atlantic native plants and lists 300+ straight-species trees, shrubs, perennials, ferns, grasses, and groundcovers.",
+    "website": "https://www.heartwoodnursery.net/retail",
+    "sources": [
+      {
+        "label": "Seller retail page",
+        "url": "https://www.heartwoodnursery.net/retail"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Heartwood%20Nursery%208957%20Hickory%20Road%2C%20Felton%2C%20PA%2017322"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Public native nursery; regular seasonal hours and on-site sales. Call ahead for current hours.",
+    "availability": "Check the seller website for current hours and availability.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "kollar-nursery-md",
+    "name": "Kollar Nursery",
+    "area": "Pylesville",
+    "state": "MD",
+    "address": "5200 West Heaps Road, Pylesville, MD 21132",
+    "lat": 39.7,
+    "lng": -76.37,
+    "nativeBasis": "The seller specializes in plants native to Maryland and the eastern United States; Maryland Extension lists it as a certified native plant retailer.",
+    "website": "https://www.kollarnursery.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://www.kollarnursery.com/about"
+      },
+      {
+        "label": "Maryland Extension certified retailers",
+        "url": "https://www.extension.umd.edu/programs/environment-natural-resources/program-areas/maryland-native-plants-program/find-certified-retailers"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Kollar%20Nursery%205200%20West%20Heaps%20Road%2C%20Pylesville%2C%20MD%2021132"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Native plants are sold at the center’s propagation area; self-serve sales run during posted center hours, with spring and fall sale events.",
+    "availability": "Check the center's website for current sales, stock, and access details.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "seasonal",
+    "id": "lichterman-native-plant-sales",
+    "name": "Lichterman Nature Center Native Plant Sales",
+    "area": "Memphis",
+    "state": "TN",
+    "address": "5992 Quince Road, Memphis, TN 38119",
+    "lat": 35.08,
+    "lng": -89.82,
+    "nativeBasis": "The Museum of Science & History says its greenhouse grows plants for an annual spring sale and lists ongoing native plant sales at the propagation center.",
+    "website": "https://memphismuseums.org/explore/lichterman-nature-center/",
+    "sources": [
+      {
+        "label": "Museum of Science & History, Lichterman Nature Center",
+        "url": "https://memphismuseums.org/explore/lichterman-nature-center/"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Lichterman%20Nature%20Center%20Native%20Plant%20Sales%205992%20Quince%20Road%2C%20Memphis%2C%20TN%2038119"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Contact for current sales and pickup arrangements; public address is not listed.",
+    "availability": "Confirm current sales and pickup directly.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "seasonal",
+    "id": "humbird-nursery-placeholder",
+    "name": "Humbird's Natives & Nearby Nursery",
+    "area": "Spokane area",
+    "state": "WA",
+    "address": "Spokane area; contact the nursery for sales location",
+    "lat": 47.66,
+    "lng": -117.43,
+    "nativeBasis": "Listed by the Washington Native Plant Society among Spokane-area native plant suppliers; community visitors report purchasing native species.",
+    "website": "https://www.wnps.org/ne-programs/northeast-wa-gardening",
+    "sources": [
+      {
+        "label": "Washington Native Plant Society",
+        "url": "https://www.wnps.org/ne-programs/northeast-wa-gardening"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "pacific",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Humbird's%20Natives%20%26%20Nearby%20Nursery%20Spokane%20area%3B%20contact%20the%20nursery%20for%20sales%20location"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Retail native plant nursery; posted open hours in season and appointments outside those hours.",
+    "availability": "Call ahead and check current open days before visiting.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "wood-thrush-natives",
+    "name": "Wood Thrush Natives",
+    "area": "Floyd",
+    "state": "VA",
+    "address": "1097 Beaver Creek Road NW, Floyd, VA 24091",
+    "lat": 36.91,
+    "lng": -80.32,
+    "nativeBasis": "The nursery grows Appalachian native plants from ethically gathered local seed; the Virginia Native Plant Society lists it as retail.",
+    "website": "https://ian-caton.squarespace.com/contact",
+    "sources": [
+      {
+        "label": "Seller contact and visit details",
+        "url": "https://ian-caton.squarespace.com/contact"
+      },
+      {
+        "label": "Virginia Native Plant Society listing",
+        "url": "https://vnps.org/native-plant-nursery-list/entry/7285/"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wood%20Thrush%20Natives%201097%20Beaver%20Creek%20Road%20NW%2C%20Floyd%2C%20VA%2024091"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Retail backyard nursery; online orders with pickup scheduled at checkout.",
+    "availability": "Order online and arrange pickup with the seller.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "delivery",
+    "id": "detroit-wildflower-nursery",
+    "name": "Detroit Wildflower Nursery",
+    "area": "Metro Detroit · Farmington Hills",
+    "state": "MI",
+    "address": "Farmington Hills, MI; schedule pickup with the nursery",
+    "lat": 42.49,
+    "lng": -83.38,
+    "nativeBasis": "The seller and Xerces describe a retail nursery specializing in Michigan and Great Lakes native perennial wildflowers and local ecotypes.",
+    "website": "https://www.detroitwildflowers.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://www.detroitwildflowers.com/"
+      },
+      {
+        "label": "Xerces Society supplier profile",
+        "url": "https://www.xerces.org/native-plant-supplier/detroit-wildflower-nursery"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Detroit%20Wildflower%20Nursery%20Farmington%20Hills%2C%20MI%3B%20schedule%20pickup%20with%20the%20nursery"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "wide",
+    "access": "Community nursery with plants available through its spring and fall native plant sales; contact the project about other sales.",
+    "availability": "Check sale dates and stock directly; sale locations may vary.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "seasonal",
+    "id": "pollinator-project-rogue-valley",
+    "name": "Pollinator Project Rogue Valley Native Plant Nursery",
+    "area": "Phoenix · Rogue Valley",
+    "state": "OR",
+    "address": "The Pollination Place, 312 North Main Street, Phoenix, OR 97535",
+    "lat": 42.28,
+    "lng": -122.82,
+    "nativeBasis": "The nonprofit says its nursery grows thousands of native plants for spring and fall public sales; community visitors report plants may also be available between sales.",
+    "website": "https://www.pollinatorprojectroguevalley.org/",
+    "sources": [
+      {
+        "label": "Pollinator Project Rogue Valley",
+        "url": "https://www.pollinatorprojectroguevalley.org/current-plant-sale"
+      },
+      {
+        "label": "2026 spring sale details",
+        "url": "https://www.pollinatorprojectroguevalley.org/event-details/native-plant-sale-for-the-pollinators-spring-2026"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "pacific",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Pollinator%20Project%20Rogue%20Valley%20Native%20Plant%20Nursery%20The%20Pollination%20Place%2C%20312%20North%20Main%20Street%2C%20Phoenix%2C%20OR%2097535"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "select",
+    "access": "Native seed orders and project supply; plants may appear at local seasonal native plant sales.",
+    "availability": "Contact the seller for consumer orders and event dates.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "seasonal",
+    "id": "klamath-siskiyou-native-seeds",
+    "name": "Klamath-Siskiyou Native Seeds",
+    "area": "Ashland area · Oregon–California border",
+    "state": "OR",
+    "address": "Service area near Ashland, OR; see seller for current order and pickup arrangements",
+    "lat": 42.2,
+    "lng": -122.72,
+    "nativeBasis": "The seller focuses on native seeds for the Klamath-Siskiyou region; community members report that it also brings plants to local seasonal sales.",
+    "website": "https://klamathsiskiyouseeds.com/about/",
+    "sources": [
+      {
+        "label": "Seller information",
+        "url": "https://klamathsiskiyouseeds.com/about/"
+      },
+      {
+        "label": "Pollinator Project Rogue Valley sales",
+        "url": "https://www.pollinatorprojectroguevalley.org/native-plant-sale-for-the-pollinators"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "pacific",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Klamath-Siskiyou%20Native%20Seeds%20Service%20area%20near%20Ashland%2C%20OR%3B%20see%20seller%20for%20current%20order%20and%20pickup%20arrangements"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Retail native plant nursery; check the seller or local native plant society for current hours and stock.",
+    "availability": "Contact the seller before visiting.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "nectar-bar-san-antonio",
+    "name": "The Nectar Bar",
+    "area": "San Antonio",
+    "state": "TX",
+    "address": "7600 Eckhert Road, San Antonio, TX",
+    "lat": 29.5,
+    "lng": -98.6,
+    "nativeBasis": "The Native Plant Society of Texas identifies The Nectar Bar as a NICE nursery and describes its native-only local selection.",
+    "website": "https://www.npsot.org/chapters/san-antonio/nice-natives-improve-conserve-environments-san-antonio/",
+    "sources": [
+      {
+        "label": "Native Plant Society of Texas, NICE partners",
+        "url": "https://www.npsot.org/chapters/san-antonio/nice-natives-improve-conserve-environments-san-antonio/"
+      },
+      {
+        "label": "Native Plant Society of Texas plant sale",
+        "url": "https://www.npsot.org/chapters/san-antonio/programs/native-plant-sale/"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=The%20Nectar%20Bar%207600%20Eckhert%20Road%2C%20San%20Antonio%2C%20TX"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "wide",
+    "access": "Seasonal retail greenhouse; check the seller's current opening dates.",
+    "availability": "Seasonal sales; verify opening days and current inventory before traveling.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "seasonal",
+    "id": "painters-greenhouse",
+    "name": "Painter's Greenhouse",
+    "area": "Old Fort",
+    "state": "NC",
+    "address": "734 Roy Moore Road, Old Fort, NC 28762",
+    "lat": 35.62,
+    "lng": -82.18,
+    "nativeBasis": "The seller says it offers one of the region's largest selections of homegrown native plants and focuses on natives and pollinator plants.",
+    "website": "https://www.paintersgreenhouse.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://www.paintersgreenhouse.com/"
+      },
+      {
+        "label": "Xerces Society supplier profile",
+        "url": "https://xerces.org/native-plant-supplier/painters-greenhouse"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "appalachia",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Painter's%20Greenhouse%20734%20Roy%20Moore%20Road%2C%20Old%20Fort%2C%20NC%2028762"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Small nursery selling plants by online, phone, or text order; contact the grower to arrange pickup.",
+    "availability": "Place orders by contact form, phone, or text; confirm pickup arrangements.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "delivery",
+    "id": "dawns-wildthings",
+    "name": "WildThings Rescue Nursery",
+    "area": "Valley Falls · Saratoga area",
+    "state": "NY",
+    "address": "209 Brundige Road, Valley Falls, NY 12185",
+    "lat": 42.9,
+    "lng": -73.56,
+    "nativeBasis": "The grower describes a native plant nursery that propagates and sells its plants on site; native plants are part of a broader collection.",
+    "website": "https://www.dawnswildthings.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://www.dawnswildthings.com/"
+      },
+      {
+        "label": "Seller contact and order information",
+        "url": "https://www.dawnswildthings.com/contact-us.html"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "northeast",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=WildThings%20Rescue%20Nursery%20209%20Brundige%20Road%2C%20Valley%20Falls%2C%20NY%2012185"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Public retail nursery and garden center.",
+    "availability": "Check seller hours and ask about native species for your local ecoregion.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "harlequins-gardens",
+    "name": "Harlequin’s Gardens",
+    "area": "Boulder",
+    "state": "CO",
+    "address": "4795 North 26th Street, Boulder, CO 80301",
+    "lat": 40.03,
+    "lng": -105.3,
+    "nativeBasis": "The seller specializes in Colorado native plants and other regionally adapted plants within a broader garden-center selection.",
+    "website": "https://harlequinsgardens.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://harlequinsgardens.com/"
+      },
+      {
+        "label": "City of Boulder native plant resources",
+        "url": "https://bouldercolorado.gov/get-growing"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "mountainwest",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Harlequin%E2%80%99s%20Gardens%204795%20North%2026th%20Street%2C%20Boulder%2C%20CO%2080301"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Public retail garden center; confirm native species and current stock.",
+    "availability": "Check seller catalog and local inventory before visiting.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "shades-of-green-celina",
+    "name": "Shades of Green Nursery + Landscape — Celina",
+    "area": "Celina",
+    "state": "TX",
+    "address": "1213 East Sunset Boulevard, Celina, TX 75009",
+    "lat": 33.32,
+    "lng": -96.78,
+    "nativeBasis": "The nursery's inventory pages describe a large native plant selection for North Texas; native plant society resources list the Celina location.",
+    "website": "https://shadesofgreeninc.com/celina-tx/",
+    "sources": [
+      {
+        "label": "Celina nursery page",
+        "url": "https://shadesofgreeninc.com/celina-tx/"
+      },
+      {
+        "label": "Seller plant inventory",
+        "url": "https://shadesofgreeninc.com/inventory/"
+      },
+      {
+        "label": "Native Plant Society of Texas retailer list",
+        "url": "https://www.npsot.org/chapters/trinity-forks/trinity-forks-resources/where-to-buy/"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Shades%20of%20Green%20Nursery%20%2B%20Landscape%20%E2%80%94%20Celina%201213%20East%20Sunset%20Boulevard%2C%20Celina%2C%20TX%2075009"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Public retail garden center; ask staff for native species and current availability.",
+    "availability": "Confirm current species and inventory before visiting.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "primex-garden-center",
+    "name": "Primex Garden Center",
+    "area": "Glenside",
+    "state": "PA",
+    "address": "1409 Easton Road, Glenside, PA 19038",
+    "lat": 40.1,
+    "lng": -75.15,
+    "nativeBasis": "The garden center publishes a native plants list and is included in regional native-plant purchasing resources.",
+    "website": "https://primexgardencenter.com/",
+    "sources": [
+      {
+        "label": "Primex Garden Center native plant list",
+        "url": "https://primexgardencenter.com/wp-content/uploads/2022/08/Native-Plants-Trees-Shrubs-Vines.pdf"
+      },
+      {
+        "label": "Audubon native plant resources",
+        "url": "https://www.audubon.org/native-plants/local-resources?zipcode=19063"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Primex%20Garden%20Center%201409%20Easton%20Road%2C%20Glenside%2C%20PA%2019038"
+  },
+  {
+    "borough": "",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeRange": "select",
+    "access": "Public retail nursery; confirm which native species are currently in stock.",
+    "availability": "Ask for botanical names and current regional native stock before traveling.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "natorps-nursery",
+    "name": "Natorp’s Nursery",
+    "area": "Mason · Cincinnati area",
+    "state": "OH",
+    "address": "8601 Snider Road, Mason, OH 45040",
+    "lat": 39.32,
+    "lng": -84.31,
+    "nativeBasis": "Community visitors recommend this large garden center for native plants, but a current species-level native inventory was not confirmed in this pass.",
+    "website": "https://www.natorp.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://www.natorp.com/"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Natorp%E2%80%99s%20Nursery%208601%20Snider%20Road%2C%20Mason%2C%20OH%2045040"
+  },
+  {
+    "borough": "",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeRange": "select",
+    "access": "Public retail garden center; community visitors report a substantial native selection, not independently verified here.",
+    "availability": "Ask staff for Texas native species and current availability.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "north-haven-gardens",
+    "name": "North Haven Gardens",
+    "area": "Dallas",
+    "state": "TX",
+    "address": "7700 Northaven Road, Dallas, TX 75230",
+    "lat": 32.9,
+    "lng": -96.8,
+    "nativeBasis": "Reddit visitors estimate that many plants are native, but the seller's current species-level inventory was not confirmed.",
+    "website": "https://nhg.com/nursery",
+    "sources": [
+      {
+        "label": "Seller nursery page",
+        "url": "https://nhg.com/nursery"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=North%20Haven%20Gardens%207700%20Northaven%20Road%2C%20Dallas%2C%20TX%2075230"
+  },
+  {
+    "borough": "",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeRange": "select",
+    "access": "Contact the grower to confirm that retail sales and visit hours are current.",
+    "availability": "Confirm current operation and visit arrangements before traveling.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "seasonal",
+    "id": "yellow-house-natives",
+    "name": "Yellow House Natives",
+    "area": "Berryville",
+    "state": "VA",
+    "address": "569 Sipe Hollow Lane, Berryville, VA",
+    "lat": 39.15,
+    "lng": -77.99,
+    "nativeBasis": "The Virginia Native Plant Society lists this as a retail native perennial grower, but its posted details are several years old and current operation needs confirmation.",
+    "website": "https://vnps.org/native-plant-nursery-list/entry/8742/",
+    "sources": [
+      {
+        "label": "Virginia Native Plant Society listing (last updated 2022)",
+        "url": "https://vnps.org/native-plant-nursery-list/entry/8742/"
+      },
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Yellow%20House%20Natives%20569%20Sipe%20Hollow%20Lane%2C%20Berryville%2C%20VA"
+  },
+  {
+    "borough": "",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeRange": "select",
+    "access": "Retail nursery lead; community reports that native selection is growing, but current native stock is unverified.",
+    "availability": "Call ahead to ask which locally native species are available.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "raywood-landscape-center",
+    "name": "Raywood Landscape Center",
+    "area": "Danville",
+    "state": "VA",
+    "address": "Danville, VA; confirm current address before visiting",
+    "lat": 36.59,
+    "lng": -79.39,
+    "nativeBasis": "Reddit visitors describe it as a local nursery adding native plants; no seller species list was confirmed.",
+    "website": "https://www.google.com/maps/search/?api=1&query=Raywood+Landscape+Center+Danville+VA",
+    "sources": [
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Raywood%20Landscape%20Center%20Danville%2C%20VA%3B%20confirm%20current%20address%20before%20visiting"
+  },
+  {
+    "borough": "",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeRange": "select",
+    "access": "Public greenhouse and garden center; Reddit suggests checking for native stock, which is not independently verified.",
+    "availability": "Ask for botanical names and locally native stock before purchasing.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "joes-greenhouse-layton",
+    "name": "Joe’s Greenhouse",
+    "area": "Layton",
+    "state": "UT",
+    "address": "779 South Main Street, Layton, UT 84041",
+    "lat": 41.05,
+    "lng": -111.98,
+    "nativeBasis": "Community suggestion; no current species-level evidence of Utah native inventory was confirmed.",
+    "website": "https://joesgreenhouse.com/",
+    "sources": [
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "mountainwest",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Joe%E2%80%99s%20Greenhouse%20779%20South%20Main%20Street%2C%20Layton%2C%20UT%2084041"
+  },
+  {
+    "borough": "",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeRange": "select",
+    "access": "Retail nursery lead; native stock is unverified. Confirm public sales and availability.",
+    "availability": "Ask the seller whether it carries locally native species and verify public access.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "layton-tree-farms",
+    "name": "Layton Tree Farms",
+    "area": "Clearfield",
+    "state": "UT",
+    "address": "1435 South State Street, Clearfield, UT 84015",
+    "lat": 41.09,
+    "lng": -112.02,
+    "nativeBasis": "Community suggestion; current species-level evidence of Utah native inventory was not confirmed.",
+    "website": "https://www.google.com/maps/search/?api=1&query=Layton+Tree+Farms+Clearfield+UT",
+    "sources": [
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "mountainwest",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Layton%20Tree%20Farms%201435%20South%20State%20Street%2C%20Clearfield%2C%20UT%2084015"
+  },
+  {
+    "borough": "",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeRange": "select",
+    "access": "Nursery associated with landscape services; confirm whether direct retail sales are open to the public and ask about native stock.",
+    "availability": "Contact the nursery before visiting.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "loveland-gardens-ut",
+    "name": "Loveland Gardens",
+    "area": "West Bountiful",
+    "state": "UT",
+    "address": "1275 West 1600 North, West Bountiful, UT 84087",
+    "lat": 40.92,
+    "lng": -111.91,
+    "nativeBasis": "Community suggestion; a current native inventory and public retail access were not independently confirmed.",
+    "website": "https://lovelandgardens.com/",
+    "sources": [
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "mountainwest",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Loveland%20Gardens%201275%20West%201600%20North%2C%20West%20Bountiful%2C%20UT%2084087"
+  },
+  {
+    "borough": "",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeRange": "select",
+    "access": "Public garden center; native species and availability are unverified.",
+    "availability": "Ask staff which plants are native to the local region.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "rockin-e-country-store",
+    "name": "Rockin E Country Store",
+    "area": "Woods Cross",
+    "state": "UT",
+    "address": "1201 West 500 South, Woods Cross, UT 84087",
+    "lat": 40.88,
+    "lng": -111.91,
+    "nativeBasis": "Community suggestion; no current species-level evidence of Utah native stock was confirmed.",
+    "website": "https://www.rockinecountrystores.com/garden",
+    "sources": [
+      {
+        "label": "Community suggestion in the Reddit thread",
+        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      }
+    ],
+    "regionGroup": "mountainwest",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Rockin%20E%20Country%20Store%201201%20West%20500%20South%2C%20Woods%20Cross%2C%20UT%2084087"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Retail nursery; contact the seller for current hours and ordering details.",
+    "availability": "Check current operations and inventory before traveling.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "earthwild-gardens",
+    "name": "Earthwild Gardens",
+    "area": "Grayslake",
+    "state": "IL",
+    "address": "1479 Potawatomi Road, Grayslake, IL 60030",
+    "lat": 42.34,
+    "lng": -88,
+    "nativeBasis": "The nursery says it sells northern Illinois native forbs, grasses, ferns, vines, shrubs, and trees.",
+    "website": "https://www.earthwildgardens.com/",
+    "sources": [
+      {
+        "label": "PlantNative directory profile",
+        "url": "https://plantnative.org/nursery/il/grayslake/earthwild-gardens"
+      }
+    ],
+    "regionGroup": "greatlakes",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Earthwild%20Gardens%201479%20Potawatomi%20Road%2C%20Grayslake%2C%20IL%2060030"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Retail nursery; check current seasonal hours before visiting.",
+    "availability": "Call ahead for hours and current stock.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "shooting-star-nursery-ky",
+    "name": "Shooting Star Nursery",
+    "area": "Georgetown",
+    "state": "KY",
+    "address": "160 Soards Road, Georgetown, KY 40324",
+    "lat": 38.24,
+    "lng": -84.56,
+    "nativeBasis": "The Kentucky Department of Agriculture lists native wildflowers, grasses, aquatic plants, trees, and shrubs; PlantNative identifies retail sales.",
+    "website": "https://shootingstarnursery.com/",
+    "sources": [
+      {
+        "label": "Kentucky Department of Agriculture",
+        "url": "https://www.kyagr.com/AgBusiness/745"
+      },
+      {
+        "label": "PlantNative directory profile",
+        "url": "https://plantnative.org/nursery/ky/georgetown/shooting-star-nursery"
+      }
+    ],
+    "regionGroup": "appalachia",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Shooting%20Star%20Nursery%20160%20Soards%20Road%2C%20Georgetown%2C%20KY%2040324"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Seasonal retail nursery, open approximately mid-April through August; appointment visits after August.",
+    "availability": "Seasonal operation; confirm hours and appointment access.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "seasonal",
+    "id": "northeast-native-perennials",
+    "name": "Northeast Native Perennials",
+    "area": "Quakertown · Haycock Township",
+    "state": "PA",
+    "address": "1716 East Sawmill Road, Quakertown, PA 18951",
+    "lat": 40.46,
+    "lng": -75.24,
+    "nativeBasis": "PlantNative's profile describes a small retail nursery selling native trees, shrubs, and perennials; plants are propagated on site or in its greenhouse.",
+    "website": "https://nenativesandperennials.com/",
+    "sources": [
+      {
+        "label": "PlantNative directory profile",
+        "url": "https://plantnative.org/nursery/pa/quakertown/northeast-native-perennials"
+      }
+    ],
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Northeast%20Native%20Perennials%201716%20East%20Sawmill%20Road%2C%20Quakertown%2C%20PA%2018951"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Public native-plant nursery; check current hours with the seller.",
+    "availability": "Confirm current opening days and stock before traveling.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "sugarbush-nursery-pa",
+    "name": "Sugarbush Nursery",
+    "area": "Mohnton",
+    "state": "PA",
+    "address": "4272 Morgantown Road, Mohnton, PA 19540",
+    "lat": 40.21,
+    "lng": -75.99,
+    "nativeBasis": "PlantNative's profile describes a native-plant nursery carrying Pennsylvania native perennials, grasses, ferns, and vines.",
+    "website": "https://www.sugarbushnursery.com/",
+    "sources": [
+      {
+        "label": "PlantNative directory profile",
+        "url": "https://plantnative.org/nursery/pa/mohnton/sugarbush-nursery"
+      }
+    ],
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Sugarbush%20Nursery%204272%20Morgantown%20Road%2C%20Mohnton%2C%20PA%2019540"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "On-farm retail sales; posted March–December hours, with appointments available.",
+    "availability": "Open Monday–Saturday 8–4 March through December; call ahead.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "overhill-gardens-tn",
+    "name": "Overhill Gardens",
+    "area": "Vonore",
+    "state": "TN",
+    "address": "1404 Citico Road, Vonore, TN 37885",
+    "lat": 35.58,
+    "lng": -84.22,
+    "nativeBasis": "The seller publishes 2026 native plant retail price lists and describes more than 800 species and varieties of native plants.",
+    "website": "https://www.overhillgardens.com/",
+    "sources": [
+      {
+        "label": "Seller plant list and retail details",
+        "url": "https://www.overhillgardens.com/plants.html"
+      },
+      {
+        "label": "Pick TN Products retail listing",
+        "url": "https://www.picktnproducts.org/picktn-producers/picktn-listing.2583.html"
+      },
+      {
+        "label": "PlantNative directory profile",
+        "url": "https://plantnative.org/nursery/tn/vonore/overhill-gardens"
+      }
+    ],
+    "regionGroup": "appalachia",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Overhill%20Gardens%201404%20Citico%20Road%2C%20Vonore%2C%20TN%2037885"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Public retail nursery with mixed inventory; many selections are native to Martha’s Vineyard or the Northeast.",
+    "availability": "Check current retail hours and inventory.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "donaromas-edgartown",
+    "name": "Donaroma’s Nursery — Edgartown",
+    "area": "Edgartown",
+    "state": "MA",
+    "address": "271 Upper Main Street, Edgartown, MA 02539",
+    "lat": 41.39,
+    "lng": -70.53,
+    "nativeBasis": "The seller says many of its retail nursery selections are native to Martha’s Vineyard or the Northeast.",
+    "website": "https://donaromas.com/edgartown-nursery/",
+    "sources": [
+      {
+        "label": "Seller Edgartown nursery page",
+        "url": "https://donaromas.com/edgartown-nursery/"
+      },
+      {
+        "label": "PlantNative directory profile",
+        "url": "https://plantnative.org/nursery/ma/edgartown/donaromas-nursery"
+      }
+    ],
+    "regionGroup": "northeast",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Donaroma%E2%80%99s%20Nursery%20%E2%80%94%20Edgartown%20271%20Upper%20Main%20Street%2C%20Edgartown%2C%20MA%2002539"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "access": "Retail native plant nursery and garden center; check current hours and stock.",
+    "availability": "Seasonal hours; contact the seller for current hours and inventory.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "nature-by-design-alexandria",
+    "name": "Nature By Design",
+    "area": "Alexandria",
+    "state": "VA",
+    "address": "300 Calvert Avenue, Alexandria, VA 22301",
+    "lat": 38.82,
+    "lng": -77.06,
+    "nativeBasis": "The seller describes itself as a full-service native plant nursery and garden center; Virginia Native Plant Society lists herbaceous and woody native plants.",
+    "website": "https://www.nature-by-design.com/",
+    "sources": [
+      {
+        "label": "Seller website",
+        "url": "https://www.nature-by-design.com/"
+      },
+      {
+        "label": "Virginia Native Plant Society",
+        "url": "https://vnps.org/native-plant-nursery-list/entry/7166/"
+      },
+      {
+        "label": "PlantNative directory profile",
+        "url": "https://plantnative.org/nursery/va/alexandria/nature-by-design"
+      }
+    ],
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Nature%20By%20Design%20300%20Calvert%20Avenue%2C%20Alexandria%2C%20VA%2022301"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Retail plant farm; confirm current hours and which local native species are available.",
+    "availability": "Contact the farm before visiting.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "windy-hill-plant-farm",
+    "name": "Windy Hill Plant Farm",
+    "area": "Aldie",
+    "state": "VA",
+    "address": "40413 John Mosby Highway, Aldie, VA 20105",
+    "lat": 38.96,
+    "lng": -77.74,
+    "nativeBasis": "PlantNative's profile lists native plants as a portion of its mixed retail inventory; verify species and local suitability.",
+    "website": "https://windyhill.net/",
+    "sources": [
+      {
+        "label": "PlantNative directory profile",
+        "url": "https://plantnative.org/nursery/va/aldie/windy-hill-plant-farm"
+      }
+    ],
+    "regionGroup": "midatlantic",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Windy%20Hill%20Plant%20Farm%2040413%20John%20Mosby%20Highway%2C%20Aldie%2C%20VA%2020105"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Public retail garden center; ask for native species and current stock.",
+    "availability": "Confirm current operation and stock before traveling.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "green-mamas-garden-center",
+    "name": "Green Mama’s Organic Garden Center",
+    "area": "North Richland Hills",
+    "state": "TX",
+    "address": "5324 Davis Boulevard, North Richland Hills, TX 76180",
+    "lat": 32.86,
+    "lng": -97.2,
+    "nativeBasis": "PlantNative's profile describes native and adapted trees, flowers, and shrubs in a mixed garden-center inventory.",
+    "website": "https://www.greenmamas.com/",
+    "sources": [
+      {
+        "label": "PlantNative directory profile",
+        "url": "https://plantnative.org/nursery/tx/north-richland-hills/green-mamas-organic-garden-center"
+      }
+    ],
+    "regionGroup": "south",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Green%20Mama%E2%80%99s%20Organic%20Garden%20Center%205324%20Davis%20Boulevard%2C%20North%20Richland%20Hills%2C%20TX%2076180"
+  },
+  {
+    "borough": "",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "access": "Retail garden center and nursery; contact the seller for current hours and native availability.",
+    "availability": "Confirm current operation and stock before traveling.",
+    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
+    "approx": true,
+    "category": "retail",
+    "id": "full-circle-gardens-vt",
+    "name": "Full Circle Gardens",
+    "area": "Essex",
+    "state": "VT",
+    "address": "68 Brigham Hill Road, Essex, VT 05452",
+    "lat": 44.5,
+    "lng": -73.07,
+    "nativeBasis": "PlantNative lists native plants in a mixed inventory and identifies retail access.",
+    "website": "https://fullcirclegardens.com/",
+    "sources": [
+      {
+        "label": "PlantNative directory profile",
+        "url": "https://plantnative.org/nursery/vt/essex/full-circle-gardens"
+      }
+    ],
+    "regionGroup": "northeast",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Full%20Circle%20Gardens%2068%20Brigham%20Hill%20Road%2C%20Essex%2C%20VT%2005452"
   }
 ]
