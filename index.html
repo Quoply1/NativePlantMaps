@@ -257,7 +257,19 @@
     function distanceMiles(a,b,c,d){const rad=x=>x*Math.PI/180,dl=rad(c-a),dn=rad(d-b),z=Math.sin(dl/2)**2+Math.cos(rad(a))*Math.cos(rad(c))*Math.sin(dn/2)**2;return 3958.8*2*Math.atan2(Math.sqrt(z),Math.sqrt(1-z))}
     function normalizedPlaceQuery(value){return String(value||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()}
     function closeCitySuggestions(){const box=document.getElementById('city-suggestions');box.hidden=true;box.innerHTML='';document.getElementById('search').setAttribute('aria-expanded','false')}
-    function applyNearbyCity(city){const label=city.label||city.name;nearbySearch={lat:Number(city.lat),lng:Number(city.lng),label};stateSearch=null;listingSearch='';selectedId=null;document.getElementById('search').value=label;closeCitySuggestions();const nearby=filtered();document.getElementById('search-status').textContent=nearby.length?'Showing '+nearby.length+' providers within '+searchRadius+' miles of '+label+'; sorted by distance.':'No providers within '+searchRadius+' miles of '+label+'. Try a wider radius or nearby city.';render();refreshMapLayers();if(window.accessMap){const lat=Number(city.lat),lng=Number(city.lng),dLat=searchRadius/69,dLng=searchRadius/(69*Math.max(.25,Math.cos(lat*Math.PI/180)));window.accessMap.fitBounds([[lng-dLng,lat-dLat],[lng+dLng,lat+dLat]],{padding:45,duration:500,maxZoom:7)}}
+    function applyNearbyCity(city){
+      const label=city.label||city.name;
+      nearbySearch={lat:Number(city.lat),lng:Number(city.lng),label};
+      stateSearch=null;listingSearch='';selectedId=null;
+      document.getElementById('search').value=label;closeCitySuggestions();
+      const nearby=filtered();
+      document.getElementById('search-status').textContent=nearby.length ? 'Showing '+nearby.length+' providers within '+searchRadius+' miles of '+label+'; sorted by distance.' : 'No providers within '+searchRadius+' miles of '+label+'. Try a wider radius or nearby city.';
+      render();refreshMapLayers();
+      if(window.accessMap){
+        const lat=Number(city.lat),lng=Number(city.lng),dLat=searchRadius/69,dLng=searchRadius/(69*Math.max(.25,Math.cos(lat*Math.PI/180)));
+        window.accessMap.fitBounds([[lng-dLng,lat-dLat],[lng+dLng,lat+dLat]],{padding:45,duration:500,maxZoom:7});
+      }
+    }
     function applyListingSearch(query){nearbySearch=null;stateSearch=null;listingSearch=query.toLowerCase().trim();selectedId=null;document.getElementById('search-status').textContent='Showing listings matching “'+query+'”.';closeCitySuggestions();render();refreshMapLayers()}
     function applyStateSearch(code){stateSearch=code;nearbySearch=null;listingSearch='';selectedId=null;activeFilter='all';document.getElementById('state-filter').value='';document.getElementById('region-filter').value='';document.querySelectorAll('.filter').forEach(button=>button.classList.toggle('active',button.dataset.filter==='all'));const label=stateLabels[code];document.getElementById('search').value=label;document.getElementById('search-status').textContent='Showing all '+label+' locations.';closeCitySuggestions();const statePlaces=vendors.filter(v=>v.state===code&&v.lat!=null&&v.lng!=null);if(window.accessMap&&statePlaces.length){const lons=statePlaces.map(v=>v.lng),lats=statePlaces.map(v=>v.lat);window.accessMap.fitBounds([[Math.min(...lons)-.6,Math.min(...lats)-.5],[Math.max(...lons)+.6,Math.max(...lats)+.5]],{padding:45,duration:500,maxZoom:7})}render();refreshMapLayers()}
     function stateCodeForQuery(query){const q=normalizedPlaceQuery(query);return Object.entries(stateLabels).find(([code,name])=>q===normalizedPlaceQuery(name)||q===code.toLowerCase())?.[0]||null}
