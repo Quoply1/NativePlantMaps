@@ -193,7 +193,7 @@
     const regionOf=v=>Object.keys(macroRegions).find(region=>macroRegions[region].includes(v.state))||'other';
     const nationalBounds=[[-125,24],[-66,50]];
     const stateBounds={AK:[[-180,51],[-130,72]],HI:[[-161,18],[-154,23]],PR:[[-68,17],[-65,19]]};
-    const stateBoundaryUrl='https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/15/query?where=1%3D1&outFields=NAME%2CSTUSAB&returnGeometry=true&outSR=4326&geometryPrecision=3&maxAllowableOffset=0.01&f=geojson';
+    const stateBoundaryUrl='/api/state-boundaries';
     let stateBoundaryFeatures=[],stateBoundaryRequest=null;
     const countChecked=()=>Object.values(saved()).filter(x=>x.checked).length;
     let sketchView={x:0,y:0,w:1000,h:650};
