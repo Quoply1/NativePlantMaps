@@ -291,7 +291,15 @@
     @media(max-width:700px){header{padding:12px 18px}.brandrow{flex-direction:column;gap:12px}.brand{width:100%}.headnav{justify-content:flex-start}.site-title{font-size:25px}.hero{grid-template-columns:70px minmax(0,1fr) 70px;min-height:128px;padding:0 12px}.hero-botanical{height:100px;transform:translateY(8px)}.hero p{font-size:18px}.toolbar{padding-left:12px;padding-right:12px}}
     @media(max-width:520px){.site-title{font-size:20px}.brandmark{width:36px;height:36px}.brand{gap:10px}.hero{grid-template-columns:52px minmax(0,1fr) 52px;gap:4px;min-height:106px}.hero-botanical{height:78px;transform:translateY(6px)}.hero p{font-size:16px}.headnav{gap:8px}.headnav a{font-size:10px}}
     .flora-source{margin:8px 0 0!important}.flora-source a{display:inline-block;margin:3px 12px 3px 0;font-weight:700}
-    </style>
+    
+    .search-shell{position:relative;overflow:hidden}
+    .hero{position:static;display:block}
+    .hero-copy{position:relative;z-index:2;width:auto;max-width:930px;margin:0 auto;text-align:center}
+    .hero-botanical{position:absolute;top:60%;z-index:1;display:block;width:155px;height:170px;object-fit:contain;transform:translateY(-50%);mix-blend-mode:multiply;pointer-events:none}
+    .hero-botanical-left{left:max(18px,calc((100vw - 1480px)/2 + 18px))}
+    .hero-botanical-right{right:max(18px,calc((100vw - 1480px)/2 + 18px))}
+    @media(max-width:700px){.hero-botanical{display:none!important}.hero{min-height:110px;display:grid;place-items:center}.hero-copy{margin:0 auto}}
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#directory">Skip to the nursery directory</a>
