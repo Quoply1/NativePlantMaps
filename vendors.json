@@ -14561,7 +14561,7 @@
     "area": "Frayser · Memphis",
     "borough": "Shelby County",
     "state": "TN",
-    "address": "1471 Genesis Circle, Memphis, TN 38106",
+    "address": "3158 Steele Street, Memphis, TN",
     "lat": 35.17,
     "lng": -89.98,
     "approx": true,
@@ -14585,7 +14585,7 @@
     ],
     "category": "delivery",
     "regionGroup": "south",
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Memphis+Native+Tree+Works+1471+Genesis+Circle+Memphis+TN"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Memphis+Native+Tree+Works+3158+Steele+Street+Memphis+TN"
   },
   {
     "id": "midtown-bramble-bloom",
@@ -15786,38 +15786,6 @@
   {
     "borough": "",
     "native": "confirmed",
-    "nativeTier": "documented",
-    "nativeRange": "select",
-    "access": "Contact for current sales and pickup arrangements; public address is not listed.",
-    "availability": "Confirm current sales and pickup directly.",
-    "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
-    "approx": true,
-    "category": "seasonal",
-    "id": "humbird-nursery-placeholder",
-    "name": "Humbird's Natives & Nearby Nursery",
-    "area": "Spokane area",
-    "state": "WA",
-    "address": "Spokane area; contact the nursery for sales location",
-    "lat": 47.66,
-    "lng": -117.43,
-    "nativeBasis": "Listed by the Washington Native Plant Society among Spokane-area native plant suppliers; community visitors report purchasing native species.",
-    "website": "https://www.wnps.org/ne-programs/northeast-wa-gardening",
-    "sources": [
-      {
-        "label": "Washington Native Plant Society",
-        "url": "https://www.wnps.org/ne-programs/northeast-wa-gardening"
-      },
-      {
-        "label": "Community suggestion in the Reddit thread",
-        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
-      }
-    ],
-    "regionGroup": "pacific",
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Humbird's%20Natives%20%26%20Nearby%20Nursery%20Spokane%20area%3B%20contact%20the%20nursery%20for%20sales%20location"
-  },
-  {
-    "borough": "",
-    "native": "confirmed",
     "nativeTier": "specialist",
     "nativeRange": "wide",
     "access": "Retail native plant nursery; posted open hours in season and appointments outside those hours.",
@@ -16321,7 +16289,7 @@
     "lat": 41.05,
     "lng": -111.98,
     "nativeBasis": "Community suggestion; no current species-level evidence of Utah native inventory was confirmed.",
-    "website": "https://joesgreenhouse.com/",
+    "website": "https://www.baileynurseries.com/locations/joes-greenhouse-779-s-main-layton-ut/",
     "sources": [
       {
         "label": "Community suggestion in the Reddit thread",
