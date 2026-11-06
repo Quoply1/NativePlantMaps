@@ -8,7 +8,7 @@ The project is a Cloudflare Pages Worker with static page assets embedded at bui
 
 1. Upload the project files to the connected GitHub repository, preserving the flat root layout.
 2. Keep the Cloudflare Pages build command as `npm run build` and output directory as `dist`.
-3. Bind D1 as `DB`. Run `0000_community_submissions.sql` for place suggestions and `0001_vendor_field_reports.sql` to enable public field reports.
+3. Bind D1 as `DB`. Run `0000_community_submissions.sql` for place suggestions, `0001_vendor_field_reports.sql` for public stock reports, `0002_vendor_reviews.sql` for public reviews, and `0003_vendor_reviews_optional_rating.sql` to upgrade an existing review table so comments can omit a star rating. The last migration preserves existing reviews.
 4. Keep the required production variables configured in Cloudflare.
 5. Deploy the repository’s `main` branch from Cloudflare Pages.
 
