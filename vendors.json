@@ -362,8 +362,8 @@
     "borough": "delawarevalley",
     "state": "DE",
     "address": "3120 Barley Mill Road, Hockessin, DE 19707",
-    "lat": 39.835,
-    "lng": -75.678,
+    "lat": 39.788471,
+    "lng": -75.648262,
     "access": "Seasonal, appointment, online order or limited pickup access; check the current seller calendar.",
     "native": "confirmed",
     "nativeTier": "documented",
@@ -17004,5 +17004,75 @@
     "regionGroup": "south",
     "approx": true,
     "operatingStatus": "reopening 2027"
+  },
+  {
+    "id": "artemisia-nursery-los-angeles",
+    "name": "Artemisia Nursery",
+    "area": "Los Angeles",
+    "borough": "Los Angeles",
+    "state": "CA",
+    "address": "5068 Valley Boulevard, Los Angeles, CA 90032",
+    "lat": 34.0867,
+    "lng": -118.1772,
+    "access": "In-store shopping and online order pickup; no shipping or delivery. Check the nursery site for current hours and stock.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "The nursery specializes in California native plants and wildlife habitat gardens, with a dedicated California native plant collection.",
+    "availability": "Retail nursery with in-store shopping and online order pickup. Availability varies by season.",
+    "reviewNote": "No reliable recent customer review describing native-plant inventory was confirmed in this research pass; the nursery’s current native collection is linked as evidence.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Artemisia%20Nursery%205068%20Valley%20Boulevard%2C%20Los%20Angeles%2C%20CA%2090032",
+    "website": "https://artemisianursery.com/",
+    "sources": [
+      {
+        "label": "Artemisia Nursery website and store information",
+        "url": "https://artemisianursery.com/"
+      },
+      {
+        "label": "California native plant collection",
+        "url": "https://artemisianursery.com/collections/california-native-plants"
+      },
+      {
+        "label": "Xerces Society native plant supplier profile",
+        "url": "https://xerces.org/native-plant-supplier/artemisia-nursery"
+      }
+    ],
+    "category": "retail",
+    "focus": "california",
+    "approx": true,
+    "regionGroup": "pacific"
+  },
+  {
+    "id": "robs-native-plants-denver",
+    "name": "Rob’s Native Plants",
+    "area": "Denver",
+    "borough": "Denver",
+    "state": "CO",
+    "address": "1915 E Colfax Avenue, Denver, CO 80206",
+    "lat": 39.7408,
+    "lng": -104.9634,
+    "access": "Online orders with local pickup; confirm current pickup details and availability on the seller’s website before visiting.",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeRange": "unverified",
+    "nativeBasis": "Community-suggested Colorado native-plant seller. The seller’s supplied website could not be independently reviewed for a current plant list in this update; confirm species and stock directly.",
+    "availability": "Online-order / local-pickup lead; confirm current operation and arrangements with the seller.",
+    "reviewNote": "Recently suggested by the community. Inventory is listed as unverified pending a current primary-source plant list.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Rob%27s%20Native%20Plants%201915%20E%20Colfax%20Avenue%2C%20Denver%2C%20CO%2080206",
+    "website": "https://www.robsnativeplants.com/",
+    "sources": [
+      {
+        "label": "Rob’s Native Plants website",
+        "url": "https://www.robsnativeplants.com/"
+      },
+      {
+        "label": "Denver listing with local-pickup information",
+        "url": "https://local.yahoo.com/retail-shopping/nurseries-and-greenhouses/co/northglenn/9/"
+      }
+    ],
+    "category": "delivery",
+    "focus": "colorado",
+    "approx": true,
+    "regionGroup": "mountainwest"
   }
 ]
