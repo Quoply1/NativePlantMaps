@@ -488,7 +488,8 @@
     "category": "retail",
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Nearly%20Native%20Nursery%20776%20McBride%20Road%2C%20Fayetteville%2C%20GA%2030215"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Nearly%20Native%20Nursery%20776%20McBride%20Road%2C%20Fayetteville%2C%20GA%2030215",
+    "nativeSummary": "A regional garden center with documented natives alongside broader stock; ask which species suit your planting site."
   },
   {
     "id": "north-georgia-native-plant-nursery",
@@ -558,7 +559,8 @@
     "category": "retail",
     "regionGroup": "greatlakes",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Pizzo%20Native%20Plant%20Nursery%2010729%20Pine%20Road%2C%20Leland%2C%20IL%2060531"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Pizzo%20Native%20Plant%20Nursery%2010729%20Pine%20Road%2C%20Leland%2C%20IL%2060531",
+    "nativeSummary": "Grows local-ecotype native trees and shrubs for wholesale buyers; this is not a walk-in retail nursery."
   },
   {
     "id": "possibility-place",
@@ -1474,7 +1476,8 @@
     "category": "retail",
     "regionGroup": "northeast",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Edgewood%20Nursery%204%20Cruston%20Way%2C%20Falmouth%2C%20ME%2004105"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Edgewood%20Nursery%204%20Cruston%20Way%2C%20Falmouth%2C%20ME%2004105",
+    "nativeSummary": "Maine natives and seeds share the catalog with edible and medicinal plants; look for blue-flag iris and tall thimbleweed."
   },
   {
     "id": "native-haunts",
@@ -1510,7 +1513,8 @@
     "category": "retail",
     "regionGroup": "northeast",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Haunts%20297%20Mountain%20Road%2C%20Alfred%2C%20ME%2004002"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Haunts%20297%20Mountain%20Road%2C%20Alfred%2C%20ME%2004002",
+    "nativeSummary": "Maine native-plant specialist with a published list; many plants are grown locally, with some sourced nearby."
   },
   {
     "id": "wildtype-plants",
@@ -1582,7 +1586,8 @@
     "category": "delivery",
     "regionGroup": "greatlakes",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Prairie%20Moon%20Nursery%2032115%20Prairie%20Lane%2C%20Winona%2C%20MN%2055987"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Prairie%20Moon%20Nursery%2032115%20Prairie%20Lane%2C%20Winona%2C%20MN%2055987",
+    "nativeSummary": "More than 700 native species in seed, plant, and mix orders, plus regional planting guides; orders are online or by phone."
   },
   {
     "id": "carolina-native-nursery",
@@ -1754,7 +1759,8 @@
     "category": "retail",
     "regionGroup": "appalachia",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Roots%20Nursery%20571%20Moseley%20Avenue%2C%20Clinton%2C%20NC%2028328"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Roots%20Nursery%20571%20Moseley%20Avenue%2C%20Clinton%2C%20NC%2028328",
+    "nativeSummary": "Wholesale native trees, shrubs, and grasses; its availability list includes silver maple and silky dogwood."
   },
   {
     "id": "natural-selections-nursery",
@@ -2045,7 +2051,8 @@
     "focus": "montclair",
     "approx": true,
     "nativeTier": "unverified",
-    "regionGroup": "midatlantic"
+    "regionGroup": "midatlantic",
+    "nativeSummary": "The current tree and shrub list uses broad common names without identifying species; native stock remains unconfirmed."
   },
   {
     "id": "condursos",
@@ -2278,7 +2285,8 @@
     "category": "retail",
     "focus": "northjersey",
     "regionGroup": "midatlantic",
-    "approx": true
+    "approx": true,
+    "nativeSummary": "Ferns, sedges, asters, and bee balms stand out in this broad native selection; the nursery also sells nonnative ornamentals."
   },
   {
     "id": "pleasantdale",
@@ -2314,7 +2322,8 @@
     "focus": "montclair",
     "approx": false,
     "nativeTier": "unverified",
-    "regionGroup": "midatlantic"
+    "regionGroup": "midatlantic",
+    "nativeSummary": "Local listings show general nursery stock, but no species-level catalog confirms native plants yet."
   },
   {
     "id": "rohslers-allendale",
@@ -2342,7 +2351,8 @@
     "focus": "northjersey",
     "approx": false,
     "nativeTier": "documented",
-    "regionGroup": "midatlantic"
+    "regionGroup": "midatlantic",
+    "nativeSummary": "A New Jersey Native Plant Society event confirmed natives at a public sale, not a year-round selection."
   },
   {
     "id": "toadshade-wildflower-farm",
@@ -3071,7 +3081,8 @@
     "approx": true,
     "nativeTier": "documented",
     "nativeRange": "select",
-    "regionGroup": "northeast"
+    "regionGroup": "northeast",
+    "nativeSummary": "Striped maple, gray birch, and silky dogwood are select natives in a much larger mixed catalog."
   },
   {
     "id": "native-plant-center-wcc",
@@ -3203,7 +3214,8 @@
     "focus": "longisland",
     "approx": false,
     "nativeTier": "unverified",
-    "regionGroup": "northeast"
+    "regionGroup": "northeast",
+    "nativeSummary": "The site uses broad common names without species or provenance; current native offerings are still unconfirmed."
   },
   {
     "id": "wild-gardens-nursery",
@@ -3335,7 +3347,8 @@
     "category": "retail",
     "regionGroup": "greatlakes",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Natives%20in%20Harmony%204652%20Township%20Road%20179%2C%20Marengo%2C%20OH%2043334"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Natives%20in%20Harmony%204652%20Township%20Road%20179%2C%20Marengo%2C%20OH%2043334",
+    "nativeSummary": "An Ohio native nursery reporting 200-plus in-season species; its posted lists change as the season peaks."
   },
   {
     "id": "scioto-gardens",
@@ -3366,7 +3379,8 @@
     "category": "retail",
     "regionGroup": "greatlakes",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Scioto%20Gardens%203351%20State%20Route%2037%20W%2C%20Delaware%2C%20OH%2043015"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Scioto%20Gardens%203351%20State%20Route%2037%20W%2C%20Delaware%2C%20OH%2043015",
+    "nativeSummary": "Documented native perennials, trees, and shrubs share space with nonnative ornamentals; check species before choosing."
   },
   {
     "id": "archewild",
@@ -3786,7 +3800,8 @@
     "category": "retail",
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Carolina%20Wild%20Native%20Plant%20Nursery%20314%20Camellia%20Drive%2C%20Anderson%2C%20SC%2029625"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Carolina%20Wild%20Native%20Plant%20Nursery%20314%20Camellia%20Drive%2C%20Anderson%2C%20SC%2029625",
+    "nativeSummary": "Family-run nursery propagating South Carolina and Southeastern natives; state native-plant groups list it as a source."
   },
   {
     "id": "native-plants-to-the-people",
@@ -3822,7 +3837,8 @@
     "category": "seasonal",
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Plants%20to%20the%20People%20James%20Island%2C%20SC%20%28weekly%20sale%20and%20pickup%20locations%20vary%29"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Plants%20to%20the%20People%20James%20Island%2C%20SC%20%28weekly%20sale%20and%20pickup%20locations%20vary%29",
+    "nativeSummary": "Charleston-area habitat plants for pollinators and birds; sales and pickups rotate among public locations."
   },
   {
     "id": "roots-and-shoots-sc",
@@ -3858,7 +3874,8 @@
     "category": "retail",
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Roots%20%26%20Shoots%20Nursery%201108%20Wappoo%20Road%2C%20Charleston%2C%20SC%2029407"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Roots%20%26%20Shoots%20Nursery%201108%20Wappoo%20Road%2C%20Charleston%2C%20SC%2029407",
+    "nativeSummary": "Native plants and Southern fruits are specialties at this mixed-stock garden center."
   },
   {
     "id": "growild-tennessee",
@@ -3930,7 +3947,8 @@
     "category": "retail",
     "regionGroup": "appalachia",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Tennessee%20Naturescapes%202131%20Oliver%20Springs%20Highway%2C%20Clinton%2C%20TN%2037716"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Tennessee%20Naturescapes%202131%20Oliver%20Springs%20Highway%2C%20Clinton%2C%20TN%2037716",
+    "nativeSummary": "Tennessee native trees, shrubs, and wildflowers, with an online catalog through a shopping partner."
   },
   {
     "id": "earth-sangha",
@@ -4234,7 +4252,8 @@
     "focus": "vermont",
     "approx": true,
     "nativeTier": "specialist",
-    "regionGroup": "northeast"
+    "regionGroup": "northeast",
+    "nativeSummary": "Online source for native pollinator plants with local pickup near Fairfax; some naturalized species are also included."
   },
   {
     "id": "agrecol-native-nursery",
@@ -4265,7 +4284,8 @@
     "category": "delivery",
     "regionGroup": "greatlakes",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Agrecol%20Native%20Nursery%2010101%20N%20Casey%20Road%2C%20Evansville%2C%20WI%2053536"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Agrecol%20Native%20Nursery%2010101%20N%20Casey%20Road%2C%20Evansville%2C%20WI%2053536",
+    "nativeSummary": "Regional native seeds and plants; confirm whether a specific order is retail, wholesale, or pickup-only."
   },
   {
     "id": "prairie-nursery-wi",
@@ -4297,7 +4317,8 @@
     "category": "delivery",
     "regionGroup": "greatlakes",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Prairie%20Nursery%20Westfield%2C%20WI%2053964%20%28online%20retailer%3B%20confirm%20pickup%20arrangements%29"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Prairie%20Nursery%20Westfield%2C%20WI%2053964%20%28online%20retailer%3B%20confirm%20pickup%20arrangements%29",
+    "nativeSummary": "Retail selection spans Midwest wildflowers, grasses, sedges, shrubs, seeds, and garden plans."
   },
   {
     "id": "appalachian-headwaters-native-plants",
@@ -4998,7 +5019,8 @@
     "regionGroup": "plains",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wilber%E2%80%99s%20Seed%20Solutions%20800%20N%20Broadway%2C%20Miller%2C%20SD%2057362",
-    "websiteLabel": "Native supplier directory profile (no seller website located)"
+    "websiteLabel": "Native supplier directory profile (no seller website located)",
+    "nativeSummary": "A supplier profile estimates about half the inventory is native; the current catalog and sales terms need confirmation."
   },
   {
     "id": "brushwolf-prairies",
@@ -5914,7 +5936,8 @@
     "category": "retail",
     "regionGroup": "greatlakes",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Mother%20Earth%20Gardens%203738%2042nd%20Ave%20S%2C%20Minneapolis%2C%20MN%2055406"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Mother%20Earth%20Gardens%203738%2042nd%20Ave%20S%2C%20Minneapolis%2C%20MN%2055406",
+    "nativeSummary": "Retail garden center touts a large Twin Cities native selection; Minnesota DNR also lists it as a source."
   },
   {
     "id": "new-roots-landscaping-nursery",
@@ -6070,7 +6093,8 @@
     "category": "seasonal",
     "regionGroup": "northeast",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=CW%20Native%20Plant%20Farm%2012288%20Tonawanda%20Creek%20Road%2C%20Akron%2C%20NY%2014001"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=CW%20Native%20Plant%20Farm%2012288%20Tonawanda%20Creek%20Road%2C%20Akron%2C%20NY%2014001",
+    "nativeSummary": "Wild Ones Western New York lists this regional native nursery; check its current catalog and availability."
   },
   {
     "id": "wilson-native-plant-nursery",
@@ -6258,7 +6282,8 @@
     "category": "seasonal",
     "regionGroup": "plains",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Midwest%20Natives%20Nursery%204200%20S%201st%20Street%2C%20Lincoln%2C%20NE%2068502"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Midwest%20Natives%20Nursery%204200%20S%201st%20Street%2C%20Lincoln%2C%20NE%2068502",
+    "nativeSummary": "Great Plains wildflowers and grasses; its spring list documents local seed sources and a broad species range."
   },
   {
     "id": "sprig-native-plant-nursery",
@@ -6570,7 +6595,8 @@
     "category": "seasonal",
     "regionGroup": "greatlakes",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Mad%20Farmers%20Collective%202048%20S%20Meridian%20Street%2C%20Indianapolis%2C%20IN%2046225"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Mad%20Farmers%20Collective%202048%20S%20Meridian%20Street%2C%20Indianapolis%2C%20IN%2046225",
+    "nativeSummary": "Its native collection highlights trees and shrubs; Indiana Native Plant Society also lists the seller."
   },
   {
     "id": "white-river-nursery",
@@ -6938,7 +6964,8 @@
     "category": "retail",
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=GROW%20HUB%202900%20NE%208th%20Avenue%2C%20Gainesville%2C%20FL%2032641"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=GROW%20HUB%202900%20NE%208th%20Avenue%2C%20Gainesville%2C%20FL%2032641",
+    "nativeSummary": "Public nursery in Alachua focused on plants suited to local conditions, including Florida natives."
   },
   {
     "id": "notestein-native-nursery",
@@ -7150,7 +7177,8 @@
     "category": "delivery",
     "regionGroup": "greatlakes",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Hidden%20Savanna%20Nursery%20100%20N%20Van%20Kal%20Street%2C%20Kalamazoo%2C%20MI%2049009"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Hidden%20Savanna%20Nursery%20100%20N%20Van%20Kal%20Street%2C%20Kalamazoo%2C%20MI%2049009",
+    "nativeSummary": "Xerces describes more than 300 regional species, mostly Michigan genotypes; check the current sale calendar."
   },
   {
     "id": "kansas-plant-farm",
@@ -7586,7 +7614,8 @@
     "category": "delivery",
     "regionGroup": "midatlantic",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Laurel%20Field%20Company%20Native%20Plant%20Nursery%20Hagerstown%2C%20MD%20%28nursery%20based%20in%20the%20city%3B%20confirm%20pickup%20details%29"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Laurel%20Field%20Company%20Native%20Plant%20Nursery%20Hagerstown%2C%20MD%20%28nursery%20based%20in%20the%20city%3B%20confirm%20pickup%20details%29",
+    "nativeSummary": "Western Maryland natives suited to Appalachian landscapes, with local ecotypes prioritized when available."
   },
   {
     "id": "carsons-nurseries-springfield-mo",
@@ -10498,7 +10527,8 @@
     "category": "seasonal",
     "regionGroup": "greatlakes",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Artemis%20Growers%208274%20Grand%20River%20Avenue%2C%20Saranac%2C%20MI"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Artemis%20Growers%208274%20Grand%20River%20Avenue%2C%20Saranac%2C%20MI",
+    "nativeSummary": "Licensed native nursery near Grand Rapids with 100-plus Michigan species in a partner profile; its own site is under construction."
   },
   {
     "id": "bendy-stem-farm-dimondale",
@@ -13960,7 +13990,8 @@
     "category": "retail",
     "regionGroup": "south",
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Waugh%E2%80%99s%20Nursery%20Center%205012%20N%20Jackson%20Rd%2C%20Pharr%2C%20TX%2078577",
-    "nativeRange": "unverified"
+    "nativeRange": "unverified",
+    "nativeSummary": "Regional directory listing without a current species list; call to ask which local natives are available."
   },
   {
     "id": "salem-native-nursery-ma",
@@ -13991,7 +14022,8 @@
     "category": "seasonal",
     "regionGroup": "northeast",
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Salem+Native+Nursery+Splaine+Park+Salem+MA",
-    "nativeRange": "wide"
+    "nativeRange": "wide",
+    "nativeSummary": "Seasonal list spans native perennials, trees, shrubs, and vines, including New England aster, winterberry, and wild bergamot."
   },
   {
     "id": "round-rock-garden-center",
@@ -14022,7 +14054,8 @@
     "category": "retail",
     "regionGroup": "south",
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Round+Rock+Garden+Center+901+Sam+Bass+Road+Round+Rock+TX",
-    "nativeRange": "select"
+    "nativeRange": "select",
+    "nativeSummary": "Native Texas plants share the catalog with tropical and indoor stock; the site does not claim a native-only inventory."
   },
   {
     "id": "roots-and-shoots-nursery-charleston",
@@ -14053,7 +14086,8 @@
     "category": "retail",
     "regionGroup": "south",
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Roots+and+Shoots+Nursery+1108+Wappoo+Road+Charleston+SC",
-    "nativeRange": "wide"
+    "nativeRange": "wide",
+    "nativeSummary": "Native plants and Southern fruits are specialties; the nursery posts current availability and native garden packages."
   },
   {
     "id": "nearly-wild-native-flowers",
@@ -14784,7 +14818,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Autumn%20Hill%20Nursery%204256%20Earney%20Road%2C%20Woodstock%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Autumn%20Hill%20Nursery%204256%20Earney%20Road%2C%20Woodstock%2C%20GA",
+    "nativeSummary": "Woodstock, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "beech-hollow-farms-intown",
@@ -14815,7 +14850,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Beech%20Hollow%20Farms%20%E2%80%94%20Intown%20389%20North%20Clarendon%20Avenue%2C%20Scottdale%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Beech%20Hollow%20Farms%20%E2%80%94%20Intown%20389%20North%20Clarendon%20Avenue%2C%20Scottdale%2C%20GA",
+    "nativeSummary": "Scottdale, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "buck-jones-nursery",
@@ -14846,7 +14882,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Buck%20Jones%20Nursery%20689%20Grayson%20New%20Hope%20Road%2C%20Lawrenceville%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Buck%20Jones%20Nursery%20689%20Grayson%20New%20Hope%20Road%2C%20Lawrenceville%2C%20GA",
+    "nativeSummary": "Lawrenceville, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "florabundance-gardens-native-plant-nursery",
@@ -14877,7 +14914,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Florabundance%20Gardens%20Native%20Plant%20Nursery%20Darien%2C%20GA%20(mailing%20address%20only%20in%20directory)"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Florabundance%20Gardens%20Native%20Plant%20Nursery%20Darien%2C%20GA%20(mailing%20address%20only%20in%20directory)",
+    "nativeSummary": "Darien, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "garden-delights-lazy-k-nursery",
@@ -14908,7 +14946,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Garden%20Delights%20%2F%20Lazy%20K%20Nursery%20705%20Wright%20Road%2C%20Pine%20Mountain%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Garden%20Delights%20%2F%20Lazy%20K%20Nursery%20705%20Wright%20Road%2C%20Pine%20Mountain%2C%20GA",
+    "nativeSummary": "Pine Mountain, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "gardens-of-the-blue-ridge",
@@ -14939,7 +14978,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Gardens%20of%20the%20Blue%20Ridge%20565%20General%20Daniel%20Avenue%20North%2C%20Danielsville%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Gardens%20of%20the%20Blue%20Ridge%20565%20General%20Daniel%20Avenue%20North%2C%20Danielsville%2C%20GA",
+    "nativeSummary": "Danielsville, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "gsu-pc-native-botanical-garden",
@@ -14970,7 +15010,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=GSU%20PC%20Native%20Botanical%20Garden%203251%20Panthersville%20Road%2C%20Decatur%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=GSU%20PC%20Native%20Botanical%20Garden%203251%20Panthersville%20Road%2C%20Decatur%2C%20GA",
+    "nativeSummary": "Decatur, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "kinsey-family-farm",
@@ -15001,7 +15042,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Kinsey%20Family%20Farm%207140%20Jot-em%20Down%20Road%2C%20Gainesville%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Kinsey%20Family%20Farm%207140%20Jot-em%20Down%20Road%2C%20Gainesville%2C%20GA",
+    "nativeSummary": "Gainesville, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "little-creek-farm-nursery",
@@ -15032,7 +15074,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Little%20Creek%20Farm%20Nursery%20774%20Seals%20Road%2C%20Dallas%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Little%20Creek%20Farm%20Nursery%20774%20Seals%20Road%2C%20Dallas%2C%20GA",
+    "nativeSummary": "Dallas, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "mail-order-natives",
@@ -15063,7 +15106,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Mail%20Order%20Natives%20PO%20Box%209343%2C%20Lee%2C%20FL"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Mail%20Order%20Natives%20PO%20Box%209343%2C%20Lee%2C%20FL",
+    "nativeSummary": "Lee, FL provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "native-forest-nursery",
@@ -15094,7 +15138,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Forest%20Nursery%2011306%20Highway%20411%20South%2C%20Chatsworth%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Forest%20Nursery%2011306%20Highway%20411%20South%2C%20Chatsworth%2C%20GA",
+    "nativeSummary": "Chatsworth, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "natives-by-john",
@@ -15126,7 +15171,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Natives%20by%20John%20Roswell%2C%20GA%3B%20event%20and%20appointment%20locations%20vary"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Natives%20by%20John%20Roswell%2C%20GA%3B%20event%20and%20appointment%20locations%20vary",
+    "nativeSummary": "Roswell, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "growild-inc",
@@ -15157,7 +15203,8 @@
     ],
     "regionGroup": "appalachia",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=GroWild%2C%20Inc.%207190%20Hill%20Hughes%20Road%2C%20Fairview%2C%20TN"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=GroWild%2C%20Inc.%207190%20Hill%20Hughes%20Road%2C%20Fairview%2C%20TN",
+    "nativeSummary": "Fairview, TN provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "planted-wellness-co",
@@ -15189,7 +15236,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Planted%20Wellness%20Co.%20Marietta%20area%3B%20online%20ordering%20and%20seasonal%20sales"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Planted%20Wellness%20Co.%20Marietta%20area%3B%20online%20ordering%20and%20seasonal%20sales",
+    "nativeSummary": "Marietta, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "servescape",
@@ -15221,7 +15269,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=ServeScape%203708%20North%20Peachtree%20Road%2C%20Atlanta%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=ServeScape%203708%20North%20Peachtree%20Road%2C%20Atlanta%2C%20GA",
+    "nativeSummary": "Atlanta, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "spirit-tree-farms",
@@ -15252,7 +15301,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Spirit%20Tree%20Farms%20514%20Old%20Hickory%20Lane%2C%20Ringgold%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Spirit%20Tree%20Farms%20514%20Old%20Hickory%20Lane%2C%20Ringgold%2C%20GA",
+    "nativeSummary": "Ringgold, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "swallowtail-center",
@@ -15283,7 +15333,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Swallowtail%20Center%20617%20Clairmont%20Circle%2C%20Decatur%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Swallowtail%20Center%20617%20Clairmont%20Circle%2C%20Decatur%2C%20GA",
+    "nativeSummary": "Decatur, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "trunks-and-bloomers",
@@ -15314,7 +15365,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Trunks%20and%20Bloomers%202128%20Old%20Coffee%20Road%2C%20Barney%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Trunks%20and%20Bloomers%202128%20Old%20Coffee%20Road%2C%20Barney%2C%20GA",
+    "nativeSummary": "Barney, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "twin-branch-nursery",
@@ -15345,7 +15397,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Twin%20Branch%20Nursery%201169%20West%20Wylie%20Bridge%20Road%2C%20Woodstock%2C%20GA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Twin%20Branch%20Nursery%201169%20West%20Wylie%20Bridge%20Road%2C%20Woodstock%2C%20GA",
+    "nativeSummary": "Woodstock, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "id": "wild-roots-native-nursery",
@@ -15377,7 +15430,8 @@
     ],
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wild%20Roots%20Native%20Nursery%20Stockbridge%20%2F%20Tucker%20area%3B%20confirm%20sales%20location%20before%20visiting"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wild%20Roots%20Native%20Nursery%20Stockbridge%20%2F%20Tucker%20area%3B%20confirm%20sales%20location%20before%20visiting",
+    "nativeSummary": "Stockbridge / Tucker, GA provider listed by Georgia Native Plant Society; ask about native species and plant origins."
   },
   {
     "borough": "",
@@ -15413,7 +15467,8 @@
       }
     ],
     "regionGroup": "south",
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Backhouse%20Garden%2040%20James%20Jarrell%20Road%2C%20Carriere%2C%20MS%2039426"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Backhouse%20Garden%2040%20James%20Jarrell%20Road%2C%20Carriere%2C%20MS%2039426",
+    "nativeSummary": "Mississippi Native Plant Society and Wild Ones list it; a chapter profile reports 80% native plants, seed, and plugs."
   },
   {
     "borough": "",
@@ -15753,7 +15808,8 @@
       }
     ],
     "regionGroup": "south",
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Lichterman%20Nature%20Center%20Native%20Plant%20Sales%205992%20Quince%20Road%2C%20Memphis%2C%20TN%2038119"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Lichterman%20Nature%20Center%20Native%20Plant%20Sales%205992%20Quince%20Road%2C%20Memphis%2C%20TN%2038119",
+    "nativeSummary": "The museum greenhouse grows plants for an annual spring sale, with additional native sales at its propagation center."
   },
   {
     "borough": "",
@@ -15861,7 +15917,8 @@
       }
     ],
     "regionGroup": "pacific",
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Pollinator%20Project%20Rogue%20Valley%20Native%20Plant%20Nursery%20The%20Pollination%20Place%2C%20312%20North%20Main%20Street%2C%20Phoenix%2C%20OR%2097535"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Pollinator%20Project%20Rogue%20Valley%20Native%20Plant%20Nursery%20The%20Pollination%20Place%2C%20312%20North%20Main%20Street%2C%20Phoenix%2C%20OR%2097535",
+    "nativeSummary": "The nonprofit grows thousands of natives for spring and fall public sales; check event dates for current stock."
   },
   {
     "borough": "",
@@ -16213,7 +16270,8 @@
       }
     ],
     "regionGroup": "midatlantic",
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Yellow%20House%20Natives%20569%20Sipe%20Hollow%20Lane%2C%20Berryville%2C%20VA"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Yellow%20House%20Natives%20569%20Sipe%20Hollow%20Lane%2C%20Berryville%2C%20VA",
+    "nativeSummary": "Virginia Native Plant Society lists this native perennial grower, but its 2022 details need an operating-status check."
   },
   {
     "borough": "",
@@ -17073,6 +17131,7 @@
     "category": "delivery",
     "focus": "colorado",
     "approx": true,
-    "regionGroup": "mountainwest"
+    "regionGroup": "mountainwest",
+    "nativeSummary": "Community-suggested Colorado native seller with online orders and local pickup; current native inventory still needs confirmation."
   }
 ]
