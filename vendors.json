@@ -2048,42 +2048,6 @@
     "regionGroup": "midatlantic"
   },
   {
-    "id": "cedar-grove-garden-center",
-    "name": "Cedar Grove Garden Center",
-    "area": "Cedar Grove",
-    "borough": "Essex County",
-    "state": "NJ",
-    "address": "1201 Pompton Avenue, Cedar Grove, NJ 07009",
-    "lat": 40.8561,
-    "lng": -74.2288,
-    "access": "Retail garden center; outdoor plant selection",
-    "native": "unverified",
-    "nativeBasis": "The available website and listings describe a broad garden-center inventory, but I found no current species-level catalog that establishes which trees, shrubs or perennials are native. Remains an unverified lead; ask for botanical names before treating any stock as native.",
-    "availability": "Added as a nearby in-person lead; ask staff about locally native species and provenance.",
-    "reviewNote": "Local coverage notes an established garden center and general plant selection; no native-specific customer review surfaced.",
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Cedar+Grove+Garden+Center+1201+Pompton+Avenue+Cedar+Grove+NJ",
-    "website": "https://www.cedargrovegarden.com/",
-    "sources": [
-      {
-        "label": "New Jersey state nursery directory",
-        "url": "https://www.nj.gov/cgi-bin/agriculture/jerseygrown/gcnsearch.pl?county1=essex"
-      },
-      {
-        "label": "Local garden-center guide",
-        "url": "https://www.themontclairgirl.com/garden-plant-shops-nurseries-north-jersey/"
-      },
-      {
-        "label": "Garden center website",
-        "url": "https://www.cedargrovegarden.com/"
-      }
-    ],
-    "category": "candidate",
-    "focus": "montclair",
-    "approx": false,
-    "nativeTier": "unverified",
-    "regionGroup": "midatlantic"
-  },
-  {
     "id": "condursos",
     "name": "Condurso’s Garden Center",
     "area": "Montville",
@@ -2549,28 +2513,40 @@
     "address": "480 Hempstead Avenue, Malverne, NY 11565 · at Crossroads Farm",
     "lat": 40.6768,
     "lng": -73.6724,
-    "access": "Native plant nursery; confirm hours and public sales before visiting",
+    "access": "Seasonal public nursery sales; final week of the 2026 season was announced for early November. Check the seller’s current calendar before traveling.",
     "native": "confirmed",
     "nativeBasis": "The business identifies itself as a native plant nursery and lists a nursery address at Crossroads Farm.",
-    "availability": "The business notes that its hours differ from Crossroads Farm’s; contact or check its social channels before a trip.",
+    "availability": "Dropseed’s 2026 plant list and fall nursery hours document a broad Long Island native selection, including potted stock and bare-root plants. Public sales are seasonal.",
     "reviewNote": "Its site notes a 2026 Best of Long Island award, but no independent customer-review detail was added here.",
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Dropseed+Native+Landscapes+480+Hempstead+Ave+Malverne+NY",
     "website": "https://www.dropseednativelandscapesli.com/",
     "sources": [
       {
-        "label": "Nursery address and native-plant focus",
+        "label": "Dropseed 2026 plant list and nursery hours",
         "url": "https://www.dropseednativelandscapesli.com/"
       },
       {
-        "label": "Audubon native plant resource listing",
-        "url": "https://www.audubon.org/native-plants/local-resources?zipcode=10301"
+        "label": "Dropseed Native Landscapes",
+        "url": "https://www.dropseednativelandscapesli.com/"
       }
     ],
     "category": "retail",
     "focus": "longisland",
     "approx": false,
     "nativeTier": "specialist",
-    "regionGroup": "northeast"
+    "regionGroup": "northeast",
+    "fieldReports": [
+      {
+        "id": "community-dropseed-2026-09-01",
+        "type": "purchased",
+        "typeLabel": "Purchased · community report",
+        "plantNames": "Asters, coneflowers, coreopsis, grasses, native ferns, Virginia creeper and other native vines, Helianthus, native azaleas, blueberries, bee balm, dogwoods, elderberries, pawpaws, native pines, native orchids, sunchokes, plus larger potted plants, starter plants and bare-root stock.",
+        "note": "The visitor reported that many plants were sourced from the Northeast, especially Long Island and Connecticut, with some plants grown by the nursery. They also noted seasonal promotions and an end-of-season sale. Inventory, provenance and pricing change; contact the nursery to confirm what is currently available.",
+        "displayName": "Community visitor",
+        "observedOn": "2026-09-01",
+        "submittedAt": "2026-11-05"
+      }
+    ]
   },
   {
     "id": "flower-power-red-hook",
@@ -12098,30 +12074,30 @@
     "area": "Richmond",
     "borough": "",
     "state": "VA",
-    "address": "Richmond, VA",
+    "address": "114 Pember Lane, Richmond, VA 23224",
     "lat": 37.5407,
     "lng": -77.436,
-    "access": "Seasonal sale or appointment access; check the linked source before traveling.",
+    "access": "In-person sales Saturdays 9am–1pm; pickups Monday and Thursday. Check the current inventory and schedule before traveling.",
     "native": "confirmed",
     "nativeTier": "specialist",
     "nativeRange": "select",
     "nativeBasis": "Virginia Native Plant Society lists this native plant source.",
-    "availability": "Native stock and access may vary by season; confirm directly before visiting or ordering.",
+    "availability": "Current seller information lists Saturday sales from 9am to 1pm and pickup Mondays and Thursdays at 114 Pember Lane.",
     "reviewNote": "The linked source documents the native offering. Ask about species, provenance, and current availability. Pins are approximate when an exact visitor address is not published.",
     "website": "https://goodseednatives.com/",
     "sources": [
       {
-        "label": "Virginia Native Plant Society nursery list",
-        "url": "https://vnps.org/native-plant-nursery-list/"
+        "label": "Good Seed Natives inventory and visit details",
+        "url": "https://www.goodseednatives.com/#inventory"
       },
       {
-        "label": "Seller or contact page",
-        "url": "https://goodseednatives.com/"
+        "label": "Virginia Native Plant Society listing",
+        "url": "https://vnps.org/native-plant-nursery-list/"
       }
     ],
     "category": "seasonal",
     "regionGroup": "midatlantic",
-    "approx": true,
+    "approx": false,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Good%20Seed%20Natives%20Richmond%2C%20VA"
   },
   {
@@ -13318,22 +13294,22 @@
     "lat": 34.49,
     "lng": -89.01,
     "approx": true,
-    "access": "Retail and online orders; Monday–Saturday hours posted",
+    "access": "Retail and online orders; Monday–Saturday hours are posted by the seller. Confirm current stock and hours before visiting.",
     "native": "confirmed",
     "nativeTier": "specialist",
     "nativeRange": "wide",
     "nativeBasis": "Catalog lists native species including milkweeds, beautyberry, wild petunia, sweetshrub, and native trees and shrubs.",
-    "availability": "Stock and access can change seasonally; confirm availability directly before traveling.",
+    "availability": "The nursery sells southeastern native plants from its New Albany location and online. Check the seller's current schedule and inventory before traveling.",
     "reviewNote": "Seller page and linked native-plant source checked; live inventory was not independently verified.",
     "website": "https://www.campcreeknativeplants.com/",
     "sources": [
       {
-        "label": "Seller website",
+        "label": "Camp Creek Native Plants",
         "url": "https://www.campcreeknativeplants.com/"
       },
       {
-        "label": "Additional source",
-        "url": "https://www.mississippinativeplantsociety.org/native-plant-resources.html"
+        "label": "Plant availability",
+        "url": "https://www.campcreeknativeplants.com/"
       }
     ],
     "category": "retail",
@@ -14117,26 +14093,26 @@
     "area": "Auburn",
     "borough": "Lee County",
     "state": "AL",
-    "address": "3938 Cotton Valley Lane, Auburn, AL",
+    "address": "3938 Cotton Valley Lane, Auburn, AL 36830",
     "lat": 32.59,
     "lng": -85.49,
-    "approx": true,
-    "access": "Retail nursery; winter access by appointment—check current hours",
+    "approx": false,
+    "access": "Retail Wednesday–Friday 9am–2pm and Saturday 9am–3pm; appointment access is available. Check seasonal hours before traveling.",
     "native": "confirmed",
     "nativeTier": "specialist",
     "nativeRange": "wide",
     "nativeBasis": "The nursery describes its retail offering as native plants adapted to Southeastern gardens.",
-    "availability": "Check current hours and inventory directly before visiting.",
+    "availability": "The seller lists public hours Wednesday through Friday, 9am–2pm, and Saturday, 9am–3pm; appointment visits are also available.",
     "reviewNote": "The seller describes its Auburn retail nursery and native plant inventory.",
     "website": "https://nemophilynatives.com/",
     "sources": [
       {
-        "label": "Official nursery website",
-        "url": "https://nemophilynatives.com/"
+        "label": "Nemophily Natives contact and hours",
+        "url": "https://nemophilynatives.com/contact/"
       },
       {
-        "label": "Nursery contact and address",
-        "url": "https://nemophilynatives.com/contact-us"
+        "label": "Current native plant availability",
+        "url": "https://nemophilynatives.com/available-plants"
       }
     ],
     "category": "retail",
@@ -15444,10 +15420,10 @@
     "native": "confirmed",
     "nativeTier": "specialist",
     "nativeRange": "wide",
-    "access": "Retail nursery; check the seller's current hours before visiting.",
-    "availability": "Check the seller's current hours, sales dates, and stock before traveling.",
+    "access": "Seasonal public hours April 1–October 31: Thursdays and Saturdays, 10am–6pm; appointments may be available. Closed for the 2026 season.",
+    "availability": "The seller publishes seasonal hours April through October, Thursdays and Saturdays, 10am–6pm. Confirm next season's opening date before traveling.",
     "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
-    "approx": true,
+    "approx": false,
     "category": "retail",
     "id": "leaves-for-wildlife-oh",
     "name": "Leaves for Wildlife Native Plant Nursery",
@@ -15460,16 +15436,12 @@
     "website": "https://www.leavesforwildlife.com/",
     "sources": [
       {
-        "label": "Seller website",
+        "label": "Leaves for Wildlife contact and seasonal hours",
+        "url": "https://www.leavesforwildlife.com/contact"
+      },
+      {
+        "label": "Current inventory",
         "url": "https://www.leavesforwildlife.com/"
-      },
-      {
-        "label": "Ohio Native Plant Month",
-        "url": "https://ohionativeplantmonth.squarespace.com/native-plant-sources"
-      },
-      {
-        "label": "Community suggestion in the Reddit thread",
-        "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
       }
     ],
     "regionGroup": "greatlakes",
@@ -16686,5 +16658,351 @@
     ],
     "regionGroup": "northeast",
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Full%20Circle%20Gardens%2068%20Brigham%20Hill%20Road%2C%20Essex%2C%20VT%2005452"
+  },
+  {
+    "id": "knotty-by-nature-natives",
+    "name": "Knotty by Nature Natives",
+    "area": "Durham",
+    "borough": "Durham County",
+    "state": "NC",
+    "address": "5917 Mount Hermon Church Road, Durham, NC 27705",
+    "lat": 36.062,
+    "lng": -78.979,
+    "access": "Seasonal spring and fall nursery sales; pickup by appointment outside public events. Confirm event dates before traveling.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Native plant nursery offering North Carolina native plants; the nursery is open to visitors at scheduled events or by appointment.",
+    "availability": "The seller offers seasonal Spring and Fall sales and appointment pickup. Check its current events and shop pages before traveling.",
+    "reviewNote": "Native nursery and current sales information are documented on the seller's website and by the North Carolina Native Plant Society.",
+    "website": "https://www.knottybynaturetrees.com/",
+    "sources": [
+      {
+        "label": "Official plant shop",
+        "url": "https://www.knottybynaturetrees.com/category/all-products"
+      },
+      {
+        "label": "Official events",
+        "url": "https://www.knottybynaturetrees.com/events"
+      },
+      {
+        "label": "North Carolina Native Plant Society supplier profile",
+        "url": "https://ncwildflower.org/native-plant-nurseries/"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "appalachia",
+    "approx": true
+  },
+  {
+    "id": "ohio-native-habitat-nursery",
+    "name": "Ohio Native Habitat Nursery",
+    "area": "Avon",
+    "borough": "Lorain County",
+    "state": "OH",
+    "address": "4645 Jaycox Road, Suite 103, Avon, OH 44011",
+    "lat": 41.466,
+    "lng": -82.019,
+    "access": "Retail nursery and order pickup; check weekly availability and business hours before visiting.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Native nursery listing native trees, shrubs, perennials, grasses and sedges for home and professional landscapes.",
+    "availability": "The seller posts a weekly availability list and accepts orders for pickup; visitors may also shop during posted business hours. Confirm current stock before making a trip.",
+    "reviewNote": "The nursery's current website documents its location, native selection and weekly availability.",
+    "website": "https://ohio-nhn.com/",
+    "sources": [
+      {
+        "label": "Ohio Native Habitat Nursery",
+        "url": "https://ohio-nhn.com/"
+      },
+      {
+        "label": "Weekly plant availability",
+        "url": "https://ohio-nhn.com/availability/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "greatlakes",
+    "approx": false
+  },
+  {
+    "id": "stanleys-greenhouse",
+    "name": "Stanley’s Greenhouse",
+    "area": "Knoxville",
+    "borough": "Knox County",
+    "state": "TN",
+    "address": "3029 Davenport Road, Knoxville, TN 37920",
+    "lat": 35.922,
+    "lng": -83.903,
+    "access": "Retail greenhouse; native plants are part of a broader seasonal selection. Confirm current inventory and hours before visiting.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "The greenhouse's native-plant page documents native trees, shrubs and flowers within its broader plant selection.",
+    "availability": "A general retail greenhouse with a documented native-plant selection. Call ahead for current native species and stock.",
+    "reviewNote": "The seller publishes a native plant selection page and current visitor information.",
+    "website": "https://www.stanleysgreenhouse.com/",
+    "sources": [
+      {
+        "label": "Stanley’s Greenhouse",
+        "url": "https://www.stanleysgreenhouse.com/"
+      },
+      {
+        "label": "Native plants",
+        "url": "https://www.stanleysgreenhouse.com/native-plants"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "appalachia",
+    "approx": false
+  },
+  {
+    "id": "feral-flora",
+    "name": "Feral Flora",
+    "area": "Ann Arbor",
+    "borough": "Washtenaw County",
+    "state": "MI",
+    "address": "3825 Nixon Road, Ann Arbor, MI 48105",
+    "lat": 42.331,
+    "lng": -83.694,
+    "access": "Seasonal public plant sales, farm-stand offerings and scheduled pickup; the growing nursery is not open for unscheduled walk-in visits. 2026 pickup season has ended.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "A native and wild-type plant grower offering public seasonal sales, scheduled pickup and selected plants at a partner farm stand.",
+    "availability": "The seller announces seasonal pickup and sale windows. Its 2026 pickup period ended November 7; check the current calendar for the next season.",
+    "reviewNote": "Current seller pages document public sales and pickup access, while noting the production nursery itself is not open to the public.",
+    "website": "https://www.feral-flora.com/",
+    "sources": [
+      {
+        "label": "Feral Flora order and pickup information",
+        "url": "https://www.feral-flora.com/"
+      },
+      {
+        "label": "Feral Flora seasonal catalog",
+        "url": "https://www.feral-flora.com/"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "greatlakes",
+    "approx": false
+  },
+  {
+    "id": "moulton-hot-natives",
+    "name": "Moulton Hot Natives",
+    "area": "Richmond",
+    "borough": "Richmond City",
+    "state": "VA",
+    "address": "Richmond area · porch pickup by arrangement",
+    "lat": 37.5407,
+    "lng": -77.436,
+    "access": "Appointment-based porch pickup and seasonal open houses; confirm current dates and pickup instructions before traveling.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "select",
+    "nativeBasis": "Local ecotype native plants offered through a Richmond-area small grower and seasonal sales.",
+    "availability": "Public listings describe seasonal open houses and appointment pickup. No public retail address is listed.",
+    "reviewNote": "Seller shop and plant availability are linked; this is a pickup lead, not a walk-in nursery.",
+    "website": "https://moultonhotnatives.square.site/",
+    "sources": [
+      {
+        "label": "Moulton Hot Natives shop",
+        "url": "https://moultonhotnatives.square.site/"
+      },
+      {
+        "label": "Current native plant listings",
+        "url": "https://moultonhotnatives.square.site/shop/RVAnativeplants/4"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "midatlantic",
+    "approx": true
+  },
+  {
+    "id": "lern-rva",
+    "name": "LERN RVA",
+    "area": "Richmond",
+    "borough": "Richmond City",
+    "state": "VA",
+    "address": "4300 Eanes Lane, Richmond, VA · scheduled sales and pickup",
+    "lat": 37.516,
+    "lng": -77.428,
+    "access": "Community native plant sales are limited to announced sale dates and scheduled pickup; private farm property is not open for unscheduled visits.",
+    "native": "confirmed",
+    "nativeTier": "community",
+    "nativeRange": "select",
+    "nativeBasis": "A community native plant growing project that raises local plants from seed collected from nearby wild populations.",
+    "availability": "LERN RVA primarily uses preorders and scheduled pickup, with limited public sales. Consult the current sale calendar and respect private-property access.",
+    "reviewNote": "The organization documents its local seed origin, public plant sales and scheduled pickup model.",
+    "website": "https://www.lern-rva.org/",
+    "sources": [
+      {
+        "label": "LERN RVA official website and sale information",
+        "url": "https://www.lern-rva.org/"
+      },
+      {
+        "label": "LERN RVA native plant resources",
+        "url": "https://www.lern-rva.org/resources"
+      }
+    ],
+    "category": "community",
+    "regionGroup": "midatlantic",
+    "approx": true
+  },
+  {
+    "id": "stover-mill-farm",
+    "name": "Stover Mill Farm",
+    "area": "Broad Run",
+    "borough": "Fauquier County",
+    "state": "VA",
+    "address": "5261 Trapp Branch Road, Broad Run, VA 20137",
+    "lat": 38.798,
+    "lng": -77.741,
+    "access": "Native plant farm visits and sales by appointment; schedule before traveling.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Family farm focused on native plants and locally sourced ecotypes; its inventory includes native perennials, shrubs and trees.",
+    "availability": "Visitors are welcome by appointment. Check the current plant inventory and arrange a visit before traveling.",
+    "reviewNote": "The farm’s current website documents its address, appointment access and native plant inventory.",
+    "website": "https://stovermillfarm.com/",
+    "sources": [
+      {
+        "label": "Stover Mill Farm visit information",
+        "url": "https://stovermillfarm.com/"
+      },
+      {
+        "label": "Native plant inventory",
+        "url": "https://stovermillfarm.com/find-native-plants/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "midatlantic",
+    "approx": false
+  },
+  {
+    "id": "friendship-farms-latrobe",
+    "name": "Friendship Farms Native Plant Nursery",
+    "area": "Latrobe",
+    "borough": "Westmoreland County",
+    "state": "PA",
+    "address": "147 Friendship Farm Lane, Latrobe, PA 15650",
+    "lat": 40.305,
+    "lng": -79.382,
+    "access": "Farm store and nursery retail; weekday and Saturday hours are posted by the seller. Confirm seasonal plant availability before visiting.",
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "nativeBasis": "The farm's native plant nursery offers native shrubs, trees and spring ephemerals alongside its broader farm store.",
+    "availability": "Native plants are listed as available year-round in the farm store. Confirm plant stock and the current store schedule before traveling.",
+    "reviewNote": "The seller's native nursery and contact pages document the address and current retail access.",
+    "website": "https://www.friendshipfarms.com/",
+    "sources": [
+      {
+        "label": "Friendship Farms Native Plant Nursery",
+        "url": "https://www.friendshipfarms.com/native-plant-nursery/"
+      },
+      {
+        "label": "Friendship Farms contact and store information",
+        "url": "https://www.friendshipfarms.com/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "midatlantic",
+    "approx": false
+  },
+  {
+    "id": "dry-creek-nursery",
+    "name": "Dry Creek Nursery",
+    "area": "Woodlake",
+    "borough": "Tulare County",
+    "state": "CA",
+    "address": "35220 Dry Creek Drive, Woodlake, CA 93286",
+    "lat": 36.414,
+    "lng": -119.102,
+    "access": "Public nursery hours Monday–Friday and the first two Saturdays of the month; closed Wednesdays, Sundays and holiday weekends. Check current hours before traveling.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "A public native-plant nursery focused on California native and drought-tolerant species, including plants native to the local area.",
+    "availability": "The nursery publishes weekday and first/second Saturday hours, with Wednesday and Sunday closures. Verify current hours and inventory before traveling.",
+    "reviewNote": "The nursery and Sequoia Riverlands Trust document the public sales site, native focus and posted hours.",
+    "website": "https://drycreeknursery.com/",
+    "sources": [
+      {
+        "label": "Dry Creek Nursery",
+        "url": "https://drycreeknursery.com/collections/dry-creek-nursery"
+      },
+      {
+        "label": "Sequoia Riverlands Trust nursery profile",
+        "url": "https://sequoiariverlands.org/dry-creek-nursery/"
+      }
+    ],
+    "category": "retail",
+    "regionGroup": "pacific",
+    "approx": false
+  },
+  {
+    "id": "tend-native-plants",
+    "name": "Tend Native Plants",
+    "area": "Blue Mounds",
+    "borough": "Dane County",
+    "state": "WI",
+    "address": "10663 West Blue Mounds Road, Blue Mounds, WI 53517",
+    "lat": 43.016,
+    "lng": -89.84,
+    "access": "Seasonal self-serve plant stand, pickup and appointment shopping. Closed for the season as of November 2026; check for next spring's opening.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "A grower offering pesticide-free native plants raised from seed for southern Wisconsin.",
+    "availability": "The seller announced its nursery closed for the season after the 2026 growing season. The plant stand and shopping access are seasonal.",
+    "reviewNote": "Current seller notices document seasonal operation and the next year's schedule; this is not a permanent closure.",
+    "website": "https://tendnativeplants.com/",
+    "sources": [
+      {
+        "label": "Tend Native Plants seasonal notice and catalog",
+        "url": "https://tendnativeplants.com/"
+      },
+      {
+        "label": "Tend Native Plants location and pickup",
+        "url": "https://tendnativeplants.com/"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "greatlakes",
+    "approx": false
+  },
+  {
+    "id": "chickadee-natives-folsom",
+    "name": "Chickadee Natives",
+    "area": "Folsom",
+    "borough": "St. Tammany Parish",
+    "state": "LA",
+    "address": "80272 Louisiana Highway 25, Folsom, LA",
+    "lat": 30.629,
+    "lng": -90.194,
+    "access": "Temporarily closed while expanding; the seller announces a planned reopening in Spring 2027. Do not travel until the seller confirms opening.",
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "nativeBasis": "Southeast Louisiana native plant nursery with forbs and woody species; reopening is announced for Spring 2027.",
+    "availability": "Not currently open for retail. The nursery's official site says it plans to reopen in Spring 2027 and offer weekly New Orleans delivery beginning in May.",
+    "reviewNote": "This is a forthcoming reopening, not an operating 2026 retail location. Check the official site for changes.",
+    "website": "https://www.chickadeenatives.com/",
+    "sources": [
+      {
+        "label": "Chickadee Natives reopening notice",
+        "url": "https://www.chickadeenatives.com/"
+      },
+      {
+        "label": "Chickadee Natives FAQ",
+        "url": "https://www.chickadeenatives.com/"
+      }
+    ],
+    "category": "seasonal",
+    "regionGroup": "south",
+    "approx": true,
+    "operatingStatus": "reopening 2027"
   }
 ]
