@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS vendor_reviews (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   vendor_id TEXT NOT NULL,
-  rating INTEGER NOT NULL CHECK (rating BETWEEN 1 AND 5),
+  rating INTEGER CHECK (rating IS NULL OR rating BETWEEN 1 AND 5),
   comment TEXT NOT NULL,
   display_name TEXT NOT NULL DEFAULT '',
   status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected')),
