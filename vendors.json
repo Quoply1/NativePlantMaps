@@ -16210,8 +16210,8 @@
   },
   {
     "borough": "",
-    "native": "unverified",
-    "nativeTier": "unverified",
+    "native": "confirmed",
+    "nativeTier": "documented",
     "nativeRange": "select",
     "access": "Public retail garden center; community visitors report a substantial native selection, not independently verified here.",
     "availability": "Ask staff for Texas native species and current availability.",
@@ -16225,7 +16225,7 @@
     "address": "7700 Northaven Road, Dallas, TX 75230",
     "lat": 32.9,
     "lng": -96.8,
-    "nativeBasis": "Reddit visitors estimate that many plants are native, but the seller's current species-level inventory was not confirmed.",
+    "nativeBasis": "A Texas native plant specialist listed by the Native Plant Society of Texas and documented with current native stock.",
     "website": "https://nhg.com/nursery",
     "sources": [
       {
@@ -16235,10 +16235,19 @@
       {
         "label": "Community suggestion in the Reddit thread",
         "url": "https://www.reddit.com/r/NativePlantGardening/comments/1xos8bo/i_made_a_map_of_native_plant_nurseries_and_garden/"
+      },
+      {
+        "label": "Native Plant Society of Texas Dallas NICE partner list",
+        "url": "https://npsot.org/chapters/dallas/native-plant-partners/"
+      },
+      {
+        "label": "FieldForager species stock report",
+        "url": "https://fieldforager.com/"
       }
     ],
     "regionGroup": "south",
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=North%20Haven%20Gardens%207700%20Northaven%20Road%2C%20Dallas%2C%20TX%2075230"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=North%20Haven%20Gardens%207700%20Northaven%20Road%2C%20Dallas%2C%20TX%2075230",
+    "nativeSummary": "A Texas native plant specialist listed by the Native Plant Society of Texas and documented with current native stock."
   },
   {
     "borough": "",
@@ -17133,5 +17142,522 @@
     "approx": true,
     "regionGroup": "mountainwest",
     "nativeSummary": "Community-suggested Colorado native seller with online orders and local pickup; current native inventory still needs confirmation."
+  },
+  {
+    "id": "northwind-perennial-farm",
+    "name": "Northwind Perennial Farm",
+    "area": "Burlington",
+    "state": "WI",
+    "address": "7047 Hospital Road, Burlington, WI 53105",
+    "lat": 42.648,
+    "lng": -88.276,
+    "access": "Seasonal retail nursery; check current hours and availability before visiting.",
+    "website": "https://www.northwindperennialfarm.com/",
+    "category": "retail",
+    "native": "confirmed",
+    "nativeBasis": "A Wisconsin perennial grower with native plants in its current catalog and regional nursery listings.",
+    "nativeSummary": "A Wisconsin perennial grower with native plants in its current catalog and regional nursery listings.",
+    "availability": "Seasonal; contact the farm for current hours and plant availability.",
+    "reviewNote": "A Wisconsin perennial grower with native plants in its current catalog and regional nursery listings.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Northwind%20Perennial%20Farm%207047%20Hospital%20Road%2C%20Burlington%2C%20WI%2053105",
+    "sources": [
+      {
+        "label": "2026 Northwind plant list",
+        "url": "https://www.northwindperennialfarm.com/appropriate-plant-list"
+      },
+      {
+        "label": "Midwest Native Plant Nurseries directory",
+        "url": "https://mipn.org/wp-content/uploads/2025/06/MIPN-Midwest-Native-Plant-Nurseries-Directory_MB2025.pdf"
+      },
+      {
+        "label": "Northwind perennial nursery details",
+        "url": "https://www.northwindperennialfarm.com/the-perennial-nursery"
+      }
+    ],
+    "nativeTier": "documented",
+    "regionGroup": "greatlakes",
+    "focus": "milwaukee",
+    "approx": false
+  },
+  {
+    "id": "sunrise-nursery-athens",
+    "name": "Sunrise Nursery",
+    "area": "Winterville",
+    "state": "GA",
+    "address": "550 Athens Road, Winterville, GA 30683",
+    "lat": 33.967,
+    "lng": -83.286,
+    "access": "Retail nursery; check current stock and hours before visiting.",
+    "website": "https://www.sunrisenursery.info/",
+    "category": "retail",
+    "native": "confirmed",
+    "nativeBasis": "A retail nursery with a documented native and pollinator plant selection, also featured in Georgia native plant sale resources.",
+    "nativeSummary": "A retail nursery with a documented native and pollinator plant selection, also featured in Georgia native plant sale resources.",
+    "availability": "Contact the nursery for current native selection and hours.",
+    "reviewNote": "A retail nursery with a documented native and pollinator plant selection, also featured in Georgia native plant sale resources.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Sunrise%20Nursery%20550%20Athens%20Road%2C%20Winterville%2C%20GA%2030683",
+    "sources": [
+      {
+        "label": "Sunrise Nursery native plant selection",
+        "url": "https://www.sunrisenursery.info/about"
+      },
+      {
+        "label": "Sunrise Nursery location and hours",
+        "url": "https://www.sunrisenursery.info/location"
+      },
+      {
+        "label": "Georgia Native Plant Society 2026 sale",
+        "url": "https://gnps.org/archive/PublishedNativeSCAPE/May2026Newsletter.html"
+      }
+    ],
+    "nativeTier": "documented",
+    "regionGroup": "south",
+    "focus": "athens",
+    "approx": false
+  },
+  {
+    "id": "state-botanical-garden-ga-sales",
+    "name": "State Botanical Garden of Georgia Garden Shop & Plant Sales",
+    "area": "Athens",
+    "state": "GA",
+    "address": "2450 S. Milledge Avenue, Athens, GA 30605",
+    "lat": 33.9,
+    "lng": -83.382,
+    "access": "Garden shop and scheduled native plant sales; selection and event dates vary.",
+    "website": "https://botgarden.uga.edu/",
+    "category": "seasonal",
+    "native": "confirmed",
+    "nativeBasis": "The garden shop carries native plants in season, and the garden hosts dedicated native plant sales.",
+    "nativeSummary": "The garden shop carries native plants in season, and the garden hosts dedicated native plant sales.",
+    "availability": "Seasonal access; confirm shop stock or event dates with the garden.",
+    "reviewNote": "The garden shop carries native plants in season, and the garden hosts dedicated native plant sales.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=State%20Botanical%20Garden%20of%20Georgia%20Garden%20Shop%20%26%20Plant%20Sales%202450%20S.%20Milledge%20Avenue%2C%20Athens%2C%20GA%2030605",
+    "sources": [
+      {
+        "label": "State Botanical Garden of Georgia",
+        "url": "https://botgarden.uga.edu/"
+      },
+      {
+        "label": "Georgia Native Plant Society 2026 fall sale listing",
+        "url": "https://gnps.org/fall-plant-sales-2026/"
+      },
+      {
+        "label": "Garden Shop at the State Botanical Garden",
+        "url": "https://www.visitathensga.com/listing/the-garden-shop-at-the-state-botanical-garden-of-georgia/603/"
+      }
+    ],
+    "nativeTier": "documented",
+    "regionGroup": "south",
+    "focus": "athens",
+    "approx": false
+  },
+  {
+    "id": "grow-native-nursery-california-botanic",
+    "name": "Grow Native Nursery at California Botanic Garden",
+    "area": "Claremont",
+    "state": "CA",
+    "address": "1500 N. College Avenue, Claremont, CA 91711",
+    "lat": 34.109,
+    "lng": -117.714,
+    "access": "Seasonal nursery sales; confirm current hours and inventory before visiting.",
+    "website": "https://www.calbg.org/grow-native-nursery/gnn",
+    "category": "seasonal",
+    "native": "confirmed",
+    "nativeBasis": "A public native plant nursery connected to California Botanic Garden, with plants suited to California gardens and restoration.",
+    "nativeSummary": "A public native plant nursery connected to California Botanic Garden, with plants suited to California gardens and restoration.",
+    "availability": "Seasonal sales, typically October through June; check the nursery calendar.",
+    "reviewNote": "A public native plant nursery connected to California Botanic Garden, with plants suited to California gardens and restoration.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Grow%20Native%20Nursery%20at%20California%20Botanic%20Garden%201500%20N.%20College%20Avenue%2C%20Claremont%2C%20CA%2091711",
+    "sources": [
+      {
+        "label": "Grow Native Nursery official page",
+        "url": "https://www.calbg.org/grow-native-nursery/gnn"
+      },
+      {
+        "label": "Xerces Society supplier profile",
+        "url": "https://xerces.org/native-plant-supplier/grow-native-nursery"
+      },
+      {
+        "label": "California Botanic Garden production nursery",
+        "url": "https://www.calbg.org/grow-native-nursery/production-nursery"
+      }
+    ],
+    "nativeTier": "specialist",
+    "regionGroup": "pacific",
+    "focus": "los-angeles",
+    "approx": false
+  },
+  {
+    "id": "pipilo-native-plants",
+    "name": "Pipilo Native Plants",
+    "area": "Charlo",
+    "state": "MT",
+    "address": "Pickup by arrangement near Charlo, MT",
+    "lat": 47.439,
+    "lng": -114.169,
+    "access": "Pickup or delivery by arrangement; contact the grower for the exact pickup location.",
+    "website": "https://www.pipilonatives.com/",
+    "category": "seasonal",
+    "native": "confirmed",
+    "nativeBasis": "Small nursery focused on locally collected native plants for western Montana, including shrubs, perennials and annuals.",
+    "nativeSummary": "Small nursery focused on locally collected native plants for western Montana, including shrubs, perennials and annuals.",
+    "availability": "Open seasonally, generally April through October; delivery and pickup by arrangement.",
+    "reviewNote": "Small nursery focused on locally collected native plants for western Montana, including shrubs, perennials and annuals.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Pipilo%20Native%20Plants%20Pickup%20by%20arrangement%20near%20Charlo%2C%20MT",
+    "sources": [
+      {
+        "label": "Pipilo Native Plants",
+        "url": "https://www.pipilonatives.com/"
+      },
+      {
+        "label": "Pipilo nursery information and pickup",
+        "url": "https://www.pipilonatives.com/info"
+      },
+      {
+        "label": "Montana native plant resource guide",
+        "url": "https://www.mtnativeplants.org/"
+      }
+    ],
+    "nativeTier": "specialist",
+    "regionGroup": "mountain",
+    "focus": "missoula",
+    "approx": true
+  },
+  {
+    "id": "nature-foundation-wintergreen",
+    "name": "The Nature Foundation at Wintergreen Native Plant Sales",
+    "area": "Roseland",
+    "state": "VA",
+    "address": "725 Beech Grove Road, Roseland, VA 22967",
+    "lat": 37.894,
+    "lng": -78.942,
+    "access": "Seasonal native plant sales and events; check the calendar for the next sale.",
+    "website": "https://tnfw.org/",
+    "category": "seasonal",
+    "native": "confirmed",
+    "nativeBasis": "The Nature Foundation runs native plant sales and provides regional plant guidance for the Wintergreen area.",
+    "nativeSummary": "The Nature Foundation runs native plant sales and provides regional plant guidance for the Wintergreen area.",
+    "availability": "Event-based seasonal access; upcoming sale dates vary.",
+    "reviewNote": "The Nature Foundation runs native plant sales and provides regional plant guidance for the Wintergreen area.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=The%20Nature%20Foundation%20at%20Wintergreen%20Native%20Plant%20Sales%20725%20Beech%20Grove%20Road%2C%20Roseland%2C%20VA%2022967",
+    "sources": [
+      {
+        "label": "Nature Foundation plant sale dates and ordering",
+        "url": "https://tnfw.org/"
+      },
+      {
+        "label": "Virginia Native Plant Society nursery profile",
+        "url": "https://vnps.org/native-plant-nursery-list/entry/7284/"
+      },
+      {
+        "label": "September 2026 plant sale event",
+        "url": "https://tnfw.org/events/month/"
+      }
+    ],
+    "nativeTier": "documented",
+    "regionGroup": "appalachia",
+    "focus": "charlottesville",
+    "approx": false
+  },
+  {
+    "id": "little-bluestem-native-plants",
+    "name": "Little Bluestem Native Plants",
+    "area": "Afton",
+    "state": "VA",
+    "address": "1323 Glass Hollow Road, Afton, VA 22920",
+    "lat": 37.994,
+    "lng": -78.811,
+    "access": "Contact the grower for current availability and pickup arrangements.",
+    "website": "https://www.littlebluestem.net/",
+    "category": "retail",
+    "native": "confirmed",
+    "nativeBasis": "A small native plant grower emphasizing locally adapted and ecotype native plants in Virginia.",
+    "nativeSummary": "A small native plant grower emphasizing locally adapted and ecotype native plants in Virginia.",
+    "availability": "Check the website or contact the nursery for current availability.",
+    "reviewNote": "A small native plant grower emphasizing locally adapted and ecotype native plants in Virginia.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Little%20Bluestem%20Native%20Plants%201323%20Glass%20Hollow%20Road%2C%20Afton%2C%20VA%2022920",
+    "sources": [
+      {
+        "label": "Little Bluestem official catalog",
+        "url": "https://www.littlebluestem.net/nursery-catalog"
+      },
+      {
+        "label": "Virginia Native Plant Society nursery profile",
+        "url": "https://vnps.org/native-plant-nursery-list/entry/9935/"
+      },
+      {
+        "label": "Little Bluestem contact and address",
+        "url": "https://www.littlebluestem.net/contact-us"
+      }
+    ],
+    "nativeTier": "specialist",
+    "regionGroup": "midatlantic",
+    "focus": "charlottesville",
+    "approx": false
+  },
+  {
+    "id": "whaleback-nursery",
+    "name": "Whaleback Nursery",
+    "area": "Limington",
+    "state": "ME",
+    "address": "141 Whaleback Road, Limington, ME 04049",
+    "lat": 43.706,
+    "lng": -70.708,
+    "access": "Visits by appointment; contact the nursery before traveling.",
+    "website": "https://whalebacknursery.com/",
+    "category": "retail",
+    "native": "confirmed",
+    "nativeBasis": "A Maine nursery offering native plants and documented through regional native plant and pollinator resources.",
+    "nativeSummary": "A Maine nursery offering native plants and documented through regional native plant and pollinator resources.",
+    "availability": "Open by appointment; confirm current stock and access.",
+    "reviewNote": "A Maine nursery offering native plants and documented through regional native plant and pollinator resources.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Whaleback%20Nursery%20141%20Whaleback%20Road%2C%20Limington%2C%20ME%2004049",
+    "sources": [
+      {
+        "label": "Whaleback Nursery native plant and pickup details",
+        "url": "https://whalebacknursery.com/"
+      },
+      {
+        "label": "Xerces Society supplier profile",
+        "url": "https://www.xerces.org/native-plant-supplier/whaleback-nursery"
+      },
+      {
+        "label": "Maine licensed nursery directory",
+        "url": "https://www.maine.gov/dacf/php/horticulture/licensednurseries.shtml"
+      }
+    ],
+    "nativeTier": "specialist",
+    "regionGroup": "northeast",
+    "focus": "portland",
+    "approx": false
+  },
+  {
+    "id": "maine-audubon-native-sale-falmouth",
+    "name": "Maine Audubon Native Plant Sale — Falmouth",
+    "area": "Falmouth",
+    "state": "ME",
+    "address": "20 Gilsland Farm Road, Falmouth, ME 04105",
+    "lat": 43.699,
+    "lng": -70.235,
+    "access": "Seasonal online ordering and scheduled pickup; confirm the next sale dates.",
+    "website": "https://shop.mainenativeplants.org/",
+    "category": "seasonal",
+    "native": "confirmed",
+    "nativeBasis": "Maine Audubon’s native plant sale offers native trees, shrubs and perennials for scheduled pickup.",
+    "nativeSummary": "Maine Audubon’s native plant sale offers native trees, shrubs and perennials for scheduled pickup.",
+    "availability": "The 2026 season has ended; watch the sale site for the next season.",
+    "reviewNote": "Maine Audubon’s native plant sale offers native trees, shrubs and perennials for scheduled pickup.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Maine%20Audubon%20Native%20Plant%20Sale%20%E2%80%94%20Falmouth%2020%20Gilsland%20Farm%20Road%2C%20Falmouth%2C%20ME%2004105",
+    "sources": [
+      {
+        "label": "Maine Audubon 2026 native plant sale",
+        "url": "https://shop.mainenativeplants.org/pages/about-the-native-plants-sale"
+      },
+      {
+        "label": "Maine Native Plants sale shop",
+        "url": "https://shop.mainenativeplants.org/"
+      },
+      {
+        "label": "Maine Audubon plant sale festival",
+        "url": "https://maineaudubon.org/events/native-plants-sale-festival/"
+      }
+    ],
+    "nativeTier": "documented",
+    "regionGroup": "northeast",
+    "focus": "portland",
+    "approx": false
+  },
+  {
+    "id": "maine-audubon-native-sale-holden",
+    "name": "Maine Audubon Native Plant Sale — Holden",
+    "area": "Holden",
+    "state": "ME",
+    "address": "216 Fields Pond Road, Holden, ME 04429",
+    "lat": 44.758,
+    "lng": -68.663,
+    "access": "Seasonal online ordering and scheduled pickup; confirm the next sale dates.",
+    "website": "https://shop.mainenativeplants.org/",
+    "category": "seasonal",
+    "native": "confirmed",
+    "nativeBasis": "Maine Audubon’s native plant sale offers native trees, shrubs and perennials for scheduled pickup.",
+    "nativeSummary": "Maine Audubon’s native plant sale offers native trees, shrubs and perennials for scheduled pickup.",
+    "availability": "The 2026 season has ended; watch the sale site for the next season.",
+    "reviewNote": "Maine Audubon’s native plant sale offers native trees, shrubs and perennials for scheduled pickup.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Maine%20Audubon%20Native%20Plant%20Sale%20%E2%80%94%20Holden%20216%20Fields%20Pond%20Road%2C%20Holden%2C%20ME%2004429",
+    "sources": [
+      {
+        "label": "Maine Audubon 2026 native plant sale",
+        "url": "https://shop.mainenativeplants.org/pages/about-the-native-plants-sale"
+      },
+      {
+        "label": "Maine Native Plants sale shop",
+        "url": "https://shop.mainenativeplants.org/"
+      },
+      {
+        "label": "Maine Audubon plant sale festival",
+        "url": "https://maineaudubon.org/events/native-plants-sale-festival/"
+      }
+    ],
+    "nativeTier": "documented",
+    "regionGroup": "northeast",
+    "focus": "bangor",
+    "approx": false
+  },
+  {
+    "id": "mill-creek-greenhouses",
+    "name": "Mill Creek Greenhouses",
+    "area": "Columbia",
+    "state": "SC",
+    "address": "2324 Leesburg Road, Columbia, SC 29209",
+    "lat": 33.96,
+    "lng": -80.889,
+    "access": "Retail garden center; call ahead to confirm current native inventory.",
+    "website": "https://millcreekgreenhousescolumbia.co/",
+    "category": "retail",
+    "native": "confirmed",
+    "nativeBasis": "A general greenhouse with native and hard-to-find plants referenced in South Carolina native plant resources.",
+    "nativeSummary": "A general greenhouse with native and hard-to-find plants referenced in South Carolina native plant resources.",
+    "availability": "Ask about current native selection before visiting.",
+    "reviewNote": "A general greenhouse with native and hard-to-find plants referenced in South Carolina native plant resources.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Mill%20Creek%20Greenhouses%202324%20Leesburg%20Road%2C%20Columbia%2C%20SC%2029209",
+    "sources": [
+      {
+        "label": "South Carolina DNR native plant source list",
+        "url": "https://www.dnr.sc.gov/volunteering/pdf/SC-Native-Plant-Sources.pdf"
+      },
+      {
+        "label": "South Carolina Wildlife Federation native plant list",
+        "url": "https://www.scwf.org/native-plants/"
+      },
+      {
+        "label": "Garden Club of South Carolina native plant note",
+        "url": "https://gardenclubofsc.org/news.php?id=18"
+      }
+    ],
+    "nativeTier": "documented",
+    "regionGroup": "south",
+    "focus": "columbia",
+    "approx": false
+  },
+  {
+    "id": "bloomington-valley-nursery",
+    "name": "Bloomington Valley Nursery",
+    "area": "Bloomington",
+    "state": "IN",
+    "address": "5230 S. Old State Road 37, Bloomington, IN 47401",
+    "lat": 39.114,
+    "lng": -86.529,
+    "access": "Retail nursery with a mixed selection; ask about current native plant stock.",
+    "website": "https://bloomingtonvalleynursery.com/",
+    "category": "retail",
+    "native": "confirmed",
+    "nativeBasis": "A broad local nursery with native plants included in regional grower and gardening resources; native selection is not the sole focus.",
+    "nativeSummary": "A broad local nursery with native plants included in regional grower and gardening resources; native selection is not the sole focus.",
+    "availability": "Call ahead for current native species and availability.",
+    "reviewNote": "A broad local nursery with native plants included in regional grower and gardening resources; native selection is not the sole focus.",
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Bloomington%20Valley%20Nursery%205230%20S.%20Old%20State%20Road%2037%2C%20Bloomington%2C%20IN%2047401",
+    "sources": [
+      {
+        "label": "Bloomington Valley Nursery location",
+        "url": "https://bloomingtonvalleynursery.com/contact"
+      },
+      {
+        "label": "City of Bloomington native landscaping supplier guide",
+        "url": "https://bloomington.in.gov/sites/default/files/2017-08/Natural%20Landscaping%20--%20What%20to%20know%20and%20where%20to%20go.pdf"
+      },
+      {
+        "label": "Monroe County Master Gardener vendor listing",
+        "url": "https://www.mcmga.net/roots-shoots1/2024-garden-fair-vendors"
+      }
+    ],
+    "nativeTier": "documented",
+    "regionGroup": "greatlakes",
+    "focus": "indianapolis",
+    "approx": false
+  },
+  {
+    "id": "manual-review-mays-greenhouse",
+    "name": "Mays Greenhouse",
+    "area": "Bloomington",
+    "state": "IN",
+    "address": "Bloomington, IN",
+    "website": "https://www.maysgreenhouse.com/",
+    "category": "candidate",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeBasis": "Older native plant inventory references found; current catalog did not confirm native stock.",
+    "nativeSummary": "Older native plant inventory references found; current catalog did not confirm native stock.",
+    "access": "Hidden pending manual verification",
+    "sources": [],
+    "reviewNote": "Manual review required before publishing.",
+    "approx": true,
+    "regionGroup": "greatlakes"
+  },
+  {
+    "id": "manual-review-country-flower-farms",
+    "name": "Country Flower Farms",
+    "area": "Ridgefield",
+    "state": "CT",
+    "address": "Farm location; confirm visitor access",
+    "website": "https://www.countryflowerfarms.org/",
+    "category": "candidate",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeBasis": "Community report describes a small native section, but current public sources did not confirm its inventory.",
+    "nativeSummary": "Community report describes a small native section, but current public sources did not confirm its inventory.",
+    "access": "Hidden pending manual verification",
+    "sources": [],
+    "reviewNote": "Manual review required before publishing.",
+    "approx": true,
+    "regionGroup": "northeast"
+  },
+  {
+    "id": "manual-review-woody-warehouse",
+    "name": "Woody Warehouse",
+    "area": "Lizton",
+    "state": "IN",
+    "address": "Lizton, IN",
+    "website": "https://www.woodywarehouse.com/",
+    "category": "candidate",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeBasis": "Native tree and shrub stock appears in sources, but retail pickup access versus wholesale use needs confirmation.",
+    "nativeSummary": "Native tree and shrub stock appears in sources, but retail pickup access versus wholesale use needs confirmation.",
+    "access": "Hidden pending manual verification",
+    "sources": [],
+    "reviewNote": "Manual review required before publishing.",
+    "approx": true,
+    "regionGroup": "greatlakes"
+  },
+  {
+    "id": "manual-review-country-road-greenhouses",
+    "name": "Country Road Greenhouses, LLC",
+    "area": "Rochelle",
+    "state": "IL",
+    "address": "19561 E. Twombly Road, Rochelle, IL 61068",
+    "website": "https://prairieplugs.com/",
+    "category": "candidate",
+    "native": "unverified",
+    "nativeTier": "unverified",
+    "nativeBasis": "Native inventory is strongly documented, but sources conflict on whether current public retail sales are available; wholesale is the primary business. Verify retail access before publishing.",
+    "nativeSummary": "Native plant catalog verified; visitor and retail access needs manual confirmation.",
+    "access": "Hidden pending manual verification",
+    "sources": [
+      {
+        "label": "2026–27 native plant catalog",
+        "url": "https://prairieplugs.com/CRG%202026-27%20Plant%20list.pdf"
+      },
+      {
+        "label": "Xerces Society supplier profile",
+        "url": "https://xerces.org/native-plant-supplier/country-road-greenhouses"
+      },
+      {
+        "label": "Wild Ones regional native plant resources",
+        "url": "https://rrvcwildones.org/native-plants-resources/"
+      }
+    ],
+    "reviewNote": "Manual access review required before publishing.",
+    "approx": true,
+    "regionGroup": "greatlakes"
   }
 ]
