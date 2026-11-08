@@ -301,10 +301,10 @@
     @media(max-width:700px){.hero-botanical{display:none!important}.hero{min-height:110px;display:grid;place-items:center}.hero-copy{margin:0 auto}}
   
     @media(max-width:700px){
-      .hero{display:block!important;min-height:0!important;height:auto!important;padding:16px 18px 8px!important;overflow:visible!important}
-      .hero-copy{display:block!important;width:100%!important;max-width:none!important;margin:0!important;text-align:center!important;justify-self:stretch!important}
-      .hero p{max-width:100%!important;font-size:clamp(17px,4.5vw,21px)!important;line-height:1.35!important}
-      .hero-botanical{display:none!important}
+      .hero{display:grid!important;grid-template-columns:52px minmax(0,1fr) 52px!important;align-items:center!important;gap:6px!important;min-height:0!important;height:auto!important;padding:14px 10px 8px!important;overflow:visible!important}
+      .hero-copy{display:block!important;grid-column:2!important;width:100%!important;max-width:none!important;margin:0!important;text-align:center!important;justify-self:stretch!important}
+      .hero p{max-width:100%!important;font-size:clamp(16px,4.8vw,19px)!important;line-height:1.32!important}
+      .hero-botanical{position:static!important;inset:auto!important;display:block!important;align-self:center!important;width:100%!important;height:84px!important;transform:none!important;object-fit:contain!important}
     }
   </style>
 </head>
