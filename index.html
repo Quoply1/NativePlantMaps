@@ -299,6 +299,13 @@
     .hero-botanical-left{left:max(18px,calc((100vw - 1480px)/2 + 18px))}
     .hero-botanical-right{right:max(18px,calc((100vw - 1480px)/2 + 18px))}
     @media(max-width:700px){.hero-botanical{display:none!important}.hero{min-height:110px;display:grid;place-items:center}.hero-copy{margin:0 auto}}
+  
+    @media(max-width:700px){
+      .hero{display:block!important;min-height:0!important;height:auto!important;padding:16px 18px 8px!important;overflow:visible!important}
+      .hero-copy{display:block!important;width:100%!important;max-width:none!important;margin:0!important;text-align:center!important;justify-self:stretch!important}
+      .hero p{max-width:100%!important;font-size:clamp(17px,4.5vw,21px)!important;line-height:1.35!important}
+      .hero-botanical{display:none!important}
+    }
   </style>
 </head>
 <body>
