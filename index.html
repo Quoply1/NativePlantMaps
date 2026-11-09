@@ -399,6 +399,66 @@
     .mapwrap>.panelhead{padding-bottom:18px!important}
     .map-layer-menu,.maplayers,.layernote{display:none!important}
     @media(max-width:700px){.search-shell{padding-top:20px!important}.brandrow{gap:14px!important}.headnav{gap:12px!important;justify-content:center!important}.filter-row{margin-top:10px!important;padding-top:10px!important}.filters{gap:7px!important}.filter{min-height:36px!important;padding:7px 10px!important}.workspace{margin-top:20px!important;gap:18px!important}}
+  
+    /* Responsive header/search layout: keep heading, flowers and controls in separate rows */
+    .search-shell{padding:30px 20px 20px!important;overflow:visible!important}
+    .hero{
+      position:relative!important;display:grid!important;
+      grid-template-columns:minmax(72px,132px) minmax(0,1fr) minmax(72px,132px)!important;
+      align-items:center!important;justify-items:center!important;gap:clamp(14px,3vw,36px)!important;
+      width:min(100%,1480px)!important;height:auto!important;min-height:0!important;
+      margin:0 auto 22px!important;padding:0 20px!important;overflow:visible!important
+    }
+    .hero-copy{grid-column:2!important;width:100%!important;max-width:930px!important;margin:0!important;justify-self:stretch!important;text-align:center!important}
+    .hero p{max-width:100%!important;margin:0!important;line-height:1.3!important}
+    .hero-botanical{
+      position:static!important;inset:auto!important;display:block!important;
+      width:100%!important;height:clamp(72px,9vw,112px)!important;max-width:132px!important;
+      object-fit:contain!important;transform:none!important;mix-blend-mode:multiply!important
+    }
+    .hero-botanical-left{grid-column:1!important;grid-row:1!important;justify-self:center!important}
+    .hero-botanical-right{grid-column:3!important;grid-row:1!important;justify-self:center!important}
+    .toolbar{width:min(100%,1260px)!important;margin:0 auto!important;padding:0 12px 8px!important;gap:14px!important}
+    .location-search-row{
+      display:grid!important;grid-template-columns:minmax(0,1fr) minmax(140px,190px) minmax(130px,160px) auto!important;
+      align-items:center!important;gap:10px!important;width:100%!important;margin:0 auto 12px!important
+    }
+    .city-search{grid-column:auto!important;grid-row:auto!important;width:100%!important;min-width:0!important}
+    .search{width:100%!important;min-width:0!important}
+    .radius-filter,.search-area,.suggest-link{grid-column:auto!important;grid-row:auto!important;min-width:0!important}
+    .suggest-link{white-space:nowrap!important}
+    .filter-row{display:flex!important;align-items:center!important;justify-content:center!important;gap:16px!important;margin:0!important;padding:13px 0 0!important}
+    @media(max-width:900px){
+      .search-shell{padding:24px 16px 18px!important}
+      .hero{grid-template-columns:minmax(58px,88px) minmax(0,1fr) minmax(58px,88px)!important;gap:14px!important;margin-bottom:18px!important;padding:0 10px!important}
+      .hero-botanical{height:clamp(64px,10vw,88px)!important;max-width:88px!important}
+      .location-search-row{grid-template-columns:minmax(0,1fr) minmax(140px,180px) auto!important}
+      .suggest-link{grid-column:1/-1!important;justify-self:center!important}
+    }
+    @media(max-width:700px){
+      .search-shell{padding:20px 14px 16px!important}
+      .hero{grid-template-columns:minmax(46px,64px) minmax(0,1fr) minmax(46px,64px)!important;gap:8px!important;margin-bottom:16px!important;padding:0 4px!important}
+      .hero-botanical{height:clamp(54px,13vw,78px)!important;max-width:64px!important}
+      .hero p{font-size:clamp(15px,4.5vw,19px)!important;line-height:1.28!important}
+      .toolbar{padding:0 4px 6px!important;gap:11px!important}
+      .location-search-row{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:9px!important}
+      .city-search{grid-column:1/-1!important}
+      .radius-filter{grid-column:1!important;grid-row:2!important;width:100%!important}
+      .search-area{grid-column:2!important;grid-row:2!important;width:100%!important}
+      .suggest-link{grid-column:1/-1!important;grid-row:3!important;justify-self:center!important}
+      .filter-row{flex-direction:column!important;gap:9px!important}
+      .filters{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;width:100%!important;gap:8px!important}
+      .filter{width:100%!important;white-space:normal!important}
+      .advanced-search{width:100%!important}
+    }
+    @media(max-width:390px){
+      .search-shell{padding-left:10px!important;padding-right:10px!important}
+      .hero{grid-template-columns:44px minmax(0,1fr) 44px!important;gap:5px!important}
+      .hero-botanical{height:52px!important;max-width:44px!important}
+      .hero p{font-size:15px!important}
+      .filter{padding:7px 6px!important;font-size:12px!important}
+    }
+
   </style>
 </head>
 <body>
