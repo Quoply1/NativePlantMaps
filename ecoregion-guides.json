@@ -1,0 +1,2259 @@
+{
+  "regions": {
+    "2.2.1": {
+      "name": "Arctic Coastal Plain",
+      "scope": "Wet polygon tundra and thaw-pond margins; use local material for disturbed sites on permafrost.",
+      "plants": [
+        "arcticWillow",
+        "cottonGrass",
+        "waterSedge"
+      ]
+    },
+    "2.2.2": {
+      "name": "Arctic Foothills",
+      "scope": "Exposed gravel ridges grade into moist tussock tundra and streamside willow scrub.",
+      "plants": [
+        "dryas",
+        "arcticWillow",
+        "cottonGrass"
+      ]
+    },
+    "2.2.3": {
+      "name": "Subarctic Coastal Plains",
+      "scope": "Separate brackish coastal meadows from inland freshwater sedge bogs and willow thickets.",
+      "plants": [
+        "lyngbye",
+        "waterSedge",
+        "arcticWillow"
+      ]
+    },
+    "2.2.4": {
+      "name": "Seward Peninsula",
+      "scope": "Dry alpine ridges, moist lowland tundra and sheltered drainage lines call for different plants.",
+      "plants": [
+        "dryas",
+        "crowberry",
+        "cottonGrass"
+      ]
+    },
+    "2.2.5": {
+      "name": "Bristol Bay-Nushagak Lowlands",
+      "scope": "Use dwarf shrubs in acidic heath and sedges in wet lowlands and bog margins.",
+      "plants": [
+        "crowberry",
+        "lingonberry",
+        "waterSedge"
+      ]
+    },
+    "2.2.6": {
+      "name": "Aleutian Islands",
+      "scope": "Match wind exposure on maritime heath and coastal meadows; check the source island for seed.",
+      "plants": [
+        "crowberry",
+        "beachRye",
+        "lyngbye"
+      ]
+    },
+    "2.3.1": {
+      "name": "Brooks Range/Richardson Mountains",
+      "scope": "Alpine gravel and exposed slopes differ from moist sedge and willow valley bottoms.",
+      "plants": [
+        "dryas",
+        "arcticWillow",
+        "waterSedge"
+      ]
+    },
+    "3.1.1": {
+      "name": "Interior Forested Lowlands and Uplands",
+      "scope": "Distinguish well-drained forest edges from cold, acidic forest floors and wet depressions.",
+      "plants": [
+        "fireweed",
+        "bunchberry",
+        "cottonGrass"
+      ]
+    },
+    "3.1.2": {
+      "name": "Interior Bottomlands",
+      "scope": "Use open floodplain terraces, shaded spruce margins and wet meadow edges as separate planting zones.",
+      "plants": [
+        "fireweed",
+        "bunchberry",
+        "alaskaIris"
+      ]
+    },
+    "3.1.3": {
+      "name": "Yukon Flats",
+      "scope": "Match drainage from open river terraces to boreal woodland and standing-water margins.",
+      "plants": [
+        "fireweed",
+        "lingonberry",
+        "waterSedge"
+      ]
+    },
+    "3.2.1": {
+      "name": "Ogilvie Mountains",
+      "scope": "Plant only where soil has developed. Compare rocky subalpine slopes with protected spruce openings.",
+      "plants": [
+        "dryas",
+        "lingonberry",
+        "arcticWillow"
+      ]
+    },
+    "5.2.1": {
+      "name": "Northern Lakes and Forests",
+      "scope": "Match sandy openings, cool forest floors and lake or bog margins.",
+      "plants": [
+        "bluestem",
+        "bunchberry",
+        "blueFlag"
+      ]
+    },
+    "5.2.2": {
+      "name": "Northern Minnesota Wetlands",
+      "scope": "Use upland islands and wet peatland edges as separate sites. Avoid changing bog drainage.",
+      "plants": [
+        "fireweed",
+        "lingonberry",
+        "blueFlag"
+      ]
+    },
+    "5.3.1": {
+      "name": "Northern Appalachian and Atlantic Maritime Highlands",
+      "scope": "Rocky openings, cool hardwood understories and freshwater edges occur across a strong north–south climate gradient.",
+      "plants": [
+        "columbine",
+        "bunchberry",
+        "blueFlag"
+      ]
+    },
+    "5.3.3": {
+      "name": "North Central Appalachians",
+      "scope": "Use well-drained plateau openings, moist hardwood understories and freshwater depressions.",
+      "plants": [
+        "bluestem",
+        "geranium",
+        "blueFlag"
+      ]
+    },
+    "6.1.1": {
+      "name": "Interior Highlands and Klondike Plateau",
+      "scope": "Match warm exposed slopes, cool spruce floors and poorly drained tussock ground.",
+      "plants": [
+        "fireweed",
+        "lingonberry",
+        "cottonGrass"
+      ]
+    },
+    "6.1.2": {
+      "name": "Alaska Range",
+      "scope": "Work with existing vegetation on rocky slopes; protected low valleys can support taller plants.",
+      "plants": [
+        "dryas",
+        "arcticWillow",
+        "alaskaIris"
+      ]
+    },
+    "6.1.3": {
+      "name": "Copper Plateau",
+      "scope": "Separate gravel terraces and spruce woodland from wet river and meadow edges.",
+      "plants": [
+        "fireweed",
+        "lingonberry",
+        "alaskaIris"
+      ]
+    },
+    "6.1.4": {
+      "name": "Wrangell and St. Elias Mountains",
+      "scope": "Choose plants by elevation and drainage on sparsely vegetated slopes and sheltered valley bottoms.",
+      "plants": [
+        "dryas",
+        "arcticWillow",
+        "waterSedge"
+      ]
+    },
+    "6.2.3": {
+      "name": "Columbia Mountains/Northern Rockies",
+      "scope": "Rocky openings, cool conifer understories and moist valley floors require different planting choices.",
+      "plants": [
+        "buckwheat",
+        "barberry",
+        "hairgrass"
+      ]
+    },
+    "6.2.4": {
+      "name": "Canadian Rockies",
+      "scope": "Match dry valley slopes, cool subalpine woodland and moist meadows to local elevation.",
+      "plants": [
+        "bluebunch",
+        "barberry",
+        "hairgrass"
+      ]
+    },
+    "6.2.5": {
+      "name": "North Cascades",
+      "scope": "Dry eastern openings, moist western forests and higher meadows require local seed and elevation matching.",
+      "plants": [
+        "buckwheat",
+        "bunchberry",
+        "hairgrass"
+      ]
+    },
+    "6.2.7": {
+      "name": "Cascades",
+      "scope": "Use dry meadow openings, cool conifer shade and streamside sites as distinct planting zones.",
+      "plants": [
+        "woolly",
+        "salal",
+        "ninebark"
+      ]
+    },
+    "6.2.8": {
+      "name": "Eastern Cascades Slopes and Foothills",
+      "scope": "Open ponderosa slopes dry out in summer; stream margins have a different water regime.",
+      "plants": [
+        "bluebunch",
+        "barberry",
+        "hairgrass"
+      ]
+    },
+    "6.2.9": {
+      "name": "Blue Mountains",
+      "scope": "Match bunchgrass slopes and open pine woodland separately from seasonally wet mountain meadows.",
+      "plants": [
+        "bluebunch",
+        "buckwheat",
+        "barberry",
+        "hairgrass"
+      ]
+    },
+    "6.2.10": {
+      "name": "Middle Rockies",
+      "scope": "Plant dry foothill openings, open conifer woods or moist meadows according to elevation.",
+      "plants": [
+        "buckwheat",
+        "barberry",
+        "hairgrass"
+      ]
+    },
+    "6.2.11": {
+      "name": "Klamath Mountains",
+      "scope": "Dry oak openings, shaded mixed forest and streambanks differ sharply over short distances.",
+      "plants": [
+        "woolly",
+        "oregonGrape",
+        "ninebark"
+      ]
+    },
+    "6.2.12": {
+      "name": "Sierra Nevada",
+      "scope": "Choose for elevation first; lower rocky openings, open woodland and high meadow soils differ.",
+      "plants": [
+        "buckwheat",
+        "barberry",
+        "hairgrass"
+      ]
+    },
+    "6.2.13": {
+      "name": "Wasatch and Uinta Mountains",
+      "scope": "Separate dry foothill sites from shaded mountain edges and wet meadows.",
+      "plants": [
+        "buckwheat",
+        "barberry",
+        "hairgrass"
+      ]
+    },
+    "6.2.14": {
+      "name": "Southern Rockies",
+      "scope": "Match warm foothills, cool woodland edges and mountain wet meadows by elevation.",
+      "plants": [
+        "blueGrama",
+        "blueColumbine",
+        "hairgrass"
+      ]
+    },
+    "6.2.15": {
+      "name": "Idaho Batholith",
+      "scope": "Deep warm canyons differ from cool uplands; choose plants from comparable elevation and exposure.",
+      "plants": [
+        "buckwheat",
+        "barberry",
+        "hairgrass"
+      ]
+    },
+    "7.1.1": {
+      "name": "Ahklun and Kilbuck Mountains",
+      "scope": "Use exposed tundra plants on cool slopes and sedges or iris in wetter protected valleys.",
+      "plants": [
+        "crowberry",
+        "arcticWillow",
+        "alaskaIris"
+      ]
+    },
+    "7.1.2": {
+      "name": "Alaska Peninsula Mountains",
+      "scope": "Wind-exposed alpine heath grades into sheltered willow scrub and coastal meadows.",
+      "plants": [
+        "crowberry",
+        "arcticWillow",
+        "beachRye"
+      ]
+    },
+    "7.1.3": {
+      "name": "Cook Inlet",
+      "scope": "Compare open glacial deposits, spruce-birch woodland and freshwater wetland edges.",
+      "plants": [
+        "fireweed",
+        "bunchberry",
+        "alaskaIris"
+      ]
+    },
+    "7.1.4": {
+      "name": "Pacific Coastal Mountains",
+      "scope": "Alpine exposure, conifer shade and moist lowland openings vary strongly with elevation.",
+      "plants": [
+        "crowberry",
+        "bunchberry",
+        "hairgrass"
+      ]
+    },
+    "7.1.5": {
+      "name": "Coastal Western Hemlock-Sitka Spruce Forests",
+      "scope": "Use exposed coastal meadows, humid forest understory and wet beach or estuary margins as separate sites.",
+      "plants": [
+        "beachRye",
+        "bunchberry",
+        "lyngbye"
+      ]
+    },
+    "7.1.7": {
+      "name": "Strait of Georgia/Puget Lowland",
+      "scope": "Match dry glacial outwash, shaded forest margins and seasonally moist prairie depressions.",
+      "plants": [
+        "clarkia",
+        "salal",
+        "camas"
+      ]
+    },
+    "7.1.8": {
+      "name": "Coast Range",
+      "scope": "Compare exposed maritime openings, forest floors and freshwater stream edges.",
+      "plants": [
+        "woolly",
+        "salal",
+        "ninebark"
+      ]
+    },
+    "7.1.9": {
+      "name": "Willamette Valley",
+      "scope": "Summer-dry prairie openings, oak woodland and seasonally wet meadow sites need different plants.",
+      "plants": [
+        "clarkia",
+        "oregonGrape",
+        "camas"
+      ]
+    },
+    "8.1.1": {
+      "name": "Eastern Great Lakes Lowlands",
+      "scope": "Compare dry glacial deposits with mixed-forest understory and freshwater shorelines.",
+      "plants": [
+        "bluestem",
+        "geranium",
+        "blueFlag"
+      ]
+    },
+    "8.1.3": {
+      "name": "Northern Allegheny Plateau",
+      "scope": "Use sunny forest openings, woodland slopes and streamsides according to soil moisture.",
+      "plants": [
+        "njTea",
+        "columbine",
+        "swampMilkweed"
+      ]
+    },
+    "8.1.4": {
+      "name": "North Central Hardwood Forests",
+      "scope": "Separate dry oak openings from hardwood shade and moist meadow depressions.",
+      "plants": [
+        "bergamot",
+        "geranium",
+        "blueFlag"
+      ]
+    },
+    "8.1.5": {
+      "name": "Driftless Area",
+      "scope": "Exposed bluff prairies, wooded ravines and wet valley bottoms need distinct plants.",
+      "plants": [
+        "sideoats",
+        "columbine",
+        "foxSedge"
+      ]
+    },
+    "8.1.6": {
+      "name": "Southern Michigan/Northern Indiana Drift Plains",
+      "scope": "Match dry outwash openings, oak woodland and glacial wetland edges.",
+      "plants": [
+        "bluestem",
+        "geranium",
+        "swampMilkweed"
+      ]
+    },
+    "8.1.7": {
+      "name": "Northeastern Coastal Zone",
+      "scope": "Match sandy or rocky openings, oak-pine shade and freshwater pond margins.",
+      "plants": [
+        "njTea",
+        "columbine",
+        "blueFlag"
+      ]
+    },
+    "8.1.8": {
+      "name": "Acadian Plains and Hills",
+      "scope": "Distinguish exposed glacial soils, cool mixed-forest floors and freshwater edges.",
+      "plants": [
+        "fireweed",
+        "bunchberry",
+        "blueFlag"
+      ]
+    },
+    "8.1.10": {
+      "name": "Erie Drift Plain",
+      "scope": "Use open glacial uplands, beech-maple understory and moist glacial depressions.",
+      "plants": [
+        "bergamot",
+        "geranium",
+        "foxSedge"
+      ]
+    },
+    "8.2.1": {
+      "name": "Southeastern Wisconsin Till Plains",
+      "scope": "Plant dry oak-savanna openings separately from forest edges and wet till-plain depressions.",
+      "plants": [
+        "prairieClover",
+        "bottlebrush",
+        "swampMilkweed"
+      ]
+    },
+    "8.2.2": {
+      "name": "Huron/Erie Lake Plains",
+      "scope": "Compare sandy beach ridges, woodland and low freshwater lakeplain soils.",
+      "plants": [
+        "bluestem",
+        "geranium",
+        "foxSedge"
+      ]
+    },
+    "8.2.3": {
+      "name": "Central Corn Belt Plains",
+      "scope": "Match drained prairie soils, woodland edges and wet swales.",
+      "plants": [
+        "prairieClover",
+        "bottlebrush",
+        "swampMilkweed"
+      ]
+    },
+    "8.2.4": {
+      "name": "Eastern Corn Belt Plains",
+      "scope": "Choose for open ground, shaded beech woodland or wet depressions on glacial soils.",
+      "plants": [
+        "bergamot",
+        "waterleaf",
+        "foxSedge"
+      ]
+    },
+    "8.3.1": {
+      "name": "Northern Piedmont",
+      "scope": "Rocky or dry open beds, oak woodland and freshwater rain gardens call for different plants.",
+      "plants": [
+        "njTea",
+        "columbine",
+        "spicebush",
+        "swampMilkweed"
+      ]
+    },
+    "8.3.2": {
+      "name": "Interior River Valleys and Hills",
+      "scope": "Separate dry bluffs and woodland edges from low river terraces and floodplain soils.",
+      "plants": [
+        "bluestem",
+        "waterleaf",
+        "buttonbush"
+      ]
+    },
+    "8.3.3": {
+      "name": "Interior Plateau",
+      "scope": "Match limestone openings, moist woodland and streamside gardens; check soil pH on glades.",
+      "plants": [
+        "poppyMallow",
+        "geranium",
+        "buttonbush"
+      ]
+    },
+    "8.3.4": {
+      "name": "Piedmont",
+      "scope": "Dry uplands, mixed woodland edges and sunny freshwater swales require different plants.",
+      "plants": [
+        "butterflyMilkweed",
+        "coralHoneysuckle",
+        "buttonbush"
+      ]
+    },
+    "8.3.5": {
+      "name": "Southeastern Plains",
+      "scope": "Compare sandy uplands, pine woodland edges and wet freshwater depressions.",
+      "plants": [
+        "spottedBeebalm",
+        "mistflower",
+        "roseMallow"
+      ]
+    },
+    "8.3.6": {
+      "name": "Mississippi Valley Loess Plains",
+      "scope": "Use open loess slopes, shaded ravines and moist terraces as separate garden sites.",
+      "plants": [
+        "whiteIndigo",
+        "spicebush",
+        "buttonbush"
+      ]
+    },
+    "8.3.7": {
+      "name": "South Central Plains",
+      "scope": "Choose between dry pine openings, woodland margins and wet bottomland sites.",
+      "plants": [
+        "spottedBeebalm",
+        "coralHoneysuckle",
+        "buttonbush"
+      ]
+    },
+    "8.3.8": {
+      "name": "East Central Texas Plains",
+      "scope": "Match dry post oak openings, woodland edges and seasonally wet creek margins.",
+      "plants": [
+        "sideoats",
+        "redbud",
+        "buttonbush"
+      ]
+    },
+    "8.4.1": {
+      "name": "Ridge and Valley",
+      "scope": "Dry ridges, sheltered woodland and valley bottoms differ in drainage and bedrock chemistry.",
+      "plants": [
+        "bluestem",
+        "mossPhlox",
+        "spicebush",
+        "buttonbush"
+      ]
+    },
+    "8.4.2": {
+      "name": "Central Appalachians",
+      "scope": "Separate exposed slopes, cool coves and stream bottoms; adjust for elevation.",
+      "plants": [
+        "mossPhlox",
+        "ragwort",
+        "swampMilkweed"
+      ]
+    },
+    "8.4.3": {
+      "name": "Western Allegheny Plateau",
+      "scope": "Compare sunny upland gaps, moist wooded slopes and valley wetlands.",
+      "plants": [
+        "njTea",
+        "waterleaf",
+        "buttonbush"
+      ]
+    },
+    "8.4.4": {
+      "name": "Blue Ridge",
+      "scope": "Exposed ridges and moist coves can be close together; use elevation and shade to choose.",
+      "plants": [
+        "mossPhlox",
+        "ragwort",
+        "blueFlag"
+      ]
+    },
+    "8.4.5": {
+      "name": "Ozark Highlands",
+      "scope": "Match limestone glades, oak woodland margins and valley wetlands.",
+      "plants": [
+        "sideoats",
+        "redbud",
+        "buttonbush"
+      ]
+    },
+    "8.4.6": {
+      "name": "Boston Mountains",
+      "scope": "Compare open sandstone slopes, sheltered ravine shade and streamside soils.",
+      "plants": [
+        "bluestem",
+        "geranium",
+        "buttonbush"
+      ]
+    },
+    "8.4.7": {
+      "name": "Arkansas Valley",
+      "scope": "Choose for dry valley terraces, oak edges or freshwater floodplain gardens.",
+      "plants": [
+        "whiteIndigo",
+        "redbud",
+        "buttonbush"
+      ]
+    },
+    "8.4.8": {
+      "name": "Ouachita Mountains",
+      "scope": "Rocky pine-oak openings dry quickly; lower stream edges stay moist.",
+      "plants": [
+        "bluestem",
+        "coralHoneysuckle",
+        "buttonbush"
+      ]
+    },
+    "8.4.9": {
+      "name": "Southwestern Appalachians",
+      "scope": "Match exposed upland openings, shady ravines and wet freshwater edges.",
+      "plants": [
+        "butterflyMilkweed",
+        "ragwort",
+        "roseMallow"
+      ]
+    },
+    "8.5.1": {
+      "name": "Middle Atlantic Coastal Plain",
+      "scope": "Separate dry coastal sands from acidic woodland and freshwater lowlands. Beach plum is a northern and mid-Atlantic coastal choice.",
+      "plants": [
+        "beachPlum",
+        "bayberry",
+        "inkberry",
+        "clethra",
+        "buttonbush"
+      ]
+    },
+    "8.5.2": {
+      "name": "Mississippi Alluvial Plain",
+      "scope": "Choose for elevated terraces, wooded floodplain edges or depressions with prolonged freshwater flooding.",
+      "plants": [
+        "switchgrass",
+        "pecan",
+        "cypress",
+        "buttonbush"
+      ]
+    },
+    "8.5.3": {
+      "name": "Southern Coastal Plain",
+      "scope": "Distinguish dry sandy openings from moist flatwoods edges and sunny freshwater lowlands.",
+      "plants": [
+        "spottedBeebalm",
+        "clethra",
+        "scarletMallow",
+        "cypress"
+      ]
+    },
+    "8.5.4": {
+      "name": "Atlantic Coastal Pine Barrens",
+      "scope": "Use dry acidic sand for barrens plants and wetter acidic soil for freshwater lowland plants.",
+      "plants": [
+        "sweetfern",
+        "beachPlum",
+        "inkberry",
+        "clethra"
+      ]
+    },
+    "9.2.1": {
+      "name": "Aspen Parkland/Northern Glaciated Plains",
+      "scope": "Mixed prairie slopes, aspen edges and seasonally wet glacial depressions need different choices.",
+      "plants": [
+        "prairieClover",
+        "aspen",
+        "canadaAnemone"
+      ]
+    },
+    "9.2.2": {
+      "name": "Lake Manitoba and Lake Agassiz Plain",
+      "scope": "Use dry prairie remnants, wooded river edges and wet lakeplain soils as distinct habitats.",
+      "plants": [
+        "bluestem",
+        "burOak",
+        "canadaAnemone"
+      ]
+    },
+    "9.2.3": {
+      "name": "Western Corn Belt Plains",
+      "scope": "Separate open prairie, oak edges and freshwater swales on the agricultural plains.",
+      "plants": [
+        "prairieClover",
+        "bottlebrush",
+        "swampMilkweed"
+      ]
+    },
+    "9.2.4": {
+      "name": "Central Irregular Plains",
+      "scope": "Choose for prairie slopes, oak woodland edges or moist stream terraces.",
+      "plants": [
+        "sideoats",
+        "burOak",
+        "foxSedge"
+      ]
+    },
+    "9.3.1": {
+      "name": "Northwestern Glaciated Plains",
+      "scope": "Use dry mixed-grass prairie plants on slopes and wetland plants only in true moist depressions.",
+      "plants": [
+        "blueGrama",
+        "prairieClover",
+        "canadaAnemone"
+      ]
+    },
+    "9.3.3": {
+      "name": "Northwestern Great Plains",
+      "scope": "Match shortgrass breaks, dry mixed-grass slopes and locally moist stream bottoms.",
+      "plants": [
+        "blueGrama",
+        "westernWheat",
+        "cottonwood"
+      ]
+    },
+    "9.3.4": {
+      "name": "Nebraska Sand Hills",
+      "scope": "Separate loose dune sands from interdunal meadows and their variable groundwater levels.",
+      "plants": [
+        "sandBluestem",
+        "blueGrama",
+        "saltgrass"
+      ]
+    },
+    "9.4.1": {
+      "name": "High Plains",
+      "scope": "Open shortgrass prairie, sandy uplands and riparian corridors call for different plants.",
+      "plants": [
+        "blueGrama",
+        "buffaloGrass",
+        "cottonwood"
+      ]
+    },
+    "9.4.2": {
+      "name": "Central Great Plains",
+      "scope": "Match dry mixed-grass prairie, deeper soils and river terraces.",
+      "plants": [
+        "blueGrama",
+        "sideoats",
+        "switchgrass"
+      ]
+    },
+    "9.4.3": {
+      "name": "Southwestern Tablelands",
+      "scope": "Use drought-adapted grasses on exposed tablelands and distinct species in alkaline low spots.",
+      "plants": [
+        "blueGrama",
+        "sideoats",
+        "sacaton"
+      ]
+    },
+    "9.4.4": {
+      "name": "Flint Hills",
+      "scope": "Match rocky prairie slopes, deeper upland soils and moist swales.",
+      "plants": [
+        "bluestem",
+        "bigBluestem",
+        "switchgrass"
+      ]
+    },
+    "9.4.5": {
+      "name": "Cross Timbers",
+      "scope": "Compare prairie openings, dry oak woodland edges and more mesic grassland soils.",
+      "plants": [
+        "bluestem",
+        "postOak",
+        "switchgrass"
+      ]
+    },
+    "9.4.6": {
+      "name": "Edwards Plateau",
+      "scope": "Shallow limestone uplands, oak shade and freshwater stream edges need separate choices.",
+      "plants": [
+        "sideoats",
+        "escarpmentOak",
+        "buttonbush"
+      ]
+    },
+    "9.4.7": {
+      "name": "Texas Blackland Prairies",
+      "scope": "Match shrink-swell clay prairies and wetter floodplain soils; avoid treating clay as coastal sand.",
+      "plants": [
+        "bigBluestem",
+        "switchgrass",
+        "pecan"
+      ]
+    },
+    "9.5.1": {
+      "name": "Western Gulf Coastal Plain",
+      "scope": "Distinguish coastal prairie, sheltered woodland and freshwater or saline marsh edges.",
+      "plants": [
+        "bluestem",
+        "switchgrass",
+        "saltgrass"
+      ]
+    },
+    "9.6.1": {
+      "name": "Southern Texas Plains/Interior Plains and Hills with Xerophytic Shrub and Oak Forest",
+      "scope": "Use heat-adapted plants for thornscrub openings and lowlands; match local frost and soil salinity.",
+      "plants": [
+        "sideoats",
+        "honeyMesquite",
+        "sacaton"
+      ]
+    },
+    "10.1.2": {
+      "name": "Columbia Plateau",
+      "scope": "Match dry loess and rocky steppe sites; plant deeper-rooted grasses where soils allow.",
+      "plants": [
+        "bluebunch",
+        "idahoFescue",
+        "bitterbrush"
+      ]
+    },
+    "10.1.3": {
+      "name": "Northern Basin and Range",
+      "scope": "Valley shrub steppe and cooler upland slopes require different seed sources.",
+      "plants": [
+        "bluebunch",
+        "sagebrush",
+        "idahoFescue"
+      ]
+    },
+    "10.1.4": {
+      "name": "Wyoming Basin",
+      "scope": "Dry windy basins grade into rocky uplands and saline flats; match soil chemistry.",
+      "plants": [
+        "blueGrama",
+        "sagebrush",
+        "saltgrass"
+      ]
+    },
+    "10.1.5": {
+      "name": "Central Basin and Range",
+      "scope": "Separate dry gravel slopes, sandy basin floors and alkaline flats.",
+      "plants": [
+        "ricegrass",
+        "fourwing",
+        "saltgrass"
+      ]
+    },
+    "10.1.6": {
+      "name": "Colorado Plateaus",
+      "scope": "Match exposed canyon gravel, dry upland slopes and alkaline lower terraces.",
+      "plants": [
+        "ricegrass",
+        "buckwheat",
+        "fourwing"
+      ]
+    },
+    "10.1.7": {
+      "name": "Arizona/New Mexico Plateau",
+      "scope": "Match dry plateau grasslands, sandy soils and saline or alkaline basins.",
+      "plants": [
+        "blueGrama",
+        "fourwing",
+        "sacaton"
+      ]
+    },
+    "10.1.8": {
+      "name": "Snake River Plain",
+      "scope": "Choose drought-adapted grasses and shrubs for drained soils in the sagebrush plain.",
+      "plants": [
+        "bluebunch",
+        "ricegrass",
+        "sagebrush"
+      ]
+    },
+    "10.2.1": {
+      "name": "Mojave Basin and Range",
+      "scope": "Use low-desert plants in hot gravelly sites; check winter temperatures and elevation.",
+      "plants": [
+        "creosote",
+        "desertMarigold",
+        "ricegrass"
+      ]
+    },
+    "10.2.2": {
+      "name": "Sonoran Desert",
+      "scope": "Separate hot rocky slopes from sandy washes; match frost exposure to seed origin.",
+      "plants": [
+        "creosote",
+        "fairyDuster",
+        "desertWillow"
+      ]
+    },
+    "10.2.4": {
+      "name": "Chihuahuan Desert",
+      "scope": "Match desert grasslands, hot scrub and periodically flooded alkaline flats.",
+      "plants": [
+        "blackGrama",
+        "creosote",
+        "sacaton"
+      ]
+    },
+    "11.1.1": {
+      "name": "California Coastal Sage, Chaparral, and Oak Woodlands",
+      "scope": "Plant in summer-dry coastal scrub or oak edges; avoid wetting dry-adapted crowns in summer.",
+      "plants": [
+        "calBuckwheat",
+        "calFuchsia",
+        "coyoteMint"
+      ]
+    },
+    "11.1.2": {
+      "name": "Central California Valley",
+      "scope": "Separate drained valley uplands from shaded riparian edges and alkaline seasonal wetlands.",
+      "plants": [
+        "calFuchsia",
+        "calRose",
+        "saltgrass"
+      ]
+    },
+    "11.1.3": {
+      "name": "Southern and Baja California Pine-Oak Mountains",
+      "scope": "Match elevation, sun and winter cold across chaparral openings and montane woodland.",
+      "plants": [
+        "buckwheat",
+        "calFuchsia",
+        "barberry"
+      ]
+    },
+    "12.1.1": {
+      "name": "Madrean Archipelago",
+      "scope": "Warm grassland basins and cooler oak uplands require different species and seed elevations.",
+      "plants": [
+        "blackGrama",
+        "sideoats",
+        "emoryOak"
+      ]
+    },
+    "13.1.1": {
+      "name": "Arizona/New Mexico Mountains",
+      "scope": "Choose for dry lower openings, sheltered woodland edges or moist mountain sites by elevation.",
+      "plants": [
+        "blueGrama",
+        "buckwheat",
+        "barberry"
+      ]
+    },
+    "15.4.1": {
+      "name": "Southern Florida Coastal Plain",
+      "scope": "Match dry uplands, sunny freshwater marsh edges or seasonally flooded swamps; check salinity and hydroperiod.",
+      "plants": [
+        "spottedBeebalm",
+        "scarletMallow",
+        "cypress"
+      ]
+    },
+    "OC0106": {
+      "name": "Hawaiʻi Tropical Moist Forest",
+      "scope": "Match windward rain, forest shade and local elevation. Source plants from your island.",
+      "plants": [
+        "ohia",
+        "uluhe"
+      ]
+    },
+    "OC0202": {
+      "name": "Hawaiʻi Tropical Dry Forest",
+      "scope": "Use locally propagated dry-forest plants on warm, well-drained sites with seasonal drought.",
+      "plants": [
+        "ilima",
+        "aalii"
+      ]
+    },
+    "OC0701": {
+      "name": "Hawaiʻi Tropical High Shrubland",
+      "scope": "Use high-elevation sources for cool, exposed shrubland and well-drained volcanic soils.",
+      "plants": [
+        "pukiawe",
+        "ohelo"
+      ]
+    },
+    "OC0702": {
+      "name": "Hawaiʻi Tropical Low Shrubland",
+      "scope": "Match coastal wind, salt spray and sun on well-drained lowland sites.",
+      "plants": [
+        "naupaka",
+        "ilima",
+        "aalii"
+      ]
+    }
+  },
+  "species": {
+    "butterflyMilkweed": [
+      "Butterfly milkweed",
+      "Asclepias tuberosa",
+      "open",
+      "Sun to part sun · dry to moist soil",
+      "Native in much of central and eastern North America, including dry openings."
+    ],
+    "njTea": [
+      "New Jersey tea",
+      "Ceanothus americanus",
+      "open",
+      "Sun to part sun · dry, well-drained soil",
+      "Native in eastern and central North America, especially open woods and dry prairie edges."
+    ],
+    "columbine": [
+      "Red columbine",
+      "Aquilegia canadensis",
+      "shade",
+      "Part shade · well-drained soil",
+      "Native in eastern and central North America, often on rocky wooded slopes."
+    ],
+    "swampMilkweed": [
+      "Swamp milkweed",
+      "Asclepias incarnata",
+      "wet",
+      "Sun to part sun · moist to wet soil",
+      "Native to wetlands across much of central and eastern North America."
+    ],
+    "buttonbush": [
+      "Buttonbush",
+      "Cephalanthus occidentalis",
+      "wet",
+      "Sun to part shade · moist to wet freshwater soil",
+      "Native in much of the eastern and southern United States; use locally occurring populations in freshwater settings."
+    ],
+    "ragwort": [
+      "Golden ragwort",
+      "Packera aurea",
+      "shade",
+      "Part sun to shade · moist soil",
+      "Native in eastern North America, including moist woods and streambanks."
+    ],
+    "mistflower": [
+      "Blue mistflower",
+      "Conoclinium coelestinum",
+      "shade",
+      "Part sun to shade · moist to wet soil",
+      "Native in central and eastern North America; especially associated with moist openings in the Southeast."
+    ],
+    "bluestem": [
+      "Little bluestem",
+      "Schizachyrium scoparium",
+      "open",
+      "Sun · dry to moist, well-drained soil",
+      "Native across much of mainland North America, including prairie and open woodland."
+    ],
+    "bergamot": [
+      "Wild bergamot",
+      "Monarda fistulosa",
+      "open",
+      "Sun to part sun · dry to moist soil",
+      "Native across much of temperate North America in prairies and open woodland."
+    ],
+    "geranium": [
+      "Spotted geranium",
+      "Geranium maculatum",
+      "shade",
+      "Sun to shade · dry to moist soil",
+      "Native to eastern and central North American woodlands."
+    ],
+    "foxSedge": [
+      "Fox sedge",
+      "Carex vulpinoidea",
+      "wet",
+      "Sun to part sun · moist to wet soil",
+      "Native across much of North America, including moist fields and freshwater shores."
+    ],
+    "prairieClover": [
+      "Purple prairie clover",
+      "Dalea purpurea",
+      "open",
+      "Sun · dry soil",
+      "Native to central North American prairie and dry open ground."
+    ],
+    "bottlebrush": [
+      "Eastern bottlebrush grass",
+      "Elymus hystrix",
+      "shade",
+      "Part sun to shade · dry to moist soil",
+      "Native to eastern and central North American woodlands."
+    ],
+    "waterleaf": [
+      "Eastern waterleaf",
+      "Hydrophyllum virginianum",
+      "shade",
+      "Part sun to shade · moist to wet soil",
+      "Native to eastern and central North America, particularly moist woods."
+    ],
+    "whiteIndigo": [
+      "White wild indigo",
+      "Baptisia alba",
+      "open",
+      "Sun · dry to moist soil",
+      "Native to the central and southeastern United States; check the locally occurring variety."
+    ],
+    "coralHoneysuckle": [
+      "Coral honeysuckle",
+      "Lonicera sempervirens",
+      "shade",
+      "Sun to shade · dry to moist soil · vine",
+      "Native to the eastern and south-central United States; grows naturally at woodland edges."
+    ],
+    "roseMallow": [
+      "Eastern rosemallow",
+      "Hibiscus moscheutos",
+      "wet",
+      "Sun · wet soil",
+      "Native to eastern North American wetlands and shores; check locally occurring forms."
+    ],
+    "spottedBeebalm": [
+      "Spotted beebalm",
+      "Monarda punctata",
+      "open",
+      "Sun to part sun · dry to moist soil",
+      "Native in much of eastern and southern North America, often on sandy ground."
+    ],
+    "inkberry": [
+      "Inkberry",
+      "Ilex glabra",
+      "shade",
+      "Sun to part shade · moist, acidic soil · evergreen shrub",
+      "Native to eastern North American coastal plains and other acidic, moist sites."
+    ],
+    "scarletMallow": [
+      "Scarlet rosemallow",
+      "Hibiscus coccineus",
+      "wet",
+      "Sun to part sun · moist to wet soil",
+      "Native in the southeastern United States, particularly coastal-plain freshwater wetlands."
+    ],
+    "blueGrama": [
+      "Blue grama",
+      "Bouteloua gracilis",
+      "open",
+      "Sun · dry soil",
+      "Native to central and western North America, including shortgrass prairie and dry foothills."
+    ],
+    "canadaAnemone": [
+      "Canadian anemone",
+      "Anemone canadensis",
+      "wet",
+      "Sun to shade · moist to wet soil",
+      "Native across much of northern and central North America, especially moist meadows and shores."
+    ],
+    "poppyMallow": [
+      "Purple poppymallow",
+      "Callirhoe involucrata",
+      "open",
+      "Sun · dry soil",
+      "Native to central North America, especially open prairie and rocky or sandy sites."
+    ],
+    "sideoats": [
+      "Sideoats grama",
+      "Bouteloua curtipendula",
+      "open",
+      "Sun to part sun · dry soil",
+      "Native in much of North America, including prairie, glades and rocky slopes."
+    ],
+    "redbud": [
+      "Eastern redbud",
+      "Cercis canadensis",
+      "shade",
+      "Sun to part sun · dry to moist soil",
+      "Native in eastern and central North America, often on woodland margins."
+    ],
+    "buckwheat": [
+      "Sulphur-flower buckwheat",
+      "Eriogonum umbellatum",
+      "open",
+      "Sun · dry soil",
+      "Native to western North America; local varieties differ by elevation and substrate."
+    ],
+    "blueColumbine": [
+      "Colorado blue columbine",
+      "Aquilegia coerulea",
+      "shade",
+      "Sun to part sun · moist soil",
+      "Native to the Rocky Mountains and adjacent uplands, often in cool, moist sites."
+    ],
+    "barberry": [
+      "Creeping barberry",
+      "Berberis repens",
+      "shade",
+      "Part sun to shade · dry soil",
+      "Native to western North American woodland and shrubland."
+    ],
+    "hairgrass": [
+      "Tufted hairgrass",
+      "Deschampsia cespitosa",
+      "wet",
+      "Sun · moist to wet soil",
+      "Native in many cool North American regions, including western mountain meadows and Alaska; choose local stock."
+    ],
+    "desertMarigold": [
+      "Desert marigold",
+      "Baileya multiradiata",
+      "open",
+      "Sun · dry soil",
+      "Native to southwestern deserts and northern Mexico."
+    ],
+    "fairyDuster": [
+      "Fairy duster",
+      "Calliandra eriophylla",
+      "open",
+      "Sun · dry soil",
+      "Native to warm southwestern deserts and northern Mexico."
+    ],
+    "desertWillow": [
+      "Desert willow",
+      "Chilopsis linearis",
+      "open",
+      "Sun · drained sandy soil, including dry washes",
+      "Native to southwestern North America, commonly in seasonally dry washes."
+    ],
+    "clarkia": [
+      "Farewell-to-spring",
+      "Clarkia amoena",
+      "open",
+      "Sun · dry to moist soil",
+      "Native to Pacific coastal North America; check locally occurring subspecies."
+    ],
+    "woolly": [
+      "Woolly sunflower",
+      "Eriophyllum lanatum",
+      "open",
+      "Sun · dry soil",
+      "Native in western North America; varieties occupy different coastal and inland habitats."
+    ],
+    "oregonGrape": [
+      "Oregon grape",
+      "Berberis aquifolium",
+      "shade",
+      "Part sun to shade · dry soil",
+      "Native to western North America, especially Pacific Northwest woodland and edges."
+    ],
+    "salal": [
+      "Salal",
+      "Gaultheria shallon",
+      "shade",
+      "Sun to shade · acidic, drained to moist soil",
+      "Native to Pacific coastal forests and shrublands from Alaska to California."
+    ],
+    "camas": [
+      "Small camas",
+      "Camassia quamash",
+      "wet",
+      "Sun · moist in spring and drier in summer",
+      "Native to western North America, including seasonally moist meadows that dry in summer."
+    ],
+    "ninebark": [
+      "Pacific ninebark",
+      "Physocarpus capitatus",
+      "wet",
+      "Sun to part sun · moist to wet soil",
+      "Native to Pacific western North America, especially along streams and in moist woods."
+    ],
+    "calBuckwheat": [
+      "California buckwheat",
+      "Eriogonum fasciculatum",
+      "open",
+      "Sun · low water needs",
+      "Native to California and adjacent southwestern areas; select a locally occurring variety."
+    ],
+    "calFuchsia": [
+      "California fuchsia",
+      "Epilobium canum",
+      "open",
+      "Sun · low water needs",
+      "Native in western North America, particularly dry rocky slopes and openings."
+    ],
+    "coyoteMint": [
+      "Coyote mint",
+      "Monardella villosa",
+      "shade",
+      "Sun to part shade · low water needs",
+      "Native to California and nearby areas; choose locally occurring forms for coastal scrub or woodland edges."
+    ],
+    "calRose": [
+      "California wildrose",
+      "Rosa californica",
+      "shade",
+      "Sun to part shade · moderate water needs",
+      "Native to California and adjacent areas, including riparian thickets."
+    ],
+    "fireweed": [
+      "Fireweed",
+      "Chamerion angustifolium",
+      "open",
+      "Sun · drained, dry to moist soil in open or disturbed ground",
+      "Native across Alaska and much of northern North America, especially in disturbed openings."
+    ],
+    "bunchberry": [
+      "Bunchberry",
+      "Cornus canadensis",
+      "shade",
+      "Part shade · cool, moist, acidic woodland soil",
+      "Native across northern North America, including cool, moist conifer and mixed forests."
+    ],
+    "alaskaIris": [
+      "Wild iris",
+      "Iris setosa",
+      "wet",
+      "Sun to part shade · moist meadow or freshwater edge",
+      "Native to Alaska and other northern Pacific regions; use locally occurring stock."
+    ],
+    "ilima": [
+      "ʻIlima",
+      "Sida fallax",
+      "open",
+      "Sun · drained soil · select a locally appropriate growth form",
+      "Indigenous to Hawaiʻi and other Pacific areas; coastal and inland forms differ."
+    ],
+    "mossPhlox": [
+      "Moss phlox",
+      "Phlox subulata",
+      "open",
+      "Sun to part sun · dry, well-drained soil",
+      "Native to eastern North America, including rocky openings within parts of the Appalachians."
+    ],
+    "spicebush": [
+      "Spicebush",
+      "Lindera benzoin",
+      "shade",
+      "Part shade · moist soil · deciduous shrub",
+      "Native to eastern and central North American woods and stream corridors."
+    ],
+    "blueFlag": [
+      "Northern blue flag",
+      "Iris versicolor",
+      "wet",
+      "Sun to part shade · moist to wet soil",
+      "Native to northern and eastern North American freshwater wetlands."
+    ],
+    "beachPlum": [
+      "Beach plum",
+      "Prunus maritima",
+      "open",
+      "Sun · dry, sandy soil · shrub",
+      "Native to the Atlantic coast from the Northeast into the Mid-Atlantic; check the southern limit before planting."
+    ],
+    "clethra": [
+      "Sweet pepperbush",
+      "Clethra alnifolia",
+      "wet",
+      "Sun to part shade · moist to wet, acidic soil",
+      "Native to eastern North American coastal plains and adjacent moist, acidic habitats."
+    ],
+    "sweetfern": [
+      "Sweetfern",
+      "Comptonia peregrina",
+      "open",
+      "Sun to part sun · dry, sandy, acidic soil",
+      "Native in eastern North America, especially acidic sands and barrens."
+    ],
+    "bayberry": [
+      "Northern bayberry",
+      "Morella pensylvanica",
+      "open",
+      "Sun to part sun · dry to moist, sandy soil",
+      "Native to the northeastern and mid-Atlantic coast and nearby sandy inland sites."
+    ],
+    "arcticWillow": [
+      "Arctic willow",
+      "Salix arctica",
+      "open",
+      "Sun · exposed gravel or moist tundra soils",
+      "Native across Arctic Alaska and other Arctic and alpine areas."
+    ],
+    "cottonGrass": [
+      "Tussock cottongrass",
+      "Eriophorum vaginatum",
+      "wet",
+      "Sun · moist, acidic tundra or peat",
+      "Native in Alaska and across northern boreal and Arctic regions."
+    ],
+    "waterSedge": [
+      "Water sedge",
+      "Carex aquatilis",
+      "wet",
+      "Sun · saturated freshwater soils and shallow margins",
+      "Native in Alaska and much of northern and western North America."
+    ],
+    "dryas": [
+      "Eightpetal mountain-avens",
+      "Dryas octopetala",
+      "open",
+      "Sun · drained gravel and rocky alpine ground",
+      "Native to Arctic and alpine Alaska; check the local Dryas species before sourcing."
+    ],
+    "lyngbye": [
+      "Lyngbye’s sedge",
+      "Carex lyngbyei",
+      "wet",
+      "Sun · saturated tidal or brackish margins",
+      "Native to the Pacific coast of North America, including coastal Alaska."
+    ],
+    "crowberry": [
+      "Black crowberry",
+      "Empetrum nigrum",
+      "open",
+      "Sun to light shade · cool, acidic heath",
+      "Native in Alaska and other northern North American regions."
+    ],
+    "lingonberry": [
+      "Lingonberry",
+      "Vaccinium vitis-idaea",
+      "shade",
+      "Light shade to sun · cool, acidic soil",
+      "Native in Alaska and northern North America; source local material."
+    ],
+    "beachRye": [
+      "American dunegrass",
+      "Leymus mollis",
+      "open",
+      "Sun · coastal sand and gravel exposed to salt spray",
+      "Native to northern North American coasts, including Alaska and the Pacific Northwest."
+    ],
+    "bluebunch": [
+      "Bluebunch wheatgrass",
+      "Pseudoroegneria spicata",
+      "open",
+      "Sun · dry, drained steppe soils",
+      "Native to western North American grasslands and shrub steppe."
+    ],
+    "switchgrass": [
+      "Switchgrass",
+      "Panicum virgatum",
+      "wet",
+      "Sun · moist or seasonally wet meadow soils",
+      "Native across much of central and eastern North America; upland and lowland forms differ."
+    ],
+    "pecan": [
+      "Pecan",
+      "Carya illinoinensis",
+      "shade",
+      "Sun · deep, moist floodplain soil · large canopy tree",
+      "Native to central and south-central river valleys; widely planted beyond its native range."
+    ],
+    "cypress": [
+      "Bald cypress",
+      "Taxodium distichum",
+      "wet",
+      "Sun · freshwater lowland soils, including seasonally flooded sites · large tree",
+      "Native to southeastern coastal plains and the lower Mississippi drainage."
+    ],
+    "aspen": [
+      "Quaking aspen",
+      "Populus tremuloides",
+      "shade",
+      "Sun · cool woodland openings · spreading tree",
+      "Native across northern North America and western mountain regions."
+    ],
+    "burOak": [
+      "Bur oak",
+      "Quercus macrocarpa",
+      "shade",
+      "Sun · well-drained woodland edge · large canopy tree",
+      "Native to central and eastern North America, including prairie and woodland margins."
+    ],
+    "westernWheat": [
+      "Western wheatgrass",
+      "Pascopyrum smithii",
+      "open",
+      "Sun · dry to seasonally moist clay or loam",
+      "Native to western and central North American grasslands."
+    ],
+    "cottonwood": [
+      "Eastern cottonwood",
+      "Populus deltoides",
+      "wet",
+      "Sun · moist floodplain terraces · large tree",
+      "Native across much of central and eastern North America; seek the local plains form on Great Plains rivers."
+    ],
+    "sandBluestem": [
+      "Sand bluestem",
+      "Andropogon hallii",
+      "open",
+      "Sun · deep, dry sand",
+      "Native to sandy sites in the Great Plains."
+    ],
+    "saltgrass": [
+      "Inland saltgrass",
+      "Distichlis spicata",
+      "wet",
+      "Sun · saline or alkaline flats, including seasonally wet ground",
+      "Native across much of North America; match local salt and water conditions."
+    ],
+    "buffaloGrass": [
+      "Buffalograss",
+      "Bouteloua dactyloides",
+      "open",
+      "Sun · dry shortgrass prairie soil",
+      "Native to the Great Plains and adjacent regions."
+    ],
+    "sacaton": [
+      "Alkali sacaton",
+      "Sporobolus airoides",
+      "wet",
+      "Sun · alkaline flats that dry between floods",
+      "Native to western and southwestern North America and the western Great Plains."
+    ],
+    "bigBluestem": [
+      "Big bluestem",
+      "Andropogon gerardii",
+      "open",
+      "Sun · drained to moderately moist prairie soil",
+      "Native to tallgrass prairie and other open habitats in central and eastern North America."
+    ],
+    "postOak": [
+      "Post oak",
+      "Quercus stellata",
+      "shade",
+      "Sun · dry, drained soils in open woodland · canopy tree",
+      "Native across much of the south-central and eastern United States."
+    ],
+    "escarpmentOak": [
+      "Escarpment live oak",
+      "Quercus fusiformis",
+      "shade",
+      "Sun · drained limestone uplands · canopy tree",
+      "Native to parts of Texas and adjacent areas, including the Edwards Plateau."
+    ],
+    "honeyMesquite": [
+      "Honey mesquite",
+      "Prosopis glandulosa",
+      "open",
+      "Sun · hot, well-drained soil · thorny tree",
+      "Native to the southwestern and south-central United States and Mexico."
+    ],
+    "idahoFescue": [
+      "Idaho fescue",
+      "Festuca idahoensis",
+      "open",
+      "Sun · dry, drained upland soils",
+      "Native to western North American grasslands and open woodland."
+    ],
+    "bitterbrush": [
+      "Antelope bitterbrush",
+      "Purshia tridentata",
+      "open",
+      "Sun · dry, gravelly shrub-steppe soils",
+      "Native in western North America, especially inland shrublands."
+    ],
+    "sagebrush": [
+      "Big sagebrush",
+      "Artemisia tridentata",
+      "open",
+      "Sun · drained soil · match the local subspecies to elevation and soil",
+      "Native to western North American shrub steppe and dry basins."
+    ],
+    "ricegrass": [
+      "Indian ricegrass",
+      "Achnatherum hymenoides",
+      "open",
+      "Sun · dry, sandy or gravelly ground",
+      "Native to western North America and the western Great Plains."
+    ],
+    "fourwing": [
+      "Fourwing saltbush",
+      "Atriplex canescens",
+      "open",
+      "Sun · dry, drained soils, including alkaline ground",
+      "Native in arid western and central North America."
+    ],
+    "creosote": [
+      "Creosote bush",
+      "Larrea tridentata",
+      "open",
+      "Sun · hot, dry, drained desert soil",
+      "Native to the Mojave, Sonoran and Chihuahuan deserts."
+    ],
+    "blackGrama": [
+      "Black grama",
+      "Bouteloua eriopoda",
+      "open",
+      "Sun · dry desert grassland soils",
+      "Native to the southwestern United States and northern Mexico."
+    ],
+    "emoryOak": [
+      "Emory oak",
+      "Quercus emoryi",
+      "shade",
+      "Sun to light shade · drained rocky foothill soil · canopy tree",
+      "Native to the southwestern United States and northern Mexico, including Madrean woodlands."
+    ],
+    "ohia": [
+      "ʻŌhiʻa lehua",
+      "Metrosideros polymorpha",
+      "shade",
+      "Sun to part shade · match locally occurring form and elevation",
+      "Endemic to Hawaiʻi. Use island-grown stock and follow local biosecurity guidance."
+    ],
+    "uluhe": [
+      "ʻUluhe",
+      "Dicranopteris linearis",
+      "shade",
+      "Sun to part shade · moist, acidic slopes · spreading fern",
+      "Indigenous to Hawaiʻi and also found naturally elsewhere in the tropics."
+    ],
+    "aalii": [
+      "ʻAʻaliʻi",
+      "Dodonaea viscosa",
+      "open",
+      "Sun · well-drained soil · use locally propagated stock",
+      "Indigenous to Hawaiʻi; also occurs naturally outside the islands."
+    ],
+    "pukiawe": [
+      "Pūkiawe",
+      "Leptecophylla tameiameiae",
+      "open",
+      "Sun to part sun · cool, drained upland soil",
+      "Indigenous to Hawaiʻi; select a locally occurring upland form."
+    ],
+    "ohelo": [
+      "ʻŌhelo ʻai",
+      "Vaccinium reticulatum",
+      "open",
+      "Sun · cool, acidic volcanic soils · high-elevation sites",
+      "Endemic to Hawaiʻi; use nursery-propagated plants from appropriate island sources."
+    ],
+    "naupaka": [
+      "Naupaka kahakai",
+      "Scaevola taccada",
+      "open",
+      "Sun · drained coastal sand · tolerates salt spray",
+      "Indigenous to Hawaiʻi and other Indo-Pacific coasts."
+    ]
+  },
+  "photos": {
+    "Achnatherum hymenoides": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Achnatherum_hymenoides_-_Ricegrass.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Achnatherum_hymenoides_-_Ricegrass.jpg",
+      "artist": "NRCS",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Andropogon gerardii": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Andropogon_gerardii_%283904160434%29.jpg/960px-Andropogon_gerardii_%283904160434%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Andropogon_gerardii_(3904160434).jpg",
+      "artist": "Matt Lavin from Bozeman, Montana, USA",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "Andropogon hallii": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Andropogon_hallii_1.jpg/960px-Andropogon_hallii_1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Andropogon_hallii_1.jpg",
+      "artist": "Matt Lavin",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "Anemone canadensis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Anemone_canadensis.jpg/960px-Anemone_canadensis.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Anemone_canadensis.jpg",
+      "artist": "John B. (Dendroica cerulea)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "Aquilegia canadensis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Wild_Columbine.jpg/960px-Wild_Columbine.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Wild_Columbine.jpg",
+      "artist": "Ragesoss",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Aquilegia coerulea": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Aquilegia_coerulea_-_Laura_Gaudette_01.jpg/960px-Aquilegia_coerulea_-_Laura_Gaudette_01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Aquilegia_coerulea_-_Laura_Gaudette_01.jpg",
+      "artist": "Laura Gaudette https://www.inaturalist.org/people/gaudettelaura",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "Artemisia tridentata": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Sagebrushsjc.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sagebrushsjc.jpg",
+      "artist": "Peemus",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Asclepias incarnata": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Swamp_milkweed_monarch.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Swamp_milkweed_monarch.jpg",
+      "artist": "The original uploader was Teune at English Wikipedia.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Asclepias tuberosa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Asclepias_tuberosa_interior.jpg/960px-Asclepias_tuberosa_interior.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Asclepias_tuberosa_interior.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Atriplex canescens": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Atriplex_canescens_habit.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Atriplex_canescens_habit.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Baileya multiradiata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Baileya_multiradiata_head_2003-07-03.jpg/960px-Baileya_multiradiata_head_2003-07-03.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Baileya_multiradiata_head_2003-07-03.jpg",
+      "artist": "No machine-readable author provided. Curtis Clark assumed (based on copyright claims).",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "Baptisia alba": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Baptisia_alba_var._macrophylla.jpg/960px-Baptisia_alba_var._macrophylla.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Baptisia_alba_var._macrophylla.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Berberis aquifolium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Mahonia_aquifolium.jpg/960px-Mahonia_aquifolium.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mahonia_aquifolium.jpg",
+      "artist": "The original uploader was Meggar at English Wikipedia.",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Berberis repens": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Berberis_repens-_Anders_Hastings_01.jpg/960px-Berberis_repens-_Anders_Hastings_01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Berberis_repens-_Anders_Hastings_01.jpg",
+      "artist": "Anders Hastings https://www.inaturalist.org/people/andershastings",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "Bouteloua curtipendula": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Bouteloua_curtipendula.jpg/960px-Bouteloua_curtipendula.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bouteloua_curtipendula.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Bouteloua dactyloides": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Bouteloua_dactyloides_-_Patrick_Alexander_01.jpg/960px-Bouteloua_dactyloides_-_Patrick_Alexander_01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bouteloua_dactyloides_-_Patrick_Alexander_01.jpg",
+      "artist": "Patrick Alexander https://www.inaturalist.org/people/aspidoscelis",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "Bouteloua eriopoda": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Bouteloua_eriopoda.jpg/960px-Bouteloua_eriopoda.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bouteloua_eriopoda.jpg",
+      "artist": "Matt Lavin",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "Bouteloua gracilis": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bouteloua_gracilis.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bouteloua_gracilis.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Calliandra eriophylla": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Pink_Fairy-duster_-_Flickr_-_treegrow_%282%29.jpg/960px-Pink_Fairy-duster_-_Flickr_-_treegrow_%282%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pink_Fairy-duster_-_Flickr_-_treegrow_(2).jpg",
+      "artist": "Katja Schulz from Washington, D. C., USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "Callirhoe involucrata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Callirhoe_involucrata_group.jpg/960px-Callirhoe_involucrata_group.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Callirhoe_involucrata_group.jpg",
+      "artist": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Camassia quamash": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Camassia_quamash_%28Pursh%29_Greene.jpg/960px-Camassia_quamash_%28Pursh%29_Greene.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Camassia_quamash_(Pursh)_Greene.jpg",
+      "artist": "William & Wilma Follette @ USDA-NRCS PLANTS Database / USDA NRCS. 1992. Western wetland flora: Field office guide to plant species. West Region, Sacramento, California.",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Carex aquatilis": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Carex_aquatilis.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Carex_aquatilis.jpg",
+      "artist": "Teresa Prendusi, USFS botanist per [1]",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Carex lyngbyei": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Carexlyngbyei.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Carexlyngbyei.jpg",
+      "artist": "Gordon Leppig & Andrea J. Pickart",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Carex vulpinoidea": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Carex_vulpinoidea_NRCS-3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Carex_vulpinoidea_NRCS-3.jpg",
+      "artist": "Robert H. Mohlenbrock",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Carya illinoinensis": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Carya_illinoinensis.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Carya_illinoinensis.jpg",
+      "artist": "Bruce Marlin",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Ceanothus americanus": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ceanothus_americanus1.jpg/960px-Ceanothus_americanus1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ceanothus_americanus1.jpg",
+      "artist": "unknown author, USFWS",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Cephalanthus occidentalis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Cephalanthus_occidentalis_occidentalis1.jpg/960px-Cephalanthus_occidentalis_occidentalis1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cephalanthus_occidentalis_occidentalis1.jpg",
+      "artist": "The Cosmonaut",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Cercis canadensis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/RedbudOhio02.jpg/960px-RedbudOhio02.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:RedbudOhio02.jpg",
+      "artist": "Greg Hume",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Chamerion angustifolium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Maitohorsma_%28Epilobium_angustifolium%29.JPG/960px-Maitohorsma_%28Epilobium_angustifolium%29.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Maitohorsma_(Epilobium_angustifolium).JPG",
+      "artist": "kallerna",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Chilopsis linearis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Chilopsis_linearis_flower_2.jpg/960px-Chilopsis_linearis_flower_2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chilopsis_linearis_flower_2.jpg",
+      "artist": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Clarkia amoena": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Clarkia_amoena.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Clarkia_amoena.jpg",
+      "artist": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Clethra alnifolia": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Clethra-alnifolia-flowers.JPG/960px-Clethra-alnifolia-flowers.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Clethra-alnifolia-flowers.JPG",
+      "artist": "Sten Porse",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Comptonia peregrina": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Sweet-fern_%28Huron_Shores%29.JPG/960px-Sweet-fern_%28Huron_Shores%29.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Sweet-fern_(Huron_Shores).JPG",
+      "artist": "Fungus Guy",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Conoclinium coelestinum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Eupatorium_coelestinum3.jpg/960px-Eupatorium_coelestinum3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Eupatorium_coelestinum3.jpg",
+      "artist": "KENPEI",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Cornus canadensis": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/CanadianDogwoodGrowingTrailSide_cropped.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:CanadianDogwoodGrowingTrailSide_cropped.jpg",
+      "artist": "original: JohnHarvey; derivative: Peter coxhead",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Dalea purpurea": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Dalea_purpurea_Arkansas.jpg/960px-Dalea_purpurea_Arkansas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dalea_purpurea_Arkansas.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Deschampsia cespitosa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/DeschampsiaCesp.jpg/960px-DeschampsiaCesp.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:DeschampsiaCesp.jpg",
+      "artist": "Christian Fischer",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Dicranopteris linearis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Starr_070405-6757_Dicranopteris_linearis.jpg/960px-Starr_070405-6757_Dicranopteris_linearis.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_070405-6757_Dicranopteris_linearis.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Distichlis spicata": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Dist3_001_svp.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dist3_001_svp.jpg",
+      "artist": "Robert H. Mohlenbrock. USDA NRCS. 1992. Western wetland flora: Field office guide to plant species. West Region, Sacramento. Courtesy of USDA NRCS Wetland Science Institute.",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Dodonaea viscosa": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Dodonaea_viscosa_%28Hopbush%29_W2_IMG_1899.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dodonaea_viscosa_(Hopbush)_W2_IMG_1899.jpg",
+      "artist": "J.M.Garg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Dryas octopetala": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Dryas_octopetala_LC0327.jpg/960px-Dryas_octopetala_LC0327.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dryas_octopetala_LC0327.jpg",
+      "artist": "Jörg Hempel",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+    },
+    "Elymus hystrix": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Elymus_hystrix_inflorescences_001.JPG/960px-Elymus_hystrix_inflorescences_001.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Elymus_hystrix_inflorescences_001.JPG",
+      "artist": "User:SB_Johnny",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Empetrum nigrum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Empetrum_nigrum_by_Maseltov_2.jpg/960px-Empetrum_nigrum_by_Maseltov_2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Empetrum_nigrum_by_Maseltov_2.jpg",
+      "artist": "Maseltov",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+    },
+    "Epilobium canum": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Zauschneria_flowers-500px.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Zauschneria_flowers-500px.jpg",
+      "artist": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Eriogonum fasciculatum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Eriogonum_fasciculatum_5.jpg/960px-Eriogonum_fasciculatum_5.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Eriogonum_fasciculatum_5.jpg",
+      "artist": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Eriogonum umbellatum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Eriogonum_umbellatum_4672.JPG/960px-Eriogonum_umbellatum_4672.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Eriogonum_umbellatum_4672.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Eriophorum vaginatum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Wollgras_Eriophorum_vaginatum.jpg/960px-Wollgras_Eriophorum_vaginatum.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Wollgras_Eriophorum_vaginatum.jpg",
+      "artist": "Elke Freese",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Eriophyllum lanatum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Eriophyllum_lanatum_3575.JPG/960px-Eriophyllum_lanatum_3575.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Eriophyllum_lanatum_3575.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Festuca idahoensis": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Festucaidahoensis1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Festucaidahoensis1.jpg",
+      "artist": "Chris Wagner",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Gaultheria shallon": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Gaultheria_shallon_RF.jpg/960px-Gaultheria_shallon_RF.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gaultheria_shallon_RF.jpg",
+      "artist": "Robert Flogaus-Faust",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "Geranium maculatum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Geranium_maculatum_Leatherwood_Lake.jpg/960px-Geranium_maculatum_Leatherwood_Lake.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Geranium_maculatum_Leatherwood_Lake.jpg",
+      "artist": "Eric in SF",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Hibiscus coccineus": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/%28MHNT%29_Hibiscus_coccineus_flower_and_bottoms.jpg/960px-%28MHNT%29_Hibiscus_coccineus_flower_and_bottoms.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:(MHNT)_Hibiscus_coccineus_flower_and_bottoms.jpg",
+      "artist": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Hibiscus moscheutos": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Swamp_rose-mallow.jpg/960px-Swamp_rose-mallow.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Swamp_rose-mallow.jpg",
+      "artist": "The Cosmonaut",
+      "license": "CC BY-SA 2.5 ca",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en"
+    },
+    "Hydrophyllum virginianum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Hydrophyllum_virginianum_var_virginianum.jpg/960px-Hydrophyllum_virginianum_var_virginianum.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hydrophyllum_virginianum_var_virginianum.jpg",
+      "artist": "Mason Brock (Masebrock)",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Ilex glabra": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Ilex_glabra_251258583.jpg/960px-Ilex_glabra_251258583.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ilex_glabra_251258583.jpg",
+      "artist": "Alex Abair",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "Iris setosa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Irissetosa1.jpg/960px-Irissetosa1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Irissetosa1.jpg",
+      "artist": "w:ru:Денис Анисимов (talk | contribs)",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Iris versicolor": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Blue_Flag%2C_Ottawa.jpg/960px-Blue_Flag%2C_Ottawa.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Flag,_Ottawa.jpg",
+      "artist": "D. Gordon E. Robertson",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Larrea tridentata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Larrea_tridentata_Furnace_Creek.jpg/960px-Larrea_tridentata_Furnace_Creek.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Larrea_tridentata_Furnace_Creek.jpg",
+      "artist": "Eric in SF",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Leptecophylla tameiameiae": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Starr_030419-0156_Leptecophylla_tameiameiae.jpg/960px-Starr_030419-0156_Leptecophylla_tameiameiae.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_030419-0156_Leptecophylla_tameiameiae.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Leymus mollis": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Leymus_mollis_ssp._mollis.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Leymus_mollis_ssp._mollis.jpeg",
+      "artist": "Robert Steers/NPS",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "Lindera benzoin": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Spicebush_%284506720062%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Spicebush_(4506720062).jpg",
+      "artist": "Jason Hollinger",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "Lonicera sempervirens": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Lonicera_sempervirens_2.jpg/960px-Lonicera_sempervirens_2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lonicera_sempervirens_2.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Metrosideros polymorpha": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Metrosideros_polymorpha.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Metrosideros_polymorpha.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Monarda fistulosa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Monarda_fistulosa_Arkansas.jpg/960px-Monarda_fistulosa_Arkansas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Monarda_fistulosa_Arkansas.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Monarda punctata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/%28MHNT%29_Monarda_punctata.jpg/960px-%28MHNT%29_Monarda_punctata.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:(MHNT)_Monarda_punctata.jpg",
+      "artist": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Monardella villosa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Monardella_villosa_ssp._franciscana.jpg/960px-Monardella_villosa_ssp._franciscana.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Monardella_villosa_ssp._franciscana.jpg",
+      "artist": "Eric in SF",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Morella pensylvanica": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Northern_Bayberry_Leaf_Cluster_2420px.jpg/960px-Northern_Bayberry_Leaf_Cluster_2420px.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Northern_Bayberry_Leaf_Cluster_2420px.jpg",
+      "artist": "Photo by Derek Ramsey (Ram-Man)",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "Packera aurea": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Packera_aurea_in_the_Missouri_Botanical_Garden.jpg/960px-Packera_aurea_in_the_Missouri_Botanical_Garden.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Packera_aurea_in_the_Missouri_Botanical_Garden.jpg",
+      "artist": "James Steakley",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Panicum virgatum": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Panicum_virgatum.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Panicum_virgatum.jpg",
+      "artist": "Warren Gretz, DOE/NREL",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Pascopyrum smithii": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Pascopyrum_smithii_NRCS-2.jpg/960px-Pascopyrum_smithii_NRCS-2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pascopyrum_smithii_NRCS-2.jpg",
+      "artist": "Robert H. Mohlenbrock. USDA SCS. 1989. Midwest wetland flora: Field office illustrated guide to plant species. Midwest National Technical Center, Lincoln. Courtesy of USDA NRCS Wetland Science Institute.",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Phlox subulata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Phlox_subulata_-_Moss_Phlox_2.jpg/960px-Phlox_subulata_-_Moss_Phlox_2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Phlox_subulata_-_Moss_Phlox_2.jpg",
+      "artist": "Fritzflohrreynolds",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Physocarpus capitatus": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Physocarpus_capitatus_9540.JPG/960px-Physocarpus_capitatus_9540.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Physocarpus_capitatus_9540.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Populus deltoides": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Peuplier_delto%C3%AFde_feuillage.jpg/960px-Peuplier_delto%C3%AFde_feuillage.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Peuplier_delto%C3%AFde_feuillage.jpg",
+      "artist": "Laurent Bélanger",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Populus tremuloides": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/2013-10-06_15_04_21_Aspens_during_autumn_along_the_Changing_Canyon_Nature_Trail_in_Lamoille_Canyon%2C_Nevada.jpg/960px-2013-10-06_15_04_21_Aspens_during_autumn_along_the_Changing_Canyon_Nature_Trail_in_Lamoille_Canyon%2C_Nevada.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2013-10-06_15_04_21_Aspens_during_autumn_along_the_Changing_Canyon_Nature_Trail_in_Lamoille_Canyon,_Nevada.jpg",
+      "artist": "Famartin",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Prosopis glandulosa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Prosopis-glandulosa-foliage.JPG/960px-Prosopis-glandulosa-foliage.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Prosopis-glandulosa-foliage.JPG",
+      "artist": "Don A.W. Carlson",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "Prunus maritima": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Prunus_maritima.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Prunus_maritima.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Pseudoroegneria spicata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Pseudoroegneria_spicata_01.jpg/960px-Pseudoroegneria_spicata_01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pseudoroegneria_spicata_01.jpg",
+      "artist": "T9500",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Purshia tridentata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Purshia_tridentata_9732.JPG/960px-Purshia_tridentata_9732.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Purshia_tridentata_9732.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Quercus emoryi": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Quercus_emoryi_%282008%29.jpg/960px-Quercus_emoryi_%282008%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Quercus_emoryi_(2008).jpg",
+      "artist": "Deiv mm",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Quercus fusiformis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Matrimonial_Oak_San_Saba_County_Texas.jpg/960px-Matrimonial_Oak_San_Saba_County_Texas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Matrimonial_Oak_San_Saba_County_Texas.jpg",
+      "artist": "Larry D. Moore",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "Quercus macrocarpa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Big_Tree_with_spring_picnic.jpg/960px-Big_Tree_with_spring_picnic.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Big_Tree_with_spring_picnic.jpg",
+      "artist": "Heath Cajandig",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "Quercus stellata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Houston_campsite_oak.jpg/960px-Houston_campsite_oak.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Houston_campsite_oak.jpg",
+      "artist": "Larry D. Moore",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "Rosa californica": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Rosa_californica_2004-07-20.jpg/960px-Rosa_californica_2004-07-20.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rosa_californica_2004-07-20.jpg",
+      "artist": "Copyright by Curtis Clark, licensed as noted",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    "Salix arctica": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/ARCTIC-WILLOW-GLAC.jpg/960px-ARCTIC-WILLOW-GLAC.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:ARCTIC-WILLOW-GLAC.jpg",
+      "artist": "Dani.j.lombardi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Scaevola taccada": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Starr_010209-0286_Scaevola_taccada.jpg/960px-Starr_010209-0286_Scaevola_taccada.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_010209-0286_Scaevola_taccada.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Schizachyrium scoparium": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Andropogon_scoparius.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Andropogon_scoparius.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Sida fallax": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Starr_020112-0026_Sida_fallax.jpg/960px-Starr_020112-0026_Sida_fallax.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_020112-0026_Sida_fallax.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Sporobolus airoides": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Sporobolus_airoides_%283912523640%29.jpg/960px-Sporobolus_airoides_%283912523640%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sporobolus_airoides_(3912523640).jpg",
+      "artist": "Matt Lavin",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "Taxodium distichum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Taxodium_distichum_NRCSMS01010.jpg/960px-Taxodium_distichum_NRCSMS01010.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Taxodium_distichum_NRCSMS01010.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Vaccinium reticulatum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Starr_011003-0146_Vaccinium_reticulatum.jpg/960px-Starr_011003-0146_Vaccinium_reticulatum.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_011003-0146_Vaccinium_reticulatum.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Vaccinium vitis-idaea": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Vaccinium_vitis-idaea_20060824_003.jpg/960px-Vaccinium_vitis-idaea_20060824_003.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vaccinium_vitis-idaea_20060824_003.jpg",
+      "artist": "Jonas Bergsten",
+      "license": "Public domain",
+      "licenseUrl": ""
+    }
+  }
+}
