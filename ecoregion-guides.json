@@ -6,7 +6,8 @@
       "plants": [
         "arcticWillow",
         "cottonGrass",
-        "waterSedge"
+        "waterSedge",
+        "cloudberry"
       ]
     },
     "2.2.2": {
@@ -15,7 +16,10 @@
       "plants": [
         "dryas",
         "arcticWillow",
-        "cottonGrass"
+        "cottonGrass",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "2.2.3": {
@@ -24,7 +28,9 @@
       "plants": [
         "lyngbye",
         "waterSedge",
-        "arcticWillow"
+        "arcticWillow",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "2.2.4": {
@@ -33,7 +39,10 @@
       "plants": [
         "dryas",
         "crowberry",
-        "cottonGrass"
+        "cottonGrass",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "2.2.5": {
@@ -42,7 +51,10 @@
       "plants": [
         "crowberry",
         "lingonberry",
-        "waterSedge"
+        "waterSedge",
+        "alaskaLupine",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "2.2.6": {
@@ -51,7 +63,9 @@
       "plants": [
         "crowberry",
         "beachRye",
-        "lyngbye"
+        "lyngbye",
+        "alaskaLupine",
+        "cloudberry"
       ]
     },
     "2.3.1": {
@@ -60,7 +74,10 @@
       "plants": [
         "dryas",
         "arcticWillow",
-        "waterSedge"
+        "waterSedge",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "3.1.1": {
@@ -69,7 +86,11 @@
       "plants": [
         "fireweed",
         "bunchberry",
-        "cottonGrass"
+        "cottonGrass",
+        "alaskaLupine",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "3.1.2": {
@@ -78,7 +99,11 @@
       "plants": [
         "fireweed",
         "bunchberry",
-        "alaskaIris"
+        "alaskaIris",
+        "alaskaLupine",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "3.1.3": {
@@ -87,7 +112,11 @@
       "plants": [
         "fireweed",
         "lingonberry",
-        "waterSedge"
+        "waterSedge",
+        "alaskaLupine",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "3.2.1": {
@@ -96,7 +125,10 @@
       "plants": [
         "dryas",
         "lingonberry",
-        "arcticWillow"
+        "arcticWillow",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "5.2.1": {
@@ -105,7 +137,12 @@
       "plants": [
         "bluestem",
         "bunchberry",
-        "blueFlag"
+        "blueFlag",
+        "blueAster",
+        "cardinalFlower",
+        "blueVervain",
+        "prairieSmoke",
+        "labradorTea"
       ]
     },
     "5.2.2": {
@@ -114,7 +151,10 @@
       "plants": [
         "fireweed",
         "lingonberry",
-        "blueFlag"
+        "blueFlag",
+        "boneset",
+        "blueVervain",
+        "labradorTea"
       ]
     },
     "5.3.1": {
@@ -123,7 +163,12 @@
       "plants": [
         "columbine",
         "bunchberry",
-        "blueFlag"
+        "blueFlag",
+        "foamflower",
+        "whiteAster",
+        "blueAster",
+        "cardinalFlower",
+        "labradorTea"
       ]
     },
     "5.3.3": {
@@ -132,7 +177,12 @@
       "plants": [
         "bluestem",
         "geranium",
-        "blueFlag"
+        "blueFlag",
+        "foamflower",
+        "whiteAster",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue"
       ]
     },
     "6.1.1": {
@@ -141,7 +191,11 @@
       "plants": [
         "fireweed",
         "lingonberry",
-        "cottonGrass"
+        "cottonGrass",
+        "alaskaLupine",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "6.1.2": {
@@ -150,7 +204,11 @@
       "plants": [
         "dryas",
         "arcticWillow",
-        "alaskaIris"
+        "alaskaIris",
+        "alaskaLupine",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "6.1.3": {
@@ -159,7 +217,11 @@
       "plants": [
         "fireweed",
         "lingonberry",
-        "alaskaIris"
+        "alaskaIris",
+        "alaskaLupine",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "6.1.4": {
@@ -168,7 +230,11 @@
       "plants": [
         "dryas",
         "arcticWillow",
-        "waterSedge"
+        "waterSedge",
+        "alaskaLupine",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "6.2.3": {
@@ -177,7 +243,12 @@
       "plants": [
         "buckwheat",
         "barberry",
-        "hairgrass"
+        "hairgrass",
+        "prairieSmoke",
+        "blanketflower",
+        "blueFlax",
+        "junegrass",
+        "bearberry"
       ]
     },
     "6.2.4": {
@@ -186,7 +257,12 @@
       "plants": [
         "bluebunch",
         "barberry",
-        "hairgrass"
+        "hairgrass",
+        "prairieSmoke",
+        "blanketflower",
+        "blueFlax",
+        "junegrass",
+        "bearberry"
       ]
     },
     "6.2.5": {
@@ -195,7 +271,13 @@
       "plants": [
         "buckwheat",
         "bunchberry",
-        "hairgrass"
+        "hairgrass",
+        "prairieSmoke",
+        "currant",
+        "vineMaple",
+        "swordFern",
+        "blanketflower",
+        "bearberry"
       ]
     },
     "6.2.7": {
@@ -204,7 +286,11 @@
       "plants": [
         "woolly",
         "salal",
-        "ninebark"
+        "ninebark",
+        "currant",
+        "vineMaple",
+        "swordFern",
+        "bearberry"
       ]
     },
     "6.2.8": {
@@ -213,7 +299,11 @@
       "plants": [
         "bluebunch",
         "barberry",
-        "hairgrass"
+        "hairgrass",
+        "blanketflower",
+        "blueFlax",
+        "junegrass",
+        "bearberry"
       ]
     },
     "6.2.9": {
@@ -223,7 +313,11 @@
         "bluebunch",
         "buckwheat",
         "barberry",
-        "hairgrass"
+        "hairgrass",
+        "prairieSmoke",
+        "blanketflower",
+        "blueFlax",
+        "junegrass"
       ]
     },
     "6.2.10": {
@@ -232,7 +326,12 @@
       "plants": [
         "buckwheat",
         "barberry",
-        "hairgrass"
+        "hairgrass",
+        "prairieSmoke",
+        "blanketflower",
+        "blueFlax",
+        "junegrass",
+        "bearberry"
       ]
     },
     "6.2.11": {
@@ -241,7 +340,12 @@
       "plants": [
         "woolly",
         "oregonGrape",
-        "ninebark"
+        "ninebark",
+        "currant",
+        "vineMaple",
+        "swordFern",
+        "calPoppy",
+        "toyon"
       ]
     },
     "6.2.12": {
@@ -250,7 +354,13 @@
       "plants": [
         "buckwheat",
         "barberry",
-        "hairgrass"
+        "hairgrass",
+        "blueFlax",
+        "junegrass",
+        "calPoppy",
+        "toyon",
+        "deergrass",
+        "bearberry"
       ]
     },
     "6.2.13": {
@@ -259,7 +369,13 @@
       "plants": [
         "buckwheat",
         "barberry",
-        "hairgrass"
+        "hairgrass",
+        "prairieSmoke",
+        "blanketflower",
+        "blueFlax",
+        "rockyPenstemon",
+        "junegrass",
+        "bearberry"
       ]
     },
     "6.2.14": {
@@ -268,7 +384,13 @@
       "plants": [
         "blueGrama",
         "blueColumbine",
-        "hairgrass"
+        "hairgrass",
+        "prairieSmoke",
+        "blanketflower",
+        "blueFlax",
+        "rockyPenstemon",
+        "junegrass",
+        "bearberry"
       ]
     },
     "6.2.15": {
@@ -277,7 +399,11 @@
       "plants": [
         "buckwheat",
         "barberry",
-        "hairgrass"
+        "hairgrass",
+        "blanketflower",
+        "blueFlax",
+        "junegrass",
+        "bearberry"
       ]
     },
     "7.1.1": {
@@ -286,7 +412,11 @@
       "plants": [
         "crowberry",
         "arcticWillow",
-        "alaskaIris"
+        "alaskaIris",
+        "alaskaLupine",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "7.1.2": {
@@ -295,7 +425,11 @@
       "plants": [
         "crowberry",
         "arcticWillow",
-        "beachRye"
+        "beachRye",
+        "alaskaLupine",
+        "nootkaRose",
+        "bearberry",
+        "cloudberry"
       ]
     },
     "7.1.3": {
@@ -304,7 +438,14 @@
       "plants": [
         "fireweed",
         "bunchberry",
-        "alaskaIris"
+        "alaskaIris",
+        "salmonberry",
+        "alaskaLupine",
+        "nootkaRose",
+        "sitkaSpruce",
+        "bearberry",
+        "cloudberry",
+        "labradorTea"
       ]
     },
     "7.1.4": {
@@ -313,7 +454,13 @@
       "plants": [
         "crowberry",
         "bunchberry",
-        "hairgrass"
+        "hairgrass",
+        "swordFern",
+        "salmonberry",
+        "alaskaLupine",
+        "nootkaRose",
+        "sitkaSpruce",
+        "bearberry"
       ]
     },
     "7.1.5": {
@@ -322,7 +469,12 @@
       "plants": [
         "beachRye",
         "bunchberry",
-        "lyngbye"
+        "lyngbye",
+        "swordFern",
+        "salmonberry",
+        "alaskaLupine",
+        "nootkaRose",
+        "sitkaSpruce"
       ]
     },
     "7.1.7": {
@@ -331,7 +483,12 @@
       "plants": [
         "clarkia",
         "salal",
-        "camas"
+        "camas",
+        "currant",
+        "vineMaple",
+        "swordFern",
+        "salmonberry",
+        "nootkaRose"
       ]
     },
     "7.1.8": {
@@ -340,7 +497,13 @@
       "plants": [
         "woolly",
         "salal",
-        "ninebark"
+        "ninebark",
+        "currant",
+        "vineMaple",
+        "swordFern",
+        "salmonberry",
+        "nootkaRose",
+        "sitkaSpruce"
       ]
     },
     "7.1.9": {
@@ -349,7 +512,13 @@
       "plants": [
         "clarkia",
         "oregonGrape",
-        "camas"
+        "camas",
+        "currant",
+        "vineMaple",
+        "swordFern",
+        "salmonberry",
+        "calPoppy",
+        "nootkaRose"
       ]
     },
     "8.1.1": {
@@ -358,7 +527,11 @@
       "plants": [
         "bluestem",
         "geranium",
-        "blueFlag"
+        "blueFlag",
+        "foamflower",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue"
       ]
     },
     "8.1.3": {
@@ -367,7 +540,12 @@
       "plants": [
         "njTea",
         "columbine",
-        "swampMilkweed"
+        "swampMilkweed",
+        "foamflower",
+        "whiteAster",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue"
       ]
     },
     "8.1.4": {
@@ -376,7 +554,13 @@
       "plants": [
         "bergamot",
         "geranium",
-        "blueFlag"
+        "blueFlag",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "blueVervain",
+        "prairieSmoke",
+        "roughBlazingStar"
       ]
     },
     "8.1.5": {
@@ -385,7 +569,13 @@
       "plants": [
         "sideoats",
         "columbine",
-        "foxSedge"
+        "foxSedge",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "blueVervain",
+        "prairieSmoke",
+        "roughBlazingStar"
       ]
     },
     "8.1.6": {
@@ -394,7 +584,12 @@
       "plants": [
         "bluestem",
         "geranium",
-        "swampMilkweed"
+        "swampMilkweed",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "blueVervain",
+        "roughBlazingStar"
       ]
     },
     "8.1.7": {
@@ -403,7 +598,11 @@
       "plants": [
         "njTea",
         "columbine",
-        "blueFlag"
+        "blueFlag",
+        "foamflower",
+        "whiteAster",
+        "blueAster",
+        "cardinalFlower"
       ]
     },
     "8.1.8": {
@@ -412,7 +611,11 @@
       "plants": [
         "fireweed",
         "bunchberry",
-        "blueFlag"
+        "blueFlag",
+        "blueAster",
+        "boneset",
+        "blueVervain",
+        "labradorTea"
       ]
     },
     "8.1.10": {
@@ -421,7 +624,11 @@
       "plants": [
         "bergamot",
         "geranium",
-        "foxSedge"
+        "foxSedge",
+        "foamflower",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue"
       ]
     },
     "8.2.1": {
@@ -430,7 +637,13 @@
       "plants": [
         "prairieClover",
         "bottlebrush",
-        "swampMilkweed"
+        "swampMilkweed",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "blueVervain",
+        "prairieSmoke",
+        "roughBlazingStar"
       ]
     },
     "8.2.2": {
@@ -439,7 +652,12 @@
       "plants": [
         "bluestem",
         "geranium",
-        "foxSedge"
+        "foxSedge",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "boneset",
+        "blueVervain"
       ]
     },
     "8.2.3": {
@@ -448,7 +666,13 @@
       "plants": [
         "prairieClover",
         "bottlebrush",
-        "swampMilkweed"
+        "swampMilkweed",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "blueVervain",
+        "roughBlazingStar",
+        "rattlesnakeMaster"
       ]
     },
     "8.2.4": {
@@ -457,7 +681,13 @@
       "plants": [
         "bergamot",
         "waterleaf",
-        "foxSedge"
+        "foxSedge",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "blueVervain",
+        "roughBlazingStar",
+        "rattlesnakeMaster"
       ]
     },
     "8.3.1": {
@@ -467,7 +697,12 @@
         "njTea",
         "columbine",
         "spicebush",
-        "swampMilkweed"
+        "swampMilkweed",
+        "foamflower",
+        "whiteAster",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue"
       ]
     },
     "8.3.2": {
@@ -476,7 +711,14 @@
       "plants": [
         "bluestem",
         "waterleaf",
-        "buttonbush"
+        "buttonbush",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "seaOats",
+        "blueVervain",
+        "roughBlazingStar",
+        "rattlesnakeMaster"
       ]
     },
     "8.3.3": {
@@ -485,7 +727,14 @@
       "plants": [
         "poppyMallow",
         "geranium",
-        "buttonbush"
+        "buttonbush",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "crestedIris",
+        "seaOats",
+        "roughBlazingStar",
+        "rattlesnakeMaster"
       ]
     },
     "8.3.4": {
@@ -494,7 +743,13 @@
       "plants": [
         "butterflyMilkweed",
         "coralHoneysuckle",
-        "buttonbush"
+        "buttonbush",
+        "whiteAster",
+        "cardinalFlower",
+        "beardtongue",
+        "crestedIris",
+        "seaOats",
+        "boneset"
       ]
     },
     "8.3.5": {
@@ -503,7 +758,11 @@
       "plants": [
         "spottedBeebalm",
         "mistflower",
-        "roseMallow"
+        "roseMallow",
+        "cardinalFlower",
+        "seaOats",
+        "boneset",
+        "rattlesnakeMaster"
       ]
     },
     "8.3.6": {
@@ -512,7 +771,12 @@
       "plants": [
         "whiteIndigo",
         "spicebush",
-        "buttonbush"
+        "buttonbush",
+        "cardinalFlower",
+        "crestedIris",
+        "seaOats",
+        "boneset",
+        "rattlesnakeMaster"
       ]
     },
     "8.3.7": {
@@ -521,7 +785,11 @@
       "plants": [
         "spottedBeebalm",
         "coralHoneysuckle",
-        "buttonbush"
+        "buttonbush",
+        "cardinalFlower",
+        "seaOats",
+        "boneset",
+        "rattlesnakeMaster"
       ]
     },
     "8.3.8": {
@@ -530,7 +798,10 @@
       "plants": [
         "sideoats",
         "redbud",
-        "buttonbush"
+        "buttonbush",
+        "cardinalFlower",
+        "seaOats",
+        "rattlesnakeMaster"
       ]
     },
     "8.4.1": {
@@ -540,7 +811,14 @@
         "bluestem",
         "mossPhlox",
         "spicebush",
-        "buttonbush"
+        "buttonbush",
+        "foamflower",
+        "whiteAster",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "crestedIris",
+        "seaOats"
       ]
     },
     "8.4.2": {
@@ -549,7 +827,13 @@
       "plants": [
         "mossPhlox",
         "ragwort",
-        "swampMilkweed"
+        "swampMilkweed",
+        "foamflower",
+        "whiteAster",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "crestedIris"
       ]
     },
     "8.4.3": {
@@ -558,7 +842,13 @@
       "plants": [
         "njTea",
         "waterleaf",
-        "buttonbush"
+        "buttonbush",
+        "foamflower",
+        "whiteAster",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "crestedIris"
       ]
     },
     "8.4.4": {
@@ -567,7 +857,12 @@
       "plants": [
         "mossPhlox",
         "ragwort",
-        "blueFlag"
+        "blueFlag",
+        "foamflower",
+        "whiteAster",
+        "cardinalFlower",
+        "crestedIris",
+        "seaOats"
       ]
     },
     "8.4.5": {
@@ -576,7 +871,14 @@
       "plants": [
         "sideoats",
         "redbud",
-        "buttonbush"
+        "buttonbush",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "crestedIris",
+        "seaOats",
+        "roughBlazingStar",
+        "rattlesnakeMaster"
       ]
     },
     "8.4.6": {
@@ -585,7 +887,11 @@
       "plants": [
         "bluestem",
         "geranium",
-        "buttonbush"
+        "buttonbush",
+        "blueAster",
+        "cardinalFlower",
+        "crestedIris",
+        "seaOats"
       ]
     },
     "8.4.7": {
@@ -594,7 +900,10 @@
       "plants": [
         "whiteIndigo",
         "redbud",
-        "buttonbush"
+        "buttonbush",
+        "cardinalFlower",
+        "seaOats",
+        "blueVervain"
       ]
     },
     "8.4.8": {
@@ -603,7 +912,10 @@
       "plants": [
         "bluestem",
         "coralHoneysuckle",
-        "buttonbush"
+        "buttonbush",
+        "cardinalFlower",
+        "crestedIris",
+        "seaOats"
       ]
     },
     "8.4.9": {
@@ -612,7 +924,13 @@
       "plants": [
         "butterflyMilkweed",
         "ragwort",
-        "roseMallow"
+        "roseMallow",
+        "foamflower",
+        "whiteAster",
+        "blueAster",
+        "cardinalFlower",
+        "crestedIris",
+        "seaOats"
       ]
     },
     "8.5.1": {
@@ -623,7 +941,10 @@
         "bayberry",
         "inkberry",
         "clethra",
-        "buttonbush"
+        "buttonbush",
+        "cardinalFlower",
+        "seaOats",
+        "boneset"
       ]
     },
     "8.5.2": {
@@ -633,7 +954,11 @@
         "switchgrass",
         "pecan",
         "cypress",
-        "buttonbush"
+        "buttonbush",
+        "cardinalFlower",
+        "seaOats",
+        "boneset",
+        "rattlesnakeMaster"
       ]
     },
     "8.5.3": {
@@ -643,7 +968,11 @@
         "spottedBeebalm",
         "clethra",
         "scarletMallow",
-        "cypress"
+        "cypress",
+        "cardinalFlower",
+        "seaOats",
+        "boneset",
+        "rattlesnakeMaster"
       ]
     },
     "8.5.4": {
@@ -653,7 +982,9 @@
         "sweetfern",
         "beachPlum",
         "inkberry",
-        "clethra"
+        "clethra",
+        "cardinalFlower",
+        "boneset"
       ]
     },
     "9.2.1": {
@@ -662,7 +993,12 @@
       "plants": [
         "prairieClover",
         "aspen",
-        "canadaAnemone"
+        "canadaAnemone",
+        "blueVervain",
+        "prairieSmoke",
+        "roughBlazingStar",
+        "blanketflower",
+        "junegrass"
       ]
     },
     "9.2.2": {
@@ -671,7 +1007,10 @@
       "plants": [
         "bluestem",
         "burOak",
-        "canadaAnemone"
+        "canadaAnemone",
+        "blueVervain",
+        "prairieSmoke",
+        "junegrass"
       ]
     },
     "9.2.3": {
@@ -680,7 +1019,13 @@
       "plants": [
         "prairieClover",
         "bottlebrush",
-        "swampMilkweed"
+        "swampMilkweed",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "blueVervain",
+        "roughBlazingStar",
+        "rattlesnakeMaster"
       ]
     },
     "9.2.4": {
@@ -689,7 +1034,13 @@
       "plants": [
         "sideoats",
         "burOak",
-        "foxSedge"
+        "foxSedge",
+        "blueAster",
+        "cardinalFlower",
+        "beardtongue",
+        "blueVervain",
+        "roughBlazingStar",
+        "rattlesnakeMaster"
       ]
     },
     "9.3.1": {
@@ -698,7 +1049,13 @@
       "plants": [
         "blueGrama",
         "prairieClover",
-        "canadaAnemone"
+        "canadaAnemone",
+        "blueVervain",
+        "prairieSmoke",
+        "blanketflower",
+        "blueFlax",
+        "junegrass",
+        "bearberry"
       ]
     },
     "9.3.3": {
@@ -707,7 +1064,12 @@
       "plants": [
         "blueGrama",
         "westernWheat",
-        "cottonwood"
+        "cottonwood",
+        "blueVervain",
+        "prairieSmoke",
+        "blanketflower",
+        "blueFlax",
+        "junegrass"
       ]
     },
     "9.3.4": {
@@ -716,7 +1078,10 @@
       "plants": [
         "sandBluestem",
         "blueGrama",
-        "saltgrass"
+        "saltgrass",
+        "blueVervain",
+        "blanketflower",
+        "junegrass"
       ]
     },
     "9.4.1": {
@@ -725,7 +1090,13 @@
       "plants": [
         "blueGrama",
         "buffaloGrass",
-        "cottonwood"
+        "cottonwood",
+        "blueVervain",
+        "blanketflower",
+        "blueFlax",
+        "junegrass",
+        "tansyaster",
+        "antelopeHorns"
       ]
     },
     "9.4.2": {
@@ -734,7 +1105,12 @@
       "plants": [
         "blueGrama",
         "sideoats",
-        "switchgrass"
+        "switchgrass",
+        "blueVervain",
+        "roughBlazingStar",
+        "junegrass",
+        "tansyaster",
+        "antelopeHorns"
       ]
     },
     "9.4.3": {
@@ -743,7 +1119,11 @@
       "plants": [
         "blueGrama",
         "sideoats",
-        "sacaton"
+        "sacaton",
+        "blueFlax",
+        "junegrass",
+        "tansyaster",
+        "antelopeHorns"
       ]
     },
     "9.4.4": {
@@ -752,7 +1132,10 @@
       "plants": [
         "bluestem",
         "bigBluestem",
-        "switchgrass"
+        "switchgrass",
+        "blueVervain",
+        "roughBlazingStar",
+        "rattlesnakeMaster"
       ]
     },
     "9.4.5": {
@@ -761,7 +1144,11 @@
       "plants": [
         "bluestem",
         "postOak",
-        "switchgrass"
+        "switchgrass",
+        "seaOats",
+        "roughBlazingStar",
+        "rattlesnakeMaster",
+        "antelopeHorns"
       ]
     },
     "9.4.6": {
@@ -770,7 +1157,10 @@
       "plants": [
         "sideoats",
         "escarpmentOak",
-        "buttonbush"
+        "buttonbush",
+        "cardinalFlower",
+        "seaOats",
+        "antelopeHorns"
       ]
     },
     "9.4.7": {
@@ -779,7 +1169,12 @@
       "plants": [
         "bigBluestem",
         "switchgrass",
-        "pecan"
+        "pecan",
+        "cardinalFlower",
+        "seaOats",
+        "blueVervain",
+        "rattlesnakeMaster",
+        "antelopeHorns"
       ]
     },
     "9.5.1": {
@@ -788,7 +1183,11 @@
       "plants": [
         "bluestem",
         "switchgrass",
-        "saltgrass"
+        "saltgrass",
+        "cardinalFlower",
+        "seaOats",
+        "boneset",
+        "rattlesnakeMaster"
       ]
     },
     "9.6.1": {
@@ -797,7 +1196,8 @@
       "plants": [
         "sideoats",
         "honeyMesquite",
-        "sacaton"
+        "sacaton",
+        "antelopeHorns"
       ]
     },
     "10.1.2": {
@@ -806,7 +1206,10 @@
       "plants": [
         "bluebunch",
         "idahoFescue",
-        "bitterbrush"
+        "bitterbrush",
+        "blanketflower",
+        "blueFlax",
+        "junegrass"
       ]
     },
     "10.1.3": {
@@ -815,7 +1218,11 @@
       "plants": [
         "bluebunch",
         "sagebrush",
-        "idahoFescue"
+        "idahoFescue",
+        "blanketflower",
+        "blueFlax",
+        "junegrass",
+        "bearberry"
       ]
     },
     "10.1.4": {
@@ -824,7 +1231,10 @@
       "plants": [
         "blueGrama",
         "sagebrush",
-        "saltgrass"
+        "saltgrass",
+        "blanketflower",
+        "blueFlax",
+        "junegrass"
       ]
     },
     "10.1.5": {
@@ -833,7 +1243,10 @@
       "plants": [
         "ricegrass",
         "fourwing",
-        "saltgrass"
+        "saltgrass",
+        "blueFlax",
+        "junegrass",
+        "globemallow"
       ]
     },
     "10.1.6": {
@@ -842,7 +1255,12 @@
       "plants": [
         "ricegrass",
         "buckwheat",
-        "fourwing"
+        "fourwing",
+        "blueFlax",
+        "rockyPenstemon",
+        "junegrass",
+        "tansyaster",
+        "antelopeHorns"
       ]
     },
     "10.1.7": {
@@ -851,7 +1269,12 @@
       "plants": [
         "blueGrama",
         "fourwing",
-        "sacaton"
+        "sacaton",
+        "blueFlax",
+        "rockyPenstemon",
+        "junegrass",
+        "tansyaster",
+        "antelopeHorns"
       ]
     },
     "10.1.8": {
@@ -860,7 +1283,10 @@
       "plants": [
         "bluebunch",
         "ricegrass",
-        "sagebrush"
+        "sagebrush",
+        "blanketflower",
+        "blueFlax",
+        "junegrass"
       ]
     },
     "10.2.1": {
@@ -869,7 +1295,10 @@
       "plants": [
         "creosote",
         "desertMarigold",
-        "ricegrass"
+        "ricegrass",
+        "tansyaster",
+        "rockHibiscus",
+        "globemallow"
       ]
     },
     "10.2.2": {
@@ -878,7 +1307,12 @@
       "plants": [
         "creosote",
         "fairyDuster",
-        "desertWillow"
+        "desertWillow",
+        "tansyaster",
+        "rockHibiscus",
+        "antelopeHorns",
+        "globemallow",
+        "deergrass"
       ]
     },
     "10.2.4": {
@@ -887,7 +1321,10 @@
       "plants": [
         "blackGrama",
         "creosote",
-        "sacaton"
+        "sacaton",
+        "tansyaster",
+        "rockHibiscus",
+        "antelopeHorns"
       ]
     },
     "11.1.1": {
@@ -896,7 +1333,10 @@
       "plants": [
         "calBuckwheat",
         "calFuchsia",
-        "coyoteMint"
+        "coyoteMint",
+        "calPoppy",
+        "toyon",
+        "deergrass"
       ]
     },
     "11.1.2": {
@@ -905,7 +1345,10 @@
       "plants": [
         "calFuchsia",
         "calRose",
-        "saltgrass"
+        "saltgrass",
+        "calPoppy",
+        "toyon",
+        "deergrass"
       ]
     },
     "11.1.3": {
@@ -914,7 +1357,10 @@
       "plants": [
         "buckwheat",
         "calFuchsia",
-        "barberry"
+        "barberry",
+        "calPoppy",
+        "toyon",
+        "deergrass"
       ]
     },
     "12.1.1": {
@@ -923,7 +1369,11 @@
       "plants": [
         "blackGrama",
         "sideoats",
-        "emoryOak"
+        "emoryOak",
+        "tansyaster",
+        "rockHibiscus",
+        "antelopeHorns",
+        "deergrass"
       ]
     },
     "13.1.1": {
@@ -932,7 +1382,12 @@
       "plants": [
         "blueGrama",
         "buckwheat",
-        "barberry"
+        "barberry",
+        "blueFlax",
+        "rockyPenstemon",
+        "tansyaster",
+        "antelopeHorns",
+        "deergrass"
       ]
     },
     "15.4.1": {
@@ -941,7 +1396,8 @@
       "plants": [
         "spottedBeebalm",
         "scarletMallow",
-        "cypress"
+        "cypress",
+        "cardinalFlower"
       ]
     },
     "OC0106": {
@@ -949,7 +1405,9 @@
       "scope": "Match windward rain, forest shade and local elevation. Source plants from your island.",
       "plants": [
         "ohia",
-        "uluhe"
+        "uluhe",
+        "koa",
+        "kupukupu"
       ]
     },
     "OC0202": {
@@ -957,7 +1415,9 @@
       "scope": "Use locally propagated dry-forest plants on warm, well-drained sites with seasonal drought.",
       "plants": [
         "ilima",
-        "aalii"
+        "aalii",
+        "koa",
+        "mamane"
       ]
     },
     "OC0701": {
@@ -965,7 +1425,9 @@
       "scope": "Use high-elevation sources for cool, exposed shrubland and well-drained volcanic soils.",
       "plants": [
         "pukiawe",
-        "ohelo"
+        "ohelo",
+        "iliahi",
+        "mamane"
       ]
     },
     "OC0702": {
@@ -974,7 +1436,8 @@
       "plants": [
         "naupaka",
         "ilima",
-        "aalii"
+        "aalii",
+        "pohuehue"
       ]
     }
   },
@@ -1615,6 +2078,272 @@
       "open",
       "Sun · drained coastal sand · tolerates salt spray",
       "Indigenous to Hawaiʻi and other Indo-Pacific coasts."
+    ],
+    "foamflower": [
+      "Foamflower",
+      "Tiarella cordifolia",
+      "shade",
+      "Part shade to shade · moist, humus-rich woodland soil",
+      "Native to eastern North American forests; select a locally occurring form."
+    ],
+    "whiteAster": [
+      "White wood aster",
+      "Eurybia divaricata",
+      "shade",
+      "Part shade · dry to moderately moist woodland soil",
+      "Native to eastern North American woods, especially the Appalachians and Northeast."
+    ],
+    "blueAster": [
+      "Blue wood aster",
+      "Symphyotrichum cordifolium",
+      "shade",
+      "Part shade · dry to moderately moist soil at woodland edges",
+      "Native to eastern and central North America; look for local woodland-edge populations."
+    ],
+    "cardinalFlower": [
+      "Cardinal flower",
+      "Lobelia cardinalis",
+      "wet",
+      "Sun to part shade · moist freshwater edges and rain gardens",
+      "Native across much of North America, including eastern streams and marsh margins."
+    ],
+    "beardtongue": [
+      "Foxglove beardtongue",
+      "Penstemon digitalis",
+      "open",
+      "Sun to light shade · drained to seasonally moist soil",
+      "Native to central and eastern North America, including meadows and open woodland."
+    ],
+    "crestedIris": [
+      "Dwarf crested iris",
+      "Iris cristata",
+      "shade",
+      "Part shade · drained, humus-rich woodland soil",
+      "Native to eastern North America, especially Appalachian and Interior Highlands woodlands."
+    ],
+    "seaOats": [
+      "Inland sea oats",
+      "Chasmanthium latifolium",
+      "shade",
+      "Part shade · moist, drained soil near freshwater streams",
+      "Native to eastern and south-central North America, often in floodplain woods."
+    ],
+    "boneset": [
+      "Common boneset",
+      "Eupatorium perfoliatum",
+      "wet",
+      "Sun to part shade · moist to wet freshwater soil",
+      "Native to eastern and central North America in wet meadows and shores."
+    ],
+    "blueVervain": [
+      "Blue vervain",
+      "Verbena hastata",
+      "wet",
+      "Sun · moist meadow, swale or freshwater margin",
+      "Native across much of temperate North America, especially in wet meadows."
+    ],
+    "prairieSmoke": [
+      "Prairie smoke",
+      "Geum triflorum",
+      "open",
+      "Sun · dry, well-drained prairie or rocky soil",
+      "Native to northern and western North America, including northern prairie and Great Lakes openings."
+    ],
+    "roughBlazingStar": [
+      "Rough blazing star",
+      "Liatris aspera",
+      "open",
+      "Sun · dry, well-drained prairie soil",
+      "Native to central and eastern North American prairies and open woods."
+    ],
+    "rattlesnakeMaster": [
+      "Rattlesnake master",
+      "Eryngium yuccifolium",
+      "open",
+      "Sun · drained prairie soil with moderate moisture",
+      "Native to central and eastern North America, including tallgrass prairies and southeastern openings."
+    ],
+    "currant": [
+      "Red-flowering currant",
+      "Ribes sanguineum",
+      "shade",
+      "Sun to part shade · drained woodland edges; low summer water once established",
+      "Native to Pacific western North America from British Columbia into California."
+    ],
+    "vineMaple": [
+      "Vine maple",
+      "Acer circinatum",
+      "shade",
+      "Part shade · cool, moist, drained forest soil",
+      "Native to Pacific Northwest forests and nearby northern California."
+    ],
+    "swordFern": [
+      "Western sword fern",
+      "Polystichum munitum",
+      "shade",
+      "Part shade to shade · drained woodland soil",
+      "Native to Pacific western North America, including southeast Alaska and coastal forests south to California."
+    ],
+    "salmonberry": [
+      "Salmonberry",
+      "Rubus spectabilis",
+      "wet",
+      "Part shade · moist forest edges and streambanks; allow room to spread",
+      "Native to Pacific coastal North America from Alaska south to California."
+    ],
+    "blanketflower": [
+      "Blanketflower",
+      "Gaillardia aristata",
+      "open",
+      "Sun · dry, drained meadow or prairie soil",
+      "Native to western and northern North America, including mountain openings and northern plains."
+    ],
+    "blueFlax": [
+      "Lewis flax",
+      "Linum lewisii",
+      "open",
+      "Sun · dry, well-drained slopes and grasslands",
+      "Native to western North America; use seed from similar elevation and climate."
+    ],
+    "rockyPenstemon": [
+      "Rocky Mountain penstemon",
+      "Penstemon strictus",
+      "open",
+      "Sun · drained, rocky mountain soils",
+      "Native to the central and southern Rockies and neighboring uplands."
+    ],
+    "junegrass": [
+      "Prairie junegrass",
+      "Koeleria macrantha",
+      "open",
+      "Sun · dry, drained grassland or rocky slopes",
+      "Native in much of western and northern North America, including prairie and mountain grassland."
+    ],
+    "tansyaster": [
+      "Tanseyleaf tansyaster",
+      "Machaeranthera tanacetifolia",
+      "open",
+      "Sun · dry, drained open soil; short-lived wildflower",
+      "Native to the western Great Plains and southwestern North America."
+    ],
+    "rockHibiscus": [
+      "Rock hibiscus",
+      "Hibiscus denudatus",
+      "open",
+      "Sun to light shade · rocky, well-drained desert slopes",
+      "Native to warm southwestern deserts and northern Mexico."
+    ],
+    "antelopeHorns": [
+      "Antelope horns milkweed",
+      "Asclepias asperula",
+      "open",
+      "Sun · dry, drained rocky or sandy ground",
+      "Native to southwestern and south-central North America, including desert grassland."
+    ],
+    "globemallow": [
+      "Desert globemallow",
+      "Sphaeralcea ambigua",
+      "open",
+      "Sun · dry, fast-draining desert soil",
+      "Native to the Mojave and Sonoran deserts and nearby southwestern areas."
+    ],
+    "calPoppy": [
+      "California poppy",
+      "Eschscholzia californica",
+      "open",
+      "Sun · drained ground; allow seasonal summer drying",
+      "Native to western North America, including California; use locally native seed rather than ornamental mixes."
+    ],
+    "toyon": [
+      "Toyon",
+      "Heteromeles arbutifolia",
+      "shade",
+      "Sun to part shade · drained coastal scrub and oak edges; large shrub",
+      "Native to California and Baja California, including chaparral and oak woodland."
+    ],
+    "deergrass": [
+      "Deergrass",
+      "Muhlenbergia rigens",
+      "open",
+      "Sun · drained sandy or gravelly soil; room for a large bunchgrass",
+      "Native to California and southwestern North America, especially washes and open slopes."
+    ],
+    "alaskaLupine": [
+      "Nootka lupine",
+      "Lupinus nootkatensis",
+      "open",
+      "Sun · drained gravelly banks and disturbed openings",
+      "Native to Alaska and northwestern North America; introduced outside its native range."
+    ],
+    "nootkaRose": [
+      "Nootka rose",
+      "Rosa nutkana",
+      "open",
+      "Sun to part shade · drained moist soil on edges; allow room for suckers",
+      "Native to western North America, including southern Alaska and the Pacific Northwest."
+    ],
+    "sitkaSpruce": [
+      "Sitka spruce",
+      "Picea sitchensis",
+      "shade",
+      "Sun to part shade · cool maritime sites with moist, drained soil; large tree",
+      "Native along the Pacific coast from southern Alaska to northern California."
+    ],
+    "bearberry": [
+      "Bearberry",
+      "Arctostaphylos uva-ursi",
+      "open",
+      "Sun to light shade · drained sandy or rocky ground",
+      "Native across boreal and western North America, including Alaska; source locally."
+    ],
+    "cloudberry": [
+      "Cloudberry",
+      "Rubus chamaemorus",
+      "wet",
+      "Sun to light shade · cool, moist acidic peat; avoid draining natural bogs",
+      "Native to Alaska and other Arctic and boreal regions of North America."
+    ],
+    "labradorTea": [
+      "Bog Labrador tea",
+      "Rhododendron groenlandicum",
+      "wet",
+      "Sun to part shade · moist acidic peat and open bog edges",
+      "Native in Alaska and across boreal North America, extending into some northern mainland wetlands."
+    ],
+    "koa": [
+      "Koa",
+      "Acacia koa",
+      "open",
+      "Sun · drained upland soil; leave room for a large tree",
+      "Endemic to Hawaiʻi; use nursery stock from the appropriate island and elevation."
+    ],
+    "kupukupu": [
+      "Kupukupu",
+      "Nephrolepis cordifolia",
+      "shade",
+      "Part shade · drained moist ground; confirm the nursery’s local native stock",
+      "Indigenous in Hawaiʻi, with a wider global range; introduced and invasive in some other regions."
+    ],
+    "pohuehue": [
+      "Pōhuehue",
+      "Ipomoea pes-caprae",
+      "open",
+      "Sun · coastal sand with salt spray; vigorous trailing vine",
+      "Indigenous to Hawaiian coasts and other tropical shores; select locally propagated material."
+    ],
+    "iliahi": [
+      "ʻIliahi",
+      "Santalum haleakalae",
+      "shade",
+      "Sun to partial shade · drained upland sites with suitable host plants",
+      "Endemic to Hawaiʻi; use the locally occurring variety and nursery-propagated stock."
+    ],
+    "mamane": [
+      "Māmane",
+      "Sophora chrysophylla",
+      "open",
+      "Sun · drained volcanic soil in cool uplands",
+      "Endemic to Hawaiʻi; match the planting site to a local population and elevation."
     ]
   },
   "photos": {
@@ -2254,6 +2983,426 @@
       "artist": "Jonas Bergsten",
       "license": "Public domain",
       "licenseUrl": ""
+    },
+    "Tiarella cordifolia": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Heartleaved_foamflower_%28Tiarella_cordifolia%29.jpg/960px-Heartleaved_foamflower_%28Tiarella_cordifolia%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Heartleaved_foamflower_(Tiarella_cordifolia).jpg",
+      "artist": "Wasrts",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Eurybia divaricata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Eurybia_divaricata_in_CT.jpg/960px-Eurybia_divaricata_in_CT.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Eurybia_divaricata_in_CT.jpg",
+      "artist": "Mets501",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Symphyotrichum cordifolium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Heartleaf_aster_1.jpg/960px-Heartleaf_aster_1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Heartleaf_aster_1.jpg",
+      "artist": "Nadiatalent",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Lobelia cardinalis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Lobelia_cardinalis_-_Cardinal_Flower.jpg/960px-Lobelia_cardinalis_-_Cardinal_Flower.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lobelia_cardinalis_-_Cardinal_Flower.jpg",
+      "artist": "Barnes, Dr. Thomas G.",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Penstemon digitalis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Penstemon_digitalis.jpg/960px-Penstemon_digitalis.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Penstemon_digitalis.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Iris cristata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Iris_cristata_%282%29.jpg/960px-Iris_cristata_%282%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Iris_cristata_(2).jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Chasmanthium latifolium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Chasmanthium_latifolium_Boyle_Park.jpg/960px-Chasmanthium_latifolium_Boyle_Park.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chasmanthium_latifolium_Boyle_Park.jpg",
+      "artist": "Eric in SF",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Eupatorium perfoliatum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Eupatorium_perfoliatum_001.JPG/960px-Eupatorium_perfoliatum_001.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Eupatorium_perfoliatum_001.JPG",
+      "artist": "SB_Johnny",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Verbena hastata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Verbena_hastata.JPG/960px-Verbena_hastata.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Verbena_hastata.JPG",
+      "artist": "Cody Hough",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Geum triflorum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Geum_triflorum_4879.JPG/960px-Geum_triflorum_4879.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Geum_triflorum_4879.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Liatris aspera": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Liatris_aspera2.jpg/960px-Liatris_aspera2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Liatris_aspera2.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Eryngium yuccifolium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Eryngium_yuccifolium.jpg/960px-Eryngium_yuccifolium.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Eryngium_yuccifolium.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Ribes sanguineum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pink_Flowering_Currant_closeup%2C_Ribes_sanguineum.jpg/960px-Pink_Flowering_Currant_closeup%2C_Ribes_sanguineum.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pink_Flowering_Currant_closeup,_Ribes_sanguineum.jpg",
+      "artist": "Mark Robinson from Williton, UK",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "Acer circinatum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Vine_Maple_leaves_and_flowers.jpg/960px-Vine_Maple_leaves_and_flowers.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vine_Maple_leaves_and_flowers.jpg",
+      "artist": "Tony Perodeau",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Polystichum munitum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Polystichum_munitum_%28Jami_Dwyer%29_001.jpg/960px-Polystichum_munitum_%28Jami_Dwyer%29_001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Polystichum_munitum_(Jami_Dwyer)_001.jpg",
+      "artist": "Jami Dwyer",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "Rubus spectabilis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Salmonberry_%287303689554%29.jpg/960px-Salmonberry_%287303689554%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Salmonberry_(7303689554).jpg",
+      "artist": "Leslie Seaton from Seattle, WA, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "Gaillardia aristata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Gaillardia_aristata_0059.JPG/960px-Gaillardia_aristata_0059.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Gaillardia_aristata_0059.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Linum lewisii": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Linum_lewisii%2C_blue_flax%2C_Albuquerque.JPG/960px-Linum_lewisii%2C_blue_flax%2C_Albuquerque.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Linum_lewisii,_blue_flax,_Albuquerque.JPG",
+      "artist": "Skoch3",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Penstemon strictus": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Penstemon_strictus_-_Todd_Boland_01.jpg/960px-Penstemon_strictus_-_Todd_Boland_01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Penstemon_strictus_-_Todd_Boland_01.jpg",
+      "artist": "Todd Boland\n\nhttps://www.inaturalist.org/people/todd_boland",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "Koeleria macrantha": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Koeleria_macrantha.JPG/960px-Koeleria_macrantha.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Koeleria_macrantha.JPG",
+      "artist": "Don Pedro28",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Machaeranthera tanacetifolia": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Machaeranthera_tanacetifolia_001.jpg/960px-Machaeranthera_tanacetifolia_001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Machaeranthera_tanacetifolia_001.jpg",
+      "artist": "Stickpen",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Hibiscus denudatus": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Hibiscus_denudatus_flower_1.jpg/960px-Hibiscus_denudatus_flower_1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hibiscus_denudatus_flower_1.jpg",
+      "artist": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Asclepias asperula": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Asclepias-asperula.jpg/960px-Asclepias-asperula.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Asclepias-asperula.jpg",
+      "artist": "Lunch at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Sphaeralcea ambigua": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Sphaeralcea-ambigua-detail.jpg/960px-Sphaeralcea-ambigua-detail.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sphaeralcea-ambigua-detail.jpg",
+      "artist": "Kevin Gepford",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Eschscholzia californica": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Kaldari_Eschscholzia_californica_01.jpg/960px-Kaldari_Eschscholzia_californica_01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kaldari_Eschscholzia_californica_01.jpg",
+      "artist": "Kaldari",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "Heteromeles arbutifolia": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/018_Black_Mountain_Road_Views_%288%29_-_Heteromeles_Arbutifolia%2C_AKA_Toyon_%281%29.jpg/960px-018_Black_Mountain_Road_Views_%288%29_-_Heteromeles_Arbutifolia%2C_AKA_Toyon_%281%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:018_Black_Mountain_Road_Views_(8)_-_Heteromeles_Arbutifolia,_AKA_Toyon_(1).jpg",
+      "artist": "The Fun Chronicles",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "Muhlenbergia rigens": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Muhlenbergia_rigens_form.jpg/960px-Muhlenbergia_rigens_form.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Muhlenbergia_rigens_form.jpg",
+      "artist": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Lupinus nootkatensis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Lupinus_nootkatensis_-_Iceland_20070706b.jpg/960px-Lupinus_nootkatensis_-_Iceland_20070706b.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lupinus_nootkatensis_-_Iceland_20070706b.jpg",
+      "artist": "de:User:Jutta234",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Rosa nutkana": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Rosa_nutkana_07513.JPG/960px-Rosa_nutkana_07513.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Rosa_nutkana_07513.JPG",
+      "artist": "Walter Siegmund",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "Picea sitchensis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Sitka_01.JPG/960px-Sitka_01.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Sitka_01.JPG",
+      "artist": "Graaf van Vlaanderen",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Arctostaphylos uva-ursi": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Arctostaphylos_uva-ursi_25924.JPG/960px-Arctostaphylos_uva-ursi_25924.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Arctostaphylos_uva-ursi_25924.JPG",
+      "artist": "Walter Siegmund",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "Rubus chamaemorus": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Rubus_chamaemorus%2C_from_Troms%C3%B8%2C_August_2020.jpeg/960px-Rubus_chamaemorus%2C_from_Troms%C3%B8%2C_August_2020.jpeg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rubus_chamaemorus,_from_Troms%C3%B8,_August_2020.jpeg",
+      "artist": "Moravice",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Rhododendron groenlandicum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Rhododendron_groenlandicum_2_RF.jpg/960px-Rhododendron_groenlandicum_2_RF.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rhododendron_groenlandicum_2_RF.jpg",
+      "artist": "Robert Flogaus-Faust",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "Acacia koa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Acacia_koa_study_7.jpg/960px-Acacia_koa_study_7.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Acacia_koa_study_7.jpg",
+      "artist": "Alison Pockat",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "Nephrolepis cordifolia": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Starr_070221-4863_Nephrolepis_cordifolia.jpg/960px-Starr_070221-4863_Nephrolepis_cordifolia.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_070221-4863_Nephrolepis_cordifolia.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Ipomoea pes-caprae": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/%E0%B4%85%E0%B4%9F%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B5%8D_Ipomoea_pes-caprae_02.jpg/960px-%E0%B4%85%E0%B4%9F%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B5%8D_Ipomoea_pes-caprae_02.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%E0%B4%85%E0%B4%9F%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B5%8D_Ipomoea_pes-caprae_02.jpg",
+      "artist": "Drajay1976",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Santalum haleakalae": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Starr_070822-8118_Santalum_haleakalae.jpg/960px-Starr_070822-8118_Santalum_haleakalae.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_070822-8118_Santalum_haleakalae.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Sophora chrysophylla": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Starr_030222-0062_Sophora_chrysophylla.jpg/960px-Starr_030222-0062_Sophora_chrysophylla.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_030222-0062_Sophora_chrysophylla.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  },
+  "plantSources": {
+    "foamflower": {
+      "label": "North Creek Nurseries plant list",
+      "url": "https://www.northcreeknurseries.com/Blog-Post/North-Creek-s-Legacy-Plants"
+    },
+    "whiteAster": {
+      "label": "North Creek Nurseries plant list",
+      "url": "https://www.northcreeknurseries.com/Blog-Post/North-Creek-s-Legacy-Plants"
+    },
+    "blueAster": {
+      "label": "North Creek Nurseries plant list",
+      "url": "https://www.northcreeknurseries.com/Blog-Post/North-Creek-s-Legacy-Plants"
+    },
+    "cardinalFlower": {
+      "label": "North Creek Nurseries plant list",
+      "url": "https://www.northcreeknurseries.com/Blog-Post/North-Creek-s-Legacy-Plants"
+    },
+    "beardtongue": {
+      "label": "North Creek Nurseries plant list",
+      "url": "https://www.northcreeknurseries.com/Blog-Post/North-Creek-s-Legacy-Plants"
+    },
+    "crestedIris": {
+      "label": "North Creek Nurseries plant list",
+      "url": "https://www.northcreeknurseries.com/Blog-Post/North-Creek-s-Legacy-Plants"
+    },
+    "seaOats": {
+      "label": "North Creek Nurseries plant list",
+      "url": "https://www.northcreeknurseries.com/Blog-Post/North-Creek-s-Legacy-Plants"
+    },
+    "boneset": {
+      "label": "North Creek Nurseries plant list",
+      "url": "https://www.northcreeknurseries.com/Blog-Post/North-Creek-s-Legacy-Plants"
+    },
+    "blueVervain": {
+      "label": "Prairie Moon Nursery catalog",
+      "url": "https://www.prairiemoon.com/verbena-hastata-blue-vervain"
+    },
+    "prairieSmoke": {
+      "label": "Prairie Moon Nursery catalog",
+      "url": "https://www.prairiemoon.com/geum-triflorum-prairie-smoke"
+    },
+    "roughBlazingStar": {
+      "label": "Prairie Moon Nursery catalog",
+      "url": "https://www.prairiemoon.com/liatris-aspera-rough-blazing-star"
+    },
+    "rattlesnakeMaster": {
+      "label": "Prairie Moon Nursery catalog",
+      "url": "https://www.prairiemoon.com/eryngium-yuccifolium-rattlesnake-master"
+    },
+    "currant": {
+      "label": "Bosky Dell Natives plant list",
+      "url": "https://www.boskydellnatives.com/plantlist.htm"
+    },
+    "vineMaple": {
+      "label": "Bosky Dell Natives plant list",
+      "url": "https://www.boskydellnatives.com/plantlist.htm"
+    },
+    "swordFern": {
+      "label": "Bosky Dell Natives plant list",
+      "url": "https://www.boskydellnatives.com/plantlist.htm"
+    },
+    "salmonberry": {
+      "label": "Bosky Dell Natives plant list",
+      "url": "https://www.boskydellnatives.com/plantlist.htm"
+    },
+    "blanketflower": {
+      "label": "Western Native Seed catalog",
+      "url": "https://westernnativeseed.com/product/montane-wildflower-mix/"
+    },
+    "blueFlax": {
+      "label": "Western Native Seed catalog",
+      "url": "https://westernnativeseed.com/product/montane-wildflower-mix/"
+    },
+    "rockyPenstemon": {
+      "label": "Western Native Seed catalog",
+      "url": "https://westernnativeseed.com/product/penstemon-strictus/"
+    },
+    "junegrass": {
+      "label": "Western Native Seed catalog",
+      "url": "https://westernnativeseed.com/"
+    },
+    "tansyaster": {
+      "label": "Desert Survivors nursery plant list",
+      "url": "https://desertsurvivors.org/plants/plant-nursery/"
+    },
+    "rockHibiscus": {
+      "label": "Desert Survivors nursery plant list",
+      "url": "https://desertsurvivors.org/plants/plant-nursery/"
+    },
+    "antelopeHorns": {
+      "label": "Desert Survivors nursery plant list",
+      "url": "https://desertsurvivors.org/plants/plant-nursery/"
+    },
+    "globemallow": {
+      "label": "Spadefoot Nursery plant reference",
+      "url": "https://www.spadefootnursery.com/"
+    },
+    "calPoppy": {
+      "label": "Las Pilitas Nursery plant reference",
+      "url": "https://www.laspilitas.com/"
+    },
+    "toyon": {
+      "label": "Las Pilitas Nursery plant reference",
+      "url": "https://www.laspilitas.com/"
+    },
+    "deergrass": {
+      "label": "Las Pilitas Nursery plant reference",
+      "url": "https://www.laspilitas.com/"
+    },
+    "alaskaLupine": {
+      "label": "Alaska Native Plant Sources directory",
+      "url": "https://plants.alaska.gov/nativeplantindex.htm"
+    },
+    "nootkaRose": {
+      "label": "Alaska Native Plant Sources directory",
+      "url": "https://plants.alaska.gov/nativeplantindex.htm"
+    },
+    "sitkaSpruce": {
+      "label": "Alaska Native Plant Sources directory",
+      "url": "https://plants.alaska.gov/nativeplantindex.htm"
+    },
+    "bearberry": {
+      "label": "Western Native Seed catalog",
+      "url": "https://westernnativeseed.com/"
+    },
+    "cloudberry": {
+      "label": "Alaska Center for Conservation Science plant resources",
+      "url": "https://accs.uaa.alaska.edu/vegetation/"
+    },
+    "labradorTea": {
+      "label": "Alaska Center for Conservation Science plant resources",
+      "url": "https://accs.uaa.alaska.edu/vegetation/"
+    },
+    "koa": {
+      "label": "Hui Kū Maoli Ola plant catalog",
+      "url": "https://hawaiiannativeplants.com/our-plants/"
+    },
+    "kupukupu": {
+      "label": "Hui Kū Maoli Ola plant catalog",
+      "url": "https://hawaiiannativeplants.com/our-plants/"
+    },
+    "pohuehue": {
+      "label": "Hui Kū Maoli Ola plant catalog",
+      "url": "https://hawaiiannativeplants.com/ourplants/pohuehue/"
+    },
+    "iliahi": {
+      "label": "Native Hawaiʻi Plants reference",
+      "url": "https://nativeplants.hawaii.edu/"
+    },
+    "mamane": {
+      "label": "Native Hawaiʻi Plants reference",
+      "url": "https://nativeplants.hawaii.edu/"
     }
   }
 }
