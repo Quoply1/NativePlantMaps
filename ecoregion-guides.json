@@ -8,7 +8,8 @@
         "cottonGrass",
         "waterSedge",
         "cloudberry",
-        "dwarfBirch"
+        "dwarfBirch",
+        "dwarfFireweed"
       ]
     },
     "2.2.2": {
@@ -21,7 +22,8 @@
         "bearberry",
         "cloudberry",
         "labradorTea",
-        "dwarfBirch"
+        "dwarfBirch",
+        "dwarfFireweed"
       ]
     },
     "2.2.3": {
@@ -33,7 +35,8 @@
         "arcticWillow",
         "cloudberry",
         "labradorTea",
-        "dwarfBirch"
+        "dwarfBirch",
+        "dwarfFireweed"
       ]
     },
     "2.2.4": {
@@ -46,7 +49,8 @@
         "bearberry",
         "cloudberry",
         "labradorTea",
-        "dwarfBirch"
+        "dwarfBirch",
+        "dwarfFireweed"
       ]
     },
     "2.2.5": {
@@ -59,7 +63,9 @@
         "alaskaLupine",
         "cloudberry",
         "labradorTea",
-        "dwarfBirch"
+        "dwarfBirch",
+        "whiteSpruce",
+        "dwarfFireweed"
       ]
     },
     "2.2.6": {
@@ -71,7 +77,8 @@
         "lyngbye",
         "alaskaLupine",
         "cloudberry",
-        "alaskaYarrow"
+        "alaskaYarrow",
+        "dwarfFireweed"
       ]
     },
     "2.3.1": {
@@ -84,7 +91,8 @@
         "bearberry",
         "cloudberry",
         "labradorTea",
-        "dwarfBirch"
+        "dwarfBirch",
+        "dwarfFireweed"
       ]
     },
     "3.1.1": {
@@ -100,7 +108,11 @@
         "labradorTea",
         "redOsier",
         "blackSpruce",
-        "dwarfBirch"
+        "dwarfBirch",
+        "redElderberry",
+        "whiteSpruce",
+        "dwarfFireweed",
+        "tamarack"
       ]
     },
     "3.1.2": {
@@ -115,7 +127,10 @@
         "cloudberry",
         "labradorTea",
         "redOsier",
-        "blackSpruce"
+        "blackSpruce",
+        "whiteSpruce",
+        "dwarfFireweed",
+        "tamarack"
       ]
     },
     "3.1.3": {
@@ -131,7 +146,10 @@
         "labradorTea",
         "redOsier",
         "blackSpruce",
-        "dwarfBirch"
+        "dwarfBirch",
+        "whiteSpruce",
+        "dwarfFireweed",
+        "tamarack"
       ]
     },
     "3.2.1": {
@@ -146,7 +164,9 @@
         "labradorTea",
         "redOsier",
         "blackSpruce",
-        "dwarfBirch"
+        "dwarfBirch",
+        "whiteSpruce",
+        "dwarfFireweed"
       ]
     },
     "5.2.1": {
@@ -165,7 +185,14 @@
         "wildGinger",
         "goldenAlexanders",
         "redOsier",
-        "blackSpruce"
+        "blackSpruce",
+        "mountainMint",
+        "zigzagGoldenrod",
+        "joePye",
+        "newEnglandAster",
+        "redElderberry",
+        "whiteSpruce",
+        "tamarack"
       ]
     },
     "5.2.2": {
@@ -179,7 +206,11 @@
         "blueVervain",
         "labradorTea",
         "redOsier",
-        "blackSpruce"
+        "blackSpruce",
+        "joePye",
+        "sneezeweed",
+        "whiteSpruce",
+        "tamarack"
       ]
     },
     "5.3.1": {
@@ -197,7 +228,15 @@
         "blackEyedSusan",
         "wildGinger",
         "redOsier",
-        "blackSpruce"
+        "blackSpruce",
+        "mountainMint",
+        "zigzagGoldenrod",
+        "bloodroot",
+        "joePye",
+        "newEnglandAster",
+        "redElderberry",
+        "whiteSpruce",
+        "tamarack"
       ]
     },
     "5.3.3": {
@@ -214,7 +253,13 @@
         "beardtongue",
         "blackEyedSusan",
         "wildGinger",
-        "redOsier"
+        "redOsier",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "bloodroot",
+        "blueCohosh",
+        "joePye",
+        "newEnglandAster"
       ]
     },
     "6.1.1": {
@@ -230,7 +275,9 @@
         "labradorTea",
         "redOsier",
         "blackSpruce",
-        "dwarfBirch"
+        "dwarfBirch",
+        "whiteSpruce",
+        "dwarfFireweed"
       ]
     },
     "6.1.2": {
@@ -245,7 +292,8 @@
         "cloudberry",
         "labradorTea",
         "redOsier",
-        "dwarfBirch"
+        "dwarfBirch",
+        "dwarfFireweed"
       ]
     },
     "6.1.3": {
@@ -261,7 +309,9 @@
         "labradorTea",
         "redOsier",
         "blackSpruce",
-        "dwarfBirch"
+        "dwarfBirch",
+        "whiteSpruce",
+        "dwarfFireweed"
       ]
     },
     "6.1.4": {
@@ -276,7 +326,8 @@
         "cloudberry",
         "labradorTea",
         "redOsier",
-        "dwarfBirch"
+        "dwarfBirch",
+        "dwarfFireweed"
       ]
     },
     "6.2.3": {
@@ -293,7 +344,10 @@
         "bearberry",
         "mockOrange",
         "westernColumbine",
-        "redOsier"
+        "redOsier",
+        "silkyLupine",
+        "oceanSpray",
+        "redElderberry"
       ]
     },
     "6.2.4": {
@@ -310,7 +364,8 @@
         "bearberry",
         "mockOrange",
         "westernColumbine",
-        "redOsier"
+        "redOsier",
+        "silkyLupine"
       ]
     },
     "6.2.5": {
@@ -328,7 +383,12 @@
         "bearberry",
         "mockOrange",
         "westernColumbine",
-        "redOsier"
+        "redOsier",
+        "silkyLupine",
+        "fringecup",
+        "oceanSpray",
+        "pacificBleedingheart",
+        "redElderberry"
       ]
     },
     "6.2.7": {
@@ -345,7 +405,12 @@
         "mockOrange",
         "westernColumbine",
         "insideOutFlower",
-        "redOsier"
+        "redOsier",
+        "redwoodSorrel",
+        "fringecup",
+        "oceanSpray",
+        "pacificBleedingheart",
+        "redElderberry"
       ]
     },
     "6.2.8": {
@@ -361,7 +426,10 @@
         "bearberry",
         "mockOrange",
         "westernColumbine",
-        "redOsier"
+        "redOsier",
+        "silkyLupine",
+        "rabbitbrush",
+        "oceanSpray"
       ]
     },
     "6.2.9": {
@@ -378,7 +446,10 @@
         "junegrass",
         "mockOrange",
         "westernColumbine",
-        "redOsier"
+        "redOsier",
+        "silkyLupine",
+        "rabbitbrush",
+        "oceanSpray"
       ]
     },
     "6.2.10": {
@@ -395,7 +466,11 @@
         "bearberry",
         "mockOrange",
         "westernColumbine",
-        "redOsier"
+        "redOsier",
+        "showyGoldeneye",
+        "silkyLupine",
+        "smoothPenstemon",
+        "rabbitbrush"
       ]
     },
     "6.2.11": {
@@ -413,7 +488,14 @@
         "mockOrange",
         "westernColumbine",
         "insideOutFlower",
-        "redOsier"
+        "redOsier",
+        "narrowleafMilkweed",
+        "blueEyedGrass",
+        "westernRedbud",
+        "redwoodSorrel",
+        "fringecup",
+        "oceanSpray",
+        "pacificBleedingheart"
       ]
     },
     "6.2.12": {
@@ -431,7 +513,10 @@
         "bearberry",
         "mockOrange",
         "westernColumbine",
-        "redOsier"
+        "redOsier",
+        "narrowleafMilkweed",
+        "blueEyedGrass",
+        "westernRedbud"
       ]
     },
     "6.2.13": {
@@ -447,7 +532,10 @@
         "rockyPenstemon",
         "junegrass",
         "bearberry",
-        "redOsier"
+        "redOsier",
+        "showyGoldeneye",
+        "silkyLupine",
+        "rabbitbrush"
       ]
     },
     "6.2.14": {
@@ -463,7 +551,11 @@
         "rockyPenstemon",
         "junegrass",
         "bearberry",
-        "redOsier"
+        "redOsier",
+        "showyGoldeneye",
+        "silkyLupine",
+        "smoothPenstemon",
+        "rabbitbrush"
       ]
     },
     "6.2.15": {
@@ -479,7 +571,8 @@
         "bearberry",
         "mockOrange",
         "westernColumbine",
-        "redOsier"
+        "redOsier",
+        "silkyLupine"
       ]
     },
     "7.1.1": {
@@ -494,7 +587,9 @@
         "cloudberry",
         "labradorTea",
         "redOsier",
-        "dwarfBirch"
+        "dwarfBirch",
+        "whiteSpruce",
+        "dwarfFireweed"
       ]
     },
     "7.1.2": {
@@ -509,7 +604,8 @@
         "bearberry",
         "cloudberry",
         "dwarfBirch",
-        "alaskaYarrow"
+        "alaskaYarrow",
+        "dwarfFireweed"
       ]
     },
     "7.1.3": {
@@ -528,7 +624,10 @@
         "labradorTea",
         "redOsier",
         "blackSpruce",
-        "dwarfBirch"
+        "dwarfBirch",
+        "redElderberry",
+        "whiteSpruce",
+        "dwarfFireweed"
       ]
     },
     "7.1.4": {
@@ -546,7 +645,10 @@
         "bearberry",
         "westernColumbine",
         "redOsier",
-        "dwarfBirch"
+        "dwarfBirch",
+        "fringecup",
+        "redElderberry",
+        "dwarfFireweed"
       ]
     },
     "7.1.5": {
@@ -563,7 +665,9 @@
         "sitkaSpruce",
         "westernColumbine",
         "redOsier",
-        "alaskaYarrow"
+        "alaskaYarrow",
+        "fringecup",
+        "redElderberry"
       ]
     },
     "7.1.7": {
@@ -581,7 +685,13 @@
         "mockOrange",
         "westernColumbine",
         "insideOutFlower",
-        "redOsier"
+        "redOsier",
+        "redwoodSorrel",
+        "fringecup",
+        "oceanSpray",
+        "pacificBleedingheart",
+        "sloughSedge",
+        "redElderberry"
       ]
     },
     "7.1.8": {
@@ -600,7 +710,14 @@
         "mockOrange",
         "westernColumbine",
         "insideOutFlower",
-        "redOsier"
+        "redOsier",
+        "blueEyedGrass",
+        "redwoodSorrel",
+        "fringecup",
+        "oceanSpray",
+        "pacificBleedingheart",
+        "sloughSedge",
+        "redElderberry"
       ]
     },
     "7.1.9": {
@@ -619,7 +736,12 @@
         "mockOrange",
         "westernColumbine",
         "insideOutFlower",
-        "redOsier"
+        "redOsier",
+        "redwoodSorrel",
+        "fringecup",
+        "oceanSpray",
+        "pacificBleedingheart",
+        "sloughSedge"
       ]
     },
     "8.1.1": {
@@ -636,7 +758,16 @@
         "blackEyedSusan",
         "wildGinger",
         "goldenAlexanders",
-        "redOsier"
+        "redOsier",
+        "denseBlazingStar",
+        "mountainMint",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "bloodroot",
+        "blueCohosh",
+        "joePye",
+        "newEnglandAster"
       ]
     },
     "8.1.3": {
@@ -652,7 +783,13 @@
         "cardinalFlower",
         "beardtongue",
         "blackEyedSusan",
-        "wildGinger"
+        "wildGinger",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "bloodroot",
+        "blueCohosh",
+        "virginiaBluebells"
       ]
     },
     "8.1.4": {
@@ -672,7 +809,15 @@
         "blackEyedSusan",
         "wildGinger",
         "goldenAlexanders",
-        "redOsier"
+        "redOsier",
+        "mountainMint",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "bloodroot",
+        "joePye",
+        "newEnglandAster",
+        "sneezeweed"
       ]
     },
     "8.1.5": {
@@ -693,7 +838,21 @@
         "blackEyedSusan",
         "wildGinger",
         "goldenAlexanders",
-        "redOsier"
+        "redOsier",
+        "prairieBlazingStar",
+        "mountainMint",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "jacobsLadder",
+        "joePye",
+        "newEnglandAster",
+        "heathAster",
+        "sneezeweed",
+        "ironweed",
+        "indianGrass",
+        "spiderwort",
+        "virginiaBluebells"
       ]
     },
     "8.1.6": {
@@ -712,7 +871,19 @@
         "blackEyedSusan",
         "wildGinger",
         "goldenAlexanders",
-        "redOsier"
+        "redOsier",
+        "denseBlazingStar",
+        "mountainMint",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "bloodroot",
+        "jacobsLadder",
+        "blueCohosh",
+        "joePye",
+        "newEnglandAster",
+        "spiderwort",
+        "virginiaBluebells"
       ]
     },
     "8.1.7": {
@@ -727,7 +898,11 @@
         "blueAster",
         "cardinalFlower",
         "blackEyedSusan",
-        "seasideGoldenrod"
+        "seasideGoldenrod",
+        "zigzagGoldenrod",
+        "bloodroot",
+        "newEnglandAster",
+        "purpleLoveGrass"
       ]
     },
     "8.1.8": {
@@ -744,7 +919,15 @@
         "blackEyedSusan",
         "wildGinger",
         "redOsier",
-        "blackSpruce"
+        "blackSpruce",
+        "zigzagGoldenrod",
+        "bloodroot",
+        "blueCohosh",
+        "joePye",
+        "newEnglandAster",
+        "redElderberry",
+        "whiteSpruce",
+        "tamarack"
       ]
     },
     "8.1.10": {
@@ -759,7 +942,16 @@
         "cardinalFlower",
         "beardtongue",
         "blackEyedSusan",
-        "wildGinger"
+        "wildGinger",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "bloodroot",
+        "jacobsLadder",
+        "blueCohosh",
+        "joePye",
+        "newEnglandAster",
+        "virginiaBluebells"
       ]
     },
     "8.2.1": {
@@ -780,7 +972,19 @@
         "blackEyedSusan",
         "wildGinger",
         "goldenAlexanders",
-        "redOsier"
+        "redOsier",
+        "prairieBlazingStar",
+        "mountainMint",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "jacobsLadder",
+        "joePye",
+        "newEnglandAster",
+        "heathAster",
+        "ironweed",
+        "indianGrass",
+        "spiderwort"
       ]
     },
     "8.2.2": {
@@ -798,7 +1002,13 @@
         "blackEyedSusan",
         "wildGinger",
         "goldenAlexanders",
-        "redOsier"
+        "redOsier",
+        "denseBlazingStar",
+        "mountainMint",
+        "blueLobelia",
+        "joePye",
+        "newEnglandAster",
+        "sneezeweed"
       ]
     },
     "8.2.3": {
@@ -817,7 +1027,22 @@
         "leadplant",
         "dropseed",
         "blackEyedSusan",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "denseBlazingStar",
+        "prairieBlazingStar",
+        "mountainMint",
+        "blueLobelia",
+        "woodPhlox",
+        "jacobsLadder",
+        "newEnglandAster",
+        "heathAster",
+        "sneezeweed",
+        "ironweed",
+        "indianGrass",
+        "spiderwort",
+        "virginiaBluebells",
+        "tickseed",
+        "purpleConeflower"
       ]
     },
     "8.2.4": {
@@ -836,7 +1061,18 @@
         "dropseed",
         "blackEyedSusan",
         "wildGinger",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "denseBlazingStar",
+        "prairieBlazingStar",
+        "mountainMint",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "bloodroot",
+        "jacobsLadder",
+        "newEnglandAster",
+        "sneezeweed",
+        "virginiaBluebells"
       ]
     },
     "8.3.1": {
@@ -854,7 +1090,16 @@
         "beardtongue",
         "blackEyedSusan",
         "wildGinger",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "denseBlazingStar",
+        "mountainMint",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "bloodroot",
+        "newEnglandAster",
+        "purpleLoveGrass",
+        "virginiaBluebells"
       ]
     },
     "8.3.2": {
@@ -874,7 +1119,21 @@
         "leadplant",
         "dropseed",
         "blackEyedSusan",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "prairieBlazingStar",
+        "blueLobelia",
+        "woodPhlox",
+        "jacobsLadder",
+        "newEnglandAster",
+        "heathAster",
+        "sneezeweed",
+        "ironweed",
+        "indianGrass",
+        "spiderwort",
+        "blueWildIndigo",
+        "virginiaBluebells",
+        "tickseed",
+        "purpleConeflower"
       ]
     },
     "8.3.3": {
@@ -895,7 +1154,21 @@
         "dropseed",
         "blackEyedSusan",
         "wildGinger",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "prairieBlazingStar",
+        "blueLobelia",
+        "woodPhlox",
+        "bloodroot",
+        "jacobsLadder",
+        "blueCohosh",
+        "sneezeweed",
+        "indianGrass",
+        "fringeTree",
+        "spiderwort",
+        "blueWildIndigo",
+        "virginiaBluebells",
+        "tickseed",
+        "purpleConeflower"
       ]
     },
     "8.3.4": {
@@ -911,7 +1184,13 @@
         "crestedIris",
         "seaOats",
         "boneset",
-        "blackEyedSusan"
+        "blackEyedSusan",
+        "denseBlazingStar",
+        "purpleLoveGrass",
+        "sweetspire",
+        "fringeTree",
+        "greenAndGold",
+        "tickseed"
       ]
     },
     "8.3.5": {
@@ -927,7 +1206,13 @@
         "rattlesnakeMaster",
         "blackEyedSusan",
         "waxMyrtle",
-        "dwarfPalmetto"
+        "dwarfPalmetto",
+        "denseBlazingStar",
+        "purpleLoveGrass",
+        "sweetspire",
+        "fringeTree",
+        "greenAndGold",
+        "tickseed"
       ]
     },
     "8.3.6": {
@@ -944,7 +1229,10 @@
         "rattlesnakeMaster",
         "blackEyedSusan",
         "waxMyrtle",
-        "dwarfPalmetto"
+        "dwarfPalmetto",
+        "sweetspire",
+        "fringeTree",
+        "tickseed"
       ]
     },
     "8.3.7": {
@@ -960,7 +1248,11 @@
         "rattlesnakeMaster",
         "blackEyedSusan",
         "waxMyrtle",
-        "dwarfPalmetto"
+        "dwarfPalmetto",
+        "purpleLoveGrass",
+        "sweetspire",
+        "fringeTree",
+        "tickseed"
       ]
     },
     "8.3.8": {
@@ -974,7 +1266,8 @@
         "seaOats",
         "rattlesnakeMaster",
         "blackEyedSusan",
-        "dwarfPalmetto"
+        "dwarfPalmetto",
+        "purpleLoveGrass"
       ]
     },
     "8.4.1": {
@@ -994,7 +1287,15 @@
         "seaOats",
         "blackEyedSusan",
         "wildGinger",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "bloodroot",
+        "blueCohosh",
+        "newEnglandAster",
+        "blueWildIndigo",
+        "virginiaBluebells"
       ]
     },
     "8.4.2": {
@@ -1011,7 +1312,15 @@
         "beardtongue",
         "crestedIris",
         "blackEyedSusan",
-        "wildGinger"
+        "wildGinger",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "bloodroot",
+        "jacobsLadder",
+        "blueCohosh",
+        "greenAndGold",
+        "virginiaBluebells"
       ]
     },
     "8.4.3": {
@@ -1029,7 +1338,16 @@
         "crestedIris",
         "blackEyedSusan",
         "wildGinger",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "blueLobelia",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "bloodroot",
+        "jacobsLadder",
+        "blueCohosh",
+        "newEnglandAster",
+        "blueWildIndigo",
+        "virginiaBluebells"
       ]
     },
     "8.4.4": {
@@ -1045,7 +1363,13 @@
         "crestedIris",
         "seaOats",
         "blackEyedSusan",
-        "wildGinger"
+        "wildGinger",
+        "zigzagGoldenrod",
+        "woodPhlox",
+        "bloodroot",
+        "blueCohosh",
+        "fringeTree",
+        "greenAndGold"
       ]
     },
     "8.4.5": {
@@ -1066,7 +1390,17 @@
         "dropseed",
         "blackEyedSusan",
         "wildGinger",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "prairieBlazingStar",
+        "woodPhlox",
+        "jacobsLadder",
+        "heathAster",
+        "indianGrass",
+        "spiderwort",
+        "blueWildIndigo",
+        "virginiaBluebells",
+        "tickseed",
+        "purpleConeflower"
       ]
     },
     "8.4.6": {
@@ -1081,7 +1415,12 @@
         "crestedIris",
         "seaOats",
         "blackEyedSusan",
-        "wildGinger"
+        "wildGinger",
+        "woodPhlox",
+        "sneezeweed",
+        "fringeTree",
+        "blueWildIndigo",
+        "purpleConeflower"
       ]
     },
     "8.4.7": {
@@ -1094,7 +1433,15 @@
         "cardinalFlower",
         "seaOats",
         "blueVervain",
-        "blackEyedSusan"
+        "blackEyedSusan",
+        "prairieBlazingStar",
+        "woodPhlox",
+        "sneezeweed",
+        "indianGrass",
+        "spiderwort",
+        "blueWildIndigo",
+        "tickseed",
+        "purpleConeflower"
       ]
     },
     "8.4.8": {
@@ -1107,7 +1454,11 @@
         "cardinalFlower",
         "crestedIris",
         "seaOats",
-        "blackEyedSusan"
+        "blackEyedSusan",
+        "woodPhlox",
+        "sneezeweed",
+        "fringeTree",
+        "tickseed"
       ]
     },
     "8.4.9": {
@@ -1124,7 +1475,13 @@
         "crestedIris",
         "seaOats",
         "blackEyedSusan",
-        "wildGinger"
+        "wildGinger",
+        "woodPhlox",
+        "bloodroot",
+        "sweetspire",
+        "fringeTree",
+        "greenAndGold",
+        "tickseed"
       ]
     },
     "8.5.1": {
@@ -1142,7 +1499,14 @@
         "blackEyedSusan",
         "seasideGoldenrod",
         "waxMyrtle",
-        "dwarfPalmetto"
+        "dwarfPalmetto",
+        "denseBlazingStar",
+        "purpleLoveGrass",
+        "sweetspire",
+        "fringeTree",
+        "dwarfFothergilla",
+        "greenAndGold",
+        "saltMarshMallow"
       ]
     },
     "8.5.2": {
@@ -1159,7 +1523,9 @@
         "rattlesnakeMaster",
         "blackEyedSusan",
         "waxMyrtle",
-        "dwarfPalmetto"
+        "dwarfPalmetto",
+        "sneezeweed",
+        "sweetspire"
       ]
     },
     "8.5.3": {
@@ -1177,7 +1543,14 @@
         "blackEyedSusan",
         "seasideGoldenrod",
         "waxMyrtle",
-        "dwarfPalmetto"
+        "dwarfPalmetto",
+        "denseBlazingStar",
+        "purpleLoveGrass",
+        "sweetspire",
+        "fringeTree",
+        "dwarfFothergilla",
+        "seaPurslane",
+        "saltMarshMallow"
       ]
     },
     "8.5.4": {
@@ -1192,7 +1565,8 @@
         "boneset",
         "blackEyedSusan",
         "seasideGoldenrod",
-        "waxMyrtle"
+        "waxMyrtle",
+        "purpleLoveGrass"
       ]
     },
     "9.2.1": {
@@ -1211,7 +1585,13 @@
         "dropseed",
         "blackEyedSusan",
         "goldenAlexanders",
-        "redOsier"
+        "redOsier",
+        "joePye",
+        "newEnglandAster",
+        "heathAster",
+        "ironweed",
+        "indianGrass",
+        "plainsConeflower"
       ]
     },
     "9.2.2": {
@@ -1227,7 +1607,12 @@
         "leadplant",
         "dropseed",
         "goldenAlexanders",
-        "redOsier"
+        "redOsier",
+        "joePye",
+        "newEnglandAster",
+        "heathAster",
+        "sneezeweed",
+        "ironweed"
       ]
     },
     "9.2.3": {
@@ -1246,7 +1631,19 @@
         "leadplant",
         "dropseed",
         "blackEyedSusan",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "prairieBlazingStar",
+        "mountainMint",
+        "blueLobelia",
+        "jacobsLadder",
+        "newEnglandAster",
+        "heathAster",
+        "sneezeweed",
+        "ironweed",
+        "indianGrass",
+        "spiderwort",
+        "blueWildIndigo",
+        "plainsConeflower"
       ]
     },
     "9.2.4": {
@@ -1265,7 +1662,15 @@
         "leadplant",
         "dropseed",
         "blackEyedSusan",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "prairieBlazingStar",
+        "heathAster",
+        "ironweed",
+        "indianGrass",
+        "spiderwort",
+        "blueWildIndigo",
+        "purpleConeflower",
+        "plainsConeflower"
       ]
     },
     "9.3.1": {
@@ -1283,7 +1688,10 @@
         "bearberry",
         "leadplant",
         "blackEyedSusan",
-        "redOsier"
+        "redOsier",
+        "heathAster",
+        "plainsConeflower",
+        "beeplant"
       ]
     },
     "9.3.3": {
@@ -1299,7 +1707,12 @@
         "blueFlax",
         "junegrass",
         "leadplant",
-        "redOsier"
+        "redOsier",
+        "heathAster",
+        "plainsConeflower",
+        "beeplant",
+        "smoothPenstemon",
+        "rabbitbrush"
       ]
     },
     "9.3.4": {
@@ -1313,7 +1726,11 @@
         "blanketflower",
         "junegrass",
         "leadplant",
-        "redOsier"
+        "redOsier",
+        "heathAster",
+        "sneezeweed",
+        "plainsConeflower",
+        "beeplant"
       ]
     },
     "9.4.1": {
@@ -1330,7 +1747,11 @@
         "tansyaster",
         "antelopeHorns",
         "leadplant",
-        "alaskaYarrow"
+        "alaskaYarrow",
+        "heathAster",
+        "plainsConeflower",
+        "beeplant",
+        "rabbitbrush"
       ]
     },
     "9.4.2": {
@@ -1348,7 +1769,12 @@
         "leadplant",
         "dropseed",
         "blackEyedSusan",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "heathAster",
+        "ironweed",
+        "indianGrass",
+        "plainsConeflower",
+        "beeplant"
       ]
     },
     "9.4.3": {
@@ -1363,7 +1789,10 @@
         "tansyaster",
         "antelopeHorns",
         "blackfootDaisy",
-        "alaskaYarrow"
+        "alaskaYarrow",
+        "plainsConeflower",
+        "chocolateFlower",
+        "beeplant"
       ]
     },
     "9.4.4": {
@@ -1379,7 +1808,14 @@
         "leadplant",
         "dropseed",
         "blackEyedSusan",
-        "goldenAlexanders"
+        "goldenAlexanders",
+        "prairieBlazingStar",
+        "heathAster",
+        "sneezeweed",
+        "indianGrass",
+        "spiderwort",
+        "blueWildIndigo",
+        "plainsConeflower"
       ]
     },
     "9.4.5": {
@@ -1394,7 +1830,11 @@
         "rattlesnakeMaster",
         "antelopeHorns",
         "leadplant",
-        "blackEyedSusan"
+        "blackEyedSusan",
+        "indianGrass",
+        "spiderwort",
+        "tickseed",
+        "plainsConeflower"
       ]
     },
     "9.4.6": {
@@ -1409,7 +1849,11 @@
         "antelopeHorns",
         "blueSage",
         "autumnSage",
-        "blackfootDaisy"
+        "blackfootDaisy",
+        "plainsConeflower",
+        "chocolateFlower",
+        "texasLantana",
+        "rockPenstemon"
       ]
     },
     "9.4.7": {
@@ -1427,7 +1871,11 @@
         "leadplant",
         "dropseed",
         "blackEyedSusan",
-        "blueSage"
+        "blueSage",
+        "prairieBlazingStar",
+        "indianGrass",
+        "spiderwort",
+        "plainsConeflower"
       ]
     },
     "9.5.1": {
@@ -1445,7 +1893,12 @@
         "seasideGoldenrod",
         "waxMyrtle",
         "dwarfPalmetto",
-        "blueSage"
+        "blueSage",
+        "purpleLoveGrass",
+        "seaPurslane",
+        "saltMarshMallow",
+        "beeblossom",
+        "texasLantana"
       ]
     },
     "9.6.1": {
@@ -1457,7 +1910,9 @@
         "sacaton",
         "antelopeHorns",
         "blueSage",
-        "blackfootDaisy"
+        "blackfootDaisy",
+        "plainsConeflower",
+        "texasLantana"
       ]
     },
     "10.1.2": {
@@ -1472,7 +1927,10 @@
         "junegrass",
         "desertSage",
         "mockOrange",
-        "redOsier"
+        "redOsier",
+        "silkyLupine",
+        "beeplant",
+        "rabbitbrush"
       ]
     },
     "10.1.3": {
@@ -1488,7 +1946,11 @@
         "bearberry",
         "desertSage",
         "mockOrange",
-        "redOsier"
+        "redOsier",
+        "firecracker",
+        "silkyLupine",
+        "rabbitbrush",
+        "narrowleafMilkweed"
       ]
     },
     "10.1.4": {
@@ -1501,7 +1963,12 @@
         "blanketflower",
         "blueFlax",
         "junegrass",
-        "redOsier"
+        "redOsier",
+        "showyGoldeneye",
+        "silkyLupine",
+        "beeplant",
+        "smoothPenstemon",
+        "rabbitbrush"
       ]
     },
     "10.1.5": {
@@ -1515,7 +1982,10 @@
         "junegrass",
         "globemallow",
         "desertSage",
-        "redOsier"
+        "redOsier",
+        "firecracker",
+        "beeplant",
+        "rabbitbrush"
       ]
     },
     "10.1.6": {
@@ -1532,7 +2002,11 @@
         "antelopeHorns",
         "blackfootDaisy",
         "desertSage",
-        "redOsier"
+        "redOsier",
+        "firecracker",
+        "showyGoldeneye",
+        "beeplant",
+        "rabbitbrush"
       ]
     },
     "10.1.7": {
@@ -1548,7 +2022,12 @@
         "tansyaster",
         "antelopeHorns",
         "blackfootDaisy",
-        "redOsier"
+        "redOsier",
+        "chocolateFlower",
+        "firecracker",
+        "showyGoldeneye",
+        "beeplant",
+        "rabbitbrush"
       ]
     },
     "10.1.8": {
@@ -1563,7 +2042,11 @@
         "junegrass",
         "desertSage",
         "mockOrange",
-        "redOsier"
+        "redOsier",
+        "firecracker",
+        "silkyLupine",
+        "beeplant",
+        "rabbitbrush"
       ]
     },
     "10.2.1": {
@@ -1577,7 +2060,10 @@
         "rockHibiscus",
         "globemallow",
         "desertSage",
-        "alaskaYarrow"
+        "alaskaYarrow",
+        "firecracker",
+        "rabbitbrush",
+        "ocotillo"
       ]
     },
     "10.2.2": {
@@ -1592,7 +2078,9 @@
         "antelopeHorns",
         "globemallow",
         "deergrass",
-        "saguaro"
+        "saguaro",
+        "firecracker",
+        "ocotillo"
       ]
     },
     "10.2.4": {
@@ -1606,7 +2094,10 @@
         "rockHibiscus",
         "antelopeHorns",
         "autumnSage",
-        "blackfootDaisy"
+        "blackfootDaisy",
+        "chocolateFlower",
+        "rockPenstemon",
+        "ocotillo"
       ]
     },
     "11.1.1": {
@@ -1619,7 +2110,13 @@
         "calPoppy",
         "toyon",
         "deergrass",
-        "alaskaYarrow"
+        "alaskaYarrow",
+        "scarletBugler",
+        "narrowleafMilkweed",
+        "blueEyedGrass",
+        "tidytips",
+        "hummingbirdSage",
+        "westernRedbud"
       ]
     },
     "11.1.2": {
@@ -1632,7 +2129,12 @@
         "calPoppy",
         "toyon",
         "deergrass",
-        "redOsier"
+        "redOsier",
+        "scarletBugler",
+        "narrowleafMilkweed",
+        "blueEyedGrass",
+        "tidytips",
+        "westernRedbud"
       ]
     },
     "11.1.3": {
@@ -1645,7 +2147,10 @@
         "calPoppy",
         "toyon",
         "deergrass",
-        "redOsier"
+        "redOsier",
+        "scarletBugler",
+        "narrowleafMilkweed",
+        "blueEyedGrass"
       ]
     },
     "12.1.1": {
@@ -1660,7 +2165,10 @@
         "antelopeHorns",
         "deergrass",
         "blackfootDaisy",
-        "alaskaYarrow"
+        "alaskaYarrow",
+        "chocolateFlower",
+        "showyGoldeneye",
+        "ocotillo"
       ]
     },
     "13.1.1": {
@@ -1675,7 +2183,12 @@
         "tansyaster",
         "antelopeHorns",
         "deergrass",
-        "redOsier"
+        "redOsier",
+        "chocolateFlower",
+        "firecracker",
+        "showyGoldeneye",
+        "beeplant",
+        "rabbitbrush"
       ]
     },
     "15.4.1": {
@@ -1688,7 +2201,9 @@
         "cardinalFlower",
         "seasideGoldenrod",
         "waxMyrtle",
-        "dwarfPalmetto"
+        "dwarfPalmetto",
+        "seaPurslane",
+        "saltMarshMallow"
       ]
     },
     "OC0106": {
@@ -1699,7 +2214,8 @@
         "uluhe",
         "koa",
         "kupukupu",
-        "ulei"
+        "ulei",
+        "hapuu"
       ]
     },
     "OC0202": {
@@ -1711,7 +2227,9 @@
         "koa",
         "mamane",
         "naio",
-        "ulei"
+        "ulei",
+        "akia",
+        "aweoweo"
       ]
     },
     "OC0701": {
@@ -1723,7 +2241,8 @@
         "iliahi",
         "mamane",
         "naio",
-        "ulei"
+        "ulei",
+        "aweoweo"
       ]
     },
     "OC0702": {
@@ -1735,7 +2254,10 @@
         "aalii",
         "pohuehue",
         "naio",
-        "ulei"
+        "ulei",
+        "pohinahina",
+        "akia",
+        "aweoweo"
       ]
     }
   },
@@ -2796,6 +3318,412 @@
       "shade",
       "Sun to part shade · drained rocky soils; give the shrub room to spread",
       "Indigenous to Hawaiʻi and also found elsewhere in the Pacific. Check the local island and elevation."
+    ],
+    "denseBlazingStar": [
+      "Dense blazing star",
+      "Liatris spicata",
+      "wet",
+      "Full sun · moist meadow soil with drainage",
+      "Native to eastern North America, chiefly moist prairies and open wetlands."
+    ],
+    "prairieBlazingStar": [
+      "Prairie blazing star",
+      "Liatris pycnostachya",
+      "open",
+      "Full sun · moist to moderately dry prairie soil",
+      "Native to central U.S. prairies and open meadows."
+    ],
+    "mountainMint": [
+      "Virginia mountain mint",
+      "Pycnanthemum virginianum",
+      "wet",
+      "Sun to part shade · moist meadow or swale soil",
+      "Native to central and eastern North America, particularly moist openings."
+    ],
+    "blueLobelia": [
+      "Great blue lobelia",
+      "Lobelia siphilitica",
+      "wet",
+      "Sun to part shade · moist freshwater soil",
+      "Native to central and eastern North America along streams and in moist meadows."
+    ],
+    "zigzagGoldenrod": [
+      "Zigzag goldenrod",
+      "Solidago flexicaulis",
+      "shade",
+      "Part shade to shade · moderately moist woodland soil",
+      "Native to eastern and central North American deciduous woods."
+    ],
+    "woodPhlox": [
+      "Woodland phlox",
+      "Phlox divaricata",
+      "shade",
+      "Part shade · moist, rich soil that drains well",
+      "Native to eastern and central North American woods. Check locally occurring subspecies."
+    ],
+    "bloodroot": [
+      "Bloodroot",
+      "Sanguinaria canadensis",
+      "shade",
+      "Part shade · moist, humus-rich woodland soil",
+      "Native to eastern and central North American deciduous forests."
+    ],
+    "jacobsLadder": [
+      "Jacob’s ladder",
+      "Polemonium reptans",
+      "shade",
+      "Part shade · moist, drained woodland soil",
+      "Native to eastern and central North American rich woods."
+    ],
+    "blueCohosh": [
+      "Blue cohosh",
+      "Caulophyllum thalictroides",
+      "shade",
+      "Part shade · deep, moist deciduous woodland soil",
+      "Native to eastern North American forests and rich coves."
+    ],
+    "joePye": [
+      "Spotted Joe-Pye weed",
+      "Eutrochium maculatum",
+      "wet",
+      "Full sun to part shade · consistently moist meadow soil",
+      "Native to much of northern North America and cool eastern wetlands."
+    ],
+    "newEnglandAster": [
+      "New England aster",
+      "Symphyotrichum novae-angliae",
+      "open",
+      "Full sun · moderately moist, drained meadow soil",
+      "Native across much of central and eastern North America. Check local range near its western edge."
+    ],
+    "heathAster": [
+      "Heath aster",
+      "Symphyotrichum ericoides",
+      "open",
+      "Full sun · dry, drained prairie or gravelly soil",
+      "Native to much of temperate North America, especially central prairies and dry open ground."
+    ],
+    "sneezeweed": [
+      "Common sneezeweed",
+      "Helenium autumnale",
+      "wet",
+      "Full sun · moist meadow soil or freshwater banks",
+      "Native across much of North America, especially along freshwater margins."
+    ],
+    "ironweed": [
+      "Prairie ironweed",
+      "Vernonia fasciculata",
+      "wet",
+      "Full sun · moist prairie soil, especially swales",
+      "Native to central North American prairies and river bottoms."
+    ],
+    "indianGrass": [
+      "Indiangrass",
+      "Sorghastrum nutans",
+      "open",
+      "Full sun · drained soil, dry to moderately moist",
+      "Native to central and eastern North America and a characteristic tallgrass prairie species."
+    ],
+    "purpleLoveGrass": [
+      "Purple lovegrass",
+      "Eragrostis spectabilis",
+      "open",
+      "Full sun · dry sandy or gravelly soil",
+      "Native to much of the eastern and central U.S., often on sandy open ground."
+    ],
+    "sweetspire": [
+      "Virginia sweetspire",
+      "Itea virginica",
+      "wet",
+      "Sun to part shade · moist, acidic soils or stream edges",
+      "Native to the southeastern U.S. and parts of the Mid-Atlantic, especially wet woods."
+    ],
+    "fringeTree": [
+      "White fringetree",
+      "Chionanthus virginicus",
+      "shade",
+      "Sun to part shade · moist, well-drained soil at woodland edges",
+      "Native to the eastern and south-central U.S., particularly the Southeast."
+    ],
+    "dwarfFothergilla": [
+      "Dwarf fothergilla",
+      "Fothergilla gardenii",
+      "shade",
+      "Sun to part shade · acidic, moist, well-drained soil",
+      "Native to parts of the southeastern Atlantic Coastal Plain. Use nursery-propagated stock and verify local range."
+    ],
+    "greenAndGold": [
+      "Green-and-gold",
+      "Chrysogonum virginianum",
+      "shade",
+      "Part shade · moist, humus-rich soil with drainage",
+      "Native to the eastern U.S., including Appalachian and southeastern woodland edges."
+    ],
+    "spiderwort": [
+      "Ohio spiderwort",
+      "Tradescantia ohiensis",
+      "open",
+      "Sun to part sun · drained meadow soil",
+      "Native to eastern and central North America in prairies and open woods."
+    ],
+    "blueWildIndigo": [
+      "Blue wild indigo",
+      "Baptisia australis",
+      "open",
+      "Full sun · deep, drained soil with moderate moisture",
+      "Native to central and eastern U.S. open ground and riverbanks. Confirm the local variety."
+    ],
+    "virginiaBluebells": [
+      "Virginia bluebells",
+      "Mertensia virginica",
+      "shade",
+      "Part shade · rich, moist floodplain or woodland soil",
+      "Native to eastern and central North American moist woods and floodplains."
+    ],
+    "seaPurslane": [
+      "Sea purslane",
+      "Sesuvium portulacastrum",
+      "open",
+      "Full sun · coastal sand or saline flats; frost-sensitive",
+      "Native to tropical and subtropical shores, including Florida and the Gulf Coast."
+    ],
+    "saltMarshMallow": [
+      "Saltmarsh mallow",
+      "Kosteletzkya virginica",
+      "wet",
+      "Full sun · wet coastal soil, including brackish margins",
+      "Native to Atlantic and Gulf coastal marshes in eastern North America."
+    ],
+    "tickseed": [
+      "Lanceleaf coreopsis",
+      "Coreopsis lanceolata",
+      "open",
+      "Full sun · dry to moderately moist, fast-draining soil",
+      "Native across parts of central and eastern North America, with introduced populations outside its local range."
+    ],
+    "purpleConeflower": [
+      "Purple coneflower",
+      "Echinacea purpurea",
+      "open",
+      "Full sun to light shade · drained soil with moderate moisture",
+      "Native chiefly to the central and southeastern U.S. It is commonly planted beyond its natural range."
+    ],
+    "beeblossom": [
+      "Lindheimer’s beeblossom",
+      "Oenothera lindheimeri",
+      "open",
+      "Full sun · drained sandy or loamy soil",
+      "Native to coastal Texas and Louisiana, with local populations in suitable prairie habitats."
+    ],
+    "plainsConeflower": [
+      "Prairie coneflower",
+      "Ratibida columnifera",
+      "open",
+      "Full sun · dry, drained prairie or roadside soils",
+      "Native to much of central and western North America, especially the Great Plains."
+    ],
+    "chocolateFlower": [
+      "Chocolate flower",
+      "Berlandiera lyrata",
+      "open",
+      "Full sun · dry, fast-draining gravelly soil",
+      "Native to the southwestern U.S. and northern Mexico, including parts of the southern Plains."
+    ],
+    "texasLantana": [
+      "Texas lantana",
+      "Lantana urticoides",
+      "open",
+      "Full sun · drained, dry rocky soil in warm climates",
+      "Native to Texas and nearby areas of Mexico and the Gulf Coast. Choose the straight species from local stock."
+    ],
+    "rockPenstemon": [
+      "Rock penstemon",
+      "Penstemon baccharifolius",
+      "open",
+      "Full sun to part shade · rocky, fast-draining soil",
+      "Native to limestone and rocky habitats in western and central Texas and northern Mexico."
+    ],
+    "firecracker": [
+      "Firecracker penstemon",
+      "Penstemon eatonii",
+      "open",
+      "Full sun · gritty, fast-draining soil",
+      "Native to the interior western U.S., especially the Great Basin and Southwest. Match elevation and local seed source."
+    ],
+    "showyGoldeneye": [
+      "Showy goldeneye",
+      "Heliomeris multiflora",
+      "open",
+      "Full sun · drained soils in foothill and mountain openings",
+      "Native to western North America from the Rockies into Mexico, often in upland openings."
+    ],
+    "silkyLupine": [
+      "Silky lupine",
+      "Lupinus sericeus",
+      "open",
+      "Full sun · dry gravelly or sandy mountain soil",
+      "Native to western North American grasslands and open woodland. Select locally sourced seed."
+    ],
+    "beeplant": [
+      "Rocky Mountain beeplant",
+      "Cleomella serrulata",
+      "open",
+      "Full sun · drained, disturbed or sandy ground",
+      "Native across much of central and western North America. Use locally sourced seed."
+    ],
+    "smoothPenstemon": [
+      "Smooth penstemon",
+      "Penstemon glaber",
+      "open",
+      "Full sun · rocky or gravelly open slopes",
+      "Native to central Rocky Mountain and adjacent western Plains habitats. Confirm the local variety."
+    ],
+    "rabbitbrush": [
+      "Rubber rabbitbrush",
+      "Ericameria nauseosa",
+      "open",
+      "Full sun · dry, sandy or gravelly soil",
+      "Native to western North American shrublands and dry open slopes, with multiple local varieties."
+    ],
+    "ocotillo": [
+      "Ocotillo",
+      "Fouquieria splendens",
+      "open",
+      "Full sun · hot, rocky desert soil with rapid drainage",
+      "Native to the Sonoran and Chihuahuan deserts and adjoining southwestern desert areas."
+    ],
+    "scarletBugler": [
+      "Scarlet bugler",
+      "Penstemon centranthifolius",
+      "open",
+      "Full sun · dry, drained sandy or rocky soil",
+      "Native to California and northern Baja California, principally dry hills and openings."
+    ],
+    "narrowleafMilkweed": [
+      "Narrowleaf milkweed",
+      "Asclepias fascicularis",
+      "open",
+      "Full sun · drained soil, dry to moderately moist",
+      "Native to western North America, including California and nearby interior regions. Match a local seed source."
+    ],
+    "blueEyedGrass": [
+      "Western blue-eyed grass",
+      "Sisyrinchium bellum",
+      "open",
+      "Sun to part shade · seasonally moist open ground",
+      "Native to California and adjacent western areas, including coastal grasslands and openings."
+    ],
+    "tidytips": [
+      "Coastal tidytips",
+      "Layia platyglossa",
+      "open",
+      "Full sun · open ground with winter moisture and summer drying",
+      "Native to California and nearby Baja California, including coastal and inland grasslands."
+    ],
+    "hummingbirdSage": [
+      "Hummingbird sage",
+      "Salvia spathacea",
+      "shade",
+      "Part shade · dry summer soil at coastal woodland edges",
+      "Native to California, especially coastal ranges and oak woodland openings."
+    ],
+    "westernRedbud": [
+      "Western redbud",
+      "Cercis occidentalis",
+      "shade",
+      "Sun to part shade · rocky, freely draining slopes",
+      "Native to California and adjoining southwestern areas. Use the local form for your site."
+    ],
+    "redwoodSorrel": [
+      "Redwood sorrel",
+      "Oxalis oregana",
+      "shade",
+      "Shade · cool, moist forest soil rich in organic matter",
+      "Native to coastal Pacific Northwest and northern California forests."
+    ],
+    "fringecup": [
+      "Fringecup",
+      "Tellima grandiflora",
+      "shade",
+      "Part shade · moist woodland soil with drainage",
+      "Native to Pacific western North America, including coastal Alaska south to California."
+    ],
+    "oceanSpray": [
+      "Oceanspray",
+      "Holodiscus discolor",
+      "shade",
+      "Sun to part shade · drained rocky slopes and woodland edges",
+      "Native to western North America, including coastal and inland mountain habitats."
+    ],
+    "pacificBleedingheart": [
+      "Pacific bleeding heart",
+      "Dicentra formosa",
+      "shade",
+      "Part shade · moist, humus-rich forest soil",
+      "Native from southwestern Canada through the Pacific Northwest into California."
+    ],
+    "sloughSedge": [
+      "Slough sedge",
+      "Carex obnupta",
+      "wet",
+      "Sun to part shade · saturated soils and freshwater banks",
+      "Native along Pacific western North America, where it grows in low wetlands."
+    ],
+    "redElderberry": [
+      "Red elderberry",
+      "Sambucus racemosa",
+      "shade",
+      "Part shade · moist, cool woodland edge soil",
+      "Native forms occur across much of northern and western North America, including Alaska. Use the local variety."
+    ],
+    "whiteSpruce": [
+      "White spruce",
+      "Picea glauca",
+      "shade",
+      "Sun to part shade · cool, moist soil with drainage",
+      "Native across boreal North America, including interior Alaska and the northern mainland."
+    ],
+    "dwarfFireweed": [
+      "Dwarf fireweed",
+      "Chamerion latifolium",
+      "open",
+      "Full sun · drained gravel near cold streams or on open uplands",
+      "Native to Alaska and northern North America, also occurring in some western mountains."
+    ],
+    "tamarack": [
+      "Tamarack",
+      "Larix laricina",
+      "wet",
+      "Full sun · cool, moist acidic soils and bog margins",
+      "Native across boreal North America, including interior Alaska and northern mainland wetlands."
+    ],
+    "pohinahina": [
+      "Pōhinahina",
+      "Vitex rotundifolia",
+      "open",
+      "Full sun · drained coastal sand with salt exposure",
+      "Indigenous to Hawaiʻi and other Pacific shores. This species can be invasive outside its indigenous range."
+    ],
+    "akia": [
+      "ʻĀkia",
+      "Wikstroemia uva-ursi",
+      "open",
+      "Sun to part shade · dry, drained coastal or lowland sites",
+      "Endemic to Hawaiʻi, with a local range that varies by island. Use appropriately sourced nursery stock."
+    ],
+    "aweoweo": [
+      "ʻĀweoweo",
+      "Chenopodium oahuense",
+      "open",
+      "Full sun · drained soil; choose stock from a matching elevation",
+      "Endemic to Hawaiʻi. Some populations occur in subalpine shrublands on Maui and Hawaiʻi Island."
+    ],
+    "hapuu": [
+      "Hāpuʻu pulu",
+      "Cibotium glaucum",
+      "shade",
+      "Part sun to shade · moist or wet forest soils",
+      "Endemic to Hawaiʻi. Use nursery-propagated plants from the appropriate island."
     ]
   },
   "photos": {
@@ -3855,6 +4783,412 @@
       "artist": "Indeterminate",
       "license": "Public domain",
       "licenseUrl": ""
+    },
+    "Liatris spicata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Liatris_spicata_003.JPG/960px-Liatris_spicata_003.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Liatris_spicata_003.JPG",
+      "artist": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Liatris pycnostachya": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Liatris_pycnostachya_var._pycnostachya.jpg/960px-Liatris_pycnostachya_var._pycnostachya.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Liatris_pycnostachya_var._pycnostachya.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Pycnanthemum virginianum": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Pycnanthemum-virginianum.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Pycnanthemum-virginianum.JPG",
+      "artist": "Hardyplants at English Wikipedia",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Lobelia siphilitica": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Lobelia_siphilitica.jpg/960px-Lobelia_siphilitica.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lobelia_siphilitica.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Solidago flexicaulis": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Solidago_flexicaulis01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Solidago_flexicaulis01.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Phlox divaricata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Phlox_divaricata_Ohio_2016.JPG/960px-Phlox_divaricata_Ohio_2016.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Phlox_divaricata_Ohio_2016.JPG",
+      "artist": "Wilson44691",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "Sanguinaria canadensis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Sanguinaria_canadensis_Arkansas.jpg/960px-Sanguinaria_canadensis_Arkansas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sanguinaria_canadensis_Arkansas.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Polemonium reptans": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Polemonium_reptans_2009.jpg/960px-Polemonium_reptans_2009.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Polemonium_reptans_2009.jpg",
+      "artist": "Ryan Kaldari",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Caulophyllum thalictroides": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Caulophyllum_thalictroides_Arkansas.jpg/960px-Caulophyllum_thalictroides_Arkansas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Caulophyllum_thalictroides_Arkansas.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Eutrochium maculatum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Flower_Buds.JPG/960px-Flower_Buds.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Flower_Buds.JPG",
+      "artist": "Cody Hough",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Symphyotrichum novae-angliae": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Symphyotrichum_novae-angliae3.jpg/960px-Symphyotrichum_novae-angliae3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Symphyotrichum_novae-angliae3.jpg",
+      "artist": "The Cosmonaut",
+      "license": "CC BY-SA 2.5 ca",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en"
+    },
+    "Symphyotrichum ericoides": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Symphyotrichum_ericoides_Green_Lake_County%2C_WI_flowerhead.jpg/960px-Symphyotrichum_ericoides_Green_Lake_County%2C_WI_flowerhead.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Symphyotrichum_ericoides_Green_Lake_County,_WI_flowerhead.jpg",
+      "artist": "davecz2",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Helenium autumnale": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Helenium_autumnale1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Helenium_autumnale1.jpg",
+      "artist": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Vernonia fasciculata": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Vernonia_fasciculata.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vernonia_fasciculata.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Sorghastrum nutans": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Sorghastrum_nutans_Tennessee.jpg/960px-Sorghastrum_nutans_Tennessee.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sorghastrum_nutans_Tennessee.jpg",
+      "artist": "Mason Brock (Masebrock)",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Eragrostis spectabilis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Eragrostis_spectabilis_2zz.jpg/960px-Eragrostis_spectabilis_2zz.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Eragrostis_spectabilis_2zz.jpg",
+      "artist": "Photo by David J. Stang",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Itea virginica": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Itea_virginica_flowers_001.JPG/960px-Itea_virginica_flowers_001.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Itea_virginica_flowers_001.JPG",
+      "artist": "User:SB_Johnny",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Chionanthus virginicus": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Chionanthus_virginicus_Arkansas.jpg/960px-Chionanthus_virginicus_Arkansas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chionanthus_virginicus_Arkansas.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Fothergilla gardenii": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Fothergilla_gardenii_Flowers_and_Foliage.jpg/960px-Fothergilla_gardenii_Flowers_and_Foliage.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fothergilla_gardenii_Flowers_and_Foliage.jpg",
+      "artist": "Lyonothamnus",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Chrysogonum virginianum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Chrysogonum_virginianum_-_Green_and_Gold.jpg/960px-Chrysogonum_virginianum_-_Green_and_Gold.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chrysogonum_virginianum_-_Green_and_Gold.jpg",
+      "artist": "Fritzflohrreynolds",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Tradescantia ohiensis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Tradescantia_ohiensis2.jpg/960px-Tradescantia_ohiensis2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tradescantia_ohiensis2.jpg",
+      "artist": "KENPEI",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Baptisia australis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Baptisia_australis.jpg/960px-Baptisia_australis.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Baptisia_australis.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Mertensia virginica": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Mertensia_virginica.bbg.jpg/960px-Mertensia_virginica.bbg.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mertensia_virginica.bbg.jpg",
+      "artist": "Khan \"Sadh\" N. Mostafa",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "Sesuvium portulacastrum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Starr_080602-5547_Sesuvium_portulacastrum.jpg/960px-Starr_080602-5547_Sesuvium_portulacastrum.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_080602-5547_Sesuvium_portulacastrum.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Kosteletzkya virginica": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Virginia_saltmarsh_mallow_%28Kosteletzkya_virginica%29_%287513257570%29.jpg/960px-Virginia_saltmarsh_mallow_%28Kosteletzkya_virginica%29_%287513257570%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Virginia_saltmarsh_mallow_(Kosteletzkya_virginica)_(7513257570).jpg",
+      "artist": "Bob Peterson from North Palm Beach, Florida, Planet Earth!",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "Coreopsis lanceolata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Coreopsis_lanceolata.jpg/960px-Coreopsis_lanceolata.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Coreopsis_lanceolata.jpg",
+      "artist": "Cette photo a été prise par André ALLIOT.",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "Echinacea purpurea": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Echinacea_purpurea_Grandview_Prairie.jpg/960px-Echinacea_purpurea_Grandview_Prairie.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Echinacea_purpurea_Grandview_Prairie.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Oenothera lindheimeri": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/%28MHNT%29_Oenothera_lindheimeri.jpg/960px-%28MHNT%29_Oenothera_lindheimeri.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:(MHNT)_Oenothera_lindheimeri.jpg",
+      "artist": "Didier Descouens",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Ratibida columnifera": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Ratibidacolumnifera.jpg/960px-Ratibidacolumnifera.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ratibidacolumnifera.jpg",
+      "artist": "Stickpen",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Berlandiera lyrata": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Berlandiera_lyrata.jpg/960px-Berlandiera_lyrata.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Berlandiera_lyrata.jpg",
+      "artist": "Melburnian",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Lantana urticoides": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Lantana_urticoides_%28or_horrida%29_%2811628267034%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lantana_urticoides_(or_horrida)_(11628267034).jpg",
+      "artist": "Dick Culbert from Gibsons, B.C., Canada",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "Penstemon baccharifolius": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Penstemon_baccharifolius.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Penstemon_baccharifolius.jpg",
+      "artist": "Clarence A. Rechenthin. Courtesy of USDA NRCS Texas State Office.",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Penstemon eatonii": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Penstemon_eatonii_3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Penstemon_eatonii_3.jpg",
+      "artist": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Heliomeris multiflora": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Showy_Goldeneye_%288950887020%29.jpg/960px-Showy_Goldeneye_%288950887020%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Showy_Goldeneye_(8950887020).jpg",
+      "artist": "BLM Nevada",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "Lupinus sericeus": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Lupinus_sericeus.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lupinus_sericeus.jpg",
+      "artist": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Cleomella serrulata": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Cleome_serrulata.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cleome_serrulata.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Penstemon glaber": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Penstemon_glaber_-_Brian_Dickerson_01.jpg/960px-Penstemon_glaber_-_Brian_Dickerson_01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Penstemon_glaber_-_Brian_Dickerson_01.jpg",
+      "artist": "Brian Dickerson\n\nhttps://www.inaturalist.org/people/aggie_wildlifer",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    "Ericameria nauseosa": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Chrysothamnus_nauseosus_7991.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chrysothamnus_nauseosus_7991.jpg",
+      "artist": "No machine-readable author provided. Wsiegmund assumed (based on copyright claims).",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "Fouquieria splendens": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ocotillo_GB.jpg/960px-Ocotillo_GB.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ocotillo_GB.jpg",
+      "artist": "Ricraider at English Wikipedia",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Penstemon centranthifolius": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Penstemoncentranthifolius1.jpg/960px-Penstemoncentranthifolius1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Penstemoncentranthifolius1.jpg",
+      "artist": "Stickpen",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Asclepias fascicularis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Asclepias_fascicularis.jpg/960px-Asclepias_fascicularis.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Asclepias_fascicularis.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Sisyrinchium bellum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Sisyrinchium_bellum_Ring_Mtn.jpg/960px-Sisyrinchium_bellum_Ring_Mtn.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sisyrinchium_bellum_Ring_Mtn.jpg",
+      "artist": "Eric Hunt",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Layia platyglossa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Layia_platyglossa_Tidy-Tips%21_%28hortulus%29_001.jpg/960px-Layia_platyglossa_Tidy-Tips%21_%28hortulus%29_001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Layia_platyglossa_Tidy-Tips!_(hortulus)_001.jpg",
+      "artist": "Seán A. O'Hara",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "Salvia spathacea": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Hummingbird_sage.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hummingbird_sage.jpg",
+      "artist": "Taken by Antandrus",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Cercis occidentalis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Cercis_occidentalis_branch.jpg/960px-Cercis_occidentalis_branch.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cercis_occidentalis_branch.jpg",
+      "artist": "Stan Shebs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Oxalis oregana": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Oxalis_oregana_1853.JPG/960px-Oxalis_oregana_1853.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Oxalis_oregana_1853.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Tellima grandiflora": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Tellima_grandiflora_11202.JPG/960px-Tellima_grandiflora_11202.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Tellima_grandiflora_11202.JPG",
+      "artist": "Walter Siegmund",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    },
+    "Holodiscus discolor": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Holodiscus_discolor_3007.JPG/960px-Holodiscus_discolor_3007.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Holodiscus_discolor_3007.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Dicentra formosa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dicentra_formosa_6897.JPG/960px-Dicentra_formosa_6897.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Dicentra_formosa_6897.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Carex obnupta": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Carexobnupta.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Carexobnupta.jpg",
+      "artist": "Gordon Leppig & Andrea J. Pickart",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Sambucus racemosa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Sambucus_racemosa_%281%29.jpg/960px-Sambucus_racemosa_%281%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sambucus_racemosa_(1).jpg",
+      "artist": "Algirdas at Lithuanian Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Picea glauca": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Picea_glauca_Fairbanks.jpg/960px-Picea_glauca_Fairbanks.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Picea_glauca_Fairbanks.jpg",
+      "artist": "dmcdevit",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    "Chamerion latifolium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Chamerion_latifolium_RHu_02.JPG/960px-Chamerion_latifolium_RHu_02.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Chamerion_latifolium_RHu_02.JPG",
+      "artist": "Meneerke bloem",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Larix laricina": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/2024-10-17_12_32_32_American_Larches-Tamaracks_changing_color_in_autumn_in_a_bog_near_Rensselaer_County_Route_42_%28Taborton_Road%29_in_Sand_Lake%2C_Rensselaer_County%2C_New_York.jpg/960px-thumbnail.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2024-10-17_12_32_32_American_Larches-Tamaracks_changing_color_in_autumn_in_a_bog_near_Rensselaer_County_Route_42_(Taborton_Road)_in_Sand_Lake,_Rensselaer_County,_New_York.jpg",
+      "artist": "Famartin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Vitex rotundifolia": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Vitex_trifolia_subsp._litoralis_03.jpg/960px-Vitex_trifolia_subsp._litoralis_03.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vitex_trifolia_subsp._litoralis_03.jpg",
+      "artist": "Dalgial",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Wikstroemia uva-ursi": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Starr_070208-4353_Wikstroemia_uva-ursi.jpg/960px-Starr_070208-4353_Wikstroemia_uva-ursi.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_070208-4353_Wikstroemia_uva-ursi.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Chenopodium oahuense": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Starr_060228-6348_Chenopodium_oahuense.jpg/960px-Starr_060228-6348_Chenopodium_oahuense.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_060228-6348_Chenopodium_oahuense.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Cibotium glaucum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Starr_040220-0231_Cibotium_glaucum.jpg/960px-Starr_040220-0231_Cibotium_glaucum.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_040220-0231_Cibotium_glaucum.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
     }
   },
   "plantSources": {
@@ -4097,6 +5431,238 @@
     "ulei": {
       "url": "https://nativeplants.hawaii.edu/plants/osteomeles-anthyllidifolia/",
       "label": "Native Hawaiʻi Plants profile"
+    },
+    "denseBlazingStar": {
+      "label": "Prairie Moon Nursery plant profile",
+      "url": "https://www.prairiemoon.com/liatris-spicata-dense-blazing-star"
+    },
+    "prairieBlazingStar": {
+      "label": "Prairie Moon Nursery plant profile",
+      "url": "https://www.prairiemoon.com/liatris-pycnostachya-prairie-blazing-star"
+    },
+    "mountainMint": {
+      "label": "Prairie Moon Nursery plant profile",
+      "url": "https://www.prairiemoon.com/pycnanthemum-virginianum-mountain-mint"
+    },
+    "blueLobelia": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/lobelia-siphilitica/"
+    },
+    "zigzagGoldenrod": {
+      "label": "Prairie Moon Nursery plant profile",
+      "url": "https://www.prairiemoon.com/solidago-flexicaulis-zig-zag-goldenrod"
+    },
+    "woodPhlox": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/phlox-divaricata/"
+    },
+    "bloodroot": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/sanguinaria-canadensis/"
+    },
+    "jacobsLadder": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/polemonium-reptans/"
+    },
+    "blueCohosh": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/caulophyllum-thalictroides/"
+    },
+    "joePye": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/eutrochium-maculatum/"
+    },
+    "newEnglandAster": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/symphyotrichum-novae-angliae/"
+    },
+    "heathAster": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/symphyotrichum-ericoides/"
+    },
+    "sneezeweed": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/helenium-autumnale/"
+    },
+    "ironweed": {
+      "label": "Prairie Moon Nursery plant profile",
+      "url": "https://www.prairiemoon.com/vernonia-fasciculata-common-ironweed"
+    },
+    "indianGrass": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/sorghastrum-nutans/"
+    },
+    "purpleLoveGrass": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/eragrostis-spectabilis/"
+    },
+    "sweetspire": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/itea-virginica/"
+    },
+    "fringeTree": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/chionanthus-virginicus/"
+    },
+    "dwarfFothergilla": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/fothergilla-gardenii/"
+    },
+    "greenAndGold": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/chrysogonum-virginianum/"
+    },
+    "spiderwort": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/tradescantia-ohiensis/"
+    },
+    "blueWildIndigo": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/baptisia-australis/"
+    },
+    "virginiaBluebells": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/mertensia-virginica/"
+    },
+    "seaPurslane": {
+      "label": "University of Florida Extension plant profile",
+      "url": "https://hort.ifas.ufl.edu/database/documents/pdf/shrub_fact_sheets/sespora.pdf"
+    },
+    "saltMarshMallow": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/kosteletzkya-virginica/"
+    },
+    "tickseed": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/coreopsis-lanceolata/"
+    },
+    "purpleConeflower": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/"
+    },
+    "beeblossom": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/oenothera-lindheimeri/"
+    },
+    "plainsConeflower": {
+      "label": "NC State Extension plant profile",
+      "url": "https://plants.ces.ncsu.edu/plants/ratibida-columnifera/"
+    },
+    "chocolateFlower": {
+      "label": "Lady Bird Johnson Wildflower Center plant profile",
+      "url": "https://www.wildflower.org/plants/result.php?id_plant=BELY"
+    },
+    "texasLantana": {
+      "label": "Lady Bird Johnson Wildflower Center regional plant list",
+      "url": "https://www.wildflower.org/collections/printable.php?collection=TX_central"
+    },
+    "rockPenstemon": {
+      "label": "Lady Bird Johnson Wildflower Center plant profile",
+      "url": "https://www.wildflower.org/plants/result.php?id_plant=PEBA"
+    },
+    "firecracker": {
+      "label": "Western Native Seed plant profile",
+      "url": "https://westernnativeseed.com/product/penstemon-eatonii/"
+    },
+    "showyGoldeneye": {
+      "label": "Western Native Seed plant list",
+      "url": "https://westernnativeseed.com/product/montane-wildflower-mix/"
+    },
+    "silkyLupine": {
+      "label": "Western Native Seed plant list",
+      "url": "https://westernnativeseed.com/product/montane-wildflower-mix/"
+    },
+    "beeplant": {
+      "label": "Western Native Seed plant list",
+      "url": "https://westernnativeseed.com/product/montane-wildflower-mix/"
+    },
+    "smoothPenstemon": {
+      "label": "Western Native Seed plant profile",
+      "url": "https://westernnativeseed.com/product/penstemon-glaber/"
+    },
+    "rabbitbrush": {
+      "label": "U.S. Forest Service species review",
+      "url": "https://research.fs.usda.gov/feis/species-reviews/erinau"
+    },
+    "ocotillo": {
+      "label": "U.S. Forest Service species review",
+      "url": "https://research.fs.usda.gov/feis/species-reviews/fouspl"
+    },
+    "scarletBugler": {
+      "label": "Las Pilitas Nursery plant list",
+      "url": "https://www.laspilitas.com/plants/plant_lists/California_native_plant_p.htm"
+    },
+    "narrowleafMilkweed": {
+      "label": "Las Pilitas Nursery local plant guide",
+      "url": "https://www.laspilitas.com/nature-of-california/native-plants-paso-robles-atascadero.html"
+    },
+    "blueEyedGrass": {
+      "label": "Calflora native plant list",
+      "url": "https://www.calflora.org/app/ipl?vrid=ce110"
+    },
+    "tidytips": {
+      "label": "Las Pilitas Nursery plant list",
+      "url": "https://www.laspilitas.com/plants/plant_lists/common_name_t.htm"
+    },
+    "hummingbirdSage": {
+      "label": "Las Pilitas Nursery local plant guide",
+      "url": "https://www.laspilitas.com/nature-of-california/native-plants-los-angeles.html"
+    },
+    "westernRedbud": {
+      "label": "Las Pilitas Nursery local plant guide",
+      "url": "https://www.laspilitas.com/classes/valley-plants.htm"
+    },
+    "redwoodSorrel": {
+      "label": "Bosky Dell Natives plant list",
+      "url": "https://www.boskydellnatives.com/plantlist.htm"
+    },
+    "fringecup": {
+      "label": "Bosky Dell Natives plant list",
+      "url": "https://www.boskydellnatives.com/plantlist.htm"
+    },
+    "oceanSpray": {
+      "label": "Bosky Dell Natives plant list",
+      "url": "https://www.boskydellnatives.com/plantlist.htm"
+    },
+    "pacificBleedingheart": {
+      "label": "Bosky Dell Natives plant list",
+      "url": "https://www.boskydellnatives.com/plantlist.htm"
+    },
+    "sloughSedge": {
+      "label": "Bosky Dell Natives plant list",
+      "url": "https://www.boskydellnatives.com/plantlist.htm"
+    },
+    "redElderberry": {
+      "label": "Bosky Dell Natives plant list",
+      "url": "https://www.boskydellnatives.com/plantlist.htm"
+    },
+    "whiteSpruce": {
+      "label": "U.S. Forest Service species review",
+      "url": "https://research.fs.usda.gov/feis/species-reviews/picgla"
+    },
+    "dwarfFireweed": {
+      "label": "U.S. Forest Service Alaska wildflower guide",
+      "url": "https://www.fs.usda.gov/wildflowers/regions/alaska/documents/WildflowersNFsinAK.pdf"
+    },
+    "tamarack": {
+      "label": "U.S. Forest Service species review",
+      "url": "https://research.fs.usda.gov/feis/species-reviews/larlar"
+    },
+    "pohinahina": {
+      "label": "Native Hawaiʻi Plants profile",
+      "url": "https://nativeplants.hawaii.edu/plants/vitex-rotundifolia/"
+    },
+    "akia": {
+      "label": "Native Hawaiʻi Plants profile",
+      "url": "https://nativeplants.hawaii.edu/plants/wikstroemia-uva-ursi/"
+    },
+    "aweoweo": {
+      "label": "Native Plants of Hawaiʻi plant profile",
+      "url": "https://www.nativeplantsofhawaii.org/c/chenopodium-oahuense"
+    },
+    "hapuu": {
+      "label": "Native Hawaiʻi Plants profile",
+      "url": "https://nativeplants.hawaii.edu/plants/cibotium-glaucum/"
     }
   },
   "stateRegions": {
@@ -4680,6 +6246,64 @@
     "dwarfBirch": "Low branches carry small, rounded leaves and slender catkins. Wind pollinates the flowers, and the shrub often forms patches in tundra.",
     "alaskaYarrow": "Flat white flower clusters rise above finely divided aromatic foliage. Small bees, flies and wasps visit the shallow flowers.",
     "naio": "A shrub or tree with narrow leaves and small white flowers. Its pale fleshy fruits follow the subtle blooms.",
-    "ulei": "This spreading woody shrub has glossy divided leaves and clusters of white flowers. Small insects can visit the open blooms before the pale fruit forms."
+    "ulei": "This spreading woody shrub has glossy divided leaves and clusters of white flowers. Small insects can visit the open blooms before the pale fruit forms.",
+    "denseBlazingStar": "Tall purple spikes open from the top down above narrow leaves. Butterflies and bees visit the clustered florets.",
+    "prairieBlazingStar": "An upright wand of shaggy purple flowers rises through narrow foliage. Bees and butterflies feed on the dense bloom.",
+    "mountainMint": "Fine mint-scented leaves frame clusters of tiny white flowers. Bees, flower flies and wasps work the open blooms.",
+    "blueLobelia": "Blue two-lipped flowers rise on upright stems. Bumblebees visit the flowers, and the plant can reseed in moist open ground.",
+    "zigzagGoldenrod": "Broad toothed leaves alternate along angular stems with yellow flower clusters tucked into the leaf axils. The autumn blooms attract bees and flies.",
+    "woodPhlox": "Loose clusters of pale blue or lavender flowers rise above low spreading stems. Long-tongued insects, including butterflies, can reach the flowers’ nectar.",
+    "bloodroot": "A round lobed leaf unfurls beside a white flower with a golden center. Small spring bees collect pollen from the short-lived flowers.",
+    "jacobsLadder": "Pale-blue bells sit above neat rows of leaflets. Native bees visit the spring flowers on this compact woodland perennial.",
+    "blueCohosh": "Divided leaves emerge blue-green above inconspicuous yellow-green flowers and later blue seeds. Small bees and flies may visit the flowers.",
+    "joePye": "Tall stems with whorled leaves carry broad clusters of dusky pink flowers. Bees and butterflies visit the late summer bloom.",
+    "newEnglandAster": "Tall stems carry purple to pink daisies with orange-yellow centers. Fall flowers feed bees and butterflies.",
+    "heathAster": "Branching stems hold masses of small white daisies above narrow leaves. Bees and flies visit the autumn flowers.",
+    "sneezeweed": "Winged stems hold yellow flowers with raised, dome-shaped centers. The late blooms attract bees and other small insects.",
+    "ironweed": "Clusters of deep purple flowers top sturdy, narrow-leaved stems. Butterflies and native bees visit the late summer blooms.",
+    "indianGrass": "Tall blue-green leaves turn warm gold beneath plumed seed heads. The grass is wind-pollinated and provides winter cover.",
+    "purpleLoveGrass": "Low bunches of leaves send up airy pink-purple clouds of seed heads. It is wind-pollinated and gives late season plantings a soft outline.",
+    "sweetspire": "Arching white flower tassels hang from a suckering shrub that often turns red in autumn. Bees and butterflies visit the small flowers.",
+    "fringeTree": "White flowers with narrow petals give this small tree a fringed appearance. The spring bloom attracts insects, and female trees can bear dark fruit.",
+    "dwarfFothergilla": "This compact shrub bears white bottlebrush flowers before its leaves expand. Bees use the spring bloom, and the leaves often color well in fall.",
+    "greenAndGold": "A low mat of hairy leaves carries small yellow daisies. Bees and other insects visit the open flowers.",
+    "spiderwort": "Blue three-petaled flowers open above long, arched leaves, often closing by afternoon. Bees collect pollen from the bright anthers.",
+    "blueWildIndigo": "A broad clump sends up blue pea-flower spikes that develop dark inflated pods. Bumblebees can open the flowers to reach the nectar.",
+    "virginiaBluebells": "Pink buds open into blue bells above soft green leaves. Spring bees visit, and the foliage dies back by summer.",
+    "seaPurslane": "Fleshy stems creep along saline ground and carry small pink flowers. The open flowers can be visited by insects.",
+    "saltMarshMallow": "An upright perennial bears pink hibiscus-like flowers that open one by one. Bees visit the exposed pollen column.",
+    "tickseed": "Golden flowers with toothed ray tips sit above a clump of narrow leaves. Bees visit the flowers, and seedlings can fill nearby gaps.",
+    "purpleConeflower": "Drooping pink-purple rays frame a raised coppery cone. Bees and butterflies visit, and the dry heads provide seed for birds.",
+    "beeblossom": "White to pink flowers open along tall, airy stems. The long flowering season offers forage to visiting insects.",
+    "plainsConeflower": "Yellow or reddish rays hang beneath a tall central cone. Bees visit the raised disks on this upright perennial.",
+    "chocolateFlower": "Yellow daisies with darker centers open over a low leafy clump. The chocolate-scented blooms draw bees and other insects.",
+    "texasLantana": "An arching shrub carries clusters that shift from yellow to orange and red. Butterflies visit the tubular blooms.",
+    "rockPenstemon": "Red tubular flowers rise over a low woody base with narrow leaves. The flower tubes offer nectar to hummingbirds.",
+    "firecracker": "Spikes of scarlet tubes rise from tidy basal leaves. Hummingbirds can reach the nectar in the narrow flowers.",
+    "showyGoldeneye": "Many small yellow daisies sit on wiry upright stems. Bees and flies work the open disks in late summer.",
+    "silkyLupine": "Silvery hairs cover the palm-shaped leaves below blue-purple pea flowers. Bumblebees and other large bees visit the spikes.",
+    "beeplant": "An annual with upright stems, pink flowers and long narrow pods. Bees visit the loose flower clusters.",
+    "smoothPenstemon": "Blue to purple tubular flowers stand on leafy stems above a basal clump. Bees visit the open-throated flowers.",
+    "rabbitbrush": "Gray-green stems hold masses of small yellow fall flowers. Bees, butterflies and flies visit when many other plants have finished blooming.",
+    "ocotillo": "Spiny canes leaf out after rain and carry brilliant red flowers at their tips. Hummingbirds visit the bloom.",
+    "scarletBugler": "Narrow red tubes rise on straight stems above waxy blue-green leaves. Hummingbirds visit the scarlet flowers.",
+    "narrowleafMilkweed": "Narrow leaves line upright stems with pale pink to white flower clusters. Insects visit the flowers and monarch caterpillars feed on the foliage.",
+    "blueEyedGrass": "Small blue-violet stars peek above fans of flat, grasslike leaves. Small bees visit the flowers.",
+    "tidytips": "This annual has yellow daisies trimmed with crisp white tips. Bees and flies visit the open centers.",
+    "hummingbirdSage": "Aromatic leaves spread into patches beneath tall spikes of magenta flowers. Hummingbirds visit the long tubes.",
+    "westernRedbud": "This multi-stemmed shrub or small tree bears magenta pea flowers before its rounded leaves open. Early bees visit the flowers.",
+    "redwoodSorrel": "Cloverlike leaves form a soft carpet with white to pink-veined flowers. Small insects visit the flowers, and leaves fold under bright light.",
+    "fringecup": "Tall spikes of tiny fringed cups rise from a mound of rounded leaves. The flowers turn pinkish with age and can be visited by small insects.",
+    "oceanSpray": "Creamy flower sprays hang from arching branches above scalloped leaves. Small bees and flies visit the open flowers.",
+    "pacificBleedingheart": "Pink heart-shaped flowers hang above finely divided foliage. Bumblebees visit the spring flowers, and the plant can spread by rhizomes.",
+    "sloughSedge": "Dark seed spikes rise above coarse evergreen blades in spreading stands. The sedge is wind-pollinated and adds cover at wet edges.",
+    "redElderberry": "Creamy flower clusters open above divided leaves, followed by red fruit. Small bees and flies visit the flowers, and birds use the berries.",
+    "whiteSpruce": "Short blue-green needles cover this conical evergreen, which carries slender hanging cones. Wind moves pollen between trees.",
+    "dwarfFireweed": "Low leafy stems bear large magenta flowers on gravel bars and disturbed rocky ground. Bees can visit the flowers, and silky seeds travel on the wind.",
+    "tamarack": "Soft needles grow in short clusters and turn gold before dropping in autumn. Its small cones are wind-pollinated.",
+    "pohinahina": "This coastal shrub spreads low with gray-green leaves and spikes of lavender-blue flowers. Insects visit the flowers.",
+    "akia": "A small shrub spreads into a mound with gray-green leaves, tiny yellow flowers and orange-red fruit.",
+    "aweoweo": "A branching shrub with pale green leaves and tiny green flower clusters. Wind carries its pollen.",
+    "hapuu": "Long, arching fronds rise from a trunk clothed in soft golden fibers. This tree fern reproduces by spores and creates shade and cover."
   }
 }
