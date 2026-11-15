@@ -925,6 +925,18 @@
       const picker=document.getElementById('plant-ecoregion');
       picker.addEventListener('change',()=>renderPlantingProfile(picker.value));
     }
+    const shuffledPlantCards=new Map();
+    function plantOrderForRegion(key){
+      if(!shuffledPlantCards.has(key)){
+        const ids=[...guideData.regions[key].plants];
+        for(let i=ids.length-1;i>0;i--){
+          const j=Math.floor(Math.random()*(i+1));
+          [ids[i],ids[j]]=[ids[j],ids[i]];
+        }
+        shuffledPlantCards.set(key,ids);
+      }
+      return shuffledPlantCards.get(key);
+    }
     function renderPlantingProfile(rawKey,habitat='all'){
       const key=ecoregionKey(rawKey);
       const root=document.getElementById('planting-profile');
@@ -940,7 +952,7 @@
       const region=guideData.regions[key];
       const isHawaii=key.startsWith('OC');
       const filters=Object.keys(habitatLabels).filter(id=>id==='all'||region.plants.some(plant=>guideData.species[plant][2]===id));
-      const shown=region.plants.filter(id=>habitat==='all'||guideData.species[id][2]===habitat);
+      const shown=plantOrderForRegion(key).filter(id=>habitat==='all'||guideData.species[id][2]===habitat);
       const buttons=filters.map(id=>'<button type="button" data-habitat="'+id+'" aria-pressed="'+(habitat===id)+'">'+habitatLabels[id]+'</button>');
       root.innerHTML=`
         <div class="profile-heading"><div>
