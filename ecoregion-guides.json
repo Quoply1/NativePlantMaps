@@ -7,7 +7,8 @@
         "arcticWillow",
         "cottonGrass",
         "waterSedge",
-        "cloudberry"
+        "cloudberry",
+        "dwarfBirch"
       ]
     },
     "2.2.2": {
@@ -19,7 +20,8 @@
         "cottonGrass",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "dwarfBirch"
       ]
     },
     "2.2.3": {
@@ -30,7 +32,8 @@
         "waterSedge",
         "arcticWillow",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "dwarfBirch"
       ]
     },
     "2.2.4": {
@@ -42,7 +45,8 @@
         "cottonGrass",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "dwarfBirch"
       ]
     },
     "2.2.5": {
@@ -54,7 +58,8 @@
         "waterSedge",
         "alaskaLupine",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "dwarfBirch"
       ]
     },
     "2.2.6": {
@@ -65,7 +70,8 @@
         "beachRye",
         "lyngbye",
         "alaskaLupine",
-        "cloudberry"
+        "cloudberry",
+        "alaskaYarrow"
       ]
     },
     "2.3.1": {
@@ -77,7 +83,8 @@
         "waterSedge",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "dwarfBirch"
       ]
     },
     "3.1.1": {
@@ -90,7 +97,10 @@
         "alaskaLupine",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "redOsier",
+        "blackSpruce",
+        "dwarfBirch"
       ]
     },
     "3.1.2": {
@@ -103,7 +113,9 @@
         "alaskaLupine",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "redOsier",
+        "blackSpruce"
       ]
     },
     "3.1.3": {
@@ -116,7 +128,10 @@
         "alaskaLupine",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "redOsier",
+        "blackSpruce",
+        "dwarfBirch"
       ]
     },
     "3.2.1": {
@@ -128,7 +143,10 @@
         "arcticWillow",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "redOsier",
+        "blackSpruce",
+        "dwarfBirch"
       ]
     },
     "5.2.1": {
@@ -142,7 +160,12 @@
         "cardinalFlower",
         "blueVervain",
         "prairieSmoke",
-        "labradorTea"
+        "labradorTea",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders",
+        "redOsier",
+        "blackSpruce"
       ]
     },
     "5.2.2": {
@@ -154,7 +177,9 @@
         "blueFlag",
         "boneset",
         "blueVervain",
-        "labradorTea"
+        "labradorTea",
+        "redOsier",
+        "blackSpruce"
       ]
     },
     "5.3.1": {
@@ -168,7 +193,11 @@
         "whiteAster",
         "blueAster",
         "cardinalFlower",
-        "labradorTea"
+        "labradorTea",
+        "blackEyedSusan",
+        "wildGinger",
+        "redOsier",
+        "blackSpruce"
       ]
     },
     "5.3.3": {
@@ -182,7 +211,10 @@
         "whiteAster",
         "blueAster",
         "cardinalFlower",
-        "beardtongue"
+        "beardtongue",
+        "blackEyedSusan",
+        "wildGinger",
+        "redOsier"
       ]
     },
     "6.1.1": {
@@ -195,7 +227,10 @@
         "alaskaLupine",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "redOsier",
+        "blackSpruce",
+        "dwarfBirch"
       ]
     },
     "6.1.2": {
@@ -208,7 +243,9 @@
         "alaskaLupine",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "redOsier",
+        "dwarfBirch"
       ]
     },
     "6.1.3": {
@@ -221,7 +258,10 @@
         "alaskaLupine",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "redOsier",
+        "blackSpruce",
+        "dwarfBirch"
       ]
     },
     "6.1.4": {
@@ -234,7 +274,9 @@
         "alaskaLupine",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "redOsier",
+        "dwarfBirch"
       ]
     },
     "6.2.3": {
@@ -248,7 +290,10 @@
         "blanketflower",
         "blueFlax",
         "junegrass",
-        "bearberry"
+        "bearberry",
+        "mockOrange",
+        "westernColumbine",
+        "redOsier"
       ]
     },
     "6.2.4": {
@@ -262,7 +307,10 @@
         "blanketflower",
         "blueFlax",
         "junegrass",
-        "bearberry"
+        "bearberry",
+        "mockOrange",
+        "westernColumbine",
+        "redOsier"
       ]
     },
     "6.2.5": {
@@ -277,7 +325,10 @@
         "vineMaple",
         "swordFern",
         "blanketflower",
-        "bearberry"
+        "bearberry",
+        "mockOrange",
+        "westernColumbine",
+        "redOsier"
       ]
     },
     "6.2.7": {
@@ -290,7 +341,11 @@
         "currant",
         "vineMaple",
         "swordFern",
-        "bearberry"
+        "bearberry",
+        "mockOrange",
+        "westernColumbine",
+        "insideOutFlower",
+        "redOsier"
       ]
     },
     "6.2.8": {
@@ -303,7 +358,10 @@
         "blanketflower",
         "blueFlax",
         "junegrass",
-        "bearberry"
+        "bearberry",
+        "mockOrange",
+        "westernColumbine",
+        "redOsier"
       ]
     },
     "6.2.9": {
@@ -317,7 +375,10 @@
         "prairieSmoke",
         "blanketflower",
         "blueFlax",
-        "junegrass"
+        "junegrass",
+        "mockOrange",
+        "westernColumbine",
+        "redOsier"
       ]
     },
     "6.2.10": {
@@ -331,7 +392,10 @@
         "blanketflower",
         "blueFlax",
         "junegrass",
-        "bearberry"
+        "bearberry",
+        "mockOrange",
+        "westernColumbine",
+        "redOsier"
       ]
     },
     "6.2.11": {
@@ -345,7 +409,11 @@
         "vineMaple",
         "swordFern",
         "calPoppy",
-        "toyon"
+        "toyon",
+        "mockOrange",
+        "westernColumbine",
+        "insideOutFlower",
+        "redOsier"
       ]
     },
     "6.2.12": {
@@ -360,7 +428,10 @@
         "calPoppy",
         "toyon",
         "deergrass",
-        "bearberry"
+        "bearberry",
+        "mockOrange",
+        "westernColumbine",
+        "redOsier"
       ]
     },
     "6.2.13": {
@@ -375,7 +446,8 @@
         "blueFlax",
         "rockyPenstemon",
         "junegrass",
-        "bearberry"
+        "bearberry",
+        "redOsier"
       ]
     },
     "6.2.14": {
@@ -390,7 +462,8 @@
         "blueFlax",
         "rockyPenstemon",
         "junegrass",
-        "bearberry"
+        "bearberry",
+        "redOsier"
       ]
     },
     "6.2.15": {
@@ -403,7 +476,10 @@
         "blanketflower",
         "blueFlax",
         "junegrass",
-        "bearberry"
+        "bearberry",
+        "mockOrange",
+        "westernColumbine",
+        "redOsier"
       ]
     },
     "7.1.1": {
@@ -416,7 +492,9 @@
         "alaskaLupine",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "redOsier",
+        "dwarfBirch"
       ]
     },
     "7.1.2": {
@@ -429,7 +507,9 @@
         "alaskaLupine",
         "nootkaRose",
         "bearberry",
-        "cloudberry"
+        "cloudberry",
+        "dwarfBirch",
+        "alaskaYarrow"
       ]
     },
     "7.1.3": {
@@ -445,7 +525,10 @@
         "sitkaSpruce",
         "bearberry",
         "cloudberry",
-        "labradorTea"
+        "labradorTea",
+        "redOsier",
+        "blackSpruce",
+        "dwarfBirch"
       ]
     },
     "7.1.4": {
@@ -460,7 +543,10 @@
         "alaskaLupine",
         "nootkaRose",
         "sitkaSpruce",
-        "bearberry"
+        "bearberry",
+        "westernColumbine",
+        "redOsier",
+        "dwarfBirch"
       ]
     },
     "7.1.5": {
@@ -474,7 +560,10 @@
         "salmonberry",
         "alaskaLupine",
         "nootkaRose",
-        "sitkaSpruce"
+        "sitkaSpruce",
+        "westernColumbine",
+        "redOsier",
+        "alaskaYarrow"
       ]
     },
     "7.1.7": {
@@ -488,7 +577,11 @@
         "vineMaple",
         "swordFern",
         "salmonberry",
-        "nootkaRose"
+        "nootkaRose",
+        "mockOrange",
+        "westernColumbine",
+        "insideOutFlower",
+        "redOsier"
       ]
     },
     "7.1.8": {
@@ -503,7 +596,11 @@
         "swordFern",
         "salmonberry",
         "nootkaRose",
-        "sitkaSpruce"
+        "sitkaSpruce",
+        "mockOrange",
+        "westernColumbine",
+        "insideOutFlower",
+        "redOsier"
       ]
     },
     "7.1.9": {
@@ -518,7 +615,11 @@
         "swordFern",
         "salmonberry",
         "calPoppy",
-        "nootkaRose"
+        "nootkaRose",
+        "mockOrange",
+        "westernColumbine",
+        "insideOutFlower",
+        "redOsier"
       ]
     },
     "8.1.1": {
@@ -531,7 +632,11 @@
         "foamflower",
         "blueAster",
         "cardinalFlower",
-        "beardtongue"
+        "beardtongue",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders",
+        "redOsier"
       ]
     },
     "8.1.3": {
@@ -545,7 +650,9 @@
         "whiteAster",
         "blueAster",
         "cardinalFlower",
-        "beardtongue"
+        "beardtongue",
+        "blackEyedSusan",
+        "wildGinger"
       ]
     },
     "8.1.4": {
@@ -560,7 +667,12 @@
         "beardtongue",
         "blueVervain",
         "prairieSmoke",
-        "roughBlazingStar"
+        "roughBlazingStar",
+        "dropseed",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders",
+        "redOsier"
       ]
     },
     "8.1.5": {
@@ -575,7 +687,13 @@
         "beardtongue",
         "blueVervain",
         "prairieSmoke",
-        "roughBlazingStar"
+        "roughBlazingStar",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders",
+        "redOsier"
       ]
     },
     "8.1.6": {
@@ -589,7 +707,12 @@
         "cardinalFlower",
         "beardtongue",
         "blueVervain",
-        "roughBlazingStar"
+        "roughBlazingStar",
+        "dropseed",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders",
+        "redOsier"
       ]
     },
     "8.1.7": {
@@ -602,7 +725,9 @@
         "foamflower",
         "whiteAster",
         "blueAster",
-        "cardinalFlower"
+        "cardinalFlower",
+        "blackEyedSusan",
+        "seasideGoldenrod"
       ]
     },
     "8.1.8": {
@@ -615,7 +740,11 @@
         "blueAster",
         "boneset",
         "blueVervain",
-        "labradorTea"
+        "labradorTea",
+        "blackEyedSusan",
+        "wildGinger",
+        "redOsier",
+        "blackSpruce"
       ]
     },
     "8.1.10": {
@@ -628,7 +757,9 @@
         "foamflower",
         "blueAster",
         "cardinalFlower",
-        "beardtongue"
+        "beardtongue",
+        "blackEyedSusan",
+        "wildGinger"
       ]
     },
     "8.2.1": {
@@ -643,7 +774,13 @@
         "beardtongue",
         "blueVervain",
         "prairieSmoke",
-        "roughBlazingStar"
+        "roughBlazingStar",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders",
+        "redOsier"
       ]
     },
     "8.2.2": {
@@ -657,7 +794,11 @@
         "cardinalFlower",
         "beardtongue",
         "boneset",
-        "blueVervain"
+        "blueVervain",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders",
+        "redOsier"
       ]
     },
     "8.2.3": {
@@ -672,7 +813,11 @@
         "beardtongue",
         "blueVervain",
         "roughBlazingStar",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "goldenAlexanders"
       ]
     },
     "8.2.4": {
@@ -687,7 +832,11 @@
         "beardtongue",
         "blueVervain",
         "roughBlazingStar",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "dropseed",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders"
       ]
     },
     "8.3.1": {
@@ -702,7 +851,10 @@
         "whiteAster",
         "blueAster",
         "cardinalFlower",
-        "beardtongue"
+        "beardtongue",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders"
       ]
     },
     "8.3.2": {
@@ -718,7 +870,11 @@
         "seaOats",
         "blueVervain",
         "roughBlazingStar",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "goldenAlexanders"
       ]
     },
     "8.3.3": {
@@ -734,7 +890,12 @@
         "crestedIris",
         "seaOats",
         "roughBlazingStar",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders"
       ]
     },
     "8.3.4": {
@@ -749,7 +910,8 @@
         "beardtongue",
         "crestedIris",
         "seaOats",
-        "boneset"
+        "boneset",
+        "blackEyedSusan"
       ]
     },
     "8.3.5": {
@@ -762,7 +924,10 @@
         "cardinalFlower",
         "seaOats",
         "boneset",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "blackEyedSusan",
+        "waxMyrtle",
+        "dwarfPalmetto"
       ]
     },
     "8.3.6": {
@@ -776,7 +941,10 @@
         "crestedIris",
         "seaOats",
         "boneset",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "blackEyedSusan",
+        "waxMyrtle",
+        "dwarfPalmetto"
       ]
     },
     "8.3.7": {
@@ -789,7 +957,10 @@
         "cardinalFlower",
         "seaOats",
         "boneset",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "blackEyedSusan",
+        "waxMyrtle",
+        "dwarfPalmetto"
       ]
     },
     "8.3.8": {
@@ -801,7 +972,9 @@
         "buttonbush",
         "cardinalFlower",
         "seaOats",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "blackEyedSusan",
+        "dwarfPalmetto"
       ]
     },
     "8.4.1": {
@@ -818,7 +991,10 @@
         "cardinalFlower",
         "beardtongue",
         "crestedIris",
-        "seaOats"
+        "seaOats",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders"
       ]
     },
     "8.4.2": {
@@ -833,7 +1009,9 @@
         "blueAster",
         "cardinalFlower",
         "beardtongue",
-        "crestedIris"
+        "crestedIris",
+        "blackEyedSusan",
+        "wildGinger"
       ]
     },
     "8.4.3": {
@@ -848,7 +1026,10 @@
         "blueAster",
         "cardinalFlower",
         "beardtongue",
-        "crestedIris"
+        "crestedIris",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders"
       ]
     },
     "8.4.4": {
@@ -862,7 +1043,9 @@
         "whiteAster",
         "cardinalFlower",
         "crestedIris",
-        "seaOats"
+        "seaOats",
+        "blackEyedSusan",
+        "wildGinger"
       ]
     },
     "8.4.5": {
@@ -878,7 +1061,12 @@
         "crestedIris",
         "seaOats",
         "roughBlazingStar",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "wildGinger",
+        "goldenAlexanders"
       ]
     },
     "8.4.6": {
@@ -891,7 +1079,9 @@
         "blueAster",
         "cardinalFlower",
         "crestedIris",
-        "seaOats"
+        "seaOats",
+        "blackEyedSusan",
+        "wildGinger"
       ]
     },
     "8.4.7": {
@@ -903,7 +1093,8 @@
         "buttonbush",
         "cardinalFlower",
         "seaOats",
-        "blueVervain"
+        "blueVervain",
+        "blackEyedSusan"
       ]
     },
     "8.4.8": {
@@ -915,7 +1106,8 @@
         "buttonbush",
         "cardinalFlower",
         "crestedIris",
-        "seaOats"
+        "seaOats",
+        "blackEyedSusan"
       ]
     },
     "8.4.9": {
@@ -930,7 +1122,9 @@
         "blueAster",
         "cardinalFlower",
         "crestedIris",
-        "seaOats"
+        "seaOats",
+        "blackEyedSusan",
+        "wildGinger"
       ]
     },
     "8.5.1": {
@@ -944,7 +1138,11 @@
         "buttonbush",
         "cardinalFlower",
         "seaOats",
-        "boneset"
+        "boneset",
+        "blackEyedSusan",
+        "seasideGoldenrod",
+        "waxMyrtle",
+        "dwarfPalmetto"
       ]
     },
     "8.5.2": {
@@ -958,7 +1156,10 @@
         "cardinalFlower",
         "seaOats",
         "boneset",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "blackEyedSusan",
+        "waxMyrtle",
+        "dwarfPalmetto"
       ]
     },
     "8.5.3": {
@@ -972,7 +1173,11 @@
         "cardinalFlower",
         "seaOats",
         "boneset",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "blackEyedSusan",
+        "seasideGoldenrod",
+        "waxMyrtle",
+        "dwarfPalmetto"
       ]
     },
     "8.5.4": {
@@ -984,7 +1189,10 @@
         "inkberry",
         "clethra",
         "cardinalFlower",
-        "boneset"
+        "boneset",
+        "blackEyedSusan",
+        "seasideGoldenrod",
+        "waxMyrtle"
       ]
     },
     "9.2.1": {
@@ -998,7 +1206,12 @@
         "prairieSmoke",
         "roughBlazingStar",
         "blanketflower",
-        "junegrass"
+        "junegrass",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "goldenAlexanders",
+        "redOsier"
       ]
     },
     "9.2.2": {
@@ -1010,7 +1223,11 @@
         "canadaAnemone",
         "blueVervain",
         "prairieSmoke",
-        "junegrass"
+        "junegrass",
+        "leadplant",
+        "dropseed",
+        "goldenAlexanders",
+        "redOsier"
       ]
     },
     "9.2.3": {
@@ -1025,7 +1242,11 @@
         "beardtongue",
         "blueVervain",
         "roughBlazingStar",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "goldenAlexanders"
       ]
     },
     "9.2.4": {
@@ -1040,7 +1261,11 @@
         "beardtongue",
         "blueVervain",
         "roughBlazingStar",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "goldenAlexanders"
       ]
     },
     "9.3.1": {
@@ -1055,7 +1280,10 @@
         "blanketflower",
         "blueFlax",
         "junegrass",
-        "bearberry"
+        "bearberry",
+        "leadplant",
+        "blackEyedSusan",
+        "redOsier"
       ]
     },
     "9.3.3": {
@@ -1069,7 +1297,9 @@
         "prairieSmoke",
         "blanketflower",
         "blueFlax",
-        "junegrass"
+        "junegrass",
+        "leadplant",
+        "redOsier"
       ]
     },
     "9.3.4": {
@@ -1081,7 +1311,9 @@
         "saltgrass",
         "blueVervain",
         "blanketflower",
-        "junegrass"
+        "junegrass",
+        "leadplant",
+        "redOsier"
       ]
     },
     "9.4.1": {
@@ -1096,7 +1328,9 @@
         "blueFlax",
         "junegrass",
         "tansyaster",
-        "antelopeHorns"
+        "antelopeHorns",
+        "leadplant",
+        "alaskaYarrow"
       ]
     },
     "9.4.2": {
@@ -1110,7 +1344,11 @@
         "roughBlazingStar",
         "junegrass",
         "tansyaster",
-        "antelopeHorns"
+        "antelopeHorns",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "goldenAlexanders"
       ]
     },
     "9.4.3": {
@@ -1123,7 +1361,9 @@
         "blueFlax",
         "junegrass",
         "tansyaster",
-        "antelopeHorns"
+        "antelopeHorns",
+        "blackfootDaisy",
+        "alaskaYarrow"
       ]
     },
     "9.4.4": {
@@ -1135,7 +1375,11 @@
         "switchgrass",
         "blueVervain",
         "roughBlazingStar",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "goldenAlexanders"
       ]
     },
     "9.4.5": {
@@ -1148,7 +1392,9 @@
         "seaOats",
         "roughBlazingStar",
         "rattlesnakeMaster",
-        "antelopeHorns"
+        "antelopeHorns",
+        "leadplant",
+        "blackEyedSusan"
       ]
     },
     "9.4.6": {
@@ -1160,7 +1406,10 @@
         "buttonbush",
         "cardinalFlower",
         "seaOats",
-        "antelopeHorns"
+        "antelopeHorns",
+        "blueSage",
+        "autumnSage",
+        "blackfootDaisy"
       ]
     },
     "9.4.7": {
@@ -1174,7 +1423,11 @@
         "seaOats",
         "blueVervain",
         "rattlesnakeMaster",
-        "antelopeHorns"
+        "antelopeHorns",
+        "leadplant",
+        "dropseed",
+        "blackEyedSusan",
+        "blueSage"
       ]
     },
     "9.5.1": {
@@ -1187,7 +1440,12 @@
         "cardinalFlower",
         "seaOats",
         "boneset",
-        "rattlesnakeMaster"
+        "rattlesnakeMaster",
+        "blackEyedSusan",
+        "seasideGoldenrod",
+        "waxMyrtle",
+        "dwarfPalmetto",
+        "blueSage"
       ]
     },
     "9.6.1": {
@@ -1197,7 +1455,9 @@
         "sideoats",
         "honeyMesquite",
         "sacaton",
-        "antelopeHorns"
+        "antelopeHorns",
+        "blueSage",
+        "blackfootDaisy"
       ]
     },
     "10.1.2": {
@@ -1209,7 +1469,10 @@
         "bitterbrush",
         "blanketflower",
         "blueFlax",
-        "junegrass"
+        "junegrass",
+        "desertSage",
+        "mockOrange",
+        "redOsier"
       ]
     },
     "10.1.3": {
@@ -1222,7 +1485,10 @@
         "blanketflower",
         "blueFlax",
         "junegrass",
-        "bearberry"
+        "bearberry",
+        "desertSage",
+        "mockOrange",
+        "redOsier"
       ]
     },
     "10.1.4": {
@@ -1234,7 +1500,8 @@
         "saltgrass",
         "blanketflower",
         "blueFlax",
-        "junegrass"
+        "junegrass",
+        "redOsier"
       ]
     },
     "10.1.5": {
@@ -1246,7 +1513,9 @@
         "saltgrass",
         "blueFlax",
         "junegrass",
-        "globemallow"
+        "globemallow",
+        "desertSage",
+        "redOsier"
       ]
     },
     "10.1.6": {
@@ -1260,7 +1529,10 @@
         "rockyPenstemon",
         "junegrass",
         "tansyaster",
-        "antelopeHorns"
+        "antelopeHorns",
+        "blackfootDaisy",
+        "desertSage",
+        "redOsier"
       ]
     },
     "10.1.7": {
@@ -1274,7 +1546,9 @@
         "rockyPenstemon",
         "junegrass",
         "tansyaster",
-        "antelopeHorns"
+        "antelopeHorns",
+        "blackfootDaisy",
+        "redOsier"
       ]
     },
     "10.1.8": {
@@ -1286,7 +1560,10 @@
         "sagebrush",
         "blanketflower",
         "blueFlax",
-        "junegrass"
+        "junegrass",
+        "desertSage",
+        "mockOrange",
+        "redOsier"
       ]
     },
     "10.2.1": {
@@ -1298,7 +1575,9 @@
         "ricegrass",
         "tansyaster",
         "rockHibiscus",
-        "globemallow"
+        "globemallow",
+        "desertSage",
+        "alaskaYarrow"
       ]
     },
     "10.2.2": {
@@ -1312,7 +1591,8 @@
         "rockHibiscus",
         "antelopeHorns",
         "globemallow",
-        "deergrass"
+        "deergrass",
+        "saguaro"
       ]
     },
     "10.2.4": {
@@ -1324,7 +1604,9 @@
         "sacaton",
         "tansyaster",
         "rockHibiscus",
-        "antelopeHorns"
+        "antelopeHorns",
+        "autumnSage",
+        "blackfootDaisy"
       ]
     },
     "11.1.1": {
@@ -1336,7 +1618,8 @@
         "coyoteMint",
         "calPoppy",
         "toyon",
-        "deergrass"
+        "deergrass",
+        "alaskaYarrow"
       ]
     },
     "11.1.2": {
@@ -1348,7 +1631,8 @@
         "saltgrass",
         "calPoppy",
         "toyon",
-        "deergrass"
+        "deergrass",
+        "redOsier"
       ]
     },
     "11.1.3": {
@@ -1360,7 +1644,8 @@
         "barberry",
         "calPoppy",
         "toyon",
-        "deergrass"
+        "deergrass",
+        "redOsier"
       ]
     },
     "12.1.1": {
@@ -1373,7 +1658,9 @@
         "tansyaster",
         "rockHibiscus",
         "antelopeHorns",
-        "deergrass"
+        "deergrass",
+        "blackfootDaisy",
+        "alaskaYarrow"
       ]
     },
     "13.1.1": {
@@ -1387,7 +1674,8 @@
         "rockyPenstemon",
         "tansyaster",
         "antelopeHorns",
-        "deergrass"
+        "deergrass",
+        "redOsier"
       ]
     },
     "15.4.1": {
@@ -1397,7 +1685,10 @@
         "spottedBeebalm",
         "scarletMallow",
         "cypress",
-        "cardinalFlower"
+        "cardinalFlower",
+        "seasideGoldenrod",
+        "waxMyrtle",
+        "dwarfPalmetto"
       ]
     },
     "OC0106": {
@@ -1407,7 +1698,8 @@
         "ohia",
         "uluhe",
         "koa",
-        "kupukupu"
+        "kupukupu",
+        "ulei"
       ]
     },
     "OC0202": {
@@ -1417,7 +1709,9 @@
         "ilima",
         "aalii",
         "koa",
-        "mamane"
+        "mamane",
+        "naio",
+        "ulei"
       ]
     },
     "OC0701": {
@@ -1427,7 +1721,9 @@
         "pukiawe",
         "ohelo",
         "iliahi",
-        "mamane"
+        "mamane",
+        "naio",
+        "ulei"
       ]
     },
     "OC0702": {
@@ -1437,7 +1733,9 @@
         "naupaka",
         "ilima",
         "aalii",
-        "pohuehue"
+        "pohuehue",
+        "naio",
+        "ulei"
       ]
     }
   },
@@ -2344,6 +2642,160 @@
       "open",
       "Sun · drained volcanic soil in cool uplands",
       "Endemic to Hawaiʻi; match the planting site to a local population and elevation."
+    ],
+    "leadplant": [
+      "Leadplant",
+      "Amorpha canescens",
+      "open",
+      "Full sun · dry, well-drained prairie soil",
+      "Native to central North American prairies and open savannas."
+    ],
+    "dropseed": [
+      "Prairie dropseed",
+      "Sporobolus heterolepis",
+      "open",
+      "Full sun · dry to moderately moist, drained soil",
+      "Native to central and eastern North American prairies, especially the tallgrass region."
+    ],
+    "blackEyedSusan": [
+      "Black-eyed Susan",
+      "Rudbeckia hirta",
+      "open",
+      "Full sun · drained, dry to moderately moist soil",
+      "Native across much of central and eastern North America. Check locally occurring varieties and introduced populations."
+    ],
+    "wildGinger": [
+      "Canadian wild ginger",
+      "Asarum canadense",
+      "shade",
+      "Part shade to shade · moist, rich woodland soil",
+      "Native to central and eastern North American deciduous forests."
+    ],
+    "goldenAlexanders": [
+      "Golden Alexanders",
+      "Zizia aurea",
+      "wet",
+      "Sun to part shade · moist meadow soil that drains between rains",
+      "Native to eastern and central North American meadows and woodland edges."
+    ],
+    "seasideGoldenrod": [
+      "Seaside goldenrod",
+      "Solidago sempervirens",
+      "open",
+      "Full sun · drained coastal sand and salt spray",
+      "Native to Atlantic and Gulf coastal habitats. Inland populations may be introduced."
+    ],
+    "waxMyrtle": [
+      "Southern wax myrtle",
+      "Morella cerifera",
+      "shade",
+      "Sun to part shade · moist coastal soil, with better drainage in cooler sites",
+      "Native to the southeastern Atlantic and Gulf coasts and nearby inland areas. Check the northern range limit."
+    ],
+    "dwarfPalmetto": [
+      "Dwarf palmetto",
+      "Sabal minor",
+      "wet",
+      "Sun to part shade · moist lowlands or freshwater floodplain soil",
+      "Native to the southeastern and south-central U.S., including Gulf Coast floodplains."
+    ],
+    "blueSage": [
+      "Mealy blue sage",
+      "Salvia farinacea",
+      "open",
+      "Sun to part shade · drained, dry to moderately moist soil",
+      "Native to parts of Texas and northeastern Mexico. Choose straight species or locally sourced stock."
+    ],
+    "autumnSage": [
+      "Autumn sage",
+      "Salvia greggii",
+      "open",
+      "Full sun · dry, fast-draining, rocky soil",
+      "Native to southwest Texas and Mexico. Cold tolerance depends on the source population."
+    ],
+    "blackfootDaisy": [
+      "Blackfoot daisy",
+      "Melampodium leucanthum",
+      "open",
+      "Full sun · dry, rocky, well-drained soil",
+      "Native to the southern Great Plains, southwestern U.S. and northern Mexico."
+    ],
+    "saguaro": [
+      "Saguaro",
+      "Carnegiea gigantea",
+      "open",
+      "Full sun once established · warm, frost-sheltered desert soil with excellent drainage",
+      "Native to the Sonoran Desert, chiefly southern Arizona and northwest Mexico. Use nursery-propagated plants."
+    ],
+    "desertSage": [
+      "Desert sage",
+      "Salvia dorrii",
+      "open",
+      "Full sun · dry gravel or sandy soil",
+      "Native to the western U.S. in desert and shrub-steppe habitats. Local varieties differ by elevation and substrate."
+    ],
+    "mockOrange": [
+      "Lewis’s mock orange",
+      "Philadelphus lewisii",
+      "shade",
+      "Sun to part shade · drained rocky slopes or open woodland edges",
+      "Native to western North America from the Pacific Northwest into the northern Rockies."
+    ],
+    "westernColumbine": [
+      "Western columbine",
+      "Aquilegia formosa",
+      "shade",
+      "Part shade · moist, drained soil at forest edges or beside streams",
+      "Native to western North America, including coastal Alaska and western mountain regions."
+    ],
+    "insideOutFlower": [
+      "Inside-out flower",
+      "Vancouveria hexandra",
+      "shade",
+      "Part shade to shade · humus-rich woodland soil that drains freely",
+      "Native to Pacific Northwest and northern California forests."
+    ],
+    "redOsier": [
+      "Red-osier dogwood",
+      "Cornus sericea",
+      "wet",
+      "Sun to part shade · moist freshwater shores, swales or streambanks",
+      "Native across much of northern and western North America, including Alaska. Look for locally sourced material."
+    ],
+    "blackSpruce": [
+      "Black spruce",
+      "Picea mariana",
+      "wet",
+      "Full sun · cool, acidic peaty ground with steady moisture",
+      "Native to boreal North America from Alaska across Canada to the northeastern U.S."
+    ],
+    "dwarfBirch": [
+      "Dwarf birch",
+      "Betula nana",
+      "open",
+      "Sun to light shade · cool, acidic tundra soil; use locally occurring form",
+      "The Alaska form, subsp. exilis, is native to Arctic and boreal North America. Confirm local identity before sourcing."
+    ],
+    "alaskaYarrow": [
+      "Common yarrow",
+      "Achillea millefolium",
+      "open",
+      "Full sun · open, drained ground; choose local seed",
+      "North America has indigenous yarrow lineages as well as introduced ones. Ask for locally sourced native stock."
+    ],
+    "naio": [
+      "Naio",
+      "Myoporum sandwicense",
+      "open",
+      "Full sun · drained soil; select a form suited to local elevation",
+      "Indigenous to Hawaiʻi. Coastal and upland forms differ, so use island-appropriate stock."
+    ],
+    "ulei": [
+      "ʻŪlei",
+      "Osteomeles anthyllidifolia",
+      "shade",
+      "Sun to part shade · drained rocky soils; give the shrub room to spread",
+      "Indigenous to Hawaiʻi and also found elsewhere in the Pacific. Check the local island and elevation."
     ]
   },
   "photos": {
@@ -3249,6 +3701,160 @@
       "artist": "Forest & Kim Starr",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Amorpha canescens": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Amorpha_canescens_-_Floraison-3.jpg/960px-Amorpha_canescens_-_Floraison-3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Amorpha_canescens_-_Floraison-3.jpg",
+      "artist": "Denis.prévôt",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Sporobolus heterolepis": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Sporobolus_heterolepis_-_Denver_Botanic_Gardens_-_DSC00886.JPG/960px-Sporobolus_heterolepis_-_Denver_Botanic_Gardens_-_DSC00886.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Sporobolus_heterolepis_-_Denver_Botanic_Gardens_-_DSC00886.JPG",
+      "artist": "Daderot",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Rudbeckia hirta": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Rudbeckia_hirta_kz03.jpg/960px-Rudbeckia_hirta_kz03.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Rudbeckia_hirta_kz03.jpg",
+      "artist": "Krzysztof Ziarnek, Kenraiz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Asarum canadense": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Asarum_canadense_-_Wild_Ginger.jpg/960px-Asarum_canadense_-_Wild_Ginger.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Asarum_canadense_-_Wild_Ginger.jpg",
+      "artist": "Fritzflohrreynolds",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Zizia aurea": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Zizia_aurea%2C_Bird_Park%2C_2026-04-21.jpg/960px-Zizia_aurea%2C_Bird_Park%2C_2026-04-21.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Zizia_aurea,_Bird_Park,_2026-04-21.jpg",
+      "artist": "Cbaile19",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "Solidago sempervirens": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Seaside_Goldenrod_-_Flickr_-_treegrow_%281%29.jpg/960px-Seaside_Goldenrod_-_Flickr_-_treegrow_%281%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Seaside_Goldenrod_-_Flickr_-_treegrow_(1).jpg",
+      "artist": "Katja Schulz from Washington, D. C., USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "Morella cerifera": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Starr_031108-0155_Morella_cerifera.jpg/960px-Starr_031108-0155_Morella_cerifera.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_031108-0155_Morella_cerifera.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Sabal minor": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/2025-09-13_15_42_10_Dwarf_palmetto_near_40-Acre_Lake_within_Brazos_Bend_State_Park_in_Fort_Bend_County%2C_Texas.jpg/960px-2025-09-13_15_42_10_Dwarf_palmetto_near_40-Acre_Lake_within_Brazos_Bend_State_Park_in_Fort_Bend_County%2C_Texas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2025-09-13_15_42_10_Dwarf_palmetto_near_40-Acre_Lake_within_Brazos_Bend_State_Park_in_Fort_Bend_County,_Texas.jpg",
+      "artist": "Famartin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Salvia farinacea": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Salvia_farinacea1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Salvia_farinacea1.jpg",
+      "artist": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Salvia greggii": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Salvia_greggii_kz2.jpg/960px-Salvia_greggii_kz2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Salvia_greggii_kz2.jpg",
+      "artist": "Krzysztof Ziarnek, Kenraiz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Melampodium leucanthum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Melampodium-leucanthum.jpg/960px-Melampodium-leucanthum.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Melampodium-leucanthum.jpg",
+      "artist": "Sue in az",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Carnegiea gigantea": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg/960px-Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson,_Arizona_during_November_(58).jpg",
+      "artist": "WClarke",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Salvia dorrii": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Salvia_dorrii_8117.JPG/960px-Salvia_dorrii_8117.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Salvia_dorrii_8117.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Philadelphus lewisii": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Philadelphus_lewisii_5.jpg/960px-Philadelphus_lewisii_5.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Philadelphus_lewisii_5.jpg",
+      "artist": "Thayne Tuason",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Aquilegia formosa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Aquilegia_formosa_6742.JPG/960px-Aquilegia_formosa_6742.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Aquilegia_formosa_6742.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Vancouveria hexandra": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Vancouveria_hexandra_6350.JPG/960px-Vancouveria_hexandra_6350.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Vancouveria_hexandra_6350.JPG",
+      "artist": "Walter Siegmund (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Cornus sericea": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Red_Osier_Dogwood.jpg/960px-Red_Osier_Dogwood.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Osier_Dogwood.jpg",
+      "artist": "Sulfur at en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Picea mariana": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Black_spruce_stand_at_Arctic_Chalet%2C_Inuvik%2C_NT.jpg/960px-Black_spruce_stand_at_Arctic_Chalet%2C_Inuvik%2C_NT.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Black_spruce_stand_at_Arctic_Chalet,_Inuvik,_NT.jpg",
+      "artist": "Daniel Case",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "Betula nana": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Betula_nana0.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Betula_nana0.jpg",
+      "artist": "USDA photo, uploader user:MPF",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Achillea millefolium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/960px-Achillea_millefolium_%28bright%29.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Achillea_millefolium_(bright).jpg",
+      "artist": "SAplants",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "Myoporum sandwicense": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Starr_060305-6527_Myoporum_sandwicense.jpg/960px-Starr_060305-6527_Myoporum_sandwicense.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Starr_060305-6527_Myoporum_sandwicense.jpg",
+      "artist": "Forest & Kim Starr",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Osteomeles anthyllidifolia": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Osteomeles_anthyllidifolia_2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Osteomeles_anthyllidifolia_2.jpg",
+      "artist": "Indeterminate",
+      "license": "Public domain",
+      "licenseUrl": ""
     }
   },
   "plantSources": {
@@ -3403,6 +4009,524 @@
     "mamane": {
       "label": "Native Hawaiʻi Plants reference",
       "url": "https://nativeplants.hawaii.edu/"
+    },
+    "leadplant": {
+      "url": "https://www.prairiemoon.com/amorpha-canescens-lead-plant",
+      "label": "Prairie Moon Nursery plant profile"
+    },
+    "dropseed": {
+      "url": "https://www.prairiemoon.com/sporobolus-heterolepis-prairie-dropseed",
+      "label": "Prairie Moon Nursery plant profile"
+    },
+    "blackEyedSusan": {
+      "url": "https://plants.ces.ncsu.edu/plants/rudbeckia-hirta/",
+      "label": "NC State Extension plant profile"
+    },
+    "wildGinger": {
+      "url": "https://plants.ces.ncsu.edu/plants/asarum-canadense/",
+      "label": "NC State Extension plant profile"
+    },
+    "goldenAlexanders": {
+      "url": "https://www.prairiemoon.com/zizia-aurea-golden-alexanders",
+      "label": "Prairie Moon Nursery plant profile"
+    },
+    "seasideGoldenrod": {
+      "url": "https://plants.ces.ncsu.edu/plants/solidago-sempervirens/",
+      "label": "NC State Extension plant profile"
+    },
+    "waxMyrtle": {
+      "url": "https://plants.ces.ncsu.edu/plants/myrica-cerifera/",
+      "label": "NC State Extension plant profile"
+    },
+    "dwarfPalmetto": {
+      "url": "https://plants.ces.ncsu.edu/plants/sabal-minor/",
+      "label": "NC State Extension plant profile"
+    },
+    "blueSage": {
+      "url": "https://plants.ces.ncsu.edu/plants/salvia-farinacea/",
+      "label": "NC State Extension plant profile"
+    },
+    "autumnSage": {
+      "url": "https://plants.ces.ncsu.edu/plants/salvia-greggii/",
+      "label": "NC State Extension plant profile"
+    },
+    "blackfootDaisy": {
+      "url": "https://www.wildflower.org/plants/result.php?id_plant=MELE2",
+      "label": "Lady Bird Johnson Wildflower Center plant profile"
+    },
+    "saguaro": {
+      "url": "https://research.fs.usda.gov/feis/species-reviews/cargig",
+      "label": "U.S. Forest Service species review"
+    },
+    "desertSage": {
+      "url": "https://powo.science.kew.org/results?q=Salvia%20dorrii",
+      "label": "Kew native range reference"
+    },
+    "mockOrange": {
+      "url": "https://www.boskydellnatives.com/plantlist.htm",
+      "label": "Bosky Dell Natives plant list"
+    },
+    "westernColumbine": {
+      "url": "https://www.boskydellnatives.com/plantlist.htm",
+      "label": "Bosky Dell Natives plant list"
+    },
+    "insideOutFlower": {
+      "url": "https://www.boskydellnatives.com/plantlist.htm",
+      "label": "Bosky Dell Natives plant list"
+    },
+    "redOsier": {
+      "url": "https://research.fs.usda.gov/feis/species-reviews/corser",
+      "label": "U.S. Forest Service species review"
+    },
+    "blackSpruce": {
+      "url": "https://research.fs.usda.gov/feis/species-reviews/picmar",
+      "label": "U.S. Forest Service species review"
+    },
+    "dwarfBirch": {
+      "url": "https://research.fs.usda.gov/feis/species-reviews/betnan",
+      "label": "U.S. Forest Service species review"
+    },
+    "alaskaYarrow": {
+      "url": "https://plants.alaska.gov/nativeplantindex.htm",
+      "label": "Alaska Native Plant Sources directory"
+    },
+    "naio": {
+      "url": "https://nativeplants.hawaii.edu/plants/myoporum-sandwicense/",
+      "label": "Native Hawaiʻi Plants profile"
+    },
+    "ulei": {
+      "url": "https://nativeplants.hawaii.edu/plants/osteomeles-anthyllidifolia/",
+      "label": "Native Hawaiʻi Plants profile"
     }
+  },
+  "stateRegions": {
+    "AK": [
+      "2.2.1",
+      "2.2.2",
+      "2.2.3",
+      "2.2.4",
+      "2.2.5",
+      "2.2.6",
+      "2.3.1",
+      "3.1.1",
+      "3.1.2",
+      "3.1.3",
+      "3.2.1",
+      "6.1.1",
+      "6.1.2",
+      "6.1.3",
+      "6.1.4",
+      "7.1.1",
+      "7.1.2",
+      "7.1.3",
+      "7.1.4",
+      "7.1.5"
+    ],
+    "AL": [
+      "8.3.3",
+      "8.3.4",
+      "8.3.5",
+      "8.4.1",
+      "8.4.9",
+      "8.5.3"
+    ],
+    "AR": [
+      "8.3.6",
+      "8.3.7",
+      "8.4.5",
+      "8.4.6",
+      "8.4.7",
+      "8.4.8",
+      "8.5.2"
+    ],
+    "AZ": [
+      "10.1.6",
+      "10.1.7",
+      "10.2.1",
+      "10.2.2",
+      "10.2.4",
+      "12.1.1",
+      "13.1.1"
+    ],
+    "CA": [
+      "10.1.3",
+      "10.1.5",
+      "10.2.1",
+      "10.2.2",
+      "11.1.1",
+      "11.1.2",
+      "11.1.3",
+      "6.2.11",
+      "6.2.12",
+      "6.2.7",
+      "6.2.8",
+      "7.1.8"
+    ],
+    "CO": [
+      "10.1.4",
+      "10.1.6",
+      "10.1.7",
+      "6.2.14",
+      "9.4.1",
+      "9.4.3"
+    ],
+    "CT": [
+      "5.3.1",
+      "8.1.7"
+    ],
+    "DC": [
+      "8.3.1",
+      "8.3.5"
+    ],
+    "DE": [
+      "8.3.1",
+      "8.3.5",
+      "8.5.1"
+    ],
+    "FL": [
+      "15.4.1",
+      "8.3.5",
+      "8.5.3"
+    ],
+    "GA": [
+      "8.3.4",
+      "8.3.5",
+      "8.4.1",
+      "8.4.4",
+      "8.4.9",
+      "8.5.3"
+    ],
+    "HI": [
+      "OC0106",
+      "OC0202",
+      "OC0701",
+      "OC0702"
+    ],
+    "IA": [
+      "8.1.5",
+      "8.3.2",
+      "9.2.3",
+      "9.2.4"
+    ],
+    "ID": [
+      "10.1.2",
+      "10.1.3",
+      "10.1.4",
+      "10.1.5",
+      "10.1.8",
+      "6.2.10",
+      "6.2.13",
+      "6.2.15",
+      "6.2.3",
+      "6.2.9"
+    ],
+    "IL": [
+      "8.1.5",
+      "8.2.1",
+      "8.2.3",
+      "8.3.2",
+      "8.3.3",
+      "8.5.2",
+      "9.2.3"
+    ],
+    "IN": [
+      "8.1.6",
+      "8.2.2",
+      "8.2.3",
+      "8.2.4",
+      "8.3.2",
+      "8.3.3"
+    ],
+    "KS": [
+      "8.4.5",
+      "9.2.3",
+      "9.2.4",
+      "9.4.1",
+      "9.4.2",
+      "9.4.3",
+      "9.4.4",
+      "9.4.5"
+    ],
+    "KY": [
+      "8.3.2",
+      "8.3.3",
+      "8.3.6",
+      "8.4.2",
+      "8.4.3",
+      "8.4.9",
+      "8.5.2"
+    ],
+    "LA": [
+      "8.3.5",
+      "8.3.6",
+      "8.3.7",
+      "8.5.2",
+      "8.5.3",
+      "9.5.1"
+    ],
+    "MA": [
+      "5.3.1",
+      "8.1.7",
+      "8.5.4"
+    ],
+    "MD": [
+      "8.3.1",
+      "8.3.5",
+      "8.4.1",
+      "8.4.2",
+      "8.4.4",
+      "8.5.1"
+    ],
+    "ME": [
+      "5.3.1",
+      "8.1.7",
+      "8.1.8"
+    ],
+    "MI": [
+      "5.2.1",
+      "8.1.4",
+      "8.1.6",
+      "8.2.2",
+      "8.2.4"
+    ],
+    "MN": [
+      "5.2.1",
+      "5.2.2",
+      "8.1.4",
+      "8.1.5",
+      "9.2.1",
+      "9.2.2",
+      "9.2.3"
+    ],
+    "MO": [
+      "8.3.2",
+      "8.3.6",
+      "8.4.5",
+      "8.5.2",
+      "9.2.3",
+      "9.2.4"
+    ],
+    "MS": [
+      "8.3.5",
+      "8.3.6",
+      "8.5.2",
+      "8.5.3"
+    ],
+    "MT": [
+      "10.1.4",
+      "6.2.10",
+      "6.2.15",
+      "6.2.3",
+      "6.2.4",
+      "9.3.1",
+      "9.3.3"
+    ],
+    "NC": [
+      "8.3.4",
+      "8.3.5",
+      "8.4.4",
+      "8.5.1"
+    ],
+    "ND": [
+      "9.2.1",
+      "9.2.2",
+      "9.3.1",
+      "9.3.3"
+    ],
+    "NE": [
+      "9.2.3",
+      "9.3.1",
+      "9.3.3",
+      "9.3.4",
+      "9.4.1",
+      "9.4.2"
+    ],
+    "NH": [
+      "5.3.1",
+      "8.1.7"
+    ],
+    "NJ": [
+      "5.3.1",
+      "8.3.1",
+      "8.4.1",
+      "8.5.1",
+      "8.5.4"
+    ],
+    "NM": [
+      "10.1.6",
+      "10.1.7",
+      "10.2.4",
+      "12.1.1",
+      "13.1.1",
+      "6.2.14",
+      "9.4.1",
+      "9.4.3"
+    ],
+    "NV": [
+      "10.1.3",
+      "10.1.5",
+      "10.1.7",
+      "10.2.1",
+      "6.2.12"
+    ],
+    "NY": [
+      "5.3.1",
+      "5.3.3",
+      "8.1.1",
+      "8.1.10",
+      "8.1.3",
+      "8.1.7",
+      "8.3.1",
+      "8.4.1",
+      "8.5.4"
+    ],
+    "OH": [
+      "8.1.1",
+      "8.1.10",
+      "8.2.2",
+      "8.2.4",
+      "8.3.3",
+      "8.4.3"
+    ],
+    "OK": [
+      "8.3.7",
+      "8.3.8",
+      "8.4.5",
+      "8.4.6",
+      "8.4.7",
+      "8.4.8",
+      "9.2.4",
+      "9.4.1",
+      "9.4.2",
+      "9.4.3",
+      "9.4.4",
+      "9.4.5"
+    ],
+    "OR": [
+      "10.1.2",
+      "10.1.3",
+      "10.1.8",
+      "6.2.11",
+      "6.2.7",
+      "6.2.8",
+      "6.2.9",
+      "7.1.8",
+      "7.1.9"
+    ],
+    "PA": [
+      "5.3.1",
+      "5.3.3",
+      "8.1.1",
+      "8.1.10",
+      "8.1.3",
+      "8.3.1",
+      "8.4.1",
+      "8.4.2",
+      "8.4.3",
+      "8.4.4",
+      "8.5.1"
+    ],
+    "RI": [
+      "8.1.7",
+      "8.5.4"
+    ],
+    "SC": [
+      "8.3.4",
+      "8.3.5",
+      "8.4.4",
+      "8.5.1",
+      "8.5.3"
+    ],
+    "SD": [
+      "6.2.10",
+      "9.2.1",
+      "9.2.2",
+      "9.2.3",
+      "9.3.1",
+      "9.3.3",
+      "9.3.4",
+      "9.4.1"
+    ],
+    "TN": [
+      "8.3.3",
+      "8.3.5",
+      "8.3.6",
+      "8.4.1",
+      "8.4.2",
+      "8.4.4",
+      "8.4.9",
+      "8.5.2"
+    ],
+    "TX": [
+      "10.2.4",
+      "13.1.1",
+      "8.3.7",
+      "8.3.8",
+      "9.4.1",
+      "9.4.2",
+      "9.4.3",
+      "9.4.5",
+      "9.4.6",
+      "9.4.7",
+      "9.5.1",
+      "9.6.1"
+    ],
+    "UT": [
+      "10.1.3",
+      "10.1.4",
+      "10.1.5",
+      "10.1.6",
+      "10.2.1",
+      "6.2.13",
+      "6.2.14"
+    ],
+    "VA": [
+      "8.3.1",
+      "8.3.4",
+      "8.3.5",
+      "8.4.1",
+      "8.4.2",
+      "8.4.4",
+      "8.5.1"
+    ],
+    "VT": [
+      "5.3.1",
+      "8.1.1",
+      "8.1.7"
+    ],
+    "WA": [
+      "10.1.2",
+      "6.2.3",
+      "6.2.5",
+      "6.2.7",
+      "6.2.8",
+      "6.2.9",
+      "7.1.7",
+      "7.1.8",
+      "7.1.9"
+    ],
+    "WI": [
+      "5.2.1",
+      "8.1.4",
+      "8.1.5",
+      "8.2.1",
+      "8.2.3",
+      "9.2.3"
+    ],
+    "WV": [
+      "8.4.1",
+      "8.4.2",
+      "8.4.3",
+      "8.4.4"
+    ],
+    "WY": [
+      "10.1.4",
+      "10.1.8",
+      "6.2.10",
+      "6.2.13",
+      "6.2.14",
+      "9.3.3",
+      "9.4.1"
+    ]
   }
 }

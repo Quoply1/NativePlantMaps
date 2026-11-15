@@ -14,6 +14,10 @@ The project is a Cloudflare Pages Worker with static page assets embedded at bui
 
 The build reads `index.html`, `vendors.json`, and `runtime-template.js`, then writes `dist/_worker.js`. It should report the number of directory listings embedded. Do not set the Pages deploy command to `npm run build`; the build command is sufficient.
 
+## Planting guides
+
+`ecoregion-guides.json` contains the planting cards and the state-to-ecoregion index. The index intersects the site's EPA Level III overlay (EPA ArcGIS Deposition/Overlays, layer 14) with the 2024 Census 1:500,000 state cartographic boundaries. Only land intersections greater than 0.0005 square degrees are included to reduce coastal and border slivers from generalized boundaries. Hawaiʻi uses the four terrestrial ecoregions listed in the guide. State selection limits the picker; the planting recommendations use ecoregions.
+
 ## Data and community contributions
 
 - `vendors.json` is the public directory seed data.
