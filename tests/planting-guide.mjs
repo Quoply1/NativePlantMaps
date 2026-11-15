@@ -9,7 +9,10 @@ const directory = JSON.parse(read('../ecoregion-search.json'));
 const nodes = new Map();
 const node = id => {
   if (!nodes.has(id)) nodes.set(id, {
-    innerHTML: '', value: '', append(){}, addEventListener(){},
+    innerHTML: '', textContent: '', value: '', children: [],
+    append(option){this.children.push(option)},
+    replaceChildren(option){this.children=[option];this.value=option.value},
+    addEventListener(){},
     querySelectorAll: () => []
   });
   return nodes.get(id);
@@ -17,13 +20,14 @@ const node = id => {
 node('ecoregion-guide-data').textContent = JSON.stringify(data);
 node('ecoregion-directory-data').textContent = JSON.stringify(directory);
 const context = vm.createContext({
-  document: {getElementById: node, createElement: () => ({append(){}})},
-  Option: class {},
+  document: {getElementById: node, createElement: () => ({children: [], get childElementCount(){return this.children.length}, append(option){this.children.push(option)}})},
+  Option: class {constructor(text,value){this.text=text;this.value=value}},
   encodeURIComponent
 });
 const escape = page.match(/const html=s=>[^\n]+/)[0];
 const guide = page.slice(page.indexOf('    const guideData='), page.indexOf('    function renderStateResources'));
-vm.runInContext(escape + '\n' + guide, context);
+const states = page.match(/const stateLabels=\{[^\n]+/)[0];
+vm.runInContext(states + '\n' + escape + '\n' + guide, context);
 vm.runInContext('setupEcoregionPicker()', context);
 
 assert.equal(Object.keys(data.regions).filter(key => !key.startsWith('OC')).length, 104);
@@ -31,7 +35,8 @@ assert.equal(Object.keys(data.regions).filter(key => key.startsWith('OC')).lengt
 for (const [key, region] of Object.entries(data.regions)) {
   vm.runInContext('renderPlantingProfile(' + JSON.stringify(key + '  ' + region.name) + ')', context);
   assert.equal(node('plant-ecoregion').value, key);
-  assert.ok(region.plants.length >= 4, key);
+  assert.ok(region.plants.length >= 5, key);
+  assert.equal(new Set(region.plants).size, region.plants.length, key);
   assert.ok(region.plants.some(id => data.plantSources[id]), key);
   assert.ok(directory[key].bounds.flat().every(Number.isFinite), key);
   assert.equal((node('planting-profile').innerHTML.match(/class="plant-card"/g) || []).length, region.plants.length);
@@ -63,3 +68,20 @@ assert.equal(vm.runInContext("exactEcoregion('10.2.2')", context), '10.2.2');
 assert.ok(directory['10.2.2'].vendorIds.length > 0);
 assert.ok(directory['7.1.9'].vendorIds.some(id => !directory['10.2.2'].vendorIds.includes(id)));
 console.log('Passed: nationwide catalog expansion, ecoregion name and code search, and provider boundary index.');
+
+
+assert.equal(Object.keys(data.stateRegions).length, 51);
+const picker = node('plant-ecoregion');
+const optionValues = () => picker.children.flatMap(option => option.children || [option]).map(option => option.value);
+vm.runInContext("renderPlantingProfile('10.2.2'); updateEcoregionPicker('NJ')", context);
+assert.deepEqual(optionValues().filter(Boolean).sort(), ['5.3.1', '8.3.1', '8.4.1', '8.5.1', '8.5.4']);
+assert.equal(picker.value, '');
+assert.doesNotMatch(node('planting-profile').innerHTML, /Fairy duster/);
+vm.runInContext("renderPlantingProfile('8.5.4'); updateEcoregionPicker('NY')", context);
+assert.equal(picker.value, '8.5.4');
+vm.runInContext("updateEcoregionPicker('HI')", context);
+assert.deepEqual(optionValues().filter(Boolean).sort(), ['OC0106', 'OC0202', 'OC0701', 'OC0702']);
+vm.runInContext("updateEcoregionPicker('')", context);
+assert.equal(optionValues().filter(Boolean).length, 108);
+assert.equal(vm.runInContext('Object.keys(stateLabels).every(code=>guideData.stateRegions[code]?.length)', context), true);
+console.log('Passed: state boundary index, filtered picker, shared region selection and nationwide reset.');
