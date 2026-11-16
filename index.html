@@ -480,8 +480,28 @@
     .flora-guide{background:transparent!important;border:0!important;margin:0!important;padding:12px!important}.flora-heading h2{font-size:32px!important}.flora-heading p{font-size:14px!important}
     .profile-heading{display:flex;justify-content:space-between;align-items:start;gap:20px;flex-wrap:wrap;margin:24px 0 16px}.profile-heading h3{font:500 26px/1.2 Georgia,serif;margin:0 0 8px}.profile-heading p{max-width:680px;margin:0;font-size:13px;line-height:1.6}.profile-heading select{max-width:100%;padding:10px;border:1px solid var(--line);background:var(--white);color:var(--forest);border-radius:5px}
     .habitat-options{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.habitat-options button{padding:10px 14px;border:1px solid var(--line);border-radius:5px;background:var(--white);color:var(--forest);cursor:pointer;font-size:13px}.habitat-options button[aria-pressed=true]{background:var(--forest);color:white}
-    .ecoregion-picker{display:grid;gap:6px;max-width:430px;margin:0 0 20px;font-weight:700}.ecoregion-picker select{width:100%;min-width:0;padding:10px;border:1px solid var(--line);border-radius:5px;background:var(--white);color:var(--ink);font:inherit}
-    .ecoregion-picker small{color:#506655;font-size:12px;font-weight:400}
+    .ecoregion-picker{margin:0 0 20px;max-width:840px}
+    .eco-region-title,.eco-map-title{margin:0 0 9px;font-size:15px;font-weight:750;color:var(--forest)}
+    .eco-regions{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:15px}
+    .eco-regions button,.eco-names button{font-family:inherit;font-size:13px;font-weight:650;line-height:1.25;min-height:40px;padding:7px 12px;cursor:pointer;border:1px solid #babfac;border-radius:5px;background:var(--white);color:var(--forest)}
+    .eco-regions button:hover,.eco-names button:hover{background:#e5ebdc}
+    .eco-regions button[aria-pressed=true],.eco-names button[aria-pressed=true]{background:var(--forest);border-color:var(--forest);color:white}
+    .eco-map-panel{padding:14px;border:1px solid #cfd7c7;border-radius:8px;background:#f3f5ed}
+    .eco-map-panel p{margin:0 0 10px;color:#40584a;font-size:13px}
+    .eco-map-stage svg{display:block;width:100%;height:clamp(245px,42vw,365px);border-radius:5px;background:#e7eff0}
+    .eco-shape{stroke:#fffefa;stroke-width:1;vector-effect:non-scaling-stroke;cursor:pointer}
+    .eco-shape:hover,.eco-shape:focus-visible,.eco-shape.is-selected{stroke:#173b30;stroke-width:2.5;filter:brightness(1.08)}
+    .eco-map-stage .eco-state-outline{fill:none;stroke:#364e41;stroke-opacity:.8;stroke-dasharray:3 2;stroke-width:1.1;vector-effect:non-scaling-stroke;pointer-events:none}
+    .eco-map-panel .eco-selection{margin:10px 0 0;font-weight:650}
+    .eco-map-panel .eco-selection a{color:#205345}
+    .eco-name-picker{margin-top:10px}
+    .eco-name-picker summary{cursor:pointer;font-size:13px;font-weight:650;color:var(--forest)}
+    .eco-names{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:6px;padding-top:8px;max-height:230px;overflow:auto}
+    .eco-names button{text-align:left;display:flex;align-items:center;gap:8px}
+    .eco-swatch{width:12px;height:12px;border-radius:50%;border:1px solid #233f35;flex:none;background:var(--eco-color)}
+    .eco-map-credit{margin-top:9px!important;font-size:11px!important}
+    .ecoregion-picker [hidden]{display:none}
+    #planting-profile{scroll-margin-top:18px}
     .plant-result-count{margin:0 0 14px;color:#506655;font-size:13px}
     .plant-light-chip{display:inline-block;padding:4px 9px;border-radius:20px;background:#f1ebde;color:#484232;font:600 12px/1.4 system-ui,sans-serif;margin-bottom:5px}
     .plant-growing{border-bottom:1px solid #e3e7dc;padding-bottom:10px;margin-bottom:11px}
@@ -573,9 +593,20 @@
       </div>
       <div class="info-panel" id="state-info-panel" role="tabpanel" aria-labelledby="state-info-tab">
     <section id="flora-guide" class="flora-guide" aria-labelledby="flora-title">
-      <div class="flora-heading"><div><p class="section-kicker">Beyond state lines</p><h2 id="flora-title">What to plant here</h2><p>Search for an ecoregion above, choose one below, or select an area on the EPA map. Match plants to the light, soil and moisture where they’ll grow.</p></div></div>
-      <div class="ecoregion-picker"><label for="plant-ecoregion">Planting ecoregion</label><select id="plant-ecoregion" aria-describedby="plant-ecoregion-scope"><option value="">Choose an ecoregion</option></select><small id="plant-ecoregion-scope"></small></div>
-      <div id="planting-profile" aria-live="polite"><p class="profile-empty">Choose an ecoregion to see plants for its local habitats.</p></div><p class="flora-source"><a href="https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states" target="_blank" rel="noreferrer">EPA ecoregion maps ↗</a> </p>
+      <div class="flora-heading"><div><p class="section-kicker">Beyond state lines</p><h2 id="flora-title">What to plant here</h2><p>Choose your part of the country, then select your ecoregion on the map. You can also search by name above. Match plants to the light, soil and moisture where they’ll grow.</p></div></div>
+      <div class="ecoregion-picker">
+        <p class="eco-region-title" id="plant-region-title">Which part of the U.S. are you in?</p>
+        <div class="eco-regions" id="plant-regions" role="group" aria-labelledby="plant-region-title"></div>
+        <div class="eco-map-panel" id="plant-map-panel" hidden>
+          <h3 class="eco-map-title" id="plant-map-title">Choose your ecoregion</h3>
+          <p id="plant-map-status" role="status"></p>
+          <div class="eco-map-stage" id="plant-map-stage"></div>
+          <p class="eco-selection" id="plant-map-selection" hidden><span id="plant-map-selected-name"></span> · <a href="#planting-profile">See plants ↓</a></p>
+          <details class="eco-name-picker" id="plant-name-picker"><summary>Choose by ecoregion name</summary><div class="eco-names" id="plant-ecoregion-names"></div></details>
+          <p class="eco-map-credit" id="plant-map-credit"></p>
+        </div>
+      </div>
+      <div id="planting-profile" aria-live="polite"><p class="profile-empty">Choose a region to get started.</p></div><p class="flora-source"><a href="https://www.epa.gov/eco-research/level-iii-and-iv-ecoregions-continental-united-states" target="_blank" rel="noreferrer">EPA ecoregion maps ↗</a> </p>
     </section>
       </div>
       <div class="info-panel" id="about-map-panel" role="tabpanel" aria-labelledby="about-map-tab" hidden>
@@ -639,7 +670,7 @@
         map.addControl(new maplibregl.AttributionControl({compact:true,customAttribution:'© OpenFreeMap · © OpenMapTiles · © OpenStreetMap · U.S. Census Bureau'}));
         window.accessMap=map;
         map.on('error',e=>{if(/webgl|context/i.test(e.error?.message||'')){window.accessMap=null;loadFallbackStateBoundaries();renderSketchMap()}});
-        map.on('load',()=>{map.addSource('epa-ecoregions',{type:'geojson',data:'https://map23.epa.gov/ArcGIS/rest/services/Deposition/Overlays/MapServer/14/query?where=1%3D1&outFields=NA_L3KEY%2CNA_L3NAME&returnGeometry=true&outSR=4326&geometryPrecision=3&maxAllowableOffset=0.01&f=geojson',attribution:'U.S. EPA Level III Ecoregions'});const parts=['split',['at',0,['split',['get','NA_L3KEY'],' ']],'.'];const colorIndex=['%', ['+', ['*',['to-number',['at',0,parts]],5], ['*',['to-number',['at',1,parts]],3], ['to-number',['at',2,parts]]], 16];const ecoregionColors=['#2b7a78','#d8894b','#5d7caa','#a66b91','#769444','#c4584d','#4f8b69','#9673b9','#c49a3a','#4e7186','#b16d45','#47858a','#8b7756','#607d52','#ab6173','#7180a0'];const initialVisibility=document.getElementById('ecoregion-toggle')?.getAttribute('aria-pressed')==='true'?'visible':'none';map.addLayer({id:'epa-ecoregions-fill',type:'fill',source:'epa-ecoregions',paint:{'fill-color':['at',colorIndex,['literal',ecoregionColors]],'fill-opacity':0.24},layout:{visibility:initialVisibility}});map.addLayer({id:'epa-ecoregions-casing',type:'line',source:'epa-ecoregions',paint:{'line-color':'#fffefa','line-width':2.8,'line-opacity':0.92},layout:{visibility:initialVisibility}});map.addLayer({id:'epa-ecoregions-outline',type:'line',source:'epa-ecoregions',paint:{'line-color':'#304638','line-width':1.15,'line-opacity':0.92},layout:{visibility:initialVisibility}});map.addLayer({id:'epa-ecoregions-labels',type:'symbol',source:'epa-ecoregions',minzoom:4.1,layout:{visibility:initialVisibility,'text-field':['get','NA_L3NAME'],'text-font':['Noto Sans Regular'],'text-size':['interpolate',['linear'],['zoom'],4.1,9,6,11],'text-max-width':11,'text-padding':3,'text-allow-overlap':false,'text-ignore-placement':false},paint:{'text-color':'#233a2e','text-halo-color':'#fffefa','text-halo-width':2.2,'text-halo-blur':0.2}});map.on('click','epa-ecoregions-fill',event=>{const p=event.features?.[0]?.properties||{};const key=ecoregionKey(p.NA_L3KEY);if(plantingState&&key&&!guideData.stateRegions[plantingState]?.includes(key))return;renderPlantingProfile(p.NA_L3KEY||'unmapped');new maplibregl.Popup({closeButton:true,closeOnClick:true}).setLngLat(event.lngLat).setHTML(`<strong>${html(p.NA_L3NAME||'EPA ecoregion')}</strong><br><span style="color:#66746b;font-size:11px">EPA Level III · ${html(p.NA_L3KEY||'')}</span><br><a href="#flora-guide" onclick="document.getElementById('state-info-tab').click()">Explore planting guidance ↓</a>`).addTo(map)});map.on('mouseenter','epa-ecoregions-fill',()=>map.getCanvas().style.cursor='pointer');map.on('mouseleave','epa-ecoregions-fill',()=>map.getCanvas().style.cursor='');const stateColorMatch=['match',['get','STUSAB'],'AL','#8e8a77','AK','#7b8b7d','AZ','#7b8b7d','AR','#778991','CA','#778991','CO','#8e8a77','CT','#8e8a77','DE','#778991','DC','#7b8b7d','FL','#8e8a77','GA','#8e8a77','HI','#7b8b7d','ID','#8e8a77','IL','#78886f','IN','#8e8a77','IA','#9a877a','KS','#9a877a','KY','#78886f','LA','#8e8a77','ME','#8e8a77','MD','#7b8b7d','MA','#778991','MI','#7b8b7d','MN','#7b8b7d','MS','#7b8b7d','MO','#8e8a77','MT','#8e8a77','NE','#778991','NV','#78886f','NH','#7b8b7d','NJ','#778991','NM','#7b8b7d','NY','#778991','NC','#7b8b7d','ND','#8e8a77','OH','#8e8a77','OK','#78886f','OR','#8e8a77','PA','#7b8b7d','RI','#7b8b7d','SC','#7b8b7d','SD','#8e8a77','TN','#778991','TX','#778991','UT','#78886f','VT','#7b8b7d','VA','#8e8a77','WA','#778991','WV','#9a877a','WI','#7b8b7d','#7b8b7d'];map.addSource('state-boundaries',{type:'geojson',data:stateBoundaryUrl,attribution:'U.S. Census Bureau'});map.addLayer({id:'state-boundaries-casing',type:'line',source:'state-boundaries',paint:{'line-color':'#faf8f0','line-opacity':0.7,'line-width':['interpolate',['linear'],['zoom'],2,1.1,5,1.35,8,1.6]}});map.addLayer({id:'state-boundaries-line',type:'line',source:'state-boundaries',paint:{'line-color':stateColorMatch,'line-opacity':0.82,'line-width':['interpolate',['linear'],['zoom'],2,0.55,5,0.78,8,1.05]}});map.addSource('vendors',{type:'geojson',data:vendorFeatureCollection(),cluster:true,clusterMaxZoom:8,clusterRadius:44});
+        map.on('load',()=>{map.addSource('epa-ecoregions',{type:'geojson',data:'/api/epa-ecoregion-boundaries',attribution:'U.S. EPA Level III Ecoregions'});const parts=['split',['at',0,['split',['get','NA_L3KEY'],' ']],'.'];const colorIndex=['%', ['+', ['*',['to-number',['at',0,parts]],5], ['*',['to-number',['at',1,parts]],3], ['to-number',['at',2,parts]]], 16];const ecoregionColors=['#2b7a78','#d8894b','#5d7caa','#a66b91','#769444','#c4584d','#4f8b69','#9673b9','#c49a3a','#4e7186','#b16d45','#47858a','#8b7756','#607d52','#ab6173','#7180a0'];const initialVisibility=document.getElementById('ecoregion-toggle')?.getAttribute('aria-pressed')==='true'?'visible':'none';map.addLayer({id:'epa-ecoregions-fill',type:'fill',source:'epa-ecoregions',paint:{'fill-color':['at',colorIndex,['literal',ecoregionColors]],'fill-opacity':0.24},layout:{visibility:initialVisibility}});map.addLayer({id:'epa-ecoregions-casing',type:'line',source:'epa-ecoregions',paint:{'line-color':'#fffefa','line-width':2.8,'line-opacity':0.92},layout:{visibility:initialVisibility}});map.addLayer({id:'epa-ecoregions-outline',type:'line',source:'epa-ecoregions',paint:{'line-color':'#304638','line-width':1.15,'line-opacity':0.92},layout:{visibility:initialVisibility}});map.addLayer({id:'epa-ecoregions-labels',type:'symbol',source:'epa-ecoregions',minzoom:4.1,layout:{visibility:initialVisibility,'text-field':['get','NA_L3NAME'],'text-font':['Noto Sans Regular'],'text-size':['interpolate',['linear'],['zoom'],4.1,9,6,11],'text-max-width':11,'text-padding':3,'text-allow-overlap':false,'text-ignore-placement':false},paint:{'text-color':'#233a2e','text-halo-color':'#fffefa','text-halo-width':2.2,'text-halo-blur':0.2}});map.on('click','epa-ecoregions-fill',event=>{const p=event.features?.[0]?.properties||{};const key=ecoregionKey(p.NA_L3KEY);if(plantingState&&key&&!guideData.stateRegions[plantingState]?.includes(key))return;renderPlantingProfile(p.NA_L3KEY||'unmapped');new maplibregl.Popup({closeButton:true,closeOnClick:true}).setLngLat(event.lngLat).setHTML(`<strong>${html(p.NA_L3NAME||'EPA ecoregion')}</strong><br><span style="color:#66746b;font-size:11px">EPA Level III · ${html(p.NA_L3KEY||'')}</span><br><a href="#flora-guide" onclick="document.getElementById('state-info-tab').click()">Explore planting guidance ↓</a>`).addTo(map)});map.on('mouseenter','epa-ecoregions-fill',()=>map.getCanvas().style.cursor='pointer');map.on('mouseleave','epa-ecoregions-fill',()=>map.getCanvas().style.cursor='');const stateColorMatch=['match',['get','STUSAB'],'AL','#8e8a77','AK','#7b8b7d','AZ','#7b8b7d','AR','#778991','CA','#778991','CO','#8e8a77','CT','#8e8a77','DE','#778991','DC','#7b8b7d','FL','#8e8a77','GA','#8e8a77','HI','#7b8b7d','ID','#8e8a77','IL','#78886f','IN','#8e8a77','IA','#9a877a','KS','#9a877a','KY','#78886f','LA','#8e8a77','ME','#8e8a77','MD','#7b8b7d','MA','#778991','MI','#7b8b7d','MN','#7b8b7d','MS','#7b8b7d','MO','#8e8a77','MT','#8e8a77','NE','#778991','NV','#78886f','NH','#7b8b7d','NJ','#778991','NM','#7b8b7d','NY','#778991','NC','#7b8b7d','ND','#8e8a77','OH','#8e8a77','OK','#78886f','OR','#8e8a77','PA','#7b8b7d','RI','#7b8b7d','SC','#7b8b7d','SD','#8e8a77','TN','#778991','TX','#778991','UT','#78886f','VT','#7b8b7d','VA','#8e8a77','WA','#778991','WV','#9a877a','WI','#7b8b7d','#7b8b7d'];map.addSource('state-boundaries',{type:'geojson',data:stateBoundaryUrl,attribution:'U.S. Census Bureau'});map.addLayer({id:'state-boundaries-casing',type:'line',source:'state-boundaries',paint:{'line-color':'#faf8f0','line-opacity':0.7,'line-width':['interpolate',['linear'],['zoom'],2,1.1,5,1.35,8,1.6]}});map.addLayer({id:'state-boundaries-line',type:'line',source:'state-boundaries',paint:{'line-color':stateColorMatch,'line-opacity':0.82,'line-width':['interpolate',['linear'],['zoom'],2,0.55,5,0.78,8,1.05]}});map.addSource('vendors',{type:'geojson',data:vendorFeatureCollection(),cluster:true,clusterMaxZoom:8,clusterRadius:44});
           map.addLayer({id:'vendor-clusters',type:'circle',source:'vendors',filter:['has','point_count'],paint:{'circle-color':'#315b45','circle-radius':['step',['get','point_count'],17,25,21,100,26],'circle-stroke-color':'#faf8f0','circle-stroke-width':2}});
           map.addLayer({id:'vendor-cluster-count',type:'symbol',source:'vendors',filter:['has','point_count'],layout:{'text-field':['get','point_count_abbreviated'],'text-font':['Noto Sans Bold'],'text-size':12},paint:{'text-color':'#fffefa'}});
           map.addLayer({id:'vendor-points',type:'circle',source:'vendors',filter:['!', ['has','point_count']],paint:{'circle-color':['get','color'],'circle-radius':['case',['get','selected'],9,6],'circle-stroke-color':'#faf8f0','circle-stroke-width':['case',['get','selected'],3,2]}});
@@ -670,8 +701,9 @@
       if(overlay.getAttribute('aria-pressed')==='true')overlay.click();
       vendorPopup?.remove();
       vendorPopup=null;
-      renderStateResources('');
-      renderPlantingProfile('');
+      plantingRegion='';
+      if(plantingState)renderStateResources('');
+      else updateEcoregionPicker();
       document.getElementById('search-status').textContent='Filters reset. Showing providers across the U.S.';
       render();
       refreshMapLayers();
@@ -899,32 +931,195 @@
       const key=String(rawKey||'').trim().split(/\s+/)[0];
       return Object.hasOwn(guideData.regions,key)?key:'';
     }
-    let plantingState='';
+    const plantingRegions={
+      northeast:{label:'Northeast',states:macroRegions.northeast},
+      midatlantic:{label:'Mid-Atlantic',states:macroRegions.midatlantic},
+      greatlakes:{label:'Great Lakes',states:macroRegions.greatlakes},
+      appalachia:{label:'Appalachia',states:macroRegions.appalachia},
+      south:{label:'South',states:macroRegions.south},
+      plains:{label:'Great Plains',states:macroRegions.plains},
+      mountainwest:{label:'Mountain West',states:macroRegions.mountainwest},
+      southwest:{label:'Southwest',states:macroRegions.southwest},
+      pacific:{label:'Pacific Coast',states:['CA','OR','WA']},
+      alaska:{label:'Alaska',states:['AK']},
+      hawaii:{label:'Hawaiʻi',states:['HI']}
+    };
+    const plantingColors=['#57a28e','#dc9159','#7696c8','#be7ca1','#a4af55','#d8786c','#78adca','#a58ac6','#dfb34f','#6b9a65','#cf9c9a','#86a989','#cb9c63','#8c94ac','#bbac71','#62a9a5'];
+    const hawaiiPlantingKeys={
+      "Hawaii tropical moist forests":"OC0106",
+      "Hawaii tropical dry forests":"OC0202",
+      "Hawaii tropical high shrublands":"OC0701",
+      "Hawaii tropical low shrublands":"OC0702"
+    };
+    const plantingBoundaryRequests=new Map();
+    let plantingState='',plantingRegion='',selectedPlantingKey='',plantingMapRequest=0;
+
+    function plantingEntries(states){
+      const keys=new Set(states.flatMap(state=>guideData.stateRegions[state]||[]));
+      return regionEntries.filter(([key])=>keys.has(key));
+    }
+    function plantingColor(key){
+      const parts=key.match(/\d+/g).map(Number);
+      const index=parts.length===1?parts[0]:parts[0]*5+parts[1]*3+parts[2];
+      return plantingColors[index%plantingColors.length];
+    }
+    function loadPlantingBoundaries(url){
+      if(!plantingBoundaryRequests.has(url)){
+        const request=fetch(url,{signal:AbortSignal.timeout(12000)}).then(async response=>{
+          if(!response.ok)throw new Error('Boundaries unavailable');
+          const data=await response.json();
+          if(data.type!=='FeatureCollection'||!data.features?.length)throw new Error('Boundaries unavailable');
+          return data.features;
+        }).catch(error=>{
+          plantingBoundaryRequests.delete(url);
+          throw error;
+        });
+        plantingBoundaryRequests.set(url,request);
+      }
+      return plantingBoundaryRequests.get(url);
+    }
+    function plantingPolygons(geometry){
+      if(geometry?.type==='Polygon')return [geometry.coordinates];
+      if(geometry?.type==='MultiPolygon')return geometry.coordinates;
+      return [];
+    }
+    function plantingMapExtent(outlines,isAlaska,isHawaii){
+      const longitude=value=>isAlaska&&value>0?value-360:value;
+      const bounds=[Infinity,Infinity,-Infinity,-Infinity];
+      for(const feature of outlines){
+        for(const polygon of plantingPolygons(feature.geometry)){
+          for(const [lng,lat] of polygon[0]){
+            const x=longitude(lng);
+            bounds[0]=Math.min(bounds[0],x);
+            bounds[1]=Math.min(bounds[1],lat);
+            bounds[2]=Math.max(bounds[2],x);
+            bounds[3]=Math.max(bounds[3],lat);
+          }
+        }
+      }
+      // Focus the Hawaiʻi view on the islands covered by the planting guide.
+      const [west,south,east,north]=isHawaii?[-160.7,18.8,-154.7,22.35]:bounds;
+      const cosine=Math.cos((south+north)*Math.PI/360);
+      const scale=Math.min(690/((east-west)*cosine),342/(north-south));
+      return (lng,lat)=>[
+        +(360+(longitude(lng)-(west+east)/2)*cosine*scale).toFixed(1),
+        +(185+((south+north)/2-lat)*scale).toFixed(1)
+      ];
+    }
+    function plantingGeometryPath(geometry,project){
+      return plantingPolygons(geometry).flatMap(polygon=>polygon.map(ring=>
+        ring.map(([lng,lat],i)=>(i?'L':'M')+project(lng,lat).join(',')).join('')+'Z'
+      )).join('');
+    }
+    function renderPlantingMap(outlines,features,entries,scope,isAlaska,isHawaii){
+      const project=plantingMapExtent(outlines,isAlaska,isHawaii);
+      const paths=new Map(entries.map(([key])=>[key,[]]));
+      for(const feature of features){
+        const key=ecoregionKey(isHawaii?hawaiiPlantingKeys[feature.properties?.ECO_NAME]:feature.properties?.NA_L3KEY);
+        if(!paths.has(key))continue;
+        const path=plantingGeometryPath(feature.geometry,project);
+        if(path)paths.get(key).push(path);
+      }
+      const outlinePaths=outlines.map(feature=>plantingGeometryPath(feature.geometry,project));
+      const clip=outlinePaths.map(path=>'<path d="'+path+'" clip-rule="evenodd"/>').join('');
+      const shapes=entries.filter(([key])=>paths.get(key).length).map(([key,region])=>
+        '<path class="eco-shape" data-planting-key="'+key+'" role="button" tabindex="0" aria-label="'+html(region.name)+'" fill="'+plantingColor(key)+'" fill-rule="evenodd" d="'+paths.get(key).join('')+'"><title>'+html(region.name)+'</title></path>'
+      ).join('');
+      if(!shapes)return false;
+      const edges=outlinePaths.map(path=>'<path class="eco-state-outline" d="'+path+'"/>').join('');
+      const stage=document.getElementById('plant-map-stage');
+      stage.innerHTML='<svg viewBox="0 0 720 370" role="group" aria-label="Interactive ecoregion map of '+html(scope)+'"><defs><clipPath id="plant-map-clip">'+clip+'</clipPath></defs><g clip-path="url(#plant-map-clip)"><rect width="720" height="370" fill="#dfe7d6"/>'+shapes+'</g>'+edges+'</svg>';
+      stage.querySelectorAll('[data-planting-key]').forEach(shape=>{
+        shape.addEventListener('click',()=>renderPlantingProfile(shape.dataset.plantingKey));
+        shape.addEventListener('keydown',event=>{
+          if(event.key!=='Enter'&&event.key!==' ')return;
+          event.preventDefault();
+          renderPlantingProfile(shape.dataset.plantingKey);
+        });
+      });
+      updatePlantingSelection();
+      return entries.every(([key])=>paths.get(key).length);
+    }
+    async function loadPlantingMap(states,entries,scope,request){
+      const isAlaska=states.includes('AK'),isHawaii=states.includes('HI');
+      const status=document.getElementById('plant-map-status');
+      const namePicker=document.getElementById('plant-name-picker');
+      status.textContent='Loading ecoregion boundaries…';
+      try{
+        const [boundaries,ecoregions]=await Promise.all([
+          loadPlantingBoundaries(stateBoundaryUrl),
+          loadPlantingBoundaries(isHawaii?'/api/hawaii-ecoregion-boundaries':'/api/epa-ecoregion-boundaries')
+        ]);
+        if(request!==plantingMapRequest)return;
+        const outlines=boundaries.filter(feature=>states.includes(feature.properties?.STUSAB)&&plantingPolygons(feature.geometry).length);
+        if(new Set(outlines.map(feature=>feature.properties.STUSAB)).size!==states.length)throw new Error('State boundaries unavailable');
+        const complete=renderPlantingMap(outlines,ecoregions,entries,scope,isAlaska,isHawaii);
+        const mapped=!!document.getElementById('plant-map-stage').firstElementChild;
+        if(!mapped)throw new Error('Local boundaries unavailable');
+        status.textContent=complete?'Select a colored area to see plants for that ecoregion.':'Some areas are available by name below.';
+        document.getElementById('plant-map-credit').textContent=(isHawaii?'Hawaiʻi terrestrial ecoregions':'EPA Level III ecoregions')+' · U.S. Census Bureau state boundaries';
+        if(!complete)namePicker.open=true;
+      }catch{
+        if(request!==plantingMapRequest)return;
+        status.textContent='The map is temporarily unavailable. Choose your ecoregion by name below.';
+        namePicker.open=true;
+      }
+    }
+    function updatePlantingSelection(){
+      const root=document.getElementById('plant-map-panel');
+      root.querySelectorAll('[data-planting-key]').forEach(control=>{
+        const active=control.dataset.plantingKey===selectedPlantingKey;
+        control.setAttribute('aria-pressed',String(active));
+        control.classList.toggle('is-selected',active);
+      });
+      document.getElementById('plant-map-selection').hidden=!selectedPlantingKey;
+      document.getElementById('plant-map-selected-name').textContent=guideData.regions[selectedPlantingKey]?.name||'';
+    }
     function updateEcoregionPicker(state=''){
       plantingState=state;
-      const picker=document.getElementById('plant-ecoregion');
-      const selected=picker.value;
-      const keys=state?new Set(guideData.stateRegions[state]||[]):null;
-      const entries=regionEntries.filter(([key])=>!keys||keys.has(key));
-      picker.replaceChildren(new Option(state?'Choose an ecoregion in '+stateLabels[state]:'Choose an ecoregion',''));
-      for(const [label,hawaii] of [['EPA Level III · Mainland and Alaska',false],['Hawaiʻi terrestrial ecoregions',true]]){
-        const group=document.createElement('optgroup');
-        group.label=label;
-        for(const [key,region] of entries){
-          if(key.startsWith('OC')===hawaii)group.append(new Option(region.name,key));
-        }
-        if(group.childElementCount)picker.append(group);
-      }
-      document.getElementById('plant-ecoregion-scope').textContent=state?
-        entries.length+' '+(entries.length===1?'ecoregion':'ecoregions')+' in '+stateLabels[state]:
-        'Browse all '+entries.length+' U.S. ecoregions.';
-      if(entries.some(([key])=>key===selected))picker.value=selected;
-      else if(selected||state)renderPlantingProfile(entries.length===1?entries[0][0]:'');
+      if(state)plantingRegion=Object.keys(plantingRegions).find(id=>plantingRegions[id].states.includes(state))||'';
+      const region=plantingRegions[plantingRegion];
+      const states=state?[state]:region?.states||[];
+      const entries=plantingEntries(states);
+      const buttons=document.getElementById('plant-regions');
+      document.getElementById('plant-region-title').textContent=state?'Browsing '+stateLabels[state]:'Which part of the U.S. are you in?';
+      buttons.hidden=!!state;
+      buttons.querySelectorAll('[data-planting-region]').forEach(button=>
+        button.setAttribute('aria-pressed',String(button.dataset.plantingRegion===plantingRegion))
+      );
+      const panel=document.getElementById('plant-map-panel');
+      panel.hidden=!states.length;
+      const request=++plantingMapRequest;
+      const stage=document.getElementById('plant-map-stage');
+      stage.replaceChildren();
+      document.getElementById('plant-map-credit').textContent='';
+      document.getElementById('plant-name-picker').open=false;
+      const scope=state==='HI'?'Hawaiʻi':state?stateLabels[state]:region?.label;
+      document.getElementById('plant-map-title').textContent=scope?'Choose your ecoregion · '+scope:'Choose your ecoregion';
+      const names=document.getElementById('plant-ecoregion-names');
+      names.innerHTML=entries.map(([key,entry])=>
+        '<button type="button" data-planting-key="'+key+'"><span class="eco-swatch" style="--eco-color:'+plantingColor(key)+'" aria-hidden="true"></span>'+html(entry.name)+'</button>'
+      ).join('');
+      if(!entries.some(([key])=>key===selectedPlantingKey))renderPlantingProfile('');
+      else updatePlantingSelection();
+      if(states.length)return loadPlantingMap(states,entries,scope,request);
     }
     function setupEcoregionPicker(){
+      const buttons=document.getElementById('plant-regions');
+      buttons.innerHTML=Object.entries(plantingRegions).map(([id,region])=>
+        '<button type="button" data-planting-region="'+id+'" aria-pressed="false">'+region.label+'</button>'
+      ).join('');
+      buttons.addEventListener('click',event=>{
+        const button=event.target.closest('[data-planting-region]');
+        if(!button||plantingRegion===button.dataset.plantingRegion)return;
+        plantingRegion=button.dataset.plantingRegion;
+        updateEcoregionPicker();
+      });
+      document.getElementById('plant-ecoregion-names').addEventListener('click',event=>{
+        const button=event.target.closest('[data-planting-key]');
+        if(button)renderPlantingProfile(button.dataset.plantingKey);
+      });
       updateEcoregionPicker();
-      const picker=document.getElementById('plant-ecoregion');
-      picker.addEventListener('change',()=>renderPlantingProfile(picker.value));
     }
     const shuffledPlantCards=new Map();
     function plantOrderForRegion(key){
@@ -941,13 +1136,17 @@
     function renderPlantingProfile(rawKey,habitat='all'){
       const key=ecoregionKey(rawKey);
       const root=document.getElementById('planting-profile');
-      const picker=document.getElementById('plant-ecoregion');
       if(key&&plantingState&&!guideData.stateRegions[plantingState]?.includes(key))return;
-      picker.value=key;
+      selectedPlantingKey=key;
+      if(key&&!plantingState&&!plantingEntries(plantingRegions[plantingRegion]?.states||[]).some(([id])=>id===key)){
+        plantingRegion=Object.keys(plantingRegions).find(id=>plantingEntries(plantingRegions[id].states).some(([entry])=>entry===key))||'';
+        updateEcoregionPicker();
+      }
+      updatePlantingSelection();
       if(!key){
         root.innerHTML='<p class="profile-empty">'+(rawKey?
           'This map area is outside the current U.S. planting guide coverage. Choose a U.S. ecoregion above.':
-          plantingState?'Choose an ecoregion in '+html(stateLabels[plantingState])+' to see plants for its local habitats.':'Choose an ecoregion to see plants for its local habitats.')+'</p>';
+          plantingState||plantingRegion?'Choose an ecoregion to see plants for its local habitats.':'Choose a region to get started.')+'</p>';
         return;
       }
       const region=guideData.regions[key];
