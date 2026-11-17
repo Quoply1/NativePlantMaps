@@ -488,6 +488,14 @@
     .eco-regions button[aria-pressed=true],.eco-names button[aria-pressed=true]{background:var(--forest);border-color:var(--forest);color:white}
     .eco-map-panel{padding:14px;border:1px solid #cfd7c7;border-radius:8px;background:#f3f5ed}
     .eco-map-panel p{margin:0 0 10px;color:#40584a;font-size:13px}
+    .eco-map-frame{position:relative}
+    .eco-hover-label,.eco-main-tooltip .maplibregl-popup-content{background:#173b30;color:#fffefa;border:1px solid #f4f7ea;border-radius:7px!important;padding:8px 11px;box-shadow:0 4px 14px #18382f44;font:700 14px/1.3 system-ui,sans-serif;overflow-wrap:anywhere}
+    .eco-hover-label{position:absolute;z-index:1;max-width:min(230px,calc(100% - 16px));pointer-events:none}
+    .eco-main-tooltip{pointer-events:none}
+    .sketch-ecoregion{fill-opacity:.68}
+    .sketch-ecoregion:hover,.sketch-ecoregion:focus-visible{fill-opacity:.9}
+    .sketch-ecoregion-overlay{pointer-events:none}
+    .eco-main-tooltip .maplibregl-popup-tip{display:none}
     .eco-map-stage svg{display:block;width:100%;height:clamp(245px,42vw,365px);border-radius:5px;background:#e7eff0}
     .eco-shape{stroke:#fffefa;stroke-width:1;vector-effect:non-scaling-stroke;cursor:pointer}
     .eco-shape:hover,.eco-shape:focus-visible,.eco-shape.is-selected{stroke:#173b30;stroke-width:2.5;filter:brightness(1.08)}
@@ -600,7 +608,10 @@
         <div class="eco-map-panel" id="plant-map-panel" hidden>
           <h3 class="eco-map-title" id="plant-map-title">Choose your ecoregion</h3>
           <p id="plant-map-status" role="status"></p>
-          <div class="eco-map-stage" id="plant-map-stage"></div>
+          <div class="eco-map-frame">
+            <div class="eco-map-stage" id="plant-map-stage"></div>
+            <div class="eco-hover-label" id="plant-hover-label" aria-hidden="true" hidden></div>
+          </div>
           <p class="eco-selection" id="plant-map-selection" hidden><span id="plant-map-selected-name"></span> · <a href="#planting-profile">See plants ↓</a></p>
           <details class="eco-name-picker" id="plant-name-picker"><summary>Choose by ecoregion name</summary><div class="eco-names" id="plant-ecoregion-names"></div></details>
           <p class="eco-map-credit" id="plant-map-credit"></p>
@@ -654,14 +665,110 @@
       const box=document.getElementById('map');
       const project=(lat,lng,state)=>{if(state==='AK')return [Math.round(35+(lng+180)/55*210),Math.round(30+(72-lat)/22*120)];if(state==='HI')return [Math.round(255+(lng+161)/7*110),Math.round(485+(23-lat)/6*100)];return [Math.round(350+(lng+125)/59*600),Math.round(65+(50-lat)/26*535)]};
       const screenScale=sketchView.w/Math.max(1,box.clientWidth),clusterRadius=28*screenScale,places=vendors.filter(v=>v.lat!=null&&v.lng!=null&&layerVisible(v)&&filtered().some(x=>x.id===v.id)).map(v=>{const [x,y]=project(v.lat,v.lng,v.state);return {id:String(v.id),name:v.name,area:v.area,status:statusLabel(v),color:markerColor(v),x,y}}),groups=[];for(const place of places){let group=groups.find(g=>Math.hypot(g.x/g.items.length-place.x,g.y/g.items.length-place.y)<=clusterRadius);if(!group){group={x:0,y:0,items:[]};groups.push(group)}group.x+=place.x;group.y+=place.y;group.items.push(place)}const placesMarkup=groups.map(group=>{const cx=group.x/group.items.length,cy=group.y/group.items.length;if(group.items.length>1){const ids=group.items.map(item=>item.id).join(','),count=group.items.length;return `<g class="sketch-cluster" style="cursor:pointer" data-cluster-ids="${html(ids)}" role="button" tabindex="0" aria-label="Show ${count} provider listings"><title>${count} providers nearby · click to list</title><circle cx="${cx}" cy="${cy}" r="${15*screenScale}" fill="#315b45" stroke="#fffefa" stroke-width="${2*screenScale}"/><text x="${cx}" y="${cy}" text-anchor="middle" dominant-baseline="central" fill="#fffefa" font-size="${12*screenScale}" font-weight="700">${count}</text></g>`}const item=group.items[0];return `<g class="sketch-point ${selectedId===item.id?'selected-point':''}" data-map-id="${html(item.id)}" role="button" tabindex="0"><title>${html(item.name)} · ${html(item.area)} · ${html(item.status)}</title><circle cx="${cx}" cy="${cy}" r="${8*screenScale}" fill="${item.color}" stroke="#fffefa" stroke-width="${3*screenScale}"/><circle cx="${cx}" cy="${cy}" r="${13*screenScale}" fill="transparent"/></g>`}).join(''),stateLines=sketchStateBoundaries(project);
-      box.innerHTML=`<svg id="fallback-svg" width="100%" height="100%" viewBox="${sketchView.x} ${sketchView.y} ${sketchView.w} ${sketchView.h}" role="img" aria-label="Schematic United States map with native plant sources"><rect width="1000" height="650" fill="#f0f1e9"/>${stateLines}<text x="392" y="170" class="landlabel">WEST</text><text x="558" y="225" class="landlabel">PLAINS</text><text x="690" y="185" class="landlabel">GREAT LAKES</text><text x="764" y="280" class="landlabel">NORTHEAST</text><text x="673" y="370" class="landlabel">SOUTH</text><text x="520" y="405" class="landlabel">SOUTHWEST</text><text x="75" y="33" class="smalllabel">ALASKA</text><text x="270" y="475" class="smalllabel">HAWAII</text><text x="820" y="525" class="waterlabel">ATLANTIC</text><text x="350" y="620" class="waterlabel">PACIFIC</text>${placesMarkup}</svg>`
+      const showEcoregions=document.getElementById('ecoregion-toggle').getAttribute('aria-pressed')==='true';
+      if(showEcoregions)sketchEcoregions(project);
+      const ecoOverlay=showEcoregions&&stateLines&&sketchEcoregionMarkup?
+        '<defs><clipPath id="sketch-ecoregion-clip">'+stateLines+'</clipPath></defs><g clip-path="url(#sketch-ecoregion-clip)">'+sketchEcoregionMarkup+'</g><g class="sketch-ecoregion-overlay">'+stateLines.replaceAll('fill="#e2e7db"','fill="none"')+'</g>':'';
+      box.innerHTML=`<svg id="fallback-svg" width="100%" height="100%" viewBox="${sketchView.x} ${sketchView.y} ${sketchView.w} ${sketchView.h}" role="group" aria-label="Schematic United States map with native plant sources"><rect width="1000" height="650" fill="#f0f1e9"/>${stateLines}${ecoOverlay}<text x="392" y="170" class="landlabel">WEST</text><text x="558" y="225" class="landlabel">PLAINS</text><text x="690" y="185" class="landlabel">GREAT LAKES</text><text x="764" y="280" class="landlabel">NORTHEAST</text><text x="673" y="370" class="landlabel">SOUTH</text><text x="520" y="405" class="landlabel">SOUTHWEST</text><text x="75" y="33" class="smalllabel">ALASKA</text><text x="270" y="475" class="smalllabel">HAWAII</text><text x="820" y="525" class="waterlabel">ATLANTIC</text><text x="350" y="620" class="waterlabel">PACIFIC</text>${placesMarkup}</svg>${ecoOverlay?'<div class="eco-hover-label" aria-hidden="true" hidden></div>':''}`
       const svg=box.querySelector('#fallback-svg');let drag=null;
+      if(ecoOverlay)bindEcoregionShapes(box,box.querySelector('.eco-hover-label'),key=>{
+        renderPlantingProfile(key);
+        activateInfoTab('state');
+        document.getElementById('flora-guide').scrollIntoView({block:'start'});
+      });
       svg.addEventListener('wheel',e=>{e.preventDefault();const factor=e.deltaY>0?1.15:.87;const r=svg.getBoundingClientRect(),px=(e.clientX-r.left)/r.width*sketchView.w+sketchView.x,py=(e.clientY-r.top)/r.height*sketchView.h+sketchView.y;const nw=Math.max(230,Math.min(1250,sketchView.w*factor)),nh=nw*.65;sketchView={x:px-(px-sketchView.x)*nw/sketchView.w,y:py-(py-sketchView.y)*nh/sketchView.h,w:nw,h:nh};svg.setAttribute('viewBox',`${sketchView.x} ${sketchView.y} ${sketchView.w} ${sketchView.h}`)},{passive:false});
-      svg.addEventListener('pointerdown',e=>{if(e.target.closest('[data-map-id],[data-cluster-ids]'))return;drag={x:e.clientX,y:e.clientY,vx:sketchView.x,vy:sketchView.y};svg.setPointerCapture(e.pointerId)});svg.addEventListener('pointermove',e=>{if(!drag)return;const r=svg.getBoundingClientRect();sketchView.x=drag.vx-(e.clientX-drag.x)/r.width*sketchView.w;sketchView.y=drag.vy-(e.clientY-drag.y)/r.height*sketchView.h;svg.setAttribute('viewBox',`${sketchView.x} ${sketchView.y} ${sketchView.w} ${sketchView.h}`)});svg.addEventListener('pointerup',()=>drag=null);
+      svg.addEventListener('pointerdown',e=>{if(e.target.closest('[data-map-id],[data-cluster-ids]'))return;drag={x:e.clientX,y:e.clientY,vx:sketchView.x,vy:sketchView.y,captured:false}});svg.addEventListener('pointermove',e=>{if(!drag)return;if(!drag.captured){if(Math.hypot(e.clientX-drag.x,e.clientY-drag.y)<4)return;svg.setPointerCapture(e.pointerId);drag.captured=true}const r=svg.getBoundingClientRect();sketchView.x=drag.vx-(e.clientX-drag.x)/r.width*sketchView.w;sketchView.y=drag.vy-(e.clientY-drag.y)/r.height*sketchView.h;svg.setAttribute('viewBox',`${sketchView.x} ${sketchView.y} ${sketchView.w} ${sketchView.h}`)});svg.addEventListener('pointerup',()=>drag=null);svg.addEventListener('pointercancel',()=>drag=null);
       box.querySelectorAll('[data-map-id]').forEach(point=>{point.addEventListener('click',()=>selectVendor(point.dataset.mapId));point.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectVendor(point.dataset.mapId)}})});box.querySelectorAll('[data-cluster-ids]').forEach(cluster=>{const showListings=()=>{const ids=cluster.dataset.clusterIds.split(',');clusterFocusIds=ids;clusterFocusCount=ids.length;selectedId=null;currentPage=1;const members=places.filter(item=>ids.includes(item.id));if(members.length){const xs=members.map(item=>item.x),ys=members.map(item=>item.y),cx=(Math.min(...xs)+Math.max(...xs))/2,cy=(Math.min(...ys)+Math.max(...ys))/2,newW=Math.min(sketchView.w,Math.max(230,sketchView.w*.55,(Math.max(...xs)-Math.min(...xs))*2.5)),newH=newW*.65;sketchView={x:cx-newW/2,y:cy-newH/2,w:newW,h:newH}}renderSketchMap();render();if(window.matchMedia('(max-width:900px)').matches)document.querySelector('.directory')?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})};cluster.addEventListener('pointerup',e=>{e.preventDefault();showListings()});cluster.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showListings()}})});
     }
     function vendorFeatureCollection(){const visible=new Set(filtered().map(v=>String(v.id)));return {type:'FeatureCollection',features:vendors.filter(v=>v.lat!=null&&v.lng!=null&&visible.has(String(v.id))).map(v=>({type:'Feature',geometry:{type:'Point',coordinates:[Number(v.lng),Number(v.lat)]},properties:{id:String(v.id),name:v.name,area:v.area,status:statusLabel(v),color:markerColor(v),selected:String(v.id)===String(selectedId)}}))}}
     function showVendorPopup(v){if(!window.accessMap||v.lat==null||v.lng==null)return;if(vendorPopup)vendorPopup.remove();vendorPopup=new maplibregl.Popup({offset:12,closeButton:true}).setLngLat([v.lng,v.lat]).setHTML(`<div class="popupname">${html(v.name)}</div><div class="popupstatus">${html(v.area)} · ${html(statusLabel(v))}</div><button class="popupbutton" type="button">Open listing →</button>`).addTo(window.accessMap);vendorPopup.getElement().querySelector('.popupbutton')?.addEventListener('click',()=>selectVendor(v.id))}
+    // These color groups give EPA regions that share boundary vertices different fills.
+    const colorGroups=[
+      [["1.1.1","2.1.6","2.2.1","2.2.4","2.3.1","5.1.3","6.1.4","6.2.15","8.1.3","8.1.6","8.3.5","8.4.8","9.2.2","9.4.1","9.5.1","10.1.1","10.1.5","10.1.7","11.1.1","12.1.1","13.4.2","13.6.1","15.1.1"],'#2c948b'],
+      [["2.1.2","2.1.7","2.2.3","3.1.3","3.2.1","5.1.5","5.2.1","5.2.3","6.1.5","6.2.8","7.1.7","8.1.2","8.2.3","8.3.1","8.4.3","8.5.2","9.3.1","9.4.2","10.1.8","10.2.3","13.2.1","14.4.3","15.1.2"],'#e1b34d'],
+      [["2.1.3","2.2.2","3.4.3","4.1.2","5.2.2","5.3.1","5.4.3","6.1.1","6.2.1","6.2.6","6.2.11","7.1.1","7.1.5","8.1.5","8.5.3","9.3.4","9.4.4","10.1.6","10.2.2","13.3.1","14.1.1","14.6.1","15.5.2"],'#9b80bf'],
+      [["1.1.2","2.1.8","2.2.6","2.4.2","3.3.1","5.1.6","5.4.1","6.1.2","6.2.4","7.1.8","8.1.7","8.1.9","8.1.10","8.2.2","8.4.7","9.2.3","10.2.1","11.1.2","12.2.1","13.1.1","13.6.2","14.1.2","14.5.2"],'#d2769c'],
+      [["2.2.5","2.4.1","3.1.2","3.2.2","3.3.2","3.4.4","4.1.1","5.1.4","6.2.2","8.1.8","8.2.1","8.3.2","8.3.4","8.4.9","9.2.1","9.3.3","9.4.3","9.4.5","10.1.3","13.4.1","13.5.2","14.6.2","15.2.1"],'#649fcb'],
+      [["2.4.3","3.1.1","5.1.1","5.1.2","5.4.2","6.2.5","6.2.9","6.2.10","6.2.14","7.1.2","7.1.3","8.1.1","8.4.1","8.5.1","9.2.4","9.4.7","10.2.4","14.3.1","14.4.1","15.2.3","15.3.1","15.5.1"],'#8eaa53'],
+      [["2.1.4","2.4.4","3.4.2","3.4.5","5.3.3","6.1.3","6.1.6","6.2.3","6.2.12","7.1.6","7.1.9","8.3.3","8.3.7","8.4.4","8.4.5","9.6.1","10.1.4","13.5.1","14.3.2","15.2.2","15.4.1","15.6.1"],'#d78455'],
+      [["2.1.1","2.1.5","2.1.9","3.2.3","3.4.1","6.2.7","6.2.13","7.1.4","8.1.4","8.2.4","8.3.6","8.3.8","8.4.2","8.4.6","8.5.4","9.4.6","10.1.2","11.1.3","12.1.2","14.2.1","14.4.2","14.5.1"],'#71948a']
+    ];
+
+    let sketchEcoregionMarkup='',sketchEcoregionLoading=false;
+    function sketchEcoregions(project){
+      if(sketchEcoregionMarkup||sketchEcoregionLoading)return;
+      sketchEcoregionLoading=true;
+      loadPlantingBoundaries('/api/epa-ecoregion-boundaries').then(features=>{
+        const alaska=new Set(guideData.stateRegions.AK);
+        const colors=new Map(colorGroups.flatMap(([keys,color])=>keys.map(key=>[key,color])));
+        const paths=new Map();
+        for(const {properties,geometry} of features){
+          const key=ecoregionKey(properties?.NA_L3KEY);
+          if(!key)continue;
+          const state=alaska.has(key)?'AK':'';
+          const path=plantingGeometryPath(geometry,(lng,lat)=>project(lat,state&&lng>0?lng-360:lng,state));
+          if(path){
+            if(!paths.has(key))paths.set(key,[]);
+            paths.get(key).push(path);
+          }
+        }
+        sketchEcoregionMarkup=Array.from(paths,([key,commands])=>
+          '<path class="eco-shape sketch-ecoregion" data-planting-key="'+key+'" role="button" tabindex="0" aria-label="'+html(guideData.regions[key].name)+'" fill="'+colors.get(key)+'" fill-rule="evenodd" d="'+commands.join('')+'"/>'
+        ).join('');
+        if(!window.accessMap)renderSketchMap();
+      }).catch(()=>{}).finally(()=>{sketchEcoregionLoading=false});
+    }
+    function addEcoregionLayer(map){
+      const source='epa-ecoregions',fill=source+'-fill';
+      const toggle=document.getElementById('ecoregion-toggle');
+      const visibility=toggle.getAttribute('aria-pressed')==='true'?'visible':'none';
+      const layout={visibility};
+      const rawKey=['get','NA_L3KEY'];
+      const code=['slice',rawKey,0,['index-of',' ',rawKey]];
+      const fillColor=['match',code,...colorGroups.flat(),'#a7b79d'];
+      map.addSource(source,{type:'geojson',data:'/api/epa-ecoregion-boundaries',attribution:'U.S. EPA Level III Ecoregions'});
+      const land=['!=',code,'0.0.0'];
+      map.addLayer({id:fill,type:'fill',source,filter:land,layout,paint:{'fill-color':fillColor,'fill-opacity':0.62}});
+      map.addLayer({id:source+'-casing',type:'line',source,filter:land,layout,paint:{'line-color':'#fbf9ed','line-width':3.4,'line-opacity':0.95}});
+      map.addLayer({id:source+'-outline',type:'line',source,filter:land,layout,paint:{'line-color':'#304c40','line-width':1.35,'line-opacity':0.98}});
+      map.addLayer({id:source+'-labels',type:'symbol',source,filter:land,minzoom:4.1,
+        layout:{visibility,'text-field':['get','NA_L3NAME'],'text-font':['Noto Sans Regular'],'text-size':['interpolate',['linear'],['zoom'],4.1,10,6,12],'text-max-width':11,'text-padding':3},
+        paint:{'text-color':'#233a2e','text-halo-color':'#fffefa','text-halo-width':2.2}
+      });
+      const hover=new maplibregl.Popup({closeButton:false,closeOnClick:false,offset:13,maxWidth:'230px',className:'eco-main-tooltip'});
+      let hoverName='';
+      const hideHover=()=>{
+        hover.remove();
+        hoverName='';
+        map.getCanvas().style.cursor='';
+      };
+      map.on('mousemove',fill,event=>{
+        const name=event.features?.[0]?.properties?.NA_L3NAME;
+        if(!name||event.originalEvent?.buttons||map.queryRenderedFeatures(event.point,{layers:['vendor-points','vendor-clusters']}).length){
+          if(hoverName)hideHover();
+          return;
+        }
+        if(name!==hoverName){
+          hoverName=name;
+          hover.setText(name);
+        }
+        hover.setLngLat(event.lngLat);
+        if(!hover.isOpen())hover.addTo(map);
+        map.getCanvas().style.cursor='pointer';
+      });
+      map.on('mouseleave',fill,hideHover);
+      map.on('movestart',hideHover);
+      toggle.addEventListener('click',hideHover);
+      map.on('click',fill,event=>{
+        const p=event.features?.[0]?.properties||{};
+        const key=ecoregionKey(p.NA_L3KEY);
+        if(plantingState&&key&&!guideData.stateRegions[plantingState]?.includes(key))return;
+        hideHover();
+        renderPlantingProfile(p.NA_L3KEY||'unmapped');
+        new maplibregl.Popup({closeButton:true,closeOnClick:true}).setLngLat(event.lngLat)
+          .setHTML(`<strong>${html(p.NA_L3NAME||'EPA ecoregion')}</strong><br><span style="color:#66746b;font-size:11px">EPA Level III · ${html(p.NA_L3KEY||'')}</span><br><a href="#flora-guide" onclick="document.getElementById('state-info-tab').click()">Explore planting guidance ↓</a>`).addTo(map);
+      });
+    }
     function initMap(){
       if(!window.maplibregl){loadFallbackStateBoundaries();renderSketchMap();return}
       try{
@@ -670,14 +777,14 @@
         map.addControl(new maplibregl.AttributionControl({compact:true,customAttribution:'© OpenFreeMap · © OpenMapTiles · © OpenStreetMap · U.S. Census Bureau'}));
         window.accessMap=map;
         map.on('error',e=>{if(/webgl|context/i.test(e.error?.message||'')){window.accessMap=null;loadFallbackStateBoundaries();renderSketchMap()}});
-        map.on('load',()=>{map.addSource('epa-ecoregions',{type:'geojson',data:'/api/epa-ecoregion-boundaries',attribution:'U.S. EPA Level III Ecoregions'});const parts=['split',['at',0,['split',['get','NA_L3KEY'],' ']],'.'];const colorIndex=['%', ['+', ['*',['to-number',['at',0,parts]],5], ['*',['to-number',['at',1,parts]],3], ['to-number',['at',2,parts]]], 16];const ecoregionColors=['#2b7a78','#d8894b','#5d7caa','#a66b91','#769444','#c4584d','#4f8b69','#9673b9','#c49a3a','#4e7186','#b16d45','#47858a','#8b7756','#607d52','#ab6173','#7180a0'];const initialVisibility=document.getElementById('ecoregion-toggle')?.getAttribute('aria-pressed')==='true'?'visible':'none';map.addLayer({id:'epa-ecoregions-fill',type:'fill',source:'epa-ecoregions',paint:{'fill-color':['at',colorIndex,['literal',ecoregionColors]],'fill-opacity':0.24},layout:{visibility:initialVisibility}});map.addLayer({id:'epa-ecoregions-casing',type:'line',source:'epa-ecoregions',paint:{'line-color':'#fffefa','line-width':2.8,'line-opacity':0.92},layout:{visibility:initialVisibility}});map.addLayer({id:'epa-ecoregions-outline',type:'line',source:'epa-ecoregions',paint:{'line-color':'#304638','line-width':1.15,'line-opacity':0.92},layout:{visibility:initialVisibility}});map.addLayer({id:'epa-ecoregions-labels',type:'symbol',source:'epa-ecoregions',minzoom:4.1,layout:{visibility:initialVisibility,'text-field':['get','NA_L3NAME'],'text-font':['Noto Sans Regular'],'text-size':['interpolate',['linear'],['zoom'],4.1,9,6,11],'text-max-width':11,'text-padding':3,'text-allow-overlap':false,'text-ignore-placement':false},paint:{'text-color':'#233a2e','text-halo-color':'#fffefa','text-halo-width':2.2,'text-halo-blur':0.2}});map.on('click','epa-ecoregions-fill',event=>{const p=event.features?.[0]?.properties||{};const key=ecoregionKey(p.NA_L3KEY);if(plantingState&&key&&!guideData.stateRegions[plantingState]?.includes(key))return;renderPlantingProfile(p.NA_L3KEY||'unmapped');new maplibregl.Popup({closeButton:true,closeOnClick:true}).setLngLat(event.lngLat).setHTML(`<strong>${html(p.NA_L3NAME||'EPA ecoregion')}</strong><br><span style="color:#66746b;font-size:11px">EPA Level III · ${html(p.NA_L3KEY||'')}</span><br><a href="#flora-guide" onclick="document.getElementById('state-info-tab').click()">Explore planting guidance ↓</a>`).addTo(map)});map.on('mouseenter','epa-ecoregions-fill',()=>map.getCanvas().style.cursor='pointer');map.on('mouseleave','epa-ecoregions-fill',()=>map.getCanvas().style.cursor='');const stateColorMatch=['match',['get','STUSAB'],'AL','#8e8a77','AK','#7b8b7d','AZ','#7b8b7d','AR','#778991','CA','#778991','CO','#8e8a77','CT','#8e8a77','DE','#778991','DC','#7b8b7d','FL','#8e8a77','GA','#8e8a77','HI','#7b8b7d','ID','#8e8a77','IL','#78886f','IN','#8e8a77','IA','#9a877a','KS','#9a877a','KY','#78886f','LA','#8e8a77','ME','#8e8a77','MD','#7b8b7d','MA','#778991','MI','#7b8b7d','MN','#7b8b7d','MS','#7b8b7d','MO','#8e8a77','MT','#8e8a77','NE','#778991','NV','#78886f','NH','#7b8b7d','NJ','#778991','NM','#7b8b7d','NY','#778991','NC','#7b8b7d','ND','#8e8a77','OH','#8e8a77','OK','#78886f','OR','#8e8a77','PA','#7b8b7d','RI','#7b8b7d','SC','#7b8b7d','SD','#8e8a77','TN','#778991','TX','#778991','UT','#78886f','VT','#7b8b7d','VA','#8e8a77','WA','#778991','WV','#9a877a','WI','#7b8b7d','#7b8b7d'];map.addSource('state-boundaries',{type:'geojson',data:stateBoundaryUrl,attribution:'U.S. Census Bureau'});map.addLayer({id:'state-boundaries-casing',type:'line',source:'state-boundaries',paint:{'line-color':'#faf8f0','line-opacity':0.7,'line-width':['interpolate',['linear'],['zoom'],2,1.1,5,1.35,8,1.6]}});map.addLayer({id:'state-boundaries-line',type:'line',source:'state-boundaries',paint:{'line-color':stateColorMatch,'line-opacity':0.82,'line-width':['interpolate',['linear'],['zoom'],2,0.55,5,0.78,8,1.05]}});map.addSource('vendors',{type:'geojson',data:vendorFeatureCollection(),cluster:true,clusterMaxZoom:8,clusterRadius:44});
+        map.on('load',()=>{addEcoregionLayer(map);const stateColorMatch=['match',['get','STUSAB'],'AL','#8e8a77','AK','#7b8b7d','AZ','#7b8b7d','AR','#778991','CA','#778991','CO','#8e8a77','CT','#8e8a77','DE','#778991','DC','#7b8b7d','FL','#8e8a77','GA','#8e8a77','HI','#7b8b7d','ID','#8e8a77','IL','#78886f','IN','#8e8a77','IA','#9a877a','KS','#9a877a','KY','#78886f','LA','#8e8a77','ME','#8e8a77','MD','#7b8b7d','MA','#778991','MI','#7b8b7d','MN','#7b8b7d','MS','#7b8b7d','MO','#8e8a77','MT','#8e8a77','NE','#778991','NV','#78886f','NH','#7b8b7d','NJ','#778991','NM','#7b8b7d','NY','#778991','NC','#7b8b7d','ND','#8e8a77','OH','#8e8a77','OK','#78886f','OR','#8e8a77','PA','#7b8b7d','RI','#7b8b7d','SC','#7b8b7d','SD','#8e8a77','TN','#778991','TX','#778991','UT','#78886f','VT','#7b8b7d','VA','#8e8a77','WA','#778991','WV','#9a877a','WI','#7b8b7d','#7b8b7d'];map.addSource('state-boundaries',{type:'geojson',data:stateBoundaryUrl,attribution:'U.S. Census Bureau'});map.addLayer({id:'state-boundaries-casing',type:'line',source:'state-boundaries',paint:{'line-color':'#faf8f0','line-opacity':0.7,'line-width':['interpolate',['linear'],['zoom'],2,1.1,5,1.35,8,1.6]}});map.addLayer({id:'state-boundaries-line',type:'line',source:'state-boundaries',paint:{'line-color':stateColorMatch,'line-opacity':0.82,'line-width':['interpolate',['linear'],['zoom'],2,0.55,5,0.78,8,1.05]}});map.addSource('vendors',{type:'geojson',data:vendorFeatureCollection(),cluster:true,clusterMaxZoom:8,clusterRadius:44});
           map.addLayer({id:'vendor-clusters',type:'circle',source:'vendors',filter:['has','point_count'],paint:{'circle-color':'#315b45','circle-radius':['step',['get','point_count'],17,25,21,100,26],'circle-stroke-color':'#faf8f0','circle-stroke-width':2}});
           map.addLayer({id:'vendor-cluster-count',type:'symbol',source:'vendors',filter:['has','point_count'],layout:{'text-field':['get','point_count_abbreviated'],'text-font':['Noto Sans Bold'],'text-size':12},paint:{'text-color':'#fffefa'}});
           map.addLayer({id:'vendor-points',type:'circle',source:'vendors',filter:['!', ['has','point_count']],paint:{'circle-color':['get','color'],'circle-radius':['case',['get','selected'],9,6],'circle-stroke-color':'#faf8f0','circle-stroke-width':['case',['get','selected'],3,2]}});
           map.on('click','vendor-clusters',event=>{const feature=event.features?.[0];if(!feature)return;const center=feature.geometry.coordinates,currentZoom=map.getZoom(),reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;map.easeTo({center,zoom:Math.max(currentZoom,Math.min(currentZoom+2.25,7.5)),duration:reducedMotion?0:450});const source=map.getSource('vendors'),count=Number(feature.properties.point_count)||1;source.getClusterLeaves(feature.properties.cluster_id,Math.min(count,1000),0,(error,leaves)=>{if(error)return;clusterFocusIds=leaves.map(item=>String(item.properties.id));clusterFocusCount=count;selectedId=null;currentPage=1;render();if(window.matchMedia('(max-width:900px)').matches)document.querySelector('.directory')?.scrollIntoView({behavior:reducedMotion?'auto':'smooth',block:'start'})})});
           map.on('click','vendor-points',event=>{const feature=event.features?.[0],v=feature&&vendors.find(item=>String(item.id)===String(feature.properties.id));if(v)showVendorPopup(v)});
           for(const layer of ['vendor-clusters','vendor-points']){map.on('mouseenter',layer,()=>map.getCanvas().style.cursor='pointer');map.on('mouseleave',layer,()=>map.getCanvas().style.cursor='')}map.fitBounds(nationalBounds,{padding:{top:35,bottom:35,left:35,right:35},duration:0,maxZoom:4});refreshMapLayers()});
-      }catch(e){window.accessMap=null;renderSketchMap()}
+      }catch(e){window.accessMap=null;loadFallbackStateBoundaries();renderSketchMap()}
     }
     function refreshMapLayers(){if(window.accessMap){const source=window.accessMap.getSource('vendors');if(source)source.setData(vendorFeatureCollection())}else if(document.querySelector('#fallback-svg'))renderSketchMap()}
     function resetMap(){if(window.accessMap)window.accessMap.fitBounds(nationalBounds,{padding:35,duration:500,maxZoom:4});else{sketchView={x:0,y:0,w:1000,h:650};renderSketchMap()}}
@@ -1011,6 +1118,34 @@
         ring.map(([lng,lat],i)=>(i?'L':'M')+project(lng,lat).join(',')).join('')+'Z'
       )).join('');
     }
+    function bindEcoregionShapes(stage,tooltip,select){
+      stage.querySelectorAll('[data-planting-key]').forEach(shape=>{
+        const key=shape.dataset.plantingKey;
+        const showTooltip=event=>{
+          tooltip.textContent=guideData.regions[key].name;
+          tooltip.hidden=false;
+          const bounds=stage.getBoundingClientRect();
+          const x=event.clientX===undefined?bounds.width/2:event.clientX-bounds.left;
+          const y=event.clientY===undefined?46:event.clientY-bounds.top;
+          const padding=8,offset=14;
+          tooltip.style.left=Math.max(padding,Math.min(x+offset,bounds.width-tooltip.offsetWidth-padding))+'px';
+          const above=y-tooltip.offsetHeight-offset;
+          tooltip.style.top=Math.max(padding,Math.min(above>=padding?above:y+offset,bounds.height-tooltip.offsetHeight-padding))+'px';
+        };
+        const hideTooltip=()=>{tooltip.hidden=true};
+        shape.addEventListener('pointerenter',showTooltip);
+        shape.addEventListener('pointermove',showTooltip);
+        shape.addEventListener('pointerleave',hideTooltip);
+        shape.addEventListener('focus',showTooltip);
+        shape.addEventListener('blur',hideTooltip);
+        shape.addEventListener('click',()=>{hideTooltip();select(key)});
+        shape.addEventListener('keydown',event=>{
+          if(event.key!=='Enter'&&event.key!==' ')return;
+          event.preventDefault();
+          select(key);
+        });
+      });
+    }
     function renderPlantingMap(outlines,features,entries,scope,isAlaska,isHawaii){
       const project=plantingMapExtent(outlines,isAlaska,isHawaii);
       const paths=new Map(entries.map(([key])=>[key,[]]));
@@ -1023,20 +1158,13 @@
       const outlinePaths=outlines.map(feature=>plantingGeometryPath(feature.geometry,project));
       const clip=outlinePaths.map(path=>'<path d="'+path+'" clip-rule="evenodd"/>').join('');
       const shapes=entries.filter(([key])=>paths.get(key).length).map(([key,region])=>
-        '<path class="eco-shape" data-planting-key="'+key+'" role="button" tabindex="0" aria-label="'+html(region.name)+'" fill="'+plantingColor(key)+'" fill-rule="evenodd" d="'+paths.get(key).join('')+'"><title>'+html(region.name)+'</title></path>'
+        '<path class="eco-shape" data-planting-key="'+key+'" role="button" tabindex="0" aria-label="'+html(region.name)+'" fill="'+plantingColor(key)+'" fill-rule="evenodd" d="'+paths.get(key).join('')+'"/>'
       ).join('');
       if(!shapes)return false;
       const edges=outlinePaths.map(path=>'<path class="eco-state-outline" d="'+path+'"/>').join('');
       const stage=document.getElementById('plant-map-stage');
       stage.innerHTML='<svg viewBox="0 0 720 370" role="group" aria-label="Interactive ecoregion map of '+html(scope)+'"><defs><clipPath id="plant-map-clip">'+clip+'</clipPath></defs><g clip-path="url(#plant-map-clip)"><rect width="720" height="370" fill="#dfe7d6"/>'+shapes+'</g>'+edges+'</svg>';
-      stage.querySelectorAll('[data-planting-key]').forEach(shape=>{
-        shape.addEventListener('click',()=>renderPlantingProfile(shape.dataset.plantingKey));
-        shape.addEventListener('keydown',event=>{
-          if(event.key!=='Enter'&&event.key!==' ')return;
-          event.preventDefault();
-          renderPlantingProfile(shape.dataset.plantingKey);
-        });
-      });
+      bindEcoregionShapes(stage,document.getElementById('plant-hover-label'),renderPlantingProfile);
       updatePlantingSelection();
       return entries.every(([key])=>paths.get(key).length);
     }
@@ -1092,6 +1220,7 @@
       const request=++plantingMapRequest;
       const stage=document.getElementById('plant-map-stage');
       stage.replaceChildren();
+      document.getElementById('plant-hover-label').hidden=true;
       document.getElementById('plant-map-credit').textContent='';
       document.getElementById('plant-name-picker').open=false;
       const scope=state==='HI'?'Hawaiʻi':state?stateLabels[state]:region?.label;
@@ -1234,7 +1363,7 @@
         const link=event.target.closest('a[href^="#"]');
         if(link?.hash==='#about')activateInfoTab('about');
         if(link?.hash==='#flora-guide')activateInfoTab('state');
-      });if(location.hash==='#about')activateInfoTab('about');document.addEventListener('click',event=>{if(!event.target.closest('.city-search'))closeCitySuggestions()});document.getElementById('export').addEventListener('click',exportCsv);document.querySelectorAll('[data-layer]').forEach(x=>x.addEventListener('change',refreshMapLayers));document.getElementById('zoom-in').addEventListener('click',()=>window.accessMap?window.accessMap.zoomIn():(()=>{sketchView.w*=.8;sketchView.h*=.8;renderSketchMap()})());document.getElementById('zoom-out').addEventListener('click',()=>window.accessMap?window.accessMap.zoomOut():(()=>{sketchView.w*=1.25;sketchView.h*=1.25;renderSketchMap()})());document.getElementById('reset-map').addEventListener('click',resetMap);document.getElementById('reset-map-filters').addEventListener('click',resetMapFilters);document.getElementById('toggle-map-fullscreen').addEventListener('click',()=>toggleMapFullscreen());document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.getElementById('map-workspace')?.classList.contains('map-fullscreen'))toggleMapFullscreen(false)});document.getElementById('ecoregion-toggle').addEventListener('click',event=>{const active=event.currentTarget.getAttribute('aria-pressed')!=='true';event.currentTarget.setAttribute('aria-pressed',String(active));event.currentTarget.classList.toggle('active',active);if(window.accessMap){['epa-ecoregions-fill','epa-ecoregions-casing','epa-ecoregions-outline','epa-ecoregions-labels'].forEach(id=>{if(window.accessMap.getLayer(id))window.accessMap.setLayoutProperty(id,'visibility',active?'visible':'none')})}});
+      });if(location.hash==='#about')activateInfoTab('about');document.addEventListener('click',event=>{if(!event.target.closest('.city-search'))closeCitySuggestions()});document.getElementById('export').addEventListener('click',exportCsv);document.querySelectorAll('[data-layer]').forEach(x=>x.addEventListener('change',refreshMapLayers));document.getElementById('zoom-in').addEventListener('click',()=>window.accessMap?window.accessMap.zoomIn():(()=>{sketchView.w*=.8;sketchView.h*=.8;renderSketchMap()})());document.getElementById('zoom-out').addEventListener('click',()=>window.accessMap?window.accessMap.zoomOut():(()=>{sketchView.w*=1.25;sketchView.h*=1.25;renderSketchMap()})());document.getElementById('reset-map').addEventListener('click',resetMap);document.getElementById('reset-map-filters').addEventListener('click',resetMapFilters);document.getElementById('toggle-map-fullscreen').addEventListener('click',()=>toggleMapFullscreen());document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.getElementById('map-workspace')?.classList.contains('map-fullscreen'))toggleMapFullscreen(false)});document.getElementById('ecoregion-toggle').addEventListener('click',event=>{const active=event.currentTarget.getAttribute('aria-pressed')!=='true';event.currentTarget.setAttribute('aria-pressed',String(active));event.currentTarget.classList.toggle('active',active);if(window.accessMap){['epa-ecoregions-fill','epa-ecoregions-casing','epa-ecoregions-outline','epa-ecoregions-labels'].forEach(id=>{if(window.accessMap.getLayer(id))window.accessMap.setLayoutProperty(id,'visibility',active?'visible':'none')})}else if(document.querySelector('#fallback-svg'))renderSketchMap()});
     }
     function setupSuggestionDialog(){
       const dialog=document.getElementById('submit-dialog'),form=document.getElementById('submit-form'),status=document.getElementById('submit-status');
