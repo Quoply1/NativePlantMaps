@@ -33,7 +33,11 @@
     "category": "retail",
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Recreative%20Natives%20125%20Valley%20View%20Road%2C%20Cropwell%2C%20AL%2035054"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Recreative%20Natives%20125%20Valley%20View%20Road%2C%20Cropwell%2C%20AL%2035054",
+    "preview": {
+      "image": "https://img1.wsimg.com/isteam/ip/eec7ef6d-3ac2-440c-b043-8e7cf0e03913/Website%20cover.png",
+      "alt": "A butterfly on greenery pictured by Recreative Natives"
+    }
   },
   {
     "id": "broken-arrow-nursery",
@@ -385,7 +389,11 @@
     "category": "seasonal",
     "focus": "delawarevalley",
     "regionGroup": "midatlantic",
-    "approx": true
+    "approx": true,
+    "preview": {
+      "image": "https://mtcubacenter.org/wp-content/uploads/2018/03/Inviting-Wildlife-e1520458560491.jpg",
+      "alt": "A planted garden at Mt. Cuba Center"
+    }
   },
   {
     "id": "all-native-garden-center",
@@ -793,7 +801,11 @@
     "category": "retail",
     "focus": "boston",
     "regionGroup": "northeast",
-    "approx": true
+    "approx": true,
+    "preview": {
+      "image": "https://thetrustees.org/wp-content/uploads/2020/07/City-natives-plant-sale.jpg",
+      "alt": "Two people carrying plants at the City Natives plant sale"
+    }
   },
   {
     "id": "native-plant-trust-garden",
@@ -1305,7 +1317,11 @@
     "focus": "maryland",
     "approx": true,
     "nativeTier": "documented",
-    "regionGroup": "midatlantic"
+    "regionGroup": "midatlantic",
+    "preview": {
+      "image": "https://www.laurensgardenservice.com/wp-content/uploads/2015/04/Landscape-Design-Install-Maintain-Native-Plant-Nursery-Glenwood-MD.jpg",
+      "alt": "A landscaped garden pictured by Lauren’s Garden Service"
+    }
   },
   {
     "id": "seeds-of-change",
@@ -1386,7 +1402,7 @@
     "nativeBasis": "A native-plant grower listed by the University of Connecticut’s New England Native Plants Initiative and regional Wild Ones chapters.",
     "availability": "No regular public hours are established in the sources reviewed; contact the seller before traveling.",
     "reviewNote": "Included from regional native-plant directories; customer reviews were not used to verify its native range.",
-    "website": "https://www.blueasternativeplants.com/",
+    "website": "https://nenativeplants.psla.uconn.edu/plant-sources/",
     "sources": [
       {
         "label": "New England Native Plants Initiative",
@@ -1404,7 +1420,9 @@
     "category": "retail",
     "regionGroup": "northeast",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Blue%20Aster%20Native%20Plants%20South%20China%2C%20ME%20%28check%20current%20sales/pickup%20details%29"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Blue%20Aster%20Native%20Plants%20South%20China%2C%20ME%20%28check%20current%20sales/pickup%20details%29",
+    "websiteLabel": "View directory listing",
+    "nativeSummary": "A South China grower of Northeast-native perennials and shrubs. Check Maine plant sale listings for upcoming buying opportunities."
   },
   {
     "id": "eastfield-native-plants",
@@ -1514,7 +1532,11 @@
     "regionGroup": "northeast",
     "approx": true,
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Native%20Haunts%20297%20Mountain%20Road%2C%20Alfred%2C%20ME%2004002",
-    "nativeSummary": "Maine native-plant specialist with a published list; many plants are grown locally, with some sourced nearby."
+    "nativeSummary": "Maine native-plant specialist with a published list; many plants are grown locally, with some sourced nearby.",
+    "preview": {
+      "image": "https://nativehaunts.com/wp-content/uploads/2022/01/native-haunts29.jpg",
+      "alt": "Orange lilies pictured by Native Haunts"
+    }
   },
   {
     "id": "wildtype-plants",
@@ -5038,21 +5060,19 @@
     "nativeBasis": "Native Texas nursery offering locally native perennials and other prairie plants for retail, wholesale, and restoration projects.",
     "availability": "Inventory and access can change; contact the provider before visiting.",
     "reviewNote": "Native offering is supported by the linked seller page or regional/native-plant resource. Customer reviews were not used as proof of native status.",
-    "website": "https://www.brushwolfprairies.com/",
+    "website": "https://www.npsot.org/chapters/post-oak/programs/",
     "sources": [
       {
-        "label": "Native offering / seller information",
-        "url": "https://www.brushwolfprairies.com/"
-      },
-      {
-        "label": "Seller website",
-        "url": "https://www.brushwolfprairies.com/"
+        "label": "Native Plant Society of Texas nursery partners",
+        "url": "https://www.npsot.org/our-work/nice-native-plant-partners/"
       }
     ],
     "category": "retail",
     "regionGroup": "south",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Brushwolf%20Prairies%20Native%20Nursery%20Bedias%2C%20TX%2077831%20%28contact%20for%20nursery%20access%29"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Brushwolf%20Prairies%20Native%20Nursery%20Bedias%2C%20TX%2077831%20%28contact%20for%20nursery%20access%29",
+    "websiteLabel": "View nursery partner listing",
+    "nativeSummary": "A Bedias nursery specializing in Texas-native perennials and prairie plants. The Native Plant Society of Texas lists it as a Post Oak Chapter nursery partner."
   },
   {
     "id": "cache-valley-native-plants",
@@ -8197,21 +8217,18 @@
     "nativeBasis": "Grows Vermont-native flowering shrubs and vines from local ecotypes; seasonal retail and wholesale.",
     "availability": "Inventory and operating schedules can change seasonally; confirm directly with the seller before traveling or ordering.",
     "reviewNote": "Source documents a native plant or seed offering. For mixed-stock sellers, ask about species and local provenance. Location pin is approximate where a visitor address is not published.",
-    "website": "https://www.thefarmupstream.com/native-plant-nursery",
+    "website": "https://www.thefarmupstream.com/native-plants",
     "sources": [
       {
-        "label": "Official native nursery page",
-        "url": "https://www.thefarmupstream.com/native-plants"
-      },
-      {
-        "label": "Seller website",
-        "url": "https://www.thefarmupstream.com/native-plant-nursery"
+        "label": "Xerces Society supplier profile",
+        "url": "https://xerces.org/native-plant-supplier/farm-upstream"
       }
     ],
     "category": "seasonal",
     "regionGroup": "northeast",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=The%20Farm%20Upstream%20Jericho%2C%20VT"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=The%20Farm%20Upstream%20Jericho%2C%20VT",
+    "nativeSummary": "The Jericho farm grows Vermont-native flowering shrubs and vines. Check its native plants page for seasonal farmstand availability."
   },
   {
     "id": "vermont-willow-nursery-fairfield",
@@ -11808,7 +11825,12 @@
     "category": "delivery",
     "regionGroup": "midatlantic",
     "approx": true,
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Pinelands%20Direct%2025346%20Mount%20Pleasant%20Road%2C%20Columbus%2C%20NJ%2008022"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Pinelands%20Direct%2025346%20Mount%20Pleasant%20Road%2C%20Columbus%2C%20NJ%2008022",
+    "nativeSummary": "A South Jersey native plant seller in Columbus. Its online catalog is a starting point for comparing plants by species and checking pickup or delivery options.",
+    "preview": {
+      "image": "https://d2j6dbq0eux0bg.cloudfront.net/startersite/images/6548029/1646832547558.jpg",
+      "alt": "An insect on pink flowers pictured by Pinelands Direct"
+    }
   },
   {
     "id": "summersweet-native-plants-mays-landing",
@@ -16455,8 +16477,8 @@
     "native": "confirmed",
     "nativeTier": "specialist",
     "nativeRange": "wide",
-    "access": "Retail nursery; check current seasonal hours before visiting.",
-    "availability": "Call ahead for hours and current stock.",
+    "access": "The state directory describes primarily mail-order sales. Call to confirm before visiting.",
+    "availability": "Call 502-867-7979 to ask about catalog and ordering availability.",
     "reviewNote": "No reliable recent customer review with useful native-inventory detail was confirmed in this research pass.",
     "approx": true,
     "category": "retail",
@@ -16468,7 +16490,7 @@
     "lat": 38.24,
     "lng": -84.56,
     "nativeBasis": "The Kentucky Department of Agriculture lists native wildflowers, grasses, aquatic plants, trees, and shrubs; PlantNative identifies retail sales.",
-    "website": "https://shootingstarnursery.com/",
+    "website": "https://www.kyagr.com/AgBusiness/745",
     "sources": [
       {
         "label": "Kentucky Department of Agriculture",
@@ -16480,7 +16502,9 @@
       }
     ],
     "regionGroup": "appalachia",
-    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Shooting%20Star%20Nursery%20160%20Soards%20Road%2C%20Georgetown%2C%20KY%2040324"
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Shooting%20Star%20Nursery%20160%20Soards%20Road%2C%20Georgetown%2C%20KY%2040324",
+    "websiteLabel": "View directory profile",
+    "nativeSummary": "The Kentucky Department of Agriculture lists wildflowers, grasses, aquatic plants, trees, and shrubs native to Kentucky and nearby states. Call to ask about the catalog and current ordering options."
   },
   {
     "borough": "",
@@ -17552,18 +17576,18 @@
     "lat": 39.114,
     "lng": -86.529,
     "access": "Retail nursery with a mixed selection; ask about current native plant stock.",
-    "website": "https://bloomingtonvalleynursery.com/",
+    "website": "https://thebloomingtonvalleynursery.com/",
     "category": "retail",
     "native": "confirmed",
     "nativeBasis": "A broad local nursery with native plants included in regional grower and gardening resources; native selection is not the sole focus.",
-    "nativeSummary": "A broad local nursery with native plants included in regional grower and gardening resources; native selection is not the sole focus.",
+    "nativeSummary": "A Bloomington garden center and landscape nursery with trees, shrubs, and other garden plants. The city lists it as a native-plant supplier. Ask which Indiana-native species are in stock.",
     "availability": "Call ahead for current native species and availability.",
     "reviewNote": "A broad local nursery with native plants included in regional grower and gardening resources; native selection is not the sole focus.",
     "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Bloomington%20Valley%20Nursery%205230%20S.%20Old%20State%20Road%2037%2C%20Bloomington%2C%20IN%2047401",
     "sources": [
       {
-        "label": "Bloomington Valley Nursery location",
-        "url": "https://bloomingtonvalleynursery.com/contact"
+        "label": "Bloomington Valley Nursery gallery",
+        "url": "https://thebloomingtonvalleynursery.com/gallery/"
       },
       {
         "label": "City of Bloomington native landscaping supplier guide",
@@ -17577,7 +17601,11 @@
     "nativeTier": "documented",
     "regionGroup": "greatlakes",
     "focus": "indianapolis",
-    "approx": false
+    "approx": false,
+    "preview": {
+      "image": "https://thebloomingtonvalleynursery.com/wp-content/uploads/2023/10/trees-5.jpeg",
+      "alt": "Specialty trees featured by Bloomington Valley Nursery"
+    }
   },
   {
     "id": "manual-review-mays-greenhouse",
@@ -17663,5 +17691,40 @@
     "reviewNote": "Manual access review required before publishing.",
     "approx": true,
     "regionGroup": "greatlakes"
+  },
+  {
+    "id": "shooting-star-nursery-or",
+    "name": "Shooting Star Nursery",
+    "area": "Central Point",
+    "state": "OR",
+    "address": "3223 Taylor Road, Central Point, OR 97502",
+    "lat": 42.37345,
+    "lng": -122.94851,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "wide",
+    "category": "retail",
+    "regionGroup": "pacific",
+    "access": "Retail nursery. Check seasonal hours and the online availability list.",
+    "availability": "The nursery posts seasonal hours and an availability list.",
+    "website": "https://roguevalleynursery.com/",
+    "nativeBasis": "The nursery publishes a native plant guide with examples such as Western columbine, camas, and narrowleaf milkweed.",
+    "nativeSummary": "This Rogue Valley nursery carries plants for dry gardens and pollinator habitat. Its native plant guide includes Western columbine, camas, and narrowleaf milkweed.",
+    "sources": [
+      {
+        "label": "Shooting Star Nursery native plant guide",
+        "url": "https://roguevalleynursery.com/plant-guides/native-plants/"
+      },
+      {
+        "label": "Shooting Star Nursery hours and directions",
+        "url": "https://roguevalleynursery.com/directions-hours/"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Shooting%20Star%20Nursery%203223%20Taylor%20Road%2C%20Central%20Point%2C%20OR%2097502",
+    "preview": {
+      "image": "https://roguevalleynursery.com/wp-content/uploads/yootheme/cache/10/2023-July-Shooting-Star-plant-nursery-view-10f664de.jpg",
+      "alt": "Outdoor plant displays at Shooting Star Nursery in Central Point"
+    }
   }
 ]

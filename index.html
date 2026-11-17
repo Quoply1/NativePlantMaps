@@ -477,6 +477,16 @@
     .advanced-search{position:static!important;min-width:240px}.advanced-search>summary{height:auto!important;line-height:1.4!important;font-size:12px!important;padding:0 0 8px!important}.advanced-search .location-filters{position:static!important;display:flex!important;flex-wrap:wrap;gap:8px!important;background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important}
     main{padding-top:0!important}.workspace{gap:20px!important;margin-top:24px!important;grid-template-columns:minmax(0,1.65fr) minmax(340px,1fr)!important}.mapwrap,.directory{min-width:0;border-radius:8px!important;box-shadow:none!important;border:1px solid var(--line)!important;overflow:hidden}
     .panelhead{background:var(--white)!important;padding:17px 20px!important}.panelhead h2{font:600 20px/1.25 Georgia,serif!important}.panelhead p{font-size:12px!important;line-height:1.5!important;max-width:48em}.card{padding:18px 20px!important}.card h3{font-size:17px!important}.card .desc{font-size:13px!important;line-height:1.55!important}.cards{max-height:640px!important}.resultcount{white-space:nowrap;font-variant-numeric:tabular-nums}.mapbox{height:640px!important}
+    .nursery-preview{margin:10px 0 6px}
+    .nursery-preview a{display:block}
+    .nursery-preview img{display:block;width:100%;height:clamp(100px,16vw,165px);object-fit:cover;border-radius:5px;background:#e8ede3}
+    .nursery-preview figcaption{margin-top:4px;color:#526659;font-size:11px}
+    .nursery-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:9px 0}
+    .nursery-website{display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border-radius:5px;background:#20523f;color:#fffefa;text-decoration:none;font-size:13px;font-weight:700}
+    .nursery-website:hover,.nursery-website:focus-visible{background:#183e35;color:white;text-decoration:underline}
+    .nursery-host{font-size:11px;overflow-wrap:anywhere;color:#526659}
+    .card > .source-list{margin-top:8px}
+    .card > .source-list .source-row{display:block}
     .flora-guide{background:transparent!important;border:0!important;margin:0!important;padding:12px!important}.flora-heading h2{font-size:32px!important}.flora-heading p{font-size:14px!important}
     .profile-heading{display:flex;justify-content:space-between;align-items:start;gap:20px;flex-wrap:wrap;margin:24px 0 16px}.profile-heading h3{font:500 26px/1.2 Georgia,serif;margin:0 0 8px}.profile-heading p{max-width:680px;margin:0;font-size:13px;line-height:1.6}.profile-heading select{max-width:100%;padding:10px;border:1px solid var(--line);background:var(--white);color:var(--forest);border-radius:5px}
     .habitat-options{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.habitat-options button{padding:10px 14px;border:1px solid var(--line);border-radius:5px;background:var(--white);color:var(--forest);cursor:pointer;font-size:13px}.habitat-options button[aria-pressed=true]{background:var(--forest);color:white}
@@ -637,7 +647,7 @@
   <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
   <script>
     const savedKey='native-access-field-checks-v1';
-    let vendors=[], vendorPopup=null, clusterFocusIds=null, clusterFocusCount=0, activeFilter='all', selectedId=null, nearbySearch=null, stateSearch=null, ecoregionSearch=null, listingSearch='', searchTimer=0, searchRequest=0, currentPage=1, lastPageSignature='', searchRadius=100;
+    let vendors=[], vendorPopup=null, ecoregionPopup=null, clusterFocusIds=null, clusterFocusCount=0, activeFilter='all', selectedId=null, nearbySearch=null, stateSearch=null, ecoregionSearch=null, listingSearch='', searchTimer=0, searchRequest=0, currentPage=1, lastPageSignature='', searchRadius=100;
     const PAGE_SIZE=50;
     const saved=()=>{try{return JSON.parse(localStorage.getItem(savedKey)||'{}')}catch{return {}}};
     const html=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -681,7 +691,17 @@
       box.querySelectorAll('[data-map-id]').forEach(point=>{point.addEventListener('click',()=>selectVendor(point.dataset.mapId));point.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectVendor(point.dataset.mapId)}})});box.querySelectorAll('[data-cluster-ids]').forEach(cluster=>{const showListings=()=>{const ids=cluster.dataset.clusterIds.split(',');clusterFocusIds=ids;clusterFocusCount=ids.length;selectedId=null;currentPage=1;const members=places.filter(item=>ids.includes(item.id));if(members.length){const xs=members.map(item=>item.x),ys=members.map(item=>item.y),cx=(Math.min(...xs)+Math.max(...xs))/2,cy=(Math.min(...ys)+Math.max(...ys))/2,newW=Math.min(sketchView.w,Math.max(230,sketchView.w*.55,(Math.max(...xs)-Math.min(...xs))*2.5)),newH=newW*.65;sketchView={x:cx-newW/2,y:cy-newH/2,w:newW,h:newH}}renderSketchMap();render();if(window.matchMedia('(max-width:900px)').matches)document.querySelector('.directory')?.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})};cluster.addEventListener('pointerup',e=>{e.preventDefault();showListings()});cluster.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showListings()}})});
     }
     function vendorFeatureCollection(){const visible=new Set(filtered().map(v=>String(v.id)));return {type:'FeatureCollection',features:vendors.filter(v=>v.lat!=null&&v.lng!=null&&visible.has(String(v.id))).map(v=>({type:'Feature',geometry:{type:'Point',coordinates:[Number(v.lng),Number(v.lat)]},properties:{id:String(v.id),name:v.name,area:v.area,status:statusLabel(v),color:markerColor(v),selected:String(v.id)===String(selectedId)}}))}}
-    function showVendorPopup(v){if(!window.accessMap||v.lat==null||v.lng==null)return;if(vendorPopup)vendorPopup.remove();vendorPopup=new maplibregl.Popup({offset:12,closeButton:true}).setLngLat([v.lng,v.lat]).setHTML(`<div class="popupname">${html(v.name)}</div><div class="popupstatus">${html(v.area)} · ${html(statusLabel(v))}</div><button class="popupbutton" type="button">Open listing →</button>`).addTo(window.accessMap);vendorPopup.getElement().querySelector('.popupbutton')?.addEventListener('click',()=>selectVendor(v.id))}
+    function showVendorPopup(v){
+      if(!window.accessMap||v.lat==null||v.lng==null)return;
+      ecoregionPopup?.remove();
+      vendorPopup?.remove();
+      vendorPopup=new maplibregl.Popup({offset:12,closeButton:true}).setLngLat([v.lng,v.lat]).setHTML(`
+        <div class="popupname">${html(v.name)}</div>
+        <div class="popupstatus">${html(v.area)} · ${html(statusLabel(v))}</div>
+        <div class="nursery-actions">${nurseryWebsiteLink(v)}<button class="popupbutton" type="button">Open listing</button></div>
+      `).addTo(window.accessMap);
+      vendorPopup.getElement().querySelector('.popupbutton')?.addEventListener('click',()=>selectVendor(v.id));
+    }
     // These color groups give EPA regions that share boundary vertices different fills.
     const colorGroups=[
       [["1.1.1","2.1.6","2.2.1","2.2.4","2.3.1","5.1.3","6.1.4","6.2.15","8.1.3","8.1.6","8.3.5","8.4.8","9.2.2","9.4.1","9.5.1","10.1.1","10.1.5","10.1.7","11.1.1","12.1.1","13.4.2","13.6.1","15.1.1"],'#2c948b'],
@@ -742,9 +762,17 @@
         hoverName='';
         map.getCanvas().style.cursor='';
       };
+      const providerLayers=['vendor-points','vendor-clusters'];
+      const hitsProvider=event=>map.queryRenderedFeatures(event.point,{layers:providerLayers}).length>0;
+      for(const layer of providerLayers){
+        map.on('click',layer,()=>{
+          hideHover();
+          ecoregionPopup?.remove();
+        });
+      }
       map.on('mousemove',fill,event=>{
         const name=event.features?.[0]?.properties?.NA_L3NAME;
-        if(!name||event.originalEvent?.buttons||map.queryRenderedFeatures(event.point,{layers:['vendor-points','vendor-clusters']}).length){
+        if(!name||event.originalEvent?.buttons||vendorPopup?.isOpen()||hitsProvider(event)){
           if(hoverName)hideHover();
           return;
         }
@@ -758,14 +786,16 @@
       });
       map.on('mouseleave',fill,hideHover);
       map.on('movestart',hideHover);
-      toggle.addEventListener('click',hideHover);
+      toggle.addEventListener('click',()=>{hideHover();ecoregionPopup?.remove()});
       map.on('click',fill,event=>{
+        hideHover();
+        if(hitsProvider(event))return;
         const p=event.features?.[0]?.properties||{};
         const key=ecoregionKey(p.NA_L3KEY);
         if(plantingState&&key&&!guideData.stateRegions[plantingState]?.includes(key))return;
-        hideHover();
+        ecoregionPopup?.remove();
         renderPlantingProfile(p.NA_L3KEY||'unmapped');
-        new maplibregl.Popup({closeButton:true,closeOnClick:true}).setLngLat(event.lngLat)
+        ecoregionPopup=new maplibregl.Popup({closeButton:true,closeOnClick:true}).setLngLat(event.lngLat)
           .setHTML(`<strong>${html(p.NA_L3NAME||'EPA ecoregion')}</strong><br><span style="color:#66746b;font-size:11px">EPA Level III · ${html(p.NA_L3KEY||'')}</span><br><a href="#flora-guide" onclick="document.getElementById('state-info-tab').click()">Explore planting guidance ↓</a>`).addTo(map);
       });
     }
@@ -920,6 +950,40 @@
     }
     function filtered(){const q=listingSearch.toLowerCase().trim(),nearby=nearbySearch;return vendors.map(v=>nearby&&v.lat!=null&&v.lng!=null?{...v,searchDistance:distanceMiles(nearby.lat,nearby.lng,v.lat,v.lng),searchPlace:nearby.label}:v).filter(v=>{const state=document.getElementById('state-filter')?.value||'',match=activeFilter==='all'||activeFilter==='specialist'&&v.nativeTier==='specialist'||activeFilter==='documented'&&v.nativeTier==='documented'||activeFilter==='garden'&&isGardenStore(v)||activeFilter==='confirmed'&&v.native==='confirmed'||activeFilter==='seasonal'&&seasonalListing(v);const stateMatch=(!state||v.state===state)&&(!stateSearch||v.state===stateSearch);const text=[v.name,v.area,v.borough,v.address,v.nativeBasis,v.access,v.state,...(v.searchAliases||[])].join(' ').toLowerCase();const direct=!q||text.includes(q);const nearbyMatch=!!nearby&&Number.isFinite(v.searchDistance)&&v.searchDistance<=searchRadius;return v.native==='confirmed'&&v.nativeTier!=='unverified'&&match&&stateMatch&&(!ecoregionSearch||ecoregionSearch.vendorIds.has(String(v.id)))&&(nearby?nearbyMatch:direct)})}
     const listingShuffle=new Map();
+    function publicHttpUrl(value){
+      try{
+        const url=new URL(value);
+        return ['https:','http:'].includes(url.protocol)&&!url.username&&!url.password?url.href:'';
+      }catch{return ''}
+    }
+    function nurseryWebsiteLink(v){
+      const href=publicHttpUrl(v.website);
+      if(!href)return '';
+      const label=v.websiteLabel?(v.websiteLabel.startsWith('Native supplier directory')?'View directory profile':v.websiteLabel):'Visit website';
+      return '<a class="nursery-website" href="'+html(href)+'" target="_blank" rel="noreferrer" aria-label="'+html(label+' for '+v.name)+'">'+html(label)+' <span aria-hidden="true">↗</span></a>';
+    }
+    function nurseryPreview(v){
+      const image=publicHttpUrl(v.preview?.image),website=publicHttpUrl(v.website);
+      if(!image||!website)return '';
+      return `<figure class="nursery-preview"><a href="${html(website)}" target="_blank" rel="noreferrer" aria-label="Open ${html(v.name)}’s website">
+        <img src="${html(image)}" alt="${html(v.preview.alt)}" width="640" height="320" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()">
+        </a><figcaption>Photo from ${html(v.name)}</figcaption></figure>`;
+    }
+    function nurserySources(v,dirs){
+      const website=publicHttpUrl(v.website);
+      const links=new Map();
+      const add=(url,label,context)=>{
+        const href=publicHttpUrl(url);
+        if(href&&href!==website&&!links.has(href))links.set(href,{label,context});
+      };
+      for(const source of v.sources||[])add(source.url,source.label,sourceHost(source.url));
+      add(dirs,'Directions','Google Maps');
+      add(v.reviewUrl,'Google Maps listing','Location and public reviews');
+      if(!links.size)return '';
+      return `<details class="source-list"><summary><span>More sources &amp; directions</span><span class="source-total">${links.size} ${links.size===1?'link':'links'}</span></summary>
+        <ul class="source-list-items">${Array.from(links,([href,source])=>`<li class="source-row"><div class="source-copy"><a href="${html(href)}" target="_blank" rel="noreferrer">${html(source.label)}</a><span class="source-host">${html(source.context)}</span></div></li>`).join('')}</ul>
+        </details>`;
+    }
     function sourceHost(rawUrl){try{return new URL(rawUrl).hostname.toLowerCase().replace(/^www\./,'')}catch{return ''}}
     function isGoogleMapsSource(rawUrl){try{const url=new URL(rawUrl),host=url.hostname.toLowerCase();return /(^|\.)google\.[a-z.]+$/.test(host)&&/\/maps(?:\/|$)/i.test(url.pathname)||host==='maps.app.goo.gl'||(host==='goo.gl'||host==='g.co')&&/maps/i.test(url.pathname)}catch{return false}}
     function sameSourceSite(host,sellerHost){return host===sellerHost||host.endsWith('.'+sellerHost)||sellerHost.endsWith('.'+host)}
@@ -978,11 +1042,22 @@
         const reviewCount=Array.isArray(v.publicReviews)?v.publicReviews.length:0,reportCount=Array.isArray(v.fieldReports)?v.fieldReports.length:0;
         const place=Number.isFinite(v.searchDistance)?Math.round(v.searchDistance)+' mi from '+html(v.searchPlace):html(v.area)+' · '+html(v.state);
         const mapSearch='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(v.name+' '+v.address),dirs=v.lat==null||v.approx?mapSearch:'https://www.google.com/maps/dir/?api=1&destination='+v.lat+','+v.lng;
-        const sourceLinks=(v.sources||[]).map((s,i)=>'<li class="source-row"><span class="source-number">'+String(i+3).padStart(2,'0')+'</span><div class="source-copy"><a href="'+html(s.url)+'" target="_blank" rel="noreferrer">'+html(s.label)+'</a><span class="source-host">'+html(sourceHost(s.url))+'</span></div><span class="source-kind">Native evidence</span></li>').join('');
         const privateDetails='<details class="private-field-notes"><summary>Private visit note · saved on this browser</summary><div class="fieldcheck"><input type="checkbox" id="check-'+html(v.id)+'" '+(f.checked?'checked':'')+' aria-label="Mark '+html(v.name)+' checked in person; private to this browser"><label for="check-'+html(v.id)+'">Visited in person</label><textarea class="fieldnote" data-note="'+html(v.id)+'" aria-label="Private field note for '+html(v.name)+'" placeholder="Private note saved only on this browser.">'+html(f.note||'')+'</textarea><span class="saved" data-saved="'+html(v.id)+'">'+(f.updated?'Private note saved on this browser · '+html(f.updated):'')+'</span></div></details>';
-        return '<article class="card '+(selectedId===v.id?'selected':'')+'" data-id="'+html(v.id)+'" tabindex="0"><div class="cardtop"><div><div class="cardtitle">'+html(v.name)+'</div><div class="cardplace">'+place+(v.approx?' · approx. pin':'')+'</div></div><button type="button" class="details-toggle" data-details-id="'+html(v.id)+'" aria-expanded="'+(selectedId===v.id)+'">'+(selectedId===v.id?'Close':'Details')+'</button></div><div class="listing-meta"><span class="badge '+badgeClass(v)+'">'+html(status)+'</span><span>'+html(range)+' · '+html(accessTag)+'</span></div><p class="carddesc">'+html(summary)+'</p><div class="cardfoot"><span class="sourcecount">'+sourceCount(v)+' linked sources</span><button type="button" class="community-open" data-community-mode="reviews" data-vendor-id="'+html(v.id)+'">Community notes · '+(reviewCount+reportCount)+'</button></div><div class="cardexpand"><div class="card-detail-grid"><section class="detail-section"><h3>Visit</h3><p class="visit-address">'+html(v.address||'Address on provider site')+'</p><p class="visit-copy">'+html(visitInfo)+'</p></section><section class="detail-section"><h3>Why it’s listed</h3><p>'+html(evidence)+'</p></section></div><details class="source-list"><summary><span>Sources &amp; links</span><span class="source-total">'+((v.sources||[]).length+4)+' links</span></summary><ul class="source-list-items"><li class="source-row"><span class="source-number">01</span><div class="source-copy"><a href="'+html(v.website)+'" target="_blank" rel="noreferrer">'+html(v.websiteLabel||'Provider website')+'</a><span class="source-host">'+html(sourceHost(v.website))+'</span></div><span class="source-kind">Provider</span></li><li class="source-row"><span class="source-number">02</span><div class="source-copy"><a href="'+mapSearch+'" target="_blank" rel="noreferrer">Google Maps</a><span class="source-host">Location and directions</span></div><span class="source-kind">Map</span></li>'+sourceLinks+'<li class="source-row"><span class="source-number">↗</span><div class="source-copy"><a href="'+html(v.reviewUrl)+'" target="_blank" rel="noreferrer">Google review trail</a><span class="source-host">Public map listing</span></div><span class="source-kind">Reviews</span></li><li class="source-row"><span class="source-number">↗</span><div class="source-copy"><a href="'+dirs+'" target="_blank" rel="noreferrer">Directions</a><span class="source-host">Open route in Google Maps</span></div><span class="source-kind">Visit</span></li></ul></details>'+privateDetails+'</div></article>';
+        const selected=String(selectedId)===String(v.id);
+        const website=nurseryWebsiteLink(v);
+        return `<article class="card ${selected?'selected':''}" data-id="${html(v.id)}" tabindex="0">
+          <div class="cardtop"><div><div class="cardtitle">${html(v.name)}</div><div class="cardplace">${place}${v.approx?' · approx. pin':''}</div></div>
+            <button type="button" class="details-toggle" data-details-id="${html(v.id)}" aria-expanded="${selected}">${selected?'Close':'Details'}</button></div>
+          <div class="listing-meta"><span class="badge ${badgeClass(v)}">${html(status)}</span><span>${html(range)} · ${html(accessTag)}</span></div>
+          ${nurseryPreview(v)}
+          <p class="carddesc">${html(summary)}</p>
+          ${website?`<div class="nursery-actions">${website}<span class="nursery-host">${html(sourceHost(v.website))}</span></div>`:''}
+          ${nurserySources(v,dirs)}
+          <div class="cardfoot"><button type="button" class="community-open" data-community-mode="reviews" data-vendor-id="${html(v.id)}">Community notes · ${reviewCount+reportCount}</button></div>
+          <div class="cardexpand"><div class="card-detail-grid"><section class="detail-section"><h3>Visit</h3><p class="visit-address">${html(v.address||'Address on provider site')}</p><p class="visit-copy">${html(visitInfo)}</p></section>
+            <section class="detail-section"><h3>Why it’s listed</h3><p>${html(evidence)}</p></section></div>${privateDetails}</div></article>`;
       }).join('');
-      root.querySelectorAll('.card').forEach(card=>{card.addEventListener('click',e=>{if(e.target.closest('a,button,textarea,input,label,select,form,summary'))return;selectVendor(card.dataset.id)});card.addEventListener('keydown',e=>{if(e.target.closest('a,button,textarea,input,label,select,form,summary'))return;if(e.key==='Enter'||e.key===' '){e.preventDefault();selectVendor(card.dataset.id)}})});
+      root.querySelectorAll('.card').forEach(card=>{card.addEventListener('click',e=>{if(e.target.closest('a,button,textarea,input,label,select,form,details'))return;selectVendor(card.dataset.id)});card.addEventListener('keydown',e=>{if(e.target.closest('a,button,textarea,input,label,select,form,details'))return;if(e.key==='Enter'||e.key===' '){e.preventDefault();selectVendor(card.dataset.id)}})});
       root.querySelectorAll('button[data-details-id]').forEach(button=>button.addEventListener('click',()=>selectVendor(button.dataset.detailsId)));
       root.querySelectorAll('button[data-community-mode]').forEach(button=>button.addEventListener('click',()=>openCommunityDialog(button.dataset.vendorId,button.dataset.communityMode)));
       root.querySelectorAll('input[type=checkbox]').forEach(el=>el.addEventListener('change',()=>saveField(el.id.replace('check-',''))));root.querySelectorAll('textarea[data-note]').forEach(el=>el.addEventListener('input',()=>saveField(el.dataset.note)));
