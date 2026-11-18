@@ -1,4 +1,5 @@
 {
+  "condursos": {"website": "https://condursos.com/", "image": "https://nativeplantmaps.pages.dev/assets/providers/condursos-logo.png", "alt": "Condursos Garden Center official logo"},
   "alaska-botanical-garden-nursery": {"website": "https://www.alaskabg.org/", "image": "https://images.squarespace-cdn.com/content/v1/616714e4784be422bb89da49/8ecd9e57-0be8-4801-9d43-cee1349f0b00/ABG_Logo_Green_sm_transparent.png?format=1500w"},
   "all-native-garden-center": {"website": "https://nolawn.com/", "image": "https://nolawn.com/wp-content/uploads/2020/01/All_Native_Green_favicon.png"},
   "allendan-seed-company-winterset": {"website": "https://www.allendanseed.com/", "image": "https://www.allendanseed.com/assets/images/webclip-b6d8257afff6b987a574fabcf7095d36.png"},
@@ -7,7 +8,7 @@
   "autumn-hill-nursery": {"website": "https://www.autumnhillnursery.com/", "image": "https://www.autumnhillnursery.com/wp-content/uploads/2026/03/AHN-LOGO-March-2026.png"},
   "bagley-pond-perennials": {"website": "https://bagleypondperennials.com/", "image": "https://bagleypondperennials.com/cdn/shop/files/logo.png?v=1733204060&width=100"},
   "baker-environmental-nursery-hoschton": {"website": "https://www.bakerenvironmentalnursery.com/", "image": "https://bakerenvironmentalnursery.com/wp-content/uploads/2015/03/baker_logo1-555x321.png"},
-  "beavers-abundance": {"website": "https://www.beaversabundance.com/", "image": "https://www.beaversabundance.com/uploads/b/2b9830b0-9c04-11ef-8ac2-2341655ee7b4/icon_180x180_ios_NTgzMz.png?width=120"},
+  "beavers-abundance": {"website": "https://www.beaversabundance.com/", "image": "https://nativeplantmaps.pages.dev/assets/providers/beavers-logo.webp", "alt": "Beaver’s Native Plant Nursery official logo"},
   "birdsfoot-native-nursery-south-boardman": {"website": "https://www.birdsfootnativenursery.com/", "image": "https://www.birdsfootnativenursery.com/uploads/b/f40882b0-4de5-11eb-9d99-297ba1f584ff/icon_180x180_ios.png?width=152"},
   "blue-bee-nursery": {"website": "https://www.bluebeenursery.com/", "image": "https://www.bluebeenursery.com/cdn/shop/files/blue-bee-nursery-logo.png?v=1771016204&width=500"},
   "blue-moon-farm": {"website": "https://bluemoonfarmperennials.com/", "image": "https://bluemoonfarmperennials.com/wp-content/uploads/2022/03/cropped-moon-180x180.png"},
