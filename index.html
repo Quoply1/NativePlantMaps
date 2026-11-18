@@ -480,6 +480,9 @@
     .nursery-preview{margin:10px 0 6px}
     .nursery-preview a{display:block}
     .nursery-preview img{display:block;width:100%;height:clamp(100px,16vw,165px);object-fit:cover;border-radius:5px;background:#e8ede3}
+    .nursery-preview--logo a{display:grid;place-items:center;min-height:84px;padding:10px 16px;border:1px solid #e2e8dc;border-radius:5px;background:#fffefa}
+    .nursery-preview--logo-dark a{background:#294437;border-color:#294437}
+    .nursery-preview--logo img{width:100%;max-width:240px;height:72px;object-fit:scale-down;background:transparent;border-radius:0}
     .nursery-preview figcaption{margin-top:4px;color:#526659;font-size:11px}
     .nursery-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:9px 0}
     .nursery-website{display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border-radius:5px;background:#20523f;color:#fffefa;text-decoration:none;font-size:13px;font-weight:700}
@@ -966,9 +969,11 @@
     function nurseryPreview(v){
       const image=publicHttpUrl(v.preview?.image),website=publicHttpUrl(v.website);
       if(!image||!website)return '';
-      return `<figure class="nursery-preview"><a href="${html(website)}" target="_blank" rel="noreferrer" aria-label="Open ${html(v.name)}’s website">
+      const logo=v.preview.type==='logo';
+      const style=logo?' nursery-preview--logo'+(v.preview.dark?' nursery-preview--logo-dark':''):'';
+      return `<figure class="nursery-preview${style}"><a href="${html(website)}" target="_blank" rel="noreferrer" aria-label="Open ${html(v.name)}’s website">
         <img src="${html(image)}" alt="${html(v.preview.alt)}" width="640" height="320" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()">
-        </a><figcaption>Photo from ${html(v.name)}</figcaption></figure>`;
+        </a><figcaption>${logo?'Official mark':'Photo from '+html(v.name)}</figcaption></figure>`;
     }
     function nurserySources(v,dirs){
       const website=publicHttpUrl(v.website);
