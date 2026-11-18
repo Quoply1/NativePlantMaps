@@ -1,5 +1,6 @@
 const PAGE = __PAGE__;
 const FAVICON = __FAVICON__;
+const PROVIDER_ASSETS = __PROVIDER_ASSETS__;
 const SEED = __SEED__;
 const STATE_BOUNDARY_SOURCE = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/15/query?where=1%3D1&outFields=NAME%2CSTUSAB&returnGeometry=true&outSR=4326&geometryPrecision=3&maxAllowableOffset=0.01&f=geojson";
 const EPA_ECOREGION_SOURCE = "https://map23.epa.gov/ArcGIS/rest/services/Deposition/Overlays/MapServer/14/query?where=1%3D1&outFields=NA_L3KEY%2CNA_L3NAME&returnGeometry=true&outSR=4326&geometryPrecision=3&maxAllowableOffset=0.01&f=geojson";
@@ -103,6 +104,10 @@ async function boundaryResponse(source){
 export default {
   async fetch(request,env) {
     const url=new URL(request.url),path=url.pathname.replace(/\/+$/,"")||"/";
+    if((request.method==="GET"||request.method==="HEAD")&&Object.hasOwn(PROVIDER_ASSETS,path)){
+      const asset=PROVIDER_ASSETS[path];
+      return new Response(request.method==="HEAD"?null:Uint8Array.from(atob(asset.data),c=>c.charCodeAt(0)),{headers:{"content-type":asset.type,"cache-control":"public, max-age=86400","x-content-type-options":"nosniff"}});
+    }
     if(request.method==="GET"&&(path==="/"||path==="/index.html"))return new Response(PAGE,{headers:{"content-type":"text/html; charset=utf-8","x-content-type-options":"nosniff"}});
     if((request.method==="GET"||request.method==="HEAD")&&path==="/favicon.svg")return new Response(request.method==="HEAD"?null:FAVICON,{headers:{"content-type":"image/svg+xml","cache-control":"public, max-age=86400","x-content-type-options":"nosniff"}});
     if(request.method==="GET"&&path==="/admin")return await isAdmin(request,env)?new Response(ADMIN_PAGE,{headers:{"content-type":"text/html; charset=utf-8","cache-control":"no-store","x-content-type-options":"nosniff"}}):json({error:"Editor sign-in is required."},401);
