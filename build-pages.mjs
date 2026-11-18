@@ -3,7 +3,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = dirname(fileURLToPath(import.meta.url));
-const [page, seedText, template, guides, directory, favicon, auditText] = await Promise.all([
+const [page, seedText, template, guides, directory, favicon, auditText, logoText] = await Promise.all([
   readFile(resolve(root, 'index.html'), 'utf8'),
   readFile(resolve(root, 'vendors.json'), 'utf8'),
   readFile(resolve(root, 'runtime-template.js'), 'utf8'),
@@ -11,8 +11,10 @@ const [page, seedText, template, guides, directory, favicon, auditText] = await 
   readFile(resolve(root, 'ecoregion-search.json'), 'utf8'),
   readFile(resolve(root, 'favicon.svg'), 'utf8'),
   readFile(resolve(root, 'provider-audit.json'), 'utf8'),
+  readFile(resolve(root, 'provider-logos.json'), 'utf8'),
 ]);
 const audit = JSON.parse(auditText);
+const logos = JSON.parse(logoText);
 const seed = JSON.parse(seedText).map(vendor => {
   const check = audit.providers[vendor.id];
   if (!check) return vendor;
@@ -27,7 +29,11 @@ const seed = JSON.parse(seedText).map(vendor => {
     if (check === 'unverified' || !check) return [{ ...source, verificationPending: true }];
     return [{ ...source, url: check === 'verified' ? source.url : check }];
   });
-  return { ...base, ...updates, sources };
+  const logo = logos[vendor.id];
+  const preview = updates.preview ?? (logo?.website === updates.website && logo?.image
+    ? { image: logo.image, alt: logo.alt ?? vendor.name + ' logo', type: 'logo', dark: logo.dark === true }
+    : undefined);
+  return { ...base, ...updates, sources, preview };
 });
 const guideJson = JSON.stringify(JSON.parse(guides)).replaceAll('<', '\\u003c');
 const directoryJson = JSON.stringify(JSON.parse(directory)).replaceAll('<', '\\u003c');
