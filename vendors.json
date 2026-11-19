@@ -17726,5 +17726,412 @@
       "image": "https://roguevalleynursery.com/wp-content/uploads/yootheme/cache/10/2023-July-Shooting-Star-plant-nursery-view-10f664de.jpg",
       "alt": "Outdoor plant displays at Shooting Star Nursery in Central Point"
     }
+  },
+  {
+    "id": "birds-nest-natives",
+    "name": "Bird’s Nest Natives",
+    "area": "Shepherdstown",
+    "state": "WV",
+    "address": "47 Birds Nest Way, Shepherdstown, WV 25443",
+    "lat": 39.467183,
+    "lng": -77.823619,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "category": "seasonal",
+    "regionGroup": "appalachia",
+    "access": "Seasonal on-site sales and appointments. Check the nursery’s current sale dates.",
+    "availability": "Seasonal on-site sales and appointments. Check the nursery’s current sale dates.",
+    "website": "https://www.birdsnestnatives.com/",
+    "nativeBasis": "This Shepherdstown micronursery grows West Virginia native perennials, grasses, and shrubs. Its plant catalog includes species for pollinator gardens and wetter planting sites.",
+    "nativeSummary": "This Shepherdstown micronursery grows West Virginia native perennials, grasses, and shrubs. Its plant catalog includes species for pollinator gardens and wetter planting sites.",
+    "sources": [
+      {
+        "label": "Native plant catalog",
+        "url": "https://www.birdsnestnatives.com/plants"
+      },
+      {
+        "label": "Contact and location",
+        "url": "https://www.birdsnestnatives.com/contact"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Bird%E2%80%99s%20Nest%20Natives%2047%20Birds%20Nest%20Way%2C%20Shepherdstown%2C%20WV%2025443"
+  },
+  {
+    "id": "terra-fate",
+    "name": "Terra Fate",
+    "area": "Huntington",
+    "state": "WV",
+    "address": "2202 Madison Avenue, Huntington, WV 25704",
+    "lat": 38.406027,
+    "lng": -82.491048,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "wide",
+    "category": "retail",
+    "regionGroup": "appalachia",
+    "access": "The website requests greenhouse appointments. Native plugs are offered to retail and wholesale customers.",
+    "availability": "The website requests greenhouse appointments. Native plugs are offered to retail and wholesale customers.",
+    "website": "https://terrafate.wixsite.com/terra-fate-exotics",
+    "nativeBasis": "Terra Fate offers native plants alongside a separate tropical greenhouse collection. Its native selection includes plugs and larger pots for pollinator gardens and restoration projects.",
+    "nativeSummary": "Terra Fate offers native plants alongside a separate tropical greenhouse collection. Its native selection includes plugs and larger pots for pollinator gardens and restoration projects.",
+    "sources": [
+      {
+        "label": "Native plant selection and ordering",
+        "url": "https://terrafate.wixsite.com/terra-fate-exotics/native"
+      },
+      {
+        "label": "Contact and location",
+        "url": "https://terrafate.wixsite.com/terra-fate-exotics/contact"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Terra%20Fate%202202%20Madison%20Avenue%2C%20Huntington%2C%20WV%2025704"
+  },
+  {
+    "id": "smoke-camp-crafts",
+    "name": "Smoke Camp Crafts",
+    "area": "Weston",
+    "state": "WV",
+    "address": "515 Center Avenue, Weston, WV 26452",
+    "lat": 39.042219,
+    "lng": -80.461328,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "wide",
+    "category": "delivery",
+    "regionGroup": "appalachia",
+    "access": "Order through the online store. Contact the business about local visits or pickup.",
+    "availability": "Order through the online store. Contact the business about local visits or pickup.",
+    "website": "https://smokecampcrafts.com/",
+    "nativeBasis": "This West Virginia grower sells native plants and native seeds alongside herbs and other garden products. Its catalog includes milkweeds, cardinal flower, wild bergamot, and eastern red columbine.",
+    "nativeSummary": "This West Virginia grower sells native plants and native seeds alongside herbs and other garden products. Its catalog includes milkweeds, cardinal flower, wild bergamot, and eastern red columbine.",
+    "sources": [
+      {
+        "label": "Native plants and seeds",
+        "url": "https://smokecampcrafts.com/"
+      },
+      {
+        "label": "Contact and ordering",
+        "url": "https://smokecampcrafts.com/pages/contact-us"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Smoke%20Camp%20Crafts%20515%20Center%20Avenue%2C%20Weston%2C%20WV%2026452"
+  },
+  {
+    "id": "vinland-valley-nursery",
+    "name": "Vinland Valley Nursery",
+    "area": "Baldwin City",
+    "state": "KS",
+    "address": "1606 N 600 Road, Baldwin City, KS 66006",
+    "lat": 38.825973,
+    "lng": -95.204108,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "wide",
+    "category": "retail",
+    "regionGroup": "plains",
+    "access": "Retail nursery with online ordering and seasonal native liner trays.",
+    "availability": "Retail nursery with online ordering and seasonal native liner trays.",
+    "website": "https://vinlandvalleynursery.com/",
+    "nativeBasis": "Vinland Valley grows native plants alongside other perennials, shrubs, and trees. Its catalog separates Kansas natives, Douglas County natives, and plants associated with the local Central Irregular Plains ecoregion.",
+    "nativeSummary": "Vinland Valley grows native plants alongside other perennials, shrubs, and trees. Its catalog separates Kansas natives, Douglas County natives, and plants associated with the local Central Irregular Plains ecoregion.",
+    "sources": [
+      {
+        "label": "Native plant catalog",
+        "url": "https://vinlandvalleynursery.com/plant_type/native-plants/"
+      },
+      {
+        "label": "About the nursery",
+        "url": "https://vinlandvalleynursery.com/about-us/"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Vinland%20Valley%20Nursery%201606%20N%20600%20Road%2C%20Baldwin%20City%2C%20KS%2066006"
+  },
+  {
+    "id": "acadiana-native-plant-project",
+    "name": "Acadiana Native Plant Project · Teche Gardens Nursery",
+    "area": "Arnaudville",
+    "state": "LA",
+    "address": "1046 Main Highway, Arnaudville, LA 70512",
+    "lat": 30.393882,
+    "lng": -91.930517,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "category": "seasonal",
+    "regionGroup": "south",
+    "access": "Pickup at Teche Gardens Nursery, Tuesday workdays, and scheduled public sales. Shipping is not offered.",
+    "availability": "Pickup at Teche Gardens Nursery, Tuesday workdays, and scheduled public sales. Shipping is not offered.",
+    "website": "https://www.greauxnative.org/shop",
+    "nativeBasis": "Acadiana Native Plant Project propagates more than 100 Louisiana-native species at Teche Gardens Nursery. Its volunteer-grown plants support local habitat projects and home gardens, with an inventory list published on its website.",
+    "nativeSummary": "Acadiana Native Plant Project propagates more than 100 Louisiana-native species at Teche Gardens Nursery. Its volunteer-grown plants support local habitat projects and home gardens, with an inventory list published on its website.",
+    "sources": [
+      {
+        "label": "Plant inventory and purchasing",
+        "url": "https://www.greauxnative.org/shop"
+      },
+      {
+        "label": "Teche Gardens Nursery location",
+        "url": "https://www.greauxnative.org/techegardensnursery"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Acadiana%20Native%20Plant%20Project%20%C2%B7%20Teche%20Gardens%20Nursery%201046%20Main%20Highway%2C%20Arnaudville%2C%20LA%2070512"
+  },
+  {
+    "id": "cornucopia-plants",
+    "name": "Cornucopia",
+    "area": "Santa Fe area",
+    "state": "NM",
+    "address": "Santa Fe area, NM; farmers markets and farm visits by appointment",
+    "lat": 35.681,
+    "lng": -105.947,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "select",
+    "category": "seasonal",
+    "regionGroup": "southwest",
+    "access": "Farm visits are by appointment. The grower also sells at Santa Fe and Albuquerque farmers markets; map location is approximate.",
+    "availability": "Farm visits are by appointment. The grower also sells at Santa Fe and Albuquerque farmers markets; map location is approximate.",
+    "website": "https://cornucopiaplants.com/",
+    "nativeBasis": "Cornucopia grows native and drought-tolerant plants alongside edible and medicinal plants south of Santa Fe. Its seasonal selection serves pollinator and habitat gardens, with seeds sourced from its farm or locally when possible.",
+    "nativeSummary": "Cornucopia grows native and drought-tolerant plants alongside edible and medicinal plants south of Santa Fe. Its seasonal selection serves pollinator and habitat gardens, with seeds sourced from its farm or locally when possible.",
+    "sources": [
+      {
+        "label": "Plants and growing practices",
+        "url": "https://cornucopiaplants.com/"
+      },
+      {
+        "label": "Seasonal products",
+        "url": "https://cornucopiaplants.com/services/"
+      },
+      {
+        "label": "Markets and contact",
+        "url": "https://cornucopiaplants.com/contact/"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Cornucopia%20Santa%20Fe%20area%2C%20NM%3B%20farmers%20markets%20and%20farm%20visits%20by%20appointment"
+  },
+  {
+    "id": "agua-fria-nursery",
+    "name": "Agua Fria Nursery",
+    "area": "Santa Fe",
+    "state": "NM",
+    "address": "1409 Agua Fria Street, Santa Fe, NM 87505",
+    "lat": 35.679626,
+    "lng": -105.966197,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "wide",
+    "category": "retail",
+    "regionGroup": "southwest",
+    "access": "Retail nursery in Santa Fe. Contact the nursery for its current selection and visiting hours.",
+    "availability": "Retail nursery in Santa Fe. Contact the nursery for its current selection and visiting hours.",
+    "website": "https://aguafrianursery75.com/",
+    "nativeBasis": "This family-run Santa Fe nursery specializes in native and regionally suitable perennials, shrubs, and succulents. It also grows vegetables and other garden plants, so confirm the local native status of individual selections.",
+    "nativeSummary": "This family-run Santa Fe nursery specializes in native and regionally suitable perennials, shrubs, and succulents. It also grows vegetables and other garden plants, so confirm the local native status of individual selections.",
+    "sources": [
+      {
+        "label": "Official nursery website",
+        "url": "https://aguafrianursery75.com/"
+      },
+      {
+        "label": "Native plant specialties",
+        "url": "https://www.aguafrianurserynm.com/"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Agua%20Fria%20Nursery%201409%20Agua%20Fria%20Street%2C%20Santa%20Fe%2C%20NM%2087505"
+  },
+  {
+    "id": "busy-bee-nursery",
+    "name": "Busy Bee Nursery and Consulting",
+    "area": "Barren County / Glasgow",
+    "state": "KY",
+    "address": "Barren County, KY; scheduled deliveries in Glasgow and Bowling Green",
+    "lat": 36.9959,
+    "lng": -85.9119,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "category": "seasonal",
+    "regionGroup": "appalachia",
+    "access": "Preordered local deliveries and scheduled events. No plant shipping or seed sales; map location is approximate.",
+    "availability": "Preordered local deliveries and scheduled events. No plant shipping or seed sales; map location is approximate.",
+    "website": "https://busybeenurseryandconsulting.com/",
+    "nativeBasis": "Busy Bee grows native flowers, grasses, vines, trees, and shrubs for pollinator and wildlife habitat. Its garden starter kits combine plants native to Kentucky and Tennessee, and its selection guide helps match species to garden conditions.",
+    "nativeSummary": "Busy Bee grows native flowers, grasses, vines, trees, and shrubs for pollinator and wildlife habitat. Its garden starter kits combine plants native to Kentucky and Tennessee, and its selection guide helps match species to garden conditions.",
+    "sources": [
+      {
+        "label": "Native plant selection",
+        "url": "https://busybeenurseryandconsulting.com/plants/"
+      },
+      {
+        "label": "Purchasing and delivery arrangements",
+        "url": "https://busybeenurseryandconsulting.com/availability/"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Busy%20Bee%20Nursery%20and%20Consulting%20Barren%20County%2C%20KY%3B%20scheduled%20deliveries%20in%20Glasgow%20and%20Bowling%20Green"
+  },
+  {
+    "id": "greenhouse-project-carson-city",
+    "name": "The Greenhouse Project",
+    "area": "Carson City",
+    "state": "NV",
+    "address": "Carson High School, 1111 N Saliman Road, Carson City, NV 89701",
+    "lat": 39.170994,
+    "lng": -119.750902,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "documented",
+    "nativeRange": "wide",
+    "category": "seasonal",
+    "regionGroup": "southwest",
+    "access": "Order through the organization’s sale channels and confirm pickup arrangements at its main greenhouse. Shipping is not offered.",
+    "availability": "Order through the organization’s sale channels and confirm pickup arrangements at its main greenhouse. Shipping is not offered.",
+    "website": "https://www.carsoncitygreenhouse.org/",
+    "nativeBasis": "The Greenhouse Project operates a native plant nursery alongside its community growing and education programs. Native plants are sold through its sales channels and supplied for restoration projects in northern Nevada.",
+    "nativeSummary": "The Greenhouse Project operates a native plant nursery alongside its community growing and education programs. Native plants are sold through its sales channels and supplied for restoration projects in northern Nevada.",
+    "sources": [
+      {
+        "label": "Native plant nursery program",
+        "url": "https://www.carsoncitygreenhouse.org/native-plant-nursery-and-compost-program"
+      },
+      {
+        "label": "Plant sales and pickup",
+        "url": "https://www.carsoncitygreenhouse.org/shop-plants-shopify"
+      },
+      {
+        "label": "Main greenhouse location",
+        "url": "https://www.carsoncitygreenhouse.org/green-central"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=The%20Greenhouse%20Project%20Carson%20High%20School%2C%201111%20N%20Saliman%20Road%2C%20Carson%20City%2C%20NV%2089701"
+  },
+  {
+    "id": "hui-ku-maoli-ola",
+    "name": "Hui Kū Maoli Ola",
+    "area": "Kāneʻohe, Oʻahu",
+    "state": "HI",
+    "address": "46-403 Haʻikū Road, Kāneʻohe, HI 96744",
+    "lat": 21.413407,
+    "lng": -157.816685,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "category": "retail",
+    "regionGroup": "pacific",
+    "access": "Retail nursery in Kāneʻohe with wholesale services. Its website also identifies participating Oʻahu retail outlets.",
+    "availability": "Retail nursery in Kāneʻohe with wholesale services. Its website also identifies participating Oʻahu retail outlets.",
+    "website": "https://hawaiiannativeplants.com/",
+    "nativeBasis": "Hui Kū Maoli Ola grows more than 100 native Hawaiian plant species for home gardens, landscapes, and restoration. Its catalog also includes canoe plants, which are culturally important Polynesian introductions and are identified separately from native species.",
+    "nativeSummary": "Hui Kū Maoli Ola grows more than 100 native Hawaiian plant species for home gardens, landscapes, and restoration. Its catalog also includes canoe plants, which are culturally important Polynesian introductions and are identified separately from native species.",
+    "sources": [
+      {
+        "label": "Native Hawaiian plant catalog",
+        "url": "https://hawaiiannativeplants.com/"
+      },
+      {
+        "label": "Nursery visits and retail outlets",
+        "url": "https://hawaiiannativeplants.com/visit"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Hui%20K%C5%AB%20Maoli%20Ola%2046-403%20Ha%CA%BBik%C5%AB%20Road%2C%20K%C4%81ne%CA%BBohe%2C%20HI%2096744"
+  },
+  {
+    "id": "wild-south-native-nursery",
+    "name": "Wild South Native Nursery",
+    "area": "Toney",
+    "state": "AL",
+    "address": "159 Comet Drive, Toney, AL 35773",
+    "lat": 34.91911,
+    "lng": -86.715889,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "category": "seasonal",
+    "regionGroup": "south",
+    "access": "Contact the nursery through its official Facebook page or phone before arranging a visit.",
+    "availability": "Contact the nursery through its official Facebook page or phone before arranging a visit.",
+    "website": "https://www.facebook.com/people/Wild-South-Native-Nursery/61576786862578/",
+    "nativeBasis": "Wild South is a small native plant nursery in Toney serving north Alabama gardeners. Alabama Extension lists it as a primarily native supplier for the Huntsville area.",
+    "nativeSummary": "Wild South is a small native plant nursery in Toney serving north Alabama gardeners. Alabama Extension lists it as a primarily native supplier for the Huntsville area.",
+    "sources": [
+      {
+        "label": "Official nursery Facebook page",
+        "url": "https://www.facebook.com/people/Wild-South-Native-Nursery/61576786862578/"
+      },
+      {
+        "label": "Alabama Extension native plant suppliers",
+        "url": "https://www.aces.edu/blog/topics/landscaping/native-landscape-plant-seed-suppliers-for-north-alabama-growers/"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Wild%20South%20Native%20Nursery%20159%20Comet%20Drive%2C%20Toney%2C%20AL%2035773"
+  },
+  {
+    "id": "blooming-garden",
+    "name": "Blooming Garden",
+    "area": "New Hope",
+    "state": "AL",
+    "address": "223 Scott Branch Road, New Hope, AL 35760",
+    "lat": 34.512375,
+    "lng": -86.41601,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "category": "seasonal",
+    "regionGroup": "south",
+    "access": "Seasonal public nursery hours and appointments. Consult the website for the current schedule.",
+    "availability": "Seasonal public nursery hours and appointments. Consult the website for the current schedule.",
+    "website": "https://www.bloominggarden.net/",
+    "nativeBasis": "Blooming Garden is a conservation nursery offering native wildflowers for north Alabama gardens. Its website publishes a plant catalog and regional planting resources, with nursery visits available seasonally in New Hope.",
+    "nativeSummary": "Blooming Garden is a conservation nursery offering native wildflowers for north Alabama gardens. Its website publishes a plant catalog and regional planting resources, with nursery visits available seasonally in New Hope.",
+    "sources": [
+      {
+        "label": "Nursery location and visits",
+        "url": "https://www.bloominggarden.net/ryland-nursery-huntsville"
+      },
+      {
+        "label": "Alabama Extension native plant suppliers",
+        "url": "https://www.aces.edu/blog/topics/landscaping/native-landscape-plant-seed-suppliers-for-north-alabama-growers/"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Blooming%20Garden%20223%20Scott%20Branch%20Road%2C%20New%20Hope%2C%20AL%2035760"
+  },
+  {
+    "id": "little-beaver-nursery",
+    "name": "Little Beaver Nursery",
+    "area": "Beatrice",
+    "state": "NE",
+    "address": "8177 E Lilac Road, Beatrice, NE 68310",
+    "lat": 40.233445,
+    "lng": -96.606907,
+    "approx": true,
+    "native": "confirmed",
+    "nativeTier": "specialist",
+    "nativeRange": "wide",
+    "category": "seasonal",
+    "regionGroup": "plains",
+    "access": "Order by email or phone. Nursery pickup is by appointment; confirm the current inventory directly.",
+    "availability": "Order by email or phone. Nursery pickup is by appointment; confirm the current inventory directly.",
+    "website": "https://littlebeavernursery.wordpress.com/",
+    "nativeBasis": "Little Beaver grows local ecotypes from southeastern Nebraska and northeastern Kansas. Its native prairie and woodland plants serve home gardens, community spaces, and restoration projects.",
+    "nativeSummary": "Little Beaver grows local ecotypes from southeastern Nebraska and northeastern Kansas. Its native prairie and woodland plants serve home gardens, community spaces, and restoration projects.",
+    "sources": [
+      {
+        "label": "Native plant selection and appointments",
+        "url": "https://littlebeavernursery.wordpress.com/"
+      }
+    ],
+    "reviewUrl": "https://www.google.com/maps/search/?api=1&query=Little%20Beaver%20Nursery%208177%20E%20Lilac%20Road%2C%20Beatrice%2C%20NE%2068310"
   }
 ]

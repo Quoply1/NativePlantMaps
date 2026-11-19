@@ -976,7 +976,10 @@
       "ironweed-native-plant-nursery",
       "growild-inc",
       "shooting-star-nursery-ky",
-      "bloomington-valley-nursery"
+      "bloomington-valley-nursery",
+      "busy-bee-nursery",
+      "wild-south-native-nursery",
+      "blooming-garden"
     ],
     "bounds": [
       [
@@ -1153,7 +1156,8 @@
       "shy-valley-farm",
       "yellow-house-natives",
       "overhill-gardens-tn",
-      "stanleys-greenhouse"
+      "stanleys-greenhouse",
+      "birds-nest-natives"
     ],
     "bounds": [
       [
@@ -1189,7 +1193,9 @@
       "native-roots-inc-west-virginia",
       "companion-plants-athens-oh",
       "arcadia-natives",
-      "friendship-farms-latrobe"
+      "friendship-farms-latrobe",
+      "terra-fate",
+      "smoke-camp-crafts"
     ],
     "bounds": [
       [
@@ -1326,7 +1332,8 @@
   },
   "8.5.2": {
     "vendorIds": [
-      "beavers-abundance"
+      "beavers-abundance",
+      "acadiana-native-plant-project"
     ],
     "bounds": [
       [
@@ -1429,7 +1436,8 @@
       "allendan-seed-company-winterset",
       "blooming-prairie-nursery-carlisle",
       "the-prairie-flower-spencer",
-      "kinnickinnic-natives-river-falls"
+      "kinnickinnic-natives-river-falls",
+      "little-beaver-nursery"
     ],
     "bounds": [
       [
@@ -1448,7 +1456,8 @@
       "sow-wild-natives",
       "across-the-prairie-friends",
       "kansas-plant-farm",
-      "critsite-prairie-wetland-center"
+      "critsite-prairie-wetland-center",
+      "vinland-valley-nursery"
     ],
     "bounds": [
       [
@@ -1723,7 +1732,8 @@
       "joes-greenhouse-layton",
       "layton-tree-farms",
       "loveland-gardens-ut",
-      "rockin-e-country-store"
+      "rockin-e-country-store",
+      "greenhouse-project-carson-city"
     ],
     "bounds": [
       [
@@ -1752,7 +1762,9 @@
   "10.1.7": {
     "vendorIds": [
       "osuna-nursery-native-department",
-      "plants-of-the-southwest-santa-fe"
+      "plants-of-the-southwest-santa-fe",
+      "cornucopia-plants",
+      "agua-fria-nursery"
     ],
     "bounds": [
       [
@@ -1958,7 +1970,8 @@
   },
   "OC0106": {
     "vendorIds": [
-      "paradise-plants-hilo"
+      "paradise-plants-hilo",
+      "hui-ku-maoli-ola"
     ],
     "bounds": [
       [
