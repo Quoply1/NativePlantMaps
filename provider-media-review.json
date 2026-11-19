@@ -1,0 +1,375 @@
+{
+  "reviewedOn": "2026-11-19",
+  "existingPhotoPreviewsReviewed": 228,
+  "policy": "Prefer nursery or greenhouse views, authentic nursery logos, then plants published by the nursery. Avoid portraits, group photos, people-focused stock photography, and unrelated certification seals. Never generate a provider logo.",
+  "reviews": [
+    {
+      "id": "city-natives",
+      "source": "https://thetrustees.org/place/city-natives/",
+      "previousImage": "https://thetrustees.org/wp-content/uploads/2020/07/City-natives-plant-sale.jpg",
+      "preview": {
+        "image": "https://thetrustees.org/wp-content/uploads/2020/05/TrusteesLogo_C_Left.png",
+        "alt": "The Trustees official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "native-plant-trust-nasami",
+      "source": "https://nativeplanttrust.org/nasami-farm/",
+      "previousImage": "https://nativeplanttrust.org/wp-content/uploads/2026/07/botanic.jpg",
+      "preview": {
+        "image": "https://nativeplanttrust.org/wp-content/uploads/2026/07/nasami-farm.png",
+        "alt": "Growing beds and plant displays at Nasami Farm",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "russells-garden-center",
+      "source": "https://www.russellsgardencenter.com/",
+      "previousImage": "https://static.wixstatic.com/media/78e52e_40621fcca74d403da69b2784f0f91803~mv2.jpeg/v1/fill/w_980,h_551,al_c,q_90,enc_avif,quality_auto/growing%20through%20covid%2019%20poster.jpeg",
+      "preview": {
+        "image": "https://static.wixstatic.com/media/0f94df_e048375669844cb9a4047d652110dc96~mv2.png",
+        "alt": "Russell’s Garden Center official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "bona-terra",
+      "source": "https://bonaterradc.com/",
+      "previousImage": "https://scontent-lax3-2.cdninstagram.com/v/t51.82787-15/716150458_18320130922274444_2881620459370774700_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6ig6_z7RIxAQ7kNvwE4bLpG&_nc_oc=AdrXs1S7WCuk6_B0RRlFBdfgT9GxVBMw3JDTpO3vICtY8q4dNdfXcjQvDFOmsMq_Mu4&_nc_zt=23&_nc_ht=scontent-lax3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=o9JXGlYyUuIwIeRCx9M2_g&_nc_tpa=Q5bMBQK4D1u7Y9Qwo8FpFRr8Vee3cRKfgenimMX_hJYdjtxbGoXvlYtW145v7zKIW6Gt4pZdSkw2zw8Ouw&_nc_rt=0&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRe-OJ29VDQGXiq086KhbHSnTeP5UihLccQ0Cq-SHZG5Q&oe=6B0295BC",
+      "preview": {
+        "image": "https://i0.wp.com/bonaterradc.com/wp-content/uploads/2023/12/BT-Circle-Design.png?fit=1500%2C1500&ssl=1",
+        "alt": "Bona Terra official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "hope-grows",
+      "source": "https://hopegrowsnursery.com/",
+      "previousImage": "https://hopegrowsnursery.com/cdn/shop/files/IMG_4823.jpg?v=1784901343&width=300",
+      "preview": {
+        "image": "https://hopegrowsnursery.com/cdn/shop/files/Hellstrip_garden_3.jpg?v=1772374764&width=600",
+        "alt": "Flowering garden pictured by Hope Grows Nursery",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "imagine-native-farm",
+      "source": "https://homeearthalliance.org/imagine-native-plant-farm",
+      "previousImage": "https://images.squarespace-cdn.com/content/v1/634ed7360cfe494c825b1b56/0f106049-600e-44d9-bcd7-bd83b4d6642b/788CF39F-A35E-4476-8B10-1531A5D3F729_1_105_c.jpeg",
+      "preview": {
+        "image": "https://images.squarespace-cdn.com/content/v1/634ed7360cfe494c825b1b56/0090dd99-a9eb-4ff9-8bec-385b10264da9/IMAGINENativePlantFarmGarden.jpg?format=750w",
+        "alt": "Flowering plants beside the greenhouse at IMAGINE Native Plant Farm",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "nbk-native-nursery",
+      "source": "https://nbkparks.org/nbk-parks-native-nursery/",
+      "previousImage": "https://nbkparks.org/wp-content/uploads/2026/05/hero-img_northbrooklynparksalliance_2025_Under-the-K-Native-Nursery_credit-Mark-Davis.jpg",
+      "preview": {
+        "image": "https://nbkparks.org/wp-content/uploads/2026/05/img_northbrooklynparksalliance_01_2025_Under-the-K-Native-Nursery_credit-Mark-Davis-1.jpg",
+        "alt": "Native plants growing on nursery benches beneath the Kosciuszko Bridge",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "newtown-native-nursery",
+      "source": "https://www.newtowncreekalliance.org/newtown-creek-nursery/",
+      "previousImage": "https://www.newtowncreekalliance.org/wp-content/uploads/2024/12/IMG_1756-scaled-1025x500.jpg",
+      "preview": {
+        "image": "https://www.newtowncreekalliance.org/wp-content/uploads/2024/12/IMG_5399-greenhouse-scaled-1025x500.jpg",
+        "alt": "Seedlings growing inside Newtown Native Nursery’s greenhouse",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "growild-tennessee",
+      "source": "https://www.growildinc.com/",
+      "previousImage": "https://www.growildinc.com/wp-content/uploads/2021/03/Cheekwood-Howe-Garden-Private-Grand-Opening-017.jpeg",
+      "preview": {
+        "image": "https://www.growildinc.com/wp-content/uploads/2021/03/growild-pics19.jpeg",
+        "alt": "Native planting beds beside a growing building at GroWild",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "earth-sangha",
+      "source": "https://www.earthsangha.org/wpn",
+      "previousImage": "https://static.wixstatic.com/media/102a93_11b0d5ef99e2423aa8c36f4beac18765~mv2.jpg/v1/crop/x_524,y_0,w_2930,h_2446/fill/w_436,h_364,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/badpots.jpg",
+      "preview": {
+        "image": "https://static.wixstatic.com/media/102a93_fa54813da1e44bec8d1675e5178f5117~mv2.jpg",
+        "alt": "Rows of potted native plants under shade cloth at Earth Sangha",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "champlain-valley-restoration-nursery",
+      "source": "https://www.pmnrcd.org/champlain-valley-native-plant-restoration-nursery/",
+      "previousImage": "https://www.pmnrcd.org/wp-content/uploads/2024/02/IMG_1615-scaled.jpg",
+      "preview": {
+        "image": "https://www.pmnrcd.org/wp-content/uploads/2024/02/IMG_0809-scaled.jpg",
+        "alt": "Nursery building at the Champlain Valley Native Plant Restoration Nursery",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "mother-earth-gardens",
+      "source": "https://www.motherearthgarden.com/",
+      "previousImage": "https://images.squarespace-cdn.com/content/v1/56169790e4b0b9cf110c8b8c/ac1397b5-b148-48a7-9176-ba4c80bcd05b/IMG_9892.jpeg",
+      "preview": {
+        "image": "https://images.squarespace-cdn.com/content/v1/56169790e4b0b9cf110c8b8c/1445465906500-CK2AFM53JS83AEJCWUB7/MEG_logo.jpg?format=750w",
+        "alt": "Mother Earth Gardens official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "arbor-gate-tomball",
+      "source": "https://arborgate.com/",
+      "previousImage": "https://arborgate.com/wp-content/uploads/2026/11/the-oklahoma-gardener-400x250.jpg",
+      "preview": {
+        "image": "https://arborgate.com/wp-content/uploads/2016/12/logo.png",
+        "alt": "The Arbor Gate official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "california-flora-nursery-fulton",
+      "source": "https://www.calfloranursery.com/",
+      "previousImage": "https://www.calfloranursery.com/app/uploads/2026/02/Asclepias_Propagation_Amber_Nov27_2022_1170-copy_lr-scaled.jpg",
+      "preview": {
+        "image": "https://www.calfloranursery.com/app/uploads/2026/03/iris-longipetala_0-851x1024.jpg",
+        "alt": "Iris longipetala pictured by California Flora Nursery",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "jj-garden-center-layton",
+      "source": "https://jjgardencenter.com/",
+      "previousImage": "https://i0.wp.com/jjgardencenter.com/wp-content/uploads/2026/10/plant-problem-diagnosis.jpg?fit=1024%2C572&ssl=1",
+      "preview": {
+        "image": "https://i0.wp.com/jjgardencenter.com/wp-content/uploads/2026/01/20260129_124659-scaled.jpg?fit=2048%2C1153&ssl=1",
+        "alt": "Plant displays and a decorative truck inside J&J Garden Center",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "sunflower-farms-torrance",
+      "source": "https://sunflowerfarmsnursery.com/",
+      "previousImage": "https://sunflowerfarmsnursery.com/wp-content/uploads/2025/08/planting-a-garden-in-fall-1-1200x675.jpeg",
+      "preview": {
+        "image": "https://sunflowerfarmsnursery.com/wp-content/uploads/2019/01/Spec-Logo-1.png",
+        "alt": "Sunflower Farms official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "prickly-pair-rgv",
+      "source": "https://prickly-pair-rgv.com/",
+      "previousImage": "https://images.squarespace-cdn.com/content/v1/67d0dba32333d23007491f7c/b9b360be-a37e-4e71-9e75-9320239ca9fa/john+natural+habitat.jpg",
+      "preview": {
+        "image": "https://images.squarespace-cdn.com/content/v1/67d0dba32333d23007491f7c/246473b3-a06e-4f12-a942-d55217283df7/PXL_20220723_000654492+%282%29.jpg?format=750w",
+        "alt": "Prickly pear cactus pictured by Prickly Pair RGV",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "memphis-native-tree-works",
+      "source": "https://www.theworkscdc.org/memphis-native-tree-works",
+      "previousImage": "https://static.wixstatic.com/media/737d42_96e044325f6f4111980301f01bd99fdb~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/737d42_96e044325f6f4111980301f01bd99fdb~mv2.jpg",
+      "preview": {
+        "image": "https://static.wixstatic.com/media/737d42_85edda3be590436babbc3afbb967dd46~mv2.png",
+        "alt": "The Works official logo, parent organization of Memphis Native Tree Works",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "growild-inc",
+      "source": "https://www.growildinc.com/",
+      "previousImage": "https://www.growildinc.com/wp-content/uploads/2021/03/Cheekwood-Howe-Garden-Private-Grand-Opening-017.jpeg",
+      "preview": {
+        "image": "https://www.growildinc.com/wp-content/uploads/2021/03/growild-pics19.jpeg",
+        "alt": "Native planting beds beside a growing building at GroWild",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "pollinator-project-rogue-valley",
+      "source": "https://www.pollinatorprojectroguevalley.org/",
+      "previousImage": "https://static.wixstatic.com/media/9290bd_f1b3dc2d1b8240a590f6d21beec54ed8~mv2.jpg/v1/crop/x_70,y_52,w_692,h_575/fill/w_438,h_364,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Seeding%20day%20table_JPG.jpg",
+      "preview": {
+        "image": "https://static.wixstatic.com/media/9290bd_2f8b831a2e3e40f0b078cee01323fad2~mv2.png",
+        "alt": "Pollinator Project Rogue Valley official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "primex-garden-center",
+      "source": "https://primexgardencenter.com/",
+      "previousImage": "https://primexgardencenter.com/wp-content/uploads/2023/12/steven-greenhouse_720x320_acf_cropped.webp",
+      "preview": {
+        "image": "https://primexgardencenter.com/wp-content/uploads/2026/01/Primex-Yearly-Anniversary-Logo-1-300x300.png",
+        "alt": "Primex Garden Center official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "adkins-arboretum",
+      "source": "https://adkinsarboretum.org/about/native-plant-nursery/",
+      "previousImage": "https://i0.wp.com/blq.bgc.mybluehost.me/wp-content/uploads/2026/02/leonandrusevent-scaled.jpg?resize=1200%2C675",
+      "preview": {
+        "image": "https://i0.wp.com/adkinsarboretum.org/wp-content/uploads/2026/02/adkinsarboretum-scaled.png?resize=1200%2C223&ssl=1",
+        "alt": "Adkins Arboretum official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "high-plains-environmental-center",
+      "source": "https://suburbitat.org/native-plant-nursery/",
+      "previousImage": "https://suburbitat.org/wp-content/uploads/2026/01/image0-874x1024.jpeg",
+      "preview": {
+        "image": "https://suburbitat.org/wp-content/uploads/2024/11/HPC-logo.png",
+        "alt": "High Plains Environmental Center official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "mill-creek-greenhouses",
+      "source": "https://millcreekgreenhousescolumbia.co/",
+      "previousImage": "https://img1.wsimg.com/isteam/getty/1555368874",
+      "preview": null,
+      "note": "Removed the generic stock portrait. No suitable authentic nursery image could be confirmed; the card keeps its website link."
+    },
+    {
+      "id": "birds-nest-natives",
+      "source": "https://www.birdsnestnatives.com/",
+      "preview": {
+        "image": "https://static.wixstatic.com/media/5a7b9c_6822440f8ec54f318a0a7de37afff922~mv2.png",
+        "alt": "Bird’s Nest Natives official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "terra-fate",
+      "source": "https://terrafate.wixsite.com/terra-fate-exotics",
+      "preview": {
+        "image": "https://static.wixstatic.com/media/01497e_cfbc05800882483bb0c4c1367575ec1d~mv2.png",
+        "alt": "Terra Fate official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "smoke-camp-crafts",
+      "source": "https://smokecampcrafts.com/",
+      "preview": {
+        "image": "https://smokecampcrafts.com/cdn/shop/files/LOGOWHITENOBACKGROUNDNOCIRCLE.png?v=1742757407&width=600",
+        "alt": "Smoke Camp Crafts official logo",
+        "type": "logo",
+        "dark": true
+      }
+    },
+    {
+      "id": "vinland-valley-nursery",
+      "source": "https://vinlandvalleynursery.com/",
+      "preview": {
+        "image": "https://vinlandvalleynursery.com/wp-content/uploads/2026/10/pure-air-natives-640x360.avif",
+        "alt": "Native seed display inside Vinland Valley Nursery",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "acadiana-native-plant-project",
+      "source": "https://www.greauxnative.org/shop",
+      "preview": {
+        "image": "https://static.wixstatic.com/media/a0e834_ca1a081a27fd482d84115d6bd82339fa~mv2.jpg",
+        "alt": "Growing beds and greenhouse pictured by Acadiana Native Plant Project",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "cornucopia-plants",
+      "source": "https://cornucopiaplants.com/",
+      "preview": {
+        "image": "https://cornucopiaplants.com/wp-content/uploads/2022/12/IMGP0596-scaled.jpg",
+        "alt": "Flowers and foliage pictured on Cornucopia’s website",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "agua-fria-nursery",
+      "source": "https://aguafrianursery75.com/",
+      "preview": {
+        "image": "https://aguafrianursery75.com/wp-content/uploads/2025/02/header_image.png",
+        "alt": "Hanging flowers and covered growing area at Agua Fria Nursery",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "busy-bee-nursery",
+      "source": "https://busybeenurseryandconsulting.com/",
+      "preview": {
+        "image": "https://i0.wp.com/busybeenurseryandconsulting.com/wp-content/uploads/2024/03/butterfly-and-goldenrod_circle-200.png?fit=200%2C200&ssl=1",
+        "alt": "Busy Bee Nursery and Consulting official butterfly emblem",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "greenhouse-project-carson-city",
+      "source": "https://www.carsoncitygreenhouse.org/",
+      "preview": {
+        "image": "https://static.wixstatic.com/media/65befc_672ab2a50cee479b8764389400e5dc81~mv2.jpeg",
+        "alt": "Hoop house at The Greenhouse Project’s Foothill Garden",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "hui-ku-maoli-ola",
+      "source": "https://hawaiiannativeplants.com/",
+      "preview": {
+        "image": "https://framerusercontent.com/images/B046lequefqgsikZOI7IU1sIc.png?width=2560&height=1920",
+        "alt": "Rows of plants growing beneath hoop-house frames at Hui Kū Maoli Ola",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "wild-south-native-nursery",
+      "source": "https://www.facebook.com/people/Wild-South-Native-Nursery/61576786862578/",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/wild-south-logo.jpg",
+        "alt": "Wild South Native Nursery official logo",
+        "type": "logo"
+      },
+      "sourceImage": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/512682425_122116207382892895_5240355033730232097_n.jpg?stp=dst-jpg_tt6&cstp=mx400x400&ctp=s400x400&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gUWEYwEKfmIQ7kNvwHdFbIm&_nc_oc=AdpP7nnrA4NDHLcJ1-57nrwMrm83h8C40fNXbRzPQWNAQDAesX3dIYcOCS-lgyScDM72OK7_VyAr5lbgInXUbMB_&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=-turjfp4pSq8Olvkv8wc_w&_nc_ss=7f20f&oh=00_AQTzG4sOI4Iiaf1s5tNDaw_7neVIkvhvVoymcc-4sbdtUQ&oe=6B051CF2"
+    },
+    {
+      "id": "blooming-garden",
+      "source": "https://www.bloominggarden.net/",
+      "preview": {
+        "image": "https://images.squarespace-cdn.com/content/v1/63178fe05f23f51c6f62231c/5e0bddc5-7f4b-4ff5-9592-6ced20b28155/BloomingGarden_Matt+Shaw-02.png?format=750w",
+        "alt": "Blooming Garden official logo",
+        "type": "logo"
+      }
+    },
+    {
+      "id": "little-beaver-nursery",
+      "source": "https://littlebeavernursery.wordpress.com/",
+      "preview": {
+        "image": "https://littlebeavernursery.wordpress.com/wp-content/uploads/2021/02/img_20190912_083434_599-1.jpg?w=819",
+        "alt": "Rows of potted plants in Little Beaver Nursery’s growing area",
+        "type": "photo"
+      }
+    },
+    {
+      "id": "ohio-native-nursery-cincinnati",
+      "source": "https://ohionativenursery.com/",
+      "previousImage": "https://ohionativenursery.com/wp-content/uploads/2025/08/sandie-clarke-q13Zq1Jufks-unsplash-1024x683.jpg",
+      "preview": null,
+      "note": "Removed the generic gardening stock image. No suitable authentic nursery logo or nursery/plant photo could be confirmed on the site; the card keeps its website link."
+    }
+  ],
+  "newListingLocationSources": {
+    "streetAddresses": "Published nursery contacts and US Census Public_AR_Current address geocoder. Street-interpolated points are marked approximate.",
+    "cornucopia-plants": "Santa Fe market area; farm street address is unpublished. Approximate city pin, with market/appointment access stated.",
+    "busy-bee-nursery": "Glasgow delivery area in Barren County; no walk-in nursery address is published. Approximate city pin, with scheduled deliveries stated."
+  }
+}
