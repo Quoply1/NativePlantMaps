@@ -106,6 +106,7 @@ export default {
     const url=new URL(request.url),path=url.pathname.replace(/\/+$/,"")||"/";
     if((request.method==="GET"||request.method==="HEAD")&&Object.hasOwn(PROVIDER_ASSETS,path)){
       const asset=PROVIDER_ASSETS[path];
+      if(!asset.data)return env.ASSETS?env.ASSETS.fetch(request):new Response('Image assets are unavailable.',{status:503});
       return new Response(request.method==="HEAD"?null:Uint8Array.from(atob(asset.data),c=>c.charCodeAt(0)),{headers:{"content-type":asset.type,"cache-control":"public, max-age=86400","x-content-type-options":"nosniff"}});
     }
     if(request.method==="GET"&&(path==="/"||path==="/index.html"))return new Response(PAGE,{headers:{"content-type":"text/html; charset=utf-8","x-content-type-options":"nosniff"}});
