@@ -1,0 +1,2998 @@
+{
+  "checkedOn": "2026-11-20",
+  "logoPreviewsReviewed": 192,
+  "opaqueOrNoMeaningfulTransparency": 75,
+  "changes": [
+    {
+      "id": "broken-arrow-nursery",
+      "name": "Broken Arrow Nursery",
+      "method": "Official transparent alternative",
+      "source": "https://www.brokenarrownursery.com/",
+      "originalImage": "https://d29wjyh4gwfh00.cloudfront.net/icons/icon-144x144.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/broken-arrow-nursery-logo-transparent-v1.webp",
+        "alt": "Broken Arrow Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "broken-arrow-nursery-logo-transparent-v1.webp",
+        "bytes": 24574,
+        "sha256": "f4c9951f662561328a090651b3685e7da9ebed94013a58889074ebf31e62b95d",
+        "dimensions": [
+          558,
+          68
+        ],
+        "sourceDimensions": [
+          558,
+          68
+        ],
+        "transparentFraction": 0.7347,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "blue-stem-natives",
+      "name": "Blue Stem Natives",
+      "method": "Official transparent alternative",
+      "source": "https://www.bluestemnatives.com/",
+      "originalImage": "https://static.wixstatic.com/media/aff2f2_8303a3a4336f4718af1836d29a7f1809~mv2.png/v1/fill/w_128,h_128,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Organic%20Seeds%20Shop%20Logo%20(29).png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/blue-stem-natives-logo-transparent-v1.webp",
+        "alt": "Blue Stem Natives official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "blue-stem-natives-logo-transparent-v1.webp",
+        "bytes": 11638,
+        "sha256": "d4ccf85b0b25dc5309dc12d091119f25ff80f35ab79392cc3b3f9b2d983fffb3",
+        "dimensions": [
+          180,
+          180
+        ],
+        "sourceDimensions": [
+          180,
+          180
+        ],
+        "transparentFraction": 0.3358,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "dropseed",
+      "name": "Dropseed Native Landscapes",
+      "method": "Official transparent alternative",
+      "source": "https://www.dropseednativelandscapesli.com/",
+      "originalImage": "https://static.wixstatic.com/media/375935_e2195acd75f44572a69df55d9b048e2b~mv2.png/v1/fill/w_959,h_303,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/291880929_417691813618889_53993451480849.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/dropseed-logo-transparent-v1.webp",
+        "alt": "Dropseed Native Landscapes official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "dropseed-logo-transparent-v1.webp",
+        "bytes": 59360,
+        "sha256": "4db5413004ed544fa133e6a0011e597731126ea99c143cdb1723ea70318af93e",
+        "dimensions": [
+          497,
+          480
+        ],
+        "sourceDimensions": [
+          1378,
+          1330
+        ],
+        "transparentFraction": 0.5626,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "pollinatives",
+      "name": "Pollinatives",
+      "method": "Official transparent alternative",
+      "source": "https://www.pollinatives.com/",
+      "originalImage": "https://static.wixstatic.com/media/498877_d2f9d2ebc01048f9b602ab1b5a6ba453~mv2.jpg/v1/fill/w_513,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/PN_logo_color.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/pollinatives-logo-transparent-v1.webp",
+        "alt": "Pollinatives official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "pollinatives-logo-transparent-v1.webp",
+        "bytes": 14766,
+        "sha256": "cf4fc4c195af403a0917f8a1de9eab0f3fabc0aabf12490f9625674d37dff64f",
+        "dimensions": [
+          325,
+          127
+        ],
+        "sourceDimensions": [
+          325,
+          127
+        ],
+        "transparentFraction": 0.795,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "windflower-natives-fergus-falls",
+      "name": "Windflower Natives",
+      "method": "Official transparent alternative",
+      "source": "https://windflowernatives.com/",
+      "originalImage": "https://i0.wp.com/windflowernatives.com/wp-content/uploads/2024/12/Windflower-Stacked.png?fit=796%2C752&ssl=1",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/windflower-natives-fergus-falls-logo-transparent-v1.webp",
+        "alt": "Windflower Natives official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "windflower-natives-fergus-falls-logo-transparent-v1.webp",
+        "bytes": 7092,
+        "sha256": "a50fe670e9e054a9e66be6beb664f1219ef08eaf8350068d63e11a4fc7a063bb",
+        "dimensions": [
+          350,
+          136
+        ],
+        "sourceDimensions": [
+          350,
+          136
+        ],
+        "transparentFraction": 0.7755,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "allendan-seed-company-winterset",
+      "name": "Allendan Seed Company",
+      "method": "Official transparent alternative",
+      "source": "https://www.allendanseed.com/",
+      "originalImage": "https://www.allendanseed.com/assets/images/webclip-b6d8257afff6b987a574fabcf7095d36.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/allendan-seed-company-winterset-logo-transparent-v1.webp",
+        "alt": "Allendan Seed Company official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "allendan-seed-company-winterset-logo-transparent-v1.webp",
+        "bytes": 34222,
+        "sha256": "980927f9ff89d142fc170c7622f13161adc7e694698e53d8b8a0a773fb66405b",
+        "dimensions": [
+          960,
+          275
+        ],
+        "sourceDimensions": [
+          986,
+          282
+        ],
+        "transparentFraction": 0.6398,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "tallahassee-nurseries",
+      "name": "Tallahassee Nurseries",
+      "method": "Official transparent alternative",
+      "source": "https://tallahasseenurseries.com/",
+      "originalImage": "https://tallahasseenurseries.com/wp-content/uploads/2020/09/cropped-tnlogo-192x192.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/tallahassee-nurseries-logo-transparent-v1.webp",
+        "alt": "Tallahassee Nurseries official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "tallahassee-nurseries-logo-transparent-v1.webp",
+        "bytes": 6544,
+        "sha256": "c80cd65744c6486c18456e5aaea8de02f524b1dcc7decb790ddc3d38674f0db4",
+        "dimensions": [
+          400,
+          56
+        ],
+        "sourceDimensions": [
+          400,
+          56
+        ],
+        "transparentFraction": 0.7358,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "greenscape-gardens-manchester",
+      "name": "Greenscape Gardens",
+      "method": "Official transparent alternative with empty-margin trim",
+      "source": "https://www.greenscapegardens.com/",
+      "originalImage": "https://cdn.prod.website-files.com/62d079fb1587733968556b93/630cd8df1c910f8f14a2fbad_GG%20Logo%20tiny2.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/greenscape-gardens-manchester-logo-transparent-v1.webp",
+        "alt": "Greenscape Gardens official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "greenscape-gardens-manchester-logo-transparent-v1.webp",
+        "bytes": 90322,
+        "sha256": "0679c0650b763944a4329e9e79fec51496f7751a80170c52961b272f9a0790dd",
+        "dimensions": [
+          960,
+          435
+        ],
+        "sourceDimensions": [
+          1864,
+          844
+        ],
+        "transparentFraction": 0.7834,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "blue-moon-farm",
+      "name": "Blue Moon Farm Perennials",
+      "method": "Official transparent alternative",
+      "source": "https://bluemoonfarmperennials.com/",
+      "originalImage": "https://bluemoonfarmperennials.com/wp-content/uploads/2022/03/cropped-moon-180x180.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/blue-moon-farm-logo-transparent-v1.webp",
+        "alt": "Blue Moon Farm Perennials official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "blue-moon-farm-logo-transparent-v1.webp",
+        "bytes": 24334,
+        "sha256": "4c9c27775a8f1cc80f02f9f130f28f8303de92846d39fca63ef585ccb5af3b33",
+        "dimensions": [
+          218,
+          250
+        ],
+        "sourceDimensions": [
+          218,
+          250
+        ],
+        "transparentFraction": 0.2125,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "city-natives",
+      "name": "City Natives · The Trustees",
+      "method": "Official transparent alternative",
+      "source": "https://thetrustees.org/place/city-natives/",
+      "originalImage": "https://thetrustees.org/wp-content/uploads/2020/05/TrusteesLogo_C_Left.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/city-natives-logo-transparent-v1.webp",
+        "alt": "City Natives · The Trustees official logo, transparent background",
+        "type": "logo",
+        "dark": true
+      },
+      "asset": {
+        "name": "city-natives-logo-transparent-v1.webp",
+        "bytes": 7224,
+        "sha256": "9bedd662f5db3f00761f6d36745f53b956c30d611100e81d9449bcb0c7ecd555",
+        "dimensions": [
+          960,
+          166
+        ],
+        "sourceDimensions": [
+          960,
+          166
+        ],
+        "transparentFraction": 0.5029,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "mother-earth-gardens",
+      "name": "Mother Earth Gardens",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.motherearthgarden.com/",
+      "originalImage": "https://images.squarespace-cdn.com/content/v1/56169790e4b0b9cf110c8b8c/1445465906500-CK2AFM53JS83AEJCWUB7/MEG_logo.jpg?format=750w",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/mother-earth-gardens-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Mother Earth Gardens’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "mother-earth-gardens-nursery-photo-v1.webp",
+        "bytes": 256424,
+        "sha256": "2bcc3ecb5afb9e8e301e344a923b47a3e30eeedd403142007b1beac76dd005c1",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "sourceDimensions": [
+          2500,
+          1407
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "sprig-native-plant-nursery",
+      "name": "Sprig Native Plant Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://sprignativenursery.com/",
+      "originalImage": "https://sprignativenursery.com/cdn/shop/files/434187530_827387532556802_8575238998461935090_n.jpg?v=1712030324&width=600",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/sprig-native-plant-nursery-nursery-photo-v1.webp",
+        "alt": "Yellow wildflowers pictured by Sprig Native Plant Nursery",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "sprig-native-plant-nursery-nursery-photo-v1.webp",
+        "bytes": 72182,
+        "sha256": "44a7e687ed1d34d257a129cc27d2967a5c997f8e2ee3f2147bec416a93f5d33d",
+        "dimensions": [
+          1200,
+          675
+        ],
+        "sourceDimensions": [
+          2560,
+          1440
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "ozark-homegrown-nursery",
+      "name": "Ozark Homegrown Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://ozark-homegrown-native-nursery.myshopify.com/",
+      "originalImage": "https://ozark-homegrown-native-nursery.myshopify.com/cdn/shop/files/Image_10-26-26_at_10.39_PM.jpg?v=1793072412&width=600",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/ozark-homegrown-nursery-nursery-photo-v1.webp",
+        "alt": "Rows of nursery-grown plants under a hoop house at Ozark Homegrown Nursery",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "ozark-homegrown-nursery-nursery-photo-v1.webp",
+        "bytes": 190498,
+        "sha256": "42a592680316a24ea69a99465b3d4dabafd1385ae2de018f8fc71cb33a46ea0a",
+        "dimensions": [
+          675,
+          900
+        ],
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "arbor-gate-tomball",
+      "name": "The Arbor Gate",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://arborgate.com/",
+      "originalImage": "https://arborgate.com/wp-content/uploads/2016/12/logo.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/arbor-gate-tomball-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on The Arbor Gate’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "arbor-gate-tomball-nursery-photo-v1.webp",
+        "bytes": 43538,
+        "sha256": "edac60803aa1df7f58d9b0a1d22512143ce7a2ab4d9812afcf0180c0a042322e",
+        "dimensions": [
+          400,
+          250
+        ],
+        "sourceDimensions": [
+          400,
+          250
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "four-season-nursery-traverse-city",
+      "name": "Four Season Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.fourseasonnurserytc.com/",
+      "originalImage": "https://images.squarespace-cdn.com/content/v1/62b4952fdb30ef340c83333b/9c313382-689f-4b85-a45c-4256e35b6350/favicon.ico",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/four-season-nursery-traverse-city-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Four Season Nursery’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "four-season-nursery-traverse-city-nursery-photo-v1.webp",
+        "bytes": 302286,
+        "sha256": "0b5661d70a931b2068a97c0a76be2ac7e24398b93c5e442bdbcf2fd07fb264bf",
+        "dimensions": [
+          1200,
+          800
+        ],
+        "sourceDimensions": [
+          2500,
+          1667
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "cardno-stantec-native-plant-nursery-walkerton",
+      "name": "Stantec Native Plant Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.stantec.com/en/services/native-plant-nursery",
+      "originalImage": "https://www.stantec.com/static/img/favicon/apple-touch-icon.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/cardno-stantec-native-plant-nursery-walkerton-nursery-photo-v1.webp",
+        "alt": "Greenhouses and flowering growing beds at Stantec Native Plant Nursery",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "cardno-stantec-native-plant-nursery-walkerton-nursery-photo-v1.webp",
+        "bytes": 152608,
+        "sha256": "461f6e0356c7d42ca2bda54e02fbc8ad2196efb3ea34cd81879335cf7d8b65b1",
+        "dimensions": [
+          1200,
+          317
+        ],
+        "sourceDimensions": [
+          2800,
+          740
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "good-earth-works-billings",
+      "name": "Good Earth Works Company and Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://goodearthworks.net/",
+      "originalImage": "https://goodearthworks.net/images/img_JrVyuSAzZMa9qhwixbszqY/good_earth_works_logo.jpg?preset=facebook",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/good-earth-works-billings-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Good Earth Works Company and Nursery’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "good-earth-works-billings-nursery-photo-v1.webp",
+        "bytes": 17060,
+        "sha256": "c1e3d1d804b4f371839ef444774275d911efcbdfb74604e06786b82d43bb6950",
+        "dimensions": [
+          300,
+          200
+        ],
+        "sourceDimensions": [
+          300,
+          200
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "butterfly-effect-farm-westport",
+      "name": "Butterfly Effect Farm",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.butterflyeffectfarm.com/",
+      "originalImage": "https://www.butterflyeffectfarm.com/wp-content/uploads/2021/12/butterfly-effect-farm-logo-300x22.webp",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/butterfly-effect-farm-westport-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Butterfly Effect Farm’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "butterfly-effect-farm-westport-nursery-photo-v1.webp",
+        "bytes": 174100,
+        "sha256": "a3382bfb01256c91b00f5800fc1bf85712d72b3af15ec11f099219f86f004ac4",
+        "dimensions": [
+          838,
+          900
+        ],
+        "sourceDimensions": [
+          1536,
+          1649
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "plant-life-nursery-rome-ga",
+      "name": "Plant Life Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://plantlifenursery.weebly.com/",
+      "originalImage": "https://plantlifenursery.weebly.com/uploads/1/2/7/6/127677058/plant-life_orig.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/plant-life-nursery-rome-ga-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Plant Life Nursery’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "plant-life-nursery-rome-ga-nursery-photo-v1.webp",
+        "bytes": 65244,
+        "sha256": "d295c24b4d7c0a142acab7602f8706fb1345698d164f8540571345cf1bfdac99",
+        "dimensions": [
+          671,
+          800
+        ],
+        "sourceDimensions": [
+          671,
+          800
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "wing-and-a-prayer-nursery",
+      "name": "Wing and a Prayer Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.wingandaprayernursery.com/",
+      "originalImage": "https://www.wingandaprayernursery.com/favicon.ico",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/wing-and-a-prayer-nursery-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Wing and a Prayer Nursery’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "wing-and-a-prayer-nursery-nursery-photo-v1.webp",
+        "bytes": 166306,
+        "sha256": "bbe5bd13240af6adface4e8f6d73ae0e2425e3f39f772bf9776b8eba182d6a93",
+        "dimensions": [
+          675,
+          900
+        ],
+        "sourceDimensions": [
+          2500,
+          3333
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "gardens-of-the-blue-ridge",
+      "name": "Gardens of the Blue Ridge",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://gardensoftheblueridge.com/",
+      "originalImage": "https://gardensoftheblueridge.com/cdn/shop/files/LOGO_2026_NEW_GBR_3_500x500.jpg?v=1793656553",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/gardens-of-the-blue-ridge-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Gardens of the Blue Ridge’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "gardens-of-the-blue-ridge-nursery-photo-v1.webp",
+        "bytes": 42092,
+        "sha256": "5ea266bdeb89d41194ad01a7c6c1a801b53076311138d8f3528844baab0e87a1",
+        "dimensions": [
+          512,
+          384
+        ],
+        "sourceDimensions": [
+          512,
+          384
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "kinsey-family-farm",
+      "name": "Kinsey Family Farm",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.kinseyfamilyfarm.com/",
+      "originalImage": "https://www.kinseyfamilyfarm.com/favicon.ico",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/kinsey-family-farm-nursery-photo-v1.webp",
+        "alt": "Kinsey Family Farm entrance and nursery sign",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "kinsey-family-farm-nursery-photo-v1.webp",
+        "bytes": 148082,
+        "sha256": "95f7b7afc1a4382cb2c105a00378ac348cf114581268b704bba863c2e6da332e",
+        "dimensions": [
+          633,
+          647
+        ],
+        "sourceDimensions": [
+          633,
+          647
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "wood-thrush-natives",
+      "name": "Wood Thrush Natives",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://ian-caton.squarespace.com/contact",
+      "originalImage": "https://images.squarespace-cdn.com/content/v1/57b9d81ad2b857c2cf353bbc/1482935578173-Y6GUMZ2SCZBKWRRQO498/WT_JP_logo_mod.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/wood-thrush-natives-nursery-photo-v1.webp",
+        "alt": "Red autumn leaves pictured by Wood Thrush Natives",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "wood-thrush-natives-nursery-photo-v1.webp",
+        "bytes": 242238,
+        "sha256": "f638dbc70924da0888fb3ed4ff4f366da20a7d1a837ac7824f2239438c935634",
+        "dimensions": [
+          1200,
+          796
+        ],
+        "sourceDimensions": [
+          2256,
+          1496
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "harlequins-gardens",
+      "name": "Harlequin’s Gardens",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://harlequinsgardens.com/",
+      "originalImage": "https://harlequinsgardens.com/wp-content/uploads/2019/07/logo4.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/harlequins-gardens-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Harlequin’s Gardens’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "harlequins-gardens-nursery-photo-v1.webp",
+        "bytes": 58528,
+        "sha256": "4c615a81f4dedc6ef78b2f1cb591255ed3e5933b40db4a1972014d5845391a5a",
+        "dimensions": [
+          600,
+          219
+        ],
+        "sourceDimensions": [
+          600,
+          219
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "artemisia-nursery-los-angeles",
+      "name": "Artemisia Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://artemisianursery.com/",
+      "originalImage": "https://artemisianursery.com/cdn/shop/files/Artemisia-Website-logo-font-black-and-whitepsd_1c4154d7-faba-4b3d-a451-0dbde86d0bdb_250x.gif?v=1689799316",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/artemisia-nursery-los-angeles-nursery-photo-v1.webp",
+        "alt": "A purple flower pictured by Artemisia Nursery",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "artemisia-nursery-los-angeles-nursery-photo-v1.webp",
+        "bytes": 107260,
+        "sha256": "458f1839b308cfb378b3a2aaaee5e117db53e2df311d7904e30886f81ea2fbdd",
+        "dimensions": [
+          900,
+          900
+        ],
+        "sourceDimensions": [
+          1500,
+          1500
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "blue-fox-farms",
+      "name": "Blue Fox Farms",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://bluefoxfarmsllc.com/",
+      "originalImage": "https://img1.wsimg.com/isteam/ip/d04200cd-06aa-4b49-875f-836abdfc2863/blue%20fox%20farms%20llc%20(1).png/:/rs=h:200,cg:true,m/qt=q:95",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/blue-fox-farms-nursery-photo-v1.webp",
+        "alt": "Woodland planting beds pictured by Blue Fox Farms",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "blue-fox-farms-nursery-photo-v1.webp",
+        "bytes": 641286,
+        "sha256": "a525649418e2e213f2288100b100b06f0b8ca7eaf170ad792c87561809bddb8b",
+        "dimensions": [
+          1200,
+          900
+        ],
+        "sourceDimensions": [
+          2560,
+          1920
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "sparrowhawk-native-plants",
+      "name": "Sparrowhawk Native Plants",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://sparrowhawknativeplants.com/",
+      "originalImage": "https://sparrowhawknativeplants.com/cdn/shop/files/Sparrowhawk-logofinals-8.27.19-04_TC_crop_3_250x.jpeg?v=1614289083",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/sparrowhawk-native-plants-nursery-photo-v1.webp",
+        "alt": "Autumn foliage pictured by Sparrowhawk Native Plants",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "sparrowhawk-native-plants-nursery-photo-v1.webp",
+        "bytes": 266222,
+        "sha256": "2ba0b759dc622565dd5e58cbf538e60a6edb39b33c085451f577dfa78fe865cf",
+        "dimensions": [
+          900,
+          900
+        ],
+        "sourceDimensions": [
+          960,
+          960
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "mossy-oak-nativ-nurseries",
+      "name": "Mossy Oak Nativ Nurseries",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.nativnurseries.com/",
+      "originalImage": "https://cdn.shopify.com/s/files/1/0005/0315/2697/files/Nativ_Nurseries_Logo_NEW_4fa90f50-8305-4c19-bfe0-c33ec76d811c.png?height=628&pad_color=ffffff&v=1642016546&width=1200",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/mossy-oak-nativ-nurseries-nursery-photo-v1.webp",
+        "alt": "Plants growing under greenhouse frames at Mossy Oak Nativ Nurseries",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "mossy-oak-nativ-nurseries-nursery-photo-v1.webp",
+        "bytes": 96106,
+        "sha256": "3293fba67534390db52f9dd5a74120ee6785037809d5a7f5485b69a0a83446dd",
+        "dimensions": [
+          1200,
+          460
+        ],
+        "sourceDimensions": [
+          1880,
+          720
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "condursos",
+      "name": "Condurso’s Garden Center",
+      "method": "Background extraction",
+      "source": "https://nativeplantmaps.pages.dev/assets/providers/condursos-logo.png",
+      "originalImage": "https://nativeplantmaps.pages.dev/assets/providers/condursos-logo.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/condursos-logo-transparent-v1.webp",
+        "alt": "Condurso’s Garden Center official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "condursos-logo-transparent-v1.webp",
+        "bytes": 91896,
+        "sha256": "0dfcb14f40d4dd738998eae6dd2298fc745151346ad810674c9164fbbfcb7905",
+        "dimensions": [
+          960,
+          320
+        ],
+        "sourceDimensions": [
+          2172,
+          724
+        ],
+        "transparentFraction": 0.8558,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "herring-run-nursery",
+      "name": "Herring Run Native Plant Nursery",
+      "method": "Background extraction",
+      "source": "https://herringrunnursery.bluewaterbaltimore.org/uploads/b/2edc41d0-91f4-11ed-b6b5-a3d753554dc1/icon_180x180_ios_Mzk4Mj.png?width=180",
+      "originalImage": "https://herringrunnursery.bluewaterbaltimore.org/uploads/b/2edc41d0-91f4-11ed-b6b5-a3d753554dc1/icon_180x180_ios_Mzk4Mj.png?width=180",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/herring-run-nursery-logo-transparent-v1.webp",
+        "alt": "Herring Run Native Plant Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "herring-run-nursery-logo-transparent-v1.webp",
+        "bytes": 61946,
+        "sha256": "38190ba0474851d8ca5ddc922ef19ae67415b57e72cec9d4d2094ff3624c090b",
+        "dimensions": [
+          480,
+          480
+        ],
+        "sourceDimensions": [
+          1254,
+          1254
+        ],
+        "transparentFraction": 0.645,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "all-native-garden-center",
+      "name": "All Native Garden Center & Plant Nursery",
+      "method": "Background extraction",
+      "source": "https://nolawn.com/wp-content/uploads/2020/01/All_Native_Green_favicon.png",
+      "originalImage": "https://nolawn.com/wp-content/uploads/2020/01/All_Native_Green_favicon.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/all-native-garden-center-logo-transparent-v1.webp",
+        "alt": "All Native Garden Center & Plant Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "all-native-garden-center-logo-transparent-v1.webp",
+        "bytes": 44824,
+        "sha256": "816cd086e7f5bf4360d992487ac2a1095b9d7c9a0c179f7616a9cdd38031aa05",
+        "dimensions": [
+          480,
+          480
+        ],
+        "sourceDimensions": [
+          1254,
+          1254
+        ],
+        "transparentFraction": 0.6105,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "cottage-garden-natives",
+      "name": "Cottage Garden Natives",
+      "method": "Background extraction",
+      "source": "https://www.cottagegardennatives.com/uploads/b/3df1aea0-7148-11eb-aa2b-a7d0592583f3/icon_180x180_ios_NjAwNT.png?width=120",
+      "originalImage": "https://www.cottagegardennatives.com/uploads/b/3df1aea0-7148-11eb-aa2b-a7d0592583f3/icon_180x180_ios_NjAwNT.png?width=120",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/cottage-garden-natives-logo-transparent-v1.webp",
+        "alt": "Cottage Garden Natives official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "cottage-garden-natives-logo-transparent-v1.webp",
+        "bytes": 36272,
+        "sha256": "d0fb25586f297b6c0d398c43e9ddd27ccdddfa479e901e7690e178f42f0c05bf",
+        "dimensions": [
+          480,
+          480
+        ],
+        "sourceDimensions": [
+          1254,
+          1254
+        ],
+        "transparentFraction": 0.7616,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "eastfield-native-plants",
+      "name": "Eastfield Native Plants",
+      "method": "Background extraction",
+      "source": "https://static.wixstatic.com/media/de7c8f_12e68561976c48518f460abe03441eee~mv2.png/v1/crop/x_11,y_0,w_278,h_300/fill/w_274,h_296,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/New%20Logo.png",
+      "originalImage": "https://static.wixstatic.com/media/de7c8f_12e68561976c48518f460abe03441eee~mv2.png/v1/crop/x_11,y_0,w_278,h_300/fill/w_274,h_296,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/New%20Logo.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/eastfield-native-plants-logo-transparent-v1.webp",
+        "alt": "Eastfield Native Plants official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "eastfield-native-plants-logo-transparent-v1.webp",
+        "bytes": 38470,
+        "sha256": "41444d6ea4eeaa7b95f942d64aa6025ddd57cee2b04b0a0dafe984d0e05a5529",
+        "dimensions": [
+          445,
+          480
+        ],
+        "sourceDimensions": [
+          1207,
+          1303
+        ],
+        "transparentFraction": 0.8536,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "glenwild",
+      "name": "Glenwild Garden Center",
+      "method": "Background extraction",
+      "source": "https://www.glenwildgardens.com/wp-content/uploads/2022/03/GGC_Logo_date-horizonal-615x200h.jpg",
+      "originalImage": "https://www.glenwildgardens.com/wp-content/uploads/2022/03/GGC_Logo_date-horizonal-615x200h.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/glenwild-logo-transparent-v1.webp",
+        "alt": "Glenwild Garden Center official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "glenwild-logo-transparent-v1.webp",
+        "bytes": 72998,
+        "sha256": "54617bfcbf78696b45f5559d621b812ffd39ea7af9920cea8acdcd7f05837773",
+        "dimensions": [
+          960,
+          321
+        ],
+        "sourceDimensions": [
+          2170,
+          725
+        ],
+        "transparentFraction": 0.7505,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "natives-of-texas",
+      "name": "Natives of Texas",
+      "method": "Background extraction",
+      "source": "https://www.nativesoftexas.com/images/nativesmenupic.jpg",
+      "originalImage": "https://www.nativesoftexas.com/images/nativesmenupic.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/natives-of-texas-logo-transparent-v1.webp",
+        "alt": "Natives of Texas official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "natives-of-texas-logo-transparent-v1.webp",
+        "bytes": 62360,
+        "sha256": "7f62155a0461b11822ef70e486809b824a6d3dd1ffa824a943e4cccfa3838fc0",
+        "dimensions": [
+          960,
+          321
+        ],
+        "sourceDimensions": [
+          2170,
+          725
+        ],
+        "transparentFraction": 0.8517,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20",
+      "editNote": "Black backing removed; formerly white tagline darkened to remain readable on cream."
+    },
+    {
+      "id": "dropseed-kentucky",
+      "name": "Dropseed Native Plant Nursery",
+      "method": "Background extraction",
+      "source": "https://dropseednursery.com/wp-content/uploads/2014/09/drop6.jpg",
+      "originalImage": "https://dropseednursery.com/wp-content/uploads/2014/09/drop6.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/dropseed-kentucky-logo-transparent-v1.webp",
+        "alt": "Dropseed Native Plant Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "dropseed-kentucky-logo-transparent-v1.webp",
+        "bytes": 79098,
+        "sha256": "70889929ccce72089b6c8b93d08660e9f397eb74e927b8f45493b87ba7bcf98c",
+        "dimensions": [
+          486,
+          480
+        ],
+        "sourceDimensions": [
+          1262,
+          1246
+        ],
+        "transparentFraction": 0.8265,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "designs-by-nature-laingsburg",
+      "name": "Designs By Nature, LLC",
+      "method": "Correct plant photograph classification",
+      "source": "https://designsbynaturellc.com/",
+      "originalImage": "https://i0.wp.com/designsbynaturellc.com/wp-content/uploads/2021/12/cropped-siteiconDBN.jpeg?fit=180%2C180&ssl=1",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/designs-by-nature-laingsburg-nursery-photo-v1.webp",
+        "alt": "A black-eyed Susan photographed for Designs by Nature",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "designs-by-nature-laingsburg-nursery-photo-v1.webp",
+        "bytes": 27012,
+        "sha256": "52c3f9ecf5a6d56c17069bae9288636f8fdea0ddbf6bd0a66d70386b0caeb532",
+        "dimensions": [
+          512,
+          512
+        ],
+        "sourceDimensions": [
+          512,
+          512
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "troutleaf-native-plants",
+      "name": "Troutleaf Native Plants",
+      "method": "Official transparent alternative",
+      "source": "https://troutleafnativeplants.square.site/",
+      "originalImage": "https://troutleafnativeplants.square.site/uploads/b/d7e73860-050d-11f1-80e4-7f01b4d62f45/icon_180x180_ios_OTk4Nj.png?width=120",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/troutleaf-native-plants-logo-transparent-v1.webp",
+        "alt": "Troutleaf Native Plants official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "troutleaf-native-plants-logo-transparent-v1.webp",
+        "bytes": 43886,
+        "sha256": "8c966a23c67b255a48fc638ff29737c7f73e0b85dd403097d7bc771dc2255d1b",
+        "dimensions": [
+          960,
+          199
+        ],
+        "sourceDimensions": [
+          3500,
+          724
+        ],
+        "transparentFraction": 0.8895,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "grand-prairie-nursery",
+      "name": "Grand Prairie Nursery",
+      "method": "Official transparent alternative",
+      "source": "https://www.grandprairienursery.com/",
+      "originalImage": "https://www.grandprairienursery.com/uploads/b/1a6e8500-de49-11ed-8d00-fb395239ed8d/icon_180x180_ios_NzIzMD.png?width=180",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/grand-prairie-nursery-logo-transparent-v1.webp",
+        "alt": "Grand Prairie Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "grand-prairie-nursery-logo-transparent-v1.webp",
+        "bytes": 82172,
+        "sha256": "7ae76164484f441c01b04b0d934b912a9c602625b69cfe7df5feb0de7c76d4fc",
+        "dimensions": [
+          642,
+          480
+        ],
+        "sourceDimensions": [
+          1440,
+          1077
+        ],
+        "transparentFraction": 0.5178,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "flagstaff-native-plant-and-seed",
+      "name": "Flagstaff Native Plant and Seed",
+      "method": "Official transparent alternative",
+      "source": "https://nativeplantandseed.com/",
+      "originalImage": "https://nativeplantandseed.com/wp-content/uploads/2023/05/cropped-FNPS3-Favicon-180x180.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/flagstaff-native-plant-and-seed-logo-transparent-v1.webp",
+        "alt": "Flagstaff Native Plant and Seed official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "flagstaff-native-plant-and-seed-logo-transparent-v1.webp",
+        "bytes": 8850,
+        "sha256": "e11203be830a856d47c3aa0fb45fb4a9d4d9d72c795df7f14e6df8cc03e53595",
+        "dimensions": [
+          364,
+          150
+        ],
+        "sourceDimensions": [
+          364,
+          150
+        ],
+        "transparentFraction": 0.7404,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "oliver-nurseries",
+      "name": "Oliver Nurseries",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://olivernurseries.com/",
+      "originalImage": "https://olivernurseries.com/wp-content/uploads/2022/01/logo-1-1024x731.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/oliver-nurseries-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Oliver Nurseries’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "oliver-nurseries-nursery-photo-v1.webp",
+        "bytes": 370286,
+        "sha256": "1e75fb1569b7e87abd264c8bfc4ff2facd0833deed2d35e80524ccac79653f95",
+        "dimensions": [
+          1200,
+          800
+        ],
+        "sourceDimensions": [
+          1500,
+          1000
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "chesapeake-natives",
+      "name": "Chesapeake Natives",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.chesapeakenatives.org/",
+      "originalImage": "https://www.chesapeakenatives.org/uploads/b/68821bd0-67f9-11ea-9080-bf1cc3a5555f/icon_180x180_ios_Mzk2OT.png?width=120",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/chesapeake-natives-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Chesapeake Natives’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "chesapeake-natives-nursery-photo-v1.webp",
+        "bytes": 196114,
+        "sha256": "ef5dd00bec572b12c40aade118de09db46fabfb23615ce031b45cd049b0b68ae",
+        "dimensions": [
+          720,
+          900
+        ],
+        "sourceDimensions": [
+          768,
+          960
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "found-well-farm",
+      "name": "Found Well Farm",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://foundwellfarm.com/",
+      "originalImage": "https://img1.wsimg.com/isteam/ip/5bceee5e-24e0-48e6-a4dd-0d9f2a322f49/Screen%20Shot%202022-04-28%20at%205.16.34%20PM.png/:/rs=w:57,h:57,m",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/found-well-farm-nursery-photo-v1.webp",
+        "alt": "A butterfly visiting milkweed flowers pictured by Found Well Farm",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "found-well-farm-nursery-photo-v1.webp",
+        "bytes": 145050,
+        "sha256": "e75431cbf68263119b29701fbbe1969710e438dc5b94139f105d56bf93a3f842",
+        "dimensions": [
+          1200,
+          799
+        ],
+        "sourceDimensions": [
+          1200,
+          799
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "native-plants-nursery-okc",
+      "name": "Native Plants Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.nativeplantsokc.com/",
+      "originalImage": "https://www.nativeplantsokc.com/uploads/b/07b275c0-e2ee-11ec-8b1a-c9967e81aabb/icon_180x180_ios_NjM4OT.png?width=180",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/native-plants-nursery-okc-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Native Plants Nursery’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "native-plants-nursery-okc-nursery-photo-v1.webp",
+        "bytes": 321908,
+        "sha256": "b133b69a40c4ffa53f8f95a1b5f9d9e0a9aba1075f488d1fd13658a19a03e84d",
+        "dimensions": [
+          757,
+          900
+        ],
+        "sourceDimensions": [
+          1440,
+          1711
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "keystone-flora",
+      "name": "Keystone Flora",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://keystoneflora.com/",
+      "originalImage": "https://keystoneflora.com/wp-content/uploads/2018/01/KF-for-Web.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/keystone-flora-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Keystone Flora’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "keystone-flora-nursery-photo-v1.webp",
+        "bytes": 14642,
+        "sha256": "49cea492e2a8865f37515402a2b15f39f5a2f7629f34dadf0735b6c2e6c109da",
+        "dimensions": [
+          192,
+          192
+        ],
+        "sourceDimensions": [
+          192,
+          192
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "common-ground-organic-farm-native-plants",
+      "name": "Common Ground Organic Farm",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://commongroundfarm.square.site/",
+      "originalImage": "https://commongroundfarm.square.site/uploads/b/cb822080-8873-11ec-939b-37e4a242ef29/icon_180x180_ios_MjU2NT.png?width=120",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/common-ground-organic-farm-native-plants-nursery-photo-v1.webp",
+        "alt": "Sunflowers and a barn at Common Ground Organic Farm",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "common-ground-organic-farm-native-plants-nursery-photo-v1.webp",
+        "bytes": 318418,
+        "sha256": "a20d3a5ef1818332863e420f83ec8cdecf0ada6fa1dffd2fdad68047863bb711",
+        "dimensions": [
+          1200,
+          900
+        ],
+        "sourceDimensions": [
+          3500,
+          2625
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "east-michigan-native-plants-durand",
+      "name": "East Michigan Native Plants",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.eastmichnatives.com/",
+      "originalImage": "https://www.eastmichnatives.com/uploads/b/61d90010-8d69-11eb-972c-575e5b4cb264/emnp%20banner.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/east-michigan-native-plants-durand-nursery-photo-v1.webp",
+        "alt": "Potted plants and a hoop house at East Michigan Native Plants",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "east-michigan-native-plants-durand-nursery-photo-v1.webp",
+        "bytes": 359932,
+        "sha256": "be936e588c963d31bd2451fed915059bbad8edf86aa93db423f21b5cc31aaf16",
+        "dimensions": [
+          1200,
+          900
+        ],
+        "sourceDimensions": [
+          4000,
+          3000
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "birdsfoot-native-nursery-south-boardman",
+      "name": "Birdsfoot Native Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.birdsfootnativenursery.com/",
+      "originalImage": "https://www.birdsfootnativenursery.com/uploads/b/f40882b0-4de5-11eb-9d99-297ba1f584ff/icon_180x180_ios.png?width=152",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/birdsfoot-native-nursery-south-boardman-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Birdsfoot Native Nursery’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "birdsfoot-native-nursery-south-boardman-nursery-photo-v1.webp",
+        "bytes": 407668,
+        "sha256": "9c91b83149e45a8fac884b00017e62eeca95b59b1f9f3aee835acc0cecf431ea",
+        "dimensions": [
+          1200,
+          900
+        ],
+        "sourceDimensions": [
+          1682,
+          1262
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "franks-perennial-border",
+      "name": "Frank’s Perennial Border",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.franksperennialbordernc.com/",
+      "originalImage": "https://irp.cdn-website.com//17aea563/dms3rep/multi/opt/logo-240x64-288w.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/franks-perennial-border-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Frank’s Perennial Border’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "franks-perennial-border-nursery-photo-v1.webp",
+        "bytes": 465672,
+        "sha256": "5cf95f44f37e6334c392f2334ff799522e8947e15c86148fadb56801c503bc28",
+        "dimensions": [
+          1200,
+          794
+        ],
+        "sourceDimensions": [
+          1920,
+          1271
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "michiganense-natives",
+      "name": "Michiganense Natives",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.michiganensenatives.com/",
+      "originalImage": "https://www.michiganensenatives.com/uploads/b/1b7fd6c0-b53f-11ec-af6c-837df8d17cf0/icon_180x180_ios_MzUyNj.png?width=120",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/michiganense-natives-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Michiganense Natives’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "michiganense-natives-nursery-photo-v1.webp",
+        "bytes": 273828,
+        "sha256": "24d1987bc41957bc93147fa28b9ad12245e534a63308af1f17db9de788d8b153",
+        "dimensions": [
+          1200,
+          760
+        ],
+        "sourceDimensions": [
+          3500,
+          2218
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "elder-oaks-nursery",
+      "name": "Elder Oaks Native Plant Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.elderoaksnursery.net/",
+      "originalImage": "https://www.elderoaksnursery.net/uploads/b/0a268a00-fffe-11ee-94d3-2b08d61b251c/icon_180x180_ios_OTc0OD.png?width=120",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/elder-oaks-nursery-nursery-photo-v1.webp",
+        "alt": "Young plants growing in nursery containers at Elder Oaks Nursery",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "elder-oaks-nursery-nursery-photo-v1.webp",
+        "bytes": 483260,
+        "sha256": "7634f5119c93f046c6b8928b19f90937e4838b0689678c695c2370c1ac8e10ff",
+        "dimensions": [
+          1200,
+          900
+        ],
+        "sourceDimensions": [
+          3500,
+          2625
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "little-red-wagon-native-nursery",
+      "name": "Little Red Wagon Native Nursery",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://littleredwagonnativenursery.com/",
+      "originalImage": "https://littleredwagonnativenursery.com/cdn/shop/files/LittleRedWagon_250x.png?v=1619442171",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/little-red-wagon-native-nursery-nursery-photo-v1.webp",
+        "alt": "A butterfly on coneflowers pictured by Little Red Wagon Native Nursery",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "little-red-wagon-native-nursery-nursery-photo-v1.webp",
+        "bytes": 11434,
+        "sha256": "2943a454750d8236a562e2cefd1e2d809c0ca846f72b65be4ad2e61cd6cf62cc",
+        "dimensions": [
+          300,
+          188
+        ],
+        "sourceDimensions": [
+          300,
+          188
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "papillon-perennials",
+      "name": "Papillon Perennials",
+      "method": "Official photograph replaces background-dependent logo",
+      "source": "https://www.papillonperennials.com/",
+      "originalImage": "https://files.sitebuilder.name.tools/97/65/9765ee31-1dfe-4f6e-963b-d14ffecbad38.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/papillon-perennials-nursery-photo-v1.webp",
+        "alt": "A swallowtail butterfly visiting flowers pictured by Papillon Perennials",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "papillon-perennials-nursery-photo-v1.webp",
+        "bytes": 113732,
+        "sha256": "d321bca03492dacbb59ef70d25eb58d4988c313b8e7f216398fa22b7977d6013",
+        "dimensions": [
+          1200,
+          751
+        ],
+        "sourceDimensions": [
+          1430,
+          895
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "morningside-farm-nursery",
+      "name": "Morningside Farm & Nursery",
+      "method": "Official nursery photograph replaces tiny icon",
+      "source": "https://www.morningsidefarmandnursery.com/",
+      "originalImage": "https://static.wixstatic.com/media/14fa4e_d8a23b0c98d045288629d2d0e5b95fc2.jpg/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/14fa4e_d8a23b0c98d045288629d2d0e5b95fc2.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/morningside-farm-nursery-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Morningside Farm & Nursery’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "morningside-farm-nursery-nursery-photo-v1.webp",
+        "bytes": 297414,
+        "sha256": "8d3c9b122fc89a17e07533c1f80b7bb0b001c454836c11eb2dcc9559f32c442e",
+        "dimensions": [
+          1149,
+          900
+        ],
+        "sourceDimensions": [
+          1400,
+          1097
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "riley-native-plant-nursery",
+      "name": "Riley Native Plant Nursery",
+      "method": "Official plant photograph replaces background-dependent logo",
+      "source": "https://www.rileynativeplants.com/",
+      "originalImage": "https://www.rileynativeplants.com/uploads/b/d7360960-6983-11eb-afe9-4d06404c6aa8/icon_180x180_ios_MjY1Mz.png?width=120",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/riley-native-plant-nursery-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Riley Native Plant Nursery’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "riley-native-plant-nursery-nursery-photo-v1.webp",
+        "bytes": 99120,
+        "sha256": "0ec4136b8f3ac06df3f4d827e5e6c7c67cc6b844d9176af304b174cdb1fd1e3a",
+        "dimensions": [
+          1200,
+          336
+        ],
+        "sourceDimensions": [
+          3024,
+          847
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "hidden-savanna-nursery",
+      "name": "Hidden Savanna Nursery",
+      "method": "Official plant photograph replaces background-dependent logo",
+      "source": "https://www.hiddensavanna.com/",
+      "originalImage": "https://www.hiddensavanna.com/graphics/logo_top.gif",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/hidden-savanna-nursery-nursery-photo-v1.webp",
+        "alt": "Nursery plants and gardens pictured on Hidden Savanna Nursery’s website",
+        "type": "photo"
+      },
+      "asset": {
+        "name": "hidden-savanna-nursery-nursery-photo-v1.webp",
+        "bytes": 50776,
+        "sha256": "3509330f5663f86eab26c63dc12e66e346c15ebff1feb9ba3ae256b60e0ad7b6",
+        "dimensions": [
+          804,
+          127
+        ],
+        "sourceDimensions": [
+          804,
+          127
+        ],
+        "transparentFraction": 0.0,
+        "alphaMin": 255
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "sam-bridge-nursery",
+      "name": "Sam Bridge Nursery & Greenhouses",
+      "method": "Background extraction",
+      "source": "https://sambridgeathome.com/cdn/shop/files/Horizontal_Logo_est._1930_copy_0943cae1-3131-4ee6-8114-3e29d6123f93.jpg?v=1738951995&width=600",
+      "originalImage": "https://sambridgeathome.com/cdn/shop/files/Horizontal_Logo_est._1930_copy_0943cae1-3131-4ee6-8114-3e29d6123f93.jpg?v=1738951995&width=600",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/sam-bridge-nursery-logo-transparent-v1.webp",
+        "alt": "Sam Bridge Nursery & Greenhouses official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "sam-bridge-nursery-logo-transparent-v1.webp",
+        "bytes": 71668,
+        "sha256": "9e42e57fc90523ae17a0b68c072d2d02b1f880587c56259a72b59c8cef6b1ef1",
+        "dimensions": [
+          960,
+          320
+        ],
+        "sourceDimensions": [
+          2172,
+          724
+        ],
+        "transparentFraction": 0.8387,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "roots-and-shoots-sc",
+      "name": "Roots & Shoots Nursery",
+      "method": "Background extraction",
+      "source": "https://www.rootsandshootsnursery.com/uploads/b/c66961e0-acb0-11ed-8db1-117a41b7fbc3/icon_180x180_ios_ODgwOT.png?width=180",
+      "originalImage": "https://www.rootsandshootsnursery.com/uploads/b/c66961e0-acb0-11ed-8db1-117a41b7fbc3/icon_180x180_ios_ODgwOT.png?width=180",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/roots-and-shoots-sc-logo-transparent-v1.webp",
+        "alt": "Roots & Shoots Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "roots-and-shoots-sc-logo-transparent-v1.webp",
+        "bytes": 45954,
+        "sha256": "12f2217910b2512a6f5eb719b35b0d1080272df157e8aeb9fd081af78198c942",
+        "dimensions": [
+          480,
+          480
+        ],
+        "sourceDimensions": [
+          1254,
+          1254
+        ],
+        "transparentFraction": 0.4766,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "plantsmen-nursery",
+      "name": "The Plantsmen Nursery",
+      "method": "Background extraction",
+      "source": "https://static.wixstatic.com/media/e44642_c8f95660143d47dbb9714394c8951be0~mv2.jpeg/v1/fill/w_172,h_172,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/PN_BIG_Logo_RGB.jpeg",
+      "originalImage": "https://static.wixstatic.com/media/e44642_c8f95660143d47dbb9714394c8951be0~mv2.jpeg/v1/fill/w_172,h_172,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/PN_BIG_Logo_RGB.jpeg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/plantsmen-nursery-logo-transparent-v1.webp",
+        "alt": "The Plantsmen Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "plantsmen-nursery-logo-transparent-v1.webp",
+        "bytes": 102420,
+        "sha256": "c36b33b4e6ee8bcfedcdc17ef351329083d83a8cba1354e4728cb43aa54aa15e",
+        "dimensions": [
+          480,
+          480
+        ],
+        "sourceDimensions": [
+          1254,
+          1254
+        ],
+        "transparentFraction": 0.5205,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "adkins-arboretum",
+      "name": "Adkins Arboretum Native Plant Nursery",
+      "method": "Background extraction",
+      "source": "https://i0.wp.com/adkinsarboretum.org/wp-content/uploads/2026/02/adkinsarboretum-scaled.png?resize=1200%2C223&ssl=1",
+      "originalImage": "https://i0.wp.com/adkinsarboretum.org/wp-content/uploads/2026/02/adkinsarboretum-scaled.png?resize=1200%2C223&ssl=1",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/adkins-arboretum-logo-transparent-v1.webp",
+        "alt": "Adkins Arboretum Native Plant Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "adkins-arboretum-logo-transparent-v1.webp",
+        "bytes": 40654,
+        "sha256": "f4cc0d50a4a95dc91a990b4379fa5661a8d402aa70f206ed0ed8deb8e8eff928",
+        "dimensions": [
+          960,
+          320
+        ],
+        "sourceDimensions": [
+          2172,
+          724
+        ],
+        "transparentFraction": 0.9254,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "tend-greenpoint",
+      "name": "Tend Greenpoint",
+      "method": "Background extraction",
+      "source": "https://www.tendgreenpoint.com/uploads/b/f81fce60-b25a-11e9-835b-b15191aa7caf/icon_180x180_ios_OTE5ND.png?width=180",
+      "originalImage": "https://www.tendgreenpoint.com/uploads/b/f81fce60-b25a-11e9-835b-b15191aa7caf/icon_180x180_ios_OTE5ND.png?width=180",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/tend-greenpoint-logo-transparent-v1.webp",
+        "alt": "Tend Greenpoint official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "tend-greenpoint-logo-transparent-v1.webp",
+        "bytes": 43208,
+        "sha256": "54f4477924e712798a989dbce7c2e3d13f296a83f8a3a81b56f7a3181f600b88",
+        "dimensions": [
+          960,
+          320
+        ],
+        "sourceDimensions": [
+          2172,
+          724
+        ],
+        "transparentFraction": 0.5279,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "midwest-natives-nursery",
+      "name": "Midwest Natives Nursery",
+      "method": "Background extraction",
+      "source": "https://www.midwestnativesnursery.com/uploads/b/bb1449f0-743d-11ea-8cb1-8121afc059a0/icon_180x180_ios.png?width=120",
+      "originalImage": "https://www.midwestnativesnursery.com/uploads/b/bb1449f0-743d-11ea-8cb1-8121afc059a0/icon_180x180_ios.png?width=120",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/midwest-natives-nursery-logo-transparent-v1.webp",
+        "alt": "Midwest Natives Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "midwest-natives-nursery-logo-transparent-v1.webp",
+        "bytes": 72304,
+        "sha256": "aa4f74d6805419a2566e15934ea7c65cea81368e59b43f5c19cb6caca7c7fdc8",
+        "dimensions": [
+          538,
+          480
+        ],
+        "sourceDimensions": [
+          1328,
+          1184
+        ],
+        "transparentFraction": 0.7263,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20",
+      "editNote": "Colored backing removed; formerly white foreground darkened for cream-page contrast."
+    },
+    {
+      "id": "two-ferns-native-nursery",
+      "name": "Two Ferns Native Nursery",
+      "method": "Background extraction",
+      "source": "https://www.twofernsmadison.com/wp-content/uploads/2019/08/cropped-cropped-cropped-cropped-cropped-cropped-TWOFERNS_CENTER-small-300x205.png",
+      "originalImage": "https://www.twofernsmadison.com/wp-content/uploads/2019/08/cropped-cropped-cropped-cropped-cropped-cropped-TWOFERNS_CENTER-small-300x205.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/two-ferns-native-nursery-logo-transparent-v1.webp",
+        "alt": "Two Ferns Native Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "two-ferns-native-nursery-logo-transparent-v1.webp",
+        "bytes": 53772,
+        "sha256": "0452f3b8f20bde8ce091af0e1274e7f391fe041232af098d18736e4ec4fd79d9",
+        "dimensions": [
+          734,
+          480
+        ],
+        "sourceDimensions": [
+          1551,
+          1014
+        ],
+        "transparentFraction": 0.8281,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "grow-native-nh",
+      "name": "Grow Native NH",
+      "method": "Background extraction",
+      "source": "https://storage.googleapis.com/gpt-engineer-file-uploads/t6nGCYcmRBhqiMFk4RNHmiyqsf52/uploads/1760812125352-407362514_853159979840904_8706129254211935267_n.jpg",
+      "originalImage": "https://storage.googleapis.com/gpt-engineer-file-uploads/t6nGCYcmRBhqiMFk4RNHmiyqsf52/uploads/1760812125352-407362514_853159979840904_8706129254211935267_n.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/grow-native-nh-logo-transparent-v1.webp",
+        "alt": "Grow Native NH official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "grow-native-nh-logo-transparent-v1.webp",
+        "bytes": 100366,
+        "sha256": "77fb8c3e855e1287743bb80f50539daa8b6507410b222b02aa96149c36e8ba62",
+        "dimensions": [
+          507,
+          480
+        ],
+        "sourceDimensions": [
+          1289,
+          1220
+        ],
+        "transparentFraction": 0.6792,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "moonlit-heights-native-nursery",
+      "name": "Moonlit Heights Native Nursery",
+      "method": "Background extraction",
+      "source": "https://img1.wsimg.com/isteam/ip/2837ef42-16ac-4065-aee7-925862966e56/Moonlit%20Heights%20banner%20fixed%20copy.png",
+      "originalImage": "https://img1.wsimg.com/isteam/ip/2837ef42-16ac-4065-aee7-925862966e56/Moonlit%20Heights%20banner%20fixed%20copy.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/moonlit-heights-native-nursery-logo-transparent-v1.webp",
+        "alt": "Moonlit Heights Native Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "moonlit-heights-native-nursery-logo-transparent-v1.webp",
+        "bytes": 119724,
+        "sha256": "91b461a107065c2384a0ed8b818f8c4b04a0f1368c8f085e8a540c2e4d3df118",
+        "dimensions": [
+          960,
+          360
+        ],
+        "sourceDimensions": [
+          2046,
+          768
+        ],
+        "transparentFraction": 0.5598,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "western-native-seed-coaldale",
+      "name": "Western Native Seed",
+      "method": "Background extraction",
+      "source": "https://westernnativeseed.com/wp-content/uploads/2021/11/cropped-Paintbrush-1-180x180.gif",
+      "originalImage": "https://westernnativeseed.com/wp-content/uploads/2021/11/cropped-Paintbrush-1-180x180.gif",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/western-native-seed-coaldale-logo-transparent-v1.webp",
+        "alt": "Western Native Seed official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "western-native-seed-coaldale-logo-transparent-v1.webp",
+        "bytes": 108764,
+        "sha256": "6ea8f5aec2912c5a66d1ca4ecb804022d4c76f8eceff57535608e44b1b7851dd",
+        "dimensions": [
+          480,
+          480
+        ],
+        "sourceDimensions": [
+          1254,
+          1254
+        ],
+        "transparentFraction": 0.6594,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "gila-native-plant-nursery-safford",
+      "name": "Gila Native Plant Nursery",
+      "method": "Background extraction",
+      "source": "https://www.gwpaz.org/uploads/b/9d52ff60-b669-11ea-86c9-437433cc9a75/GWP%20Social%20Media%20Square%20Logo.png",
+      "originalImage": "https://www.gwpaz.org/uploads/b/9d52ff60-b669-11ea-86c9-437433cc9a75/icon_180x180_ios_MTMyNT.png?width=180",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/gila-native-plant-nursery-safford-logo-transparent-v1.webp",
+        "alt": "Gila Native Plant Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "gila-native-plant-nursery-safford-logo-transparent-v1.webp",
+        "bytes": 80864,
+        "sha256": "3e28001c7ce0d0c08c1e18c8d72e95d69f8ada756497ca14282bff861e793b18",
+        "dimensions": [
+          960,
+          384
+        ],
+        "sourceDimensions": [
+          1983,
+          793
+        ],
+        "transparentFraction": 0.7807,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "joy-of-natives",
+      "name": "Joy of Natives",
+      "method": "Background extraction",
+      "source": "https://static.wixstatic.com/media/364479_e9eb153b8e7a4c50a338ee2fc42ba1f6%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/364479_e9eb153b8e7a4c50a338ee2fc42ba1f6%7Emv2.png",
+      "originalImage": "https://static.wixstatic.com/media/364479_e9eb153b8e7a4c50a338ee2fc42ba1f6%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/364479_e9eb153b8e7a4c50a338ee2fc42ba1f6%7Emv2.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/joy-of-natives-logo-transparent-v1.webp",
+        "alt": "Joy of Natives official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "joy-of-natives-logo-transparent-v1.webp",
+        "bytes": 83364,
+        "sha256": "0e756d9bbb3affc9f20b5a09492dd387495e326b57f466a7fe6abb63b59e1f2b",
+        "dimensions": [
+          480,
+          480
+        ],
+        "sourceDimensions": [
+          1254,
+          1254
+        ],
+        "transparentFraction": 0.5067,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "night-song-native-plant-nursery-canton",
+      "name": "Night Song Native Plant Nursery",
+      "method": "Background extraction",
+      "source": "https://www.nightsongnatives.com/uploads/3/8/3/9/38394705/1434075360.png",
+      "originalImage": "https://www.nightsongnatives.com/uploads/3/8/3/9/38394705/prettyis-withlogo_1_orig.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/night-song-native-plant-nursery-canton-logo-transparent-v1.webp",
+        "alt": "Night Song Native Plant Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "night-song-native-plant-nursery-canton-logo-transparent-v1.webp",
+        "bytes": 39174,
+        "sha256": "d5cdd51b79c489c9f2865890ce1f6d6caac17824375c017b8f4ed4f444503b44",
+        "dimensions": [
+          590,
+          480
+        ],
+        "sourceDimensions": [
+          1391,
+          1131
+        ],
+        "transparentFraction": 0.8289,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "coneflower-company-native-plants",
+      "name": "Coneflower & Company Native Plants",
+      "method": "Background extraction",
+      "source": "https://images.squarespace-cdn.com/content/v1/69223f1957edb94e74b539e2/e58c3ed9-88a5-48ba-8a55-a8a5c74af35a/Native+plants.png?format=1500w",
+      "originalImage": "https://images.squarespace-cdn.com/content/v1/69223f1957edb94e74b539e2/b673f816-a081-458d-a681-ad3a63a21844/coneflower.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/coneflower-company-native-plants-logo-transparent-v1.webp",
+        "alt": "Coneflower & Company Native Plants official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "coneflower-company-native-plants-logo-transparent-v1.webp",
+        "bytes": 93166,
+        "sha256": "6a5dd0ab492197d7be3413e4b733cede313539c621663c21394503a37eced8f4",
+        "dimensions": [
+          960,
+          417
+        ],
+        "sourceDimensions": [
+          1902,
+          827
+        ],
+        "transparentFraction": 0.6231,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "the-prairie-flower-spencer",
+      "name": "The Prairie Flower",
+      "method": "Background extraction",
+      "source": "https://www.visitiowafarms.org/files/styles/medium/public/2024-04/Screenshot%202024-04-18%20at%208.55.23%20PM.png.webp?itok=JoBb76ae",
+      "originalImage": "https://www.visitiowafarms.org/files/styles/medium/public/2024-04/Screenshot%202024-04-18%20at%208.55.23%20PM.png.webp?itok=JoBb76ae",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/the-prairie-flower-spencer-logo-transparent-v1.webp",
+        "alt": "The Prairie Flower official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "the-prairie-flower-spencer-logo-transparent-v1.webp",
+        "bytes": 168118,
+        "sha256": "b546d1c3e96bd97688ffb314ea57725f5a4def82cb311f77dedaba0b94ad3c07",
+        "dimensions": [
+          939,
+          480
+        ],
+        "sourceDimensions": [
+          1754,
+          897
+        ],
+        "transparentFraction": 0.3335,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "neighborhood-native-plants",
+      "name": "Neighborhood Native Plant Nursery",
+      "method": "Background extraction",
+      "source": "https://neighborhoodplants.org/files/2025/11/cropped-oakleaf1-180x180.jpg",
+      "originalImage": "https://neighborhoodplants.org/files/2025/11/cropped-oakleaf1-180x180.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/neighborhood-native-plants-logo-transparent-v1.webp",
+        "alt": "Neighborhood Native Plant Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "neighborhood-native-plants-logo-transparent-v1.webp",
+        "bytes": 22898,
+        "sha256": "e48b8505cba610cda2d363cb08fb6c9eb31ab8d9b2333a8915aafc3465fbe925",
+        "dimensions": [
+          346,
+          480
+        ],
+        "sourceDimensions": [
+          1064,
+          1478
+        ],
+        "transparentFraction": 0.4153,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "seeds-of-alaska-juneau",
+      "name": "Seeds of Alaska",
+      "method": "Remove misattributed directory logo",
+      "reason": "The displayed image belonged to Alaska Plant Materials Center, which publishes the supplier directory; no authentic seller image was confirmed.",
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "high-plains-environmental-center",
+      "name": "High Plains Environmental Center Native Plant Nursery",
+      "method": "Background extraction",
+      "source": "https://suburbitat.org/wp-content/uploads/2024/11/HPC-logo.png",
+      "originalImage": "https://suburbitat.org/wp-content/uploads/2024/11/HPC-logo.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/high-plains-environmental-center-logo-transparent-v1.webp",
+        "alt": "High Plains Environmental Center Native Plant Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "high-plains-environmental-center-logo-transparent-v1.webp",
+        "bytes": 38334,
+        "sha256": "68956382d113457f828031db23d5705181050b973f88b5c6b512fe71b9a5e35b",
+        "dimensions": [
+          778,
+          480
+        ],
+        "sourceDimensions": [
+          1597,
+          985
+        ],
+        "transparentFraction": 0.9301,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "crooked-creek-nursery",
+      "name": "Crooked Creek Nursery",
+      "method": "Background extraction",
+      "source": "https://static.wixstatic.com/media/cb6d67_26948c4c8f364139b62c50c30bf4b688~mv2.png/v1/fill/w_229,h_206,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Crooked%20Creek%20Logo.png",
+      "originalImage": "https://static.wixstatic.com/media/cb6d67_26948c4c8f364139b62c50c30bf4b688~mv2.png/v1/fill/w_229,h_206,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Crooked%20Creek%20Logo.png",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/crooked-creek-nursery-logo-transparent-v1.webp",
+        "alt": "Crooked Creek Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "crooked-creek-nursery-logo-transparent-v1.webp",
+        "bytes": 74138,
+        "sha256": "28fd1f53bf16d801889a83ffef334edf1d039280d16c1d433c3815b48eb3b149",
+        "dimensions": [
+          529,
+          480
+        ],
+        "sourceDimensions": [
+          1316,
+          1195
+        ],
+        "transparentFraction": 0.8129,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "swallowtail-center",
+      "name": "Swallowtail Center",
+      "method": "Background extraction",
+      "source": "https://static.wixstatic.com/media/855f86_3daef45156cf4f8689147d0d1784e036%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/855f86_3daef45156cf4f8689147d0d1784e036%7Emv2.jpg",
+      "originalImage": "https://static.wixstatic.com/media/855f86_3daef45156cf4f8689147d0d1784e036%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/855f86_3daef45156cf4f8689147d0d1784e036%7Emv2.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/swallowtail-center-logo-transparent-v1.webp",
+        "alt": "Swallowtail Center official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "swallowtail-center-logo-transparent-v1.webp",
+        "bytes": 61770,
+        "sha256": "0d8216ed7250259fcf8d90072f180752b87a090d4c7c181d37e9765b9506e7f3",
+        "dimensions": [
+          582,
+          480
+        ],
+        "sourceDimensions": [
+          1381,
+          1139
+        ],
+        "transparentFraction": 0.8267,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20",
+      "editNote": "Colored backing removed; formerly white foreground darkened for cream-page contrast."
+    },
+    {
+      "id": "wild-south-native-nursery",
+      "name": "Wild South Native Nursery",
+      "method": "Background extraction",
+      "source": "https://nativeplantmaps.pages.dev/assets/providers/wild-south-logo.jpg",
+      "originalImage": "https://nativeplantmaps.pages.dev/assets/providers/wild-south-logo.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/wild-south-native-nursery-logo-transparent-v1.webp",
+        "alt": "Wild South Native Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "wild-south-native-nursery-logo-transparent-v1.webp",
+        "bytes": 48656,
+        "sha256": "a28f99d9e9acaeaad0c8e77af9a84cfd368851ae7b784ec7fb4f3b63d169fef7",
+        "dimensions": [
+          960,
+          360
+        ],
+        "sourceDimensions": [
+          2048,
+          768
+        ],
+        "transparentFraction": 0.7549,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "wild-ridge-plants",
+      "name": "Wild Ridge Plants",
+      "method": "Background extraction",
+      "source": "https://www.wildridgeplants.com/uploads/b/e824bd60-f840-11ee-90db-f3c5ef376dcb/Wild%20Ridge%20Logo%20Compact%20border%20square%202025_MjE3MD.jpg",
+      "originalImage": "https://www.wildridgeplants.com/uploads/b/e824bd60-f840-11ee-90db-f3c5ef376dcb/Wild%20Ridge%20Logo%20Compact%20border%20square%202025_MjE3MD.jpg",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/wild-ridge-plants-logo-transparent-v1.webp",
+        "alt": "Wild Ridge Plants official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "wild-ridge-plants-logo-transparent-v1.webp",
+        "bytes": 75112,
+        "sha256": "0fccacf583f56aeadcc12615df1b68d4c202c290fb707b5dc63eac283f34e879",
+        "dimensions": [
+          720,
+          480
+        ],
+        "sourceDimensions": [
+          1536,
+          1024
+        ],
+        "transparentFraction": 0.5652,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "roots-and-shoots-nursery-charleston",
+      "name": "Roots & Shoots Nursery",
+      "method": "Background extraction",
+      "source": "https://www.rootsandshootsnursery.com/uploads/b/c66961e0-acb0-11ed-8db1-117a41b7fbc3/icon_180x180_ios_ODgwOT.png?width=180",
+      "originalImage": "https://www.rootsandshootsnursery.com/uploads/b/c66961e0-acb0-11ed-8db1-117a41b7fbc3/icon_180x180_ios_ODgwOT.png?width=180",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/roots-and-shoots-sc-logo-transparent-v1.webp",
+        "alt": "Roots & Shoots Nursery official logo, transparent background",
+        "type": "logo"
+      },
+      "asset": {
+        "name": "roots-and-shoots-sc-logo-transparent-v1.webp",
+        "bytes": 45954,
+        "sha256": "12f2217910b2512a6f5eb719b35b0d1080272df157e8aeb9fd081af78198c942",
+        "dimensions": [
+          480,
+          480
+        ],
+        "sourceDimensions": [
+          1254,
+          1254
+        ],
+        "transparentFraction": 0.4766,
+        "alphaMin": 0
+      },
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "artemis-growers-michigan",
+      "name": "Artemis Growers",
+      "method": "Remove misattributed directory logo",
+      "reason": "The displayed image belonged to Native Plant Guild, which hosts the grower profile; no authentic grower image was confirmed.",
+      "reviewedOn": "2026-11-20"
+    }
+  ],
+  "unchanged": [
+    {
+      "id": "native-fairfield",
+      "image": "https://anativeplantnursery.com/wp-content/uploads/2019/06/cropped-native-site-icon-180x180.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.692,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "native-plant-nursery-fairfield",
+      "image": "https://anativeplantnursery.com/wp-content/uploads/2019/06/cropped-native-site-icon-180x180.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.692,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "rewild-native-nursery",
+      "image": "https://static.wixstatic.com/media/ccca6f_34543c27da2a4c3aba8afa1ba2a2cc11~mv2.png/v1/fill/w_366,h_164,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Final%20Color%20Rewild%20Logo%20No%20BG.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.706,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "north-georgia-native-plant-nursery",
+      "image": "https://www.northgeorgianatives.com/uploads/3/8/3/9/38394705/published/north-georgia-native-nursery-4.png?1641057169",
+      "alphaMin": 0,
+      "transparentFraction": 0.758,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "pizzo-native-plant-nursery",
+      "image": "https://www.pizzonursery.com/wp-content/uploads/2024/05/pizzo-nursery-logo-300x102.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.612,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "beavers-abundance",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/beavers-logo.webp",
+      "alphaMin": 0,
+      "transparentFraction": 0.214,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "russells-garden-center",
+      "image": "https://static.wixstatic.com/media/0f94df_e048375669844cb9a4047d652110dc96~mv2.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.644,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "bona-terra",
+      "image": "https://i0.wp.com/bonaterradc.com/wp-content/uploads/2023/12/BT-Circle-Design.png?fit=1500%2C1500&ssl=1",
+      "alphaMin": 0,
+      "transparentFraction": 0.22,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "ecoplantia",
+      "image": "https://static.wixstatic.com/media/94bd1f_221f30cd2cd24559a6075cbc06f95f0a~mv2.png/v1/fill/w_503,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.749,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "wildflower-native-nursery",
+      "image": "https://static.wixstatic.com/media/a09a09_1dfad92070cb4c8ca2d4da143ea8b22d~mv2.png/v1/crop/x_10,y_127,w_461,h_184/fill/w_331,h_132,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/WILDFLOWER%20logo%20alternaitve%20.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.912,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "prairie-moon-nursery",
+      "image": "https://www.prairiemoon.com/mm5/graphics/00000001/180410-Prairie-Moon-Nursery.Logo.Stacked_K@1xx.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.698,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "carolina-native-nursery",
+      "image": "https://www.carolinanativenursery.com/wp-content/uploads/2024/05/Carolina-Native-Logo.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.623,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "deep-roots-natives-nc",
+      "image": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/deeprootsnatives.com/wp-content/uploads/2022/04/cropped-favicon.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.675,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "bagley-pond-perennials",
+      "image": "https://bagleypondperennials.com/cdn/shop/files/logo.png?v=1733204060&width=100",
+      "alphaMin": 0,
+      "transparentFraction": 0.759,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "plant-detectives",
+      "image": "https://plantdetectives.com/cdn/shop/files/REVISED_CIRCULAR_LOGO-1_7597f545-a2ba-4f1a-81f0-ba5ad38c411c_180x.png?v=1676500370",
+      "alphaMin": 0,
+      "transparentFraction": 0.742,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "toadshade-wildflower-farm",
+      "image": "https://toadshade.com/favicon-32x32.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.411,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "flower-power-red-hook",
+      "image": "https://images.squarespace-cdn.com/content/v1/6810f4b4f10260751b9a75a7/1e6d5c07-2c23-42d5-99da-1d3446b0cb9d/ozoneLogo.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.356,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "native-plant-center-wcc",
+      "image": "https://wccf-ny.org/wp-content/uploads/2023/08/WCCF-Color-Logo-FINAL-300x143.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.63,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "scioto-gardens",
+      "image": "https://sciotogardens.com/wp-content/uploads/2024/07/logo-color.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.623,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "edge-of-woods",
+      "image": "https://edgeofthewoodsnursery.com/wp-content/uploads/2017/04/cropped-logoWHITE.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.786,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "go-native-tree-farm",
+      "image": "https://www.gonativetrees.com/wp-content/uploads/2020/03/GoNativeTree-Farm-300x63.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.838,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "yellow-springs-farm",
+      "image": "https://images.squarespace-cdn.com/content/v1/5fe9fc76d091f069f5294a8b/1611853507195-HNFR8VE8Z36DF897SPXB/YSF+LOGO+2021.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.259,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "desert-survivors",
+      "image": "https://desertsurvivors.org/wp-content/uploads/2024/01/desert-survivors-full-logo-300x143.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.631,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "theodore-payne-foundation",
+      "image": "https://theodorepayne.org/wp-content/uploads/2019/02/Theodore_Payne_Foundation-Logo.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.279,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "iowa-state-forest-nursery",
+      "image": "https://www.iowadnr.gov/themes/custom/wildrose/favicon.ico",
+      "alphaMin": 0,
+      "transparentFraction": 0.49,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "washoe-state-tree-nursery",
+      "image": "https://forestry.nv.gov/assets/images/apple-touch-icon.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.205,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "native-roots-plant-market",
+      "image": "https://nativerootscincy.com/wp-content/uploads/2025/03/cropped-favicon_512-180x180.webp",
+      "alphaMin": 0,
+      "transparentFraction": 0.207,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "river-city-natives",
+      "image": "https://static.wixstatic.com/media/62b5bd_27ad8ac192684d7ab9489af5d22ef9ec%7Emv2_d_2192_2193_s_2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/62b5bd_27ad8ac192684d7ab9489af5d22ef9ec%7Emv2_d_2192_2193_s_2.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.51,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "portland-nursery-division",
+      "image": "https://portlandnursery.com/wp-content/uploads/2026/02/logo.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.735,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "flora-of-miami",
+      "image": "https://floraofmiami.com/wp-content/uploads/2023/10/logo-hero-2-300x144.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.559,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "mad-farmers-collective",
+      "image": "https://madfarmersindy.com/cdn/shop/files/madfarmersmockup2.png?v=1738086483&width=600",
+      "alphaMin": 0,
+      "transparentFraction": 0.652,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "sanctuary-gardens-norman",
+      "image": "https://static.wixstatic.com/media/c4f5a8_cbc671ab97eb46be9c7bd154316141de~mv2.png/v1/fill/w_58,h_57,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Sanctuary%20Gardens%20Logo%20Transparent.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.652,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "kansas-plant-farm",
+      "image": "https://kansasplantfarm.com/plants_images/logo_bottom.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.447,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "native-roots-inc-west-virginia",
+      "image": "https://www.nativerootsinc.com/favicon.ico",
+      "alphaMin": 0,
+      "transparentFraction": 0.241,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "southern-branch-nursery",
+      "image": "https://images.squarespace-cdn.com/content/v1/5ece44dff1c440543d369752/0f29cf8b-356d-462a-bbbe-6d5868b496ed/southern-branch-nursery-logo.png?format=1500w",
+      "alphaMin": 0,
+      "transparentFraction": 0.909,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "montana-plants-missoula",
+      "image": "https://mtnativeplants.com/wp-content/uploads/2024/02/cropped-Round-Logo-with-Lines-Wordpress.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.322,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "mother-natives-sacramento",
+      "image": "https://images.squarespace-cdn.com/content/v1/619194044de06a37080c8120/b0bd78eb-b9ed-40a9-9383-d67a638b2612/logo+label.png?format=1500w",
+      "alphaMin": 0,
+      "transparentFraction": 0.715,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "earthbeat-seeds-vermont",
+      "image": "https://www.earthbeatseeds.com/cdn/shop/files/EarthBeatSeed_HorizontalText_glow_320x@2x.png?v=1614323303",
+      "alphaMin": 0,
+      "transparentFraction": 0.232,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "east-hill-tree-farm-plainfield",
+      "image": "https://easthilltreefarm.com/cdn/shop/files/East_Hill_Logo_long_web_250x.png?v=1633613398",
+      "alphaMin": 0,
+      "transparentFraction": 0.772,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "garden-fever-portland",
+      "image": "https://gardenfever.com/wp-content/themes/gardenfever/assets/images/garden-fever-logo-square.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.326,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "growing-place-naperville",
+      "image": "https://www.thegrowingplace.com/favicon.ico",
+      "alphaMin": 0,
+      "transparentFraction": 0.265,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "growing-place-aurora",
+      "image": "https://www.thegrowingplace.com/favicon.ico",
+      "alphaMin": 0,
+      "transparentFraction": 0.265,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "natural-communities-algonquin",
+      "image": "https://naturalcommunities.net/cdn/shop/files/NC_NEW_TAGLINE_2.png?v=1724517193&width=600",
+      "alphaMin": 0,
+      "transparentFraction": 0.895,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "bluprairie-watertown-mn",
+      "image": "https://bluprairie.com/wp-content/uploads/2025/01/A1Logo-2-e1737311108911.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.793,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "heidis-growhaus-corcoran",
+      "image": "https://www.growhausmn.com/application/files/4715/5410/8963/fav.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.689,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "oxbow-native-plant-nursery-carnation",
+      "image": "https://www.oxbow.org/wp-content/uploads/2017/07/OxbowLogoUpdated_color_final_printtrans-01.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.936,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "utah-water-gardens-salt-lake-city",
+      "image": "https://utahwatergardens.com/_next/image?url=%2Futwg_logo.webp&w=2048&q=75",
+      "alphaMin": 0,
+      "transparentFraction": 0.81,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "plant-foundry-nursery-sacramento",
+      "image": "https://plantfoundry.com/cdn/shop/files/The_Plant_Foundry_1.png?v=1784411261&width=100",
+      "alphaMin": 0,
+      "transparentFraction": 0.805,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "green-acres-garden-center-sacramento",
+      "image": "https://idiggreenacres.com/cdn/shop/files/logo_245x172.webp?v=1662967276",
+      "alphaMin": 0,
+      "transparentFraction": 0.358,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "friendswood-garden-emporium",
+      "image": "https://www.friendswoodgardenemporium.com/favicon/apple-touch-icon.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.838,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "houston-audubon-natives-nursery",
+      "image": "https://cdn.firespring.com/images/7ff713eb-5f06-4fe7-8724-5147aa9df223.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.542,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "livs-native-nursery-milan",
+      "image": "https://img1.wsimg.com/isteam/ip/6c9c38c6-1703-4839-8cba-c8105e1eccd7/favicon/3ef7180d-ea19-412e-bc54-9835c96abe31.png/:/rs=w:57,h:57,m",
+      "alphaMin": 0,
+      "transparentFraction": 0.784,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "companion-plants-athens-oh",
+      "image": "https://www.companionplants.com/apple-touch-icon-57x57.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.618,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "dragonfly-gardens-amery",
+      "image": "https://dragonflygardens.net/wp-content/uploads/2024/11/cropped-Company-Logo-192x192.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.396,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "alaska-botanical-garden-nursery",
+      "image": "https://images.squarespace-cdn.com/content/v1/616714e4784be422bb89da49/8ecd9e57-0be8-4801-9d43-cee1349f0b00/ABG_Logo_Green_sm_transparent.png?format=1500w",
+      "alphaMin": 0,
+      "transparentFraction": 0.5,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "old-bumbles-farm-moorestown",
+      "image": "https://i0.wp.com/oldbumblesfarm.com/wp-content/uploads/2025/12/bumblelogopng.png?fit=1458%2C1458&ssl=1",
+      "alphaMin": 0,
+      "transparentFraction": 0.213,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "sandhill-native-growers-florida",
+      "image": "https://sandhillgrowers.com/wp-content/uploads/2016/11/SH_Icon-Retina.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.159,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "new-england-wetland-plants-amherst",
+      "image": "https://newp.com/wp-content/uploads/2019/05/NEWP-Logo-header-3-600x139.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.759,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "bremo-trees-bremo-bluff",
+      "image": "https://bremotrees.com/wp-content/uploads/2020/04/bremo-trees-logo-tagline@2x-200x150.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.703,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "good-seed-natives-richmond",
+      "image": "https://static.wixstatic.com/media/df3ac3_3a5520c0ddac41338fa18c36684bfc4e~mv2.png/v1/fill/w_45,h_57,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/GoodSeedNatives-icon-color-noBG.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.552,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "critsite-prairie-wetland-center",
+      "image": "https://critsite.com/wp-content/uploads/2026/07/CRITSITE-Logo-New.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.575,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "forrest-keeling-nursery-elsberry",
+      "image": "https://fknursery.com/wp-content/uploads/2020/12/FK-logo-300x191.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.815,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "ozark-soul-native-plants-thornfield",
+      "image": "https://ozarksoul.com/ws/resized-images/f59a17fc5eec4076b24f338762bb6711/ozark-soul-icon-logotype-reverse.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.832,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "baker-environmental-nursery-hoschton",
+      "image": "https://bakerenvironmentalnursery.com/wp-content/uploads/2015/03/baker_logo1-555x321.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.595,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "valley-nursery-utah-uintah",
+      "image": "https://valleynurseryutah.com/logo.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.256,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "eco-blossom-nursery",
+      "image": "https://ecoblossom.com/cdn/shop/files/EcoBlossom_COLOR-4.png?v=1640659912&width=500",
+      "alphaMin": 0,
+      "transparentFraction": 0.861,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "chattanooga-native-plant-nursery",
+      "image": "https://chattanooganativeplants.com/cdn/shop/files/Logo_Square_Transparent.png?v=1748466175&width=600",
+      "alphaMin": 0,
+      "transparentFraction": 0.948,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "our-city-forest-community-nursery",
+      "image": "https://images.squarespace-cdn.com/content/v1/545bbd7ee4b032c1794c4020/1416259143764-YI37W8Z8H5BYC4TRAL7U/favicon.ico?format=100w",
+      "alphaMin": 0,
+      "transparentFraction": 0.58,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "sunflower-farms-torrance",
+      "image": "https://sunflowerfarmsnursery.com/wp-content/uploads/2019/01/Spec-Logo-1.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.829,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "earth-tech-environmental-bonita-springs",
+      "image": "https://eteflorida.com/wp-content/uploads/2026/01/20th-Logo-TransB-280x300.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.518,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "blue-bee-nursery",
+      "image": "https://www.bluebeenursery.com/cdn/shop/files/blue-bee-nursery-logo.png?v=1771016204&width=500",
+      "alphaMin": 0,
+      "transparentFraction": 0.211,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "eden-of-wings-nursery",
+      "image": "https://edenofwings.com/cdn/shop/files/eden_of_wings_-_logo_large_clear_1_14de83f4-dace-4db0-a94d-3d6261e8a8fb.png?crop=center&height=32&v=1721857882&width=32",
+      "alphaMin": 0,
+      "transparentFraction": 0.556,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "takao-nursery",
+      "image": "https://takaonursery.com/wp-content/uploads/2016/12/leaf.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.736,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "erics-prairie",
+      "image": "https://www.ericsprairie.com/favicon.ico",
+      "alphaMin": 0,
+      "transparentFraction": 0.538,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "checkerspot-farm",
+      "image": "https://static.wixstatic.com/media/6cfc45_ad4fc70c10234a4a9ff7762dafc1befd~mv2.png/v1/fill/w_108,h_112,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Checkerspot%20farmlogo%20.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.217,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "finding-nectar",
+      "image": "https://findingnectar.com/cdn/shop/files/Color_png.png?v=1613728139",
+      "alphaMin": 0,
+      "transparentFraction": 0.529,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "memphis-native-tree-works",
+      "image": "https://static.wixstatic.com/media/737d42_85edda3be590436babbc3afbb967dd46~mv2.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.814,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "harris-nature-center-plant-sale",
+      "image": "https://media-002-us.cdn.govstack.com/meridian-us/media/egec0yjo/meridiantwp_logo_1230_final_white.png?width=361&height=189&format=webp",
+      "alphaMin": 0,
+      "transparentFraction": 0.776,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "southern-branch-vb-farmers-market",
+      "image": "https://images.squarespace-cdn.com/content/v1/5ece44dff1c440543d369752/0f29cf8b-356d-462a-bbbe-6d5868b496ed/southern-branch-nursery-logo.png?format=1500w",
+      "alphaMin": 0,
+      "transparentFraction": 0.909,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "autumn-hill-nursery",
+      "image": "https://www.autumnhillnursery.com/wp-content/uploads/2026/03/AHN-LOGO-March-2026.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.702,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "spirit-tree-farms",
+      "image": "https://spirittreefarms.com/wp-content/uploads/2021/07/cropped-SpiritTreeLogo-264x300.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.751,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "wild-roots-native-nursery",
+      "image": "https://wildrootsnativenursery.com/cdn/shop/files/WebsiteLOGO.webp?height=36&v=1785359946",
+      "alphaMin": 0,
+      "transparentFraction": 0.639,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "pollinator-project-rogue-valley",
+      "image": "https://static.wixstatic.com/media/9290bd_2f8b831a2e3e40f0b078cee01323fad2~mv2.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.764,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "klamath-siskiyou-native-seeds",
+      "image": "https://klamathsiskiyouseeds.com/wp-content/uploads/2018/03/logo-Klamath-Siskiyou-Native-Seeds.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.666,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "primex-garden-center",
+      "image": "https://primexgardencenter.com/wp-content/uploads/2026/01/Primex-Yearly-Anniversary-Logo-1-300x300.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.258,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "earthwild-gardens",
+      "image": "https://earthwildgardens.com/wp-content/uploads/2022/09/cropped-earthwildgardens.com-icon-32x32.png",
+      "alphaMin": 2,
+      "transparentFraction": 0.349,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "knotty-by-nature-natives",
+      "image": "https://static.wixstatic.com/media/434ded_971f90b9d00e491f84455814e87628fb~mv2_d_2667_1611_s_2.png/v1/fill/w_281,h_168,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/400dpiLogo.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.839,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "lern-rva",
+      "image": "https://www.lern-rva.org/favicon.ico",
+      "alphaMin": 0,
+      "transparentFraction": 0.671,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "friendship-farms-latrobe",
+      "image": "https://friendshipfarms.com/wp-content/uploads/2014/07/Logo1.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.24,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "grow-native-nursery-california-botanic",
+      "image": "https://cdn.prod.website-files.com/59613419dcbd9b40dceb57a6/5e627e6d9ca43728fd0a31a2_CalBG%20Full%20Color%20Logo.avif",
+      "alphaMin": 0,
+      "transparentFraction": 0.758,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "pipilo-native-plants",
+      "image": "https://static.wixstatic.com/media/61f7ee_792271e9ca084201a4d04aeff122ab3f~mv2.png/v1/crop/x_52,y_46,w_323,h_318/fill/w_318,h_312,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artboard%201.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.502,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "birds-nest-natives",
+      "image": "https://static.wixstatic.com/media/5a7b9c_6822440f8ec54f318a0a7de37afff922~mv2.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.839,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "terra-fate",
+      "image": "https://static.wixstatic.com/media/01497e_cfbc05800882483bb0c4c1367575ec1d~mv2.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.903,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "smoke-camp-crafts",
+      "image": "https://smokecampcrafts.com/cdn/shop/files/LOGOWHITENOBACKGROUNDNOCIRCLE.png?v=1742757407&width=600",
+      "alphaMin": 0,
+      "transparentFraction": 0.911,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "busy-bee-nursery",
+      "image": "https://i0.wp.com/busybeenurseryandconsulting.com/wp-content/uploads/2024/03/butterfly-and-goldenrod_circle-200.png?fit=200%2C200&ssl=1",
+      "alphaMin": 0,
+      "transparentFraction": 0.208,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "blooming-garden",
+      "image": "https://images.squarespace-cdn.com/content/v1/63178fe05f23f51c6f62231c/5e0bddc5-7f4b-4ff5-9592-6ced20b28155/BloomingGarden_Matt+Shaw-02.png?format=750w",
+      "alphaMin": 0,
+      "transparentFraction": 0.634,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "glacial-ridge-growers",
+      "image": "https://cdn11.bigcommerce.com/s-b7ge180zly/images/stencil/original/glacial-ridge-logo_1668103676__07335.original.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.758,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "great-plains-nursery",
+      "image": "https://greatplainsnursery.com/wp-content/uploads/2022/02/gpnlogo-1.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.685,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "green-isle-gardens",
+      "image": "https://www.greenislegardens.com/uploads/1/1/9/6/119654569/green-isle-gardens-only-horiz-small.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.767,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "wilcox-nursery",
+      "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2000,h_813/https://www.wilcoxnursery.com/wp-content/uploads/2025/05/Simple-Wilcox-Logo-Fern-under-text-1.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.782,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "florida-native-plants-nursery-sarasota",
+      "image": "https://images.squarespace-cdn.com/content/v1/5e862c049fd9b20958eb5f05/1624214787531-67BWZPG5Q81TGS3S2VOT/logoclear.png?format=750w",
+      "alphaMin": 0,
+      "transparentFraction": 0.849,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "the-natives-inc",
+      "image": "https://static.wixstatic.com/media/183520_69e227dd08c0407eb0318eb7ec0853f6~mv2.gif",
+      "alphaMin": 0,
+      "transparentFraction": 0.722,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "moosa-creek-nursery",
+      "image": "https://static.wixstatic.com/media/3a8459_3004ba5871994bf7bb30438a26953bb9~mv2.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.212,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "matilija-nursery",
+      "image": "https://www.matilijanursery.com/wp-content/uploads/2022/03/logo_new.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.583,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "joss-growers",
+      "image": "https://jossgrowers.com/wp-content/uploads/2026/05/joss-growers-logo.webp",
+      "alphaMin": 0,
+      "transparentFraction": 0.74,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "delaware-nature-society-abbotts-mill-sale",
+      "image": "https://delawarenaturesociety.org/wp-content/uploads/2026/04/logo-green.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.209,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "mellow-marsh-farm",
+      "image": "https://mellowmarshfarm.com/wp-content/uploads/elementor/thumbs/MelllowMarshFarm_ad-cutout-pr3f9os7hdmi67suwlee1xrgkaf922tfrjgfqko7sy.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.706,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "sevenoaks-native-nursery",
+      "image": "https://sevenoaksnativenursery.com/wp-content/uploads/2022/12/sevenoaks-logo.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.741,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "shonnards-nursery",
+      "image": "https://www.shonnards.com/wp-content/uploads/2026/07/Shonnards_Logo_Black.webp",
+      "alphaMin": 0,
+      "transparentFraction": 0.716,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "clearwater-native-plant-nursery",
+      "image": "https://clearwaternatives.com/wp-content/uploads/2025/10/clearwater-native-plant-nursery-logo.png",
+      "alphaMin": 0,
+      "transparentFraction": 0.757,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "urbanscapes-native-nursery",
+      "image": "https://images.squarespace-cdn.com/content/v1/5c8fd7deab1a623f68210928/1557934155768-2455LO2T9UP28UAQIOXH/Osprey-logo-trans.png?format=750w",
+      "alphaMin": 0,
+      "transparentFraction": 0.659,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    },
+    {
+      "id": "direct-native-plants",
+      "image": "https://directnativeplants.com/wp-content/webp-express/webp-images/uploads/2023/01/dnp-logo.png.webp",
+      "alphaMin": 0,
+      "transparentFraction": 0.653,
+      "review": "Existing transparent logo retained; checked against cream page background."
+    }
+  ],
+  "method": "Visual review of all existing logo previews on cream, original alpha inspection, official website alternatives and nursery/plant photographs, or background extraction with the built-in image editing tool. Edited results were checked against the original; Edited PNG results were exported as responsive WebP assets retaining aspect ratio and alpha transparency. Photos focus on plants and nursery spaces, not people.",
+  "imageEditPrompt": "Background extraction only; preserve authentic logo spelling, typography, composition, botanical/animal shapes, and foreground colors. Remove only the flat rectangular backing and empty background gaps. Genuine alpha; no redesigned branding, added text, shadow, outline, or checkerboard. Where formerly white foreground would disappear against cream, darken that foreground for legibility.",
+  "fallbackPolicy": "Use original transparent branding or a verified official plant/nursery photograph when a background-dependent logo, tiny site icon, or complex artwork is unsuitable. Remove misattributed third-party directory logos rather than implying they belong to a grower."
+}

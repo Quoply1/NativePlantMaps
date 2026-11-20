@@ -1,4 +1,4 @@
-import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { copyFile, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -38,11 +38,22 @@ const seed = JSON.parse(seedText).map(vendor => {
 const guideJson = JSON.stringify(JSON.parse(guides)).replaceAll('<', '\\u003c');
 const directoryJson = JSON.stringify(JSON.parse(directory)).replaceAll('<', '\\u003c');
 const html = page.replace('__ECOREGION_GUIDES__', () => guideJson).replace('__ECOREGION_DIRECTORY__', () => directoryJson);
-const providerAssets = Object.fromEntries(await Promise.all([['beavers-logo.webp', 'image/webp'], ['condursos-logo.png', 'image/png'], ['wild-south-logo.jpg', 'image/jpeg']].map(async ([name, type]) => ['/assets/providers/' + name, { type, data: (await readFile(resolve(root, 'assets/providers', name))).toString('base64') }])));
+const providerTypes = {webp:'image/webp',png:'image/png',jpg:'image/jpeg',jpeg:'image/jpeg',svg:'image/svg+xml'};
+const providerFiles = (await readdir(resolve(root, 'assets/providers'), {withFileTypes:true}))
+  .filter(entry => entry.isFile() && providerTypes[entry.name.split('.').pop().toLowerCase()])
+  .map(entry => entry.name).sort();
+const embeddedProviderFiles = new Set(['beavers-logo.webp','condursos-logo.png','wild-south-logo.jpg']);
+const providerAssets = Object.fromEntries(await Promise.all(providerFiles.map(async name => [
+  '/assets/providers/' + name,
+  {type:providerTypes[name.split('.').pop().toLowerCase()],...(embeddedProviderFiles.has(name)
+    ? {data:(await readFile(resolve(root, 'assets/providers', name))).toString('base64')} : {})}
+])));
 const worker = template.replace('__PAGE__', () => JSON.stringify(html)).replace('__SEED__', () => JSON.stringify(seed)).replace('__FAVICON__', () => JSON.stringify(favicon)).replace('__PROVIDER_ASSETS__', () => JSON.stringify(providerAssets));
 if (worker.includes('__PAGE__') || worker.includes('__SEED__') || worker.includes('__FAVICON__') || worker.includes('__PROVIDER_ASSETS__')) throw new Error('Worker template values were not embedded');
 const out = resolve(root, 'dist');
 await rm(out, { recursive: true, force: true });
 await mkdir(out, { recursive: true });
+await mkdir(resolve(out, 'assets/providers'), { recursive: true });
+await Promise.all(providerFiles.map(name => copyFile(resolve(root, 'assets/providers', name), resolve(out, 'assets/providers', name))));
 await writeFile(resolve(out, '_worker.js'), worker);
 console.log(`Built Cloudflare Pages Worker with ${seed.length} directory listings`);
