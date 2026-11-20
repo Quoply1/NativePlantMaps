@@ -600,7 +600,7 @@
         <div class="mapbox"><div id="map" role="application" aria-label="Interactive map of native plant sources across the United States"></div><div class="mapcontrols" aria-label="Map controls"><button id="zoom-in" type="button" aria-label="Zoom in">+</button><button id="zoom-out" type="button" aria-label="Zoom out">−</button><button id="reset-map" type="button" aria-label="Show all U.S. sources" title="Show all U.S. sources">⌂</button><button id="reset-map-filters" type="button" aria-label="Reset filters" title="Reset filters"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h18l-7 7v6l-4 3v-9z"/><path d="m17 16 4 4m0-4-4 4"/></svg></button><button id="toggle-map-fullscreen" type="button" aria-label="Expand map" title="Expand map" aria-pressed="false">⛶</button></div><div class="maptip">Click a numbered bubble to zoom in and show its local providers.</div></div>
       </div>
       <div class="directory">
-        <div class="panelhead dirhead"><div><h2 id="directory-title">Providers across the U.S.</h2><p>Check hours and plant availability with the provider before visiting.</p><button type="button" id="clear-cluster-focus" class="clear-cluster" hidden>Show all locations</button></div><span id="resultCount" class="resultcount" aria-live="polite" aria-atomic="true">— providers</span></div>
+        <div class="panelhead dirhead"><div><h2 id="directory-title">Providers across the U.S.</h2><p>Well-documented nurseries appear first. Confirm hours and plant availability before visiting.</p><button type="button" id="clear-cluster-focus" class="clear-cluster" hidden>Show all locations</button></div><span id="resultCount" class="resultcount" aria-live="polite" aria-atomic="true">— providers</span></div>
         <div id="cards" class="cards"></div><nav id="pagination" class="pagination" aria-label="Directory pages" hidden></nav>
       </div>
     </section>
@@ -862,7 +862,7 @@
       stateSearch=null;ecoregionSearch=null;listingSearch='';selectedId=null;
       document.getElementById('search').value=label;closeCitySuggestions();
       const nearby=filtered();
-      document.getElementById('search-status').textContent=nearby.length ? 'Showing '+nearby.length+' providers within '+searchRadius+' miles of '+label+'; sorted by distance.' : 'No providers within '+searchRadius+' miles of '+label+'. Try a wider radius or nearby city.';
+      document.getElementById('search-status').textContent=nearby.length ? 'Showing '+nearby.length+' providers within '+searchRadius+' miles of '+label+'; ranked by nursery information and distance.' : 'No providers within '+searchRadius+' miles of '+label+'. Try a wider radius or nearby city.';
       render();refreshMapLayers();
       if(window.accessMap){
         const lat=Number(city.lat),lng=Number(city.lng),dLat=searchRadius/69,dLng=searchRadius/(69*Math.max(.25,Math.cos(lat*Math.PI/180)));
@@ -953,7 +953,6 @@
       }
     }
     function filtered(){const q=listingSearch.toLowerCase().trim(),nearby=nearbySearch;return vendors.map(v=>nearby&&v.lat!=null&&v.lng!=null?{...v,searchDistance:distanceMiles(nearby.lat,nearby.lng,v.lat,v.lng),searchPlace:nearby.label}:v).filter(v=>{const state=document.getElementById('state-filter')?.value||'',match=activeFilter==='all'||activeFilter==='specialist'&&v.nativeTier==='specialist'||activeFilter==='documented'&&v.nativeTier==='documented'||activeFilter==='garden'&&isGardenStore(v)||activeFilter==='confirmed'&&v.native==='confirmed'||activeFilter==='seasonal'&&seasonalListing(v);const stateMatch=(!state||v.state===state)&&(!stateSearch||v.state===stateSearch);const text=[v.name,v.area,v.borough,v.address,v.nativeBasis,v.access,v.state,...(v.searchAliases||[])].join(' ').toLowerCase();const direct=!q||text.includes(q);const nearbyMatch=!!nearby&&Number.isFinite(v.searchDistance)&&v.searchDistance<=searchRadius;return v.native==='confirmed'&&v.nativeTier!=='unverified'&&match&&stateMatch&&(!ecoregionSearch||ecoregionSearch.vendorIds.has(String(v.id)))&&(nearby?nearbyMatch:direct)})}
-    const listingShuffle=new Map();
     function publicHttpUrl(value){
       try{
         const url=new URL(value);
@@ -993,9 +992,53 @@
     function sourceHost(rawUrl){try{return new URL(rawUrl).hostname.toLowerCase().replace(/^www\./,'')}catch{return ''}}
     function isGoogleMapsSource(rawUrl){try{const url=new URL(rawUrl),host=url.hostname.toLowerCase();return /(^|\.)google\.[a-z.]+$/.test(host)&&/\/maps(?:\/|$)/i.test(url.pathname)||host==='maps.app.goo.gl'||(host==='goo.gl'||host==='g.co')&&/maps/i.test(url.pathname)}catch{return false}}
     function sameSourceSite(host,sellerHost){return host===sellerHost||host.endsWith('.'+sellerHost)||sellerHost.endsWith('.'+host)}
-    function sourceConfidence(v){const seen=new Set();let score=0;const sellerHost=sourceHost(v.website);if(sellerHost){seen.add(sellerHost);score+=2}for(const source of v.sources||[]){if(isGoogleMapsSource(source.url))continue;const host=sourceHost(source.url),key=host&&sellerHost&&sameSourceSite(host,sellerHost)?sellerHost:host||String(source.label||'').toLowerCase();if(!key||seen.has(key))continue;seen.add(key);const label=String(source.label||'').toLowerCase();if(/\.gov$|\.edu$/.test(host)||/extension|university|botanical|arboretum|xerces|native plant society|wild ones/.test(label))score+=3;else score+=1}return score}
-    function sourceCount(v){const sites=new Set(),sellerHost=sourceHost(v.website);if(sellerHost)sites.add(sellerHost);for(const source of v.sources||[]){if(isGoogleMapsSource(source.url))continue;const host=sourceHost(source.url);if(host)sites.add(sellerHost&&sameSourceSite(host,sellerHost)?sellerHost:host)}const address=String(v.address||'').trim(),hasCoordinates=v.lat!==null&&v.lat!==undefined&&v.lng!==null&&v.lng!==undefined&&Number.isFinite(Number(v.lat))&&Number.isFinite(Number(v.lng)),hasMapLocation=hasCoordinates||!!(address&&!/^(?:n\/?a|n\.a\.|none|unknown|not provided|online only)$/i.test(address)),publicReviews=Array.isArray(v.publicReviews)?v.publicReviews.length:0;return sites.size+(hasMapLocation?1:0)+publicReviews}
-    function rankListings(items){items.forEach(v=>{if(!listingShuffle.has(v.id))listingShuffle.set(v.id,Math.random())});return [...items].sort((a,b)=>sourceConfidence(b)-sourceConfidence(a)||sourceCount(b)-sourceCount(a)||listingShuffle.get(a.id)-listingShuffle.get(b.id))}
+    function sourceSiteKey(host){
+      for(const parent of ['wildones.org','xerces.org','audubon.org','fnpschapters.org','fann.org','plantrealflorida.org'])if(host===parent||host.endsWith('.'+parent))return parent==='plantrealflorida.org'?'fann.org':parent;
+      return host;
+    }
+    function socialSource(host){return /(^|\.)(facebook\.com|instagram\.com|reddit\.com|youtube\.com|youtu\.be|tiktok\.com|linkedin\.com)$/.test(host)}
+    function verifiedSourceSites(v){
+      const sites=new Map(),sellerHost=sourceHost(v.website),sellerKey=sourceSiteKey(sellerHost),sellerHosts=[sellerHost,sourceHost(v.websiteProfile?.catalogUrl),sourceHost(v.websiteProfile?.visitingUrl)].filter(Boolean);
+      if(sellerHost&&v.websiteStatus&&v.websiteStatus!=='unverified'&&!isGoogleMapsSource(v.website))sites.set(sellerKey,{host:sellerHost,label:'Official website',seller:true});
+      for(const source of v.sources||[]){
+        if(source.verificationPending||isGoogleMapsSource(source.url))continue;
+        const host=sourceHost(source.url);if(!host)continue;
+        const seller=sellerHosts.some(known=>sameSourceSite(host,known)),key=seller?sellerKey:sourceSiteKey(host);
+        if(!sites.has(key))sites.set(key,{host,label:String(source.label||''),seller:!!seller});
+      }
+      return sites;
+    }
+    function sourceConfidence(v){
+      let score=0;
+      for(const source of verifiedSourceSites(v).values()){
+        if(source.seller){score+=2;continue}
+        if(socialSource(source.host))continue;
+        score+=/\.gov$|\.edu$/.test(source.host)||/extension|university|botanical|arboretum|xerces|native plant society|wild ones/i.test(source.label)?3:1;
+      }
+      return score;
+    }
+    function sourceCount(v){
+      const address=String(v.address||'').trim(),hasCoordinates=v.lat!==null&&v.lat!==undefined&&v.lng!==null&&v.lng!==undefined&&Number.isFinite(Number(v.lat))&&Number.isFinite(Number(v.lng)),hasMapLocation=hasCoordinates||!!(address&&!/^(?:n\/?a|n\.a\.|none|unknown|not provided|online only)$/i.test(address)),publicReviews=Array.isArray(v.publicReviews)?v.publicReviews.length:0;
+      return verifiedSourceSites(v).size+(hasMapLocation?1:0)+publicReviews;
+    }
+    function listingQuality(v){
+      const host=sourceHost(v.website),directory=/(^|\.)(plantnative\.org|plantant\.com|habitatcan\.org|landcan\.org|theplantnative\.com|maps\.app\.goo\.gl)$/.test(host),official=v.websiteStatus==='verified'&&host&&!socialSource(host)&&!directory;
+      const profile=v.websiteProfile||{},media=!!publicHttpUrl(v.preview?.image),independent=[...verifiedSourceSites(v).values()].filter(s=>!s.seller&&!socialSource(s.host)).length;
+      const tradeOnly=v.category==='wholesale'||profile.tradeOnly===true;
+      let score=official?36:0;
+      if(official&&publicHttpUrl(profile.catalogUrl))score+=20;
+      if(official&&publicHttpUrl(profile.visitingUrl))score+=8;
+      if(media)score+=v.preview.type==='logo'?12:16;
+      score+=Math.min(3,independent)*5;
+      score+=v.nativeTier==='specialist'?6:3;
+      score+=tradeOnly?-12:v.category==='retail'?10:v.category==='delivery'?6:4;
+      if(String(v.nativeSummary||v.nativeBasis||'').length>=100)score+=2;
+      if(Number.isFinite(v.searchDistance))score+=Math.max(0,12-v.searchDistance/10);
+      return score;
+    }
+    function rankListings(items){
+      return [...items].sort((a,b)=>listingQuality(b)-listingQuality(a)||sourceConfidence(b)-sourceConfidence(a)||sourceCount(b)-sourceCount(a)||(a.searchDistance??Infinity)-(b.searchDistance??Infinity)||String(a.name).localeCompare(String(b.name))||String(a.id).localeCompare(String(b.id)));
+    }
     function sourceEvidence(v){
       const labels=(v.sources||[]).map(source=>String(source.label||'').trim()).filter(Boolean);
       const useful=labels.filter(label=>!(/^(official|seller|provider|primary) (website|site|page)$|^additional source$/i.test(label)));
@@ -1038,7 +1081,7 @@
       return note;
     }
     function render(){
-      const filteredList=filtered(),clusterList=clusterFocusIds?filteredList.filter(v=>clusterFocusIds.includes(String(v.id))):filteredList,list=nearbySearch&&clusterList.some(v=>Number.isFinite(v.searchDistance))?clusterList.sort((a,b)=>(a.searchDistance??Infinity)-(b.searchDistance??Infinity)):rankListings(clusterList),store=saved();
+      const filteredList=filtered(),clusterList=clusterFocusIds?filteredList.filter(v=>clusterFocusIds.includes(String(v.id))):filteredList,list=rankListings(clusterList),store=saved();
       const stateValue=document.getElementById('state-filter')?.value||'',directoryTitle=document.getElementById('directory-title');
       if(directoryTitle)directoryTitle.textContent=clusterFocusIds?'Listings in selected map cluster':nearbySearch?'Near '+nearbySearch.label:stateSearch?'In '+stateLabels[stateSearch]:ecoregionSearch?'In '+ecoregionSearch.name:stateValue?'In '+stateLabels[stateValue]:'Providers across the U.S.';
       document.getElementById('resultCount').textContent=list.length+' '+(list.length===1?'provider':'providers');const clearCluster=document.getElementById('clear-cluster-focus');if(clearCluster)clearCluster.hidden=!clusterFocusIds;
@@ -1049,7 +1092,7 @@
       root.innerHTML=pageList.map(v=>{
         const f=store[v.id]||{},summary=listingDescription(v),evidence=evidenceSummary(v),visitInfo=String(v.availability||v.access||'').trim();
         const status=v.nativeTier==='specialist'?'Native specialist':v.native==='confirmed'?'Native stock documented':v.category==='community'?'Community access':v.category==='delivery'?'Delivery service':'Native stock unverified';
-        const labels=[v.nativeRange==='wide'?'Wide selection':v.nativeRange==='select'?'Select stock':'',seasonalListing(v)?'Seasonal access':v.category==='delivery'?'Mail order':''].filter(Boolean);
+        const labels=[v.nativeRange==='wide'?'Wide selection':v.nativeRange==='select'?'Select stock':'',v.category==='wholesale'?'Wholesale only':seasonalListing(v)?'Seasonal access':v.category==='delivery'?'Mail order':''].filter(Boolean);
         const reviewCount=Array.isArray(v.publicReviews)?v.publicReviews.length:0,reportCount=Array.isArray(v.fieldReports)?v.fieldReports.length:0;
         const place=Number.isFinite(v.searchDistance)?Math.round(v.searchDistance)+' mi from '+html(v.searchPlace):html(v.area)+' · '+html(v.state);
         const mapSearch='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(v.name+' '+v.address),dirs=v.lat==null||v.approx?mapSearch:'https://www.google.com/maps/dir/?api=1&destination='+v.lat+','+v.lng;
@@ -1075,7 +1118,7 @@
     }
     function renderPagination(total,pageCount){const nav=document.getElementById('pagination');if(!nav)return;if(total<=PAGE_SIZE){nav.hidden=true;nav.innerHTML='';return}nav.hidden=false;const first=(currentPage-1)*PAGE_SIZE+1,last=Math.min(currentPage*PAGE_SIZE,total);nav.innerHTML=`<button type="button" data-page-step="-1" aria-label="Previous page" ${currentPage===1?'disabled':''}>← Previous</button><span aria-live="polite">Page ${currentPage} of ${pageCount} · ${first}–${last} of ${total}</span><button type="button" data-page-step="1" aria-label="Next page" ${currentPage===pageCount?'disabled':''}>Next →</button>`;nav.querySelectorAll('button[data-page-step]').forEach(button=>button.addEventListener('click',()=>{currentPage+=Number(button.dataset.pageStep);selectedId=null;render();document.getElementById('cards').scrollTop=0;}))}
     function toggleMapFullscreen(force){const workspace=document.getElementById('map-workspace'),button=document.getElementById('toggle-map-fullscreen');if(!workspace||!button)return;const active=typeof force==='boolean'?force:!workspace.classList.contains('map-fullscreen');workspace.classList.toggle('map-fullscreen',active);document.body.classList.toggle('map-fullscreen-open',active);button.textContent=active?'⤢':'⛶';button.setAttribute('aria-label',active?'Exit full-screen map':'Expand map');button.title=active?'Exit full-screen map':'Expand map';button.setAttribute('aria-pressed',String(active));requestAnimationFrame(()=>{if(window.accessMap)window.accessMap.resize()})}
-    function selectVendor(id){const nextSelection=String(selectedId)===String(id)?null:id;if(nextSelection){const matches=filtered(),ordered=nearbySearch&&matches.some(v=>Number.isFinite(v.searchDistance))?matches.sort((a,b)=>(a.searchDistance??Infinity)-(b.searchDistance??Infinity)):rankListings(matches),targetIndex=ordered.findIndex(v=>String(v.id)===String(id));if(targetIndex>=0)currentPage=Math.floor(targetIndex/PAGE_SIZE)+1}selectedId=nextSelection;render();refreshMapLayers();const v=vendors.find(x=>String(x.id)===String(id));if(v&&window.accessMap&&v.lat!=null&&v.lng!=null){window.accessMap.flyTo({center:[v.lng,v.lat],zoom:13,duration:window.matchMedia('(prefers-reduced-motion: reduce)').matches?0:650});showVendorPopup(v)}else if(document.querySelector('[data-map-id]'))renderSketchMap();const card=document.querySelector(`.card[data-id="${id}"]`);if(card)card.scrollIntoView({block:'nearest',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}
+    function selectVendor(id){const nextSelection=String(selectedId)===String(id)?null:id;if(nextSelection){const matches=filtered(),ordered=rankListings(matches),targetIndex=ordered.findIndex(v=>String(v.id)===String(id));if(targetIndex>=0)currentPage=Math.floor(targetIndex/PAGE_SIZE)+1}selectedId=nextSelection;render();refreshMapLayers();const v=vendors.find(x=>String(x.id)===String(id));if(v&&window.accessMap&&v.lat!=null&&v.lng!=null){window.accessMap.flyTo({center:[v.lng,v.lat],zoom:13,duration:window.matchMedia('(prefers-reduced-motion: reduce)').matches?0:650});showVendorPopup(v)}else if(document.querySelector('[data-map-id]'))renderSketchMap();const card=document.querySelector(`.card[data-id="${id}"]`);if(card)card.scrollIntoView({block:'nearest',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}
 
     function renderPublicReviews(v){
       const reviews=Array.isArray(v.publicReviews)?v.publicReviews:[];

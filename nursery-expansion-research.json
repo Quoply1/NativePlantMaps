@@ -1,0 +1,1704 @@
+{
+  "checkedOn": "2026-11-19",
+  "scope": "Additional US native plant suppliers; public retail, mail-order, trade-only, and recurring seasonal sales are explicitly distinguished. This is an expansion audit, not a claim of exhaustive national coverage.",
+  "addedLocations": 48,
+  "states": [
+    "AR",
+    "CA",
+    "CT",
+    "DE",
+    "FL",
+    "IN",
+    "KY",
+    "MD",
+    "ME",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "NE",
+    "NJ",
+    "NY",
+    "OR",
+    "PA",
+    "RI",
+    "TX"
+  ],
+  "rankingPolicy": {
+    "primaryWebsite": 36,
+    "verifiedCatalogOrOrdering": 20,
+    "verifiedVisitingInformation": 8,
+    "officialPhoto": 16,
+    "officialLogo": 12,
+    "independentVerifiedSites": "5 per independent site, maximum 3; duplicate subdomains and same-seller pages count once; pending links and social posts do not contribute.",
+    "access": "Retail +10; delivery +6; other +4; wholesale-only -12.",
+    "nearby": "Up to 12 proximity points for nearby searches; geographic filters still determine eligibility.",
+    "ties": "Verified source quality, deduplicated evidence, distance, name, id; deterministic."
+  },
+  "listings": [
+    {
+      "id": "prairie-restorations-princeton",
+      "name": "Prairie Restorations · Princeton Garden Center",
+      "state": "MN",
+      "officialUrl": "https://www.prairieresto.com/",
+      "purchasing": "Public garden center. Consult the location page for seasonal hours and current stock.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.prairieresto.com/prairie-restorations-product-catalog/",
+        "visitingUrl": "https://www.prairieresto.com/garden-centers/#location"
+      },
+      "independentReferences": [
+        {
+          "label": "Blue Thumb native plant nursery directory",
+          "url": "https://bluethumb.org/lawns-to-legumes/native-plant-nurseries/"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "31646 128th Street NW, Princeton, MN 55371",
+        "lat": 45.542869,
+        "lng": -93.593628,
+        "matchedAddress": "31646 128TH ST, PRINCETON, MN, 55371",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://www.prairieresto.com/wp-content/uploads/2024/11/untitled-1-of-1-20-1.jpg",
+        "sourcePage": "https://www.prairieresto.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "prairie-restorations-scandia",
+      "name": "Prairie Restorations · Scandia Garden Center",
+      "state": "MN",
+      "officialUrl": "https://www.prairieresto.com/",
+      "purchasing": "Public garden center. Confirm the Scandia location’s current seasonal hours.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.prairieresto.com/prairie-restorations-product-catalog/",
+        "visitingUrl": "https://www.prairieresto.com/garden-centers/#location"
+      },
+      "independentReferences": [
+        {
+          "label": "Blue Thumb native plant nursery directory",
+          "url": "https://bluethumb.org/lawns-to-legumes/native-plant-nurseries/"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "21120 Ozark Court N, Scandia, MN 55073",
+        "lat": 45.25601,
+        "lng": -92.799221,
+        "matchedAddress": "21120 OZARK AVE N, SCANDIA, MN, 55073",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://www.prairieresto.com/wp-content/uploads/2024/11/untitled-1-of-1-20-1.jpg",
+        "sourcePage": "https://www.prairieresto.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "prairie-restorations-esko",
+      "name": "Prairie Restorations · Esko Garden Center",
+      "state": "MN",
+      "officialUrl": "https://www.prairieresto.com/",
+      "purchasing": "Public garden center with seasonal hours. Check the Esko location page before visiting.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.prairieresto.com/prairie-restorations-product-catalog/",
+        "visitingUrl": "https://www.prairieresto.com/garden-centers/#location"
+      },
+      "independentReferences": [
+        {
+          "label": "Blue Thumb native plant nursery directory",
+          "url": "https://bluethumb.org/lawns-to-legumes/native-plant-nurseries/"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "110 County Road 61, Esko, MN 55733",
+        "lat": 46.705872,
+        "lng": -92.342196,
+        "method": "Coordinates from official website directions link"
+      },
+      "media": {
+        "image": "https://www.prairieresto.com/wp-content/uploads/2024/11/untitled-1-of-1-20-1.jpg",
+        "sourcePage": "https://www.prairieresto.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "morning-sky-greenery",
+      "name": "Morning Sky Greenery",
+      "state": "MN",
+      "officialUrl": "https://www.morningskygreenery.com/",
+      "purchasing": "Order online or visit during posted retail hours. Confirm pickup and shipping options when ordering.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.morningskygreenery.com/native-plants/",
+        "visitingUrl": "https://www.morningskygreenery.com/about-us/retail-hours/"
+      },
+      "independentReferences": [
+        {
+          "label": "Blue Thumb native plant nursery directory",
+          "url": "https://bluethumb.org/lawns-to-legumes/native-plant-nurseries/"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "44804 East Highway 28, Morris, MN 56267",
+        "lat": 45.607316,
+        "lng": -95.859312,
+        "matchedAddress": "44804 STATE HWY 28, MORRIS, MN, 56267",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://www.morningskygreenery.com/wp-content/uploads/2016/01/MSG_Greenhouse-1024x768-1-1024x768.jpg",
+        "sourcePage": "https://www.morningskygreenery.com/about-us/retail-hours/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "blazing-star-gardens",
+      "name": "Blazing Star Gardens",
+      "state": "MN",
+      "officialUrl": "https://www.blazingstargardens.com/",
+      "purchasing": "Online orders with pickup or shipping where offered. The map pin represents the Owatonna area, not an unscheduled walk-in location.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.blazingstargardens.com/plants/p/path-rush-juncus-tenuis-native-plant-plugs-50-cell-tray",
+        "visitingUrl": "https://www.blazingstargardens.com/about-contact"
+      },
+      "independentReferences": [
+        {
+          "label": "Blue Thumb native plant nursery directory",
+          "url": "https://bluethumb.org/lawns-to-legumes/native-plant-nurseries/"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "Owatonna, MN; pickup arrangements supplied with orders",
+        "lat": 44.0839,
+        "lng": -93.2261,
+        "method": "Approximate published service/pickup area; see listing access details"
+      },
+      "media": {
+        "image": "https://images.squarespace-cdn.com/content/v1/5e21ea25b090d7292f53cdda/704833d0-85bc-4ef4-99d8-a16e64bf0b16/Blazing-star-garden-about-buy-minnesota-native-plant-nursery-greenhouse-03.jpg?format=750w",
+        "sourcePage": "https://www.blazingstargardens.com/about-contact",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "natural-shore-technologies",
+      "name": "Natural Shore Technologies Native Plant Nursery",
+      "state": "MN",
+      "officialUrl": "https://www.naturalshore.com/",
+      "purchasing": "Order through the nursery and confirm pickup arrangements or current retail shopping dates.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.naturalshore.com/native-plant-nursery/",
+        "visitingUrl": "https://www.naturalshore.com/contact/"
+      },
+      "independentReferences": [
+        {
+          "label": "Blue Thumb native plant nursery directory",
+          "url": "https://bluethumb.org/lawns-to-legumes/native-plant-nurseries/"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "1480 County Road 90, Independence, MN 55359",
+        "lat": 45.007049,
+        "lng": -93.686462,
+        "matchedAddress": "1480 CO RD 90, INDEPENDENCE, MN, 55359",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://www.naturalshore.com/wp-content/webpc-passthru.php?src=https://www.naturalshore.com/wp-content/uploads/2022/04/American-Bellflower-Campanula-americana-300x300.jpg&nocache=1",
+        "sourcePage": "https://www.naturalshore.com/native-plant-nursery/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "shoreview-natives",
+      "name": "Shoreview Natives",
+      "state": "MN",
+      "officialUrl": "https://www.shoreviewnatives.com/",
+      "purchasing": "Seasonal retail nursery. Review the retail ordering and visiting instructions before traveling. The map pin is approximate; use the official directions for the current destination.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.shoreviewnatives.com/shop-1",
+        "visitingUrl": "https://www.shoreviewnatives.com/contact"
+      },
+      "independentReferences": [
+        {
+          "label": "Blue Thumb native plant nursery directory",
+          "url": "https://bluethumb.org/lawns-to-legumes/native-plant-nurseries/"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "1240 Shoreview Road, Two Harbors, MN 55616",
+        "lat": 47.025714,
+        "lng": -91.673052,
+        "matchedAddress": "Two Harbors, Lake County, Minnesota, 55616, United States",
+        "method": "Approximate published town; street did not geocode"
+      },
+      "media": {
+        "image": "https://images.squarespace-cdn.com/content/v1/6096e4a853b9e57c7380b2b8/58120636-18fd-4517-ad2d-3e80cc995333/IMG_4601.jpeg?format=750w",
+        "sourcePage": "https://www.shoreviewnatives.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "glacial-ridge-growers",
+      "name": "Glacial Ridge Growers",
+      "state": "MN",
+      "officialUrl": "https://glacialridgegrowers.com/",
+      "purchasing": "Consult the current catalog and contact the nursery about retail orders, pickup, or delivery.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://glacialridgegrowers.com/all-products/",
+        "visitingUrl": "https://glacialridgegrowers.com/page_contact_form/"
+      },
+      "independentReferences": [
+        {
+          "label": "Blue Thumb native plant nursery directory",
+          "url": "https://bluethumb.org/lawns-to-legumes/native-plant-nurseries/"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "25132 250th Avenue, Glenwood, MN 56334",
+        "lat": 45.542544,
+        "lng": -95.439085,
+        "matchedAddress": "25132 250TH AVE, GLENWOOD, MN, 56334",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://cdn11.bigcommerce.com/s-b7ge180zly/images/stencil/original/glacial-ridge-logo_1668103676__07335.original.png",
+        "sourcePage": "https://glacialridgegrowers.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "great-plains-nursery",
+      "name": "Great Plains Nursery",
+      "state": "NE",
+      "officialUrl": "https://greatplainsnursery.com/",
+      "purchasing": "Retail and wholesale customers are served. Check posted hours or arrange an evening or weekend appointment.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://greatplainsnursery.com/products-new/",
+        "visitingUrl": "https://greatplainsnursery.com/contact-us/"
+      },
+      "independentReferences": [
+        {
+          "label": "Audubon Nebraska native plant guide",
+          "url": "https://www.audubon.org/rowe/explore/native-plants/plants-birds-central-nebraska-native-plant-guide"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "3074 County Road I, Weston, NE 68070",
+        "lat": 41.177167,
+        "lng": -96.888253,
+        "matchedAddress": "3074 CO RD I, WESTON, NE, 68070",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://greatplainsnursery.com/wp-content/uploads/2022/02/gpnlogo-1.png",
+        "sourcePage": "https://greatplainsnursery.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "prairie-legacy",
+      "name": "Prairie Legacy",
+      "state": "NE",
+      "officialUrl": "https://prairielegacyinc.com/",
+      "purchasing": "Contact the nursery about plant availability, pickup, and contract-growing arrangements.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "visitingUrl": "https://prairielegacyinc.com/contact-us/"
+      },
+      "independentReferences": [
+        {
+          "label": "Audubon Nebraska native plant guide",
+          "url": "https://www.audubon.org/rowe/explore/native-plants/plants-birds-central-nebraska-native-plant-guide"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "1225 County Road U, Western, NE 68464",
+        "lat": 40.407783,
+        "lng": -97.153246,
+        "matchedAddress": "1225 CO RD U, WESTERN, NE, 68464",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://prairielegacyinc.com/wp-content/uploads/2020/04/deep-rooted-seedlings-quart-pots-2.jpg",
+        "sourcePage": "https://prairielegacyinc.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "green-isle-gardens",
+      "name": "Green Isle Gardens",
+      "state": "FL",
+      "officialUrl": "https://www.greenislegardens.com/",
+      "purchasing": "Retail and wholesale sales are available. Check current plant lists and visiting or shipping arrangements.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.greenislegardens.com/plantlists.html",
+        "visitingUrl": "https://www.greenislegardens.com/contact.html"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "11303 State Road 33, Groveland, FL 34736",
+        "lat": 28.51083,
+        "lng": -81.840714,
+        "matchedAddress": "11303 STATE RD 33, GROVELAND, FL, 34736",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://www.greenislegardens.com/uploads/1/1/9/6/119654569/green-isle-gardens-only-horiz-small.png",
+        "sourcePage": "https://www.greenislegardens.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "sweet-bay-nursery",
+      "name": "Sweet Bay Nursery",
+      "state": "FL",
+      "officialUrl": "https://sweetbaynursery.com/",
+      "purchasing": "Retail nursery. Consult its current hours and availability information before visiting.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://sweetbaynursery.com/plant-list",
+        "visitingUrl": "https://sweetbaynursery.com/visit%2Fcontact"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "10824 Erie Road, Parrish, FL 34219",
+        "lat": 27.580306,
+        "lng": -82.454658,
+        "matchedAddress": "10824 ERIE RD, PARRISH, FL, 34219",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://img1.wsimg.com/isteam/ip/213d7ab7-f9be-4e5e-b7fe-52afb5d45932/5e546b0e-3c7a-4a76-bd6c-1c8d087d1cd5.jpg/:/rs=w:600,h:300,cg:true,m/cr=w:600,h:300",
+        "sourcePage": "https://sweetbaynursery.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "wilcox-nursery",
+      "name": "Wilcox Nursery & Landscape",
+      "state": "FL",
+      "officialUrl": "https://www.wilcoxnursery.com/",
+      "purchasing": "Retail nursery with online plant shopping. Confirm collection, delivery, and visiting details with the nursery.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.wilcoxnursery.com/store/",
+        "visitingUrl": "https://www.wilcoxnursery.com/garden-center/"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "12501 Indian Rocks Road, Largo, FL 33774",
+        "lat": 27.885955,
+        "lng": -82.832389,
+        "matchedAddress": "12501 INDIAN ROCKS RD, LARGO, FL, 33774",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_2000,h_813/https://www.wilcoxnursery.com/wp-content/uploads/2025/05/Simple-Wilcox-Logo-Fern-under-text-1.png",
+        "sourcePage": "https://www.wilcoxnursery.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "florida-native-plants-nursery-sarasota",
+      "name": "Florida Native Plants Nursery & Landscaping",
+      "state": "FL",
+      "officialUrl": "https://www.floridanativeplants.com/",
+      "purchasing": "Retail nursery and landscape services. Check current hours and ask about specific species before visiting.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "visitingUrl": "https://www.floridanativeplants.com/contact"
+      },
+      "independentReferences": [
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "730 Myakka Road, Sarasota, FL 34240",
+        "lat": 27.32712,
+        "lng": -82.269483,
+        "matchedAddress": "730 MYAKKA RD, SARASOTA, FL, 34240",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://images.squarespace-cdn.com/content/v1/5e862c049fd9b20958eb5f05/1624214787531-67BWZPG5Q81TGS3S2VOT/logoclear.png?format=750w",
+        "sourcePage": "https://www.floridanativeplants.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "the-natives-inc",
+      "name": "The Natives",
+      "state": "FL",
+      "officialUrl": "https://www.thenatives.net/",
+      "purchasing": "Contact the nursery for availability. Sales take place at the Champagne Road nursery location.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.thenatives.net/plant-nursery"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "1617 Champagne Road, Davenport, FL 33837",
+        "lat": 28.139756,
+        "lng": -81.577995,
+        "matchedAddress": "1617 CHAMPAGNE RD, DAVENPORT, FL, 33837",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://static.wixstatic.com/media/183520_69e227dd08c0407eb0318eb7ec0853f6~mv2.gif",
+        "sourcePage": "https://www.thenatives.net/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "little-red-wagon-native-nursery",
+      "name": "Little Red Wagon Native Nursery",
+      "state": "FL",
+      "officialUrl": "https://littleredwagonnativenursery.com/",
+      "purchasing": "Retail native nursery with online shopping. Check the website for current shopping and pickup details.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "4113 Henderson Boulevard, Tampa, FL 33629",
+        "lat": 27.928225,
+        "lng": -82.512412,
+        "matchedAddress": "4113 HENDERSON BLVD, TAMPA, FL, 33629",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://littleredwagonnativenursery.com/cdn/shop/files/LittleRedWagon_250x.png?v=1619442171",
+        "sourcePage": "https://littleredwagonnativenursery.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "native-butterfly-flowers",
+      "name": "Native Butterfly Flowers",
+      "state": "FL",
+      "officialUrl": "https://nativebutterflyflowers.com/",
+      "purchasing": "Retail nursery. Consult its plant catalog and current visiting information.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://nativebutterflyflowers.com/native-plants/",
+        "visitingUrl": "https://nativebutterflyflowers.com/contact-us/"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "82 SW Irwin Avenue, West Melbourne, FL 32904",
+        "lat": 28.077189,
+        "lng": -80.641248,
+        "matchedAddress": "82 SW IRWIN AVE, WEST MELBOURNE, FL, 32904",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://nativebutterflyflowers.com/wp-content/uploads/2025/08/Phoebe-Growing-Nursery-1024x904.jpg",
+        "sourcePage": "https://nativebutterflyflowers.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "tree-of-life-nursery",
+      "name": "Tree of Life Nursery",
+      "state": "CA",
+      "officialUrl": "https://californianativeplants.com/",
+      "purchasing": "Retail and wholesale nursery. Check current hours and plant availability before visiting.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://californianativeplants.com/blog/plant-catalog/",
+        "visitingUrl": "https://californianativeplants.com/contact/"
+      },
+      "independentReferences": [
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "33201 Ortega Highway, San Juan Capistrano, CA 92675",
+        "lat": 33.531909,
+        "lng": -117.551639,
+        "method": "Coordinates from official website directions link"
+      },
+      "media": {
+        "image": "https://californianativeplants.com/wp-content/uploads/2025/12/image-11.jpeg",
+        "sourcePage": "https://californianativeplants.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "moosa-creek-nursery",
+      "name": "Moosa Creek Nursery",
+      "state": "CA",
+      "officialUrl": "https://www.moosacreeknursery.com/",
+      "purchasing": "Wholesale production nursery. Use its buying and retail-partner information to arrange access; do not assume walk-in retail.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.moosacreeknursery.com/wholesale-availability",
+        "visitingUrl": "https://www.moosacreeknursery.com/contact",
+        "tradeOnly": true
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "27201 Cool Water Ranch Road, Valley Center, CA 92082",
+        "lat": 33.206329,
+        "lng": -116.991149,
+        "matchedAddress": "27201 COOLWATER RANCH RD, VALLEY CENTER, CA, 92082",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://static.wixstatic.com/media/3a8459_3004ba5871994bf7bb30438a26953bb9~mv2.png",
+        "sourcePage": "https://www.moosacreeknursery.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "matilija-nursery",
+      "name": "Matilija Nursery",
+      "state": "CA",
+      "officialUrl": "https://www.matilijanursery.com/",
+      "purchasing": "Retail and wholesale nursery. Consult current inventory and posted visiting hours.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.matilijanursery.com/product-category/california-native-plants/",
+        "visitingUrl": "https://www.matilijanursery.com/contact/"
+      },
+      "independentReferences": [
+        {
+          "label": "California Native Plant Society nursery list",
+          "url": "https://chapters.cnps.org/lasmm/native-plant-nurseries/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "8225 Waters Road, Moorpark, CA 93021",
+        "lat": 34.318534,
+        "lng": -118.947591,
+        "matchedAddress": "8225 WATERS RD, MOORPARK, CA, 93021",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://www.matilijanursery.com/wp-content/uploads/2022/03/logo_new.png",
+        "sourcePage": "https://www.matilijanursery.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "native-texas-nursery",
+      "name": "Native Texas Nursery",
+      "state": "TX",
+      "officialUrl": "https://nativetx.com/",
+      "purchasing": "Wholesale to the trade. Contact the nursery about account requirements and current availability.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://nativetx.com/wholesale/availability",
+        "visitingUrl": "https://nativetx.com/contact-us",
+        "tradeOnly": true
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "16019 Milo Road, Austin, TX 78725",
+        "lat": 30.225992,
+        "lng": -97.563324,
+        "matchedAddress": "16019 MILO RD, AUSTIN, TX, 78725",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://nativetx.com/media/galleries/2/max/native_texas_nursery_1.jpg",
+        "sourcePage": "https://nativetx.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "joss-growers",
+      "name": "Joss Growers",
+      "state": "TX",
+      "officialUrl": "https://jossgrowers.com/",
+      "purchasing": "Wholesale nursery. Confirm ordering requirements and pickup arrangements before traveling.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://jossgrowers.com/availability/",
+        "visitingUrl": "https://jossgrowers.com/contact-us/",
+        "tradeOnly": true
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "900 County Road 130, Georgetown, TX 78626",
+        "lat": 30.630374,
+        "lng": -97.567364,
+        "matchedAddress": "900 CO RD 130, GEORGETOWN, TX, 78626",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://jossgrowers.com/wp-content/uploads/2026/05/joss-growers-logo.webp",
+        "sourcePage": "https://jossgrowers.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "natives-of-texas",
+      "name": "Natives of Texas",
+      "state": "TX",
+      "officialUrl": "https://www.nativesoftexas.com/",
+      "purchasing": "Visit during posted nursery hours or contact the grower about specific plants and availability.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.nativesoftexas.com/catalog.html",
+        "visitingUrl": "https://www.nativesoftexas.com/contact_info.html"
+      },
+      "independentReferences": [
+        {
+          "label": "Native Plant Society of Texas NICE partners",
+          "url": "https://www.npsot.org/our-work/nice-native-plant-partners/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "4256 Medina Highway, Kerrville, TX 78028",
+        "lat": 29.935368,
+        "lng": -99.232509,
+        "matchedAddress": "4256 MEDINA HWY, KERRVILLE, TX, 78028",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://www.nativesoftexas.com/images/Crossvi.jpg",
+        "sourcePage": "https://www.nativesoftexas.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "blue-fox-farms",
+      "name": "Blue Fox Farms",
+      "state": "IN",
+      "officialUrl": "https://bluefoxfarmsllc.com/",
+      "purchasing": "Order online or arrange a visit. Confirm seasonal retail hours and pickup-only items.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://bluefoxfarmsllc.com/shop",
+        "visitingUrl": "https://bluefoxfarmsllc.com/contact"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "5644 West 650 North, Wawaka, IN 46794",
+        "lat": 41.443664,
+        "lng": -85.533228,
+        "matchedAddress": "5644 W 650 N, WAWAKA, IN, 46794",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://img1.wsimg.com/isteam/ip/d04200cd-06aa-4b49-875f-836abdfc2863/blue%20fox%20farms%20llc%20(1).png/:/rs=h:200,cg:true,m/qt=q:95",
+        "sourcePage": "https://bluefoxfarmsllc.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "wild-ridge-plants",
+      "name": "Wild Ridge Plants",
+      "state": "NJ",
+      "officialUrl": "https://www.wildridgeplants.com/",
+      "purchasing": "Check the current nursery sale, ordering, and visiting arrangements before traveling.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19"
+      },
+      "independentReferences": [
+        {
+          "label": "Pennsylvania Native Plant Society nursery list",
+          "url": "https://www.panativeplantsociety.org/native-plant-sources.html"
+        },
+        {
+          "label": "Native Plant Society of New Jersey nursery list",
+          "url": "https://npsnj.org/native-plants/where-to-buy-natives/"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "170 Mountain Road, Alpha, NJ 08865",
+        "lat": 40.625201,
+        "lng": -75.168337,
+        "matchedAddress": "170 MOUNTAIN RD, ALPHA, NJ, 08865",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://www.wildridgeplants.com/uploads/b/e824bd60-f840-11ee-90db-f3c5ef376dcb/Wild%20Ridge%20Logo%20Compact%20border%20square%202025_MjE3MD.jpg",
+        "sourcePage": "https://www.wildridgeplants.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "pinelands-alliance-native-plant-sales",
+      "name": "Pinelands Alliance Native Plant Sales",
+      "state": "NJ",
+      "officialUrl": "https://pinelandsalliance.org/explore-the-pinelands/pinelands-events-and-programs/spring-native-plant-sales/",
+      "purchasing": "Seasonal plant sales. Check the event page for the next sale and purchasing instructions.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "visitingUrl": "https://pinelandsalliance.org/contact-us/"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "17 Pemberton Road, Southampton, NJ 08088",
+        "lat": 39.939557,
+        "lng": -74.748037,
+        "matchedAddress": "17 PEMBERTON RD, SOUTHAMPTON, NJ, 08088",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://pinelandsalliance.org/wp-content/uploads/2018/04/highbush-blueberry-700x527.jpg",
+        "sourcePage": "https://pinelandsalliance.org/explore-the-pinelands/pinelands-events-and-programs/spring-native-plant-sales/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "rhode-island-wild-plant-society-sales",
+      "name": "Rhode Island Wild Plant Society Native Plant Sales",
+      "state": "RI",
+      "officialUrl": "https://riwps.org/native-plant-sales/",
+      "purchasing": "Seasonal public sales at announced venues. The map pin represents the North Kingstown area; follow current event directions.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://riwps.org/native-plant-sales/"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "North Kingstown area, RI; seasonal sale venues vary",
+        "lat": 41.55,
+        "lng": -71.46,
+        "method": "Approximate published service/pickup area; see listing access details"
+      },
+      "media": {
+        "image": "https://riwps.org/wp-content/uploads/2024/09/native-plant-sales-mobile.jpg",
+        "sourcePage": "https://riwps.org/native-plant-sales/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "delaware-nature-society-abbotts-mill-sale",
+      "name": "Delaware Nature Society · Abbott’s Mill Native Plant Sale",
+      "state": "DE",
+      "officialUrl": "https://delawarenaturesociety.org/event/nativeplantsale/",
+      "purchasing": "Seasonal plant-sale venue. Check the event page for the next sale date and purchasing arrangements.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://delawarenaturesociety.org/wp-content/uploads/2026/09/260680-DNS_NativePlantSale_Catalog_Fall2026_PROOF.pdf"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "15411 Abbotts Pond Road, Milford, DE 19963",
+        "lat": 38.886313,
+        "lng": -75.477709,
+        "matchedAddress": "15411 ABBOTTS POND RD, MILFORD, DE, 19963",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://delawarenaturesociety.org/wp-content/uploads/2026/04/logo-green.png",
+        "sourcePage": "https://delawarenaturesociety.org/event/nativeplantsale/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "north-creek-nurseries",
+      "name": "North Creek Nurseries",
+      "state": "PA",
+      "officialUrl": "https://www.northcreeknurseries.com/",
+      "purchasing": "Wholesale nursery. Review account requirements, availability, and ordering instructions.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.northcreeknurseries.com/Availability",
+        "visitingUrl": "https://www.northcreeknurseries.com/Locations",
+        "tradeOnly": true
+      },
+      "independentReferences": [
+        {
+          "label": "Pennsylvania Native Plant Society nursery list",
+          "url": "https://www.panativeplantsociety.org/native-plant-sources.html"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "388 North Creek Road, Landenberg, PA 19350",
+        "lat": 39.775282,
+        "lng": -75.80786,
+        "matchedAddress": "388 N CREEK RD, LANDENBERG, PA, 19350",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://www.northcreeknurseries.com/_ccLib/image/plants/THUM-1129.jpg",
+        "sourcePage": "https://www.northcreeknurseries.com/Availability",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "mellow-marsh-farm",
+      "name": "Mellow Marsh Farm",
+      "state": "NC",
+      "officialUrl": "https://mellowmarshfarm.com/",
+      "purchasing": "Wholesale and project-oriented nursery. Contact the farm about order sizes, availability, and pickup.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://mellowmarshfarm.com/availability/",
+        "visitingUrl": "https://mellowmarshfarm.com/contact-us/",
+        "tradeOnly": true
+      },
+      "independentReferences": [
+        {
+          "label": "North Carolina Native Plant Society nursery list",
+          "url": "https://ncwildflower.org/native-plant-nurseries/"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "1312 Woody Store Road, Siler City, NC 27344",
+        "lat": 35.799443,
+        "lng": -79.346985,
+        "matchedAddress": "1312 WOODY STORE RD, SILER CITY, NC, 27344",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://mellowmarshfarm.com/wp-content/uploads/elementor/thumbs/MelllowMarshFarm_ad-cutout-pr3f9os7hdmi67suwlee1xrgkaf922tfrjgfqko7sy.png",
+        "sourcePage": "https://mellowmarshfarm.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "papillon-perennials",
+      "name": "Papillon Perennials",
+      "state": "MO",
+      "officialUrl": "https://www.papillonperennials.com/",
+      "purchasing": "Wholesale location; retail pickup by arrangement in Kirkwood or at events. The map pin represents Robertsville, not a public walk-in storefront.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.papillonperennials.com/products",
+        "visitingUrl": "https://www.papillonperennials.com/contact-us",
+        "tradeOnly": true
+      },
+      "independentReferences": [
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "Robertsville, MO; retail pickup arranged in Kirkwood",
+        "lat": 38.417,
+        "lng": -90.822,
+        "method": "Approximate published service/pickup area; see listing access details"
+      },
+      "media": {
+        "image": "https://files.sitebuilder.name.tools/97/65/9765ee31-1dfe-4f6e-963b-d14ffecbad38.jpg",
+        "sourcePage": "https://www.papillonperennials.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "great-bear-native-plants",
+      "name": "Great Bear Native Plants",
+      "state": "MT",
+      "officialUrl": "https://www.greatbearnativeplants.com/",
+      "purchasing": "Contact the nursery about wholesale plants, retail seed options, minimums, and collection arrangements.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "visitingUrl": "https://www.greatbearnativeplants.com/contact-us",
+        "tradeOnly": true
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "282 Brothers Way, Corvallis, MT 59828",
+        "lat": 46.321718,
+        "lng": -114.109184,
+        "matchedAddress": "Brothers Way, Quast, Corvallis, Ravalli County, Montana, 59828, United States",
+        "method": "OpenStreetMap Nominatim published street address"
+      },
+      "media": {
+        "image": "https://static.wixstatic.com/media/680ca6_d2f31a2f825849588475d961e8c78801~mv2.jpg",
+        "sourcePage": "https://www.greatbearnativeplants.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "sevenoaks-native-nursery",
+      "name": "Sevenoaks Native Nursery",
+      "state": "OR",
+      "officialUrl": "https://sevenoaksnativenursery.com/",
+      "purchasing": "Production nursery with ordering requirements. Confirm retail eligibility, minimums, and pickup arrangements directly.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://sevenoaksnativenursery.com/native-plants/",
+        "visitingUrl": "https://sevenoaksnativenursery.com/contact/",
+        "tradeOnly": true
+      },
+      "independentReferences": [
+        {
+          "label": "Jackson Soil and Water Conservation District nursery list",
+          "url": "https://www.jswcd.org/southern-oregon-native-plant-nurseries"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "29730 Harvest Drive SW, Albany, OR 97321",
+        "lat": 44.526835,
+        "lng": -123.193255,
+        "matchedAddress": "29730 HARVEST DR SW, ALBANY, OR, 97321",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://sevenoaksnativenursery.com/wp-content/uploads/2022/12/sevenoaks-logo.png",
+        "sourcePage": "https://sevenoaksnativenursery.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "willamette-wildlings",
+      "name": "Willamette Wildlings",
+      "state": "OR",
+      "officialUrl": "https://willamettewildlings.com/",
+      "purchasing": "Pickup by appointment and sales through participating retailers or events. The map pin represents the Creswell area.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "visitingUrl": "https://willamettewildlings.com/contact-us/"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "Creswell, OR; nursery pickup by appointment",
+        "lat": 43.9179,
+        "lng": -123.024,
+        "method": "Approximate published service/pickup area; see listing access details"
+      },
+      "media": {
+        "image": "https://willamettewildlings.com/wp-content/uploads/2016/12/MixedSeedReload-200x200.jpg",
+        "sourcePage": "https://willamettewildlings.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "amandas-native-garden",
+      "name": "Amanda’s Native Garden",
+      "state": "NY",
+      "officialUrl": "https://www.amandasnativeplants.com/",
+      "purchasing": "Consult current nursery hours, online ordering, and pickup or shipping arrangements. The map pin is approximate; use the official directions for the current destination.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.amandasnativeplants.com/srpring-2018-catalog",
+        "visitingUrl": "https://www.amandasnativeplants.com/contactus"
+      },
+      "independentReferences": [
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "8030 Story Road, Dansville, NY 14437",
+        "lat": 42.561126,
+        "lng": -77.696182,
+        "matchedAddress": "Village of Dansville, Town of North Dansville, Livingston County, New York, 14437, United States",
+        "method": "Approximate published town; street did not geocode"
+      },
+      "media": {
+        "image": "https://static.wixstatic.com/media/9e3054_b6a14c884602455ea10af6af31ae1059~mv2.jpg",
+        "sourcePage": "https://www.amandasnativeplants.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "shonnards-nursery",
+      "name": "Shonnard’s Nursery, Florist & Landscape",
+      "state": "OR",
+      "officialUrl": "https://www.shonnards.com/",
+      "purchasing": "Retail garden center with online plant shopping. Check current stock and pickup arrangements.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://shop.shonnards.com/inventory/",
+        "visitingUrl": "https://www.shonnards.com/contact/"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "6600 SW Philomath Boulevard, Corvallis, OR 97333",
+        "lat": 44.546347,
+        "lng": -123.326418,
+        "matchedAddress": "6600 SW PHILOMATH BLVD, CORVALLIS, OR, 97333",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://www.shonnards.com/wp-content/uploads/2026/07/Shonnards_Logo_Black.webp",
+        "sourcePage": "https://www.shonnards.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "willamette-gardens",
+      "name": "Willamette Gardens",
+      "state": "OR",
+      "officialUrl": "https://www.willamettegardens.com/",
+      "purchasing": "Nursery visits are by appointment. Contact the grower about pickup, shipping, and current plants.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "3290 SW Willamette Avenue, Corvallis, OR 97333",
+        "lat": 44.546606,
+        "lng": -123.286312,
+        "matchedAddress": "3290 SW WILLAMETTE AVE, CORVALLIS, OR, 97333",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://www.willamettegardens.com/images/aster.jpg",
+        "sourcePage": "https://www.willamettegardens.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "wintercreek-nursery",
+      "name": "WinterCreek Nursery · High Desert Horticultural Center",
+      "state": "OR",
+      "officialUrl": "https://www.highdeserthorticulturalcenter.org/wintercreeknursery",
+      "purchasing": "Check the current nursery website for shopping hours, inventory, and visiting details.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://static1.squarespace.com/static/651639d19c995d0ce0849afe/t/6ae3690f6dd0e235de46dbb7/1793457513265/10.29.26+Availability+List.pdf",
+        "visitingUrl": "https://www.highdeserthorticulturalcenter.org/contact"
+      },
+      "independentReferences": [
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "63405 Deschutes Market Road, Bend, OR 97701",
+        "lat": 44.102263,
+        "lng": -121.25876,
+        "matchedAddress": "63405 DESCHUTES MARKET RD, BEND, OR, 97701",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://images.squarespace-cdn.com/content/v1/651639d19c995d0ce0849afe/d2fc533d-93ae-46c4-92b5-325e59822451/WC-nursery-interior-plants.jpg?format=750w",
+        "sourcePage": "https://www.highdeserthorticulturalcenter.org/wintercreeknursery",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "clearwater-native-plant-nursery",
+      "name": "Clearwater Native Plant Nursery",
+      "state": "OR",
+      "officialUrl": "https://clearwaternatives.com/",
+      "purchasing": "Contract-growing facility that is not open to the public. Arrange all orders and access directly.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://clearwaternatives.com/native-plant-catalog/",
+        "visitingUrl": "https://clearwaternatives.com/contact-us/",
+        "tradeOnly": true
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "1980 SW 55th Street, Redmond, OR 97756",
+        "lat": 44.258897,
+        "lng": -121.234368,
+        "matchedAddress": "1980 SW 55TH ST, REDMOND, OR, 97756",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://clearwaternatives.com/wp-content/uploads/2025/10/clearwater-native-plant-nursery-logo.png",
+        "sourcePage": "https://clearwaternatives.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "sparrowhawk-native-plants",
+      "name": "Sparrowhawk Native Plants",
+      "state": "OR",
+      "officialUrl": "https://sparrowhawknativeplants.com/",
+      "purchasing": "Seasonal preorders and announced pickup events. The map pin represents Portland, not a permanent walk-in nursery.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "visitingUrl": "https://sparrowhawknativeplants.com/pages/contact-us"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "Portland, OR; seasonal neighborhood pickup locations vary",
+        "lat": 45.5152,
+        "lng": -122.6784,
+        "method": "Approximate published service/pickup area; see listing access details"
+      },
+      "media": {
+        "image": "https://sparrowhawknativeplants.com/cdn/shop/files/Sparrowhawk-logofinals-8.27.19-04_TC_crop_3_250x.jpeg?v=1614289083",
+        "sourcePage": "https://sparrowhawknativeplants.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "urbanscapes-native-nursery",
+      "name": "UrbanScapes Native Plant Nursery",
+      "state": "CT",
+      "officialUrl": "https://menunkatuck.org/urbanscapes",
+      "purchasing": "Check the Audubon nursery page for current sales, ordering, and pickup dates.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19"
+      },
+      "independentReferences": [
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "133 Hazel Street, New Haven, CT 06511",
+        "lat": 41.328706,
+        "lng": -72.930747,
+        "matchedAddress": "133 HAZEL ST, NEW HAVEN, CT, 06511",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://images.squarespace-cdn.com/content/v1/5c8fd7deab1a623f68210928/1557934155768-2455LO2T9UP28UAQIOXH/Osprey-logo-trans.png?format=750w",
+        "sourcePage": "https://menunkatuck.org/urbanscapes",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "roundstone-native-seed",
+      "name": "Roundstone Native Seed",
+      "state": "KY",
+      "officialUrl": "https://www.roundstoneseed.com/",
+      "purchasing": "Order seed online or contact the company for project and collection arrangements.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.roundstoneseed.com/category/all-products",
+        "visitingUrl": "https://www.roundstoneseed.com/about-us/contact"
+      },
+      "independentReferences": [
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "9764 Raider Hollow Road, Upton, KY 42784",
+        "lat": 37.409107,
+        "lng": -86.002433,
+        "matchedAddress": "9764 RAIDER HOLLOW RD, UPTON, KY, 42784",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://static.wixstatic.com/media/367b65_a03c111a7e054d79965fb6f0add7f43c~mv2.jpg",
+        "sourcePage": "https://www.roundstoneseed.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "holland-wildflower-farm",
+      "name": "Holland Wildflower Farm",
+      "state": "AR",
+      "officialUrl": "https://hollandwildflowerfarm.com/",
+      "purchasing": "Order online or contact the farm about seed selection and collection arrangements. Confirm that a chosen mix fits your local native range.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://hollandwildflowerfarm.com/shop/",
+        "visitingUrl": "https://hollandwildflowerfarm.com/contact-us/"
+      },
+      "independentReferences": [
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "290 Oneal Lane, Elkins, AR 72727",
+        "lat": 35.997037,
+        "lng": -94.018273,
+        "matchedAddress": "290 ONEAL LN, ELKINS, AR, 72727",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://hollandwildflowerfarm.com/wp-content/uploads/2026/01/Wildflower-Meadow.jpg",
+        "sourcePage": "https://hollandwildflowerfarm.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "wildseed-farms",
+      "name": "Wildseed Farms",
+      "state": "TX",
+      "officialUrl": "https://wildseedfarms.com/",
+      "purchasing": "Public farm and garden center with online seed orders. Check current visiting hours and seasonal field conditions. The map pin is approximate; use the official directions for the current destination.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://wildseedfarms.com/pages/shop-seeds"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "100 Legacy Drive, Fredericksburg, TX 78624",
+        "lat": 30.275201,
+        "lng": -98.871984,
+        "matchedAddress": "Fredericksburg, Gillespie County, Texas, 78624, United States",
+        "method": "Approximate published town; street did not geocode"
+      },
+      "media": {
+        "image": "https://wildseedfarms.com/cdn/shop/files/Nursery_Plants_3-9-2024_1.jpg?v=1737649172&width=2400",
+        "sourcePage": "https://wildseedfarms.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "mossy-oak-nativ-nurseries",
+      "name": "Mossy Oak Nativ Nurseries",
+      "state": "MS",
+      "officialUrl": "https://www.nativnurseries.com/",
+      "purchasing": "Order through the online nursery and contact the seller about pickup or visits. The map pin is approximate; use the official directions for the current destination.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://www.nativnurseries.com/collections/all"
+      },
+      "independentReferences": [],
+      "locationEvidence": {
+        "publishedAddress": "6015 Highway 45 Alt South, West Point, MS 39773",
+        "lat": 33.607619,
+        "lng": -88.650325,
+        "matchedAddress": "West Point, Clay County, Mississippi, 39773, United States",
+        "method": "Approximate published town; street did not geocode"
+      },
+      "media": {
+        "image": "https://cdn.shopify.com/s/files/1/0005/0315/2697/files/Nativ_Nurseries_Logo_NEW_4fa90f50-8305-4c19-bfe0-c33ec76d811c.png?height=628&pad_color=ffffff&v=1642016546&width=1200",
+        "sourcePage": "https://www.nativnurseries.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "direct-native-plants",
+      "name": "Direct Native Plants",
+      "state": "MD",
+      "officialUrl": "https://directnativeplants.com/",
+      "purchasing": "Mail-order nursery. The approximate Middle River-area pin is a regional reference; order through the website rather than planning a walk-in visit. The map pin is approximate; use the official directions for the current destination.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://directnativeplants.com/featured-plant-category/edible-native-plants/",
+        "visitingUrl": "https://directnativeplants.com/contact/"
+      },
+      "independentReferences": [
+        {
+          "label": "Pennsylvania Native Plant Society nursery list",
+          "url": "https://www.panativeplantsociety.org/native-plant-sources.html"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "Middle River area, MD; mail-order nursery, no public walk-in location listed",
+        "lat": 39.3343,
+        "lng": -76.4394,
+        "method": "Approximate published service/pickup area; see listing access details"
+      },
+      "media": {
+        "image": "https://directnativeplants.com/wp-content/webp-express/webp-images/uploads/2023/01/dnp-logo.png.webp",
+        "sourcePage": "https://directnativeplants.com/",
+        "type": "logo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "wild-seed-project",
+      "name": "Wild Seed Project",
+      "state": "ME",
+      "officialUrl": "https://wildseedproject.net/",
+      "purchasing": "Order seed online. Attend the Native Seed Center only for announced sales, workshops, or arranged visits.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "catalogUrl": "https://shop.wildseedproject.net/",
+        "visitingUrl": "https://wildseedproject.net/contact"
+      },
+      "independentReferences": [
+        {
+          "label": "University of Connecticut native plant sources",
+          "url": "https://nenativeplants.psla.uconn.edu/plant-sources/"
+        },
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "120 Old Ocean House Road, Cape Elizabeth, ME 04107",
+        "lat": 43.577931,
+        "lng": -70.218697,
+        "matchedAddress": "120 OLD OCEAN HOUSE RD, CAPE ELIZABETH, ME, 04107",
+        "method": "US Census Public_AR_Current street interpolation"
+      },
+      "media": {
+        "image": "https://images.squarespace-cdn.com/content/v1/65e9f518f091b23d734eebe2/1787251137695-8XZU568RY59W3CDJE2V5/WSP_Amelanchier_+serviceberry_WildSeedProject_%C2%A9+Heather+McCargo-27-smartpreview.jpg?format=750w",
+        "sourcePage": "https://wildseedproject.net/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    },
+    {
+      "id": "native-ideals-seed-farm",
+      "name": "Native Ideals Seed Farm",
+      "state": "MT",
+      "officialUrl": "https://nativeideals.com/",
+      "purchasing": "Order seed online or contact the farm about product and collection arrangements.",
+      "checkedOn": "2026-11-19",
+      "websiteProfile": {
+        "checkedOn": "2026-11-19",
+        "visitingUrl": "https://nativeideals.com/contact-us/"
+      },
+      "independentReferences": [
+        {
+          "label": "Wild Ones native nursery list",
+          "url": "https://nativegardendesigns.wildones.org/nursery-list/"
+        }
+      ],
+      "locationEvidence": {
+        "publishedAddress": "31046 Jocko Road, Arlee, MT 59821",
+        "lat": 47.152751,
+        "lng": -114.066912,
+        "matchedAddress": "Jocko Road, Arlee, Lake County, Montana, 59821, United States",
+        "method": "OpenStreetMap Nominatim published street address"
+      },
+      "media": {
+        "image": "https://nativeideals.com/wp-content/uploads/2012/08/Bitterroot-233x300.png",
+        "sourcePage": "https://nativeideals.com/",
+        "type": "photo",
+        "review": "Visually checked; plants, nursery growing spaces, or authentic official logo; no people-focused image."
+      }
+    }
+  ],
+  "ecoregionAssignments": {
+    "prairie-restorations-princeton": [
+      "8.1.4"
+    ],
+    "prairie-restorations-scandia": [
+      "8.1.4"
+    ],
+    "prairie-restorations-esko": [
+      "5.2.1"
+    ],
+    "morning-sky-greenery": [
+      "9.2.1"
+    ],
+    "blazing-star-gardens": [
+      "9.2.3"
+    ],
+    "natural-shore-technologies": [
+      "8.1.4"
+    ],
+    "shoreview-natives": [
+      "5.2.1"
+    ],
+    "glacial-ridge-growers": [
+      "8.1.4"
+    ],
+    "great-plains-nursery": [
+      "9.2.3"
+    ],
+    "prairie-legacy": [
+      "9.4.2"
+    ],
+    "green-isle-gardens": [
+      "8.5.3"
+    ],
+    "sweet-bay-nursery": [
+      "8.5.3"
+    ],
+    "wilcox-nursery": [
+      "8.5.3"
+    ],
+    "florida-native-plants-nursery-sarasota": [
+      "8.5.3"
+    ],
+    "the-natives-inc": [
+      "8.5.3"
+    ],
+    "little-red-wagon-native-nursery": [
+      "8.5.3"
+    ],
+    "native-butterfly-flowers": [
+      "8.5.3"
+    ],
+    "tree-of-life-nursery": [
+      "11.1.1"
+    ],
+    "moosa-creek-nursery": [
+      "11.1.1"
+    ],
+    "matilija-nursery": [
+      "11.1.1"
+    ],
+    "native-texas-nursery": [
+      "9.4.7"
+    ],
+    "joss-growers": [
+      "9.4.7"
+    ],
+    "natives-of-texas": [
+      "9.4.6"
+    ],
+    "blue-fox-farms": [
+      "8.1.6"
+    ],
+    "wild-ridge-plants": [
+      "5.3.1"
+    ],
+    "pinelands-alliance-native-plant-sales": [
+      "8.5.4"
+    ],
+    "rhode-island-wild-plant-society-sales": [
+      "8.1.7"
+    ],
+    "delaware-nature-society-abbotts-mill-sale": [
+      "8.5.1"
+    ],
+    "north-creek-nurseries": [
+      "8.3.1"
+    ],
+    "mellow-marsh-farm": [
+      "8.3.4"
+    ],
+    "papillon-perennials": [
+      "8.4.5"
+    ],
+    "great-bear-native-plants": [
+      "6.2.10"
+    ],
+    "sevenoaks-native-nursery": [
+      "7.1.9"
+    ],
+    "willamette-wildlings": [
+      "7.1.9"
+    ],
+    "amandas-native-garden": [
+      "8.1.3"
+    ],
+    "shonnards-nursery": [
+      "7.1.9"
+    ],
+    "willamette-gardens": [
+      "7.1.9"
+    ],
+    "wintercreek-nursery": [
+      "6.2.9"
+    ],
+    "clearwater-native-plant-nursery": [
+      "6.2.9"
+    ],
+    "sparrowhawk-native-plants": [
+      "7.1.9"
+    ],
+    "urbanscapes-native-nursery": [
+      "8.1.7"
+    ],
+    "roundstone-native-seed": [
+      "8.3.3"
+    ],
+    "holland-wildflower-farm": [
+      "8.4.6"
+    ],
+    "wildseed-farms": [
+      "9.4.6"
+    ],
+    "mossy-oak-nativ-nurseries": [
+      "8.3.5"
+    ],
+    "direct-native-plants": [
+      "8.5.1"
+    ],
+    "wild-seed-project": [
+      "8.1.7"
+    ],
+    "native-ideals-seed-farm": [
+      "6.2.3"
+    ]
+  },
+  "existingProfilesRefreshed": [
+    "prairie-moon-nursery",
+    "prairie-nursery-wi",
+    "blooming-prairie-nursery-carlisle",
+    "united-prairie-native-prairie-nursery",
+    "native-plant-trust-garden",
+    "native-plant-trust-nasami",
+    "edge-of-woods",
+    "redbud-native-nursery",
+    "toadshade-wildflower-farm",
+    "theodore-payne-foundation",
+    "native-west-nursery",
+    "missouri-wildflowers-nursery",
+    "seven-bends-nursery",
+    "kollar-nursery-md",
+    "earth-tones",
+    "carolina-native-nursery",
+    "dropseed-kentucky",
+    "scioto-gardens",
+    "meadow-city-native-plant-nursery",
+    "watermark-woods",
+    "bosky-dell-natives",
+    "humble-roots-nursery-mosier",
+    "shooting-star-nursery-or",
+    "artemisia-nursery-los-angeles",
+    "native-here-nursery",
+    "pizzo-native-plant-nursery",
+    "possibility-place",
+    "agrecol-native-nursery",
+    "plants-of-the-southwest-santa-fe",
+    "hamilton-native-outpost-elk-creek"
+  ],
+  "excludedOrDeferred": {
+    "the-native-nursery-al": "Domain offered for sale; no current nursery evidence.",
+    "cure-nursery": "Domain now serves unrelated gambling content.",
+    "bread-and-roses-nursery": "Redirected to another farm without sufficient current native nursery evidence.",
+    "out-back-nursery": "Could not retrieve current official site reliably; hold for follow-up.",
+    "green-seasons-nursery": "Official site returned an empty/error response; hold for follow-up.",
+    "medina-garden-nursery": "Official site unavailable during review; hold for follow-up.",
+    "wildstead": "Could not confirm a public plant-purchasing service distinct from landscaping.",
+    "hungry-hook-farm": "Insufficient current purchasing/location evidence in retrieved site.",
+    "cedar-mountain-perennials": "Already listed; excluded as a duplicate.",
+    "new-england-wetland-plants": "Already listed; excluded as a duplicate.",
+    "hamilton-native-outpost-elk-creek": "Already listed; refreshed purchasing profile instead."
+  }
+}

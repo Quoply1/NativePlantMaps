@@ -144,7 +144,9 @@
   },
   "5.2.1": {
     "vendorIds": [
-      "birdsfoot-native-nursery-south-boardman"
+      "birdsfoot-native-nursery-south-boardman",
+      "prairie-restorations-esko",
+      "shoreview-natives"
     ],
     "bounds": [
       [
@@ -190,7 +192,8 @@
       "van-berkum-nursery-deerfield",
       "checkerspot-farm",
       "wing-and-a-prayer-nursery",
-      "dawns-wildthings"
+      "dawns-wildthings",
+      "wild-ridge-plants"
     ],
     "bounds": [
       [
@@ -275,7 +278,8 @@
       "cedar-mountain-perennials-athol",
       "humbirds-natives-spokane",
       "floralia-spokane",
-      "pipilo-native-plants"
+      "pipilo-native-plants",
+      "native-ideals-seed-farm"
     ],
     "bounds": [
       [
@@ -345,7 +349,10 @@
     ]
   },
   "6.2.9": {
-    "vendorIds": [],
+    "vendorIds": [
+      "wintercreek-nursery",
+      "clearwater-native-plant-nursery"
+    ],
     "bounds": [
       [
         -121.543,
@@ -360,7 +367,8 @@
   "6.2.10": {
     "vendorIds": [
       "serviceberry-native-plant-nursery",
-      "montana-plants-missoula"
+      "montana-plants-missoula",
+      "great-bear-native-plants"
     ],
     "bounds": [
       [
@@ -567,7 +575,12 @@
       "native-foods-nursery-dexter",
       "sauvie-island-natives-portland",
       "symbiop-portland",
-      "doak-creek-native-nursery"
+      "doak-creek-native-nursery",
+      "sevenoaks-native-nursery",
+      "willamette-wildlings",
+      "shonnards-nursery",
+      "willamette-gardens",
+      "sparrowhawk-native-plants"
     ],
     "bounds": [
       [
@@ -610,7 +623,8 @@
     "vendorIds": [
       "grow-wild-ithaca",
       "plantsmen-nursery",
-      "faverolles-gardens"
+      "faverolles-gardens",
+      "amandas-native-garden"
     ],
     "bounds": [
       [
@@ -636,7 +650,11 @@
       "four-season-nursery-traverse-city",
       "black-cap-farm-onekama",
       "dragonfly-gardens-amery",
-      "bright-lane-gardens"
+      "bright-lane-gardens",
+      "prairie-restorations-princeton",
+      "prairie-restorations-scandia",
+      "natural-shore-technologies",
+      "glacial-ridge-growers"
     ],
     "bounds": [
       [
@@ -682,7 +700,8 @@
       "garden-guru-rockford",
       "harris-nature-center-plant-sale",
       "calvin-ecosystem-native-plant-sale",
-      "detroit-wildflower-nursery"
+      "detroit-wildflower-nursery",
+      "blue-fox-farms"
     ],
     "bounds": [
       [
@@ -746,7 +765,10 @@
       "butterfly-effect-farm-westport",
       "neighborhood-native-plants",
       "red-trillium-gardens",
-      "whaleback-nursery"
+      "whaleback-nursery",
+      "rhode-island-wild-plant-society-sales",
+      "urbanscapes-native-nursery",
+      "wild-seed-project"
     ],
     "bounds": [
       [
@@ -934,7 +956,8 @@
       "sugarbush-nursery-pa",
       "windy-hill-plant-farm",
       "stover-mill-farm",
-      "little-bluestem-native-plants"
+      "little-bluestem-native-plants",
+      "north-creek-nurseries"
     ],
     "bounds": [
       [
@@ -979,7 +1002,8 @@
       "bloomington-valley-nursery",
       "busy-bee-nursery",
       "wild-south-native-nursery",
-      "blooming-garden"
+      "blooming-garden",
+      "roundstone-native-seed"
     ],
     "bounds": [
       [
@@ -1032,7 +1056,8 @@
       "raywood-landscape-center",
       "knotty-by-nature-natives",
       "sunrise-nursery-athens",
-      "state-botanical-garden-ga-sales"
+      "state-botanical-garden-ga-sales",
+      "mellow-marsh-farm"
     ],
     "bounds": [
       [
@@ -1066,7 +1091,8 @@
       "moulton-hot-natives",
       "lern-rva",
       "chickadee-natives-folsom",
-      "mill-creek-greenhouses"
+      "mill-creek-greenhouses",
+      "mossy-oak-nativ-nurseries"
     ],
     "bounds": [
       [
@@ -1236,7 +1262,8 @@
       "woodland-wonders-nursery",
       "hamilton-native-outpost-elk-creek",
       "ozark-soul-native-plants-thornfield",
-      "greenscape-gardens-manchester"
+      "greenscape-gardens-manchester",
+      "papillon-perennials"
     ],
     "bounds": [
       [
@@ -1253,7 +1280,8 @@
     "vendorIds": [
       "white-river-nursery",
       "moonlit-heights-native-nursery",
-      "ozark-homegrown-nursery"
+      "ozark-homegrown-nursery",
+      "holland-wildflower-farm"
     ],
     "bounds": [
       [
@@ -1317,7 +1345,9 @@
       "leons-garden-world-new-castle",
       "southern-branch-nursery",
       "nearly-wild-native-flowers",
-      "southern-branch-vb-farmers-market"
+      "southern-branch-vb-farmers-market",
+      "delaware-nature-society-abbotts-mill-sale",
+      "direct-native-plants"
     ],
     "bounds": [
       [
@@ -1358,7 +1388,14 @@
       "earth-tech-environmental-bonita-springs",
       "eden-of-wings-nursery",
       "roots-and-shoots-nursery-charleston",
-      "florabundance-gardens-native-plant-nursery"
+      "florabundance-gardens-native-plant-nursery",
+      "green-isle-gardens",
+      "sweet-bay-nursery",
+      "wilcox-nursery",
+      "florida-native-plants-nursery-sarasota",
+      "the-natives-inc",
+      "little-red-wagon-native-nursery",
+      "native-butterfly-flowers"
     ],
     "bounds": [
       [
@@ -1382,7 +1419,8 @@
       "old-bumbles-farm-moorestown",
       "pinelands-direct-columbus",
       "summersweet-native-plants-mays-landing",
-      "donaromas-edgartown"
+      "donaromas-edgartown",
+      "pinelands-alliance-native-plant-sales"
     ],
     "bounds": [
       [
@@ -1398,7 +1436,8 @@
   "9.2.1": {
     "vendorIds": [
       "wilbers-seed-solutions",
-      "united-prairie-native-prairie-nursery"
+      "united-prairie-native-prairie-nursery",
+      "morning-sky-greenery"
     ],
     "bounds": [
       [
@@ -1437,7 +1476,9 @@
       "blooming-prairie-nursery-carlisle",
       "the-prairie-flower-spencer",
       "kinnickinnic-natives-river-falls",
-      "little-beaver-nursery"
+      "little-beaver-nursery",
+      "blazing-star-gardens",
+      "great-plains-nursery"
     ],
     "bounds": [
       [
@@ -1539,7 +1580,8 @@
       "native-plants-nursery-okc",
       "bustani-plant-farm",
       "sanctuary-gardens-norman",
-      "prairie-flora-co"
+      "prairie-flora-co",
+      "prairie-legacy"
     ],
     "bounds": [
       [
@@ -1601,7 +1643,10 @@
     ]
   },
   "9.4.6": {
-    "vendorIds": [],
+    "vendorIds": [
+      "natives-of-texas",
+      "wildseed-farms"
+    ],
     "bounds": [
       [
         -102.005,
@@ -1621,7 +1666,9 @@
       "round-rock-garden-center",
       "nectar-bar-san-antonio",
       "shades-of-green-celina",
-      "north-haven-gardens"
+      "north-haven-gardens",
+      "native-texas-nursery",
+      "joss-growers"
     ],
     "bounds": [
       [
@@ -1872,7 +1919,10 @@
       "intermountain-nursery",
       "dry-creek-nursery",
       "artemisia-nursery-los-angeles",
-      "grow-native-nursery-california-botanic"
+      "grow-native-nursery-california-botanic",
+      "tree-of-life-nursery",
+      "moosa-creek-nursery",
+      "matilija-nursery"
     ],
     "bounds": [
       [
