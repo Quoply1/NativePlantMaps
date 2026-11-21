@@ -8,8 +8,9 @@ const report=JSON.parse(await readFile(new URL('../provider-background-review.js
 const latest=JSON.parse(await readFile(new URL('../provider-listing-review.json',import.meta.url),'utf8'));
 const current=JSON.parse(await readFile(new URL('../provider-final-pages-review.json',import.meta.url),'utf8'));
 const status=JSON.parse(await readFile(new URL('../provider-media-status.json',import.meta.url),'utf8'));
-const excluded=new Set(status.exclusions);
-const replacements=new Map([...latest.changes,...current.changes].map(change=>[change.id,change]));
+const direct=JSON.parse(await readFile(new URL('../provider-direct-links-review.json',import.meta.url),'utf8'));
+const excluded=new Set([...status.exclusions,...direct.archivedListings]);
+const replacements=new Map([...latest.changes,...current.changes,...direct.mediaChanges].map(change=>[change.id,change]));
 const imageDir=new URL('../dist/assets/providers/',import.meta.url);
 const files=new Set(await readdir(imageDir));
 let delegated=0;
@@ -53,7 +54,7 @@ assert.equal(missing.status,404);assert.equal(delegated,before,'Unlisted files m
 const page=await readFile(new URL('../index.html',import.meta.url),'utf8');
 const helpers=page.slice(page.indexOf('    function nurseryPreview('),page.indexOf('    function nurserySources('));
 const context=vm.createContext({URL,html:String,publicHttpUrl:raw=>{try{const url=new URL(raw);return /^https?:$/.test(url.protocol)?url.href:''}catch{return''}}});
-vm.runInContext(helpers,context);
+vm.runInContext(page.slice(page.indexOf('    function sourceHost('),page.indexOf('    function sourceEvidence(')),context);vm.runInContext(helpers,context);
 const texas=vendors.find(v=>v.id==='natives-of-texas');
 assert.ok(context.nurseryPreview(texas).includes('src="/assets/providers/'));
 assert.ok(context.nurseryPreview({...texas,preview:{...texas.preview,image:'https://other.example/photo.webp'}}).includes('src="https://other.example/photo.webp"'));

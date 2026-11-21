@@ -617,7 +617,7 @@
         <div class="mapbox"><div id="map" role="application" aria-label="Interactive map of native plant sources across the United States"></div><div class="mapcontrols" aria-label="Map controls"><button id="zoom-in" type="button" aria-label="Zoom in">+</button><button id="zoom-out" type="button" aria-label="Zoom out">−</button><button id="reset-map" type="button" aria-label="Show all U.S. sources" title="Show all U.S. sources">⌂</button><button id="reset-map-filters" type="button" aria-label="Reset filters" title="Reset filters"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h18l-7 7v6l-4 3v-9z"/><path d="m17 16 4 4m0-4-4 4"/></svg></button><button id="toggle-map-fullscreen" type="button" aria-label="Expand map" title="Expand map" aria-pressed="false">⛶</button></div><div class="maptip">Click a numbered bubble to zoom in and show its local providers.</div></div>
       </div>
       <div class="directory">
-        <div class="panelhead dirhead"><div><h2 id="directory-title">Providers across the U.S.</h2><p>Well-documented nurseries appear first. Confirm hours and plant availability before visiting.</p><button type="button" id="clear-cluster-focus" class="clear-cluster" hidden>Show all locations</button></div><span id="resultCount" class="resultcount" aria-live="polite" aria-atomic="true">— providers</span></div>
+        <div class="panelhead dirhead"><div><h2 id="directory-title">Providers across the U.S.</h2><p>Working nursery websites appear first, followed by seller social pages and directory-only references. Confirm hours and plant availability before visiting.</p><button type="button" id="clear-cluster-focus" class="clear-cluster" hidden>Show all locations</button></div><span id="resultCount" class="resultcount" aria-live="polite" aria-atomic="true">— providers</span></div>
         <div id="cards" class="cards"></div><nav id="pagination" class="pagination" aria-label="Directory pages" hidden></nav>
       </div>
     </section>
@@ -979,28 +979,29 @@
       }catch{return ''}
     }
     function nurseryWebsiteLink(v){
-      const href=publicHttpUrl(v.website);
-      if(!href||v.websiteStatus==='unverified')return '';
-      const label=v.websiteLabel?(v.websiteLabel.startsWith('Native supplier directory')?'View directory profile':v.websiteLabel):'Visit website';
+      const href=nurseryPrimaryUrl(v);
+      if(!href)return '';
+      const label=v.websiteLabel||(/\.pdf(?:[?#]|$)/i.test(href)?'View nursery catalog':socialSource(sourceHost(href))?'Visit social page':'Visit website');
       return '<a class="nursery-website" href="'+html(href)+'" target="_blank" rel="noreferrer" aria-label="'+html(label+' for '+v.name)+'">'+html(label)+' <span aria-hidden="true">↗</span></a>';
     }
     function nurseryPreview(v){
-      const image=publicHttpUrl(v.preview?.image),website=publicHttpUrl(v.website)||publicHttpUrl(v.preview?.source);
+      const primary=nurseryPrimaryUrl(v),image=publicHttpUrl(v.preview?.image),website=primary||publicHttpUrl(v.preview?.source)||(directoryWebsite(v)?publicHttpUrl(v.website):'');
       if(!image||!website)return '';
       const imageUrl=new URL(image),imageSrc=imageUrl.origin==='https://nativeplantmaps.pages.dev'&&imageUrl.pathname.startsWith('/assets/providers/')?imageUrl.pathname+imageUrl.search:image;
       const logo=v.preview.type==='logo';
       const style=logo?' nursery-preview--logo'+(v.preview.dark?' nursery-preview--logo-dark':''):'';
-      return `<figure class="nursery-preview${style}"><a href="${html(website)}" target="_blank" rel="noreferrer" aria-label="${publicHttpUrl(v.website)?'Open '+html(v.name)+'’s website':'View '+html(v.name)+'’s image source'}">
+      return `<figure class="nursery-preview${style}"><a href="${html(website)}" target="_blank" rel="noreferrer" aria-label="${primary?'Open '+html(v.name)+'’s website':'View '+html(v.name)+'’s image source'}">
         <img src="${html(imageSrc)}" alt="${html(v.preview.alt)}" width="640" height="320" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()">
         </a><figcaption>${logo?'Official Logo':v.preview.credit?'Photo · '+html(v.preview.credit):'Photo from '+html(v.name)}</figcaption></figure>`;
     }
     function nurserySources(v,dirs){
-      const website=publicHttpUrl(v.website);
+      const website=nurseryPrimaryUrl(v);
       const links=new Map();
       const add=(url,label,context,pending=false)=>{
         const href=publicHttpUrl(url);
         if(href&&href!==website&&!links.has(href))links.set(href,{label,context,pending});
       };
+      if(!website&&directoryWebsite(v))add(v.website,'Supplier directory profile','Third-party reference');
       for(const source of v.sources||[])add(source.url,source.label,source.verificationPending?'Link verification pending':sourceHost(source.url),source.verificationPending);
       add(dirs,'Directions','Google Maps');
       add(v.reviewUrl,'Google Maps listing','Location and public reviews');
@@ -1010,6 +1011,10 @@
         </details>`;
     }
     function sourceHost(rawUrl){try{return new URL(rawUrl).hostname.toLowerCase().replace(/^www\./,'')}catch{return ''}}
+    function directorySource(host){return /(^|\.)(xerces\.org|plantnative\.org|plantant\.com|habitatcan\.org|landcan\.org|theplantnative\.com|fann\.org|plantrealflorida\.org|grownative\.org|nativeplantguild\.com|visitiowafarms\.org|visitmontauk\.org|visitathensga\.com|loc8nearme\.com|ardsleypollinatorpathway\.org)$/.test(host)}
+    function directoryWebsite(v){return v.websiteStatus==='directory'||v.websiteKind==='directory'||directorySource(sourceHost(v.website))}
+    function nurseryPrimaryUrl(v){const href=publicHttpUrl(v.website);return href&&v.websiteStatus==='verified'&&!v.websiteUnavailable&&!directoryWebsite(v)?href:''}
+    function websitePriority(v){const href=nurseryPrimaryUrl(v);return !href?0:socialSource(sourceHost(href))?1:/\.pdf(?:[?#]|$)/i.test(href)?2:3}
     function isGoogleMapsSource(rawUrl){try{const url=new URL(rawUrl),host=url.hostname.toLowerCase();return /(^|\.)google\.[a-z.]+$/.test(host)&&/\/maps(?:\/|$)/i.test(url.pathname)||host==='maps.app.goo.gl'||(host==='goo.gl'||host==='g.co')&&/maps/i.test(url.pathname)}catch{return false}}
     function sameSourceSite(host,sellerHost){return host===sellerHost||host.endsWith('.'+sellerHost)||sellerHost.endsWith('.'+host)}
     function sourceSiteKey(host){
@@ -1018,7 +1023,7 @@
     }
     function socialSource(host){return /(^|\.)(facebook\.com|instagram\.com|reddit\.com|youtube\.com|youtu\.be|tiktok\.com|linkedin\.com)$/.test(host)}
     function verifiedSourceSites(v){
-      const sites=new Map(),sellerHost=sourceHost(v.website),sellerKey=sourceSiteKey(sellerHost),sellerHosts=[sellerHost,sourceHost(v.websiteProfile?.catalogUrl),sourceHost(v.websiteProfile?.visitingUrl)].filter(Boolean);
+      const sites=new Map(),primary=nurseryPrimaryUrl(v),sellerHost=sourceHost(primary),sellerKey=sourceSiteKey(sellerHost),sellerHosts=primary?[sellerHost,sourceHost(v.websiteProfile?.catalogUrl),sourceHost(v.websiteProfile?.visitingUrl)].filter(Boolean):[];
       if(sellerHost&&v.websiteStatus&&v.websiteStatus!=='unverified'&&!isGoogleMapsSource(v.website))sites.set(sellerKey,{host:sellerHost,label:'Official website',seller:true});
       for(const source of v.sources||[]){
         if(source.verificationPending||isGoogleMapsSource(source.url))continue;
@@ -1042,7 +1047,7 @@
       return verifiedSourceSites(v).size+(hasMapLocation?1:0)+publicReviews;
     }
     function listingQuality(v){
-      const host=sourceHost(v.website),directory=/(^|\.)(plantnative\.org|plantant\.com|habitatcan\.org|landcan\.org|theplantnative\.com|maps\.app\.goo\.gl)$/.test(host),official=v.websiteStatus==='verified'&&host&&!socialSource(host)&&!directory;
+      const host=sourceHost(v.website),official=!!nurseryPrimaryUrl(v)&&!socialSource(host);
       const profile=v.websiteProfile||{},media=!!publicHttpUrl(v.preview?.image),independent=[...verifiedSourceSites(v).values()].filter(s=>!s.seller&&!socialSource(s.host)).length;
       const tradeOnly=v.category==='wholesale'||profile.tradeOnly===true;
       let score=official?36:0;
@@ -1057,7 +1062,7 @@
       return score;
     }
     function rankListings(items){
-      return [...items].sort((a,b)=>listingQuality(b)-listingQuality(a)||sourceConfidence(b)-sourceConfidence(a)||sourceCount(b)-sourceCount(a)||(a.searchDistance??Infinity)-(b.searchDistance??Infinity)||String(a.name).localeCompare(String(b.name))||String(a.id).localeCompare(String(b.id)));
+      return [...items].sort((a,b)=>websitePriority(b)-websitePriority(a)||listingQuality(b)-listingQuality(a)||sourceConfidence(b)-sourceConfidence(a)||sourceCount(b)-sourceCount(a)||(a.searchDistance??Infinity)-(b.searchDistance??Infinity)||String(a.name).localeCompare(String(b.name))||String(a.id).localeCompare(String(b.id)));
     }
     function sourceEvidence(v){
       const labels=(v.sources||[]).map(source=>String(source.label||'').trim()).filter(Boolean);
@@ -1134,7 +1139,7 @@
           <div class="listing-meta"><span class="badge ${badgeClass(v)}">${html(status)}</span>${labels.length?`<span>${html(labels.join(' · '))}</span>`:''}</div>
           ${nurseryPreview(v)}
           <p class="carddesc">${html(summary)}</p>
-          ${website?`<div class="nursery-actions">${website}<span class="nursery-host">${html(sourceHost(v.website))}</span></div>`:v.websiteStatus==='unverified'?'<p class="nursery-link-status">Website link pending verification</p>':''}
+          ${website?`<div class="nursery-actions">${website}<span class="nursery-host">${html(sourceHost(v.website))}</span></div>`:'<p class="nursery-link-status">Seller website not confirmed. See sources and contact details below.</p>'}
           ${nurserySources(v,dirs)}
           <div class="cardfoot"><button type="button" class="community-open" data-community-mode="reviews" data-vendor-id="${html(v.id)}">Community notes · ${reviewCount+reportCount}</button></div>
           <div class="cardexpand"><div class="card-detail-grid"><section class="detail-section"><h3>Visit</h3><p class="visit-address">${html(v.address||'Address on provider site')}</p>${visitInfo?`<p class="visit-copy">${html(visitInfo)}</p>`:''}</section>

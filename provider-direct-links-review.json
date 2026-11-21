@@ -1,0 +1,773 @@
+{
+  "checkedOn": "2026-11-21",
+  "baseCommit": "854976a085c6c6c4bcb56d48e00357ddbae9a58c",
+  "scope": "Every active directory-only or unavailable primary link found in the current data, plus known incorrectly classified third-party references.",
+  "rankingRule": "Verified seller websites first; seller catalogs next; verified owner-managed social pages next; directory-only and unconfirmed websites last. Directory evidence is not an official seller website.",
+  "reviewed": [
+    {
+      "id": "nearly-native-nursery",
+      "name": "Nearly Native Nursery",
+      "previousPrimaryUrl": "https://gnps.org/plant_source/nearly-native-nursery/",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://gnps.org/plant_source/nearly-native-nursery/",
+        "https://www.nearlynativenursery.com/"
+      ],
+      "reason": "Official domain inaccessible; matching Netlify development copy was not promoted as a public seller site."
+    },
+    {
+      "id": "native-roots-nursery-nc",
+      "name": "Native Roots Nursery",
+      "previousPrimaryUrl": "https://www.plantant.com/nursery-availability/1005929/native-roots-nursery",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.plantant.com/nursery-availability/1005929/native-roots-nursery",
+        "https://nativerootsnursery.com/"
+      ],
+      "reason": "Clinton, NC .com site could not be retrieved. The similar .org is a different Michiana nursery and was rejected."
+    },
+    {
+      "id": "natural-selections-nursery",
+      "name": "Natural Selections Nursery",
+      "previousPrimaryUrl": "https://gardenclubofweaverville.org/native-plants/sources-of-native-plants/",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://gardenclubofweaverville.org/native-plants/sources-of-native-plants/",
+        "https://www.naturalselectionsnursery.com/"
+      ],
+      "reason": "The official Weaverville domain could not be retrieved; no alternate seller-owned destination confirmed."
+    },
+    {
+      "id": "fort-pond-native-plants",
+      "name": "Fort Pond Native Plants",
+      "previousPrimaryUrl": "https://visitmontauk.org/members/125/fort-pond-native-plants/",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://visitmontauk.org/members/125/fort-pond-native-plants/",
+        "https://www.nativeplants.net/"
+      ],
+      "reason": "Matching contact/about pages are indexed, but live nursery pages failed retrieval."
+    },
+    {
+      "id": "queens-native-plants",
+      "name": "Queens NY Native Plants",
+      "previousPrimaryUrl": "https://newyorkmetroregion.wildones.org/local-nurseries/",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://newyorkmetroregion.wildones.org/local-nurseries/",
+        "https://queensnynativeplants.com/"
+      ],
+      "reason": "The nursery-owned domain is a Coming Soon placeholder, without a working catalog or contact page."
+    },
+    {
+      "id": "wilbers-seed-solutions",
+      "name": "Wilber’s Seed Solutions",
+      "previousPrimaryUrl": "https://plantnative.org/nursery/sd/miller/wilbers-seed-solutions",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://plantnative.org/nursery/sd/miller/wilbers-seed-solutions"
+      ],
+      "reason": "The supplier profile publishes no owned website; no verified seller site found."
+    },
+    {
+      "id": "brushwolf-prairies",
+      "name": "Brushwolf Prairies Native Nursery",
+      "previousPrimaryUrl": "https://www.npsot.org/chapters/post-oak/programs/",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.npsot.org/chapters/post-oak/programs/"
+      ],
+      "reason": "Indexed nursery identity matches, but the official root returns 404 or a domain-connection error."
+    },
+    {
+      "id": "candlestick-point-native-plant-nursery",
+      "name": "Candlestick Point Native Plant Nursery",
+      "previousPrimaryUrl": "https://www.sfenvironment.org/bee-friendly-plant-nurseries",
+      "primaryUrl": "https://www.lejyouth.org/index.php/native-plant-nursery/",
+      "websiteKind": "seller",
+      "status": "verified-seller-page",
+      "checkedUrls": [
+        "https://www.sfenvironment.org/bee-friendly-plant-nurseries",
+        "https://www.lejyouth.org/",
+        "https://www.lejyouth.org/index.php/native-plant-nursery/"
+      ],
+      "reason": "Official operator nursery page explicitly offers plant contracts and purchasing contact."
+    },
+    {
+      "id": "midwest-natives-nursery",
+      "name": "Midwest Natives Nursery",
+      "previousPrimaryUrl": "https://www.midwestnativesnursery.com/uploads/b/bb1449f0-743d-11ea-8cb1-8121afc059a0/d075b720-f2c5-11f0-8162-7d4c3a0374dd.pdf",
+      "primaryUrl": "https://www.midwestnativesnursery.com/",
+      "websiteKind": "seller",
+      "status": "verified-seller-page",
+      "checkedUrls": [
+        "https://www.midwestnativesnursery.com/uploads/b/bb1449f0-743d-11ea-8cb1-8121afc059a0/d075b720-f2c5-11f0-8162-7d4c3a0374dd.pdf",
+        "https://www.midwestnativesnursery.com/"
+      ],
+      "reason": "Browser rendered matching Lincoln nursery storefront, species lists, pricing, contact information, and 2026 season notice."
+    },
+    {
+      "id": "green-thumb-nursery-godfrey",
+      "name": "Green Thumb Nursery",
+      "previousPrimaryUrl": "https://grownative.org/grow_native_members/green-thumb-nursery/",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://grownative.org/grow_native_members/green-thumb-nursery/",
+        "https://grownative.org/"
+      ],
+      "reason": "The Grow Native profile has a blank website field. Other Green Thumb domains are different businesses."
+    },
+    {
+      "id": "dryland-horticulture",
+      "name": "Dryland Horticulture",
+      "previousPrimaryUrl": "https://www.unps.org/miscpdf/NativePlantSuppliers-2024.pdf",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.unps.org/miscpdf/NativePlantSuppliers-2024.pdf",
+        "https://drylandhorticulture.com/"
+      ],
+      "reason": "The listed nursery domain could not be retrieved; retain the supplier list as a reference."
+    },
+    {
+      "id": "notestein-native-nursery",
+      "name": "Notestein Native Nursery",
+      "previousPrimaryUrl": "https://www.fann.org/professionals/detail/144",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.fann.org/professionals/detail/144",
+        "https://southerngardening.org/"
+      ],
+      "reason": "FANN lists southerngardening.org, but no working nursery page could be retrieved."
+    },
+    {
+      "id": "birds-and-bees-nursery-portland",
+      "name": "Birds and Bees Nursery",
+      "previousPrimaryUrl": "https://portlandnativeplants.org/native-plant-nurseries",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "closed-archived",
+      "checkedUrls": [
+        "https://portlandnativeplants.org/native-plant-nurseries",
+        "https://birdsandbeespdx.com/"
+      ],
+      "reason": "KOIN 6 reported the Portland nursery closing in February 2026; subsequent local reporting records its closure."
+    },
+    {
+      "id": "ser-uw-native-plant-nursery-seattle",
+      "name": "SER-UW Native Plant Nursery",
+      "previousPrimaryUrl": "https://sites.uw.edu/seruwnursery/",
+      "primaryUrl": "https://sites.uw.edu/seruwnursery/purchase-plants/",
+      "websiteKind": "seller",
+      "status": "verified-seller-page",
+      "checkedUrls": [
+        "https://sites.uw.edu/seruwnursery/",
+        "https://sites.uw.edu/seruwnursery/purchase-plants/"
+      ],
+      "reason": "Official student-run nursery purchasing page returned HTTP 200 with plant-sale details."
+    },
+    {
+      "id": "growing-empire-salt-lake-city",
+      "name": "Growing Empire",
+      "previousPrimaryUrl": "",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.growingempire.net/"
+      ],
+      "reason": "No working seller site confirmed; directory and reporting identify the nursery, but a weak web presence is not proof of closure."
+    },
+    {
+      "id": "agave-farms-phoenix",
+      "name": "Agave Farms",
+      "previousPrimaryUrl": "https://aznps.com/native-landscaping-partners/",
+      "primaryUrl": "https://www.agave-inc.com/corporate-responsibility",
+      "websiteKind": "seller",
+      "status": "verified-seller-page",
+      "checkedUrls": [
+        "https://aznps.com/native-landscaping-partners/",
+        "https://agave-farms.com/",
+        "https://www.agave-inc.com/corporate-responsibility"
+      ],
+      "reason": "Working official parent-company page explicitly identifies the Phoenix farm and nursery."
+    },
+    {
+      "id": "morning-star-prairie-plants",
+      "name": "Morning Star Prairie Plants",
+      "previousPrimaryUrl": "https://www.npsot.org/chapters/clearlake/clc-buy-native-plants/",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.npsot.org/chapters/clearlake/clc-buy-native-plants/"
+      ],
+      "reason": "Historical domain now redirects to an unrelated gambling site. It must not be promoted; NPSOT publishes phone contact instead."
+    },
+    {
+      "id": "artemis-growers-michigan",
+      "name": "Artemis Growers",
+      "previousPrimaryUrl": "https://www.nativeplantguild.com/growers/artemis-growers",
+      "primaryUrl": "https://www.facebook.com/ArtemisGrowers",
+      "websiteKind": "social",
+      "status": "verified-owned-social-page",
+      "checkedUrls": [
+        "https://www.nativeplantguild.com/growers/artemis-growers",
+        "https://www.facebook.com/ArtemisGrowers"
+      ],
+      "reason": "Current Michigan association explicitly links this owner-managed page; Facebook can require sign-in."
+    },
+    {
+      "id": "dancing-bee-farmzzz-anderson",
+      "name": "Dancing Bee Farmzzz Propagation Nursery",
+      "previousPrimaryUrl": "https://mipn.org/wp-content/uploads/2026/03/MIPN-Midwest-Native-Plant-Nurseries-Directory_2026.pdf",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://mipn.org/wp-content/uploads/2026/03/MIPN-Midwest-Native-Plant-Nurseries-Directory_2026.pdf",
+        "https://indiananativeplants.org/landscaping/where-to-buy/"
+      ],
+      "reason": "The current supplier directory documents email sales, without a seller-owned website."
+    },
+    {
+      "id": "down-natures-path-greenville-oh",
+      "name": "Down Nature’s Path, LLC",
+      "previousPrimaryUrl": "",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.downnaturespath.com/"
+      ],
+      "reason": "The corrected dnpnatives.com domain is supported by matching contact records but could not be loaded."
+    },
+    {
+      "id": "arctic-sun-gardening-anchorage",
+      "name": "Arctic Sun Gardening",
+      "previousPrimaryUrl": "https://plants.alaska.gov/nativeplantindex.htm",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://plants.alaska.gov/nativeplantindex.htm",
+        "https://www.arcticsungardens.org/"
+      ],
+      "reason": "Neither historical domain works; BBB also questions current operation. Retain only as a low-priority reference pending confirmation."
+    },
+    {
+      "id": "fritz-creek-gardens-homer",
+      "name": "Fritz Creek Gardens",
+      "previousPrimaryUrl": "https://plants.alaska.gov/nativeplantindex.htm",
+      "primaryUrl": "https://www.alaskahardygardens.com/",
+      "websiteKind": "seller",
+      "status": "verified-seller-page",
+      "checkedUrls": [
+        "https://plants.alaska.gov/nativeplantindex.htm",
+        "https://www.alaskahardy.com/",
+        "https://www.alaskahardygardens.com/"
+      ],
+      "reason": "Browser rendered the current Alaska Hardy Gardens shop, nursery ownership transition, new address, and office@alaskahardy.com."
+    },
+    {
+      "id": "natures-way-ocean-earth-homer",
+      "name": "Natures Way and Ocean Earth",
+      "previousPrimaryUrl": "https://plants.alaska.gov/nativeplantindex.htm",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://plants.alaska.gov/nativeplantindex.htm"
+      ],
+      "reason": "State source provides phone/email, but no seller website was found."
+    },
+    {
+      "id": "seeds-of-alaska-juneau",
+      "name": "Seeds of Alaska",
+      "previousPrimaryUrl": "https://plants.alaska.gov/nativeplantindex.htm",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://plants.alaska.gov/nativeplantindex.htm"
+      ],
+      "reason": "Matching contact details may refer to Landscape Alaska, but the supplier name differs. A different business identity was not substituted without resolving the discrepancy."
+    },
+    {
+      "id": "blue-oak-horticulture-taylors",
+      "name": "Blue Oak Horticulture",
+      "previousPrimaryUrl": "",
+      "primaryUrl": "https://www.blueoakhortsc.com/",
+      "websiteKind": "seller",
+      "status": "verified-seller-page",
+      "checkedUrls": [
+        "https://www.blueoakhortsc.com/"
+      ],
+      "reason": "Browser rendered nursery identity, shop, calendar, Taylors address, phone/email and appointment hours.",
+      "evidence": [
+        "HTTP200 root and /inventory. Source bootstrap states native and edible plants grown for local ecosystem; same business name and customdomain. Official nursery inventoryPDF indexed on same domain."
+      ]
+    },
+    {
+      "id": "sunscapes-rare-plant-nursery-pueblo",
+      "name": "Sunscapes Rare Plant Nursery",
+      "previousPrimaryUrl": "",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.sunscapes.net/",
+        "http://www.sunscapes.net/index.htm",
+        "https://sunscapes.net/index.htm"
+      ],
+      "reason": "Originaldomain no longer exposes working nursery content. HTTP index resolves to NameBright ComingSoon domainparking. HTTPS variants fail503. Directories still list theoldURL, but no current nursery-owned destination recovered.",
+      "evidence": [
+        {
+          "url": "https://www.sunscapes.net/",
+          "finalUrl": "https://www.sunscapes.net/",
+          "httpStatus": 503,
+          "title": "",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "elkhorn-native-plant-nursery-moss-landing",
+      "name": "Elkhorn Native Plant Nursery",
+      "previousPrimaryUrl": "https://plantnative.org/nd_ca.htm",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://plantnative.org/nd_ca.htm",
+        "https://www.elkhornnursery.com/",
+        "http://elkhornnursery.com",
+        "https://elkhornnursery.com/"
+      ],
+      "reason": "Both HTTPS www/nonwww variants fail503, HTTP fails500connectionproblem. Directory confirms historical business/domain but no live nursery-owned site recovered. Do not infer closure from networkfailure.",
+      "evidence": [
+        {
+          "url": "https://www.elkhornnursery.com/",
+          "finalUrl": "https://www.elkhornnursery.com/",
+          "httpStatus": 503,
+          "title": "",
+          "error": null
+        },
+        {
+          "url": "https://plantnative.org/nd_ca.htm",
+          "finalUrl": "https://plantnative.org/nd_ca.htm",
+          "httpStatus": 200,
+          "title": "Native Plant Nurseries - California - PlantNative.org",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "caddo-native-plant-company",
+      "name": "Caddo Native Plant Company",
+      "previousPrimaryUrl": "https://www.lnps.org/resources/plant-seed-sources/",
+      "primaryUrl": "https://www.facebook.com/p/Caddo-Native-Plant-Company-61578600186999/",
+      "websiteKind": "social",
+      "status": "verified-owned-social-page",
+      "checkedUrls": [
+        "https://www.lnps.org/resources/plant-seed-sources/",
+        "https://www.facebook.com/Caddonativeplantcompany",
+        "https://www.facebook.com/p/Caddo-Native-Plant-Company-61578600186999/"
+      ],
+      "reason": "LNPS links this official numeric profile; current page metadata matches the nursery.",
+      "evidence": [
+        "HTTP200 first-party og:title Caddo Native Plant Company; og:description identifies backyard nursery specializing in ArkLaTex native plants and pinned plant availability. LNPS directly links exactnumeric profile; old vanityURL redirectslogin."
+      ]
+    },
+    {
+      "id": "garden-delights-lazy-k-nursery",
+      "name": "Garden Delights / Lazy K Nursery",
+      "previousPrimaryUrl": "https://gnps.org/plant_source/garden-delights-llc-and-lazy-k-nursery-inc/",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://gnps.org/plant_source/garden-delights-llc-and-lazy-k-nursery-inc/",
+        "https://lazyknursery.com",
+        "http://lazyknursery.com",
+        "https://www.lazyknursery.com/",
+        "https://nativeplantcoalition.org/native-plant-nurseries-1"
+      ],
+      "reason": "Original nursery domain www/nonwww HTTPS fail503; HTTP406. GNPS/NativePlantCoalition confirm provider and contact but no working nursery-owned page recovered. Coalition names a Facebookpage without linking exactURL; do not invent it.",
+      "evidence": [
+        {
+          "url": "https://lazyknursery.com",
+          "finalUrl": "https://lazyknursery.com/",
+          "httpStatus": 503,
+          "title": "",
+          "error": null
+        },
+        {
+          "url": "https://gnps.org/plant_source/garden-delights-llc-and-lazy-k-nursery-inc/",
+          "finalUrl": "https://gnps.org/plant_source/garden-delights-llc-and-lazy-k-nursery-inc/",
+          "httpStatus": 200,
+          "title": "Garden Delights, LLC and Lazy K Nursery, Inc. - GNPS",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "gsu-pc-native-botanical-garden",
+      "name": "GSU PC Native Botanical Garden",
+      "previousPrimaryUrl": "https://sites.gsu.edu/pcnativegarden/",
+      "primaryUrl": "https://sites.gsu.edu/pcnativegarden/support/plant-sales/",
+      "websiteKind": "seller",
+      "status": "verified-seller-page",
+      "checkedUrls": [
+        "https://sites.gsu.edu/pcnativegarden/",
+        "https://sites.gsu.edu/pcnativegarden/support/plant-sales/"
+      ],
+      "reason": "Official nursery plant-sales page provides species inventory and purchasing information.",
+      "evidence": [
+        "HTTP200 page says garden sales support operations, inventory mainly native to Georgia, greenhouse growing and accepted payments. Listed sale dates are Spring2024; do not represent those as current dates."
+      ]
+    },
+    {
+      "id": "nectar-bar-san-antonio",
+      "name": "The Nectar Bar",
+      "previousPrimaryUrl": "https://www.npsot.org/chapters/san-antonio/nice-natives-improve-conserve-environments-san-antonio/",
+      "primaryUrl": "https://www.facebook.com/TheNectarBar/",
+      "websiteKind": "social",
+      "status": "verified-owned-social-page",
+      "checkedUrls": [
+        "https://www.npsot.org/chapters/san-antonio/nice-natives-improve-conserve-environments-san-antonio/",
+        "https://www.facebook.com/TheNectarBar/"
+      ],
+      "reason": "NPSOT links the official page; current metadata identifies The Nectar Bar, San Antonio.",
+      "evidence": [
+        "HTTP200 final fetch og:title The Nectar Bar | San Antonio TX; og:description describes pollinator conservation. NPSOT links this exactpage, and local reporting confirms use of FB for nursery availability. Facebook can intermittently show loginwall."
+      ]
+    },
+    {
+      "id": "earthwild-gardens",
+      "name": "Earthwild Gardens",
+      "previousPrimaryUrl": "https://plantnative.org/nursery/il/grayslake/earthwild-gardens",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://plantnative.org/nursery/il/grayslake/earthwild-gardens",
+        "https://www.earthwildgardens.com/"
+      ],
+      "reason": "Olddomain now publishes generic garden-advice articles with no Grayslake nursery identity, stock, or contact. Reject it as official nursery site. Historical ConserveLakeCounty material calls its seasonal sale formerlyEarthWildGardens; cannot simply substitute anotherprovider without listingreview.",
+      "evidence": [
+        {
+          "url": "https://www.earthwildgardens.com/",
+          "finalUrl": "https://earthwildgardens.com/",
+          "httpStatus": 200,
+          "title": "EarthWildGardens.com - Garden Care, Garden Information, Planting Tips",
+          "error": null
+        },
+        {
+          "url": "https://plantnative.org/nursery/il/grayslake/earthwild-gardens",
+          "finalUrl": "https://plantnative.org/nursery/il/grayslake/earthwild-gardens",
+          "httpStatus": 200,
+          "title": "Earthwild Gardens - PlantNative.org",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "northeast-native-perennials",
+      "name": "Northeast Native Perennials",
+      "previousPrimaryUrl": "https://plantnative.org/nursery/pa/quakertown/northeast-native-perennials",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://plantnative.org/nursery/pa/quakertown/northeast-native-perennials",
+        "https://nenativesandperennials.com/"
+      ],
+      "reason": "Originaldomain redirects to https://winvest.com/ cryptocurrency investment website. Reject and do not restore this URL. Profile/directories retain historicaldomain; focusedsearch found no replacement nursery-owned site.",
+      "evidence": [
+        {
+          "url": "https://nenativesandperennials.com/",
+          "finalUrl": "https://winvest.com/",
+          "httpStatus": 200,
+          "title": "Winvest | AI-Powered Bitcoin Investment Platform",
+          "error": null
+        },
+        {
+          "url": "https://plantnative.org/nursery/pa/quakertown/northeast-native-perennials",
+          "finalUrl": "https://plantnative.org/nursery/pa/quakertown/northeast-native-perennials",
+          "httpStatus": 200,
+          "title": "Northeast Native Perennials - PlantNative.org",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "sugarbush-nursery-pa",
+      "name": "Sugarbush Nursery",
+      "previousPrimaryUrl": "https://plantnative.org/nursery/pa/mohnton/sugarbush-nursery",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://plantnative.org/nursery/pa/mohnton/sugarbush-nursery",
+        "https://www.sugarbushnursery.com/",
+        "https://www.facebook.com/Sugarbush-Nursery-44318782053/"
+      ],
+      "reason": "Originaldomain503 ComingSoon applicationplaceholder, not working nurserycontent. Directory/Nextdoor identify business but do not prove live nursery-owned website. HistoricalFacebookprofile redirects to genericlogin with no identitymetadata; notverified.",
+      "evidence": [
+        {
+          "url": "https://www.sugarbushnursery.com/",
+          "finalUrl": "https://www.sugarbushnursery.com/",
+          "httpStatus": 503,
+          "title": "Coming Soon!",
+          "error": null
+        },
+        {
+          "url": "https://plantnative.org/nursery/pa/mohnton/sugarbush-nursery",
+          "finalUrl": "https://plantnative.org/nursery/pa/mohnton/sugarbush-nursery",
+          "httpStatus": 200,
+          "title": "Sugarbush Nursery - PlantNative.org",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "green-mamas-garden-center",
+      "name": "Green Mama’s Organic Garden Center",
+      "previousPrimaryUrl": "https://plantnative.org/nursery/tx/north-richland-hills/green-mamas-organic-garden-center",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://plantnative.org/nursery/tx/north-richland-hills/green-mamas-organic-garden-center",
+        "https://www.greenmamas.com/"
+      ],
+      "reason": "OriginaldomainHTTP410Gone. Profiles retain olddomain; focusedsearch found no verified replacement nursery-owned site. GreenMamaCompost Guatemala is a differentbusiness; reject identitymismatch.",
+      "evidence": [
+        {
+          "url": "https://www.greenmamas.com/",
+          "finalUrl": "https://www.greenmamas.com/",
+          "httpStatus": 410,
+          "title": "",
+          "error": null
+        },
+        {
+          "url": "https://plantnative.org/nursery/tx/north-richland-hills/green-mamas-organic-garden-center",
+          "finalUrl": "https://plantnative.org/nursery/tx/north-richland-hills/green-mamas-organic-garden-center",
+          "httpStatus": 200,
+          "title": "Green Mama's Organic Garden Center - PlantNative.org",
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "state-botanical-garden-ga-sales",
+      "name": "State Botanical Garden of Georgia Garden Shop & Plant Sales",
+      "previousPrimaryUrl": "https://botgarden.uga.edu/",
+      "primaryUrl": "https://botgarden.uga.edu/",
+      "websiteKind": "seller",
+      "status": "verified-seller-page",
+      "checkedUrls": [
+        "https://botgarden.uga.edu/"
+      ],
+      "reason": "Official botanical garden operator site; not a third-party supplier profile.",
+      "evidence": [
+        "HTTP200 UGA-branded homepage includes garden identity, Athens address, garden@uga.edu contact, currentNovember2026news/events and native plant materials program. Official location/hours page alsoHTTP200. Guessed /visit/garden-shop/ producedverificationwall, so do not use unvalidated childpath."
+      ]
+    },
+    {
+      "id": "ohana-farms-marengo",
+      "name": "Ohana Farms",
+      "previousPrimaryUrl": "",
+      "primaryUrl": "https://ohanafarms.weebly.com/contact.html",
+      "websiteKind": "seller",
+      "status": "verified-seller-page",
+      "checkedUrls": [
+        "https://www.ohana-farms.com/",
+        "https://ohanafarms.weebly.com/contact.html"
+      ],
+      "reason": "Browser confirmed Ohana Farms contact page, matching 3511 Millstream Road, Marengo, and nursery photos."
+    },
+    {
+      "id": "mostly-natives-nursery-point-reyes",
+      "name": "Mostly Natives Nursery",
+      "previousPrimaryUrl": "https://plantnative.org/nd_ca.htm",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://plantnative.org/nd_ca.htm",
+        "https://www.mostlynatives.com/"
+      ],
+      "reason": "User reports the old website is no longer working; current attempts also failed. Business closure is not inferred."
+    },
+    {
+      "id": "shooting-star-nursery-ky",
+      "name": "Shooting Star Nursery",
+      "previousPrimaryUrl": "https://www.kyagr.com/AgBusiness/745",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.kyagr.com/AgBusiness/745"
+      ],
+      "reason": "Kentucky profile links shootingstarnursery.com, but no working seller page was retrieved. Its farm/tractor images are explicitly template placeholders, not nursery-specific media."
+    },
+    {
+      "id": "bay-natives-nursery",
+      "name": "Bay Natives Nursery",
+      "previousPrimaryUrl": "https://xerces.org/native-plant-supplier/bay-natives-nursery",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://xerces.org/native-plant-supplier/bay-natives-nursery",
+        "https://www.baynatives.com/"
+      ],
+      "reason": "Xerces links baynatives.com, but the actual site returned Site Unavailable in HTTP and live browser checks."
+    },
+    {
+      "id": "buckthorns-native-nursery",
+      "name": "Buckthorn’s Native Nursery",
+      "previousPrimaryUrl": "https://xerces.org/native-plant-supplier/buckthorns-native-nursery",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://xerces.org/native-plant-supplier/buckthorns-native-nursery",
+        "https://buckthornsnativenursery.com/"
+      ],
+      "reason": "Xerces links buckthornsnativenursery.com, but HTTP and browser attempts could not load the seller site."
+    },
+    {
+      "id": "zoes-plants",
+      "name": "Zoe’s Plants",
+      "previousPrimaryUrl": "https://www.ardsleypollinatorpathway.org/home/quick-start-guides/quick-start-sourcing-plants",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.ardsleypollinatorpathway.org/home/quick-start-guides/quick-start-sourcing-plants"
+      ],
+      "reason": "Ardsley Pollinator Pathway is a supplier reference, not the nursery website; no working owned site confirmed."
+    },
+    {
+      "id": "humbirds-natives-spokane",
+      "name": "Humbird’s Natives & Nearby Nursery",
+      "previousPrimaryUrl": "https://www.wnps.org/ne-programs/northeast-wa-gardening",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.wnps.org/ne-programs/northeast-wa-gardening"
+      ],
+      "reason": "WNPS publishes nursery contact information, but no owned website was confirmed."
+    },
+    {
+      "id": "sierra-view-nursery",
+      "name": "Sierra View Nursery",
+      "previousPrimaryUrl": "https://www.habitatcan.org/local-resources/Sierra-View-Nursery/22962/",
+      "primaryUrl": null,
+      "websiteKind": "directory",
+      "status": "reference-only",
+      "checkedUrls": [
+        "https://www.habitatcan.org/local-resources/Sierra-View-Nursery/22962/"
+      ],
+      "reason": "HabitatCAN redirects to sierraviewnurseryinc.org, which returns a service-provider error rather than nursery content.",
+      "currentListingStatus": "not-public"
+    }
+  ],
+  "mediaChanges": [
+    {
+      "id": "ohana-farms-marengo",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/ohana-farms-marengo-photo-v4.webp",
+        "alt": "Rows of nursery-grown trees at Ohana Farms",
+        "type": "photo",
+        "source": "https://ohanafarms.weebly.com/contact.html"
+      },
+      "sourcePage": "https://ohanafarms.weebly.com/contact.html",
+      "sourceImage": "https://ohanafarms.weebly.com/uploads/5/2/8/2/52824515/7269307_orig.png",
+      "visualReview": "Original image inspected: nursery trees, restoration landscape, or nursery plants; no people-focused content.",
+      "asset": {
+        "name": "ohana-farms-marengo-photo-v4.webp",
+        "width": 609,
+        "height": 398,
+        "sha256": "6845fecfb8500c5f113e3e14e86452102ce6d6d8a86dc62c9873f7e022b5ed5e"
+      }
+    },
+    {
+      "id": "earth-tech-environmental-bonita-springs",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/earth-tech-environmental-bonita-springs-photo-v4.webp",
+        "alt": "Wetland restoration landscape from Earth Tech Environmental’s Babcock Ranch project",
+        "type": "photo",
+        "source": "https://eteflorida.com/babcock-ranch-habitat-restorations/"
+      },
+      "sourcePage": "https://eteflorida.com/babcock-ranch-habitat-restorations/",
+      "sourceImage": "https://eteflorida.com/wp-content/uploads/2021/08/thumbnail_IMG_2270-copy.jpeg",
+      "visualReview": "Original image inspected: nursery trees, restoration landscape, or nursery plants; no people-focused content.",
+      "asset": {
+        "name": "earth-tech-environmental-bonita-springs-photo-v4.webp",
+        "width": 640,
+        "height": 480,
+        "sha256": "418b571f6d2f50dd4ca2a0200f798c6af19529d6b3423381d1e27276065f07c4"
+      }
+    },
+    {
+      "id": "mill-creek-greenhouses",
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/mill-creek-greenhouses-photo-v4.webp",
+        "alt": "Red-berried plants displayed at Mill Creek Greenhouses",
+        "type": "photo",
+        "source": "https://www.loc8nearme.com/south-carolina/columbia/mill-creek-greenhouses/7940331/gallery/",
+        "credit": "Google-contributed photo via Loc8NearMe"
+      },
+      "sourcePage": "https://www.loc8nearme.com/south-carolina/columbia/mill-creek-greenhouses/7940331/gallery/",
+      "sourceImage": "https://cdn9.localdatacdn.com/sc/columbia/7940331/original/B4igSSyevQ.jpg",
+      "visualReview": "Original image inspected: nursery trees, restoration landscape, or nursery plants; no people-focused content.",
+      "asset": {
+        "name": "mill-creek-greenhouses-photo-v4.webp",
+        "width": 1000,
+        "height": 563,
+        "sha256": "e9dfb1a83043b9eb42a53e06ab5fd1e2749be460615e240c5b193df4e16b70f0"
+      }
+    }
+  ],
+  "archivedListings": [
+    "birds-and-bees-nursery-portland"
+  ],
+  "rejectedMedia": [
+    {
+      "id": "shooting-star-nursery-ky",
+      "sourcePage": "https://www.kyagr.com/AgBusiness/745",
+      "imageUrls": [
+        "https://www.kyagr.com/agbusiness/images/6/farm.jpg",
+        "https://www.kyagr.com/agbusiness/images/6/products-1.jpg",
+        "https://www.kyagr.com/agbusiness/images/6/products-2.jpg",
+        "https://www.kyagr.com/agbusiness/images/6/products-3.jpg",
+        "https://www.kyagr.com/agbusiness/images/6/products-4.jpg"
+      ],
+      "reason": "Live page labels product images Placeholder and uses shared farm-template paths. Images show a tractor/barn/hay field, not an attributable Shooting Star nursery or plant photograph."
+    }
+  ]
+}
