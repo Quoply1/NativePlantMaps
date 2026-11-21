@@ -1,0 +1,35 @@
+import {readFile} from 'node:fs/promises';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import worker from '../dist/_worker.js';
+const page=await readFile(new URL('../index.html',import.meta.url),'utf8');
+const section=(a,b)=>page.slice(page.indexOf('    function '+a+'('),page.indexOf('    function '+b+'('));
+const context=vm.createContext({URL,html:String});
+vm.runInContext(section('publicHttpUrl','sourceHost')+section('sourceHost','sourceEvidence'),context);
+const nursery={id:'own',name:'Own nursery',website:'https://nursery.example/',websiteStatus:'verified',nativeTier:'documented',category:'wholesale',sources:[]};
+const reference={...nursery,id:'reference',name:'Reference',website:'https://xerces.org/native-plant-supplier/reference',websiteStatus:'verified',category:'retail',nativeTier:'specialist',preview:{image:'https://images.example/photo.webp',type:'photo',source:'https://xerces.org/native-plant-supplier/reference'},sources:[{url:'https://xerces.org/native-plant-supplier/reference',label:'Xerces supplier profile'},{url:'https://extension.example.edu/nurseries',label:'University Extension supplier list'}]};
+assert.equal(context.websitePriority(reference),0,'Xerces is never an official nursery website, even if mistagged verified');
+assert.equal(context.nurseryWebsiteLink(reference),'');
+assert.ok([...context.verifiedSourceSites(reference).values()].every(source=>!source.seller));
+assert.ok(context.nurserySources(reference,'https://www.google.com/maps/').includes('Supplier directory profile'));
+assert.ok(!context.nurseryPreview(reference).includes('aria-label="Open Reference’s website"'));
+assert.ok(context.listingQuality(reference)>context.listingQuality(nursery),'Fixture must prove that score alone would produce the wrong order');
+const social={...nursery,id:'social',website:'https://www.facebook.com/Nursery',websiteKind:'social'};
+const catalog={...nursery,id:'catalog',website:'https://nursery.example/catalog.pdf'};
+assert.deepEqual(Array.from(context.rankListings([reference,social,catalog,nursery]),v=>v.id),['own','catalog','social','reference']);
+assert.ok(context.nurseryWebsiteLink(catalog).includes('View nursery catalog'));
+assert.ok(context.nurseryWebsiteLink(social).includes('Visit social page'));
+assert.equal(context.websitePriority({...nursery,websiteStatus:'directory'}),0);
+assert.equal(context.websitePriority({...nursery,websiteUnavailable:true}),0);
+const vendors=await(await worker.fetch(new Request('https://preview.test/api/vendors'),{})).json();
+const report=JSON.parse(await readFile(new URL('../provider-direct-links-review.json',import.meta.url),'utf8'));
+assert.equal(report.reviewed.length,44);assert.equal(new Set(report.reviewed.map(v=>v.id)).size,44);
+for(const row of report.reviewed){assert.ok(row.reason&&row.checkedUrls.length,row.id);const v=vendors.find(v=>v.id===row.id);if(row.status==='closed-archived'||row.currentListingStatus==='not-public'){assert.ok(!v,row.id);continue;}assert.ok(v,row.id);if(row.primaryUrl){assert.equal(v.website,row.primaryUrl);assert.equal(v.websiteStatus,'verified');assert.ok(context.nurseryWebsiteLink(v).includes(row.primaryUrl),row.id);}else{assert.equal(context.websitePriority(v),0,row.id);assert.equal(context.nurseryWebsiteLink(v),'',row.id);}}
+const ohana=vendors.find(v=>v.id==='ohana-farms-marengo');assert.equal(ohana.website,'https://ohanafarms.weebly.com/contact.html');assert.equal(context.websitePriority(ohana),3);
+const mostly=vendors.find(v=>v.id==='mostly-natives-nursery-point-reyes');assert.equal(context.websitePriority(mostly),0);assert.ok(mostly.websiteUnavailable);
+for(const id of ['ser-uw-native-plant-nursery-seattle','gsu-pc-native-botanical-garden','state-botanical-garden-ga-sales'])assert.equal(context.websitePriority(vendors.find(v=>v.id===id)),3,'Operator-owned institutional nursery pages count as direct sites');
+const ranked=context.rankListings(vendors);for(let i=1;i<ranked.length;i++)assert.ok(context.websitePriority(ranked[i-1])>=context.websitePriority(ranked[i]),'Directory-only references must remain behind actual seller sites');
+for(const change of report.mediaChanges){const bytes=await readFile(new URL('../assets/providers/'+change.asset.name,import.meta.url));assert.equal(createHash('sha256').update(bytes).digest('hex'),change.asset.sha256);assert.deepEqual(vendors.find(v=>v.id===change.id).preview,change.preview);}
+assert.equal(report.rejectedMedia[0].id,'shooting-star-nursery-ky');assert.ok(!vendors.find(v=>v.id==='shooting-star-nursery-ky').preview?.image?.includes('kyagr.com/agbusiness/images/6/'));
+console.log(`Passed ${report.reviewed.length} destination outcomes, 12 direct/social link upgrades, website-first ordering, reference labels, historical closure, and three inspected local photos.`);

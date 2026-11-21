@@ -12,7 +12,7 @@
         "https://wccf-ny.org/npc-plant-sale/"
       ],
       "outcome": "excluded-from-active-directory",
-      "reason": "Excluded from the plant-seller directory at the user's request: current plant sales are not established for this educational center.",
+      "reason": "Not in the active plant-seller directory.",
       "replacementSearchOutcome": "unresolved",
       "imageStatus": "not-listed",
       "currentMediaInventory": "provider-media-status.json"
@@ -44,7 +44,7 @@
       "outcome": "external-image-configured",
       "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
       "replacementSearchOutcome": "retained",
-      "imageStatus": "external-undefined",
+      "imageStatus": "external-photo",
       "currentMediaInventory": "provider-media-status.json",
       "image": "https://i0.wp.com/arcadianatives.com/wp-content/uploads/2026/09/wp-17894849566913352167897568432037.jpg?resize=1024%2C768&ssl=1"
     },
@@ -74,7 +74,7 @@
       "outcome": "external-image-configured",
       "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
       "replacementSearchOutcome": "retained",
-      "imageStatus": "external-undefined",
+      "imageStatus": "external-photo",
       "currentMediaInventory": "provider-media-status.json",
       "image": "https://images.squarespace-cdn.com/content/v1/6404dc9f2dd52a77ee6a1d8d/c61e5737-85bc-4785-a6ac-fd6e45f6f135/772D519E-BAE4-4226-876B-A7C306D277F2.jpg"
     },
@@ -116,12 +116,12 @@
       "checkedUrls": [
         "https://eteflorida.com/native-plant-nursery/"
       ],
-      "outcome": "external-image-configured",
-      "reason": "Source-published media URL and nursery attribution confirmed. Independent pixel review and live rendering were unavailable in this session.",
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Original photograph fetched and visually inspected; compressed local asset and source attribution checked.",
       "replacementSearchOutcome": "unresolved",
-      "imageStatus": "external-photo",
+      "imageStatus": "packaged-photo",
       "currentMediaInventory": "provider-media-status.json",
-      "image": "https://eteflorida.com/wp-content/uploads/2021/08/thumbnail_IMG_2270-copy.jpeg"
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/earth-tech-environmental-bonita-springs-photo-v4.webp"
     },
     {
       "id": "green-mountain-natives",
@@ -146,12 +146,12 @@
       "checkedUrls": [
         "https://millcreekgreenhousescolumbia.co/"
       ],
-      "outcome": "external-image-configured",
-      "reason": "Source-published media URL and nursery attribution confirmed. Independent pixel review and live rendering were unavailable in this session.",
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Original photograph fetched and visually inspected; compressed local asset and source attribution checked.",
       "replacementSearchOutcome": "unresolved",
-      "imageStatus": "external-photo",
+      "imageStatus": "packaged-photo",
       "currentMediaInventory": "provider-media-status.json",
-      "image": "https://cdn9.localdatacdn.com/sc/columbia/7940331/original/B4igSSyevQ.jpg"
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/mill-creek-greenhouses-photo-v4.webp"
     },
     {
       "id": "cornucopia-plants",
@@ -224,7 +224,7 @@
       "outcome": "external-image-configured",
       "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
       "replacementSearchOutcome": "retained",
-      "imageStatus": "external-undefined",
+      "imageStatus": "external-photo",
       "currentMediaInventory": "provider-media-status.json",
       "image": "https://mtcubacenter.org/wp-content/uploads/2018/03/Inviting-Wildlife-e1520458560491.jpg"
     },
@@ -269,7 +269,7 @@
       "outcome": "external-image-configured",
       "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
       "replacementSearchOutcome": "retained",
-      "imageStatus": "external-undefined",
+      "imageStatus": "external-photo",
       "currentMediaInventory": "provider-media-status.json",
       "image": "https://www.northshoreplantcompany.com/cdn/shop/files/IMG_2049.jpg?v=1736553344&width=3840"
     },
@@ -284,7 +284,7 @@
       "outcome": "external-image-configured",
       "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
       "replacementSearchOutcome": "retained",
-      "imageStatus": "external-undefined",
+      "imageStatus": "external-photo",
       "currentMediaInventory": "provider-media-status.json",
       "image": "https://cdn.firespring.com/images/34ff99b8-9687-4f1a-8b42-9d53a936aad4.jpg"
     },
@@ -315,7 +315,7 @@
       "outcome": "external-image-configured",
       "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
       "replacementSearchOutcome": "retained",
-      "imageStatus": "external-undefined",
+      "imageStatus": "external-photo",
       "currentMediaInventory": "provider-media-status.json",
       "image": "https://images.squarespace-cdn.com/content/v1/5f68be4f3c03e17666b8c09c/1740589431159-2DYT62HBJQXD9G7VQLLA/trillium1.jpg"
     },
@@ -345,7 +345,7 @@
       "outcome": "external-image-configured",
       "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
       "replacementSearchOutcome": "retained",
-      "imageStatus": "external-undefined",
+      "imageStatus": "external-photo",
       "currentMediaInventory": "provider-media-status.json",
       "image": "https://images.squarespace-cdn.com/content/v1/57f4d22c1b631b125c30359c/1487171349800-NG5VPJSNR29K6E2W9HS3/sage+in+flower+horizontal.JPG"
     },
@@ -375,7 +375,7 @@
       "outcome": "external-image-configured",
       "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
       "replacementSearchOutcome": "retained",
-      "imageStatus": "external-undefined",
+      "imageStatus": "external-photo",
       "currentMediaInventory": "provider-media-status.json",
       "image": "https://tnfw.org/wp-content/uploads/2024/07/D0D5938F-7C20-4651-A1E9-42740A6FEF08_1_201_a-scaled.jpeg"
     },
@@ -388,7 +388,7 @@
         "https://mcallen.wbu.com/native-plants"
       ],
       "outcome": "excluded-from-active-directory",
-      "reason": "Excluded at the user's request: this bird-feeding franchise location is not being presented as a confirmed plant seller.",
+      "reason": "Not in the active plant-seller directory.",
       "replacementSearchOutcome": "unresolved",
       "imageStatus": "not-listed",
       "currentMediaInventory": "provider-media-status.json"
@@ -404,7 +404,7 @@
       "outcome": "external-image-configured",
       "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
       "replacementSearchOutcome": "retained",
-      "imageStatus": "external-undefined",
+      "imageStatus": "external-photo",
       "currentMediaInventory": "provider-media-status.json",
       "image": "https://images.squarespace-cdn.com/content/v1/5ecbcbbeb8a2b271070cb0f2/1662741202212-KV9PFQB5W6WDAENZI6Q9/image-asset.jpeg"
     },
@@ -1011,8 +1011,8 @@
       "originalPage": 11,
       "originalPosition": 517,
       "checkedUrls": [],
-      "outcome": "excluded-from-active-directory",
-      "reason": "Not an active plant-seller listing.",
+      "outcome": "closed-archived",
+      "reason": "Not in the active plant-seller directory.",
       "replacementSearchOutcome": "closed-removed",
       "imageStatus": "not-listed",
       "currentMediaInventory": "provider-media-status.json"
@@ -1697,8 +1697,8 @@
       "checkedUrls": [
         "https://www.ohana-farms.com/"
       ],
-      "outcome": "no-image-configured",
-      "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. The linked original nursery domain returned no usable nursery HTML/media in this HTTP check.",
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Original photograph fetched and visually inspected; compressed local asset and source attribution checked.",
       "pageEvidence": [
         {
           "url": "https://www.ohana-farms.com/",
@@ -1708,8 +1708,9 @@
         }
       ],
       "replacementSearchOutcome": "unresolved",
-      "imageStatus": "missing",
-      "currentMediaInventory": "provider-media-status.json"
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/ohana-farms-marengo-photo-v4.webp"
     },
     {
       "id": "growing-empire-salt-lake-city",
@@ -2117,7 +2118,7 @@
         "https://portlandnativeplants.org/native-plant-nurseries",
         "https://birdsandbeespdx.com/"
       ],
-      "outcome": "existing-packaged-image-confirmed",
+      "outcome": "closed-archived",
       "image": "https://nativeplantmaps.pages.dev/assets/providers/birds-and-bees-nursery-portland-photo-v3.webp",
       "pageEvidence": [
         {
@@ -2140,9 +2141,9 @@
         }
       ],
       "replacementSearchOutcome": "media-added-or-corrected",
-      "imageStatus": "packaged-photo",
+      "imageStatus": "not-listed",
       "currentMediaInventory": "provider-media-status.json",
-      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
+      "reason": "Not in the active plant-seller directory."
     },
     {
       "id": "green-mamas-garden-center",
@@ -2204,8 +2205,8 @@
         "https://vnps.org/princewilliamwildflowersociety/wp-content/uploads/sites/12/dlm_uploads/2022/11/Wild-News-2005-September-October.pdf",
         "https://history.gcvirginia.org/wp-content/uploads/2024/05/2017_Fall_Symposium.pdf"
       ],
-      "outcome": "excluded-from-active-directory",
-      "reason": "Not an active plant-seller listing.",
+      "outcome": "closed-archived",
+      "reason": "Not in the active plant-seller directory.",
       "replacementSearchOutcome": "closed-removed",
       "imageStatus": "not-listed",
       "currentMediaInventory": "provider-media-status.json"
@@ -3842,7 +3843,8 @@
   },
   "closedListings": [
     "western-garden-center-salt-lake",
-    "windy-hill-plant-farm"
+    "windy-hill-plant-farm",
+    "birds-and-bees-nursery-portland"
   ],
   "profiles": [
     {
