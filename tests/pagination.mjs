@@ -1,0 +1,18 @@
+import {readFile} from 'node:fs/promises';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const html=await readFile(new URL('../index.html',import.meta.url),'utf8');
+const start=html.indexOf('function renderPagination('),end=html.indexOf('\n    function ',start+1);
+assert.ok(start>0&&end>start);
+let buttons=[],renders=0,focused=null;const cards={scrollTop:40};
+const nav={hidden:false,set innerHTML(value){this.html=value;buttons=[];for(const match of value.matchAll(/<button[^>]*>/g)){const tag=match[0],page=tag.match(/data-page="(\d+)"/),step=tag.match(/data-page-step="(-?\d+)"/);buttons.push({dataset:page?{page:page[1]}:{pageStep:step[1]},tag,addEventListener(type,fn){this.click=fn;}})}},get innerHTML(){return this.html},querySelectorAll(){return buttons}};
+const context=vm.createContext({PAGE_SIZE:50,currentPage:1,selectedId:'old',Math,Number,Array,document:{getElementById(id){return id==='pagination'?nav:cards},querySelector(selector){return {focus(options){focused={selector,options}}}}},render(){renders++}});
+vm.runInContext(html.slice(start,end),context);
+context.renderPagination(591,12);assert.equal(buttons.length,14);assert.ok(buttons.find(x=>x.dataset.page==='1').tag.includes('aria-current="page"'));
+buttons.find(x=>x.dataset.page==='10').click();assert.equal(context.currentPage,10);assert.equal(context.selectedId,null);assert.equal(cards.scrollTop,0);assert.equal(renders,1);assert.equal(focused.options.preventScroll,true);
+context.renderPagination(591,12);assert.ok(nav.innerHTML.includes('451–500 of 591'));buttons.find(x=>x.dataset.page==='10').click();assert.equal(renders,1);
+buttons.find(x=>x.dataset.page==='12').click();assert.equal(context.currentPage,12);context.renderPagination(591,12);assert.ok(buttons.at(-1).tag.includes('disabled'));
+buttons.find(x=>x.dataset.pageStep==='-1').click();assert.equal(context.currentPage,11);
+context.currentPage=1;context.renderPagination(80,2);assert.equal(buttons.length,4);assert.ok(buttons[0].tag.includes('disabled'));
+context.renderPagination(50,1);assert.equal(nav.hidden,true);assert.equal(nav.innerHTML,'');
+console.log('Passed direct page jumps, current page, previous/next, keyboard focus, filtered counts, and single-page hiding.');

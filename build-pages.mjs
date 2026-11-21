@@ -25,7 +25,7 @@ const seed = JSON.parse(seedText).map(vendor => {
   const sources = (updates.sources ?? vendor.sources ?? []).flatMap(source => {
     const check = audit.sources[source.url];
     if (check === 'broken') return [];
-    if (source.url === original && original !== updates.website && updates.websiteStatus !== 'unverified') return [];
+    if (source.url === original && original !== updates.website && updates.websiteStatus !== 'unverified' && check !== 'verified') return [];
     if (check === 'unverified' || !check) return [{ ...source, verificationPending: true }];
     return [{ ...source, url: check === 'verified' ? source.url : check }];
   });

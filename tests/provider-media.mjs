@@ -6,7 +6,8 @@ import worker from '../dist/_worker.js';
 
 const report=JSON.parse(await readFile(new URL('../provider-background-review.json',import.meta.url),'utf8'));
 const latest=JSON.parse(await readFile(new URL('../provider-listing-review.json',import.meta.url),'utf8'));
-const replacements=new Map(latest.changes.map(change=>[change.id,change]));
+const current=JSON.parse(await readFile(new URL('../provider-final-pages-review.json',import.meta.url),'utf8'));
+const replacements=new Map([...latest.changes,...current.changes].map(change=>[change.id,change]));
 const imageDir=new URL('../dist/assets/providers/',import.meta.url);
 const files=new Set(await readdir(imageDir));
 let delegated=0;
