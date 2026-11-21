@@ -540,6 +540,14 @@
 
       #cards{overflow-anchor:none}
     .card-detail-grid:has(>section:only-child){grid-template-columns:1fr}
+    .pagination{display:block}
+    .pagination-summary{font-size:13px;color:var(--muted);text-align:center;margin-bottom:8px}
+    .pagination-controls{display:flex;align-items:flex-start;gap:7px}
+    .page-numbers{display:flex;flex:1;flex-wrap:wrap;justify-content:center;gap:5px;min-width:0}
+    .pagination .page-number{min-width:32px;min-height:36px;padding:7px;font-size:13px}
+    .pagination button.page-number[aria-current="page"]{background:#20483a;border-color:#20483a;color:#fffefa}
+    .pagination-controls>[data-page-step]{min-height:36px;padding:8px;font-size:12px}
+    @media(max-width:600px){.pagination .page-number{min-width:36px;min-height:40px}.pagination-controls{flex-wrap:wrap}.page-numbers{order:3;flex-basis:100%}.pagination-controls>[data-page-step="1"]{margin-left:auto}}
 </style>
 </head>
 <body>
@@ -977,7 +985,7 @@
       const style=logo?' nursery-preview--logo'+(v.preview.dark?' nursery-preview--logo-dark':''):'';
       return `<figure class="nursery-preview${style}"><a href="${html(website)}" target="_blank" rel="noreferrer" aria-label="Open ${html(v.name)}’s website">
         <img src="${html(imageSrc)}" alt="${html(v.preview.alt)}" width="640" height="320" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()">
-        </a><figcaption>${logo?'Official Logo':'Photo from '+html(v.name)}</figcaption></figure>`;
+        </a><figcaption>${logo?'Official Logo':v.preview.credit?'Photo · '+html(v.preview.credit):'Photo from '+html(v.name)}</figcaption></figure>`;
     }
     function nurserySources(v,dirs){
       const website=publicHttpUrl(v.website);
@@ -1130,7 +1138,20 @@
       root.querySelectorAll('button[data-community-mode]').forEach(button=>button.addEventListener('click',()=>openCommunityDialog(button.dataset.vendorId,button.dataset.communityMode)));
       root.querySelectorAll('input[type=checkbox]').forEach(el=>el.addEventListener('change',()=>saveField(el.id.replace('check-',''))));root.querySelectorAll('textarea[data-note]').forEach(el=>el.addEventListener('input',()=>saveField(el.dataset.note)));
     }
-    function renderPagination(total,pageCount){const nav=document.getElementById('pagination');if(!nav)return;if(total<=PAGE_SIZE){nav.hidden=true;nav.innerHTML='';return}nav.hidden=false;const first=(currentPage-1)*PAGE_SIZE+1,last=Math.min(currentPage*PAGE_SIZE,total);nav.innerHTML=`<button type="button" data-page-step="-1" aria-label="Previous page" ${currentPage===1?'disabled':''}>← Previous</button><span aria-live="polite">Page ${currentPage} of ${pageCount} · ${first}–${last} of ${total}</span><button type="button" data-page-step="1" aria-label="Next page" ${currentPage===pageCount?'disabled':''}>Next →</button>`;nav.querySelectorAll('button[data-page-step]').forEach(button=>button.addEventListener('click',()=>{currentPage+=Number(button.dataset.pageStep);selectedId=null;render();document.getElementById('cards').scrollTop=0;}))}
+    function renderPagination(total,pageCount){
+      const nav=document.getElementById('pagination');if(!nav)return;
+      if(total<=PAGE_SIZE){nav.hidden=true;nav.innerHTML='';return}
+      nav.hidden=false;
+      const first=(currentPage-1)*PAGE_SIZE+1,last=Math.min(currentPage*PAGE_SIZE,total);
+      const numbers=Array.from({length:pageCount},(_,i)=>i+1).map(page=>`<button type="button" class="page-number" data-page="${page}" aria-label="Go to page ${page}" ${page===currentPage?'aria-current="page"':''}>${page}</button>`).join('');
+      nav.innerHTML=`<div class="pagination-summary" role="status">Page ${currentPage} of ${pageCount} · ${first}–${last} of ${total}</div><div class="pagination-controls"><button type="button" data-page-step="-1" aria-label="Previous page" ${currentPage===1?'disabled':''}>Previous</button><div class="page-numbers" aria-label="Choose a directory page">${numbers}</div><button type="button" data-page-step="1" aria-label="Next page" ${currentPage===pageCount?'disabled':''}>Next</button></div>`;
+      nav.querySelectorAll('button[data-page],button[data-page-step]').forEach(button=>button.addEventListener('click',()=>{
+        const target=button.dataset.page?Number(button.dataset.page):currentPage+Number(button.dataset.pageStep);
+        const nextPage=Math.max(1,Math.min(pageCount,target));if(nextPage===currentPage)return;
+        currentPage=nextPage;selectedId=null;render();document.getElementById('cards').scrollTop=0;
+        document.querySelector(`#pagination [data-page="${currentPage}"]`)?.focus({preventScroll:true});
+      }));
+    }
     function toggleMapFullscreen(force){const workspace=document.getElementById('map-workspace'),button=document.getElementById('toggle-map-fullscreen');if(!workspace||!button)return;const active=typeof force==='boolean'?force:!workspace.classList.contains('map-fullscreen');workspace.classList.toggle('map-fullscreen',active);document.body.classList.toggle('map-fullscreen-open',active);button.textContent=active?'⤢':'⛶';button.setAttribute('aria-label',active?'Exit full-screen map':'Expand map');button.title=active?'Exit full-screen map':'Expand map';button.setAttribute('aria-pressed',String(active));requestAnimationFrame(()=>{if(window.accessMap)window.accessMap.resize()})}
     function syncSelectedCards(){
       document.querySelectorAll('#cards .card').forEach(card=>{

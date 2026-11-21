@@ -115,7 +115,7 @@ export default {
     if(request.method==="GET"&&path==="/api/state-boundaries")return boundaryResponse(STATE_BOUNDARY_SOURCE);
     if(request.method==="GET"&&path==="/api/epa-ecoregion-boundaries")return boundaryResponse(EPA_ECOREGION_SOURCE);
     if(request.method==="GET"&&path==="/api/hawaii-ecoregion-boundaries")return boundaryResponse(HAWAII_ECOREGION_SOURCE);
-    if(request.method==="GET"&&path==="/api/vendors")try{const community=await approvedRows(env),reports=await approvedFieldReports(env).catch(()=>[]),reviews=await approvedVendorReviews(env);return json(attachVendorReviews(attachFieldReports([...SEED,...community],reports),reviews).filter(v=>v.native==="confirmed"&&v.nativeTier!=="unverified"),200,{"cache-control":"public, max-age=60"})}catch{return json({error:"The directory database is temporarily unavailable."},503)}
+    if(request.method==="GET"&&path==="/api/vendors")try{const community=await approvedRows(env),reports=await approvedFieldReports(env).catch(()=>[]),reviews=await approvedVendorReviews(env);return json(attachVendorReviews(attachFieldReports([...SEED,...community],reports),reviews).filter(v=>v.native==="confirmed"&&v.nativeTier!=="unverified"&&v.operatingStatus!=="closed"),200,{"cache-control":"public, max-age=60"})}catch{return json({error:"The directory database is temporarily unavailable."},503)}
     if(request.method==="POST"&&path==="/api/submissions")return handleSubmission(request,env);
     if(request.method==="POST"&&path==="/api/vendor-reports")return handleFieldReport(request,env);
     if(request.method==="POST"&&path==="/api/vendor-reviews")return handleVendorReview(request,env);
