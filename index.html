@@ -548,6 +548,13 @@
     .pagination button.page-number[aria-current="page"]{background:#20483a;border-color:#20483a;color:#fffefa}
     .pagination-controls>[data-page-step]{min-height:36px;padding:8px;font-size:12px}
     @media(max-width:600px){.pagination .page-number{min-width:36px;min-height:40px}.pagination-controls{flex-wrap:wrap}.page-numbers{order:3;flex-basis:100%}.pagination-controls>[data-page-step="1"]{margin-left:auto}}
+
+    /* Use document scrolling on small screens instead of nesting a capped list inside the page. */
+    @media(max-width:1000px){
+      .workspace:not(.map-fullscreen) .directory{display:block;min-height:0;height:auto;overflow:visible}
+      .workspace:not(.map-fullscreen) #cards{height:auto;max-height:none!important;overflow:visible;touch-action:pan-y pinch-zoom}
+      .workspace:not(.map-fullscreen) .card{touch-action:pan-y pinch-zoom}
+    }
 </style>
 </head>
 <body>
@@ -1148,7 +1155,8 @@
       nav.querySelectorAll('button[data-page],button[data-page-step]').forEach(button=>button.addEventListener('click',()=>{
         const target=button.dataset.page?Number(button.dataset.page):currentPage+Number(button.dataset.pageStep);
         const nextPage=Math.max(1,Math.min(pageCount,target));if(nextPage===currentPage)return;
-        currentPage=nextPage;selectedId=null;render();document.getElementById('cards').scrollTop=0;
+        currentPage=nextPage;selectedId=null;render();const cards=document.getElementById('cards');cards.scrollTop=0;
+        if(window.matchMedia('(max-width:1000px)').matches)cards.scrollIntoView({block:'start',behavior:'auto'});
         document.querySelector(`#pagination [data-page="${currentPage}"]`)?.focus({preventScroll:true});
       }));
     }
@@ -1186,6 +1194,8 @@
     }
     function selectVendor(id,{fromMap=false}={}){
       const v=vendors.find(item=>String(item.id)===String(id));if(!v)return;
+      if(fromMap&&document.getElementById('map-workspace')?.classList?.contains('map-fullscreen'))toggleMapFullscreen(false);
+      const compactDirectory=window.matchMedia('(max-width:1000px)').matches;
       const previousPage=currentPage,hadCluster=!!clusterFocusIds,viewport={x:window.scrollX,y:window.scrollY},sidebar=document.getElementById('cards'),sidebarScroll=sidebar.scrollTop;
       if(fromMap){clusterFocusIds=null;clusterFocusCount=0}
       const nextSelection=!fromMap&&String(selectedId)===String(id)?null:v.id;
@@ -1205,8 +1215,8 @@
         showVendorPopup(v);
       }else if(!nextSelection){vendorPopup?.remove()}
       const card=document.querySelector(`.card[data-id="${v.id}"]`);
-      if(!fromMap&&previousPage===currentPage){sidebar.scrollTop=sidebarScroll;window.scrollTo({left:viewport.x,top:viewport.y,behavior:'instant'})}
-      if(card&&fromMap){card.focus({preventScroll:true});card.scrollIntoView({block:'nearest',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}
+      if(!fromMap&&previousPage===currentPage){if(!compactDirectory){sidebar.scrollTop=sidebarScroll;window.scrollTo({left:viewport.x,top:viewport.y,behavior:'instant'})}}
+      if(card&&fromMap){card.focus({preventScroll:true});card.scrollIntoView({block:compactDirectory?'start':'nearest',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}
     }
 
     function renderPublicReviews(v){

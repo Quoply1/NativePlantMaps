@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.2.0",
   "scripts": {
-    "build": "node build-pages.mjs",
+    "build": "node build-pages.mjs && node tests/mobile-directory.mjs && node tests/pagination.mjs && node tests/provider-media-status.mjs",
     "dev": "node dev-server.mjs"
   }
 }

@@ -11,8 +11,11 @@
       "checkedUrls": [
         "https://wccf-ny.org/npc-plant-sale/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "excluded-from-active-directory",
+      "reason": "Excluded from the plant-seller directory at the user's request: current plant sales are not established for this educational center.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "not-listed",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "the-prairie-flower-spencer",
@@ -23,8 +26,12 @@
         "https://www.visitiowafarms.org/prairie-flower",
         "https://www.theprairieflower.com/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Existing packaged logo opened and inspected in this review; correct nursery identity retained.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/the-prairie-flower-spencer-logo-transparent-v1.webp"
     },
     {
       "id": "arcadia-natives",
@@ -34,8 +41,12 @@
       "checkedUrls": [
         "https://arcadianatives.com/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-undefined",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://i0.wp.com/arcadianatives.com/wp-content/uploads/2026/09/wp-17894849566913352167897568432037.jpg?resize=1024%2C768&ssl=1"
     },
     {
       "id": "armadillo-gardens",
@@ -45,8 +56,12 @@
       "checkedUrls": [
         "https://www.armadillogardens.com/home"
       ],
-      "outcome": "retained",
-      "reason": "Preserve the official logo explicitly requested by the user. Freshly inspected garden photographs remain available as source evidence only."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/armadillo-gardens-reviewed-v2.webp"
     },
     {
       "id": "bendy-stem-farm-dimondale",
@@ -56,8 +71,12 @@
       "checkedUrls": [
         "https://www.bendystemfarm.com/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-undefined",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://images.squarespace-cdn.com/content/v1/6404dc9f2dd52a77ee6a1d8d/c61e5737-85bc-4785-a6ac-fd6e45f6f135/772D519E-BAE4-4226-876B-A7C306D277F2.jpg"
     },
     {
       "id": "black-cap-farm-onekama",
@@ -67,8 +86,12 @@
       "checkedUrls": [
         "https://www.blackcapplants.com/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/black-cap-farm-onekama-reviewed-v2.webp"
     },
     {
       "id": "butterfly-effect-farm-westport",
@@ -78,8 +101,12 @@
       "checkedUrls": [
         "https://www.butterflyeffectfarm.com/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/butterfly-effect-farm-westport-nursery-photo-v1.webp"
     },
     {
       "id": "earth-tech-environmental-bonita-springs",
@@ -89,8 +116,12 @@
       "checkedUrls": [
         "https://eteflorida.com/native-plant-nursery/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source returned 406; retain existing verified media pending a usable official photo."
+      "outcome": "external-image-configured",
+      "reason": "Source-published media URL and nursery attribution confirmed. Independent pixel review and live rendering were unavailable in this session.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "external-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://eteflorida.com/wp-content/uploads/2021/08/thumbnail_IMG_2270-copy.jpeg"
     },
     {
       "id": "green-mountain-natives",
@@ -100,8 +131,12 @@
       "checkedUrls": [
         "https://greenmountainnatives.com/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source returned 406; retain existing verified media pending a usable official photo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Existing packaged logo opened and inspected in this review; correct nursery identity retained.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/green-mountain-natives-reviewed-v2.webp"
     },
     {
       "id": "mill-creek-greenhouses",
@@ -111,8 +146,12 @@
       "checkedUrls": [
         "https://millcreekgreenhousescolumbia.co/"
       ],
-      "outcome": "unresolved",
-      "reason": "Only website image is a Getty stock portrait; rejected under no-people preference. No nursery/plant/logo media in root CSS or image inventory."
+      "outcome": "external-image-configured",
+      "reason": "Source-published media URL and nursery attribution confirmed. Independent pixel review and live rendering were unavailable in this session.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "external-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://cdn9.localdatacdn.com/sc/columbia/7940331/original/B4igSSyevQ.jpg"
     },
     {
       "id": "cornucopia-plants",
@@ -122,8 +161,12 @@
       "checkedUrls": [
         "https://cornucopiaplants.com/"
       ],
-      "outcome": "retained",
-      "reason": "Official source returned 406; retain existing verified media pending a usable official photo."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://cornucopiaplants.com/wp-content/uploads/2022/12/IMGP0596-scaled.jpg"
     },
     {
       "id": "greenscape-gardens-manchester",
@@ -133,8 +176,12 @@
       "checkedUrls": [
         "https://www.greenscapegardens.com/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Existing packaged logo opened and inspected in this review; correct nursery identity retained.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/greenscape-gardens-manchester-logo-transparent-v1.webp"
     },
     {
       "id": "lichterman-native-plant-sales",
@@ -144,8 +191,12 @@
       "checkedUrls": [
         "https://moshmemphis.com/explore/lichterman-nature-center/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/lichterman-native-plant-sales-reviewed-v2.webp"
     },
     {
       "id": "midtown-bramble-bloom",
@@ -155,8 +206,12 @@
       "checkedUrls": [
         "https://midtownbramble.com/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/midtown-bramble-bloom-reviewed-v2.webp"
     },
     {
       "id": "mt-cuba-center",
@@ -166,8 +221,12 @@
       "checkedUrls": [
         "https://mtcubacenter.org/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-undefined",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://mtcubacenter.org/wp-content/uploads/2018/03/Inviting-Wildlife-e1520458560491.jpg"
     },
     {
       "id": "native-roots-plant-market",
@@ -177,8 +236,12 @@
       "checkedUrls": [
         "https://nativerootscincy.com/plant-market/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://nativerootscincy.com/wp-content/uploads/2026/07/45112730-63CD-485A-8795-F88C3976EA71.png"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/native-roots-plant-market-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "nbk-native-nursery",
@@ -188,8 +251,12 @@
       "checkedUrls": [
         "https://nbkparks.org/nbk-parks-native-nursery/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nbkparks.org/wp-content/uploads/2026/05/img_northbrooklynparksalliance_01_2025_Under-the-K-Native-Nursery_credit-Mark-Davis-1.jpg"
     },
     {
       "id": "north-shore-plant-company",
@@ -199,8 +266,12 @@
       "checkedUrls": [
         "https://www.northshoreplantcompany.com/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-undefined",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://www.northshoreplantcompany.com/cdn/shop/files/IMG_2049.jpg?v=1736553344&width=3840"
     },
     {
       "id": "plant-nebraska",
@@ -210,8 +281,12 @@
       "checkedUrls": [
         "https://plantnebraska.org/how-to-help/shop/plant-sales.html"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-undefined",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://cdn.firespring.com/images/34ff99b8-9687-4f1a-8b42-9d53a936aad4.jpg"
     },
     {
       "id": "portland-nursery-division",
@@ -222,8 +297,12 @@
         "https://portlandnursery.com/plant-library/natives/",
         "https://portlandnursery.com/about/division-location/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://portlandnursery.com/wp-content/uploads/2026/05/Salmonberry-Rubus-spectabilis-1-scaled.jpeg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/portland-nursery-division-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "reflection-riding-native-plant-nursery",
@@ -233,8 +312,12 @@
       "checkedUrls": [
         "https://reflectionriding.org/buy-native-plants"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-undefined",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://images.squarespace-cdn.com/content/v1/5f68be4f3c03e17666b8c09c/1740589431159-2DYT62HBJQXD9G7VQLLA/trillium1.jpg"
     },
     {
       "id": "russells-garden-center",
@@ -244,8 +327,12 @@
       "checkedUrls": [
         "https://www.russellsgardencenter.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://static.wixstatic.com/media/15d0317ce33d471c9f75d22584685a58.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/russells-garden-center-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "shy-valley-farm",
@@ -255,8 +342,12 @@
       "checkedUrls": [
         "https://www.shyvalleyfarm.com/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-undefined",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://images.squarespace-cdn.com/content/v1/57f4d22c1b631b125c30359c/1487171349800-NG5VPJSNR29K6E2W9HS3/sage+in+flower+horizontal.JPG"
     },
     {
       "id": "greenhouse-project-carson-city",
@@ -266,8 +357,12 @@
       "checkedUrls": [
         "https://www.carsoncitygreenhouse.org/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://static.wixstatic.com/media/65befc_672ab2a50cee479b8764389400e5dc81~mv2.jpeg"
     },
     {
       "id": "nature-foundation-wintergreen",
@@ -277,8 +372,12 @@
       "checkedUrls": [
         "https://tnfw.org/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-undefined",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://tnfw.org/wp-content/uploads/2024/07/D0D5938F-7C20-4651-A1E9-42740A6FEF08_1_201_a-scaled.jpeg"
     },
     {
       "id": "wild-birds-unlimited-mcallen",
@@ -288,8 +387,11 @@
       "checkedUrls": [
         "https://mcallen.wbu.com/native-plants"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "excluded-from-active-directory",
+      "reason": "Excluded at the user's request: this bird-feeding franchise location is not being presented as a confirmed plant seller.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "not-listed",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "wild-gardens-nursery",
@@ -299,8 +401,12 @@
       "checkedUrls": [
         "https://www.wildgardensnursery.com/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-undefined",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://images.squarespace-cdn.com/content/v1/5ecbcbbeb8a2b271070cb0f2/1662741202212-KV9PFQB5W6WDAENZI6Q9/image-asset.jpeg"
     },
     {
       "id": "ironweed-native-plant-nursery",
@@ -312,8 +418,12 @@
         "https://www.ironweednursery.com/aboutus.php",
         "https://www.ironweednursery.com/Blue-Wood-Aster-p/symcor1.htm"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://cdn4.volusion.store/yttmr-eqern/v/vspfiles/photos/Symcor1-2.jpg?v-cache=1474820949"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/ironweed-native-plant-nursery-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "alaska-botanical-garden-nursery",
@@ -324,8 +434,12 @@
         "https://www.alaskabg.org/",
         "https://www.alaskabg.org/nursery-plant-sales"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "http://static1.squarespace.com/static/616714e4784be422bb89da49/t/6222b1e5e369cb03970734a5/1646440940901/PlantSale2021.jfif?format=1500w"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/alaska-botanical-garden-nursery-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "bremo-trees-bremo-bluff",
@@ -335,8 +449,12 @@
       "checkedUrls": [
         "https://bremotrees.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://bremotrees.com/wp-content/uploads/2020/03/IMG_1712-scaled.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/bremo-trees-bremo-bluff-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "iowa-state-forest-nursery",
@@ -347,8 +465,12 @@
         "https://www.iowadnr.gov/programs-services/forestry-resources/state-forest-nursery-program",
         "https://nursery.iowadnr.gov/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://nursery.iowadnr.gov/assets/images/Nursery spring 2025 with text.PNG"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/iowa-state-forest-nursery-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "birds-nest-natives",
@@ -358,8 +480,12 @@
       "checkedUrls": [
         "https://www.birdsnestnatives.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://static.wixstatic.com/media/f4a1e8_e3e460c5076242e0bed4006854f02bb4~mv2.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/birds-nest-natives-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "busy-bee-nursery",
@@ -369,8 +495,12 @@
       "checkedUrls": [
         "https://busybeenurseryandconsulting.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://i0.wp.com/busybeenurseryandconsulting.com/wp-content/uploads/2021/09/03_butterfly.jpg?fit=500%2C500&ssl=1"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/busy-bee-nursery-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "chattanooga-native-plant-nursery",
@@ -380,8 +510,12 @@
       "checkedUrls": [
         "https://chattanooganativeplants.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://chattanooganativeplants.com/cdn/shop/files/Agastache_foeniculum.jpg?v=1773788317&width=533"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/chattanooga-native-plant-nursery-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "checkerspot-farm",
@@ -391,8 +525,12 @@
       "checkedUrls": [
         "https://www.checkerspotfarm.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://static.wixstatic.com/media/6cfc45_7f17b72d44c540e8a873ed8b952dfa77~mv2.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/checkerspot-farm-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "chickadee-natives-folsom",
@@ -402,8 +540,12 @@
       "checkedUrls": [
         "https://chickadeenatives.com/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source returned 406; retain existing verified media pending a usable official photo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Existing packaged logo opened and inspected in this review; correct nursery identity retained.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/chickadee-natives-folsom-reviewed-v2.webp"
     },
     {
       "id": "grow-native-nursery-california-botanic",
@@ -414,8 +556,12 @@
         "https://www.calbg.org/grow-native-nursery/gnn",
         "https://www.calbg.org/grow-native-nursery/production-nursery"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://cdn.prod.website-files.com/59613419dcbd9b40dceb57a6/5acd870fcfaa81256071b340_nursery%201.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/grow-native-nursery-california-botanic-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "montana-plants-missoula",
@@ -425,8 +571,12 @@
       "checkedUrls": [
         "https://mtnativeplants.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://mtnativeplants.com/wp-content/uploads/2024/02/IMG_5349-2-scaled.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/montana-plants-missoula-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "night-song-native-plant-nursery-canton",
@@ -436,8 +586,12 @@
       "checkedUrls": [
         "https://www.nightsongnatives.com/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Existing packaged logo file opened; the user confirms this listing already displays an image. Asset presence and rendering inputs confirmed; dark-on-transparent contrast was not rechecked in a browser.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/night-song-native-plant-nursery-canton-logo-transparent-v1.webp"
     },
     {
       "id": "pipilo-native-plants",
@@ -448,8 +602,12 @@
         "https://www.pipilonatives.com/",
         "https://www.pipilonatives.com/shop"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://static.wixstatic.com/media/61f7ee_74e1a142090a4c95a73fca9b229c3853~mv2.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/pipilo-native-plants-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "southern-branch-vb-farmers-market",
@@ -459,8 +617,12 @@
       "checkedUrls": [
         "https://southernbranchnursery.com/virginia-beach"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://images.squarespace-cdn.com/content/v1/5ece44dff1c440543d369752/1779909236331-WEP3A1U1V4V7K0CD11XR/image-asset.jpeg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/southern-branch-vb-farmers-market-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "willamette-gardens",
@@ -470,8 +632,12 @@
       "checkedUrls": [
         "https://www.willamettegardens.com/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/willamette-gardens-reviewed-v2.webp"
     },
     {
       "id": "smoke-camp-crafts",
@@ -481,8 +647,12 @@
       "checkedUrls": [
         "https://smokecampcrafts.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://smokecampcrafts.com/cdn/shop/products/milkwd2_ca1b9ec8-a1a6-4810-878e-a66918ffde55.jpg?v=1734787664&width=220"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/smoke-camp-crafts-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "erics-prairie",
@@ -492,8 +662,12 @@
       "checkedUrls": [
         "https://www.ericsprairie.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://images.squarespace-cdn.com/content/v1/687163de592a6f5be5926af0/31ad1dbb-b3a6-470b-b3da-08c0e92225cf/Home+page+background.png"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/erics-prairie-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "livs-native-nursery-milan",
@@ -504,8 +678,12 @@
         "https://livsnativenursery.com/",
         "https://livsnativenursery.com/plants"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "external-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://img1.wsimg.com/isteam/ip/6c9c38c6-1703-4839-8cba-c8105e1eccd7/favicon/3ef7180d-ea19-412e-bc54-9835c96abe31.png/:/rs=w:57,h:57,m"
     },
     {
       "id": "neighborhood-native-plants",
@@ -515,8 +693,12 @@
       "checkedUrls": [
         "https://neighborhoodplants.org/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source returned 406; retain existing verified media pending a usable official photo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/neighborhood-native-plants-logo-transparent-v1.webp"
     },
     {
       "id": "river-city-natives",
@@ -526,8 +708,12 @@
       "checkedUrls": [
         "https://www.rivercitynatives.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://static.wixstatic.com/media/62b5bd_6b80ff10b25543aeb47efc4bce3e7a56~mv2.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/river-city-natives-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "tapteal-native-plants",
@@ -537,8 +723,12 @@
       "checkedUrls": [
         "https://www.taptealnativeplants.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "http://static1.squarespace.com/static/597389bcd7bdcef6477d815e/t/5f94714b86c6207d284f97a4/1603563878657/20180509_171244.jpg?format=1500w"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/tapteal-native-plants-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "tend-native-plants",
@@ -548,8 +738,12 @@
       "checkedUrls": [
         "https://tendnativeplants.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://tendnativeplants.com/cdn/shop/files/jpg_20230620_115909_0000.jpg?v=1736808306&width=3840"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/tend-native-plants-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "naturally-native-nursery-south-bend",
@@ -561,8 +755,12 @@
         "https://www.naturallynative.net/flowers/",
         "https://www.naturallynative.net/about-nnn/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://www.naturallynative.net/wp-content/uploads/2013/02/cropped-Andropogon-scoparius-little-bluestem-thumbnail1.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/naturally-native-nursery-south-bend-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "4m-farms",
@@ -572,8 +770,12 @@
       "checkedUrls": [
         "https://mcallen.wbu.com/local-resources"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/4m-farms-reviewed-v2.webp"
     },
     {
       "id": "baker-environmental-nursery-hoschton",
@@ -583,8 +785,12 @@
       "checkedUrls": [
         "https://www.bakerenvironmentalnursery.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://bakerenvironmentalnursery.com/wp-content/uploads/2025/10/Copy-of-Bakers-Ferns-1-300x300.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/baker-environmental-nursery-hoschton-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "harris-nature-center-plant-sale",
@@ -594,8 +800,12 @@
       "checkedUrls": [
         "https://www.meridian.mi.us/recreation-leisure/harris-nature-center/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://media-002-us.cdn.govstack.com/meridian-us/media/ocjlcgbj/638089570843900000.jfif?width=400&height=300&v=1dd61989d253ed0&format=webp"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/harris-nature-center-plant-sale-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "high-plains-environmental-center",
@@ -605,8 +815,12 @@
       "checkedUrls": [
         "https://suburbitat.org/native-plant-nursery/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://suburbitat.org/wp-content/uploads/2024/12/Nursery2.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/high-plains-environmental-center-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "kansas-plant-farm",
@@ -616,8 +830,12 @@
       "checkedUrls": [
         "https://kansasplantfarm.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://kansasplantfarm.com/img/product/thumb/806/Opuntiahumifusa16.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/kansas-plant-farm-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "lern-rva",
@@ -627,8 +845,12 @@
       "checkedUrls": [
         "https://www.lern-rva.org/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://images.squarespace-cdn.com/content/v1/65afc98606b0713da7899437/eec857d6-8a6f-4a99-abfb-d680339eea6c/SwampMilkweed+w+Monarch-ext-adj-v2+copy.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/lern-rva-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "mad-farmers-collective",
@@ -638,8 +860,12 @@
       "checkedUrls": [
         "https://madfarmersindy.com/collections/native-plants"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://madfarmersindy.com/cdn/shop/files/Redbudmissouribotanicalgardens.jpg?v=1754868214&width=533"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/mad-farmers-collective-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "our-city-forest-community-nursery",
@@ -649,8 +875,12 @@
       "checkedUrls": [
         "https://www.ourcityforest.org/nursery"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://images.squarespace-cdn.com/content/v1/545bbd7ee4b032c1794c4020/1421957221486-NAVHZCW77PO40EY4ZWBJ/DSC_5632.JPG"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/our-city-forest-community-nursery-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "pollinator-project-rogue-valley",
@@ -661,8 +891,12 @@
         "https://www.pollinatorprojectroguevalley.org/",
         "https://www.pollinatorprojectroguevalley.org/growing-plants-for-pollinators"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "external-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://static.wixstatic.com/media/9290bd_2f8b831a2e3e40f0b078cee01323fad2~mv2.png"
     },
     {
       "id": "washoe-state-tree-nursery",
@@ -672,8 +906,12 @@
       "checkedUrls": [
         "https://forestry.nv.gov/washoe-state-tree-nursery"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "external-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://forestry.nv.gov/assets/images/apple-touch-icon.png"
     },
     {
       "id": "great-bear-native-plants",
@@ -683,8 +921,12 @@
       "checkedUrls": [
         "https://www.greatbearnativeplants.com/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "external-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://static.wixstatic.com/media/680ca6_d2f31a2f825849588475d961e8c78801~mv2.jpg"
     },
     {
       "id": "detroit-wildflower-nursery",
@@ -694,8 +936,12 @@
       "checkedUrls": [
         "https://www.detroitwildflowers.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQc-dZ7PMAW88GzPwyHDnFkLy4oLkvExG4Ux7614FMdlY4_pCjOgSG9uoH-t7sYLZ2UaCRa4yBad-y-sY3UQyPAg0Cp1fIRXqzdPP1RHanK8kIqvEOrQBqyXb9cvCr4wzDosxxr69inuuC7F0YDz6tBkV6aDBixVsQ2-ktqnVE-1kbLoEd9DZKp2XznV0o-wHtpppU4EMWEzgf4oIZ1CX0ctbGdbJLHPfFNSDUW_0S8=w1280"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/detroit-wildflower-nursery-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "milkweed-monarchy-williamsport",
@@ -705,8 +951,12 @@
       "checkedUrls": [
         "http://www.milkweedmonarchy.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "http://www.milkweedmonarchy.com/images/logo-610.jpeg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/milkweed-monarchy-williamsport-logo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "maine-audubon-native-sale-falmouth",
@@ -718,8 +968,12 @@
         "https://shop.mainenativeplants.org/",
         "https://www.maineaudubon.org/projects/plants/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/maine-audubon-native-sale-falmouth-reviewed-v2.webp"
     },
     {
       "id": "maine-audubon-native-sale-holden",
@@ -729,8 +983,12 @@
       "checkedUrls": [
         "https://mainenativeplants.org/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/maine-audubon-native-sale-holden-reviewed-v2.webp"
     },
     {
       "id": "cofers-home-and-garden",
@@ -741,8 +999,11 @@
         "https://cofershomeandgarden.com/",
         "http://cofershomeandgarden.com/"
       ],
-      "outcome": "connection-failed",
-      "reason": "Browser HTTP2 connection error and HTTP upstream connection termination prevented HTML and image retrieval."
+      "outcome": "no-image-configured",
+      "reason": "Browser HTTP2 connection error and HTTP upstream connection termination prevented HTML and image retrieval.",
+      "replacementSearchOutcome": "connection-failed",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "western-garden-center-salt-lake",
@@ -750,8 +1011,11 @@
       "originalPage": 11,
       "originalPosition": 517,
       "checkedUrls": [],
-      "outcome": "closed-removed",
-      "reason": "User confirmed closure on November 21, 2026; excluded from the active directory."
+      "outcome": "excluded-from-active-directory",
+      "reason": "Not an active plant-seller listing.",
+      "replacementSearchOutcome": "closed-removed",
+      "imageStatus": "not-listed",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "cattail-corner-howard-lake",
@@ -761,8 +1025,12 @@
       "checkedUrls": [
         "http://www.cattailcorner.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "http://www.cattailcorner.com/sitebuildercontent/sitebuilderpictures/WebsiteLogo.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/cattail-corner-howard-lake-logo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "wasco-nursery-st-charles-il",
@@ -772,8 +1040,11 @@
       "checkedUrls": [
         "https://www.wasconursery.com/plants/"
       ],
-      "outcome": "access-blocked",
-      "reason": "Live browser displayed Cloudflare Sorry, you have been blocked; photo extraction stopped."
+      "outcome": "no-image-configured",
+      "reason": "Live browser displayed Cloudflare Sorry, you have been blocked; photo extraction stopped.",
+      "replacementSearchOutcome": "access-blocked",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "overhill-gardens-tn",
@@ -783,8 +1054,12 @@
       "checkedUrls": [
         "https://www.overhillgardens.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://www.overhillgardens.com/images/flow.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/overhill-gardens-tn-logo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "chiappini-farm-native-nursery-hawthorne",
@@ -794,8 +1069,12 @@
       "checkedUrls": [
         "https://chiappinifarm.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://chiappinifarm.com/wp-content/uploads/2018/02/Fringe-Tree-2.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/chiappini-farm-native-nursery-hawthorne-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "goose-valley-gardens-harrisburg",
@@ -805,8 +1084,12 @@
       "checkedUrls": [
         "https://goosevalleygardens.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://goosevalleygardens.com/_assets/media/71a59db170f875d71c6f9022ddfd323b.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/goose-valley-gardens-harrisburg-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "nearly-wild-native-flowers",
@@ -816,8 +1099,12 @@
       "checkedUrls": [
         "https://thenearlywild.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://thenearlywild.com/_assets/media/e01be8f2b2e79199a5a467aab8230916.jpg"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/nearly-wild-native-flowers-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "the-farm-upstream-jericho",
@@ -827,8 +1114,12 @@
       "checkedUrls": [
         "https://www.thefarmupstream.com/native-plants"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQeXmg75IocV3y-ql6mwbv1GDDUPvxFENPQmmPkDZzniyxfUja4hYc7NbRkKcPRYRphijapTuhBhi1Ic5Je036WYQUhvrZzBnbYtwnsJDUF4KqxJWdZz9F-tsW3YxIcCfgwx_pXK_nAxJGCFmiDWZLybl2gKip2fAxC1XoE1C4PSQ_ULKK9iqiU19J_VZxE=w16383"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/the-farm-upstream-jericho-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "twin-peaks-native-plants-mccall",
@@ -840,8 +1131,12 @@
         "https://twinpeaksnursery.com/home.html",
         "https://twinpeaksnursery.com/whatwegrow.html"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://twinpeaksnursery.com/images/160_DSCN2155.JPG"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/twin-peaks-native-plants-mccall-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "doak-creek-native-nursery",
@@ -851,8 +1146,11 @@
       "checkedUrls": [
         "http://doakcreeknursery.com/"
       ],
-      "outcome": "unresolved",
-      "reason": "Both HTTPS and HTTP official pages failed to provide readable content/media; parent browser observed HTTP2 error."
+      "outcome": "no-image-configured",
+      "reason": "Both HTTPS and HTTP official pages failed to provide readable content/media; parent browser observed HTTP2 error.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "calyx-native-nursery-york",
@@ -862,8 +1160,11 @@
       "checkedUrls": [
         "https://calyxnativenursery.com/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official site currently protected/coming-soon; no usable plant/nursery imagery."
+      "outcome": "no-image-configured",
+      "reason": "Official site currently protected/coming-soon; no usable plant/nursery imagery.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "fox-hill-gardens-state-college",
@@ -873,8 +1174,11 @@
       "checkedUrls": [
         "https://foxhillgardens.com/availability/"
       ],
-      "outcome": "access-blocked",
-      "reason": "Earlier browser origin access restriction remains unresolved; did not circumvent it or invent a nursery image."
+      "outcome": "no-image-configured",
+      "reason": "Earlier browser origin access restriction remains unresolved; did not circumvent it or invent a nursery image.",
+      "replacementSearchOutcome": "access-blocked",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "nh-state-forest-nursery-boscawen",
@@ -884,8 +1188,11 @@
       "checkedUrls": [
         "https://buynhseedlings.com/contact-us/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official nursery contact site access limited by Wordfence; no usable verified photo recovered."
+      "outcome": "no-image-configured",
+      "reason": "Official nursery contact site access limited by Wordfence; no usable verified photo recovered.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "blue-meadows-farm-pine-mountain",
@@ -896,8 +1203,11 @@
         "http://www.bluemeadowsfarm.com/",
         "http://www.bluemeadowsfarm.com/about-us.html"
       ],
-      "outcome": "unresolved",
-      "reason": "Official About page says not a retail shop and taking a two-year sabbatical; images being checked separately."
+      "outcome": "no-image-configured",
+      "reason": "Official About page says not a retail shop and taking a two-year sabbatical; images being checked separately.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "sacvalley-cnps-nursery-rancho-cordova",
@@ -908,8 +1218,12 @@
         "https://sacvalleycnps.org/nursery/",
         "https://chwd.org/wp-content/uploads/Citrus-Heights-Water-District-September-2022.pdf"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://chwd.org/wp-content/uploads/Citrus-Heights-Water-District-September-2022.pdf#page=33"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/sacvalley-cnps-nursery-rancho-cordova-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "zoes-plants",
@@ -920,7 +1234,7 @@
         "https://zoesplants.com/",
         "https://www.ardsleypollinatorpathway.org/home/quick-start-guides/quick-start-sourcing-plants"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Ardsley source specifically documents native plugs in DobbsFerry and mickey@zoesplants.com. Officialdomain503; GoogleSite source images belong to mixed suppliers/association and cannot be attributed to Zoe. No unrelated logo used.",
       "pageEvidence": [
         {
@@ -935,7 +1249,10 @@
           "title": "<title>Ardsley Pollinator Pathway - Quick Start - Sourcing Plants</title>",
           "imageCount": 8
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "calvin-ecosystem-native-plant-sale",
@@ -946,8 +1263,8 @@
         "https://calvin.edu/ecosystem-preserve/native-gardens/native-plant-sale",
         "https://calvin.edu/ecosystem-preserve/native-gardens/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://calvin.edu/sites/default/files/styles/wide/public/2024-10/Native%20Gardens.png?itok=OkMnzUq-",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/calvin-ecosystem-native-plant-sale-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://calvin.edu/ecosystem-preserve/native-gardens/native-plant-sale",
@@ -955,7 +1272,11 @@
           "imageCount": 9,
           "bodyCharacters": 3130
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "humbirds-natives-spokane",
@@ -965,7 +1286,7 @@
       "checkedUrls": [
         "https://www.wnps.org/ne-programs/northeast-wa-gardening"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "WNPS confirms the Spokane nursery and contact; supplied page contains association images rather than seller media. No official public media source recovered.",
       "pageEvidence": [
         {
@@ -974,7 +1295,10 @@
           "imageCount": 3,
           "bodyCharacters": 5003
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "queens-nursery-memphis",
@@ -984,8 +1308,12 @@
       "checkedUrls": [
         "https://queensnursery.square.site/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://5b2ea0e571c81641e89a.cdn6.editmysite.com/uploads/b/5b2ea0e571c81641e89a38cd00dcc38c86c7bd04ed566cb57d86f3daf75a1d3f/2025-06-26_06-22-17_1750936949.png?width=1600&optimize=medium&height=480&fit=cover&dpr=1"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/queens-nursery-memphis-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "rebel-hill-farm-maine",
@@ -996,8 +1324,8 @@
         "https://rebelhillfarm.com/",
         "https://www.mainenativeplantcoop.org/nurseries"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://rebelhillfarm.com/wp-content/uploads/2020/04/img_0268.jpg?w=1440",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/rebel-hill-farm-maine-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://rebelhillfarm.com/",
@@ -1011,7 +1339,11 @@
           "imageCount": 14,
           "bodyCharacters": 7936
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "robledo-vista-las-cruces",
@@ -1022,8 +1354,12 @@
         "http://www.robledovista.com/home.html",
         "http://www.robledovista.com/about.html"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://nebula.wsimg.com/584be63554d7b7a0e6876b6d36d57814?AccessKeyId=4CCC8F2262FB39A9C5F9&disposition=0&alloworigin=1"
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/robledo-vista-las-cruces-photo-v3.webp",
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "backhouse-garden-ms",
@@ -1033,8 +1369,12 @@
       "checkedUrls": [
         "https://www.facebook.com/people/Backhouse-Garden-LLC/61559733694846/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/backhouse-garden-ms-reviewed-v2.webp"
     },
     {
       "id": "native-roots-nursery-nc",
@@ -1044,8 +1384,12 @@
       "checkedUrls": [
         "https://www.plantant.com/nursery-availability/1005929/native-roots-nursery"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/native-roots-nursery-nc-reviewed-v2.webp"
     },
     {
       "id": "tait-farm-native-plant-nursery",
@@ -1055,8 +1399,12 @@
       "checkedUrls": [
         "https://www.facebook.com/taitfarmlocal"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/tait-farm-native-plant-nursery-reviewed-v2.webp"
     },
     {
       "id": "fort-pond-native-plants",
@@ -1066,8 +1414,12 @@
       "checkedUrls": [
         "https://visitmontauk.org/members/125/fort-pond-native-plants/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/fort-pond-native-plants-reviewed-v2.webp"
     },
     {
       "id": "ser-uw-native-plant-nursery-seattle",
@@ -1077,8 +1429,12 @@
       "checkedUrls": [
         "https://sites.uw.edu/seruwnursery/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/ser-uw-native-plant-nursery-seattle-reviewed-v2.webp"
     },
     {
       "id": "wild-south-native-nursery",
@@ -1088,8 +1444,12 @@
       "checkedUrls": [
         "https://www.facebook.com/people/Wild-South-Native-Nursery/61576786862578/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/wild-south-native-nursery-logo-transparent-v1.webp"
     },
     {
       "id": "midwest-natives-nursery",
@@ -1100,8 +1460,12 @@
         "https://www.midwestnativesnursery.com/uploads/b/bb1449f0-743d-11ea-8cb1-8121afc059a0/d075b720-f2c5-11f0-8162-7d4c3a0374dd.pdf",
         "https://www.midwestnativesnursery.com/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/midwest-natives-nursery-logo-transparent-v1.webp"
     },
     {
       "id": "state-botanical-garden-ga-sales",
@@ -1111,8 +1475,12 @@
       "checkedUrls": [
         "https://botgarden.uga.edu/"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/state-botanical-garden-ga-sales-reviewed-v2.webp"
     },
     {
       "id": "woodland-wonders-nursery",
@@ -1122,8 +1490,12 @@
       "checkedUrls": [
         "https://www.facebook.com/woodland.wonders.nursery"
       ],
-      "outcome": "retained",
-      "reason": "Existing photo retained after fresh source-page visit."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "retained",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/woodland-wonders-nursery-reviewed-v2.webp"
     },
     {
       "id": "earthwild-gardens",
@@ -1134,8 +1506,12 @@
         "https://plantnative.org/nursery/il/grayslake/earthwild-gardens",
         "https://earthwildgardens.com/"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "external-image-configured",
+      "reason": "External preview configuration checked; no new successful image fetch or visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "external-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://earthwildgardens.com/wp-content/uploads/2022/09/cropped-earthwildgardens.com-icon-32x32.png"
     },
     {
       "id": "bells-creek-wildflower-farm-walhalla",
@@ -1145,8 +1521,12 @@
       "checkedUrls": [
         "https://www.facebook.com/bellscreekwildflowerfarm"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/bells-creek-wildflower-farm-walhalla-reviewed-v2.webp"
     },
     {
       "id": "artemis-growers-michigan",
@@ -1156,8 +1536,12 @@
       "checkedUrls": [
         "https://www.nativeplantguild.com/growers/artemis-growers"
       ],
-      "outcome": "unresolved",
-      "reason": "Official source visited; reviewed available images did not yield a suitable people-free nursery or plant photo. Retain existing verified logo."
+      "outcome": "existing-packaged-image-confirmed",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed.",
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/artemis-growers-michigan-reviewed-v2.webp"
     },
     {
       "id": "natural-selections-nursery",
@@ -1168,7 +1552,7 @@
         "https://gardenclubofweaverville.org/native-plants/sources-of-native-plants/",
         "https://www.naturalselectionsnursery.com/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Official domain returns114-byte JavaScript redirect to /lander, consistent with parked domain rather than nursery content. NCWildflower directory confirms nursery name/contact; no authenticated current seller photo retrieved.",
       "pageEvidence": [
         {
@@ -1183,7 +1567,10 @@
           "imageCount": 0,
           "bodyCharacters": 0
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "bay-natives-nursery",
@@ -1195,7 +1582,7 @@
         "https://www.baynatives.com/",
         "http://www.baynatives.com/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Current Xerces confirms 10 Cargo Way nursery and baynatives.com. HTTP and HTTPS with/withoutwww return Site Unavailable403 (site host page), not nursery content. No current official image retrieved.",
       "pageEvidence": [
         {
@@ -1217,7 +1604,10 @@
           "bytes": 195,
           "imageCount": 0
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "nearly-native-nursery",
@@ -1232,8 +1622,8 @@
         "http://www.nearlynativenursery.com/PlantsDetail.cfm?ID=907",
         "http://www.nearlynativenursery.com/PlantsDetail.cfm?ID=473"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "http://www.nearlynativenursery.com/Images/transparent%20nnn%20pine%20tree.gif",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/nearly-native-nursery-logo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://gnps.org/plant_source/nearly-native-nursery/",
@@ -1271,7 +1661,11 @@
           "status": 500,
           "title": "<title>500 - Internal server error.</title>"
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-logo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "across-the-prairie-friends",
@@ -1281,7 +1675,7 @@
       "checkedUrls": [
         "https://www.facebook.com/acrossprairie"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Facebook preview is a holiday-hours poster, not a usable nursery or plant photograph.",
       "pageEvidence": [
         {
@@ -1290,7 +1684,10 @@
           "imageCount": 1,
           "bodyCharacters": 61
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "ohana-farms-marengo",
@@ -1300,7 +1697,7 @@
       "checkedUrls": [
         "https://www.ohana-farms.com/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. The linked original nursery domain returned no usable nursery HTML/media in this HTTP check.",
       "pageEvidence": [
         {
@@ -1309,7 +1706,10 @@
           "imageCount": 0,
           "bodyCharacters": 0
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "growing-empire-salt-lake-city",
@@ -1319,7 +1719,7 @@
       "checkedUrls": [
         "https://www.growingempire.net/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. The linked original nursery domain returned no usable nursery HTML/media in this HTTP check.",
       "pageEvidence": [
         {
@@ -1328,7 +1728,10 @@
           "imageCount": 0,
           "bodyCharacters": 98
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "brushwolf-prairies",
@@ -1339,7 +1742,7 @@
         "https://www.brushwolfprairies.com/",
         "https://www.npsot.org/chapters/post-oak/programs/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Official domain returned Wix ConnectYourDomain error; NPSOT reference has association images, not nursery photographs.",
       "pageEvidence": [
         {
@@ -1354,7 +1757,10 @@
           "imageCount": 8,
           "bodyCharacters": 4597
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "elkhorn-native-plant-nursery-moss-landing",
@@ -1366,8 +1772,8 @@
         "https://www.elkhornnursery.com/",
         "https://hilltromper.com/article/elkhorn-native-plant--nursery"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://hilltromper.com/sites/default/files/styles/img_624_x/public/field/image/Elkhorn-Nursery.jpg?itok=Kb24yTua",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/elkhorn-native-plant-nursery-moss-landing-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://plantnative.org/nd_ca.htm",
@@ -1381,7 +1787,11 @@
           "imageCount": 0,
           "bodyCharacters": 98
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "mostly-natives-nursery-point-reyes",
@@ -1394,7 +1804,7 @@
         "http://www.mostlynatives.com/",
         "http://mostlynatives.com/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Current Oakland municipal plant source document confirms Point Reyes54 BStreet unitD and mostlynatives.com. HTTP and HTTPS with/withoutwww and /plants return503; no official nursery image retrieved. Dedicated local newsphoto is owner portrait, excluded.",
       "pageEvidence": [
         {
@@ -1423,7 +1833,10 @@
           "bytes": 95,
           "imageCount": 0
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "shooting-star-nursery-ky",
@@ -1433,7 +1846,7 @@
       "checkedUrls": [
         "https://www.kyagr.com/AgBusiness/745"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "KY department listing photos use generic /agbusiness/images/6/farm.jpg and products1–4 placeholders; excluded to avoid misattribution.",
       "pageEvidence": [
         {
@@ -1442,7 +1855,10 @@
           "imageCount": 5,
           "bodyCharacters": 407
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "sugarbush-nursery-pa",
@@ -1453,7 +1869,7 @@
         "https://plantnative.org/nursery/pa/mohnton/sugarbush-nursery",
         "https://www.sugarbushnursery.com/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Official domain displays Coming Soon without nursery images; directory images are generic.",
       "pageEvidence": [
         {
@@ -1468,7 +1884,10 @@
           "imageCount": 0,
           "bodyCharacters": 85
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "nectar-bar-san-antonio",
@@ -1479,8 +1898,8 @@
         "https://www.npsot.org/chapters/san-antonio/nice-natives-improve-conserve-environments-san-antonio/",
         "https://sanantonioreport.org/the-nectar-bar-san-antonio-first-native-plant-nursery/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://i0.wp.com/sanantonioreport.org/wp-content/uploads/2023/03/Brenda-Bazan-drake-white-nectar-bar-native-plants-nursery-6.jpg?resize=780%2C520&ssl=1",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/nectar-bar-san-antonio-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://www.npsot.org/chapters/san-antonio/nice-natives-improve-conserve-environments-san-antonio/",
@@ -1488,7 +1907,11 @@
           "imageCount": 18,
           "bodyCharacters": 5430
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "five-star-nursery-orchard-brooklin",
@@ -1501,8 +1924,8 @@
         "https://www.nativemainegardens.org/nurseries",
         "https://5starorchard.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/APXyLQctpa2wr5lQ8PRAGkhzXgkAMSml6sZ8AGOHZgHNwBLJjoH3rXH7CB9HKR4cUHktkUjBV6iv_PXOQyAru_uDol4970nd66psyfl40d4pm1hHP5OvJvfI7iyXwSkOhGeu1LB6ycf0R6ztgyJ4QWUYM8kFenX4Q2QIfn1HHbD4bXSaTKakMwkOYOkiQNiqHLH8t3v4ZMZm4bCnaH6ujDg=w1280",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/five-star-nursery-orchard-brooklin-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://www.5starorchard.com/home",
@@ -1528,7 +1951,11 @@
           "imageCount": 0,
           "bodyCharacters": 98
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "dryland-horticulture",
@@ -1540,8 +1967,8 @@
         "https://drylandhorticulture.com/",
         "https://www.alta.com/stories/aec-spring-2023-newsletter"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://res.cloudinary.com/altaskiarea/image/upload/f_auto,q_7/v1685044695/resources/Alta-Environmental-Center/News/2022-23/IMG_3809.jpg",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/dryland-horticulture-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://drylandhorticulture.com/",
@@ -1549,7 +1976,11 @@
           "imageCount": 0,
           "bodyCharacters": 91
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "queens-native-plants",
@@ -1560,7 +1991,7 @@
         "https://newyorkmetroregion.wildones.org/local-nurseries/",
         "https://queensnynativeplants.com/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "NY nursery Coming Soon site has only branding; not the Tennessee Queens Nursery being handled separately by root.",
       "pageEvidence": [
         {
@@ -1575,7 +2006,10 @@
           "imageCount": 1,
           "bodyCharacters": 108
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "sunscapes-rare-plant-nursery-pueblo",
@@ -1586,7 +2020,7 @@
         "https://www.sunscapes.net/",
         "http://www.sunscapes.net/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "HTTP canonical domain returns NameBright Coming Soon parking page; HTTPS503. Current UNPS directory still cites same domain; no authenticated current nursery media recovered.",
       "pageEvidence": [
         {
@@ -1602,7 +2036,10 @@
           "bytes": 12520,
           "imageCount": 1
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "buckthorns-native-nursery",
@@ -1613,7 +2050,7 @@
         "https://xerces.org/native-plant-supplier/buckthorns-native-nursery",
         "https://buckthornsnativenursery.com/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. The linked original nursery domain returned no usable nursery HTML/media in this HTTP check.",
       "pageEvidence": [
         {
@@ -1628,7 +2065,10 @@
           "imageCount": 0,
           "bodyCharacters": 98
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "agave-farms-phoenix",
@@ -1640,8 +2080,8 @@
         "https://aznps.com/native-landscaping-partners/",
         "https://agave-farms.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://cdn.prod.website-files.com/5f10df36b2cf9a080d0b29cd/5f11e2e9cd7b15b4644b6612_DJI_0086%20(1).jpg",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/agave-farms-phoenix-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://www.agave-inc.com/corporate-responsibility",
@@ -1661,7 +2101,11 @@
           "imageCount": 0,
           "bodyCharacters": 98
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "birds-and-bees-nursery-portland",
@@ -1673,8 +2117,8 @@
         "https://portlandnativeplants.org/native-plant-nurseries",
         "https://birdsandbeespdx.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://karmalize.org/wp-content/uploads/2023/02/Birds-and-Bees-Nursery-2.jpg",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/birds-and-bees-nursery-portland-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://karmalize.org/business/birds-bees-nursery/",
@@ -1694,7 +2138,11 @@
           "imageCount": 0,
           "bodyCharacters": 98
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "green-mamas-garden-center",
@@ -1705,7 +2153,7 @@
         "https://plantnative.org/nursery/tx/north-richland-hills/green-mamas-organic-garden-center",
         "https://www.greenmamas.com/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. The linked original nursery domain returned no usable nursery HTML/media in this HTTP check.",
       "pageEvidence": [
         {
@@ -1720,7 +2168,10 @@
           "imageCount": 0,
           "bodyCharacters": 0
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "wilbers-seed-solutions",
@@ -1730,7 +2181,7 @@
       "checkedUrls": [
         "https://plantnative.org/nursery/sd/miller/wilbers-seed-solutions"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. No clearly attributable nursery/greenhouse/plant photograph was recovered from the checked pages.",
       "pageEvidence": [
         {
@@ -1739,7 +2190,10 @@
           "imageCount": 3,
           "bodyCharacters": 1589
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "windy-hill-plant-farm",
@@ -1750,8 +2204,11 @@
         "https://vnps.org/princewilliamwildflowersociety/wp-content/uploads/sites/12/dlm_uploads/2022/11/Wild-News-2005-September-October.pdf",
         "https://history.gcvirginia.org/wp-content/uploads/2024/05/2017_Fall_Symposium.pdf"
       ],
-      "outcome": "closed-removed",
-      "reason": "Closure in 2005 confirmed by primary Virginia Native Plant Society newsletter and later Garden Club of Virginia biography."
+      "outcome": "excluded-from-active-directory",
+      "reason": "Not an active plant-seller listing.",
+      "replacementSearchOutcome": "closed-removed",
+      "imageStatus": "not-listed",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "down-natures-path-greenville-oh",
@@ -1762,7 +2219,7 @@
         "https://www.dnpnatives.com/",
         "https://www.downnaturespath.com/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Correct dnpnatives.com recovered, but HTTPS fetches returned no usable body; root browser also observed HTTP2 error.",
       "pageEvidence": [
         {
@@ -1777,7 +2234,10 @@
           "imageCount": 0,
           "bodyCharacters": 98
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "gsu-pc-native-botanical-garden",
@@ -1789,8 +2249,8 @@
         "https://sites.gsu.edu/pcnativegarden/our-garden/",
         "https://sites.gsu.edu/pcnativegarden/wp-json/wp/v2/media?search=garden&per_page=10"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://bpb-us-w2.wpmucdn.com/sites.gsu.edu/dist/0/6396/files/2017/06/cropped-garden-panorama-6-17-27etdcu-270x270.jpg",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/gsu-pc-native-botanical-garden-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://sites.gsu.edu/pcnativegarden/",
@@ -1798,7 +2258,11 @@
           "imageCount": 0,
           "bodyCharacters": 1083
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "caddo-native-plant-company",
@@ -1810,8 +2274,8 @@
         "https://www.lnps.org/resources/plant-seed-sources/",
         "https://www.facebook.com/Caddonativeplantcompany"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://www.lnps.org/wp-content/uploads/2026/01/Fall-Winter-2025-corr2.pdf#page=14",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/caddo-native-plant-company-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://www.lnps.org/resources/plant-seed-sources/",
@@ -1825,7 +2289,11 @@
           "imageCount": 1,
           "bodyCharacters": 510
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "eastwoods-nursery",
@@ -1838,8 +2306,8 @@
         "https://eastwoodsorganics.com/",
         "https://ipm.cahnr.uconn.edu/connecticut-native-availability/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://eastwoodsorganics.com/cdn/shop/files/IMG_7354.jpg?v=1746987433&width=533",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/eastwoods-nursery-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://ipm.cahnr.uconn.edu/connecticut-native-availability/",
@@ -1853,7 +2321,11 @@
           "imageCount": 0,
           "bodyCharacters": 98
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "seven-springs-farm-six-mile",
@@ -1863,7 +2335,7 @@
       "checkedUrls": [
         "https://www.facebook.com/SevenSpringsFarmSixMileSC"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Facebook preview shows a small landscape/name promotional graphic; excluded in favor of a direct nursery or plant photograph.",
       "pageEvidence": [
         {
@@ -1872,7 +2344,10 @@
           "imageCount": 1,
           "bodyCharacters": 60
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "heritage-flower-farm-mukwonago",
@@ -1883,8 +2358,8 @@
         "https://www.xerces.org/native-plant-supplier/heritage-flower-farm",
         "https://heritageflowerfarm.com/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://www.heritageflowerfarm.com/wp-content/uploads/2017/12/homeImage.jpg",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/heritage-flower-farm-mukwonago-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://www.xerces.org/native-plant-supplier/heritage-flower-farm",
@@ -1898,7 +2373,11 @@
           "imageCount": 8,
           "bodyCharacters": 3677
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "blue-oak-horticulture-taylors",
@@ -1909,8 +2388,8 @@
         "https://www.blueoakhortsc.com/",
         "https://scnps.org/outside-vendors-make-the-spring-sale-even-better-2026/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://scnps.org/wp-content/uploads/2025/03/2025-03-March-FettermanPlant-Sale-Vendors_pawpaw_from-Blue-oak_Bridget-Fetterman_16x9.jpg",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/blue-oak-horticulture-taylors-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://www.blueoakhortsc.com/",
@@ -1918,7 +2397,11 @@
           "imageCount": 1,
           "bodyCharacters": 0
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "candlestick-point-native-plant-nursery",
@@ -1929,7 +2412,7 @@
         "https://www.sfenvironment.org/bee-friendly-plant-nurseries",
         "https://www.lejyouth.org/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. No clearly attributable nursery/greenhouse/plant photograph was recovered from the checked pages.",
       "pageEvidence": [
         {
@@ -1944,7 +2427,10 @@
           "imageCount": 0,
           "bodyCharacters": 164
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "green-thumb-nursery-godfrey",
@@ -1956,7 +2442,7 @@
         "https://grownative.org/",
         "https://www.thetelegraph.com/news/article/godfrey-native-plant-nursery-green-thumb-22230962.php"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Current GrowNative confirms Godfrey phone6185313285 and email, no website listed. Dedicated Telegraph feature May2026 describes actual nursery; article HTTP402 so cannot extract photo. Generic GrowNative header excluded.",
       "pageEvidence": [
         {
@@ -1978,7 +2464,10 @@
           "bytes": 161,
           "imageCount": 0
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "northeast-native-perennials",
@@ -1989,7 +2478,7 @@
         "https://plantnative.org/nursery/pa/quakertown/northeast-native-perennials",
         "https://nenativesandperennials.com/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Old domain did not provide nursery content; prior search surfaced unrelated investment content. No authenticated current seller photograph.",
       "pageEvidence": [
         {
@@ -2004,7 +2493,10 @@
           "imageCount": 0,
           "bodyCharacters": 0
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "wild-hare-prairie-native-nursery",
@@ -2014,7 +2506,7 @@
       "checkedUrls": [
         "https://www.facebook.com/WildHarePrairieNativeNursery/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Facebook preview is a person-focused portrait; excluded under requested image preference.",
       "pageEvidence": [
         {
@@ -2023,7 +2515,10 @@
           "imageCount": 1,
           "bodyCharacters": 32
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "dancing-bee-farmzzz-anderson",
@@ -2034,7 +2529,7 @@
         "https://mipn.org/wp-content/uploads/2026/03/MIPN-Midwest-Native-Plant-Nurseries-Directory_2026.pdf",
         "https://indiananativeplants.org/landscaping/where-to-buy/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. No clearly attributable nursery/greenhouse/plant photograph was recovered from the checked pages.",
       "pageEvidence": [
         {
@@ -2043,7 +2538,10 @@
           "imageCount": 0,
           "bodyCharacters": 164
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "seeds-of-alaska-juneau",
@@ -2053,7 +2551,7 @@
       "checkedUrls": [
         "https://plants.alaska.gov/nativeplantindex.htm"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. No clearly attributable nursery/greenhouse/plant photograph was recovered from the checked pages.",
       "pageEvidence": [
         {
@@ -2062,7 +2560,10 @@
           "imageCount": 2,
           "bodyCharacters": 12090
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "arctic-sun-gardening-anchorage",
@@ -2073,7 +2574,7 @@
         "https://plants.alaska.gov/nativeplantindex.htm",
         "https://www.arcticsungardens.org/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. The linked original nursery domain returned no usable nursery HTML/media in this HTTP check.",
       "pageEvidence": [
         {
@@ -2088,7 +2589,10 @@
           "imageCount": 0,
           "bodyCharacters": 98
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "morning-star-prairie-plants",
@@ -2098,7 +2602,7 @@
       "checkedUrls": [
         "https://www.npsot.org/chapters/clearlake/clc-buy-native-plants/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. No clearly attributable nursery/greenhouse/plant photograph was recovered from the checked pages.",
       "pageEvidence": [
         {
@@ -2107,7 +2611,10 @@
           "imageCount": 14,
           "bodyCharacters": 4010
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "moulton-hot-natives",
@@ -2119,8 +2626,8 @@
         "https://vnps.org/native-plant-nursery-list/entry/7985/",
         "https://moultonhotnatives.square.site/"
       ],
-      "outcome": "media-added-or-corrected",
-      "image": "https://141657850.cdn6.editmysite.com/uploads/1/4/1/6/141657850/DBUUWJD5VB32BMVXKSZNOD45.jpeg",
+      "outcome": "existing-packaged-image-confirmed",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/moulton-hot-natives-photo-v3.webp",
       "pageEvidence": [
         {
           "url": "https://moultonhotnatives.square.site/product/white-snakeroot-ageratina-altissima-va-ecotype/79",
@@ -2140,7 +2647,11 @@
           "imageCount": 0,
           "bodyCharacters": 0
         }
-      ]
+      ],
+      "replacementSearchOutcome": "media-added-or-corrected",
+      "imageStatus": "packaged-photo",
+      "currentMediaInventory": "provider-media-status.json",
+      "reason": "Configured preview and packaged asset presence checked against the current repository; no new visual review claimed."
     },
     {
       "id": "garden-delights-lazy-k-nursery",
@@ -2151,7 +2662,7 @@
         "https://gnps.org/plant_source/garden-delights-llc-and-lazy-k-nursery-inc/",
         "https://lazyknursery.com"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. The linked original nursery domain returned no usable nursery HTML/media in this HTTP check.",
       "pageEvidence": [
         {
@@ -2166,7 +2677,10 @@
           "imageCount": 0,
           "bodyCharacters": 98
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "natures-way-ocean-earth-homer",
@@ -2176,7 +2690,7 @@
       "checkedUrls": [
         "https://plants.alaska.gov/nativeplantindex.htm"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. No clearly attributable nursery/greenhouse/plant photograph was recovered from the checked pages.",
       "pageEvidence": [
         {
@@ -2185,7 +2699,10 @@
           "imageCount": 2,
           "bodyCharacters": 12090
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "notestein-native-nursery",
@@ -2196,7 +2713,7 @@
         "https://www.fann.org/professionals/detail/144",
         "https://southerngardening.org/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Supplied directory/reference checked; exposed images were directory/association branding or unrelated page media. The linked original nursery domain returned no usable nursery HTML/media in this HTTP check.",
       "pageEvidence": [
         {
@@ -2211,7 +2728,10 @@
           "imageCount": 0,
           "bodyCharacters": 98
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "pocket-prairies-des-moines",
@@ -2221,7 +2741,7 @@
       "checkedUrls": [
         "https://www.instagram.com/pocketprairiesdsm/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Instagram returned only generic platform branding; no attributable nursery image recovered.",
       "pageEvidence": [
         {
@@ -2230,7 +2750,10 @@
           "imageCount": 1,
           "bodyCharacters": 113
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     },
     {
       "id": "fritz-creek-gardens-homer",
@@ -2244,7 +2767,7 @@
         "http://www.alaskahardy.com/",
         "https://www.homeralaska.org/listing/alaska-hardy-gardens/3027/"
       ],
-      "outcome": "unresolved",
+      "outcome": "no-image-configured",
       "reason": "Official alaskahardy.com under HTTP/HTTPS now returns blank Untitled Document HTML with no media. Current Homer chamber confirms Alaska Hardy Gardens same phone but changed address; investigating its seller images.",
       "pageEvidence": [
         {
@@ -2278,7 +2801,10 @@
           "status": 403,
           "title": "<title>Access Denied</title>"
         }
-      ]
+      ],
+      "replacementSearchOutcome": "unresolved",
+      "imageStatus": "missing",
+      "currentMediaInventory": "provider-media-status.json"
     }
   ],
   "changes": [
@@ -3324,5 +3850,7 @@
       "text": "Queens Nursery grows Tennessee-native perennials, grasses, shrubs, and trees for pollinator gardens in the Memphis area. Plants are available through appointments, farmers markets, and seasonal sales listed on its official storefront."
     }
   ],
-  "imagePreference": "Nursery/greenhouse first, requested official logos retained, plants next. Avoid people-focused images and unrelated stock portraits."
+  "imagePreference": "Nursery/greenhouse first, requested official logos retained, plants next. Avoid people-focused images and unrelated stock portraits.",
+  "currentMediaInventory": "provider-media-status.json",
+  "statusClarification": "Image presence reflects the current repository; replacementSearchOutcome preserves the prior search result. Unresolved replacement research does not mean an existing logo or photo is absent."
 }
