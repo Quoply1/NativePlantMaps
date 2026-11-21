@@ -9,7 +9,7 @@ const vendors=await(await worker.fetch(new Request('https://preview.test/api/ven
 assert.equal(report.reviewedLastPages.length,142);assert.equal(new Set(report.reviewedLastPages.map(x=>x.id)).size,142);
 for(const row of report.reviewedLastPages){assert.ok(row.originalPage>=10&&row.originalPage<=12);assert.ok(row.outcome);assert.ok(row.image||row.reason);}
 for(const id of report.closedListings)assert.ok(!vendors.some(v=>v.id===id),'Closed nursery exposed: '+id);
-assert.equal(vendors.length,590);
+assert.equal(vendors.length,588);
 const env={ASSETS:{async fetch(request){const name=new URL(request.url).pathname.split('/').pop();const data=await readFile(new URL('../dist/assets/providers/'+name,import.meta.url));return new Response(request.method==='HEAD'?null:data,{headers:{'content-type':'image/webp'}});}}};
 for(const change of report.changes){
  const vendor=vendors.find(v=>v.id===change.id);assert.ok(vendor,change.id);assert.deepEqual(vendor.preview,change.preview);

@@ -7,6 +7,8 @@ import worker from '../dist/_worker.js';
 const report=JSON.parse(await readFile(new URL('../provider-background-review.json',import.meta.url),'utf8'));
 const latest=JSON.parse(await readFile(new URL('../provider-listing-review.json',import.meta.url),'utf8'));
 const current=JSON.parse(await readFile(new URL('../provider-final-pages-review.json',import.meta.url),'utf8'));
+const status=JSON.parse(await readFile(new URL('../provider-media-status.json',import.meta.url),'utf8'));
+const excluded=new Set(status.exclusions);
 const replacements=new Map([...latest.changes,...current.changes].map(change=>[change.id,change]));
 const imageDir=new URL('../dist/assets/providers/',import.meta.url);
 const files=new Set(await readdir(imageDir));
@@ -32,7 +34,7 @@ const alphaWebP=bytes=>{
 assert.equal(report.logoPreviewsReviewed,report.changes.length+report.unchanged.length);
 const checkedAssets=new Set();
 for(const change of report.changes){
-  const vendor=vendors.find(v=>v.id===change.id);assert.ok(vendor,change.id);
+  const vendor=vendors.find(v=>v.id===change.id);if(!vendor){assert.ok(excluded.has(change.id),change.id);continue;}assert.ok(vendor,change.id);
   if(!change.preview&&replacements.has(change.id)){assert.deepEqual(vendor.preview,replacements.get(change.id).preview);continue;}
   if(!change.preview){assert.ok(!vendor.preview,'Misattributed directory logo must stay removed');assert.equal(vendor.websiteStatus,'directory');continue;}
   const current=replacements.get(change.id)?.preview||change.preview;assert.equal(vendor.preview.image,current.image);assert.equal(vendor.preview.type,current.type);
