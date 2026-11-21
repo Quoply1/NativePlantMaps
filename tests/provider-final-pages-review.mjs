@@ -2,6 +2,7 @@ import {readFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import worker from '../dist/_worker.js';
+import vm from 'node:vm';
 const read=async name=>JSON.parse(await readFile(new URL('../'+name,import.meta.url),'utf8'));
 const report=await read('provider-final-pages-review.json');
 const vendors=await(await worker.fetch(new Request('https://preview.test/api/vendors'),{})).json();
@@ -21,3 +22,9 @@ const queens=vendors.find(v=>v.id==='queens-nursery-memphis');assert.ok(queens.s
 const chiappini=vendors.find(v=>v.id==='chiappini-farm-native-nursery-hawthorne');assert.equal(chiappini.website,'https://chiappinifarm.com/');assert.ok(chiappini.preview);
 for(const id of ['milkweed-monarchy-williamsport','overhill-gardens-tn','cattail-corner-howard-lake','nearly-native-nursery'])assert.equal(vendors.find(v=>v.id===id).preview.type,'logo');
 console.log(`Passed ${report.changes.length} current image files and SHA hashes, 142 audit outcomes, seven official links, retained independent evidence, and two closed-listing exclusions.`);
+
+const page=await readFile(new URL('../index.html',import.meta.url),'utf8');
+const previewFunction=page.slice(page.indexOf('    function nurseryPreview('),page.indexOf('    function nurserySources('));
+const context=vm.createContext({URL,html:x=>String(x),publicHttpUrl:raw=>{try{const u=new URL(raw);return /^https?:$/.test(u.protocol)?u.href:''}catch{return''}}});vm.runInContext(previewFunction,context);
+const blueOak=vendors.find(v=>v.id==='blue-oak-horticulture-taylors');assert.equal(blueOak.website,'');const markup=context.nurseryPreview(blueOak);assert.ok(markup.includes('/assets/providers/blue-oak-horticulture-taylors-photo-v3.webp'));assert.ok(markup.includes(blueOak.preview.source));assert.ok(markup.includes('image source'));assert.equal(context.nurseryPreview({preview:{image:'https://images.example/photo.jpg',source:'javascript:alert(1)'}}),'');
+console.log('Passed verified source-page fallback for nursery images without an official website; invalid source schemes rejected.');
