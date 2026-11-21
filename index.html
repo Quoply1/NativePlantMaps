@@ -1165,7 +1165,7 @@
     }
     function selectVendor(id,{fromMap=false}={}){
       const v=vendors.find(item=>String(item.id)===String(id));if(!v)return;
-      const previousPage=currentPage,hadCluster=!!clusterFocusIds;
+      const previousPage=currentPage,hadCluster=!!clusterFocusIds,viewport={x:window.scrollX,y:window.scrollY},sidebar=document.getElementById('cards'),sidebarScroll=sidebar.scrollTop;
       if(fromMap){clusterFocusIds=null;clusterFocusCount=0}
       const nextSelection=!fromMap&&String(selectedId)===String(id)?null:v.id;
       if(nextSelection){
@@ -1184,6 +1184,7 @@
         showVendorPopup(v);
       }else if(!nextSelection){vendorPopup?.remove()}
       const card=document.querySelector(`.card[data-id="${v.id}"]`);
+      if(!fromMap&&previousPage===currentPage){sidebar.scrollTop=sidebarScroll;window.scrollTo({left:viewport.x,top:viewport.y,behavior:'instant'})}
       if(card&&fromMap){card.focus({preventScroll:true});card.scrollIntoView({block:'nearest',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}
     }
 

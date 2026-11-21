@@ -26,7 +26,7 @@ const context = vm.createContext({
   selectedId:null,clusterFocusIds:null,clusterFocusCount:0,currentPage:1,lastPageSignature:'',PAGE_SIZE:50,
   nearbySearch:null,stateSearch:null,ecoregionSearch:null,stateLabels:{},vendorPopup:null,
   ecoregionPopup:{remove(){ecoregionRemoved++}},
-  window:{maplibregl,matchMedia:()=>({matches:true})},maplibregl,
+  window:{maplibregl,scrollX:0,scrollY:203,scrollTo(position){this.scrollX=position.left;this.scrollY=position.top},matchMedia:()=>({matches:true})},maplibregl,
   document:{getElementById:node,querySelectorAll:()=>[],querySelector(selector){
     const id=selector.match(/^\.card\[data-id="([^"]+)"\]$/)?.[1];
     if(id&&node('cards').innerHTML.includes('data-id="'+id+'"'))return {focus(){focused=id},scrollIntoView(){scrolled=id}};
@@ -58,6 +58,7 @@ context.selectVendor('vendor-112');assert.equal(context.selectedId,null,'Sidebar
 context.selectVendor('vendor-15');assert.equal(context.selectedId,'vendor-15');assert.equal(context.currentPage,1);assert.equal(flyCount,1);
 assert.equal(flyOptions.duration,0,'Reduced-motion preference must be honored');
 context.window.matchMedia=()=>({matches:false});const stableMarkup=node('cards').innerHTML;context.selectVendor('vendor-16');
+assert.equal(context.window.scrollY,203,'Sidebar selection preserves the page viewport');
 assert.equal(node('cards').innerHTML,stableMarkup,'Selecting another visible card must preserve card and image DOM');
 assert.ok(flyOptions.duration>=1100 && flyOptions.duration<=2600);assert.equal(flyOptions.minZoom,4,'Long-distance flights should pull back before moving across the map');
 assert.equal(flyOptions.zoom,12);
