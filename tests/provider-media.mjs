@@ -5,6 +5,8 @@ import assert from 'node:assert/strict';
 import worker from '../dist/_worker.js';
 
 const report=JSON.parse(await readFile(new URL('../provider-background-review.json',import.meta.url),'utf8'));
+const latest=JSON.parse(await readFile(new URL('../provider-listing-review.json',import.meta.url),'utf8'));
+const replacements=new Map(latest.changes.map(change=>[change.id,change]));
 const imageDir=new URL('../dist/assets/providers/',import.meta.url);
 const files=new Set(await readdir(imageDir));
 let delegated=0;
@@ -30,13 +32,14 @@ assert.equal(report.logoPreviewsReviewed,report.changes.length+report.unchanged.
 const checkedAssets=new Set();
 for(const change of report.changes){
   const vendor=vendors.find(v=>v.id===change.id);assert.ok(vendor,change.id);
+  if(!change.preview&&replacements.has(change.id)){assert.deepEqual(vendor.preview,replacements.get(change.id).preview);continue;}
   if(!change.preview){assert.ok(!vendor.preview,'Misattributed directory logo must stay removed');assert.equal(vendor.websiteStatus,'directory');continue;}
-  assert.equal(vendor.preview.image,change.preview.image);assert.equal(vendor.preview.type,change.preview.type);
-  const url=new URL(vendor.preview.image);url.host='preview.example';
+  const current=replacements.get(change.id)?.preview||change.preview;assert.equal(vendor.preview.image,current.image);assert.equal(vendor.preview.type,current.type);
+  const url=new URL(change.preview.image);url.host='preview.example';
   const get=await worker.fetch(new Request(url),env);assert.equal(get.status,200);assert.equal(get.headers.get('content-type'),'image/webp');
   const bytes=Buffer.from(await get.arrayBuffer());
   assert.equal(createHash('sha256').update(bytes).digest('hex'),change.asset.sha256);
-  if(vendor.preview.type==='logo')assert.ok(alphaWebP(bytes),'Packaged logo has no alpha channel: '+vendor.id);
+  if(change.preview.type==='logo')assert.ok(alphaWebP(bytes),'Packaged logo has no alpha channel: '+vendor.id);
   const head=await worker.fetch(new Request(url,{method:'HEAD'}),env);assert.equal(head.status,200);assert.equal((await head.arrayBuffer()).byteLength,0);
   checkedAssets.add(change.asset.name);
 }

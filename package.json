@@ -2,5 +2,8 @@
   "name": "native-plant-access-map",
   "private": true,
   "version": "1.2.0",
-  "scripts": { "build": "node build-pages.mjs" }
+  "scripts": {
+    "build": "node build-pages.mjs",
+    "dev": "node dev-server.mjs"
+  }
 }

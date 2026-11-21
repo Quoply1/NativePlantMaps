@@ -13,3 +13,11 @@ The original supplied files remain unchanged. Approved transparent logo derivati
 See `provider-media-review.json` for the 2026-11-19 review of all 228 previous photo previews, the selected replacements, and the new listing media sources.
 
 See `provider-background-review.json` for the 2026-11-20 review of all 192 logo previews. It records original sources, transparent alternatives, requested background-removal edits, official photo replacements, alpha checks, and removed misattributed directory logos. Background removal does not authorize inventing new nursery branding. Verify lettering and artwork against the original and check the result on the cream page before publishing.
+
+## Listing media review, November 20, 2026
+
+`provider-listing-review.json` records the 142 listings that occupied national directory pages 10–12 before this update, plus the named media corrections. Every row records its outcome; unresolved images are left empty rather than filled with unrelated photos, directory branding, social-network icons, ads, or portraits. Current pagination can shift as better media improves listing completeness.
+
+The `*-reviewed-v2.webp` assets are locally hosted copies of visually reviewed seller media or clearly attributed supplier-profile images. Source page/image URLs, dimensions and file hashes are recorded in the review. Ordinary exports preserve the original pixels, resized for the site. Goffle Brook’s pale logo backing was removed with background-extraction editing; the source URL and edit provenance are retained. White wordmarks use the existing dark display treatment for contrast on cream.
+
+The supplied photos are assigned only to Natives in Harmony and Draggin’ Wing High Desert Nursery. Portraits, third-party ads and unrelated institutional logos were excluded. Two-sentence nursery profiles are paraphrased from the linked seller pages and existing supplier evidence; source explanations remain in the Sources disclosure.

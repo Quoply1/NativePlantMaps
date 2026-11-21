@@ -1,0 +1,3792 @@
+{
+  "checkedOn": "2026-11-20",
+  "baseCommit": "c7e15ec61b9f264c72f36676929aebfa0563af3e",
+  "scope": "All 142 listings on national ranked pages 10–12 before these changes, plus every explicitly requested nursery.",
+  "requestedListings": [
+    "miller-hill-farm-vt",
+    "berridge-nurseries-phoenix",
+    "native-utah-plants-provo",
+    "armadillo-gardens",
+    "red-buffalo-nursery-richmond-il",
+    "takao-nursery",
+    "willamette-gardens",
+    "sunrise-nursery-athens",
+    "primeval-forest-nursery",
+    "watermark-woods",
+    "humble-roots-nursery-mosier",
+    "cache-valley-native-plants",
+    "goffle-brook",
+    "digit-gardens-phoenix",
+    "earth-first-native-plant-nursery",
+    "natives-in-harmony",
+    "draggin-wing-high-desert-nursery",
+    "agrecol-native-nursery"
+  ],
+  "reviewedLastPages": [
+    {
+      "id": "garden-guru-rockford",
+      "name": "The Garden Guru Kzoo",
+      "originalPage": 10,
+      "originalPosition": 451,
+      "checkedUrls": [
+        "https://www.thegardengurukzoo.com/",
+        "https://www.thegardengurukzoo.com/our-story"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://images.squarespace-cdn.com/content/v1/5b1fef7236099bb97f094749/1709149651621-AHGS9SHBLWYDCJGHA6HL/bellwort+2.jpg"
+    },
+    {
+      "id": "warners-nursery-flagstaff",
+      "name": "Warner’s Nursery & Garden Center",
+      "originalPage": 10,
+      "originalPosition": 452,
+      "checkedUrls": [
+        "https://warnercompanies.com/",
+        "https://warnercompanies.com/nursery/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://warnercompanies.com/wp-content/uploads/2019/05/cropped-Untitled-design-3.png"
+    },
+    {
+      "id": "white-river-nursery",
+      "name": "White River Nursery",
+      "originalPage": 10,
+      "originalPosition": 453,
+      "checkedUrls": [
+        "https://www.whiterivernursery.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/b19c3c_e6cc091984554e02b14713fd83aedc93~mv2.jpg"
+    },
+    {
+      "id": "great-bear-native-plants",
+      "name": "Great Bear Native Plants",
+      "originalPage": 10,
+      "originalPosition": 454,
+      "checkedUrls": [
+        "https://www.greatbearnativeplants.com/"
+      ],
+      "outcome": "existing-media-retained",
+      "image": "https://static.wixstatic.com/media/680ca6_d2f31a2f825849588475d961e8c78801~mv2.jpg"
+    },
+    {
+      "id": "ash-creek-native-nursery-cornelius",
+      "name": "Ash Creek Forest Management Native Nursery",
+      "originalPage": 10,
+      "originalPosition": 455,
+      "checkedUrls": [
+        "https://www.ashcreekforestry.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/3238d0_cc25d969f29c4ef7af84d401ecd5dbd8~mv2.jpeg"
+    },
+    {
+      "id": "detroit-wildflower-nursery",
+      "name": "Detroit Wildflower Nursery",
+      "originalPage": 10,
+      "originalPosition": 456,
+      "checkedUrls": [
+        "https://www.detroitwildflowers.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "milkweed-monarchy-williamsport",
+      "name": "Milkweed Monarchy",
+      "originalPage": 10,
+      "originalPosition": 457,
+      "checkedUrls": [
+        "https://www.milkweedmonarchy.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "good-host-plants",
+      "name": "Good Host Plants",
+      "originalPage": 10,
+      "originalPosition": 458,
+      "checkedUrls": [
+        "https://www.goodhostplants.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.goodhostplants.com/wp-content/uploads/2020/02/good-host-plants-monarch-design-color-textbottomn.png"
+    },
+    {
+      "id": "spence-restoration-nursery-indiana",
+      "name": "Spence Restoration Nursery",
+      "originalPage": 10,
+      "originalPosition": 459,
+      "checkedUrls": [
+        "https://spencenursery.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://spencenursery.com/wp-content/uploads/2023/09/homepage-native-plugs.jpg"
+    },
+    {
+      "id": "cofers-home-and-garden",
+      "name": "Cofers Home & Garden",
+      "originalPage": 10,
+      "originalPosition": 460,
+      "checkedUrls": [
+        "https://cofershomeandgarden.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "grow-hub-gainesville",
+      "name": "GROW HUB",
+      "originalPage": 10,
+      "originalPosition": 461,
+      "checkedUrls": [
+        "https://www.grow-hub.org/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.grow-hub.org/wp-content/uploads/2017/02/GrowHub-Logo.png"
+    },
+    {
+      "id": "jackrabbit-nursery-buckeye",
+      "name": "Jackrabbit Nursery",
+      "originalPage": 10,
+      "originalPosition": 462,
+      "checkedUrls": [
+        "https://www.jackrabbitnurseryaz.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/fc0b5b_d1f7b146a5c64cbfb5a2b0feacc0ed47.jpg"
+    },
+    {
+      "id": "jimbos-nursery-santa-fe-tx",
+      "name": "Jimbo’s Nursery",
+      "originalPage": 10,
+      "originalPosition": 463,
+      "checkedUrls": [
+        "https://jimbosnursery.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://jimbosnursery.com/images/site/home-growing-gulf-coast-gardens.jpg"
+    },
+    {
+      "id": "western-garden-center-salt-lake",
+      "name": "Western Garden Center",
+      "originalPage": 10,
+      "originalPosition": 464,
+      "checkedUrls": [
+        "https://westerngardens.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "cattail-corner-howard-lake",
+      "name": "Cattail Corner Garden Center",
+      "originalPage": 10,
+      "originalPosition": 465,
+      "checkedUrls": [
+        "https://www.cattailcorner.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "reeseville-ridge-nursery",
+      "name": "Reeseville Ridge Nursery",
+      "originalPage": 10,
+      "originalPosition": 466,
+      "checkedUrls": [
+        "https://www.reesevilleridgenursery.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.reesevilleridgenursery.com/s/cc_images/cache_948471939.JPG?t=1464923710"
+    },
+    {
+      "id": "wasco-nursery-st-charles-il",
+      "name": "Wasco Nursery",
+      "originalPage": 10,
+      "originalPosition": 467,
+      "checkedUrls": [
+        "https://www.wasconursery.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "dry-creek-nursery",
+      "name": "Dry Creek Nursery",
+      "originalPage": 10,
+      "originalPosition": 468,
+      "checkedUrls": [
+        "https://drycreeknursery.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://drycreeknursery.com/cdn/shop/collections/Red_Yarrow.jpg?v=1751499444"
+    },
+    {
+      "id": "floral-native-nursery",
+      "name": "Floral Native Nursery",
+      "originalPage": 10,
+      "originalPosition": 469,
+      "checkedUrls": [
+        "https://floralnativenursery.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://floralnativenursery.com/assets/img/slider/slide2.jpg"
+    },
+    {
+      "id": "heartwood-nursery-pa",
+      "name": "Heartwood Nursery",
+      "originalPage": 10,
+      "originalPosition": 470,
+      "checkedUrls": [
+        "https://www.heartwoodnursery.net/retail"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/16b1a5_e366dedd5be34c9294a1a0c4454994ab%7Emv2.png/v1/fit/w_2500,h_1330,al_c/16b1a5_e366dedd5be34c9294a1a0c4454994ab%7Emv2.png"
+    },
+    {
+      "id": "high-desert-native-plants-el-paso",
+      "name": "High Desert Native Plants",
+      "originalPage": 10,
+      "originalPosition": 471,
+      "checkedUrls": [
+        "https://www.highdesertnativeplants.com/nursery/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.highdesertnativeplants.com/wp-content/uploads/2020/06/Charismatic-Cacti-480x471.jpeg"
+    },
+    {
+      "id": "nature-by-design-alexandria",
+      "name": "Nature By Design",
+      "originalPage": 10,
+      "originalPosition": 472,
+      "checkedUrls": [
+        "https://www.nature-by-design.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.nature-by-design.com/Passiflora%20incarnata%20-%20NBD.JPG"
+    },
+    {
+      "id": "ohio-native-habitat-nursery",
+      "name": "Ohio Native Habitat Nursery",
+      "originalPage": 10,
+      "originalPosition": 473,
+      "checkedUrls": [
+        "https://ohio-nhn.com/",
+        "https://ohio-nhn.com/availability/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://ohio-nhn.com/wp-content/uploads/2021/11/Ohio-Native-Habitat-Nursery_Final-Rev.png"
+    },
+    {
+      "id": "overhill-gardens-tn",
+      "name": "Overhill Gardens",
+      "originalPage": 10,
+      "originalPosition": 474,
+      "checkedUrls": [
+        "https://www.overhillgardens.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "pine-ridge-gardens",
+      "name": "Pine Ridge Gardens",
+      "originalPage": 10,
+      "originalPosition": 475,
+      "checkedUrls": [
+        "https://pineridgegardens.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://pineridgegardens.com/prglogo1.png"
+    },
+    {
+      "id": "atlanta-native-plant-nursery",
+      "name": "Atlanta Native Plant Nursery",
+      "originalPage": 10,
+      "originalPosition": 476,
+      "checkedUrls": [
+        "https://www.atlnativeplants.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://images.squarespace-cdn.com/content/v1/68f42d96e9bb561985f92094/baaeae63-17b3-4c33-8d90-e9a64c2f73f3/ANPN+logo+4.png?format=1500w"
+    },
+    {
+      "id": "chiappini-farm-native-nursery-hawthorne",
+      "name": "Chiappini Farm Native Nursery",
+      "originalPage": 10,
+      "originalPosition": 477,
+      "checkedUrls": [
+        "https://www.plantrealflorida.org/professionals/detail/retail-nurserygarden-center/chiappini-farm-native-nursery/150-chiappini-farm-rd"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "goose-valley-gardens-harrisburg",
+      "name": "Goose Valley Gardens",
+      "originalPage": 10,
+      "originalPosition": 478,
+      "checkedUrls": [
+        "https://goosevalleygardens.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "native-roots-llc-twin-falls",
+      "name": "Native Roots LLC",
+      "originalPage": 10,
+      "originalPosition": 479,
+      "checkedUrls": [
+        "https://native-roots.net/contact-us/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://native-roots.net/files/2021/03/logo.png"
+    },
+    {
+      "id": "nearly-wild-native-flowers",
+      "name": "Nearly Wild Native Flowers",
+      "originalPage": 10,
+      "originalPosition": 480,
+      "checkedUrls": [
+        "https://thenearlywild.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "next-door-nursery-texas",
+      "name": "Next Door Nursery",
+      "originalPage": 10,
+      "originalPosition": 481,
+      "checkedUrls": [
+        "https://next-door-nursery.myshopify.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://next-door-nursery.myshopify.com/cdn/shop/files/IMG_1021_2048x.jpg?v=1760725866"
+    },
+    {
+      "id": "plants-of-the-wild-tekoa",
+      "name": "Plants of the Wild",
+      "originalPage": 10,
+      "originalPosition": 482,
+      "checkedUrls": [
+        "https://plantsofthewild.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://plantsofthewild.com/wp-content/uploads/2020/02/rainbow-canyard.jpg"
+    },
+    {
+      "id": "rust-belt-natives",
+      "name": "Rust Belt Natives",
+      "originalPage": 10,
+      "originalPosition": 483,
+      "checkedUrls": [
+        "https://www.rustbeltnatives.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/8c0ecb_f4da321921ba4b9eb59a93d0ae79ccf2~mv2.jpeg"
+    },
+    {
+      "id": "swiftwater-organics-native-nursery",
+      "name": "Swiftwater Native Plant Nursery",
+      "originalPage": 10,
+      "originalPosition": 484,
+      "checkedUrls": [
+        "https://www.swiftwaterorganics.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/d59259_c8b9dc80040342ed9f54cdfadf1c9159~mv2.jpg"
+    },
+    {
+      "id": "the-farm-upstream-jericho",
+      "name": "The Farm Upstream",
+      "originalPage": 10,
+      "originalPosition": 485,
+      "checkedUrls": [
+        "https://www.thefarmupstream.com/native-plants"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "twin-peaks-native-plants-mccall",
+      "name": "Twin Peaks Nursery",
+      "originalPage": 10,
+      "originalPosition": 486,
+      "checkedUrls": [
+        "https://twinpeaksnursery.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "ecoscapes-elko-new-market",
+      "name": "Ecoscapes Sustainable Landscaping",
+      "originalPage": 10,
+      "originalPosition": 487,
+      "checkedUrls": [
+        "https://www.ecoscapes1.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.ecoscapes1.com/wp-content/uploads/2022/02/EcoscapesNativeNursery1.jpeg"
+    },
+    {
+      "id": "las-pilitas-native-plant-nursery",
+      "name": "Las Pilitas Native Plant Nursery",
+      "originalPage": 10,
+      "originalPosition": 488,
+      "checkedUrls": [
+        "https://www.laspilitas.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.laspilitas.com/images/grid24_24/13504/images/california-native-plants-at-las-pilitas-nursery.jpg 950w,/images/grid24_18/13504/images/california-native-plants-at-las-pilitas-nursery.jpg 710w,/images/grid24_12/13504/images/california-native-plants-at-las-pilitas-nursery.jpg"
+    },
+    {
+      "id": "seed-on-hudson",
+      "name": "Seed-on-Hudson",
+      "originalPage": 10,
+      "originalPosition": 489,
+      "checkedUrls": [
+        "https://www.seedonhudson.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/1368fc_036b2a84bae349f4a8ba2ec93eb35369~mv2.jpg"
+    },
+    {
+      "id": "servescape",
+      "name": "ServeScape",
+      "originalPage": 10,
+      "originalPosition": 490,
+      "checkedUrls": [
+        "https://servescape.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "http://servescape.com/cdn/shop/files/Servescape_Logo_2024.png?v=1719505092"
+    },
+    {
+      "id": "californica-nursery",
+      "name": "Californica Nursery",
+      "originalPage": 10,
+      "originalPosition": 491,
+      "checkedUrls": [
+        "https://www.californicanursery.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.californicanursery.com/Glyph_Logo_Simplified_nobackground.png"
+    },
+    {
+      "id": "capital-native-plants",
+      "name": "Capital Native Plants",
+      "originalPage": 10,
+      "originalPosition": 492,
+      "checkedUrls": [
+        "https://capitalnativeplants.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://capitalnativeplants.com/wp-content/uploads/2021/03/36738188_2177141289231396_354172890242875392_n.jpg"
+    },
+    {
+      "id": "doak-creek-native-nursery",
+      "name": "Doak Creek Native Plant Nursery",
+      "originalPage": 10,
+      "originalPosition": 493,
+      "checkedUrls": [
+        "https://doakcreeknursery.com/",
+        "https://doakcreeknursery.com/index.htm"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "intermountain-nursery",
+      "name": "Intermountain Nursery",
+      "originalPage": 10,
+      "originalPosition": 494,
+      "checkedUrls": [
+        "https://www.intermountainnursery.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://images.squarespace-cdn.com/content/v1/67eae07ef678a173bfcfec3a/98851dd3-53a5-4109-82b7-03c55c2b42c8/LOGO+BLK.png?format=1500w"
+    },
+    {
+      "id": "plant-community-ri",
+      "name": "Plant Community RI",
+      "originalPage": 10,
+      "originalPosition": 495,
+      "checkedUrls": [
+        "https://www.plantcommunityri.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/a44e1d_c00be2ee56cf428abdaf12b80d527eee~mv2.png"
+    },
+    {
+      "id": "bloomsday-natives-portland",
+      "name": "Bloomsday Natives",
+      "originalPage": 10,
+      "originalPosition": 496,
+      "checkedUrls": [
+        "https://bloomsdaynatives.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://bloomsdaynatives.com/cdn/shop/files/BD_header_logo_cropped.webp?v=1785282611&width=1200"
+    },
+    {
+      "id": "bluestem-hollow-nursery",
+      "name": "Bluestem Hollow Nursery",
+      "originalPage": 10,
+      "originalPosition": 497,
+      "checkedUrls": [
+        "https://bluestemhollownursery.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://bluestemhollownursery.com/_next/image?url=%2Fimages%2Flogo.png&w=828&q=75"
+    },
+    {
+      "id": "calyx-native-nursery-york",
+      "name": "Calyx Native Nursery",
+      "originalPage": 10,
+      "originalPosition": 498,
+      "checkedUrls": [
+        "https://calyxnativenursery.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "tadpole-haven-native-plants-woodinville",
+      "name": "Tadpole Haven Native Plants",
+      "originalPage": 10,
+      "originalPosition": 499,
+      "checkedUrls": [
+        "https://tadpolehaven.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://tadpolehaven.com/wp-content/uploads/2024/03/aruncus-dioicus-pollinators2.jpg?w=1440"
+    },
+    {
+      "id": "kinnickinnic-natives-river-falls",
+      "name": "Kinnickinnic Natives",
+      "originalPage": 10,
+      "originalPosition": 500,
+      "checkedUrls": [
+        "https://www.kinninatives.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/94e923_a946bbd2761846a5954af1d9c9a9bc06.jpg"
+    },
+    {
+      "id": "sutro-stewards-native-plant-nursery",
+      "name": "Sutro Stewards Native Plant Nursery",
+      "originalPage": 11,
+      "originalPosition": 501,
+      "checkedUrls": [
+        "https://www.sutrostewards.org/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/a91c4e_46a4f373872048ed9678e932a7c67991~mv2.jpg"
+    },
+    {
+      "id": "bay-gardens",
+      "name": "Bay Gardens",
+      "originalPage": 11,
+      "originalPosition": 502,
+      "checkedUrls": [
+        "https://baygardens.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "http://baygardens.com/cdn/shop/files/Untitled_design.png?v=1613576045"
+    },
+    {
+      "id": "carsons-nurseries-springfield-mo",
+      "name": "Carson’s Nurseries",
+      "originalPage": 11,
+      "originalPosition": 503,
+      "checkedUrls": [
+        "https://www.carsonsnurseries.net/carsons-nurseries"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/20167e_75c5f613fb9448e4b7030ce04cd8a3b0~mv2.webp"
+    },
+    {
+      "id": "fox-hill-gardens-state-college",
+      "name": "Fox Hill Gardens",
+      "originalPage": 11,
+      "originalPosition": 504,
+      "checkedUrls": [
+        "https://foxhillgardens.com/availability/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Browser access denied by automatic approval review; no image assigned."
+    },
+    {
+      "id": "round-rock-garden-center",
+      "name": "Round Rock Garden Center",
+      "originalPage": 11,
+      "originalPosition": 505,
+      "checkedUrls": [
+        "https://www.roundrockgardens.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/nsplsh_1ec9f5d23c2342bda708abaaba86a545~mv2.jpg"
+    },
+    {
+      "id": "wayside-garden-center",
+      "name": "Wayside Garden Center",
+      "originalPage": 11,
+      "originalPosition": 506,
+      "checkedUrls": [
+        "https://www.waysidegardencenter.com/",
+        "https://www.waysidegardencenter.com/our-roots/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.waysidegardencenter.com/wp-content/uploads/2024/05/logo-white-011.png"
+    },
+    {
+      "id": "buck-jones-nursery",
+      "name": "Buck Jones Nursery",
+      "originalPage": 11,
+      "originalPosition": 507,
+      "checkedUrls": [
+        "https://www.buckjones.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/264b36_a5ea6feda42f4bd1be8d84077e84cdfa~mv2.jpg"
+    },
+    {
+      "id": "mail-order-natives",
+      "name": "Mail Order Natives",
+      "originalPage": 11,
+      "originalPosition": 508,
+      "checkedUrls": [
+        "https://www.mailordernatives.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://cdn11.bigcommerce.com/s-rh53n5ea/images/stencil/300x300/products/965/2193/Dons_dwarf_waxmyrtle___21632.1792775573.jpg?c=2"
+    },
+    {
+      "id": "everwilde-farms-wisconsin",
+      "name": "Everwilde Farms",
+      "originalPage": 11,
+      "originalPosition": 509,
+      "checkedUrls": [
+        "https://www.everwilde.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.everwilde.com/media/images/slides/M1.gif"
+    },
+    {
+      "id": "faverolles-gardens",
+      "name": "Faverolles Gardens",
+      "originalPage": 11,
+      "originalPosition": 510,
+      "checkedUrls": [
+        "https://faverollesgardens.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://faverollesgardens.com/wp-content/uploads/2023/02/FaverollesGardensLogoNewColors.png"
+    },
+    {
+      "id": "prairie-future-seed-company",
+      "name": "Prairie Future Seed Company",
+      "originalPage": 11,
+      "originalPosition": 511,
+      "checkedUrls": [
+        "https://prairiefutureseed.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.prairiefutureseed.com/images/thumbs/0000820_PFS-LOGO-HorizontalDarker-300w.png"
+    },
+    {
+      "id": "green-mountain-natives",
+      "name": "Green Mountain Natives · Vermont Wetland Plant Supply",
+      "originalPage": 11,
+      "originalPosition": 512,
+      "checkedUrls": [
+        "https://greenmountainnatives.com/",
+        "https://greenmountainnatives.com/contact-us/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://greenmountainnatives.com/wp-content/uploads/2020/03/gmn-logo-144p.png"
+    },
+    {
+      "id": "wild-birds-unlimited-mcallen",
+      "name": "Wild Birds Unlimited",
+      "originalPage": 11,
+      "originalPosition": 513,
+      "checkedUrls": [
+        "https://mcallen.wbu.com/native-plants"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://mcallen.wbu.com/templates/wbu3/staticresources/assets/images/logo.webp"
+    },
+    {
+      "id": "nh-state-forest-nursery-boscawen",
+      "name": "New Hampshire State Forest Nursery",
+      "originalPage": 11,
+      "originalPosition": 514,
+      "checkedUrls": [
+        "https://buynhseedlings.com/contact-us/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "blue-meadows-farm-pine-mountain",
+      "name": "Blue Meadows Farm",
+      "originalPage": 11,
+      "originalPosition": 515,
+      "checkedUrls": [
+        "https://www.bluemeadowsfarm.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "cedar-mountain-perennials-athol",
+      "name": "Cedar Mountain Perennials",
+      "originalPage": 11,
+      "originalPosition": 516,
+      "checkedUrls": [
+        "https://cedarmountainperennials.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://cedarmountainperennials.com/assets/images/2012june27_001.105121625_std.JPG"
+    },
+    {
+      "id": "chickadee-natives-folsom",
+      "name": "Chickadee Natives",
+      "originalPage": 11,
+      "originalPosition": 517,
+      "checkedUrls": [
+        "https://chickadeenatives.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://chickadeenatives.com/wp-content/uploads/2022/04/Logo-2.png"
+    },
+    {
+      "id": "flint-hills-native-plants",
+      "name": "Flint Hills Native Plants",
+      "originalPage": 11,
+      "originalPosition": 518,
+      "checkedUrls": [
+        "https://www.fhnativeplants.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://images.squarespace-cdn.com/content/v1/67b521a945fd42118942ef47/c470406c-1627-4505-8056-089a39bb65b4/PXL_20240608_150135612.jpg?format=2500w"
+    },
+    {
+      "id": "ohio-native-nursery-cincinnati",
+      "name": "Ohio Native Nursery",
+      "originalPage": 11,
+      "originalPosition": 519,
+      "checkedUrls": [
+        "https://ohionativenursery.com/",
+        "https://ohionativenursery.com/contact/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://ohionativenursery.com/wp-content/uploads/2025/08/sandie-clarke-q13Zq1Jufks-unsplash-1024x683.jpg"
+    },
+    {
+      "id": "sacvalley-cnps-nursery-rancho-cordova",
+      "name": "SacValley CNPS Native Plant Nursery",
+      "originalPage": 11,
+      "originalPosition": 520,
+      "checkedUrls": [
+        "https://sacvalleycnps.org/nursery/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "zoes-plants",
+      "name": "Zoe’s Plants",
+      "originalPage": 11,
+      "originalPosition": 521,
+      "checkedUrls": [
+        "https://www.ardsleypollinatorpathway.org/home/quick-start-guides/quick-start-sourcing-plants"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "black-cap-farm-onekama",
+      "name": "Black Cap Farm Native Plant Nursery",
+      "originalPage": 11,
+      "originalPosition": 522,
+      "checkedUrls": [
+        "https://www.blackcapplants.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/nsplsh_7672625a567958326b3449~mv2_d_5760_3840_s_4_2.jpg"
+    },
+    {
+      "id": "tapteal-native-plants",
+      "name": "Tapteal Native Plants",
+      "originalPage": 11,
+      "originalPosition": 523,
+      "checkedUrls": [
+        "https://www.taptealnativeplants.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://images.squarespace-cdn.com/content/v1/597389bcd7bdcef6477d815e/1500747455199-IES5ESS86EEWRKI2CEZJ/leaves-only.png?format=1500w"
+    },
+    {
+      "id": "tend-native-plants",
+      "name": "Tend Native Plants",
+      "originalPage": 11,
+      "originalPosition": 524,
+      "checkedUrls": [
+        "https://tendnativeplants.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://tendnativeplants.com/cdn/shop/files/Tend_Logo_Final_transparent.png?v=1733448571&width=400"
+    },
+    {
+      "id": "4m-farms",
+      "name": "4M Farms",
+      "originalPage": 11,
+      "originalPosition": 525,
+      "checkedUrls": [
+        "https://mcallen.wbu.com/local-resources"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://mcallen.wbu.com/download/236863.png"
+    },
+    {
+      "id": "calvin-ecosystem-native-plant-sale",
+      "name": "Calvin Ecosystem Preserve & Native Gardens",
+      "originalPage": 11,
+      "originalPosition": 526,
+      "checkedUrls": [
+        "https://calvin.edu/ecosystem-preserve/native-gardens/native-plant-sale"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "humbirds-natives-spokane",
+      "name": "Humbird’s Natives & Nearby Nursery",
+      "originalPage": 11,
+      "originalPosition": 527,
+      "checkedUrls": [
+        "https://www.wnps.org/ne-programs/northeast-wa-gardening"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "lichterman-native-plant-sales",
+      "name": "Lichterman Nature Center Native Plant Sales",
+      "originalPage": 11,
+      "originalPosition": 528,
+      "checkedUrls": [
+        "https://moshmemphis.com/explore/lichterman-nature-center/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://moshmemphis.com/wp-content/uploads/2025/01/LichtermanCenter-Walkthrough-11.jpg"
+    },
+    {
+      "id": "midtown-bramble-bloom",
+      "name": "Midtown Bramble & Bloom",
+      "originalPage": 11,
+      "originalPosition": 529,
+      "checkedUrls": [
+        "https://midtownbramble.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://midtownbramble.com/cdn/shop/files/314891107_565762232218157_4469744276746220780_n_480x480@2x.jpg?v=1698812836"
+    },
+    {
+      "id": "queens-nursery-memphis",
+      "name": "Queens Nursery",
+      "originalPage": 11,
+      "originalPosition": 530,
+      "checkedUrls": [
+        "https://www.picktnproducts.org/picktn-producers/picktn-listing.27775.html"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "rebel-hill-farm-maine",
+      "name": "Rebel Hill Farm",
+      "originalPage": 11,
+      "originalPosition": 531,
+      "checkedUrls": [
+        "https://www.mainenativeplantcoop.org/nurseries"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "robledo-vista-las-cruces",
+      "name": "Robledo Vista Nursery",
+      "originalPage": 11,
+      "originalPosition": 532,
+      "checkedUrls": [
+        "https://www.robledovista.com/home.html"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Site could not be read fully or exposed no usable image; no placeholder or invented logo assigned."
+    },
+    {
+      "id": "maine-audubon-native-sale-falmouth",
+      "name": "Maine Audubon Native Plant Sale — Falmouth",
+      "originalPage": 11,
+      "originalPosition": 533,
+      "checkedUrls": [
+        "https://mainenativeplants.org/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://mainenativeplants.org/wp-content/uploads/2020/04/ma_logo.png"
+    },
+    {
+      "id": "maine-audubon-native-sale-holden",
+      "name": "Maine Audubon Native Plant Sale — Holden",
+      "originalPage": 11,
+      "originalPosition": 534,
+      "checkedUrls": [
+        "https://mainenativeplants.org/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://mainenativeplants.org/wp-content/uploads/2020/04/ma_logo.png"
+    },
+    {
+      "id": "wild-south-native-nursery",
+      "name": "Wild South Native Nursery",
+      "originalPage": 11,
+      "originalPosition": 535,
+      "checkedUrls": [
+        "https://www.facebook.com/people/Wild-South-Native-Nursery/61576786862578/"
+      ],
+      "outcome": "existing-media-retained",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/wild-south-native-nursery-logo-transparent-v1.webp"
+    },
+    {
+      "id": "midwest-natives-nursery",
+      "name": "Midwest Natives Nursery",
+      "originalPage": 11,
+      "originalPosition": 536,
+      "checkedUrls": [
+        "https://www.midwestnativesnursery.com/uploads/b/bb1449f0-743d-11ea-8cb1-8121afc059a0/d075b720-f2c5-11f0-8162-7d4c3a0374dd.pdf",
+        "https://www.midwestnativesnursery.com/"
+      ],
+      "outcome": "existing-media-retained",
+      "image": "https://nativeplantmaps.pages.dev/assets/providers/midwest-natives-nursery-logo-transparent-v1.webp"
+    },
+    {
+      "id": "backhouse-garden-ms",
+      "name": "Backhouse Garden",
+      "originalPage": 11,
+      "originalPosition": 537,
+      "checkedUrls": [
+        "https://www.facebook.com/people/Backhouse-Garden-LLC/61559733694846/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/557613952_122195768918324456_2014222809459357504_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1770x1770&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QwcRwF6bpPkQ7kNvwGgMHgP&_nc_oc=Adr6bvxoiOgTNRQWTXxA1rta3a0upqY_aAiniPw26_tDmi5kp9h9ObPE-ep716h5T__bWYKnmyagL-eBQyfmnDz2&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=Cw0Mp_cOzr6a10X_f35mQA&_nc_ss=7920f&oh=00_AQQEQwDN1ou9nRdzHK0Bkfn6Q1d37Qy-pFohWxK3xJ02oA&oe=6B06BF92"
+    },
+    {
+      "id": "native-roots-nursery-nc",
+      "name": "Native Roots Nursery",
+      "originalPage": 11,
+      "originalPosition": 538,
+      "checkedUrls": [
+        "https://www.plantant.com/nursery-availability/1005929/native-roots-nursery",
+        "https://nativerootsnursery.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://www.plantant.com/supplierimages/image.php/1005929.png?width=900&height=480&image=/supplierimages/logos/1005929.png"
+    },
+    {
+      "id": "earthwild-gardens",
+      "name": "Earthwild Gardens",
+      "originalPage": 11,
+      "originalPosition": 539,
+      "checkedUrls": [
+        "https://plantnative.org/nursery/il/grayslake/earthwild-gardens",
+        "https://www.earthwildgardens.com/"
+      ],
+      "outcome": "existing-media-retained",
+      "image": "https://earthwildgardens.com/wp-content/uploads/2022/09/cropped-earthwildgardens.com-icon-32x32.png"
+    },
+    {
+      "id": "natural-selections-nursery",
+      "name": "Natural Selections Nursery",
+      "originalPage": 11,
+      "originalPosition": 540,
+      "checkedUrls": [
+        "https://gardenclubofweaverville.org/native-plants/sources-of-native-plants/",
+        "https://www.naturalselectionsnursery.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "landscape-alternatives-shafer",
+      "name": "Landscape Alternatives",
+      "originalPage": 11,
+      "originalPosition": 541,
+      "checkedUrls": [
+        "https://www.xerces.org/native-plant-supplier/landscape-alternatives-inc",
+        "https://landscapealternatives.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://landscapealternatives.com/images/1024/15279426/Rosevillecopy-SOtnsifJW80BTY_sct5dgA.JPG"
+    },
+    {
+      "id": "native-nurseries-tallahassee",
+      "name": "Native Nurseries of Tallahassee",
+      "originalPage": 11,
+      "originalPosition": 542,
+      "checkedUrls": [
+        "https://www.plantrealflorida.org/professionals/detail/retail-nurserygarden-center/native-nurseries-of-tallahassee-inc/1661-centerville-rd",
+        "https://www.nativenurseries.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://images.squarespace-cdn.com/content/v1/563cef71e4b01fcd611400d8/1610134711506-P123MQIVKVB0IP77HJL4/pollinator_flower_garden_butterfly.jpg?format=2500w"
+    },
+    {
+      "id": "bay-natives-nursery",
+      "name": "Bay Natives Nursery",
+      "originalPage": 11,
+      "originalPosition": 543,
+      "checkedUrls": [
+        "https://xerces.org/native-plant-supplier/bay-natives-nursery",
+        "https://www.baynatives.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "nearly-native-nursery",
+      "name": "Nearly Native Nursery",
+      "originalPage": 11,
+      "originalPosition": 544,
+      "checkedUrls": [
+        "https://gnps.org/plant_source/nearly-native-nursery/",
+        "https://www.nearlynativenursery.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "across-the-prairie-friends",
+      "name": "Across the Prairie & Friends",
+      "originalPage": 11,
+      "originalPosition": 545,
+      "checkedUrls": [
+        "https://www.facebook.com/acrossprairie"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "ohana-farms-marengo",
+      "name": "Ohana Farms",
+      "originalPage": 11,
+      "originalPosition": 546,
+      "checkedUrls": [
+        "https://www.ohana-farms.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "No working official website confirmed; no unrelated image assigned."
+    },
+    {
+      "id": "growing-empire-salt-lake-city",
+      "name": "Growing Empire",
+      "originalPage": 11,
+      "originalPosition": 547,
+      "checkedUrls": [
+        "https://www.growingempire.net/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "No working official website confirmed; no unrelated image assigned."
+    },
+    {
+      "id": "brushwolf-prairies",
+      "name": "Brushwolf Prairies Native Nursery",
+      "originalPage": 11,
+      "originalPosition": 548,
+      "checkedUrls": [
+        "https://www.npsot.org/chapters/post-oak/programs/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "elkhorn-native-plant-nursery-moss-landing",
+      "name": "Elkhorn Native Plant Nursery",
+      "originalPage": 11,
+      "originalPosition": 549,
+      "checkedUrls": [
+        "https://plantnative.org/nd_ca.htm",
+        "https://www.elkhornnursery.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "mostly-natives-nursery-point-reyes",
+      "name": "Mostly Natives Nursery",
+      "originalPage": 11,
+      "originalPosition": 550,
+      "checkedUrls": [
+        "https://plantnative.org/nd_ca.htm",
+        "https://www.mostlynatives.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "shooting-star-nursery-ky",
+      "name": "Shooting Star Nursery",
+      "originalPage": 12,
+      "originalPosition": 551,
+      "checkedUrls": [
+        "https://www.kyagr.com/AgBusiness/745"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "sugarbush-nursery-pa",
+      "name": "Sugarbush Nursery",
+      "originalPage": 12,
+      "originalPosition": 552,
+      "checkedUrls": [
+        "https://plantnative.org/nursery/pa/mohnton/sugarbush-nursery",
+        "https://www.sugarbushnursery.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "nectar-bar-san-antonio",
+      "name": "The Nectar Bar",
+      "originalPage": 12,
+      "originalPosition": 553,
+      "checkedUrls": [
+        "https://www.npsot.org/chapters/san-antonio/nice-natives-improve-conserve-environments-san-antonio/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "tait-farm-native-plant-nursery",
+      "name": "Tait Farm Native Plant Nursery",
+      "originalPage": 12,
+      "originalPosition": 554,
+      "checkedUrls": [
+        "https://www.facebook.com/taitfarmlocal"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/518674582_1193848182787391_6797150137780856886_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-Y5qkJdn7Z8Q7kNvwHFdDdL&_nc_oc=AdqEvAu-8xjZCPsqFyuunODVW4KPBrW70sgdB4ssIHijX8SSPAiU18zyxo-Ipu2AV82RUTaPedv9m-DBD3lTVW4z&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=O3XMPnB4FaV26MqL766SHg&_nc_ss=7920f&oh=00_AQS8cphbAhCvvKRRMSVjuRo8rEjmDdJjKxQ3B3fS1qyiyA&oe=6B06C38B"
+    },
+    {
+      "id": "five-star-nursery-orchard-brooklin",
+      "name": "5 Star Nursery & Orchard",
+      "originalPage": 12,
+      "originalPosition": 555,
+      "checkedUrls": [
+        "https://www.nativemainegardens.org/nurseries",
+        "https://5starorchard.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "dryland-horticulture",
+      "name": "Dryland Horticulture",
+      "originalPage": 12,
+      "originalPosition": 556,
+      "checkedUrls": [
+        "https://www.unps.org/miscpdf/NativePlantSuppliers-2024.pdf",
+        "https://drylandhorticulture.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "fort-pond-native-plants",
+      "name": "Fort Pond Native Plants",
+      "originalPage": 12,
+      "originalPosition": 557,
+      "checkedUrls": [
+        "https://visitmontauk.org/members/125/fort-pond-native-plants/",
+        "https://www.nativeplants.net/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/montaukny/fort-pond-native-plants-1_98DAD7AA-B7C5-8CB5-31253E484EF0FD81-98dad724baa4587_98dadfa8-dffa-cbf2-810093dfd25aac76.jpg"
+    },
+    {
+      "id": "queens-native-plants",
+      "name": "Queens NY Native Plants",
+      "originalPage": 12,
+      "originalPosition": 558,
+      "checkedUrls": [
+        "https://newyorkmetroregion.wildones.org/local-nurseries/",
+        "https://queensnynativeplants.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "sunscapes-rare-plant-nursery-pueblo",
+      "name": "Sunscapes Rare Plant Nursery",
+      "originalPage": 12,
+      "originalPosition": 559,
+      "checkedUrls": [
+        "https://www.sunscapes.net/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "No working official website confirmed; no unrelated image assigned."
+    },
+    {
+      "id": "bells-creek-wildflower-farm-walhalla",
+      "name": "Bells Creek Wildflower Farm",
+      "originalPage": 12,
+      "originalPosition": 560,
+      "checkedUrls": [
+        "https://www.facebook.com/bellscreekwildflowerfarm"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/481943747_1075970314334118_1037674092677737410_n.jpg?stp=dst-jpg_tt6&cstp=mx234x207&ctp=s234x207&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-ZvNdoOXXJsQ7kNvwGyJxtW&_nc_oc=Ado3OYWgRJygYiSoZEYqLGS7-MkqLHeQ0Yez2AwzW5dAoOtHeJQgfz3jEzH17K1Z9nTYVeqQni_4VFNHrarDSHRO&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=qCmeGwVE0eX-Zr_4GCVNkQ&_nc_ss=7920f&oh=00_AQTNpVw3Jg5Z1Cz8_vw-aBGwjwYG8Lmx1vifLKN3jc6WlQ&oe=6B06F05A"
+    },
+    {
+      "id": "buckthorns-native-nursery",
+      "name": "Buckthorn’s Native Nursery",
+      "originalPage": 12,
+      "originalPosition": 561,
+      "checkedUrls": [
+        "https://xerces.org/native-plant-supplier/buckthorns-native-nursery",
+        "https://buckthornsnativenursery.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "ser-uw-native-plant-nursery-seattle",
+      "name": "SER-UW Native Plant Nursery",
+      "originalPage": 12,
+      "originalPosition": 562,
+      "checkedUrls": [
+        "https://sites.uw.edu/seruwnursery/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://sites.uw.edu/seruwnursery/files/2026/01/Screenshot-2026-01-09-at-9.45.33-PM-1080x581.png"
+    },
+    {
+      "id": "agave-farms-phoenix",
+      "name": "Agave Farms",
+      "originalPage": 12,
+      "originalPosition": 563,
+      "checkedUrls": [
+        "https://aznps.com/native-landscaping-partners/",
+        "https://agave-farms.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "birds-and-bees-nursery-portland",
+      "name": "Birds and Bees Nursery",
+      "originalPage": 12,
+      "originalPosition": 564,
+      "checkedUrls": [
+        "https://portlandnativeplants.org/native-plant-nurseries",
+        "https://birdsandbeespdx.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "green-mamas-garden-center",
+      "name": "Green Mama’s Organic Garden Center",
+      "originalPage": 12,
+      "originalPosition": 565,
+      "checkedUrls": [
+        "https://plantnative.org/nursery/tx/north-richland-hills/green-mamas-organic-garden-center",
+        "https://www.greenmamas.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "wilbers-seed-solutions",
+      "name": "Wilber’s Seed Solutions",
+      "originalPage": 12,
+      "originalPosition": 566,
+      "checkedUrls": [
+        "https://plantnative.org/nursery/sd/miller/wilbers-seed-solutions"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "windy-hill-plant-farm",
+      "name": "Windy Hill Plant Farm",
+      "originalPage": 12,
+      "originalPosition": 567,
+      "checkedUrls": [
+        "https://plantnative.org/nursery/va/aldie/windy-hill-plant-farm",
+        "https://windyhill.net/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "down-natures-path-greenville-oh",
+      "name": "Down Nature’s Path, LLC",
+      "originalPage": 12,
+      "originalPosition": 568,
+      "checkedUrls": [
+        "https://www.downnaturespath.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "No working official website confirmed; no unrelated image assigned."
+    },
+    {
+      "id": "gsu-pc-native-botanical-garden",
+      "name": "GSU PC Native Botanical Garden",
+      "originalPage": 12,
+      "originalPosition": 569,
+      "checkedUrls": [
+        "https://sites.gsu.edu/pcnativegarden/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "caddo-native-plant-company",
+      "name": "Caddo Native Plant Company",
+      "originalPage": 12,
+      "originalPosition": 570,
+      "checkedUrls": [
+        "https://www.lnps.org/resources/plant-seed-sources/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "eastwoods-nursery",
+      "name": "Eastwoods Nurseries",
+      "originalPage": 12,
+      "originalPosition": 571,
+      "checkedUrls": [
+        "https://ipm.cahnr.uconn.edu/connecticut-native-availability/",
+        "https://eastwoodsnurseries.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "prickly-eds-native-plant-emporium",
+      "name": "Prickly Ed’s Cactus Patch, Roadside Stand & Native Plant Emporium",
+      "originalPage": 12,
+      "originalPosition": 572,
+      "checkedUrls": [
+        "https://www.mass.gov/info-details/garden-centers-and-nurseries-that-sell-native-plants",
+        "https://www.pricklyedscactuspatch.com/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://img1.wsimg.com/isteam/ip/29c5ac6a-a2d1-4cc8-8c47-b18670749feb/spicebush%20butterfly.jpg"
+    },
+    {
+      "id": "seven-springs-farm-six-mile",
+      "name": "Seven Springs Farm",
+      "originalPage": 12,
+      "originalPosition": 573,
+      "checkedUrls": [
+        "https://www.facebook.com/SevenSpringsFarmSixMileSC"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "state-botanical-garden-ga-sales",
+      "name": "State Botanical Garden of Georgia Garden Shop & Plant Sales",
+      "originalPage": 12,
+      "originalPosition": 574,
+      "checkedUrls": [
+        "https://botgarden.uga.edu/"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://botgarden.uga.edu/wp-content/uploads/2024/08/conservation-1024x604.jpg"
+    },
+    {
+      "id": "woodland-wonders-nursery",
+      "name": "Woodland Wonders Nursery",
+      "originalPage": 12,
+      "originalPosition": 575,
+      "checkedUrls": [
+        "https://www.facebook.com/woodland.wonders.nursery"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/907279036_1651948006722416_8738065698687776923_n.avif?stp=dst-jpg_tt6&cstp=mx406x640&ctp=s406x640&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IhsnWfbJ5b8Q7kNvwH-cSD7&_nc_oc=AdoLrIo6CYMOq1McHXRQricAhbNllLBKc05jpu55T1DjlkHuNZLrW7NoQMllb3TDD-LUmhjAmaajus-XyRUToiNg&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=pfsuPRYd3JX3W6iFQFbVRQ&_nc_ss=7920f&oh=00_AQQ8wbAMs8Zl2v4WuvTJu6iN0MtugkBtm9jQAqLo7Ty1rA&oe=6B06E77C"
+    },
+    {
+      "id": "heritage-flower-farm-mukwonago",
+      "name": "Heritage Flower Farm",
+      "originalPage": 12,
+      "originalPosition": 576,
+      "checkedUrls": [
+        "https://www.xerces.org/native-plant-supplier/heritage-flower-farm",
+        "https://heritageflowerfarm.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "blue-oak-horticulture-taylors",
+      "name": "Blue Oak Horticulture",
+      "originalPage": 12,
+      "originalPosition": 577,
+      "checkedUrls": [
+        "https://www.blueoakhortsc.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "No working official website confirmed; no unrelated image assigned."
+    },
+    {
+      "id": "artemis-growers-michigan",
+      "name": "Artemis Growers",
+      "originalPage": 12,
+      "originalPosition": 578,
+      "checkedUrls": [
+        "https://www.nativeplantguild.com/growers/artemis-growers"
+      ],
+      "outcome": "media-added-or-corrected",
+      "image": "https://static.wixstatic.com/media/e5204d_46db1937b6394b41868e05fe48bcb24e~mv2.png/v1/fill/w_500,h_500,al_c/Artemis%20Growers.png"
+    },
+    {
+      "id": "candlestick-point-native-plant-nursery",
+      "name": "Candlestick Point Native Plant Nursery",
+      "originalPage": 12,
+      "originalPosition": 579,
+      "checkedUrls": [
+        "https://www.sfenvironment.org/bee-friendly-plant-nurseries",
+        "https://www.lejyouth.org/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "green-thumb-nursery-godfrey",
+      "name": "Green Thumb Nursery",
+      "originalPage": 12,
+      "originalPosition": 580,
+      "checkedUrls": [
+        "https://grownative.org/grow_native_members/green-thumb-nursery/",
+        "https://grownative.org/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "northeast-native-perennials",
+      "name": "Northeast Native Perennials",
+      "originalPage": 12,
+      "originalPosition": 581,
+      "checkedUrls": [
+        "https://plantnative.org/nursery/pa/quakertown/northeast-native-perennials",
+        "https://nenativesandperennials.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Old seller domain now serves unrelated investment content; only the directory reference is retained."
+    },
+    {
+      "id": "wild-hare-prairie-native-nursery",
+      "name": "Wild Hare Prairie Native Nursery",
+      "originalPage": 12,
+      "originalPosition": 582,
+      "checkedUrls": [
+        "https://www.facebook.com/WildHarePrairieNativeNursery/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "dancing-bee-farmzzz-anderson",
+      "name": "Dancing Bee Farmzzz Propagation Nursery",
+      "originalPage": 12,
+      "originalPosition": 583,
+      "checkedUrls": [
+        "https://mipn.org/wp-content/uploads/2026/03/MIPN-Midwest-Native-Plant-Nurseries-Directory_2026.pdf",
+        "https://indiananativeplants.org/landscaping/where-to-buy/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "seeds-of-alaska-juneau",
+      "name": "Seeds of Alaska",
+      "originalPage": 12,
+      "originalPosition": 584,
+      "checkedUrls": [
+        "https://plants.alaska.gov/nativeplantindex.htm"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "arctic-sun-gardening-anchorage",
+      "name": "Arctic Sun Gardening",
+      "originalPage": 12,
+      "originalPosition": 585,
+      "checkedUrls": [
+        "https://plants.alaska.gov/nativeplantindex.htm",
+        "https://www.arcticsungardens.org/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "morning-star-prairie-plants",
+      "name": "Morning Star Prairie Plants",
+      "originalPage": 12,
+      "originalPosition": 586,
+      "checkedUrls": [
+        "https://www.npsot.org/chapters/clearlake/clc-buy-native-plants/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "moulton-hot-natives",
+      "name": "Moulton Hot Natives",
+      "originalPage": 12,
+      "originalPosition": 587,
+      "checkedUrls": [
+        "https://vnps.org/native-plant-nursery-list/entry/7985/",
+        "https://moultonhotnatives.square.site/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "garden-delights-lazy-k-nursery",
+      "name": "Garden Delights / Lazy K Nursery",
+      "originalPage": 12,
+      "originalPosition": 588,
+      "checkedUrls": [
+        "https://gnps.org/plant_source/garden-delights-llc-and-lazy-k-nursery-inc/",
+        "https://lazyknursery.com"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "natures-way-ocean-earth-homer",
+      "name": "Natures Way and Ocean Earth",
+      "originalPage": 12,
+      "originalPosition": 589,
+      "checkedUrls": [
+        "https://plants.alaska.gov/nativeplantindex.htm"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "notestein-native-nursery",
+      "name": "Notestein Native Nursery",
+      "originalPage": 12,
+      "originalPosition": 590,
+      "checkedUrls": [
+        "https://www.fann.org/professionals/detail/144",
+        "https://southerngardening.org/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    },
+    {
+      "id": "pocket-prairies-des-moines",
+      "name": "Pocket Prairies of Des Moines",
+      "originalPage": 12,
+      "originalPosition": 591,
+      "checkedUrls": [
+        "https://www.instagram.com/pocketprairiesdsm/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Available images were people, generic site branding, too small, or could not be reliably downloaded."
+    },
+    {
+      "id": "fritz-creek-gardens-homer",
+      "name": "Fritz Creek Gardens",
+      "originalPage": 12,
+      "originalPosition": 592,
+      "checkedUrls": [
+        "https://plants.alaska.gov/nativeplantindex.htm",
+        "https://www.alaskahardy.com/"
+      ],
+      "outcome": "image-unresolved",
+      "reason": "Directory reference reviewed; no sufficiently clear, seller-specific image confirmed."
+    }
+  ],
+  "changes": [
+    {
+      "id": "garden-guru-rockford",
+      "name": "The Garden Guru Kzoo",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/garden-guru-rockford-reviewed-v2.webp",
+        "alt": "Garden Guru Rockford plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.thegardengurukzoo.com/",
+      "sourceImage": "https://images.squarespace-cdn.com/content/v1/5b1fef7236099bb97f094749/1709149651621-AHGS9SHBLWYDCJGHA6HL/bellwort+2.jpg",
+      "asset": {
+        "name": "garden-guru-rockford-reviewed-v2.webp",
+        "sha256": "fd1f2e22687218d298918ac8472c6aa4b36c193ef293a58004e31306f2366857",
+        "width": 540,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "ash-creek-native-nursery-cornelius",
+      "name": "Ash Creek Forest Management Native Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/ash-creek-native-nursery-cornelius-reviewed-v2.webp",
+        "alt": "Ash Creek Native Nursery Cornelius plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.ashcreekforestry.com/",
+      "sourceImage": "https://static.wixstatic.com/media/3238d0_cc25d969f29c4ef7af84d401ecd5dbd8~mv2.jpeg",
+      "asset": {
+        "name": "ash-creek-native-nursery-cornelius-reviewed-v2.webp",
+        "sha256": "876d0cd67e38b96b06f56a7f3021dbf8551d1a7fe9a565880d5c14cfbeb58b29",
+        "width": 960,
+        "height": 540
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "jackrabbit-nursery-buckeye",
+      "name": "Jackrabbit Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/jackrabbit-nursery-buckeye-reviewed-v2.webp",
+        "alt": "Jackrabbit Nursery Buckeye plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.jackrabbitnurseryaz.com/",
+      "sourceImage": "https://static.wixstatic.com/media/fc0b5b_d1f7b146a5c64cbfb5a2b0feacc0ed47.jpg",
+      "asset": {
+        "name": "jackrabbit-nursery-buckeye-reviewed-v2.webp",
+        "sha256": "9ae2020e11bc097f34cfa8d18b01302f3d2e7133949d9997fdfff2cdbb8cef0c",
+        "width": 960,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "jimbos-nursery-santa-fe-tx",
+      "name": "Jimbo’s Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/jimbos-nursery-santa-fe-tx-reviewed-v2.webp",
+        "alt": "Jimbos Nursery Santa Fe Tx plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://jimbosnursery.com/",
+      "sourceImage": "https://jimbosnursery.com/images/site/home-growing-gulf-coast-gardens.jpg",
+      "asset": {
+        "name": "jimbos-nursery-santa-fe-tx-reviewed-v2.webp",
+        "sha256": "0d9099aae4687e3423cbb309cd6475e6432aa26ac1a8f6083942c83128f09bc9",
+        "width": 540,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "reeseville-ridge-nursery",
+      "name": "Reeseville Ridge Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/reeseville-ridge-nursery-reviewed-v2.webp",
+        "alt": "Reeseville Ridge Nursery plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.reesevilleridgenursery.com/",
+      "sourceImage": "https://www.reesevilleridgenursery.com/s/cc_images/cache_948471939.JPG?t=1464923710",
+      "asset": {
+        "name": "reeseville-ridge-nursery-reviewed-v2.webp",
+        "sha256": "6e76177e4df74938c710ad006896c94a6e2ed43d8da2b835340bfb33962fe6f0",
+        "width": 274,
+        "height": 195
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "dry-creek-nursery",
+      "name": "Dry Creek Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/dry-creek-nursery-reviewed-v2.webp",
+        "alt": "Dry Creek Nursery plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://drycreeknursery.com/",
+      "sourceImage": "https://drycreeknursery.com/cdn/shop/collections/Red_Yarrow.jpg?v=1751499444",
+      "asset": {
+        "name": "dry-creek-nursery-reviewed-v2.webp",
+        "sha256": "fcd9988584767a69104b231bd70e1d8fc798589a265e6601787c237b656250e6",
+        "width": 540,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "floral-native-nursery",
+      "name": "Floral Native Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/floral-native-nursery-reviewed-v2.webp",
+        "alt": "Floral Native Nursery plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://floralnativenursery.com/",
+      "sourceImage": "https://floralnativenursery.com/assets/img/slider/slide2.jpg",
+      "asset": {
+        "name": "floral-native-nursery-reviewed-v2.webp",
+        "sha256": "380c0ef9c753d90609bfa1115565e3dd0a223a7132daf9deaf6adc084e399b75",
+        "width": 960,
+        "height": 250
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "high-desert-native-plants-el-paso",
+      "name": "High Desert Native Plants",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/high-desert-native-plants-el-paso-reviewed-v2.webp",
+        "alt": "High Desert Native Plants El Paso plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.highdesertnativeplants.com/nursery/",
+      "sourceImage": "https://www.highdesertnativeplants.com/wp-content/uploads/2020/06/Charismatic-Cacti-480x471.jpeg",
+      "asset": {
+        "name": "high-desert-native-plants-el-paso-reviewed-v2.webp",
+        "sha256": "8c64beed85fb23d05b1e19dabe42d33d7271c023d279405a0b3f2c2d35707595",
+        "width": 480,
+        "height": 471
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "next-door-nursery-texas",
+      "name": "Next Door Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/next-door-nursery-texas-reviewed-v2.webp",
+        "alt": "Next Door Nursery Texas plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://next-door-nursery.myshopify.com/",
+      "sourceImage": "https://next-door-nursery.myshopify.com/cdn/shop/files/IMG_1021_2048x.jpg?v=1760725866",
+      "asset": {
+        "name": "next-door-nursery-texas-reviewed-v2.webp",
+        "sha256": "adbe882b2c69fcea5f6837948c2da1850b9775ab672d713bb0b3771dfd75ad4b",
+        "width": 960,
+        "height": 640
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "plants-of-the-wild-tekoa",
+      "name": "Plants of the Wild",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/plants-of-the-wild-tekoa-reviewed-v2.webp",
+        "alt": "Plants Of The Wild Tekoa plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://plantsofthewild.com/",
+      "sourceImage": "https://plantsofthewild.com/wp-content/uploads/2020/02/rainbow-canyard.jpg",
+      "asset": {
+        "name": "plants-of-the-wild-tekoa-reviewed-v2.webp",
+        "sha256": "c192c5cf1a8da8b57d276e67db2fda2cf15f27f8bda534a584955a736e00aa30",
+        "width": 750,
+        "height": 563
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "rust-belt-natives",
+      "name": "Rust Belt Natives",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/rust-belt-natives-reviewed-v2.webp",
+        "alt": "Rust Belt Natives plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.rustbeltnatives.com/",
+      "sourceImage": "https://static.wixstatic.com/media/8c0ecb_f4da321921ba4b9eb59a93d0ae79ccf2~mv2.jpeg",
+      "asset": {
+        "name": "rust-belt-natives-reviewed-v2.webp",
+        "sha256": "fb72381c25f4c5f9eb356003ec3070266b36200421ae2600dc2527c21885f5e9",
+        "width": 960,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "swiftwater-organics-native-nursery",
+      "name": "Swiftwater Native Plant Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/swiftwater-organics-native-nursery-reviewed-v2.webp",
+        "alt": "Swiftwater Organics Native Nursery plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.swiftwaterorganics.com/",
+      "sourceImage": "https://static.wixstatic.com/media/d59259_c8b9dc80040342ed9f54cdfadf1c9159~mv2.jpg",
+      "asset": {
+        "name": "swiftwater-organics-native-nursery-reviewed-v2.webp",
+        "sha256": "006dec2957ae3f299e3fde911f634ebd73e0e7b2c8c4666e95e29bc9a7a822bd",
+        "width": 720,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "las-pilitas-native-plant-nursery",
+      "name": "Las Pilitas Native Plant Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/las-pilitas-native-plant-nursery-reviewed-v2.webp",
+        "alt": "Native plants displayed at Las Pilitas Nursery",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.laspilitas.com/",
+      "sourceImage": "https://www.laspilitas.com/images/grid24_24/13504/images/california-native-plants-at-las-pilitas-nursery.jpg 950w,/images/grid24_18/13504/images/california-native-plants-at-las-pilitas-nursery.jpg 710w,/images/grid24_12/13504/images/california-native-plants-at-las-pilitas-nursery.jpg",
+      "asset": {
+        "name": "las-pilitas-native-plant-nursery-reviewed-v2.webp",
+        "sha256": "900e479fb8ee829fa9174443cb7d2da70d4225de76cb9dea8fcddecac43e4346",
+        "width": 542,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "capital-native-plants",
+      "name": "Capital Native Plants",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/capital-native-plants-reviewed-v2.webp",
+        "alt": "Capital Native Plants plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://capitalnativeplants.com/",
+      "sourceImage": "https://capitalnativeplants.com/wp-content/uploads/2021/03/36738188_2177141289231396_354172890242875392_n.jpg",
+      "asset": {
+        "name": "capital-native-plants-reviewed-v2.webp",
+        "sha256": "168c849e007885976f8cddafbbeb2d0a9561a80afeead93870e5f2f01389fe9d",
+        "width": 540,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "plant-community-ri",
+      "name": "Plant Community RI",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/plant-community-ri-reviewed-v2.webp",
+        "alt": "Plant Community Ri plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.plantcommunityri.com/",
+      "sourceImage": "https://static.wixstatic.com/media/a44e1d_c00be2ee56cf428abdaf12b80d527eee~mv2.png",
+      "asset": {
+        "name": "plant-community-ri-reviewed-v2.webp",
+        "sha256": "8854ae769e9f779fe569277d4cab9962bccd3bdcaf0707aa3db70884fe69521a",
+        "width": 540,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "tadpole-haven-native-plants-woodinville",
+      "name": "Tadpole Haven Native Plants",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/tadpole-haven-native-plants-woodinville-reviewed-v2.webp",
+        "alt": "Tadpole Haven Native Plants Woodinville plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://tadpolehaven.com/",
+      "sourceImage": "https://tadpolehaven.com/wp-content/uploads/2024/03/aruncus-dioicus-pollinators2.jpg?w=1440",
+      "asset": {
+        "name": "tadpole-haven-native-plants-woodinville-reviewed-v2.webp",
+        "sha256": "d935787fc4c1a8367ce624c9d9f4af568a062134828a210f601dad350030c584",
+        "width": 540,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "kinnickinnic-natives-river-falls",
+      "name": "Kinnickinnic Natives",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/kinnickinnic-natives-river-falls-reviewed-v2.webp",
+        "alt": "Kinnickinnic Natives River Falls plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.kinninatives.com/",
+      "sourceImage": "https://static.wixstatic.com/media/94e923_a946bbd2761846a5954af1d9c9a9bc06.jpg",
+      "asset": {
+        "name": "kinnickinnic-natives-river-falls-reviewed-v2.webp",
+        "sha256": "3afcc22eafdbb4efa6f880b2ed88ef520734d304f6633a5507e34cdefcd779f2",
+        "width": 960,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "sutro-stewards-native-plant-nursery",
+      "name": "Sutro Stewards Native Plant Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/sutro-stewards-native-plant-nursery-reviewed-v2.webp",
+        "alt": "Sutro Stewards Native Plant Nursery plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.sutrostewards.org/",
+      "sourceImage": "https://static.wixstatic.com/media/a91c4e_46a4f373872048ed9678e932a7c67991~mv2.jpg",
+      "asset": {
+        "name": "sutro-stewards-native-plant-nursery-reviewed-v2.webp",
+        "sha256": "e763f3a30a776349ed7e5dd5152f90b5df94fc80096f212e63e8d952badbc832",
+        "width": 960,
+        "height": 640
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "carsons-nurseries-springfield-mo",
+      "name": "Carson’s Nurseries",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/carsons-nurseries-springfield-mo-reviewed-v2.webp",
+        "alt": "Carsons Nurseries Springfield Mo plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.carsonsnurseries.net/carsons-nurseries",
+      "sourceImage": "https://static.wixstatic.com/media/20167e_75c5f613fb9448e4b7030ce04cd8a3b0~mv2.webp",
+      "asset": {
+        "name": "carsons-nurseries-springfield-mo-reviewed-v2.webp",
+        "sha256": "a35230b19e42bf282f866ab934910d684970791f8a0fe3224624fabd74802d5d",
+        "width": 960,
+        "height": 719
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "round-rock-garden-center",
+      "name": "Round Rock Garden Center",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/round-rock-garden-center-reviewed-v2.webp",
+        "alt": "Round Rock Garden Center plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.roundrockgardens.com/",
+      "sourceImage": "https://static.wixstatic.com/media/nsplsh_1ec9f5d23c2342bda708abaaba86a545~mv2.jpg",
+      "asset": {
+        "name": "round-rock-garden-center-reviewed-v2.webp",
+        "sha256": "749487f1f07e5e0691936ed7d1d81dc4090bfd437baf82fc5d04300867108af4",
+        "width": 482,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "mail-order-natives",
+      "name": "Mail Order Natives",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/mail-order-natives-reviewed-v2.webp",
+        "alt": "Mail Order Natives plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.mailordernatives.com/",
+      "sourceImage": "https://cdn11.bigcommerce.com/s-rh53n5ea/images/stencil/300x300/products/965/2193/Dons_dwarf_waxmyrtle___21632.1792775573.jpg?c=2",
+      "asset": {
+        "name": "mail-order-natives-reviewed-v2.webp",
+        "sha256": "5c0a9a8e1dbbce0862b76032252e3bdfcc643af05fe65be4c0dd24b2b696b7f5",
+        "width": 225,
+        "height": 300
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "everwilde-farms-wisconsin",
+      "name": "Everwilde Farms",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/everwilde-farms-wisconsin-reviewed-v2.webp",
+        "alt": "Everwilde Farms Wisconsin plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.everwilde.com/",
+      "sourceImage": "https://www.everwilde.com/media/images/slides/M1.gif",
+      "asset": {
+        "name": "everwilde-farms-wisconsin-reviewed-v2.webp",
+        "sha256": "aa7984dd8dca2548b7e6885e01e70478d811815c6efa672240cfcfc3bf09ac31",
+        "width": 638,
+        "height": 340
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "cedar-mountain-perennials-athol",
+      "name": "Cedar Mountain Perennials",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/cedar-mountain-perennials-athol-reviewed-v2.webp",
+        "alt": "Cedar Mountain Perennials Athol plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://cedarmountainperennials.com/",
+      "sourceImage": "https://cedarmountainperennials.com/assets/images/2012june27_001.105121625_std.JPG",
+      "asset": {
+        "name": "cedar-mountain-perennials-athol-reviewed-v2.webp",
+        "sha256": "235e197d46672a2b0f4406a2c53656576f1c81156aaae87aeb386b8cf908c317",
+        "width": 800,
+        "height": 600
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "flint-hills-native-plants",
+      "name": "Flint Hills Native Plants",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/flint-hills-native-plants-reviewed-v2.webp",
+        "alt": "Flint Hills Native Plants plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.fhnativeplants.com/",
+      "sourceImage": "https://images.squarespace-cdn.com/content/v1/67b521a945fd42118942ef47/c470406c-1627-4505-8056-089a39bb65b4/PXL_20240608_150135612.jpg?format=2500w",
+      "asset": {
+        "name": "flint-hills-native-plants-reviewed-v2.webp",
+        "sha256": "8489571b072c0dfeadafcaf80b12b2bd61ae93bf56ce4b3b121728bc326928dc",
+        "width": 720,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "black-cap-farm-onekama",
+      "name": "Black Cap Farm Native Plant Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/black-cap-farm-onekama-reviewed-v2.webp",
+        "alt": "Black Cap Farm Onekama plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.blackcapplants.com/",
+      "sourceImage": "https://static.wixstatic.com/media/nsplsh_7672625a567958326b3449~mv2_d_5760_3840_s_4_2.jpg",
+      "asset": {
+        "name": "black-cap-farm-onekama-reviewed-v2.webp",
+        "sha256": "e0ce642a0eeac696b43369c1614de2d415b34a3490ca7a0f3cd0d95d2feff211",
+        "width": 960,
+        "height": 640
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "lichterman-native-plant-sales",
+      "name": "Lichterman Nature Center Native Plant Sales",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/lichterman-native-plant-sales-reviewed-v2.webp",
+        "alt": "Lichterman Native Plant Sales plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://moshmemphis.com/explore/lichterman-nature-center/",
+      "sourceImage": "https://moshmemphis.com/wp-content/uploads/2025/01/LichtermanCenter-Walkthrough-11.jpg",
+      "asset": {
+        "name": "lichterman-native-plant-sales-reviewed-v2.webp",
+        "sha256": "a624fd1b564efbc3e08147f256560a6046bfd89ee49bc66c36cfebc0c1d01fe4",
+        "width": 960,
+        "height": 640
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "midtown-bramble-bloom",
+      "name": "Midtown Bramble & Bloom",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/midtown-bramble-bloom-reviewed-v2.webp",
+        "alt": "Midtown Bramble Bloom plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://midtownbramble.com/",
+      "sourceImage": "https://midtownbramble.com/cdn/shop/files/314891107_565762232218157_4469744276746220780_n_480x480@2x.jpg?v=1698812836",
+      "asset": {
+        "name": "midtown-bramble-bloom-reviewed-v2.webp",
+        "sha256": "04a76b927729fd81f17562462bd97e1b8e4a5ce3e9729a754738de6c6393c932",
+        "width": 576,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "backhouse-garden-ms",
+      "name": "Backhouse Garden",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/backhouse-garden-ms-reviewed-v2.webp",
+        "alt": "Backhouse Garden Ms plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.facebook.com/people/Backhouse-Garden-LLC/61559733694846/",
+      "sourceImage": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/557613952_122195768918324456_2014222809459357504_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1770x1770&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QwcRwF6bpPkQ7kNvwGgMHgP&_nc_oc=Adr6bvxoiOgTNRQWTXxA1rta3a0upqY_aAiniPw26_tDmi5kp9h9ObPE-ep716h5T__bWYKnmyagL-eBQyfmnDz2&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=Cw0Mp_cOzr6a10X_f35mQA&_nc_ss=7920f&oh=00_AQQEQwDN1ou9nRdzHK0Bkfn6Q1d37Qy-pFohWxK3xJ02oA&oe=6B06BF92",
+      "asset": {
+        "name": "backhouse-garden-ms-reviewed-v2.webp",
+        "sha256": "b71cd58bafc5e6bf8c8931b6ae1da00c93894fea2e31574a20416c2f04df6998",
+        "width": 720,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "tait-farm-native-plant-nursery",
+      "name": "Tait Farm Native Plant Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/tait-farm-native-plant-nursery-reviewed-v2.webp",
+        "alt": "Tait Farm Native Plant Nursery plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.facebook.com/taitfarmlocal",
+      "sourceImage": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/518674582_1193848182787391_6797150137780856886_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-Y5qkJdn7Z8Q7kNvwHFdDdL&_nc_oc=AdqEvAu-8xjZCPsqFyuunODVW4KPBrW70sgdB4ssIHijX8SSPAiU18zyxo-Ipu2AV82RUTaPedv9m-DBD3lTVW4z&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=O3XMPnB4FaV26MqL766SHg&_nc_ss=7920f&oh=00_AQS8cphbAhCvvKRRMSVjuRo8rEjmDdJjKxQ3B3fS1qyiyA&oe=6B06C38B",
+      "asset": {
+        "name": "tait-farm-native-plant-nursery-reviewed-v2.webp",
+        "sha256": "98886eab0bc8440a7164d0cec2078489a472d2c8c2f70d40d562948be59b8f2c",
+        "width": 720,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "woodland-wonders-nursery",
+      "name": "Woodland Wonders Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/woodland-wonders-nursery-reviewed-v2.webp",
+        "alt": "Woodland Wonders Nursery plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.facebook.com/woodland.wonders.nursery",
+      "sourceImage": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/907279036_1651948006722416_8738065698687776923_n.avif?stp=dst-jpg_tt6&cstp=mx406x640&ctp=s406x640&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IhsnWfbJ5b8Q7kNvwH-cSD7&_nc_oc=AdoLrIo6CYMOq1McHXRQricAhbNllLBKc05jpu55T1DjlkHuNZLrW7NoQMllb3TDD-LUmhjAmaajus-XyRUToiNg&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=pfsuPRYd3JX3W6iFQFbVRQ&_nc_ss=7920f&oh=00_AQQ8wbAMs8Zl2v4WuvTJu6iN0MtugkBtm9jQAqLo7Ty1rA&oe=6B06E77C",
+      "asset": {
+        "name": "woodland-wonders-nursery-reviewed-v2.webp",
+        "sha256": "bc2b4df669c7d200d07a18bf5ad6561be3c9502dc64e8d8feedf22db22e27d2e",
+        "width": 406,
+        "height": 640
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "miller-hill-farm-vt",
+      "name": "Miller Hill Farm Nursery & Gardens",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/miller-hill-farm-vt-reviewed-v2.webp",
+        "alt": "Miller Hill Farm Vt plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://millerhillfarmvt.com/",
+      "sourceImage": "https://millerhillfarmvt.com/wp-content/uploads/2015/07/storefront-848x565.jpg",
+      "asset": {
+        "name": "miller-hill-farm-vt-reviewed-v2.webp",
+        "sha256": "a78122b2e2631dda18a5da7413e050dfd27cceff274729add4df919d955fd8bc",
+        "width": 848,
+        "height": 565
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "berridge-nurseries-phoenix",
+      "name": "Berridge Nurseries",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/berridge-nurseries-phoenix-reviewed-v2.webp",
+        "alt": "Plants displayed inside Berridge Nurseries’ greenhouse",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.berridgenursery.com/",
+      "sourceImage": "https://static.wixstatic.com/media/b04dd3_32ce0339d0aeb2260770e8ac26cd8cbb.jpg",
+      "asset": {
+        "name": "berridge-nurseries-phoenix-reviewed-v2.webp",
+        "sha256": "a7d8da12d0f52c0045ff5829756226a96b2dfde96ce1cb89b5af170edaffcb42",
+        "width": 960,
+        "height": 641
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "heartwood-nursery-pa",
+      "name": "Heartwood Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/heartwood-nursery-pa-reviewed-v2.webp",
+        "alt": "Heartwood Nursery Pa official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.heartwoodnursery.net/retail",
+      "sourceImage": "https://static.wixstatic.com/media/16b1a5_e366dedd5be34c9294a1a0c4454994ab%7Emv2.png/v1/fit/w_2500,h_1330,al_c/16b1a5_e366dedd5be34c9294a1a0c4454994ab%7Emv2.png",
+      "asset": {
+        "name": "heartwood-nursery-pa-reviewed-v2.webp",
+        "sha256": "ab7c63fff018fcf1ec2c9c55a6b5ac6ea10a2bd769b6c48fa1c417009d660b91",
+        "width": 371,
+        "height": 183
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "atlanta-native-plant-nursery",
+      "name": "Atlanta Native Plant Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/atlanta-native-plant-nursery-reviewed-v2.webp",
+        "alt": "Atlanta Native Plant Nursery official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.atlnativeplants.com/",
+      "sourceImage": "https://images.squarespace-cdn.com/content/v1/68f42d96e9bb561985f92094/baaeae63-17b3-4c33-8d90-e9a64c2f73f3/ANPN+logo+4.png?format=1500w",
+      "asset": {
+        "name": "atlanta-native-plant-nursery-reviewed-v2.webp",
+        "sha256": "224e49602bcfff4fc52fd000971604088decae706778de3123d2212dd9ea7087",
+        "width": 800,
+        "height": 172
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "native-roots-llc-twin-falls",
+      "name": "Native Roots LLC",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/native-roots-llc-twin-falls-reviewed-v2.webp",
+        "alt": "Native Roots Llc Twin Falls official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://native-roots.net/contact-us/",
+      "sourceImage": "https://native-roots.net/files/2021/03/logo.png",
+      "asset": {
+        "name": "native-roots-llc-twin-falls-reviewed-v2.webp",
+        "sha256": "d448d6608c4e43ae875eb697413edf7c0dd573fa29896ffd6816cf226324eb63",
+        "width": 800,
+        "height": 241
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "ecoscapes-elko-new-market",
+      "name": "Ecoscapes Sustainable Landscaping",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/ecoscapes-elko-new-market-reviewed-v2.webp",
+        "alt": "Ecoscapes Elko New Market official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.ecoscapes1.com/",
+      "sourceImage": "https://www.ecoscapes1.com/wp-content/uploads/2022/02/EcoscapesNativeNursery1.jpeg",
+      "asset": {
+        "name": "ecoscapes-elko-new-market-reviewed-v2.webp",
+        "sha256": "40a3c27e741fb2908aa326ce56fa2d1921da142d94c8a62d34ba32069e710908",
+        "width": 640,
+        "height": 339
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "servescape",
+      "name": "ServeScape",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/servescape-reviewed-v2.webp",
+        "alt": "Servescape official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://servescape.com/",
+      "sourceImage": "http://servescape.com/cdn/shop/files/Servescape_Logo_2024.png?v=1719505092",
+      "asset": {
+        "name": "servescape-reviewed-v2.webp",
+        "sha256": "19feaca75a70edfc84d1f0d52a503f901d39b0c4d5d9efe037173c3d924fa8fb",
+        "width": 800,
+        "height": 419
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "intermountain-nursery",
+      "name": "Intermountain Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/intermountain-nursery-reviewed-v2.webp",
+        "alt": "Intermountain Nursery official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.intermountainnursery.com/",
+      "sourceImage": "https://images.squarespace-cdn.com/content/v1/67eae07ef678a173bfcfec3a/98851dd3-53a5-4109-82b7-03c55c2b42c8/LOGO+BLK.png?format=1500w",
+      "asset": {
+        "name": "intermountain-nursery-reviewed-v2.webp",
+        "sha256": "4ee707e00e86148f6e7f5670ef87488a9bec9716695afb55c0d56ffe31225c03",
+        "width": 800,
+        "height": 463
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "bluestem-hollow-nursery",
+      "name": "Bluestem Hollow Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/bluestem-hollow-nursery-reviewed-v2.webp",
+        "alt": "Bluestem Hollow Nursery official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://bluestemhollownursery.com/",
+      "sourceImage": "https://bluestemhollownursery.com/_next/image?url=%2Fimages%2Flogo.png&w=828&q=75",
+      "asset": {
+        "name": "bluestem-hollow-nursery-reviewed-v2.webp",
+        "sha256": "65a710a4ea1b86146aa1f97fad51f0bcc8e6a89cb32d20af7a0d8e46f28cccff",
+        "width": 800,
+        "height": 423
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "bay-gardens",
+      "name": "Bay Gardens",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/bay-gardens-reviewed-v2.webp",
+        "alt": "Bay Gardens official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://baygardens.com/",
+      "sourceImage": "http://baygardens.com/cdn/shop/files/Untitled_design.png?v=1613576045",
+      "asset": {
+        "name": "bay-gardens-reviewed-v2.webp",
+        "sha256": "618ae5136b14ee0a298b3d01f4682ddf87f528c9f0fa88138b595180e9cb842e",
+        "width": 200,
+        "height": 60
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "prairie-future-seed-company",
+      "name": "Prairie Future Seed Company",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/prairie-future-seed-company-reviewed-v2.webp",
+        "alt": "Prairie Future Seed Company official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://prairiefutureseed.com/",
+      "sourceImage": "https://www.prairiefutureseed.com/images/thumbs/0000820_PFS-LOGO-HorizontalDarker-300w.png",
+      "asset": {
+        "name": "prairie-future-seed-company-reviewed-v2.webp",
+        "sha256": "8f061b08d799943aeef27b1cda3683c8a0ee34b3e6421a7a1fd5f54ec6201cbf",
+        "width": 300,
+        "height": 174
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "wild-birds-unlimited-mcallen",
+      "name": "Wild Birds Unlimited",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/wild-birds-unlimited-mcallen-reviewed-v2.webp",
+        "alt": "Wild Birds Unlimited Mcallen official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://mcallen.wbu.com/native-plants",
+      "sourceImage": "https://mcallen.wbu.com/templates/wbu3/staticresources/assets/images/logo.webp",
+      "asset": {
+        "name": "wild-birds-unlimited-mcallen-reviewed-v2.webp",
+        "sha256": "dd92649fed44ff2888d7aac7cab089b32a9f2f5ca7317b29a5f74619f418304c",
+        "width": 410,
+        "height": 110
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "tapteal-native-plants",
+      "name": "Tapteal Native Plants",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/tapteal-native-plants-reviewed-v2.webp",
+        "alt": "Tapteal Native Plants official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.taptealnativeplants.com/",
+      "sourceImage": "https://images.squarespace-cdn.com/content/v1/597389bcd7bdcef6477d815e/1500747455199-IES5ESS86EEWRKI2CEZJ/leaves-only.png?format=1500w",
+      "asset": {
+        "name": "tapteal-native-plants-reviewed-v2.webp",
+        "sha256": "b452747fbed247d75e303ba4d67c765310c0f18021cac6663c2f8397c7e5c54e",
+        "width": 800,
+        "height": 484
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "tend-native-plants",
+      "name": "Tend Native Plants",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/tend-native-plants-reviewed-v2.webp",
+        "alt": "Tend Native Plants official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://tendnativeplants.com/",
+      "sourceImage": "https://tendnativeplants.com/cdn/shop/files/Tend_Logo_Final_transparent.png?v=1733448571&width=400",
+      "asset": {
+        "name": "tend-native-plants-reviewed-v2.webp",
+        "sha256": "6661eb6ad1ca44acc89115801857c8ee95662e2f61b8be690be873c574bfe726",
+        "width": 400,
+        "height": 186
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "4m-farms",
+      "name": "4M Farms",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/4m-farms-reviewed-v2.webp",
+        "alt": "4M Farms official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://mcallen.wbu.com/local-resources",
+      "sourceImage": "https://mcallen.wbu.com/download/236863.png",
+      "asset": {
+        "name": "4m-farms-reviewed-v2.webp",
+        "sha256": "7dcc5998599e8ac38d2c184b467f95cd5e1c7e8c05801b8338e69c54b1af2dbe",
+        "width": 500,
+        "height": 500
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "maine-audubon-native-sale-falmouth",
+      "name": "Maine Audubon Native Plant Sale — Falmouth",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/maine-audubon-native-sale-falmouth-reviewed-v2.webp",
+        "alt": "Maine Audubon Native Sale Falmouth official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://mainenativeplants.org/",
+      "sourceImage": "https://mainenativeplants.org/wp-content/uploads/2020/04/ma_logo.png",
+      "asset": {
+        "name": "maine-audubon-native-sale-falmouth-reviewed-v2.webp",
+        "sha256": "a08f14810e51ac00b1bf0a1de46e4b2a339c2ff920ea88a718a6979d64f53874",
+        "width": 800,
+        "height": 256
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "maine-audubon-native-sale-holden",
+      "name": "Maine Audubon Native Plant Sale — Holden",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/maine-audubon-native-sale-holden-reviewed-v2.webp",
+        "alt": "Maine Audubon Native Sale Holden official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://mainenativeplants.org/",
+      "sourceImage": "https://mainenativeplants.org/wp-content/uploads/2020/04/ma_logo.png",
+      "asset": {
+        "name": "maine-audubon-native-sale-holden-reviewed-v2.webp",
+        "sha256": "a08f14810e51ac00b1bf0a1de46e4b2a339c2ff920ea88a718a6979d64f53874",
+        "width": 800,
+        "height": 256
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "bells-creek-wildflower-farm-walhalla",
+      "name": "Bells Creek Wildflower Farm",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/bells-creek-wildflower-farm-walhalla-reviewed-v2.webp",
+        "alt": "Bells Creek Wildflower Farm Walhalla official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.facebook.com/bellscreekwildflowerfarm",
+      "sourceImage": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/481943747_1075970314334118_1037674092677737410_n.jpg?stp=dst-jpg_tt6&cstp=mx234x207&ctp=s234x207&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-ZvNdoOXXJsQ7kNvwGyJxtW&_nc_oc=Ado3OYWgRJygYiSoZEYqLGS7-MkqLHeQ0Yez2AwzW5dAoOtHeJQgfz3jEzH17K1Z9nTYVeqQni_4VFNHrarDSHRO&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=qCmeGwVE0eX-Zr_4GCVNkQ&_nc_ss=7920f&oh=00_AQTNpVw3Jg5Z1Cz8_vw-aBGwjwYG8Lmx1vifLKN3jc6WlQ&oe=6B06F05A",
+      "asset": {
+        "name": "bells-creek-wildflower-farm-walhalla-reviewed-v2.webp",
+        "sha256": "eee3d393f1e2bcf9466feb755114d0856fd817bfd8bcd4825b3a6b49aa605e34",
+        "width": 234,
+        "height": 207
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "native-utah-plants-provo",
+      "name": "Native Utah Plants",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/native-utah-plants-provo-reviewed-v2.webp",
+        "alt": "Native Utah Plants Provo official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://utahplants.com/",
+      "sourceImage": "https://utahplants.com/cdn/shop/files/Logo_on_Transparent.svg?v=1742581081&width=360",
+      "asset": {
+        "name": "native-utah-plants-provo-reviewed-v2.webp",
+        "sha256": "7a0c6e7b6e1e1d6496a76b29ef093f5c6a36ae2a415562a1e557d29d3dbe5500",
+        "width": 800,
+        "height": 212
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "armadillo-gardens",
+      "name": "Armadillo Gardens",
+      "previousPreview": {
+        "image": "https://images.squarespace-cdn.com/content/v1/65132abd49c77054a0bb3060/8c90ad56-6702-447b-9a67-aac5fe19458f/IMG_5745.jpg",
+        "alt": "Photo featured on Armadillo Gardens’s website"
+      },
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/armadillo-gardens-reviewed-v2.webp",
+        "alt": "Armadillo Gardens official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.armadillogardens.com/home",
+      "sourceImage": "https://images.squarespace-cdn.com/content/v1/65132abd49c77054a0bb3060/1c5d795a-5566-43a2-8ad4-ab04bbe9264a/Armadillo_Gardens_Logo_90_-removebg.png?format=1500w",
+      "asset": {
+        "name": "armadillo-gardens-reviewed-v2.webp",
+        "sha256": "a2d8800e411ba54d67900fff56d162572613dac45bca19164670b5878f0835fa",
+        "width": 518,
+        "height": 500
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "red-buffalo-nursery-richmond-il",
+      "name": "Red Buffalo Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/red-buffalo-nursery-richmond-il-reviewed-v2.webp",
+        "alt": "Red Buffalo Nursery Richmond Il official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://redbuffalonursery.com/",
+      "sourceImage": "https://redbuffalonursery.com/images/Asclepiasslice.png",
+      "asset": {
+        "name": "red-buffalo-nursery-richmond-il-reviewed-v2.webp",
+        "sha256": "d7421d8d11977608e1340df7bb52209c5b00356ed86d415cff296c783a361698",
+        "width": 589,
+        "height": 100
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "takao-nursery",
+      "name": "Takao Nursery",
+      "previousPreview": {
+        "image": "https://takaonursery.com/wp-content/uploads/2016/12/leaf.png",
+        "alt": "Takao Nursery logo",
+        "type": "logo",
+        "dark": true
+      },
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/takao-nursery-reviewed-v2.webp",
+        "alt": "Takao Nursery official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://takaonursery.com/",
+      "sourceImage": "https://takaonursery.com/wp-content/uploads/2016/12/logo.png",
+      "asset": {
+        "name": "takao-nursery-reviewed-v2.webp",
+        "sha256": "684cb75b1a58734e351acfd70149c66bd5c28d7c3f880ef027c612579558a569",
+        "width": 118,
+        "height": 114
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "willamette-gardens",
+      "name": "Willamette Gardens",
+      "previousPreview": {
+        "image": "https://www.willamettegardens.com/images/aster.jpg",
+        "alt": "Plants and growing spaces pictured on Willamette Gardens’s official website",
+        "type": "photo"
+      },
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/willamette-gardens-reviewed-v2.webp",
+        "alt": "Willamette Gardens official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.willamettegardens.com/",
+      "sourceImage": "https://www.willamettegardens.com/images/logo.gif",
+      "asset": {
+        "name": "willamette-gardens-reviewed-v2.webp",
+        "sha256": "e257b33a277ade6b777e1f5375ba6cb003eef6cb0861eed0eb6cfdbce34d3f4a",
+        "width": 200,
+        "height": 167
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "bloomsday-natives-portland",
+      "name": "Bloomsday Natives",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/bloomsday-natives-portland-reviewed-v2.webp",
+        "alt": "Bloomsday Natives Portland official logo",
+        "type": "logo",
+        "dark": true
+      },
+      "sourcePage": "https://bloomsdaynatives.com/",
+      "sourceImage": "https://bloomsdaynatives.com/cdn/shop/files/BD_header_logo_cropped.webp?v=1785282611&width=1200",
+      "asset": {
+        "name": "bloomsday-natives-portland-reviewed-v2.webp",
+        "sha256": "fc3653a83d07c6cb898aa1263aff5beebf2050f651abd5fd7155a098c0780c5d",
+        "width": 800,
+        "height": 173
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "californica-nursery",
+      "name": "Californica Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/californica-nursery-reviewed-v2.webp",
+        "alt": "Californica Nursery official logo",
+        "type": "logo",
+        "dark": true
+      },
+      "sourcePage": "https://www.californicanursery.com/",
+      "sourceImage": "https://www.californicanursery.com/Glyph_Logo_Simplified_nobackground.png",
+      "asset": {
+        "name": "californica-nursery-reviewed-v2.webp",
+        "sha256": "fd1e5fb96da4dfcacda17b2a03a511325151777c99cffe7e254a2f87185a9e8b",
+        "width": 500,
+        "height": 500
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "white-river-nursery",
+      "name": "White River Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/white-river-nursery-reviewed-v2.webp",
+        "alt": "Purple coneflowers pictured by White River Nursery",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.whiterivernursery.com/",
+      "sourceImage": "https://static.wixstatic.com/media/b19c3c_e6cc091984554e02b14713fd83aedc93~mv2.jpg",
+      "asset": {
+        "name": "white-river-nursery-reviewed-v2.webp",
+        "sha256": "ebd53c64cce5158a2aa2208e1903bfb03fc126e9957059f5e8d506432a18c1c5",
+        "width": 960,
+        "height": 640
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "sunrise-nursery-athens",
+      "name": "Sunrise Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/sunrise-nursery-athens-reviewed-v2.webp",
+        "alt": "Plants and nursery grounds at Sunrise Nursery",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.sunrisenursery.info/",
+      "sourceImage": "https://static.wixstatic.com/media/540465_d662ff18a7c14a85b220df3a08bb51f5~mv2.png",
+      "asset": {
+        "name": "sunrise-nursery-athens-reviewed-v2.webp",
+        "sha256": "cf57f57cb878e7070dfe6bcb5a5315f6a276ad6c481fa0f583f86f4b0b5819dd",
+        "width": 960,
+        "height": 606
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "primeval-forest-nursery",
+      "name": "Primeval Forest Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/primeval-forest-nursery-reviewed-v2.webp",
+        "alt": "Primeval Forest Nursery official tree-ring logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.primevalforestnursery.com/",
+      "sourceImage": "https://static.wixstatic.com/media/d0b1dd_562639ad5d1e4876869cc22ab36eee91%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/d0b1dd_562639ad5d1e4876869cc22ab36eee91%7Emv2.jpg",
+      "asset": {
+        "name": "primeval-forest-nursery-reviewed-v2.webp",
+        "sha256": "c8bd5d62a74a83ed02e4a3fa1b89c1c477dd89a6f85425f882b95e58e247c8a3",
+        "width": 667,
+        "height": 500
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "watermark-woods",
+      "name": "Watermark Woods – Native Plants",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/watermark-woods-reviewed-v2.webp",
+        "alt": "Watermark Woods Native Plants official wordmark",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.watermarkwoods.com/",
+      "sourceImage": "https://static.wixstatic.com/media/274a0a_01cba9104c2249438e59c544b518f9e3~mv2.png",
+      "asset": {
+        "name": "watermark-woods-reviewed-v2.webp",
+        "sha256": "c9a83c3eecde6fd12780b064ea0e7eae2475d5b0905a1817ff7187536acedbbc",
+        "width": 800,
+        "height": 171
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "humble-roots-nursery-mosier",
+      "name": "Humble Roots Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/humble-roots-nursery-mosier-reviewed-v2.webp",
+        "alt": "Humble Roots Nursery Mosier plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.humblerootsnursery.com/",
+      "sourceImage": "https://static.wixstatic.com/media/304c0c_a12fdb9565534641a01886655f57f13e.jpg",
+      "asset": {
+        "name": "humble-roots-nursery-mosier-reviewed-v2.webp",
+        "sha256": "0217f002c9541fa60b0fc2acd6a98b420387c46e337a5d488fd8de3a13191bb2",
+        "width": 960,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "cache-valley-native-plants",
+      "name": "Cache Valley Native Plants",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/cache-valley-native-plants-reviewed-v2.webp",
+        "alt": "Blue-flowering native plants pictured by Cache Valley Native Plants",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.cachevalleynativeplants.com/",
+      "sourceImage": "https://static.wixstatic.com/media/587fc6_df72a6109dfb4b20987ed1f1ec3ae77b~mv2.jpg",
+      "asset": {
+        "name": "cache-valley-native-plants-reviewed-v2.webp",
+        "sha256": "30751d2220ddb0e44bd60f6cc35037724e3c7f12ccca0766d65a83126ed9db3c",
+        "width": 960,
+        "height": 641
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "warners-nursery-flagstaff",
+      "name": "Warner’s Nursery & Garden Center",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/warners-nursery-flagstaff-reviewed-v2.webp",
+        "alt": "Warners Nursery Flagstaff official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://warnercompanies.com/nursery/",
+      "sourceImage": "https://warnercompanies.com/wp-content/uploads/2019/05/cropped-Untitled-design-3.png",
+      "asset": {
+        "name": "warners-nursery-flagstaff-reviewed-v2.webp",
+        "sha256": "db58024c87ff8edbbd592e05d9c9d7424e6ce5bf559869cc382bec88a54e7cc3",
+        "width": 500,
+        "height": 500
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "goffle-brook",
+      "name": "Goffle Brook Farm & Garden Center",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/goffle-brook-reviewed-v2.webp",
+        "alt": "Goffle Brook official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://gofflebrookfarms.com/",
+      "sourceImage": "https://gofflebrookfarms.com/wp-content/uploads/2017/01/goffle-brook-farms-logo2.png",
+      "asset": {
+        "name": "goffle-brook-reviewed-v2.webp",
+        "sha256": "1616c052443f64893e3133d57bb7534b29b040a1efd75b74b834e73c4ec10196",
+        "width": 800,
+        "height": 268
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people.",
+      "provenance": "Official logo; pale background removed with image editing, complete artwork retained."
+    },
+    {
+      "id": "digit-gardens-phoenix",
+      "name": "Dig It Gardens",
+      "previousPreview": {
+        "image": "https://images.squarespace-cdn.com/content/v1/579147ec6a49638e552fcd65/1779995212285-XQM6OO6THPINM3FADEKR/image-asset.jpeg",
+        "alt": "Thank you sweetgreen PV for choosing a local family-owned business to help spoil your first customers during your opening today! We&rsquo;re"
+      },
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/digit-gardens-phoenix-reviewed-v2.webp",
+        "alt": "Digit Gardens Phoenix official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.digphx.com/",
+      "sourceImage": "https://images.squarespace-cdn.com/content/v1/579147ec6a49638e552fcd65/a4d38384-cf87-4231-9849-461c7efea5be/imageedit_1_5323089022.jpg?format=1500w",
+      "asset": {
+        "name": "digit-gardens-phoenix-reviewed-v2.webp",
+        "sha256": "665c48bdb26bbcfb21cc7829cf7a4c01a0db1740f513837dd268631239880f72",
+        "width": 706,
+        "height": 190
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "landscape-alternatives-shafer",
+      "name": "Landscape Alternatives",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/landscape-alternatives-shafer-reviewed-v2.webp",
+        "alt": "Landscape Alternatives Shafer plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.landscapealternatives.com/",
+      "sourceImage": "https://landscapealternatives.com/images/1024/15279426/Rosevillecopy-SOtnsifJW80BTY_sct5dgA.JPG",
+      "asset": {
+        "name": "landscape-alternatives-shafer-reviewed-v2.webp",
+        "sha256": "c0a27b8c71c417d1a017c55f8e0b3c6b376a57c0d656aee09a7a1e0365446b42",
+        "width": 960,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "native-nurseries-tallahassee",
+      "name": "Native Nurseries of Tallahassee",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/native-nurseries-tallahassee-reviewed-v2.webp",
+        "alt": "Native Nurseries Tallahassee plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.nativenurseries.com/",
+      "sourceImage": "https://images.squarespace-cdn.com/content/v1/563cef71e4b01fcd611400d8/1610134711506-P123MQIVKVB0IP77HJL4/pollinator_flower_garden_butterfly.jpg?format=2500w",
+      "asset": {
+        "name": "native-nurseries-tallahassee-reviewed-v2.webp",
+        "sha256": "11e2ba09fc5f3537e1d4c9c90e603d5390eaed571646a5481d0386f5c600eca2",
+        "width": 960,
+        "height": 436
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "ser-uw-native-plant-nursery-seattle",
+      "name": "SER-UW Native Plant Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/ser-uw-native-plant-nursery-seattle-reviewed-v2.webp",
+        "alt": "Ser Uw Native Plant Nursery Seattle plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://sites.uw.edu/seruwnursery/",
+      "sourceImage": "https://sites.uw.edu/seruwnursery/files/2026/01/Screenshot-2026-01-09-at-9.45.33-PM-1080x581.png",
+      "asset": {
+        "name": "ser-uw-native-plant-nursery-seattle-reviewed-v2.webp",
+        "sha256": "53440d38280c1e8357597389e4202ff9cb984b94f2f82750a72534f45b882f44",
+        "width": 960,
+        "height": 516
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "prickly-eds-native-plant-emporium",
+      "name": "Prickly Ed’s Cactus Patch, Roadside Stand & Native Plant Emporium",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/prickly-eds-native-plant-emporium-reviewed-v2.webp",
+        "alt": "Prickly Eds Native Plant Emporium plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://pricklyeds.com/",
+      "sourceImage": "https://img1.wsimg.com/isteam/ip/29c5ac6a-a2d1-4cc8-8c47-b18670749feb/spicebush%20butterfly.jpg",
+      "asset": {
+        "name": "prickly-eds-native-plant-emporium-reviewed-v2.webp",
+        "sha256": "f5cddd8e76467f2278d239a5a9f1571df23af66311b1a13b3f1f282c94d8d141",
+        "width": 960,
+        "height": 640
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "state-botanical-garden-ga-sales",
+      "name": "State Botanical Garden of Georgia Garden Shop & Plant Sales",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/state-botanical-garden-ga-sales-reviewed-v2.webp",
+        "alt": "State Botanical Garden Ga Sales plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://botgarden.uga.edu/",
+      "sourceImage": "https://botgarden.uga.edu/wp-content/uploads/2024/08/conservation-1024x604.jpg",
+      "asset": {
+        "name": "state-botanical-garden-ga-sales-reviewed-v2.webp",
+        "sha256": "793824e99a42c6b8c0742c430220d2c408ac77596416379d5f7446d4ef017c13",
+        "width": 960,
+        "height": 566
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "earth-first-native-plant-nursery",
+      "name": "Earth First Native Plant Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/earth-first-native-plant-nursery-reviewed-v2.webp",
+        "alt": "Earth First Native Plant Nursery plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://earthfirstnatives.com/",
+      "sourceImage": "https://img1.wsimg.com/isteam/ip/d4016852-756e-45ee-925d-f4cfce9246fd/8a1801c33fac4c4f7d47e6b7083042e9.jpg",
+      "asset": {
+        "name": "earth-first-native-plant-nursery-reviewed-v2.webp",
+        "sha256": "7b7fb110780198fbc3999fc1b537a6f79b3711e346487e569aee20bf6597f6e1",
+        "width": 960,
+        "height": 720
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "natives-in-harmony",
+      "name": "Natives in Harmony",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/natives-in-harmony-reviewed-v2.webp",
+        "alt": "The flower-filled garden shop at Natives in Harmony",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.nativesinharmony.com/",
+      "sourceImage": "User-supplied photo",
+      "asset": {
+        "name": "natives-in-harmony-reviewed-v2.webp",
+        "sha256": "3689966b4b666264692cc3ba88fed762960404195d44fb38728d52540b1a4eb4",
+        "width": 660,
+        "height": 450
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people.",
+      "provenance": "user attachment"
+    },
+    {
+      "id": "draggin-wing-high-desert-nursery",
+      "name": "Draggin’ Wing High Desert Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/draggin-wing-high-desert-nursery-reviewed-v2.webp",
+        "alt": "Dryland demonstration garden at Draggin’ Wing High Desert Nursery",
+        "type": "photo"
+      },
+      "sourcePage": "https://waterthriftyplants.com/",
+      "sourceImage": "User-supplied photo",
+      "asset": {
+        "name": "draggin-wing-high-desert-nursery-reviewed-v2.webp",
+        "sha256": "a641794a50121b29982af17288ad34cdf058b64425b9eac1270aa5f08004bf0c",
+        "width": 960,
+        "height": 600
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people.",
+      "provenance": "user attachment"
+    },
+    {
+      "id": "agrecol-native-nursery",
+      "name": "Agrecol Native Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/agrecol-native-nursery-reviewed-v2.webp",
+        "alt": "Agrecol Native Seed and Plant Nursery official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.agrecol.com/",
+      "sourceImage": "https://www.agrecol.com/assets/images/Agrecol 2014 4Csmall.jpg",
+      "asset": {
+        "name": "agrecol-native-nursery-reviewed-v2.webp",
+        "sha256": "0f93401c832f3a523aac56879479b94363e2e6062ccfa28577dfd9943c60d850",
+        "width": 240,
+        "height": 92
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "buck-jones-nursery",
+      "name": "Buck Jones Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/buck-jones-nursery-reviewed-v2.webp",
+        "alt": "Buck Jones Nursery plants and growing spaces pictured on its website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.buckjones.com/",
+      "sourceImage": "https://static.wixstatic.com/media/264b36_a5ea6feda42f4bd1be8d84077e84cdfa~mv2.jpg",
+      "asset": {
+        "name": "buck-jones-nursery-reviewed-v2.webp",
+        "sha256": "655e0aafbde1f6ec170861b8d3816705f4d7be5feac30ac3d00f6044de9cccf7",
+        "width": 960,
+        "height": 640
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "good-host-plants",
+      "name": "Good Host Plants",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/good-host-plants-reviewed-v2.webp",
+        "alt": "Good Host Plants official milkweed logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.goodhostplants.com/",
+      "sourceImage": "https://www.goodhostplants.com/wp-content/uploads/2020/02/good-host-plants-monarch-design-color-textbottomn.png",
+      "asset": {
+        "name": "good-host-plants-reviewed-v2.webp",
+        "sha256": "fd9477791d382a5f9dd62569df3445efbaa6163fb34b15afe23738b814e81c55",
+        "width": 800,
+        "height": 482
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "spence-restoration-nursery-indiana",
+      "name": "Spence Restoration Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/spence-restoration-nursery-indiana-reviewed-v2.webp",
+        "alt": "Native wildflower planting pictured by Spence Restoration Nursery",
+        "type": "photo"
+      },
+      "sourcePage": "https://spencenursery.com/",
+      "sourceImage": "https://spencenursery.com/wp-content/uploads/2023/09/homepage-native-plugs.jpg",
+      "asset": {
+        "name": "spence-restoration-nursery-indiana-reviewed-v2.webp",
+        "sha256": "058c993d8f02797839c3eb08cbd5374a73f5403c1e778091877af7642f9d5ee2",
+        "width": 500,
+        "height": 375
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "nature-by-design-alexandria",
+      "name": "Nature By Design",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/nature-by-design-alexandria-reviewed-v2.webp",
+        "alt": "Passionflower pictured on Nature By Design’s website",
+        "type": "photo"
+      },
+      "sourcePage": "https://www.nature-by-design.com/",
+      "sourceImage": "https://www.nature-by-design.com/Passiflora%20incarnata%20-%20NBD.JPG",
+      "asset": {
+        "name": "nature-by-design-alexandria-reviewed-v2.webp",
+        "sha256": "71b06c93469b96fe0f8beb97177a626e10d2d165e835c32980a2f514c9daad58",
+        "width": 320,
+        "height": 200
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "pine-ridge-gardens",
+      "name": "Pine Ridge Gardens",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/pine-ridge-gardens-reviewed-v2.webp",
+        "alt": "Pine Ridge Gardens official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://pineridgegardens.com/",
+      "sourceImage": "https://pineridgegardens.com/prglogo1.png",
+      "asset": {
+        "name": "pine-ridge-gardens-reviewed-v2.webp",
+        "sha256": "6aae109538142da58a8c11c695c5b0ccdd6d85d0d10aa6fd51dcb4947f535334",
+        "width": 393,
+        "height": 67
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "grow-hub-gainesville",
+      "name": "GROW HUB",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/grow-hub-gainesville-reviewed-v2.webp",
+        "alt": "GROW-HUB official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.grow-hub.org/",
+      "sourceImage": "https://www.grow-hub.org/wp-content/uploads/2017/02/GrowHub-Logo.png",
+      "asset": {
+        "name": "grow-hub-gainesville-reviewed-v2.webp",
+        "sha256": "b29460ec399257d20cb1a32c43ffaee759eb4edaa61f991f60e693c3ab21b075",
+        "width": 100,
+        "height": 88
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "ohio-native-habitat-nursery",
+      "name": "Ohio Native Habitat Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/ohio-native-habitat-nursery-reviewed-v2.webp",
+        "alt": "Ohio Native Habitat Nursery official logo",
+        "type": "logo",
+        "dark": true
+      },
+      "sourcePage": "https://ohio-nhn.com/",
+      "sourceImage": "https://ohio-nhn.com/wp-content/uploads/2021/11/Ohio-Native-Habitat-Nursery_Final-Rev.png",
+      "asset": {
+        "name": "ohio-native-habitat-nursery-reviewed-v2.webp",
+        "sha256": "41f2293a78d53fedf0b3686d1232f7d31cd58f3a16327a16b30ce94eedc8271f",
+        "width": 200,
+        "height": 62
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "wayside-garden-center",
+      "name": "Wayside Garden Center",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/wayside-garden-center-reviewed-v2.webp",
+        "alt": "Wayside Garden Center official wordmark",
+        "type": "logo",
+        "dark": true
+      },
+      "sourcePage": "https://www.waysidegardencenter.com/",
+      "sourceImage": "https://www.waysidegardencenter.com/wp-content/uploads/2024/05/logo-white-011.png",
+      "asset": {
+        "name": "wayside-garden-center-reviewed-v2.webp",
+        "sha256": "94611b8423c1804033f45c3044a6e95a09f6e20f2a13729eeb9350fe60888d81",
+        "width": 192,
+        "height": 80
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "ohio-native-nursery-cincinnati",
+      "name": "Ohio Native Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/ohio-native-nursery-cincinnati-reviewed-v2.webp",
+        "alt": "A young plant being planted, featured on Ohio Native Nursery’s website",
+        "type": "photo"
+      },
+      "sourcePage": "https://ohionativenursery.com/",
+      "sourceImage": "https://ohionativenursery.com/wp-content/uploads/2025/08/sandie-clarke-q13Zq1Jufks-unsplash-1024x683.jpg",
+      "asset": {
+        "name": "ohio-native-nursery-cincinnati-reviewed-v2.webp",
+        "sha256": "0932c8e51bdc7bdc6c6e789bad8b3de5239e01f23a4d0a9d1d3b9757962d092b",
+        "width": 960,
+        "height": 640
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "green-mountain-natives",
+      "name": "Green Mountain Natives · Vermont Wetland Plant Supply",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/green-mountain-natives-reviewed-v2.webp",
+        "alt": "Green Mountain Natives official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://greenmountainnatives.com/",
+      "sourceImage": "https://greenmountainnatives.com/wp-content/uploads/2020/03/gmn-logo-144p.png",
+      "asset": {
+        "name": "green-mountain-natives-reviewed-v2.webp",
+        "sha256": "728b822b6a88e5406d2bc81df9ebd797377df333b9b4c93c7c14ad71e8ec1bb1",
+        "width": 144,
+        "height": 144
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "faverolles-gardens",
+      "name": "Faverolles Gardens",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/faverolles-gardens-reviewed-v2.webp",
+        "alt": "Faverolles Gardens official logo",
+        "type": "logo"
+      },
+      "sourcePage": "https://faverollesgardens.com/",
+      "sourceImage": "https://faverollesgardens.com/wp-content/uploads/2023/02/FaverollesGardensLogoNewColors.png",
+      "asset": {
+        "name": "faverolles-gardens-reviewed-v2.webp",
+        "sha256": "77a96bd77a4b417d734daa4d9cf176e7530098908136497cdb6b59e8f495c591",
+        "width": 761,
+        "height": 500
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "chickadee-natives-folsom",
+      "name": "Chickadee Natives",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/chickadee-natives-folsom-reviewed-v2.webp",
+        "alt": "Chickadee Natives official logo",
+        "type": "logo",
+        "dark": true
+      },
+      "sourcePage": "https://chickadeenatives.com/",
+      "sourceImage": "https://chickadeenatives.com/wp-content/uploads/2022/04/Logo-2.png",
+      "asset": {
+        "name": "chickadee-natives-folsom-reviewed-v2.webp",
+        "sha256": "affca6661499d1fdfd73b185534d71890ac312bafde7977211cf568c5374c844",
+        "width": 744,
+        "height": 200
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "seed-on-hudson",
+      "name": "Seed-on-Hudson",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/seed-on-hudson-reviewed-v2.webp",
+        "alt": "Seed-on-Hudson logo shown in its supplier profile",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.seedonhudson.com/",
+      "sourceImage": "https://static.wixstatic.com/media/1368fc_036b2a84bae349f4a8ba2ec93eb35369~mv2.jpg",
+      "asset": {
+        "name": "seed-on-hudson-reviewed-v2.webp",
+        "sha256": "da394d03f72f6cab611662194c0126da09b8067044de1883b83ba4955f20f288",
+        "width": 518,
+        "height": 500
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "fort-pond-native-plants",
+      "name": "Fort Pond Native Plants",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/fort-pond-native-plants-reviewed-v2.webp",
+        "alt": "Fort Pond Native Plants garden center, pictured in its Montauk Chamber of Commerce profile",
+        "type": "photo"
+      },
+      "sourcePage": "https://visitmontauk.org/members/125/fort-pond-native-plants/",
+      "sourceImage": "https://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/montaukny/fort-pond-native-plants-1_98DAD7AA-B7C5-8CB5-31253E484EF0FD81-98dad724baa4587_98dadfa8-dffa-cbf2-810093dfd25aac76.jpg",
+      "asset": {
+        "name": "fort-pond-native-plants-reviewed-v2.webp",
+        "sha256": "e98f5f531e038429a5756c83ea017d9d1558d47e5338e7387cdffcad797531a6",
+        "width": 800,
+        "height": 532
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "artemis-growers-michigan",
+      "name": "Artemis Growers",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/artemis-growers-michigan-reviewed-v2.webp",
+        "alt": "Artemis Growers logo shown in its supplier profile",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.nativeplantguild.com/growers/artemis-growers",
+      "sourceImage": "https://static.wixstatic.com/media/e5204d_46db1937b6394b41868e05fe48bcb24e~mv2.png/v1/fill/w_500,h_500,al_c/Artemis%20Growers.png",
+      "asset": {
+        "name": "artemis-growers-michigan-reviewed-v2.webp",
+        "sha256": "e9db75302319afa6964edf32508c57c8d88d9bf744a0ac05d26cbad8c8d98a3e",
+        "width": 500,
+        "height": 500
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    },
+    {
+      "id": "native-roots-nursery-nc",
+      "name": "Native Roots Nursery",
+      "previousPreview": null,
+      "preview": {
+        "image": "https://nativeplantmaps.pages.dev/assets/providers/native-roots-nursery-nc-reviewed-v2.webp",
+        "alt": "Native Roots Nursery logo shown in its supplier profile",
+        "type": "logo"
+      },
+      "sourcePage": "https://www.plantant.com/nursery-availability/1005929/native-roots-nursery",
+      "sourceImage": "https://www.plantant.com/supplierimages/image.php/1005929.png?width=900&height=480&image=/supplierimages/logos/1005929.png",
+      "asset": {
+        "name": "native-roots-nursery-nc-reviewed-v2.webp",
+        "sha256": "d9d799bc4a3d1906ce1652785a0f7f1236d14878e86195ffabbde91bbc4f4263",
+        "width": 600,
+        "height": 480
+      },
+      "review": "Visually checked: nursery, plants, or correctly attributed seller logo; no ads or identifiable people."
+    }
+  ],
+  "profiles": [
+    {
+      "id": "agrecol-native-nursery",
+      "text": "Agrecol supplies native plants, wildflower seed, grasses, and seed mixes for gardens and restoration projects. Its catalog includes prairie and pollinator mixes as well as vegetated mats for erosion control.",
+      "sourcePage": "https://www.agrecol.com/"
+    },
+    {
+      "id": "natives-in-harmony",
+      "text": "Natives in Harmony grows a wide selection of Ohio native plants, with more than 200 species offered through the growing season. Its changing plant lists include wildflowers and other plants for habitat gardens.",
+      "sourcePage": "https://www.nativesinharmony.com/"
+    },
+    {
+      "id": "native-utah-plants-provo",
+      "text": "Native Utah Plants specializes in Utah wildflowers, grasses, shrubs, trees, cacti, and yucca. Its online catalog lets gardeners browse by sunlight, water needs, wildlife value, and garden use.",
+      "sourcePage": "https://utahplants.com/"
+    },
+    {
+      "id": "primeval-forest-nursery",
+      "text": "Primeval Forest Nursery grows indigenous plants for gardens in the Buffalo area. It also offers garden services, with its current plant selection listed on the nursery website.",
+      "sourcePage": "https://www.primevalforestnursery.com/"
+    },
+    {
+      "id": "cache-valley-native-plants",
+      "text": "Cache Valley Native Plants grows Utah natives at its Richmond nursery and sources additional plants from Intermountain West growers. Its shop includes trees, shrubs, perennials, grasses, seeds, and planting kits, with pickup and delivery options.",
+      "sourcePage": "https://www.cachevalleynativeplants.com/"
+    },
+    {
+      "id": "garden-guru-rockford",
+      "text": "The Garden Guru supplies Michigan native plants and designs gardens in the Rockford, Grand Rapids, and Kalamazoo area. Its services include planting, garden renovation, maintenance, and nonchemical invasive-plant removal.",
+      "sourcePage": "https://www.thegardengurukzoo.com/"
+    },
+    {
+      "id": "warners-nursery-flagstaff",
+      "text": "Warner’s Nursery is a Flagstaff garden center offering plants, garden supplies, and landscaping services. Its wider nursery selection includes native and regionally suitable plants for northern Arizona gardens.",
+      "sourcePage": "https://warnercompanies.com/nursery/"
+    },
+    {
+      "id": "white-river-nursery",
+      "text": "White River Nursery selects trees, shrubs, perennials, and other plants for growing conditions in the Ozarks. The Fayetteville garden center also offers plant-care advice, landscape recommendations, and local delivery.",
+      "sourcePage": "https://www.whiterivernursery.com/"
+    },
+    {
+      "id": "ash-creek-native-nursery-cornelius",
+      "text": "Ash Creek combines native-plant growing with habitat restoration and ecological consulting in Oregon. Its work includes native planting, invasive-species control, bioswale care, and management of natural areas.",
+      "sourcePage": "https://www.ashcreekforestry.com/"
+    },
+    {
+      "id": "red-buffalo-nursery-richmond-il",
+      "text": "Red Buffalo Nursery is a native-plant nursery in Richmond, Illinois. Its website introduces its growing operation and garden services, including work with native plantings.",
+      "sourcePage": "https://redbuffalonursery.com/"
+    },
+    {
+      "id": "berridge-nurseries-phoenix",
+      "text": "Berridge Nurseries is a family-run Phoenix garden center established in 1938. Its grounds include a greenhouse, open-air plant displays, pottery, cacti, succulents, and other plants for desert gardens.",
+      "sourcePage": "https://www.berridgenursery.com/"
+    },
+    {
+      "id": "sunrise-nursery-athens",
+      "text": "Sunrise Nursery is a women-owned nursery near Winterville, Georgia, on the former Thyme After Thyme property. It prioritizes native plants, uses pesticide- and herbicide-free growing methods, and hosts local art and garden events.",
+      "sourcePage": "https://www.sunrisenursery.info/"
+    },
+    {
+      "id": "earth-first-native-plant-nursery",
+      "text": "Earth First specializes in nursery-propagated native plants of the Mid-Atlantic region. Its plant galleries highlight wildflowers for natural gardens and wildlife habitat, including milkweeds and other flowering perennials.",
+      "sourcePage": "https://earthfirstnatives.com/"
+    },
+    {
+      "id": "draggin-wing-high-desert-nursery",
+      "text": "Draggin’ Wing grows native and other water-thrifty plants for Boise and the Intermountain West. Its demonstration gardens show how low-water perennials can be combined in colorful high-desert landscapes.",
+      "sourcePage": "https://waterthriftyplants.com/"
+    },
+    {
+      "id": "takao-nursery",
+      "text": "Takao Nursery is a wholesale propagator focused on California natives, lavenders, and other drought-tolerant plants. The family-run business grows starter plants through prebooked custom orders and also publishes a ready-now availability list.",
+      "sourcePage": "https://takaonursery.com/"
+    },
+    {
+      "id": "miller-hill-farm-vt",
+      "text": "Miller Hill Farm combines a native and ornamental plant nursery with gardens around an eighteenth-century Vermont farmstead. Its selection spans trees, shrubs, perennials, ferns, wetland plants, annuals, and houseplants.",
+      "sourcePage": "https://millerhillfarmvt.com/"
+    },
+    {
+      "id": "humble-roots-nursery-mosier",
+      "text": "Humble Roots grows ethically propagated native plants of the Pacific Northwest and Columbia River Gorge. Its container nursery offers trees, shrubs, wildflowers, contract growing, seed collection, and consultation for habitat and landscape projects.",
+      "sourcePage": "https://www.humblerootsnursery.com/"
+    },
+    {
+      "id": "goffle-brook",
+      "text": "Goffle Brook Farms is a Ridgewood garden center selling plants, garden supplies, and seasonal produce. Its broader plant selection includes natives alongside annuals, perennials, herbs, and vegetable plants.",
+      "sourcePage": "https://gofflebrookfarms.com/"
+    },
+    {
+      "id": "willamette-gardens",
+      "text": "Willamette Gardens specializes in Oregon native plants and regional wildflower seed. Its catalog includes trees, shrubs, perennials, grasses, sedges, and ferns for gardens that support birds and butterflies.",
+      "sourcePage": "https://www.willamettegardens.com/"
+    },
+    {
+      "id": "watermark-woods",
+      "text": "Watermark Woods grows pesticide-free native plants for Northern Virginia gardens. The Hamilton nursery also maintains a searchable plant database to help gardeners plan with native herbaceous and woody species.",
+      "sourcePage": "https://www.watermarkwoods.com/"
+    },
+    {
+      "id": "digit-gardens-phoenix",
+      "text": "Dig It Gardens is a Phoenix plant shop with cacti, succulents, trees, shrubs, edibles, and indoor plants. Its in-house landscape design and build studio helps customers plan outdoor spaces for the desert climate.",
+      "sourcePage": "https://www.digphx.com/"
+    },
+    {
+      "id": "armadillo-gardens",
+      "text": "Armadillo Gardens is an urban market garden and nursery in central San Antonio. Its nursery specializes in San Antonio and South Texas natives grown from locally sourced seed, alongside heirloom vegetables.",
+      "sourcePage": "https://www.armadillogardens.com/home"
+    },
+    {
+      "id": "jackrabbit-nursery-buckeye",
+      "text": "Jackrabbit Nursery grows and sells plants for landscapes in Arizona’s desert climate. Its Buckeye nursery includes outdoor growing areas and flowering plants suited to the region.",
+      "sourcePage": "https://www.jackrabbitnurseryaz.com/"
+    },
+    {
+      "id": "jimbos-nursery-santa-fe-tx",
+      "text": "Jimbo’s Nursery is a family-owned Gulf Coast garden center established in 1975. Its selection includes native plants alongside perennials, shrubs, bromeliads, and other plants for coastal Texas gardens.",
+      "sourcePage": "https://jimbosnursery.com/"
+    },
+    {
+      "id": "reeseville-ridge-nursery",
+      "text": "Reeseville Ridge Nursery supplies native plants, including local-ecotype selections. Its Wisconsin growing operation serves gardeners looking for regionally adapted planting material.",
+      "sourcePage": "https://www.reesevilleridgenursery.com/"
+    },
+    {
+      "id": "dry-creek-nursery",
+      "text": "Dry Creek Nursery grows California native and drought-tolerant plants through Sequoia Riverlands Trust. The nursery supports home gardens, habitat projects, and the conservation of locally native plants.",
+      "sourcePage": "https://drycreeknursery.com/"
+    },
+    {
+      "id": "floral-native-nursery",
+      "text": "Floral Native Nursery specializes in propagating California native plants in Chico. It supplies retail gardeners, wholesale buyers, and restoration projects through plant sales and contract growing.",
+      "sourcePage": "https://floralnativenursery.com/"
+    },
+    {
+      "id": "high-desert-native-plants-el-paso",
+      "text": "High Desert Native Plants offers plants for the Chihuahuan Desert and surrounding region. Its El Paso nursery includes native and desert-adapted plants as well as garden-center supplies and planting services.",
+      "sourcePage": "https://www.highdesertnativeplants.com/nursery/"
+    },
+    {
+      "id": "next-door-nursery-texas",
+      "text": "Next Door Nursery offers native plants through an online shop and arranged pickup. Its growing spaces include container plants and greenhouse production for habitat-oriented gardens.",
+      "sourcePage": "https://next-door-nursery.myshopify.com/"
+    },
+    {
+      "id": "plants-of-the-wild-tekoa",
+      "text": "Plants of the Wild supplies native trees, shrubs, grasses, and wildflowers from Tekoa, Washington. It serves retail and wholesale buyers, including customers planting habitat and restoration sites.",
+      "sourcePage": "https://plantsofthewild.com/"
+    },
+    {
+      "id": "rust-belt-natives",
+      "text": "Rust Belt Natives grows straight-species native plants in Pittsburgh. Customers can arrange pickup at its Hazelwood growing site or find plants at seasonal pop-ups around the East End.",
+      "sourcePage": "https://www.rustbeltnatives.com/"
+    },
+    {
+      "id": "swiftwater-organics-native-nursery",
+      "text": "Swiftwater grows native trees, shrubs, perennials, grasses, and ferns for Western New York. Its nursery emphasizes local genotypes for gardens and habitat plantings in the Buffalo–Niagara area.",
+      "sourcePage": "https://www.swiftwaterorganics.com/"
+    },
+    {
+      "id": "las-pilitas-native-plant-nursery",
+      "text": "Las Pilitas specializes in California native plants for habitat and water-wise landscapes. Its extensive website pairs plant listings with guidance on native plant communities, wildlife, and gardening conditions.",
+      "sourcePage": "https://www.laspilitas.com/"
+    },
+    {
+      "id": "capital-native-plants",
+      "text": "Capital Native Plants grows plants for gardens in New York’s Capital Region. It offers seasonal ordering, pickup or delivery, and plants at local events.",
+      "sourcePage": "https://capitalnativeplants.com/"
+    },
+    {
+      "id": "plant-community-ri",
+      "text": "Plant Community grows ecotypic native plants in Rhode Island using locally adapted seed. Its nursery supplies plants for habitat gardens and offers seasonal sales and arranged pickup.",
+      "sourcePage": "https://www.plantcommunityri.com/"
+    },
+    {
+      "id": "tadpole-haven-native-plants-woodinville",
+      "text": "Tadpole Haven is a retail and wholesale native-plant nursery in Woodinville, Washington. Its plants serve gardeners and landscape projects, with nursery visits arranged by appointment.",
+      "sourcePage": "https://tadpolehaven.com/"
+    },
+    {
+      "id": "kinnickinnic-natives-river-falls",
+      "text": "Kinnickinnic Natives grows native perennials and local-ecotype plants in River Falls, Wisconsin. Its greenhouse and outdoor growing areas supply both retail and wholesale customers.",
+      "sourcePage": "https://www.kinninatives.com/"
+    },
+    {
+      "id": "sutro-stewards-native-plant-nursery",
+      "text": "Sutro Stewards propagates locally native plants for San Francisco habitat restoration and home gardens. The nonprofit nursery connects plant growing with stewardship of Mount Sutro’s natural areas.",
+      "sourcePage": "https://www.sutrostewards.org/"
+    },
+    {
+      "id": "carsons-nurseries-springfield-mo",
+      "text": "Carson’s Nurseries offers trees, shrubs, ornamental grasses, perennials, and landscape materials near Springfield, Missouri. Native plants are part of its broader seasonal garden-center selection.",
+      "sourcePage": "https://www.carsonsnurseries.net/carsons-nurseries"
+    },
+    {
+      "id": "round-rock-garden-center",
+      "text": "Round Rock Garden Center offers Texas natives alongside tropical plants, houseplants, trees, and other garden selections. The garden center also provides gardening supplies and local delivery.",
+      "sourcePage": "https://www.roundrockgardens.com/"
+    },
+    {
+      "id": "mail-order-natives",
+      "text": "Mail Order Natives supplies native plants from its nursery in Lee, Florida. Its online shop includes woody plants and wildflowers, with shipping and arranged nursery pickup.",
+      "sourcePage": "https://www.mailordernatives.com/"
+    },
+    {
+      "id": "everwilde-farms-wisconsin",
+      "text": "Everwilde Farms sells wildflower, grass, herb, and vegetable seeds through an online catalog. Its native seed selections include individual species and mixes for meadow and habitat plantings.",
+      "sourcePage": "https://www.everwilde.com/"
+    },
+    {
+      "id": "cedar-mountain-perennials-athol",
+      "text": "Cedar Mountain Perennials specializes in native plants in Athol, Massachusetts. Its plants are available through seasonal regional sales and visits arranged with the grower.",
+      "sourcePage": "https://cedarmountainperennials.com/"
+    },
+    {
+      "id": "flint-hills-native-plants",
+      "text": "Flint Hills Native Plants grows native plants for gardens in the Manhattan, Kansas, area. It sells in person by appointment rather than through shipping or online orders.",
+      "sourcePage": "https://www.fhnativeplants.com/"
+    },
+    {
+      "id": "black-cap-farm-onekama",
+      "text": "Black Cap Farm grows Michigan native plants in Onekama. Its nursery offers plants for home gardens and habitat planting through seasonal sales.",
+      "sourcePage": "https://www.blackcapplants.com/"
+    },
+    {
+      "id": "lichterman-native-plant-sales",
+      "text": "Lichterman Nature Center grows native plants in its propagation area in Memphis. Plants are offered through self-serve sales and larger seasonal events that support the center’s work.",
+      "sourcePage": "https://moshmemphis.com/explore/lichterman-nature-center/"
+    },
+    {
+      "id": "midtown-bramble-bloom",
+      "text": "Midtown Bramble & Bloom combines an urban flower farm with a florist shop in Memphis. It grows native plants as part of its seasonal offerings and sells through its shop and farmers markets.",
+      "sourcePage": "https://midtownbramble.com/"
+    },
+    {
+      "id": "backhouse-garden-ms",
+      "text": "Backhouse Garden is a Mississippi nursery offering native plants, seed, and plugs. Its selection includes both native and other garden plants, with shopping during posted hours and by appointment.",
+      "sourcePage": "https://www.facebook.com/people/Backhouse-Garden-LLC/61559733694846/"
+    },
+    {
+      "id": "tait-farm-native-plant-nursery",
+      "text": "Tait Farm offers native plants through its farm and garden business in central Pennsylvania. Its seasonal plant offerings complement the farm’s broader garden and local-food activities.",
+      "sourcePage": "https://www.facebook.com/taitfarmlocal"
+    },
+    {
+      "id": "woodland-wonders-nursery",
+      "text": "Woodland Wonders is a small native-plant nursery in Gilbert, Arkansas. Its seasonal offerings provide regional plants for home gardens and wildlife habitat.",
+      "sourcePage": "https://www.facebook.com/woodland.wonders.nursery"
+    },
+    {
+      "id": "heartwood-nursery-pa",
+      "text": "Heartwood Nursery specializes in straight-species Mid-Atlantic native plants. Its retail selection spans trees, shrubs, perennials, ferns, grasses, and groundcovers for habitat and landscape planting.",
+      "sourcePage": "https://www.heartwoodnursery.net/retail"
+    },
+    {
+      "id": "atlanta-native-plant-nursery",
+      "text": "Atlanta Native Plant Nursery offers a native-only plant selection for the Atlanta area. Customers can order for pickup or local delivery and shop at scheduled markets and events.",
+      "sourcePage": "https://www.atlnativeplants.com/"
+    },
+    {
+      "id": "native-roots-llc-twin-falls",
+      "text": "Native Roots grows native plants in Twin Falls, Idaho, for wholesale customers. Its catalog serves landscape and restoration projects across the Intermountain West.",
+      "sourcePage": "https://native-roots.net/contact-us/"
+    },
+    {
+      "id": "ecoscapes-elko-new-market",
+      "text": "Ecoscapes combines sustainable landscaping with a Minnesota native-plant nursery. Its plant offerings emphasize local ecotypes and are available through coordinated orders and delivery.",
+      "sourcePage": "https://www.ecoscapes1.com/"
+    },
+    {
+      "id": "servescape",
+      "text": "ServeScape is an online plant marketplace and delivery service serving the Atlanta area. Its broader landscape catalog includes native plants for homeowners and professional projects.",
+      "sourcePage": "https://servescape.com/"
+    },
+    {
+      "id": "intermountain-nursery",
+      "text": "Intermountain Nursery specializes in California native plants and offers restoration and contract-growing services. The nursery announced a temporary closure for restructuring in March 2026.",
+      "sourcePage": "https://www.intermountainnursery.com/"
+    },
+    {
+      "id": "bluestem-hollow-nursery",
+      "text": "Bluestem Hollow grows native plants of the Ozarks for home gardens and habitat projects. Its nursery emphasizes responsibly sourced regional plant material.",
+      "sourcePage": "https://bluestemhollownursery.com/"
+    },
+    {
+      "id": "bay-gardens",
+      "text": "Bay Gardens combines a Long Island garden center with online plant sales and landscape services. Native plants share its selection with a wider range of trees, shrubs, and ornamentals.",
+      "sourcePage": "https://baygardens.com/"
+    },
+    {
+      "id": "prairie-future-seed-company",
+      "text": "Prairie Future Seed Company supplies native wildflower and grass seed along with perennial plants. Its offerings include species and garden collections for prairie, shade, butterfly, and pollinator plantings.",
+      "sourcePage": "https://prairiefutureseed.com/"
+    },
+    {
+      "id": "wild-birds-unlimited-mcallen",
+      "text": "Wild Birds Unlimited in McAllen combines bird-feeding supplies with native Texas plants. Its plant selection supports Rio Grande Valley birds, butterflies, and other wildlife.",
+      "sourcePage": "https://mcallen.wbu.com/native-plants"
+    },
+    {
+      "id": "tapteal-native-plants",
+      "text": "Tapteal Native Plants grows native and drought-tolerant plants for Eastern Washington. Its seasonal catalog is available for arranged pickup rather than plant shipping.",
+      "sourcePage": "https://www.taptealnativeplants.com/"
+    },
+    {
+      "id": "tend-native-plants",
+      "text": "Tend grows pesticide-free native plants from seed for southern Wisconsin gardens. It offers plants through a seasonal self-serve stand, pickup orders, and appointment shopping.",
+      "sourcePage": "https://tendnativeplants.com/"
+    },
+    {
+      "id": "4m-farms",
+      "text": "4M Farms is a family-run nursery offering native plants in the Rio Grande Valley. Its plants provide gardeners with regional choices for wildlife-friendly landscapes.",
+      "sourcePage": "https://mcallen.wbu.com/local-resources"
+    },
+    {
+      "id": "maine-audubon-native-sale-falmouth",
+      "text": "Maine Audubon offers native trees, shrubs, and perennials through its Bringing Nature Home plant program. This Falmouth pickup location serves seasonal orders that support bird and wildlife habitat.",
+      "sourcePage": "https://mainenativeplants.org/"
+    },
+    {
+      "id": "maine-audubon-native-sale-holden",
+      "text": "Maine Audubon offers native trees, shrubs, and perennials through its Bringing Nature Home plant program. This Holden pickup location serves seasonal orders that support bird and wildlife habitat.",
+      "sourcePage": "https://mainenativeplants.org/"
+    },
+    {
+      "id": "bells-creek-wildflower-farm-walhalla",
+      "text": "Bells Creek Wildflower Farm is a native-plant source in Walhalla, South Carolina. Its seasonal plant sales offer wildflowers for gardens and wildlife habitat.",
+      "sourcePage": "https://www.facebook.com/bellscreekwildflowerfarm"
+    },
+    {
+      "id": "bloomsday-natives-portland",
+      "text": "Bloomsday Natives offers native plants for Portland-area habitat gardens. Its plants are available through announced sales, pop-ups, and pickup arrangements.",
+      "sourcePage": "https://bloomsdaynatives.com/"
+    },
+    {
+      "id": "californica-nursery",
+      "text": "Californica Nursery offers a rotating selection of California native plants. Customers can order for contactless local pickup and find plants at community sales.",
+      "sourcePage": "https://www.californicanursery.com/"
+    },
+    {
+      "id": "landscape-alternatives-shafer",
+      "text": "Landscape Alternatives grows local-ecotype native wildflowers, grasses, woodland plants, and ferns. Its Minnesota nursery supplies gardeners and wholesale customers planting regional habitat.",
+      "sourcePage": "https://www.landscapealternatives.com/"
+    },
+    {
+      "id": "native-nurseries-tallahassee",
+      "text": "Native Nurseries combines a native-plant nursery with a nature shop in Tallahassee. Its selection and ecological landscape services focus on gardening for birds, butterflies, and other wildlife.",
+      "sourcePage": "https://www.nativenurseries.com/"
+    },
+    {
+      "id": "ser-uw-native-plant-nursery-seattle",
+      "text": "The SER-UW Native Plant Nursery is a student-led growing program at the University of Washington. It propagates regional natives for restoration projects and offers plants through announced public sales.",
+      "sourcePage": "https://sites.uw.edu/seruwnursery/"
+    },
+    {
+      "id": "prickly-eds-native-plant-emporium",
+      "text": "Prickly Ed’s offers native plants through its roadside nursery in southeastern Massachusetts. Its garden-centered approach emphasizes pollinators, habitat, and plants that suit local growing conditions.",
+      "sourcePage": "https://pricklyeds.com/"
+    },
+    {
+      "id": "state-botanical-garden-ga-sales",
+      "text": "The State Botanical Garden of Georgia offers native plants through its garden shop and dedicated seasonal sales. These offerings connect home gardeners with the garden’s education and conservation work.",
+      "sourcePage": "https://botgarden.uga.edu/"
+    },
+    {
+      "id": "buck-jones-nursery",
+      "text": "Buck Jones Nursery supplies trees, shrubs, perennials, and other landscape plants in Georgia. Native plants are part of its broader selection for homeowners and landscape professionals.",
+      "sourcePage": "https://www.buckjones.com/"
+    },
+    {
+      "id": "good-host-plants",
+      "text": "Good Host Plants grows straight-species Mid-Atlantic natives with an emphasis on local-provenance genetics. Its Philadelphia nursery offers plants through arranged curbside pickup and delivery.",
+      "sourcePage": "https://www.goodhostplants.com/"
+    },
+    {
+      "id": "spence-restoration-nursery-indiana",
+      "text": "Spence Restoration Nursery produces Midwest native herbaceous plugs and seed for wholesale customers. Its source-identified material is used in prairie, wetland, woodland, and stormwater plantings.",
+      "sourcePage": "https://spencenursery.com/"
+    },
+    {
+      "id": "nature-by-design-alexandria",
+      "text": "Nature By Design is a native-plant nursery and garden center in Alexandria, Virginia. Its selection includes herbaceous and woody plants for environmentally responsible landscapes.",
+      "sourcePage": "https://www.nature-by-design.com/"
+    },
+    {
+      "id": "pine-ridge-gardens",
+      "text": "Pine Ridge Gardens specializes in Arkansas and regional native plants. Its catalog includes wildflowers, grasses, shrubs, and trees, with shopping at open houses and by appointment.",
+      "sourcePage": "https://pineridgegardens.com/"
+    },
+    {
+      "id": "grow-hub-gainesville",
+      "text": "GROW-HUB is a nonprofit plant nursery that provides employment opportunities for adults with disabilities. Its public nursery offers Florida natives and other plants suited to local gardens.",
+      "sourcePage": "https://www.grow-hub.org/"
+    },
+    {
+      "id": "ohio-native-habitat-nursery",
+      "text": "Ohio Native Habitat Nursery supplies native trees, shrubs, perennials, grasses, and sedges. It also offers habitat management services for home landscapes and larger projects.",
+      "sourcePage": "https://ohio-nhn.com/"
+    },
+    {
+      "id": "wayside-garden-center",
+      "text": "Wayside Garden Center offers plants, garden supplies, and landscape services in the Rochester area. Its broad ornamental selection includes a growing range of native trees, shrubs, and perennials.",
+      "sourcePage": "https://www.waysidegardencenter.com/"
+    },
+    {
+      "id": "ohio-native-nursery-cincinnati",
+      "text": "Ohio Native Nursery specializes in native trees, shrubs, and herbaceous plants adapted to Ohio. Its growing stock comes from regional seed or cuttings, with visits arranged by appointment.",
+      "sourcePage": "https://ohionativenursery.com/"
+    },
+    {
+      "id": "green-mountain-natives",
+      "text": "Green Mountain Natives grows Vermont native plants, including wetland species, ferns, shrubs, and trees. It also supplies native seed mixes for restoration and offers online ordering with arranged pickup.",
+      "sourcePage": "https://greenmountainnatives.com/"
+    },
+    {
+      "id": "faverolles-gardens",
+      "text": "Faverolles Gardens combines a lavender farm with native-plant growing in central New York. Its native plants are available through seasonal preorders and community market events.",
+      "sourcePage": "https://faverollesgardens.com/"
+    },
+    {
+      "id": "chickadee-natives-folsom",
+      "text": "Chickadee Natives grows Southeast Louisiana plants from ethically collected regional seed. The nursery is expanding its growing space and has announced a planned reopening in spring 2027.",
+      "sourcePage": "https://chickadeenatives.com/"
+    },
+    {
+      "id": "seed-on-hudson",
+      "text": "Seed-on-Hudson offers cut flowers, vegetable and herb plants, fruit plants, and native species in Hastings-on-Hudson. Its selection includes heirloom and unusual varieties alongside pottery and garden coaching.",
+      "sourcePage": "https://www.seedonhudson.com/"
+    },
+    {
+      "id": "fort-pond-native-plants",
+      "text": "Fort Pond Native Plants is a garden center and landscape business in Montauk. It specializes in native plants and provides landscape design and maintenance.",
+      "sourcePage": "https://visitmontauk.org/members/125/fort-pond-native-plants/"
+    },
+    {
+      "id": "artemis-growers-michigan",
+      "text": "Artemis Growers produces West Michigan native wildflowers, grasses, sedges, shrubs, and trees in Saranac. It emphasizes hand-collected regional seed and deep-rooted container stock for gardeners and landscape projects.",
+      "sourcePage": "https://www.nativeplantguild.com/growers/artemis-growers"
+    },
+    {
+      "id": "native-roots-nursery-nc",
+      "text": "Native Roots Nursery is a plant grower in Clinton, North Carolina. Its offerings serve landscape and habitat planting, with purchasing arrangements made directly with the nursery.",
+      "sourcePage": "https://www.plantant.com/nursery-availability/1005929/native-roots-nursery"
+    }
+  ],
+  "note": "Photos are featured by the named source; not every plant pictured is asserted to be native. Logos retain official artwork, with existing CSS providing contrast on cream. User attachments are used for the specified nursery only."
+}
