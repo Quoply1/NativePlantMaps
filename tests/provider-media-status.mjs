@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import worker from '../dist/_worker.js';
 const report=JSON.parse(await readFile(new URL('../provider-media-status.json',import.meta.url),'utf8'));
 const publicRows=await(await worker.fetch(new Request('https://preview.test/api/vendors'),{})).json();
-assert.equal(publicRows.length,587);
+assert.equal(publicRows.length,580);
 assert.deepEqual(publicRows.map(x=>x.id).sort(),report.listings.filter(x=>x.directoryStatus==='active').map(x=>x.id).sort());
 for(const id of report.exclusions)assert.ok(!publicRows.some(x=>x.id===id));
 const page=await readFile(new URL('../index.html',import.meta.url),'utf8');

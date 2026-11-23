@@ -574,16 +574,16 @@
     </div>
       <div class="toolbar">
           <div class="location-search-row">
-            <div class="city-search"><label class="visually-hidden" for="search">Search by city, state or ecoregion</label><input id="search" class="search" type="search" placeholder="City, state, ecoregion or nursery" aria-label="Search by city, state, ecoregion or nursery" autocomplete="off" aria-autocomplete="list" aria-controls="city-suggestions"><div id="city-suggestions" class="city-suggestions" role="listbox" hidden></div></div>
+            <div class="city-search"><label class="visually-hidden" for="search">Search by city, state or ecoregion</label><input id="search" class="search" disabled type="search" placeholder="City, state, ecoregion or nursery" aria-label="Search by city, state, ecoregion or nursery" autocomplete="off" aria-autocomplete="list" aria-controls="city-suggestions"><div id="city-suggestions" class="city-suggestions" role="listbox" hidden></div></div>
             <label class="visually-hidden" for="search-radius">Search radius</label><select id="search-radius" class="statefilter radius-filter" aria-label="Nearby search radius"><option value="25">Within 25 miles</option><option value="50">Within 50 miles</option><option value="100" selected>Within 100 miles</option><option value="125">Within 125 miles</option><option value="200">Within 200 miles</option></select>
-            <button id="search-area" class="submit-open search-area" type="button">Search area</button>
+            <button id="search-area" disabled class="submit-open search-area" type="button">Search area</button>
             <button id="submit-open" class="suggest-link" type="button" data-open-suggestion aria-haspopup="dialog" aria-controls="submit-dialog">Suggest a place +</button>
           </div>
           <div class="filter-row">
             <div class="filters" role="group" aria-label="Filter providers">
               <button class="filter active" data-filter="all">All providers</button><button class="filter" data-filter="specialist">Native specialists</button><button class="filter" data-filter="documented">Documented stock</button><button class="filter" data-filter="seasonal">Seasonal</button><button class="filter" data-filter="garden">Garden stores</button><button class="filter overlay-filter" id="ecoregion-toggle" type="button" aria-pressed="false">EPA ecoregions</button>
             </div>
-            <details class="advanced-search" open><summary>Browse by state</summary><div class="location-filters"><label class="visually-hidden" for="state-filter">Filter by state</label><select id="state-filter" class="statefilter" aria-label="Filter by state"><option value="">All states</option></select><a class="explore-ecoregions" href="#flora-guide">Explore Ecoregion Plants</a><button id="export" class="export" type="button" title="Download field notes and this directory as CSV">Export CSV ↓</button></div></details>
+            <details class="advanced-search" open><summary>Browse by state or ecoregion</summary><div class="location-filters"><label class="visually-hidden" for="state-filter">Filter by state</label><select id="state-filter" disabled class="statefilter" aria-label="Filter by state"><option value="">All states</option></select><a class="explore-ecoregions" href="#flora-guide">Explore Ecoregion Plants</a><button id="export" class="export" type="button" title="Download field notes and this directory as CSV">Export CSV</button></div></details>
           </div>
           <p id="search-status" class="searchstatus" aria-live="polite"></p>
           <p class="search-attribution">City suggestions use <a href="https://open-meteo.com/en/docs/geocoding-api" target="_blank" rel="noreferrer">GeoNames via Open-Meteo</a>.</p>
@@ -617,8 +617,8 @@
         <div class="mapbox"><div id="map" role="application" aria-label="Interactive map of native plant sources across the United States"></div><div class="mapcontrols" aria-label="Map controls"><button id="zoom-in" type="button" aria-label="Zoom in">+</button><button id="zoom-out" type="button" aria-label="Zoom out">−</button><button id="reset-map" type="button" aria-label="Show all U.S. sources" title="Show all U.S. sources">⌂</button><button id="reset-map-filters" type="button" aria-label="Reset filters" title="Reset filters"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h18l-7 7v6l-4 3v-9z"/><path d="m17 16 4 4m0-4-4 4"/></svg></button><button id="toggle-map-fullscreen" type="button" aria-label="Expand map" title="Expand map" aria-pressed="false">⛶</button></div><div class="maptip">Click a numbered bubble to zoom in and show its local providers.</div></div>
       </div>
       <div class="directory">
-        <div class="panelhead dirhead"><div><h2 id="directory-title">Providers across the U.S.</h2><p>Working nursery websites appear first, followed by seller social pages and directory-only references. Confirm hours and plant availability before visiting.</p><button type="button" id="clear-cluster-focus" class="clear-cluster" hidden>Show all locations</button></div><span id="resultCount" class="resultcount" aria-live="polite" aria-atomic="true">— providers</span></div>
-        <div id="cards" class="cards"></div><nav id="pagination" class="pagination" aria-label="Directory pages" hidden></nav>
+        <div class="panelhead dirhead"><div><h2 id="directory-title">Providers across the U.S.</h2><p>Nurseries with direct websites appear first. Check visiting and ordering details before making a trip.</p><button type="button" id="clear-ecoregion" class="clear-cluster" hidden>Clear ecoregion</button><button type="button" id="clear-cluster-focus" class="clear-cluster" hidden>Show all locations</button></div><span id="resultCount" class="resultcount" aria-live="polite" aria-atomic="true">— providers</span></div>
+        <div id="cards" class="cards" aria-busy="true"><p class="noresults">Loading nurseries…</p></div><nav id="pagination" class="pagination" aria-label="Directory pages" hidden></nav>
       </div>
     </section>
     <section id="selected-state-resources" class="selected-state-resources" aria-live="polite" hidden>
@@ -632,7 +632,7 @@
       </div>
       <div class="info-panel" id="state-info-panel" role="tabpanel" aria-labelledby="state-info-tab">
     <section id="flora-guide" class="flora-guide" aria-labelledby="flora-title">
-      <div class="flora-heading"><div><p class="section-kicker">Beyond state lines</p><h2 id="flora-title">What to plant here</h2><p>Choose your part of the country, then select your ecoregion on the map. You can also search by name above. Match plants to the light, soil and moisture where they’ll grow.</p></div></div>
+      <div class="flora-heading"><div><p class="section-kicker">Beyond state lines</p><h2 id="flora-title">What to plant here</h2><p>Choose your region, then click an ecoregion to filter the nursery list and explore plants for its habitats. You can also search by ecoregion name above.</p></div></div>
       <div class="ecoregion-picker">
         <p class="eco-region-title" id="plant-region-title">Which part of the U.S. are you in?</p>
         <div class="eco-regions" id="plant-regions" role="group" aria-labelledby="plant-region-title"></div>
@@ -643,7 +643,7 @@
             <div class="eco-map-stage" id="plant-map-stage"></div>
             <div class="eco-hover-label" id="plant-hover-label" aria-hidden="true" hidden></div>
           </div>
-          <p class="eco-selection" id="plant-map-selection" hidden><span id="plant-map-selected-name"></span> · <a href="#planting-profile">See plants ↓</a></p>
+          <p class="eco-selection" id="plant-map-selection" hidden><span id="plant-map-selected-name"></span> · <a href="#map-workspace">See nurseries</a> · <a href="#planting-profile">See plants</a></p>
           <details class="eco-name-picker" id="plant-name-picker"><summary>Choose by ecoregion name</summary><div class="eco-names" id="plant-ecoregion-names"></div></details>
           <p class="eco-map-credit" id="plant-map-credit"></p>
         </div>
@@ -698,7 +698,7 @@
       sketchFlight++;
       const box=document.getElementById('map');
       const project=sketchProject;
-      const screenScale=sketchView.w/Math.max(1,box.clientWidth),clusterRadius=28*screenScale,places=vendors.filter(v=>v.lat!=null&&v.lng!=null&&layerVisible(v)&&filtered().some(x=>x.id===v.id)).map(v=>{const [x,y]=project(v.lat,v.lng,v.state);return {id:String(v.id),name:v.name,area:v.area,status:statusLabel(v),color:markerColor(v),x,y}}),groups=[];for(const place of places){let group=groups.find(g=>Math.hypot(g.x/g.items.length-place.x,g.y/g.items.length-place.y)<=clusterRadius);if(!group){group={x:0,y:0,items:[]};groups.push(group)}group.x+=place.x;group.y+=place.y;group.items.push(place)}const placesMarkup=groups.map(group=>{const cx=group.x/group.items.length,cy=group.y/group.items.length;if(group.items.length>1){const ids=group.items.map(item=>item.id).join(','),count=group.items.length;return `<g class="sketch-cluster" style="cursor:pointer" data-cluster-ids="${html(ids)}" role="button" tabindex="0" aria-label="Show ${count} provider listings"><title>${count} providers nearby · click to list</title><circle cx="${cx}" cy="${cy}" r="${15*screenScale}" fill="#315b45" stroke="#fffefa" stroke-width="${2*screenScale}"/><text x="${cx}" y="${cy}" text-anchor="middle" dominant-baseline="central" fill="#fffefa" font-size="${12*screenScale}" font-weight="700">${count}</text></g>`}const item=group.items[0];return `<g class="sketch-point ${selectedId===item.id?'selected-point':''}" data-map-id="${html(item.id)}" role="button" tabindex="0"><title>${html(item.name)} · ${html(item.area)} · ${html(item.status)}</title><circle cx="${cx}" cy="${cy}" r="${8*screenScale}" fill="${item.color}" stroke="#fffefa" stroke-width="${3*screenScale}"/><circle cx="${cx}" cy="${cy}" r="${13*screenScale}" fill="transparent"/></g>`}).join(''),stateLines=sketchStateBoundaries(project);
+      const screenScale=sketchView.w/Math.max(1,box.clientWidth),clusterRadius=28*screenScale,visibleIds=new Set(filtered().map(v=>String(v.id))),places=vendors.filter(v=>v.lat!=null&&v.lng!=null&&layerVisible(v)&&visibleIds.has(String(v.id))).map(v=>{const [x,y]=project(v.lat,v.lng,v.state);return {id:String(v.id),name:v.name,area:v.area,status:statusLabel(v),color:markerColor(v),x,y}}),groups=[];for(const place of places){let group=groups.find(g=>Math.hypot(g.x/g.items.length-place.x,g.y/g.items.length-place.y)<=clusterRadius);if(!group){group={x:0,y:0,items:[]};groups.push(group)}group.x+=place.x;group.y+=place.y;group.items.push(place)}const placesMarkup=groups.map(group=>{const cx=group.x/group.items.length,cy=group.y/group.items.length;if(group.items.length>1){const ids=group.items.map(item=>item.id).join(','),count=group.items.length;return `<g class="sketch-cluster" style="cursor:pointer" data-cluster-ids="${html(ids)}" role="button" tabindex="0" aria-label="Show ${count} provider listings"><title>${count} providers nearby · click to list</title><circle cx="${cx}" cy="${cy}" r="${15*screenScale}" fill="#315b45" stroke="#fffefa" stroke-width="${2*screenScale}"/><text x="${cx}" y="${cy}" text-anchor="middle" dominant-baseline="central" fill="#fffefa" font-size="${12*screenScale}" font-weight="700">${count}</text></g>`}const item=group.items[0];return `<g class="sketch-point ${selectedId===item.id?'selected-point':''}" data-map-id="${html(item.id)}" role="button" tabindex="0"><title>${html(item.name)} · ${html(item.area)} · ${html(item.status)}</title><circle cx="${cx}" cy="${cy}" r="${8*screenScale}" fill="${item.color}" stroke="#fffefa" stroke-width="${3*screenScale}"/><circle cx="${cx}" cy="${cy}" r="${13*screenScale}" fill="transparent"/></g>`}).join(''),stateLines=sketchStateBoundaries(project);
       const showEcoregions=document.getElementById('ecoregion-toggle').getAttribute('aria-pressed')==='true';
       if(showEcoregions)sketchEcoregions(project);
       const ecoOverlay=showEcoregions&&stateLines&&sketchEcoregionMarkup?
@@ -706,9 +706,7 @@
       box.innerHTML=`<svg id="fallback-svg" width="100%" height="100%" viewBox="${sketchView.x} ${sketchView.y} ${sketchView.w} ${sketchView.h}" role="group" aria-label="Schematic United States map with native plant sources"><rect width="1000" height="650" fill="#f0f1e9"/>${stateLines}${ecoOverlay}<text x="392" y="170" class="landlabel">WEST</text><text x="558" y="225" class="landlabel">PLAINS</text><text x="690" y="185" class="landlabel">GREAT LAKES</text><text x="764" y="280" class="landlabel">NORTHEAST</text><text x="673" y="370" class="landlabel">SOUTH</text><text x="520" y="405" class="landlabel">SOUTHWEST</text><text x="75" y="33" class="smalllabel">ALASKA</text><text x="270" y="475" class="smalllabel">HAWAII</text><text x="820" y="525" class="waterlabel">ATLANTIC</text><text x="350" y="620" class="waterlabel">PACIFIC</text>${placesMarkup}</svg>${ecoOverlay?'<div class="eco-hover-label" aria-hidden="true" hidden></div>':''}`
       const svg=box.querySelector('#fallback-svg');let drag=null;
       if(ecoOverlay)bindEcoregionShapes(box,box.querySelector('.eco-hover-label'),key=>{
-        renderPlantingProfile(key);
-        activateInfoTab('state');
-        document.getElementById('flora-guide').scrollIntoView({block:'start'});
+        selectEcoregion(key);
       });
       svg.addEventListener('wheel',e=>{sketchFlight++;e.preventDefault();const factor=e.deltaY>0?1.15:.87;const r=svg.getBoundingClientRect(),px=(e.clientX-r.left)/r.width*sketchView.w+sketchView.x,py=(e.clientY-r.top)/r.height*sketchView.h+sketchView.y;const nw=Math.max(230,Math.min(1250,sketchView.w*factor)),nh=nw*.65;sketchView={x:px-(px-sketchView.x)*nw/sketchView.w,y:py-(py-sketchView.y)*nh/sketchView.h,w:nw,h:nh};svg.setAttribute('viewBox',`${sketchView.x} ${sketchView.y} ${sketchView.w} ${sketchView.h}`)},{passive:false});
       svg.addEventListener('pointerdown',e=>{sketchFlight++;if(e.target.closest('[data-map-id],[data-cluster-ids]'))return;drag={x:e.clientX,y:e.clientY,vx:sketchView.x,vy:sketchView.y,captured:false}});svg.addEventListener('pointermove',e=>{if(!drag)return;if(!drag.captured){if(Math.hypot(e.clientX-drag.x,e.clientY-drag.y)<4)return;svg.setPointerCapture(e.pointerId);drag.captured=true}const r=svg.getBoundingClientRect();sketchView.x=drag.vx-(e.clientX-drag.x)/r.width*sketchView.w;sketchView.y=drag.vy-(e.clientY-drag.y)/r.height*sketchView.h;svg.setAttribute('viewBox',`${sketchView.x} ${sketchView.y} ${sketchView.w} ${sketchView.h}`)});svg.addEventListener('pointerup',()=>drag=null);svg.addEventListener('pointercancel',()=>drag=null);
@@ -817,7 +815,7 @@
         const key=ecoregionKey(p.NA_L3KEY);
         if(plantingState&&key&&!guideData.stateRegions[plantingState]?.includes(key))return;
         ecoregionPopup?.remove();
-        renderPlantingProfile(p.NA_L3KEY||'unmapped');
+        selectEcoregion(key);
         ecoregionPopup=new maplibregl.Popup({closeButton:true,closeOnClick:true}).setLngLat(event.lngLat)
           .setHTML(`<strong>${html(p.NA_L3NAME||'EPA ecoregion')}</strong><br><span style="color:#66746b;font-size:11px">EPA Level III · ${html(p.NA_L3KEY||'')}</span><br><a href="#flora-guide" onclick="document.getElementById('state-info-tab').click()">Explore planting guidance ↓</a>`).addTo(map);
       });
@@ -870,7 +868,17 @@
       resetMap();
     }
     function clearClusterFocus(){clusterFocusIds=null;clusterFocusCount=0;currentPage=1;render();refreshMapLayers()}
-    function seasonalListing(v){return v.category==='seasonal'||(v.category==='community'&&/seasonal|annual sale|plant sale|farmers.? market|pop.?up/i.test([v.access,v.availability,v.nativeBasis].join(' ')))}
+    function seasonalListing(v){return v.category==='seasonal'||v.operatingStatus==='seasonal'||/closed for (?:the )?(?:season|winter)|seasonal|annual sale|plant sale|farmers.? market|pop.?up|spring and fall|spring.{0,20}sales/i.test([v.access,v.availability].join(' '))}
+    function accessLabels(v){
+      const text=[v.access,v.availability].join(' '),labels=[];
+      if(v.websiteProfile?.tradeOnly===true||/wholesale[- ]only|trade[- ]only|wholesale to (?:the )?(?:trade|nursery)/i.test(text))labels.push('Wholesale only');
+      else if(v.category==='wholesale'||/wholesale/i.test(text))labels.push('Wholesale available');
+      if(seasonalListing(v))labels.push(/closed for (?:the )?season|closed for winter|plant sales are closed|closed until 2027/i.test(v.availability||'')?'Closed for season':'Seasonal');
+      if(!/no appointment|without an appointment|appointment (?:is )?not required/i.test(text)&&/by appointment|an appointment|appointment[- ]only|appointments? (?:are )?required/i.test(text))labels.push('By appointment');
+      if(v.category==='delivery')labels.push('Mail order');
+      if(v.operatingStatus==='uncertain')labels.push('Operating status unconfirmed');
+      return labels;
+    }
     function distanceMiles(a,b,c,d){const rad=x=>x*Math.PI/180,dl=rad(c-a),dn=rad(d-b),z=Math.sin(dl/2)**2+Math.cos(rad(a))*Math.cos(rad(c))*Math.sin(dn/2)**2;return 3958.8*2*Math.atan2(Math.sqrt(z),Math.sqrt(1-z))}
     function normalizedPlaceQuery(value){return String(value||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()}
     function closeCitySuggestions(){++searchRequest;clearTimeout(searchTimer);const box=document.getElementById('city-suggestions');box.hidden=true;box.innerHTML='';document.getElementById('search').setAttribute('aria-expanded','false')}
@@ -907,25 +915,28 @@
       const normalized=normalizedEcoregionQuery(query);
       return regionEntries.find(([key,region])=>key.toLowerCase()===query.trim().toLowerCase()||normalizedEcoregionQuery(region.name)===normalized)?.[0];
     }
-    function applyEcoregionSearch(key){
+    function applyEcoregionSearch(key,{preserveState=false,openGuide=true}={}){
       const region=guideData.regions[key],area=ecoregionDirectory[key];
       if(!region||!area)return;
+      const selectedState=preserveState?(stateSearch||document.getElementById('state-filter').value||''):'';
+      if(selectedState&&!guideData.stateRegions[selectedState]?.includes(key))return;
       ++searchRequest;clearTimeout(searchTimer);
       clusterFocusIds=null;clusterFocusCount=0;selectedId=null;
-      nearbySearch=null;stateSearch=null;listingSearch='';activeFilter='all';
+      nearbySearch=null;stateSearch=selectedState||null;listingSearch='';activeFilter='all';currentPage=1;
       ecoregionSearch={key,name:region.name,vendorIds:new Set(area.vendorIds)};
-      document.getElementById('state-filter').value='';
+      document.getElementById('state-filter').value=selectedState;
       document.querySelectorAll('[data-filter]').forEach(button=>{
         const active=button.dataset.filter==='all';
         button.classList.toggle('active',active);
         button.setAttribute('aria-pressed',String(active));
       });
       document.getElementById('search').value=region.name;
-      renderStateResources('');
+      if(!preserveState)renderStateResources('');
       closeCitySuggestions();
       renderPlantingProfile(key);
-      document.getElementById('state-info-tab').click();
-      document.getElementById('search-status').innerHTML='Showing mapped providers in '+html(region.name)+'. <a href="#flora-guide">See what to plant ↓</a>';
+      if(openGuide)document.getElementById('state-info-tab').click();
+      document.getElementById('search-status').innerHTML='Ecoregion: '+html(region.name)+'. <a href="#flora-guide">Explore plants</a> · Filtered by mapped location.';
+      document.getElementById('clear-ecoregion').hidden=false;
       render();refreshMapLayers();
       const map=window.accessMap;
       if(map){
@@ -1117,16 +1128,17 @@
     function render(){
       const filteredList=filtered(),clusterList=clusterFocusIds?filteredList.filter(v=>clusterFocusIds.includes(String(v.id))):filteredList,list=rankListings(clusterList),store=saved();
       const stateValue=document.getElementById('state-filter')?.value||'',directoryTitle=document.getElementById('directory-title');
-      if(directoryTitle)directoryTitle.textContent=clusterFocusIds?'Listings in selected map cluster':nearbySearch?'Near '+nearbySearch.label:stateSearch?'In '+stateLabels[stateSearch]:ecoregionSearch?'In '+ecoregionSearch.name:stateValue?'In '+stateLabels[stateValue]:'Providers across the U.S.';
+      document.getElementById('clear-ecoregion').hidden=!ecoregionSearch;
+      if(directoryTitle)directoryTitle.textContent=clusterFocusIds?'Listings in selected map cluster':nearbySearch?'Near '+nearbySearch.label:ecoregionSearch?'In '+ecoregionSearch.name:stateSearch?'In '+stateLabels[stateSearch]:stateValue?'In '+stateLabels[stateValue]:'Providers across the U.S.';
       document.getElementById('resultCount').textContent=list.length+' '+(list.length===1?'provider':'providers');const clearCluster=document.getElementById('clear-cluster-focus');if(clearCluster)clearCluster.hidden=!clusterFocusIds;
       const root=document.getElementById('cards'),signature=list.map(v=>v.id).join('|');if(signature!==lastPageSignature){lastPageSignature=signature;const selectedIndex=list.findIndex(v=>String(v.id)===String(selectedId));currentPage=selectedIndex>=0?Math.floor(selectedIndex/PAGE_SIZE)+1:1}
       const pageCount=Math.max(1,Math.ceil(list.length/PAGE_SIZE));currentPage=Math.min(currentPage,pageCount);renderPagination(list.length,pageCount);
-      if(!list.length){root.innerHTML='<div class="noresults">No providers match these filters. Try a nearby city or another search area.</div>';return}
+      if(!list.length){root.innerHTML='<div class="noresults">No nurseries match these filters. Try another ecoregion or reset the filters.</div>';return}
       const pageList=list.slice((currentPage-1)*PAGE_SIZE,currentPage*PAGE_SIZE);
       root.innerHTML=pageList.map(v=>{
         const f=store[v.id]||{},summary=listingDescription(v),profile=nurseryInformation(v),visitInfo=String(v.availability||v.access||'').trim();
         const status=v.nativeTier==='specialist'?'Native specialist':v.native==='confirmed'?'Native stock documented':v.category==='community'?'Community access':v.category==='delivery'?'Delivery service':'Native stock unverified';
-        const labels=[v.nativeRange==='wide'?'Wide selection':v.nativeRange==='select'?'Select stock':'',v.category==='wholesale'?'Wholesale only':seasonalListing(v)?'Seasonal access':v.category==='delivery'?'Mail order':''].filter(Boolean);
+        const labels=[v.nativeRange==='wide'?'Wide selection':v.nativeRange==='select'?'Select stock':'',...accessLabels(v)].filter(Boolean);
         const reviewCount=Array.isArray(v.publicReviews)?v.publicReviews.length:0,reportCount=Array.isArray(v.fieldReports)?v.fieldReports.length:0;
         const place=Number.isFinite(v.searchDistance)?Math.round(v.searchDistance)+' mi from '+html(v.searchPlace):html(v.area)+' · '+html(v.state);
         const mapSearch='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(v.name+' '+v.address),dirs=v.lat==null||v.approx?mapSearch:'https://www.google.com/maps/dir/?api=1&destination='+v.lat+','+v.lng;
@@ -1139,6 +1151,7 @@
           <div class="listing-meta"><span class="badge ${badgeClass(v)}">${html(status)}</span>${labels.length?`<span>${html(labels.join(' · '))}</span>`:''}</div>
           ${nurseryPreview(v)}
           <p class="carddesc">${html(summary)}</p>
+          ${v.operationCheck?.status==='access-notice'?`<p class="visit-copy nursery-access">${html(v.availability)}</p>`:''}
           ${website?`<div class="nursery-actions">${website}<span class="nursery-host">${html(sourceHost(v.website))}</span></div>`:'<p class="nursery-link-status">Seller website not confirmed. See sources and contact details below.</p>'}
           ${nurserySources(v,dirs)}
           <div class="cardfoot"><button type="button" class="community-open" data-community-mode="reviews" data-vendor-id="${html(v.id)}">Community notes · ${reviewCount+reportCount}</button></div>
@@ -1397,7 +1410,7 @@
       const edges=outlinePaths.map(path=>'<path class="eco-state-outline" d="'+path+'"/>').join('');
       const stage=document.getElementById('plant-map-stage');
       stage.innerHTML='<svg viewBox="0 0 720 370" role="group" aria-label="Interactive ecoregion map of '+html(scope)+'"><defs><clipPath id="plant-map-clip">'+clip+'</clipPath></defs><g clip-path="url(#plant-map-clip)"><rect width="720" height="370" fill="#dfe7d6"/>'+shapes+'</g>'+edges+'</svg>';
-      bindEcoregionShapes(stage,document.getElementById('plant-hover-label'),renderPlantingProfile);
+      bindEcoregionShapes(stage,document.getElementById('plant-hover-label'),selectEcoregion);
       updatePlantingSelection();
       return entries.every(([key])=>paths.get(key).length);
     }
@@ -1466,6 +1479,9 @@
       else updatePlantingSelection();
       if(states.length)return loadPlantingMap(states,entries,scope,request);
     }
+    function selectEcoregion(key){
+      applyEcoregionSearch(key,{preserveState:true,openGuide:false});
+    }
     function setupEcoregionPicker(){
       const buttons=document.getElementById('plant-regions');
       buttons.innerHTML=Object.entries(plantingRegions).map(([id,region])=>
@@ -1479,7 +1495,7 @@
       });
       document.getElementById('plant-ecoregion-names').addEventListener('click',event=>{
         const button=event.target.closest('[data-planting-key]');
-        if(button)renderPlantingProfile(button.dataset.plantingKey);
+        if(button)selectEcoregion(button.dataset.plantingKey);
       });
       updateEcoregionPicker();
     }
@@ -1596,7 +1612,7 @@
         const link=event.target.closest('a[href^="#"]');
         if(link?.hash==='#about')activateInfoTab('about');
         if(link?.hash==='#flora-guide')activateInfoTab('state');
-      });if(location.hash==='#about')activateInfoTab('about');document.addEventListener('click',event=>{if(!event.target.closest('.city-search'))closeCitySuggestions()});document.getElementById('export').addEventListener('click',exportCsv);document.querySelectorAll('[data-layer]').forEach(x=>x.addEventListener('change',refreshMapLayers));document.getElementById('zoom-in').addEventListener('click',()=>window.accessMap?window.accessMap.zoomIn():(()=>{sketchView.w*=.8;sketchView.h*=.8;renderSketchMap()})());document.getElementById('zoom-out').addEventListener('click',()=>window.accessMap?window.accessMap.zoomOut():(()=>{sketchView.w*=1.25;sketchView.h*=1.25;renderSketchMap()})());document.getElementById('reset-map').addEventListener('click',resetMap);document.getElementById('reset-map-filters').addEventListener('click',resetMapFilters);document.getElementById('toggle-map-fullscreen').addEventListener('click',()=>toggleMapFullscreen());document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.getElementById('map-workspace')?.classList.contains('map-fullscreen'))toggleMapFullscreen(false)});document.getElementById('ecoregion-toggle').addEventListener('click',event=>{const active=event.currentTarget.getAttribute('aria-pressed')!=='true';event.currentTarget.setAttribute('aria-pressed',String(active));event.currentTarget.classList.toggle('active',active);if(window.accessMap){['epa-ecoregions-fill','epa-ecoregions-casing','epa-ecoregions-outline','epa-ecoregions-labels'].forEach(id=>{if(window.accessMap.getLayer(id))window.accessMap.setLayoutProperty(id,'visibility',active?'visible':'none')})}else if(document.querySelector('#fallback-svg'))renderSketchMap()});
+      });if(location.hash==='#about')activateInfoTab('about');document.addEventListener('click',event=>{if(!event.target.closest('.city-search'))closeCitySuggestions()});document.getElementById('export').addEventListener('click',exportCsv);document.querySelectorAll('[data-layer]').forEach(x=>x.addEventListener('change',refreshMapLayers));document.getElementById('zoom-in').addEventListener('click',()=>window.accessMap?window.accessMap.zoomIn():(()=>{sketchView.w*=.8;sketchView.h*=.8;renderSketchMap()})());document.getElementById('zoom-out').addEventListener('click',()=>window.accessMap?window.accessMap.zoomOut():(()=>{sketchView.w*=1.25;sketchView.h*=1.25;renderSketchMap()})());document.getElementById('reset-map').addEventListener('click',resetMap);document.getElementById('reset-map-filters').addEventListener('click',resetMapFilters);document.getElementById('clear-ecoregion').addEventListener('click',()=>{ecoregionSearch=null;clusterFocusIds=null;selectedId=null;currentPage=1;document.getElementById('search').value=stateSearch?stateLabels[stateSearch]:'';document.getElementById('search-status').textContent='Ecoregion filter cleared.';renderPlantingProfile('');render();refreshMapLayers()});document.getElementById('toggle-map-fullscreen').addEventListener('click',()=>toggleMapFullscreen());document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.getElementById('map-workspace')?.classList.contains('map-fullscreen'))toggleMapFullscreen(false)});document.getElementById('ecoregion-toggle').addEventListener('click',event=>{const active=event.currentTarget.getAttribute('aria-pressed')!=='true';event.currentTarget.setAttribute('aria-pressed',String(active));event.currentTarget.classList.toggle('active',active);if(window.accessMap){['epa-ecoregions-fill','epa-ecoregions-casing','epa-ecoregions-outline','epa-ecoregions-labels'].forEach(id=>{if(window.accessMap.getLayer(id))window.accessMap.setLayoutProperty(id,'visibility',active?'visible':'none')})}else if(document.querySelector('#fallback-svg'))renderSketchMap()});
     }
     function setupSuggestionDialog(){
       const dialog=document.getElementById('submit-dialog'),form=document.getElementById('submit-form'),status=document.getElementById('submit-status');
@@ -1611,7 +1627,7 @@
     }
     setupSuggestionDialog();
     setupEcoregionPicker();
-    window.selectVendor=selectVendor;start();
+    window.selectVendor=selectVendor;start().then(()=>{['search','search-area','state-filter'].forEach(id=>document.getElementById(id).disabled=false);document.getElementById('cards').setAttribute('aria-busy','false')});
   </script>
 </body>
 </html>

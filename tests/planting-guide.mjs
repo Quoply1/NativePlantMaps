@@ -97,6 +97,8 @@ console.log('Passed: 108 ecoregion profiles, EPA key parsing, photo and native-r
 const searchHelpers = page.slice(page.indexOf('    function normalizedEcoregionQuery'), page.indexOf('    async function updateCitySuggestions'));
 const normalize = page.match(/function normalizedPlaceQuery[^\n]+/)[0];
 vm.runInContext(normalize + '\n' + searchHelpers, context);
+// Geometry tests exercise the selection bridge; full directory behavior is covered separately.
+context.applyEcoregionSearch=key=>evalGuide('renderPlantingProfile('+JSON.stringify(key)+')');
 assert.equal(vm.runInContext("exactEcoregion('hawaii tropical dry forest')", context), 'OC0202');
 assert.equal(vm.runInContext("ecoregionSearchMatches('pine barrens')[0][0]", context), '8.5.4');
 assert.equal(vm.runInContext("exactEcoregion('10.2.2')", context), '10.2.2');

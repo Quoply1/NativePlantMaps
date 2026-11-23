@@ -1,13 +1,13 @@
 {
-  "checkedOn": "2026-11-21",
-  "baseCommit": "854976a085c6c6c4bcb56d48e00357ddbae9a58c",
+  "checkedOn": "2026-11-23",
+  "baseCommit": "a6a76378072dc9620cf94c60028fc088eb96cd88",
   "scope": "All directory records, including active, closed, and explicitly excluded listings. Existing image status is separate from replacement-photo research.",
-  "verificationLimit": "Current rendering inputs and packaged asset hashes checked. Three new media originals were fetched and visually inspected. Seller-page verification is recorded separately in provider-direct-links-review.json; external images and inventory are not continuously checked.",
+  "verificationLimit": "Current rendering inputs and packaged asset hashes checked. Three new media originals were fetched and visually inspected. Seller-page verification is recorded separately in provider-direct-links-review.json; external images and inventory are not continuously checked. Operating and access review: provider-operating-review.json; it does not imply every business was confirmed trading.",
   "counts": {
     "records": 610,
-    "active": 587,
-    "withRenderableImage": 545,
-    "missing": 42
+    "active": 580,
+    "withRenderableImage": 542,
+    "missing": 38
   },
   "profileUpdates": [
     {
@@ -17,7 +17,14 @@
   ],
   "exclusions": [
     "native-plant-center-wcc",
-    "wild-birds-unlimited-mcallen"
+    "wild-birds-unlimited-mcallen",
+    "arctic-sun-gardening-anchorage",
+    "shooting-star-nursery-ky",
+    "northeast-native-perennials",
+    "seeds-of-alaska-juneau",
+    "earthwild-gardens",
+    "elkhorn-native-plant-nursery-moss-landing",
+    "growild-tennessee"
   ],
   "mediaChanges": [
     {
@@ -299,10 +306,10 @@
       "name": "Nearly Native Nursery",
       "directoryStatus": "active",
       "imageStatus": "packaged-logo",
-      "website": "https://gnps.org/plant_source/nearly-native-nursery/",
-      "websiteStatus": "directory",
+      "website": "http://www.nearlynativenursery.com/index1.cfm",
+      "websiteStatus": "verified",
       "websiteKind": "directory",
-      "websitePriority": 0,
+      "websitePriority": 3,
       "preview": {
         "image": "https://nativeplantmaps.pages.dev/assets/providers/nearly-native-nursery-logo-v3.webp",
         "type": "logo",
@@ -1262,10 +1269,10 @@
       "name": "Fort Pond Native Plants",
       "directoryStatus": "active",
       "imageStatus": "packaged-photo",
-      "website": "https://visitmontauk.org/members/125/fort-pond-native-plants/",
-      "websiteStatus": "directory",
+      "website": "https://www.nativeplants.net/index.cfm/fuseaction/gc.showpage/pageID/5/index.htm",
+      "websiteStatus": "verified",
       "websiteKind": "directory",
-      "websitePriority": 0,
+      "websitePriority": 3,
       "preview": {
         "image": "https://nativeplantmaps.pages.dev/assets/providers/fort-pond-native-plants-reviewed-v2.webp",
         "alt": "Fort Pond Native Plants garden center, pictured in its Montauk Chamber of Commerce profile",
@@ -1838,7 +1845,7 @@
     {
       "id": "growild-tennessee",
       "name": "GroWild Native Plant Nursery",
-      "directoryStatus": "active",
+      "directoryStatus": "duplicate",
       "imageStatus": "external-photo",
       "website": "https://www.growildinc.com/",
       "websiteStatus": "verified",
@@ -4892,17 +4899,17 @@
     },
     {
       "id": "houston-audubon-natives-nursery",
-      "name": "Houston Audubon Native Plant Nursery",
+      "name": "Birds Houston Natives Nursery",
       "directoryStatus": "active",
       "imageStatus": "external-logo",
-      "website": "https://birdshouston.org/conservation/nativeplants/sellers.html",
+      "website": "https://birdshouston.org/conservation/nursery.html",
       "websiteStatus": "verified",
       "websitePriority": 3,
       "preview": {
         "image": "https://cdn.firespring.com/images/7ff713eb-5f06-4fe7-8724-5147aa9df223.png",
-        "alt": "Houston Audubon Native Plant Nursery logo",
         "type": "logo",
-        "dark": false
+        "alt": "Official nursery operator logo",
+        "source": "https://birdshouston.org/conservation/nursery.html"
       },
       "verification": "External preview configuration checked; no new successful image fetch or visual review claimed."
     },
@@ -5436,7 +5443,7 @@
     {
       "id": "arctic-sun-gardening-anchorage",
       "name": "Arctic Sun Gardening",
-      "directoryStatus": "active",
+      "directoryStatus": "pending-verification",
       "imageStatus": "missing",
       "website": "https://plants.alaska.gov/nativeplantindex.htm",
       "websiteStatus": "directory",
@@ -5487,7 +5494,7 @@
     {
       "id": "seeds-of-alaska-juneau",
       "name": "Seeds of Alaska",
-      "directoryStatus": "active",
+      "directoryStatus": "pending-verification",
       "imageStatus": "missing",
       "website": "https://plants.alaska.gov/nativeplantindex.htm",
       "websiteStatus": "directory",
@@ -5895,7 +5902,7 @@
     {
       "id": "elkhorn-native-plant-nursery-moss-landing",
       "name": "Elkhorn Native Plant Nursery",
-      "directoryStatus": "active",
+      "directoryStatus": "closed",
       "imageStatus": "packaged-photo",
       "website": "https://plantnative.org/nd_ca.htm",
       "websiteStatus": "directory",
@@ -7839,7 +7846,7 @@
     {
       "id": "earthwild-gardens",
       "name": "Earthwild Gardens",
-      "directoryStatus": "active",
+      "directoryStatus": "pending-verification",
       "imageStatus": "external-logo",
       "website": "https://plantnative.org/nursery/il/grayslake/earthwild-gardens",
       "websiteStatus": "directory",
@@ -7856,7 +7863,7 @@
     {
       "id": "shooting-star-nursery-ky",
       "name": "Shooting Star Nursery",
-      "directoryStatus": "active",
+      "directoryStatus": "pending-verification",
       "imageStatus": "missing",
       "website": "https://www.kyagr.com/AgBusiness/745",
       "websiteStatus": "directory",
@@ -7867,7 +7874,7 @@
     {
       "id": "northeast-native-perennials",
       "name": "Northeast Native Perennials",
-      "directoryStatus": "active",
+      "directoryStatus": "pending-verification",
       "imageStatus": "missing",
       "website": "https://plantnative.org/nursery/pa/quakertown/northeast-native-perennials",
       "websiteStatus": "directory",

@@ -6,15 +6,16 @@ import vm from 'node:vm';
 const read=async name=>JSON.parse(await readFile(new URL('../'+name,import.meta.url),'utf8'));
 const report=await read('provider-final-pages-review.json');
 const direct=await read('provider-direct-links-review.json');
+const mediaStatus=await read('provider-media-status.json');
 const replacements=new Map(direct.mediaChanges.map(x=>[x.id,x]));
 const vendors=await(await worker.fetch(new Request('https://preview.test/api/vendors'),{})).json();
 assert.equal(report.reviewedLastPages.length,142);assert.equal(new Set(report.reviewedLastPages.map(x=>x.id)).size,142);
 for(const row of report.reviewedLastPages){assert.ok(row.originalPage>=10&&row.originalPage<=12);assert.ok(row.outcome);assert.ok(row.image||row.reason);}
 for(const id of report.closedListings)assert.ok(!vendors.some(v=>v.id===id),'Closed nursery exposed: '+id);
-assert.equal(vendors.length,587);
+assert.equal(vendors.length,580);
 const env={ASSETS:{async fetch(request){const name=new URL(request.url).pathname.split('/').pop();const data=await readFile(new URL('../dist/assets/providers/'+name,import.meta.url));return new Response(request.method==='HEAD'?null:data,{headers:{'content-type':'image/webp'}});}}};
 for(const change of report.changes){
- const vendor=vendors.find(v=>v.id===change.id);if(!vendor){assert.ok(report.closedListings.includes(change.id),change.id);continue;}assert.ok(vendor,change.id);assert.deepEqual(vendor.preview,replacements.get(change.id)?.preview||change.preview);
+ const vendor=vendors.find(v=>v.id===change.id);if(!vendor){assert.ok((report.closedListings.includes(change.id)||mediaStatus.exclusions.includes(change.id)),change.id);continue;}assert.ok(vendor,change.id);assert.deepEqual(vendor.preview,replacements.get(change.id)?.preview||change.preview);
  assert.ok(change.sourcePage&&change.sourceImage&&change.visualReview,change.id);
  const url=new URL(change.preview.image);url.host='preview.test';const res=await worker.fetch(new Request(url),env);assert.equal(res.status,200);const bytes=Buffer.from(await res.arrayBuffer());assert.equal(createHash('sha256').update(bytes).digest('hex'),change.asset.sha256,change.id);assert.ok(change.asset.width>=100&&change.asset.height>=70);
  const head=await worker.fetch(new Request(url,{method:'HEAD'}),env);assert.equal(head.status,200);assert.equal((await head.arrayBuffer()).byteLength,0);
