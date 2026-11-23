@@ -48,7 +48,7 @@ const node = id => {
 };
 node('ecoregion-guide-data').textContent = JSON.stringify(data);
 node('ecoregion-directory-data').textContent = JSON.stringify(directory);
-const context = vm.createContext({
+const context = vm.createContext({scheduleDirectoryState(){},renderPlantPlanning(){return ""},
   document: {getElementById: node},
   AbortSignal,
   fetch: async url => {

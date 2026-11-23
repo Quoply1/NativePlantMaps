@@ -6305,5 +6305,3185 @@
     "akia": "A small shrub spreads into a mound with gray-green leaves, tiny yellow flowers and orange-red fruit.",
     "aweoweo": "A branching shrub with pale green leaves and tiny green flower clusters. Wind carries its pollen.",
     "hapuu": "Long, arching fronds rise from a trunk clothed in soft golden fibers. This tree fern reproduces by spores and creates shade and cover."
+  },
+  "planning": {
+    "aalii": {
+      "height": "Varies by local form: under 2 feet to 15–30 feet.",
+      "spread": "5–15 feet",
+      "bloom": "Sporadically year round (Hawaii reference; timing varies by location).",
+      "spacing": "6–8 feet apart for specimen display; local form and source matter.",
+      "sources": [
+        {
+          "label": "Native Hawaiʻi Plants: Dodonaea viscosa",
+          "url": "https://nativeplants.hawaii.edu/plants/dodonaea-viscosa/"
+        }
+      ],
+      "wateringNote": "Moderate to light; greatly reduce watering once well established (Hawaii reference).",
+      "wateringGroup": "woody"
+    },
+    "akia": {
+      "height": "2–6 feet",
+      "spread": "2–5 feet",
+      "bloom": "Sporadically year round (Hawaii reference; timing varies by location).",
+      "spacing": "12–24 inches apart (Hawaii landscape reference).",
+      "sources": [
+        {
+          "label": "Native Hawaiʻi Plants: Wikstroemia uva-ursi",
+          "url": "https://nativeplants.hawaii.edu/plants/wikstroemia-uva-ursi/"
+        }
+      ],
+      "catalog": {
+        "label": "Kauai Seascapes Nursery: ʻĀkia",
+        "url": "https://www.kauaiseascapesnursery.com/catalog-index/akia-p53jl"
+      },
+      "wateringGroup": "woody"
+    },
+    "alaskaIris": {
+      "height": "18 inches (nursery reference).",
+      "spread": "About 3 feet (British Columbia nursery reference).",
+      "bloom": "April–June (Pacific Northwest nursery reference; timing varies by region).",
+      "spacing": "24 inches apart for mass plantings (nursery recommendation).",
+      "sources": [
+        {
+          "label": "Keeping It Green Nursery: Iris setosa",
+          "url": "https://www.keepingitgreennursery.com/products/copy-of-iris-setosa-bristle-pointed-iris"
+        },
+        {
+          "label": "Green Thumb Nurseries: Iris setosa",
+          "url": "https://greenthumbwholesale.com/products/iris-setosa"
+        }
+      ],
+      "catalog": {
+        "label": "Green Thumb Nurseries: Iris setosa",
+        "url": "https://greenthumbwholesale.com/products/iris-setosa"
+      },
+      "wateringGroup": "wet"
+    },
+    "alaskaLupine": {
+      "height": "About 24 inches (Alaska botanical garden reference).",
+      "spread": "About 28 inches (Alaska botanical garden reference).",
+      "bloom": "May–June; occasional flowers July–September (Fairbanks botanical garden trial).",
+      "spacing": "Allow for a mature spread of About 28 inches (Alaska botanical garden reference). Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "University of Alaska Fairbanks Georgeson Botanical Garden: Nootka lupine",
+          "url": "https://www.uaf.edu/afes/places/gbg/research/files/pdfs/2014.-Holloway.-Note.56-ocr.pdf"
+        },
+        {
+          "label": "University of Alaska Fairbanks — Perennial Plant Trials, Circular 114, p. 12",
+          "url": "https://www.uaf.edu/afes/publications/database/circulars/files/pdfs/C114.pdf#page=12"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "alaskaYarrow": {
+      "height": "1–3 ft",
+      "spread": "1–3 ft 10 in",
+      "bloom": "June–September (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1–3 ft 10 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Achillea millefolium",
+          "url": "https://plants.ces.ncsu.edu/plants/achillea-millefolium/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "antelopeHorns": {
+      "height": "1–2 feet",
+      "spread": "2–3 feet",
+      "bloom": "May–July (Utah reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 2–3 feet. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Utah Department of Agriculture: Asclepias asperula",
+          "url": "https://ag.utah.gov/wp-content/uploads/2024/09/Asclepias-asperula.pdf"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "arcticWillow": {
+      "height": "Usually under 2 feet; forms low mats (Pacific Northwest alpine reference).",
+      "spread": null,
+      "bloom": "Early June–mid-August (Flora of North America).",
+      "spacing": "36–48 inches apart (University of Washington propagation reference).",
+      "sources": [
+        {
+          "label": "University of Washington plant propagation sheet: Salix arctica",
+          "url": "https://depts.washington.edu/propplnt/Plants/salix%20arctica.htm"
+        },
+        {
+          "label": "Flora of North America — Salix arctica",
+          "url": "https://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=200005753"
+        },
+        {
+          "label": "NEON Biorepository — attributed FNA treatment",
+          "url": "https://biorepo.neonscience.org/portal/taxa/index.php?taxon=33903"
+        }
+      ],
+      "watering": "Water regularly after installation to keep soil consistently moist; avoid overwatering (Pacific Northwest alpine reference)."
+    },
+    "aspen": {
+      "height": "20–50 ft",
+      "spread": "10–30 ft",
+      "bloom": "April (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 10–30 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "autumnSage": {
+      "height": "2–3 ft",
+      "spread": "2–3 ft",
+      "bloom": "Spring, Summer, Fall (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Salvia greggii",
+          "url": "https://plants.ces.ncsu.edu/plants/salvia-greggii/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "aweoweo": {
+      "height": "Coastal forms under 3 feet or prostrate; montane forms can reach 20 feet.",
+      "spread": null,
+      "bloom": "Sporadically year round (Hawaii botanical garden reference).",
+      "spacing": "2–5 feet apart for shrubs used as accents, barriers or hedges; choose the appropriate local form.",
+      "sources": [
+        {
+          "label": "Plant Pono: Chenopodium oahuense",
+          "url": "https://plantpono.org/pono-plants/chenopodium-oahuense-aweoweo/"
+        },
+        {
+          "label": "Native Plants of Hawaiʻi: ʻāweoweo",
+          "url": "https://www.nativeplantsofhawaii.org/c/chenopodium-oahuense"
+        }
+      ],
+      "watering": "For in-ground plantings, water 1–3 times weekly during the first couple of months, then reduce watering and avoid overwatering (Hawaii reference; adjust to rainfall and drainage)."
+    },
+    "barberry": {
+      "height": "1–2 ft",
+      "spread": "1–2 ft",
+      "bloom": "April (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Berberis repens",
+          "url": "https://plants.ces.ncsu.edu/plants/berberis-repens/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "bayberry": {
+      "height": "6–8 ft",
+      "spread": "5–10 ft",
+      "bloom": "May (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 5–10 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Morella pensylvanica",
+          "url": "https://plants.ces.ncsu.edu/plants/myrica-pensylvanica/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "beachPlum": {
+      "height": "3–6 feet",
+      "spread": "3–6 feet",
+      "bloom": "Spring (New England reference; dates vary by region).",
+      "spacing": "Allow for a mature spread of 3–6 feet. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Native Plant Trust: beach plum",
+          "url": "https://plantfinder.nativeplanttrust.org/plant/Prunus-maritima"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "beachRye": {
+      "height": "3–6 feet",
+      "spread": "1.5–3 feet; spreads by rhizomes.",
+      "bloom": "Late spring (Pacific Northwest nursery reference; dates vary by region).",
+      "spacing": "Allow for a mature spread of 1.5–3 feet; spreads by rhizomes. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Sevenoaks Native Nursery: Leymus mollis",
+          "url": "https://sevenoaksnativenursery.com/product/leymus-mollis/"
+        }
+      ],
+      "catalog": {
+        "label": "Sevenoaks Native Nursery: Leymus mollis",
+        "url": "https://sevenoaksnativenursery.com/product/leymus-mollis/"
+      },
+      "wateringGroup": "general"
+    },
+    "bearberry": {
+      "height": "0 ft 6 in–1 ft",
+      "spread": "3–6 ft",
+      "bloom": "Spring (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 3–6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Arctostaphylos uva-ursi",
+          "url": "https://plants.ces.ncsu.edu/plants/arctostaphylos-uva-ursi/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "beardtongue": {
+      "height": "2–4 ft",
+      "spread": "1 ft 6 in–2 ft",
+      "bloom": "May–July (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1 ft 6 in–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Penstemon digitalis",
+          "url": "https://plants.ces.ncsu.edu/plants/penstemon-digitalis/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "beeblossom": {
+      "height": "3–5 ft",
+      "spread": "1–2 ft",
+      "bloom": "Summer, Fall (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Oenothera lindheimeri",
+          "url": "https://plants.ces.ncsu.edu/plants/oenothera-lindheimeri/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "beeplant": {
+      "height": "2–4 feet",
+      "spread": "1–2 feet",
+      "bloom": "June–September (Arizona nursery reference; dates vary by region).",
+      "spacing": "Allow for a mature spread of 1–2 feet. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Spadefoot Nursery: Rocky Mountain beeplant",
+          "url": "https://www.spadefootnursery.com/perennials-c-d/cleomella-serrulata"
+        }
+      ],
+      "catalog": {
+        "label": "Spadefoot Nursery: Rocky Mountain beeplant",
+        "url": "https://www.spadefootnursery.com/perennials-c-d/cleomella-serrulata"
+      },
+      "wateringGroup": "general"
+    },
+    "bergamot": {
+      "height": "2–4 ft",
+      "spread": "2–3 ft",
+      "bloom": "June–September (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Monarda fistulosa",
+          "url": "https://plants.ces.ncsu.edu/plants/monarda-fistulosa/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "bigBluestem": {
+      "height": "4–8 ft",
+      "spread": "2–3 ft",
+      "bloom": "July–October (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Andropogon gerardii",
+          "url": "https://plants.ces.ncsu.edu/plants/andropogon-gerardi/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "bitterbrush": {
+      "height": "Usually 3–4 feet; can reach 2–10 feet depending on form.",
+      "spread": null,
+      "bloom": "April–June (Montana nursery reference; dates vary by region).",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "Oregon State University: Purshia tridentata",
+          "url": "https://landscapeplants.oregonstate.edu/plants/purshia-tridentata"
+        },
+        {
+          "label": "Montana DNRC Conservation Seedling Nursery: bitterbrush",
+          "url": "https://conservationseedlings.mtdnrc.gov/products/bitterbrush"
+        }
+      ],
+      "catalog": {
+        "label": "Montana DNRC nursery: bitterbrush",
+        "url": "https://conservationseedlings.mtdnrc.gov/products/bitterbrush"
+      },
+      "wateringGroup": "woody"
+    },
+    "blackEyedSusan": {
+      "height": "2–4 ft",
+      "spread": "1–2 ft",
+      "bloom": "May–July (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Rudbeckia hirta",
+          "url": "https://plants.ces.ncsu.edu/plants/rudbeckia-hirta/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "blackGrama": {
+      "height": "12 inches or more including seedheads (Arizona field reference).",
+      "spread": null,
+      "bloom": "July–October (Arizona Extension reference; dates vary by region).",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "University of Arizona Extension: black grama",
+          "url": "https://yavapaiplants.extension.arizona.edu/bouteloua-eriopoda"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "blackSpruce": {
+      "height": "30–50 ft",
+      "spread": "20–30 ft",
+      "bloom": "Non-flowering conifer; pollen and seed cones, with pollination in spring.",
+      "spacing": "Allow for a mature spread of 20–30 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — black spruce",
+          "url": "https://plants.ces.ncsu.edu/plants/picea-mariana/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "blackfootDaisy": {
+      "height": "0 ft 6 in–1 ft",
+      "spread": "1–2 ft",
+      "bloom": "Spring, Summer, Fall (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Melampodium leucanthum",
+          "url": "https://plants.ces.ncsu.edu/plants/melampodium-leucanthum/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "blanketflower": {
+      "height": "1–3 ft",
+      "spread": "1–2 ft",
+      "bloom": "May–September (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Gaillardia aristata",
+          "url": "https://plants.ces.ncsu.edu/plants/gaillardia-aristata/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "bloodroot": {
+      "height": "4–8 inches (Native Plant Trust reference).",
+      "spread": "4–12 inches",
+      "bloom": "April–May (Pennsylvania nursery reference; dates vary by region).",
+      "spacing": "6–10 inches apart (Keystone Wildflowers nursery recommendation).",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Sanguinaria canadensis",
+          "url": "https://plants.ces.ncsu.edu/plants/sanguinaria-canadensis/"
+        },
+        {
+          "label": "Native Plant Trust: bloodroot",
+          "url": "https://plantfinder.nativeplanttrust.org/plant/Sanguinaria-canadensis"
+        },
+        {
+          "label": "Keystone Wildflowers: bloodroot",
+          "url": "https://www.keystonewildflowers.com/product/sanguinaria-canadensis/"
+        }
+      ],
+      "catalog": {
+        "label": "Keystone Wildflowers: bloodroot",
+        "url": "https://www.keystonewildflowers.com/product/sanguinaria-canadensis/"
+      },
+      "wateringGroup": "general"
+    },
+    "blueAster": {
+      "height": "1–4 ft",
+      "spread": "1 ft 6 in–2 ft",
+      "bloom": "Summer, Fall (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 1 ft 6 in–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Symphyotrichum cordifolium",
+          "url": "https://plants.ces.ncsu.edu/plants/symphyotrichum-cordifolium/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "blueCohosh": {
+      "height": "1–2 ft",
+      "spread": "0 ft 6 in–1 ft",
+      "bloom": "Spring (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 0 ft 6 in–1 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Caulophyllum thalictroides",
+          "url": "https://plants.ces.ncsu.edu/plants/caulophyllum-thalictroides/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "blueColumbine": {
+      "height": "1–3 feet",
+      "spread": "1–1.5 feet",
+      "bloom": "Late spring–early summer (nursery reference; dates vary by region).",
+      "spacing": "Allow for a mature spread of 1–1.5 feet. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Camp Creek Native Plants: Colorado columbine",
+          "url": "https://www.campcreeknativeplants.com/product-page/colorado-columbine-aquilegia-coerulea"
+        }
+      ],
+      "catalog": {
+        "label": "Camp Creek Native Plants: Colorado columbine",
+        "url": "https://www.campcreeknativeplants.com/product-page/colorado-columbine-aquilegia-coerulea"
+      },
+      "wateringGroup": "general"
+    },
+    "blueEyedGrass": {
+      "height": "Usually about 1 foot; taller with garden irrigation.",
+      "spread": "Approximately 4–20 inches (nursery reference).",
+      "bloom": "January–June (California nursery reference; dates vary by location).",
+      "spacing": "Allow for a mature spread of Approximately 4–20 inches (nursery reference). Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Las Pilitas Nursery: Sisyrinchium bellum",
+          "url": "https://www.laspilitas.com/nature-of-california/plants/642--sisyrinchium-bellum"
+        }
+      ],
+      "catalog": {
+        "label": "Las Pilitas Nursery: Sisyrinchium bellum",
+        "url": "https://www.laspilitas.com/nature-of-california/plants/642--sisyrinchium-bellum"
+      },
+      "wateringGroup": "general"
+    },
+    "blueFlag": {
+      "height": "2–3 ft",
+      "spread": "2–2 ft 6 in",
+      "bloom": "May–June (Chicago Botanic Garden profile).",
+      "spacing": "Allow for a mature spread of 2–2 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Iris versicolor",
+          "url": "https://plants.ces.ncsu.edu/plants/iris-versicolor/"
+        },
+        {
+          "label": "Chicago Botanic Garden — northern blue flag iris",
+          "url": "https://www.chicagobotanic.org/plant-information/plant-finder/iris-versicolor-northern-blue-flag-iris"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "blueFlax": {
+      "height": "2–3 ft",
+      "spread": "1 ft 6 in–2 ft",
+      "bloom": "Spring, Summer (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 1 ft 6 in–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Linum lewisii",
+          "url": "https://plants.ces.ncsu.edu/plants/linum-lewisii/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "blueGrama": {
+      "height": "0 ft 6 in–2 ft",
+      "spread": "1 ft 6 in–2 ft",
+      "bloom": "June–August (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1 ft 6 in–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Bouteloua gracilis",
+          "url": "https://plants.ces.ncsu.edu/plants/bouteloua-gracilis/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "blueLobelia": {
+      "height": "1 ft 6 in–4 ft",
+      "spread": "1–1 ft 6 in",
+      "bloom": "July–October (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Lobelia siphilitica",
+          "url": "https://plants.ces.ncsu.edu/plants/lobelia-siphilitica/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "blueSage": {
+      "height": "1 ft 6 in–3 ft",
+      "spread": "1–2 ft",
+      "bloom": "April–October (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Salvia farinacea",
+          "url": "https://plants.ces.ncsu.edu/plants/salvia-farinacea/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "blueVervain": {
+      "height": "2–5 ft",
+      "spread": "1–2 ft 6 in",
+      "bloom": "Summer (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 1–2 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Verbena hastata",
+          "url": "https://plants.ces.ncsu.edu/plants/verbena-hastata/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "blueWildIndigo": {
+      "height": "3–4 ft",
+      "spread": "2–4 ft",
+      "bloom": "Spring, Summer (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 2–4 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Baptisia australis",
+          "url": "https://plants.ces.ncsu.edu/plants/baptisia-australis/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "bluebunch": {
+      "height": "About 3 feet (USDA characteristics reference).",
+      "spread": null,
+      "bloom": "Early summer; June in central Utah observations (timing varies with elevation and latitude).",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "USDA PLANTS: bluebunch wheatgrass",
+          "url": "https://plants.sc.egov.usda.gov/plant-profile/PSSPS/characteristics"
+        },
+        {
+          "label": "US Forest Service FEIS: bluebunch wheatgrass",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/psespi"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "bluestem": {
+      "height": "2–4 ft",
+      "spread": "1 ft 6 in–3 ft",
+      "bloom": "June–October (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1 ft 6 in–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Schizachyrium scoparium",
+          "url": "https://plants.ces.ncsu.edu/plants/schizachyrium-scoparium/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "boneset": {
+      "height": "4–6 ft",
+      "spread": "3–4 ft",
+      "bloom": "July–September (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 3–4 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Eupatorium perfoliatum",
+          "url": "https://plants.ces.ncsu.edu/plants/eupatorium-perfoliatum/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "bottlebrush": {
+      "height": "2 ft 6 in–3 ft",
+      "spread": "1–1 ft 6 in",
+      "bloom": "From mid-June (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Elymus hystrix",
+          "url": "https://plants.ces.ncsu.edu/plants/elymus-hystrix/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "buckwheat": {
+      "height": "0 ft 6 in–1 ft",
+      "spread": "1–3 ft",
+      "bloom": "Summer, Fall (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 1–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Eriogonum umbellatum",
+          "url": "https://plants.ces.ncsu.edu/plants/eriogonum-umbellatum/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "buffaloGrass": {
+      "height": "0 ft 4 in–0 ft 8 in",
+      "spread": "0 ft 6 in–1 ft",
+      "bloom": "June–August (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 0 ft 6 in–1 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Bouteloua dactyloides",
+          "url": "https://plants.ces.ncsu.edu/plants/bouteloua-dactyloides/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "bunchberry": {
+      "height": "0 ft 6 in–1 ft",
+      "spread": "0 ft 6 in–1 ft",
+      "bloom": "Spring, Summer (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 0 ft 6 in–1 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Cornus canadensis",
+          "url": "https://plants.ces.ncsu.edu/plants/cornus-canadensis/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "burOak": {
+      "height": "70–80 ft",
+      "spread": "70–80 ft",
+      "bloom": "Spring (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 70–80 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "butterflyMilkweed": {
+      "height": "1–2 ft",
+      "spread": "1–1 ft 6 in",
+      "bloom": "May–August (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Asclepias tuberosa",
+          "url": "https://plants.ces.ncsu.edu/plants/asclepias-tuberosa/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "buttonbush": {
+      "height": "5–8 ft",
+      "spread": "3–6 ft",
+      "bloom": "June–August (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 3–6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Cephalanthus occidentalis",
+          "url": "https://plants.ces.ncsu.edu/plants/cephalanthus-occidentalis/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "calBuckwheat": {
+      "height": "3–4 feet",
+      "spread": "4–5 feet",
+      "bloom": "Spring–fall (California nursery reference; dates vary by location).",
+      "spacing": "Allow for a mature spread of 4–5 feet. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: California buckwheat",
+          "url": "https://www.calfloranursery.com/plants/eriogonum-fasciculatum/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery: California buckwheat",
+        "url": "https://www.calfloranursery.com/plants/eriogonum-fasciculatum/"
+      },
+      "wateringGroup": "woody"
+    },
+    "calFuchsia": {
+      "height": "6 inches–4 feet depending on local form or cultivar.",
+      "spread": "At least 1 foot; spreads outward and can be contained.",
+      "bloom": "June–January depending on form or cultivar (UC Davis reference; timing varies by location).",
+      "spacing": "Allow room for spreading growth; the source gives a minimum width of 1 foot, not a fixed planting interval.",
+      "sources": [
+        {
+          "label": "UC Davis Arboretum: California fuchsia",
+          "url": "https://www.arboretum.ucdavis.edu/all-stars/california-fuchsia"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "calPoppy": {
+      "height": "1–2 ft",
+      "spread": "1–2 ft",
+      "bloom": "Spring through July (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Eschscholzia californica",
+          "url": "https://plants.ces.ncsu.edu/plants/eschscholzia-californica/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "calRose": {
+      "height": "5–8 feet",
+      "spread": "6–10 feet",
+      "bloom": "Spring (California nursery reference; dates vary by location).",
+      "spacing": "Allow for a mature spread of 6–10 feet. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: California wild rose",
+          "url": "https://www.calfloranursery.com/plants/rosa-californica/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery: California wild rose",
+        "url": "https://www.calfloranursery.com/plants/rosa-californica/"
+      },
+      "wateringGroup": "woody"
+    },
+    "camas": {
+      "height": "1–2 feet",
+      "spread": "1–1.5 feet",
+      "bloom": "Late spring (California nursery reference; dates vary by region).",
+      "spacing": "Allow for a mature spread of 1–1.5 feet. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: common camas",
+          "url": "https://www.calfloranursery.com/plants/camassia-quamash/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery: common camas",
+        "url": "https://www.calfloranursery.com/plants/camassia-quamash/"
+      },
+      "wateringGroup": "wet"
+    },
+    "canadaAnemone": {
+      "height": "About 12 inches (nursery reference).",
+      "spread": null,
+      "bloom": "May–June (Midwestern nursery reference; dates vary by region).",
+      "spacing": "6–12 inches apart (nursery planting recommendation); allow for spreading rhizomes.",
+      "sources": [
+        {
+          "label": "Prairie Moon Nursery: Canada anemone",
+          "url": "https://www.prairiemoon.com/anemone-canadensis-canada-anemone"
+        }
+      ],
+      "catalog": {
+        "label": "Prairie Moon Nursery: Canada anemone",
+        "url": "https://www.prairiemoon.com/anemone-canadensis-canada-anemone"
+      },
+      "wateringGroup": "wet"
+    },
+    "cardinalFlower": {
+      "height": "4–5 ft",
+      "spread": "1–2 ft",
+      "bloom": "July–October (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Lobelia cardinalis",
+          "url": "https://plants.ces.ncsu.edu/plants/lobelia-cardinalis/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "chocolateFlower": {
+      "height": "1–2 ft",
+      "spread": "1–2 ft",
+      "bloom": "Spring, Summer, Fall (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Berlandiera lyrata",
+          "url": "https://plants.ces.ncsu.edu/plants/berlandiera-lyrata/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "clarkia": {
+      "height": "2–2.5 feet",
+      "spread": "9–12 inches",
+      "bloom": "June–July (Missouri Botanical Garden reference; dates vary by climate).",
+      "spacing": "Allow for a mature spread of 9–12 inches. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Missouri Botanical Garden: Clarkia amoena",
+          "url": "https://plantfinder.mobot.org/PlantFinderDetails.aspx?kempercode=b741"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "clethra": {
+      "height": "5–10 ft",
+      "spread": "4–6 ft",
+      "bloom": "June–August (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 4–6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Clethra alnifolia",
+          "url": "https://plants.ces.ncsu.edu/plants/clethra-alnifolia/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "cloudberry": {
+      "height": "4–12 inches",
+      "spread": null,
+      "bloom": "June–July in the southern part of its range (USFS reference; Arctic dates vary).",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "US Forest Service FEIS: cloudberry",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/rubcha"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "columbine": {
+      "height": "1–3 ft",
+      "spread": "1–1 ft 6 in",
+      "bloom": "March–May (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 1–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Aquilegia canadensis",
+          "url": "https://plants.ces.ncsu.edu/plants/aquilegia-canadensis/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "coralHoneysuckle": {
+      "height": "10–20 ft",
+      "spread": "3–6 ft",
+      "bloom": "March–July (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 3–6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Lonicera sempervirens",
+          "url": "https://plants.ces.ncsu.edu/plants/lonicera-sempervirens/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "cottonGrass": {
+      "height": "Flowering culms 4–28 inches; tussock height varies greatly by site.",
+      "spread": null,
+      "bloom": "June–mid-July near Fairbanks, Alaska; timing varies by latitude and snowmelt.",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "US Forest Service FEIS: tussock cottongrass",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/erivag"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "cottonwood": {
+      "height": "75–100 ft",
+      "spread": "35–60 ft",
+      "bloom": "March–April (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 35–60 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "coyoteMint": {
+      "height": "6–24 inches",
+      "spread": "1–3 feet",
+      "bloom": "Summer (California nursery reference; dates vary by location).",
+      "spacing": "Allow for a mature spread of 1–3 feet. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: coyote mint",
+          "url": "https://www.calfloranursery.com/plants/monardella-villosa/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery: coyote mint",
+        "url": "https://www.calfloranursery.com/plants/monardella-villosa/"
+      },
+      "wateringGroup": "general"
+    },
+    "creosote": {
+      "height": "Usually 6 feet or more; some local populations reach 12 feet.",
+      "spread": "About 8 feet (Arizona nursery reference).",
+      "bloom": "Can flower almost any time of year, depending on rainfall (Arizona nursery reference).",
+      "spacing": "Allow for a mature spread of About 8 feet (Arizona nursery reference). Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Larrea tridentata",
+          "url": "https://plants.ces.ncsu.edu/plants/larrea-tridentata/"
+        },
+        {
+          "label": "Spadefoot Nursery: creosote bush",
+          "url": "https://www.spadefootnursery.com/shrubs-kl/larrea-tridentata"
+        }
+      ],
+      "catalog": {
+        "label": "Spadefoot Nursery: creosote bush",
+        "url": "https://www.spadefootnursery.com/shrubs-kl/larrea-tridentata"
+      },
+      "watering": "Provide some supplemental water while establishing, but space waterings apart from the start; avoid frequent watering (Arizona nursery reference)."
+    },
+    "crestedIris": {
+      "height": "0 ft 6 in–0 ft 9 in",
+      "spread": "0 ft 6 in–1 ft",
+      "bloom": "April–May (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 0 ft 6 in–1 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Iris cristata",
+          "url": "https://plants.ces.ncsu.edu/plants/iris-cristata/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "crowberry": {
+      "height": "Approximately 4–8 inches",
+      "spread": "Approximately 12–24 inches",
+      "bloom": "May–June (British Columbia university horticulture reference; dates vary by location).",
+      "spacing": "Allow for a mature spread of Approximately 12–24 inches. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Kwantlen Polytechnic University: crowberry",
+          "url": "https://plantdatabase.kpu.ca/PlantPrint/emni"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "currant": {
+      "height": "5–12 ft",
+      "spread": "5–12 ft",
+      "bloom": "Spring (North Carolina reference; timing varies by region).",
+      "spacing": "Allow for a mature spread of 5–12 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Ribes sanguineum",
+          "url": "https://plants.ces.ncsu.edu/plants/ribes-sanguineum/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "cypress": {
+      "height": "50–70 ft",
+      "spread": "20–30 ft",
+      "bloom": "March–April (North Carolina source reference; timing varies by region, elevation and weather).",
+      "spacing": "Allow for a mature spread of 20–30 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Taxodium distichum",
+          "url": "https://plants.ces.ncsu.edu/plants/taxodium-distichum/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "deergrass": {
+      "height": "2.5–4 feet",
+      "spread": "3–4 feet",
+      "bloom": "Summer (California native nursery foundation reference; dates vary by location).",
+      "spacing": "Allow for a mature spread of 3–4 feet. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: deer grass",
+          "url": "https://www.calfloranursery.com/plants/muhlenbergia-rigens/"
+        },
+        {
+          "label": "Theodore Payne Foundation: deergrass",
+          "url": "https://www.theodorepayne.org/nativeplantdatabase/index.php?title=Muhlenbergia_rigens"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery: deer grass",
+        "url": "https://www.calfloranursery.com/plants/muhlenbergia-rigens/"
+      },
+      "wateringGroup": "general"
+    },
+    "denseBlazingStar": {
+      "height": "3–6 ft",
+      "spread": "3 in–1 ft 6 in",
+      "bloom": "Summer",
+      "spacing": "Allow for a mature spread of 3 in–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Liatris spicata",
+          "url": "https://plants.ces.ncsu.edu/plants/liatris-spicata/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "desertMarigold": {
+      "height": "18 in",
+      "spread": "1 ft",
+      "bloom": "April–July (Utah profile; timing varies by desert climate)",
+      "spacing": "Allow for a mature spread of 1 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Utah Department of Agriculture Pollinator Habitat Program",
+          "url": "https://ag.utah.gov/wp-content/uploads/2023/08/Baileya-multiradiata.pdf"
+        }
+      ],
+      "wateringNote": "The Utah profile limits established summer irrigation to at most monthly. Establishment frequency is not specified; avoid assuming established drought tolerance applies to new transplants.",
+      "wateringGroup": "general"
+    },
+    "desertSage": {
+      "height": "18 in",
+      "spread": "24–36 in",
+      "bloom": "Spring–summer",
+      "spacing": "Allow for a mature spread of 24–36 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "High Country Gardens: Salvia dorrii",
+          "url": "https://www.highcountrygardens.com/products/perennial-salvia-dorrii-desert-purple"
+        }
+      ],
+      "catalog": {
+        "label": "High Country Gardens: Salvia dorrii",
+        "url": "https://www.highcountrygardens.com/products/perennial-salvia-dorrii-desert-purple"
+      },
+      "wateringGroup": "general"
+    },
+    "desertWillow": {
+      "height": "15–25 ft",
+      "spread": "10–15 ft",
+      "bloom": "Fall Spring Summer",
+      "spacing": "Allow for a mature spread of 10–15 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chilopsis linearis",
+          "url": "https://plants.ces.ncsu.edu/plants/chilopsis-linearis/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "dropseed": {
+      "height": "2–3 ft",
+      "spread": "2–3 ft",
+      "bloom": "August–October",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Sporobolus heterolepis",
+          "url": "https://plants.ces.ncsu.edu/plants/sporobolus-heterolepis/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "dryas": {
+      "height": "Up to 10 cm",
+      "spread": "0.5–1 m",
+      "bloom": "Late spring–early summer (RHS cultivation profile)",
+      "spacing": "Allow for a mature spread of 0.5–1 m. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Royal Horticultural Society species profile",
+          "url": "https://www.rhs.org.uk/plants/6152/dryas-octopetala/details"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "dwarfBirch": {
+      "height": "2–4 ft (Oregon State profile)",
+      "spread": "2–4 ft",
+      "bloom": "May–June (Chicago Botanic Garden profile)",
+      "spacing": "Allow for a mature spread of 2–4 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Oregon State University Landscape Plants",
+          "url": "https://landscapeplants.oregonstate.edu/plants/betula-nana"
+        },
+        {
+          "label": "Chicago Botanic Garden species profile",
+          "url": "https://www.chicagobotanic.org/plant-information/plant-finder/betula-nana-dwarf-arctic-birch"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "dwarfFireweed": {
+      "height": "10–30 cm (Burke regional flora)",
+      "spread": null,
+      "bloom": "June–September (Washington regional flora)",
+      "spacing": "Allow room for a mature spread of Unknown — mature spread not given in the retrieved flora.; this is a size allowance, not verified center-to-center spacing.",
+      "sources": [
+        {
+          "label": "University of Washington Burke Herbarium",
+          "url": "https://burkeherbarium.org/imagecollection/taxon.php?Taxon=Chamaenerion+latifolium"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "dwarfFothergilla": {
+      "height": "1 ft 6 in–3 ft",
+      "spread": "2–4 ft",
+      "bloom": "April–May",
+      "spacing": "Allow for a mature spread of 2–4 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Fothergilla gardenii",
+          "url": "https://plants.ces.ncsu.edu/plants/fothergilla-gardenii/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "dwarfPalmetto": {
+      "height": "2–10 ft",
+      "spread": "4–6 ft",
+      "bloom": "Spring Summer",
+      "spacing": "Allow for a mature spread of 4–6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Sabal minor",
+          "url": "https://plants.ces.ncsu.edu/plants/sabal-minor/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "emoryOak": {
+      "height": "About 40 ft; some trees grow taller",
+      "spread": "About 40 ft",
+      "bloom": "April–May",
+      "spacing": "Allow for a mature spread of About 40 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "University of Arizona Yavapai native plants",
+          "url": "https://yavapaiplants.extension.arizona.edu/quercus-emoryi"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "escarpmentOak": {
+      "height": "20–40 ft",
+      "spread": "30–40 ft",
+      "bloom": "Spring",
+      "spacing": "Allow for a mature spread of 30–40 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "UC Davis Arboretum tree database",
+          "url": "https://arboretum.ucdavis.edu/tree-database/escarpment-live-oak-quercus-fusiformis"
+        },
+        {
+          "label": "UC Agriculture and Natural Resources tree profile",
+          "url": "https://ucanr.edu/sites/default/files/2023-09/388436.pdf"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "fairyDuster": {
+      "height": "About 3 ft",
+      "spread": "About 3 ft",
+      "bloom": "Mainly spring and fall",
+      "spacing": "Allow for a mature spread of About 3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "University of Arizona Yavapai native plants",
+          "url": "https://yavapaiplants.extension.arizona.edu/calliandra-eriophylla"
+        },
+        {
+          "label": "Arizona State University horticultural profile",
+          "url": "https://www.public.asu.edu/~camartin/plants/Plant%20html%20files/calliandraeriophylla.html"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "firecracker": {
+      "height": "2–3 ft",
+      "spread": "1–3 ft",
+      "bloom": "Summer",
+      "spacing": "Allow for a mature spread of 1–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/penstemon-eatonii/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/penstemon-eatonii/"
+      },
+      "wateringGroup": "general"
+    },
+    "fireweed": {
+      "height": "2–5 ft",
+      "spread": "1–3 ft",
+      "bloom": "Fall Summer",
+      "spacing": "Allow for a mature spread of 1–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chamerion angustifolium",
+          "url": "https://plants.ces.ncsu.edu/plants/chamerion-angustifolium/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "foamflower": {
+      "height": "5 in–1 ft",
+      "spread": "1–1 ft 6 in",
+      "bloom": "April–June",
+      "spacing": "Allow for a mature spread of 1–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Tiarella cordifolia",
+          "url": "https://plants.ces.ncsu.edu/plants/tiarella-cordifolia/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "fourwing": {
+      "height": "Up to 4 ft (Colorado profile)",
+      "spread": "Up to 6 ft (Colorado profile)",
+      "bloom": "July–August (Colorado profile)",
+      "spacing": "Allow for a mature spread of Up to 6 ft (Colorado profile). Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Colorado State University Extension / Jefferson County plant database",
+          "url": "https://coloradoplants.jeffco.us/plant/details/175"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "foxSedge": {
+      "height": "3 ft",
+      "spread": null,
+      "bloom": "June–July",
+      "spacing": "1–2 ft apart",
+      "sources": [
+        {
+          "label": "Prairie Moon Nursery: Carex vulpinoidea",
+          "url": "https://www.prairiemoon.com/carex-vulpinoidea-brown-fox-sedge"
+        }
+      ],
+      "catalog": {
+        "label": "Prairie Moon Nursery: Carex vulpinoidea",
+        "url": "https://www.prairiemoon.com/carex-vulpinoidea-brown-fox-sedge"
+      },
+      "wateringGroup": "wet"
+    },
+    "fringeTree": {
+      "height": "12–30 ft",
+      "spread": "12–20 ft",
+      "bloom": "April–May",
+      "spacing": "Allow for a mature spread of 12–20 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chionanthus virginicus",
+          "url": "https://plants.ces.ncsu.edu/plants/chionanthus-virginicus/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "fringecup": {
+      "height": "1.5–2 ft",
+      "spread": "1.5–2 ft",
+      "bloom": "Spring",
+      "spacing": "Allow for a mature spread of 1.5–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/tellima-grandiflora/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/tellima-grandiflora/"
+      },
+      "wateringGroup": "general"
+    },
+    "geranium": {
+      "height": "1 ft 2 in–1 ft 6 in",
+      "spread": "1–1 ft 6 in",
+      "bloom": "April–June",
+      "spacing": "Allow for a mature spread of 1–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Geranium maculatum",
+          "url": "https://plants.ces.ncsu.edu/plants/geranium-maculatum/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "globemallow": {
+      "height": "2–4 ft",
+      "spread": "2–4 ft",
+      "bloom": "Spring Summer Fall",
+      "spacing": "Allow for a mature spread of 2–4 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/sphaeralcea-ambigua/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/sphaeralcea-ambigua/"
+      },
+      "wateringGroup": "general"
+    },
+    "goldenAlexanders": {
+      "height": "1–2 ft",
+      "spread": "1–2 ft",
+      "bloom": "April–May",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Zizia aurea",
+          "url": "https://plants.ces.ncsu.edu/plants/zizia-aurea/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "greenAndGold": {
+      "height": "1–2 in",
+      "spread": "1–2 ft",
+      "bloom": "March–June; light fall rebloom may occur",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chrysogonum virginianum",
+          "url": "https://plants.ces.ncsu.edu/plants/chrysogonum-virginianum/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "hairgrass": {
+      "height": "1 ft 8 in–3 ft",
+      "spread": "1–2 ft",
+      "bloom": "Fall Summer Winter",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Deschampsia cespitosa",
+          "url": "https://plants.ces.ncsu.edu/plants/deschampsia-cespitosa/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "hapuu": {
+      "height": "Over 3 ft (source height category)",
+      "spread": "8 to over 20 ft",
+      "bloom": "No flowers — tree fern (spore-producing).",
+      "spacing": "Allow for a mature spread of 8 to over 20 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Cibotium glaucum",
+          "url": "https://nativeplants.hawaii.edu/plants/cibotium-glaucum/"
+        }
+      ],
+      "wateringNote": "General habitat guidance: tolerates moist and wet conditions; an establishment schedule was not specified.",
+      "wateringGroup": "woody"
+    },
+    "heathAster": {
+      "height": "1 ft 6 in–3 ft",
+      "spread": "1–1 ft 6 in",
+      "bloom": "Fall Summer",
+      "spacing": "Allow for a mature spread of 1–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Symphyotrichum ericoides",
+          "url": "https://plants.ces.ncsu.edu/plants/symphyotrichum-ericoides/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "honeyMesquite": {
+      "height": "20–30 ft",
+      "spread": "25–40 ft",
+      "bloom": "Mid- to late spring; sporadic afterward",
+      "spacing": "Allow for a mature spread of 25–40 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Texas Tech University Woody Plant Finder",
+          "url": "https://www.depts.ttu.edu/plantresources/Pages/directories/landscape-info-sheets/woody-info/Prosopis_glandulosa.php"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "hummingbirdSage": {
+      "height": "1–4 ft",
+      "spread": "3–6 ft",
+      "bloom": "Spring",
+      "spacing": "Allow for a mature spread of 3–6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/salvia-spathacea/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/salvia-spathacea/"
+      },
+      "wateringGroup": "general"
+    },
+    "idahoFescue": {
+      "height": "1–3 ft",
+      "spread": "0.5–2 ft",
+      "bloom": "May–July (Washington flora)",
+      "spacing": "Allow for a mature spread of 0.5–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/festuca-idahoensis/"
+        },
+        {
+          "label": "University of Washington Burke Herbarium",
+          "url": "https://burkeherbarium.org/imagecollection/taxon.php?Taxon=Festuca+idahoensis"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/festuca-idahoensis/"
+      },
+      "wateringGroup": "general"
+    },
+    "iliahi": {
+      "height": "Over 10 ft; tree forms 15–30 ft",
+      "spread": "About 8 ft",
+      "bloom": "Sporadic, mainly summer; June–July",
+      "spacing": "Allow for a mature spread of About 8 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Santalum haleakalae",
+          "url": "https://nativeplants.hawaii.edu/plants/santalum-haleakalae/"
+        }
+      ],
+      "wateringNote": "General source guidance: medium watering. Establishment timing/frequency was not specified.",
+      "wateringGroup": "woody"
+    },
+    "ilima": {
+      "height": "Varies by local form: below 2 ft to over 10 ft",
+      "spread": "4–8 ft",
+      "bloom": "Year-round",
+      "spacing": "3–6 ft apart, depending on prostrate or bush form",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Sida fallax",
+          "url": "https://nativeplants.hawaii.edu/plants/sida-fallax/"
+        }
+      ],
+      "wateringNote": "Upland forms need more water than beach/prostrate forms. Excess watering can reduce flowers and encourage fungal disease; establishment frequency was not specified.",
+      "wateringGroup": "general"
+    },
+    "indianGrass": {
+      "height": "5–7 ft",
+      "spread": "1–2 ft",
+      "bloom": "August–October",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Sorghastrum nutans",
+          "url": "https://plants.ces.ncsu.edu/plants/sorghastrum-nutans/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "inkberry": {
+      "height": "5–10 ft",
+      "spread": "5–8 ft",
+      "bloom": "May–June",
+      "spacing": "Allow for a mature spread of 5–8 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Ilex glabra",
+          "url": "https://plants.ces.ncsu.edu/plants/ilex-glabra/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "insideOutFlower": {
+      "height": "0.5–1 ft",
+      "spread": "2–3 ft",
+      "bloom": "Spring Summer",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/vancouveria-hexandra/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/vancouveria-hexandra/"
+      },
+      "wateringGroup": "general"
+    },
+    "ironweed": {
+      "height": "5 ft",
+      "spread": null,
+      "bloom": "July–September",
+      "spacing": "2–3 ft apart",
+      "sources": [
+        {
+          "label": "Prairie Moon Nursery: Vernonia fasciculata",
+          "url": "https://www.prairiemoon.com/vernonia-fasciculata-common-ironweed"
+        }
+      ],
+      "catalog": {
+        "label": "Prairie Moon Nursery: Vernonia fasciculata",
+        "url": "https://www.prairiemoon.com/vernonia-fasciculata-common-ironweed"
+      },
+      "wateringGroup": "wet"
+    },
+    "jacobsLadder": {
+      "height": "1–3 ft",
+      "spread": "1 ft 6 in–3 ft",
+      "bloom": "Spring Summer",
+      "spacing": "Allow for a mature spread of 1 ft 6 in–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Polemonium reptans",
+          "url": "https://plants.ces.ncsu.edu/plants/polemonium-reptans/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "joePye": {
+      "height": "4–7 ft",
+      "spread": "3–4 ft",
+      "bloom": "July–October",
+      "spacing": "Allow for a mature spread of 3–4 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Eutrochium maculatum",
+          "url": "https://plants.ces.ncsu.edu/plants/eutrochium-maculatum/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "junegrass": {
+      "height": "0.5–2 ft",
+      "spread": "1–2 ft",
+      "bloom": "Late spring–early summer; progressively later toward the north",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/koeleria-macrantha/"
+        },
+        {
+          "label": "USDA Forest Service Fire Effects Information System",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/koemac"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/koeleria-macrantha/"
+      },
+      "wateringGroup": "general"
+    },
+    "koa": {
+      "height": "Variable: 15–30 ft, 30–50 ft or over 50 ft; low-elevation landscape trees often 20–30 ft",
+      "spread": "Typically 20–40 ft; can exceed 40 ft",
+      "bloom": "Mainly January–March, extending into May; sporadic otherwise",
+      "spacing": "30–40 ft apart",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Acacia koa",
+          "url": "https://nativeplants.hawaii.edu/plants/acacia-koa/"
+        }
+      ],
+      "wateringNote": "General source guidance is monthly water in dry months, more often near the coast; it does not specify a new-transplant establishment schedule.",
+      "wateringGroup": "woody"
+    },
+    "kupukupu": {
+      "height": "1–3 ft",
+      "spread": "1–4 ft",
+      "bloom": "No flowers — fern (spore-producing).",
+      "spacing": "About 18 in apart, staggered",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Nephrolepis cordifolia",
+          "url": "https://nativeplants.hawaii.edu/plants/nephrolepis-cordifolia/"
+        }
+      ],
+      "wateringNote": "Keep cultivated plants moist for good appearance, but do not let roots sit in water. A timed establishment schedule was not specified.",
+      "wateringGroup": "general"
+    },
+    "labradorTea": {
+      "height": "12–30 in",
+      "spread": "12–24 in",
+      "bloom": "Spring–summer; catalog labels spring bloom and describes summer flowers",
+      "spacing": "Allow for a mature spread of 12–24 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Native Plant Trust species catalog",
+          "url": "https://plantfinder.nativeplanttrust.org/plant/Rhododendron-groenlandicum"
+        }
+      ],
+      "catalog": {
+        "label": "Native Plant Trust species catalog",
+        "url": "https://plantfinder.nativeplanttrust.org/plant/Rhododendron-groenlandicum"
+      },
+      "wateringGroup": "woody"
+    },
+    "leadplant": {
+      "height": "1–3 ft",
+      "spread": "2–2 ft 6 in",
+      "bloom": "May–June",
+      "spacing": "Allow for a mature spread of 2–2 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Amorpha canescens",
+          "url": "https://plants.ces.ncsu.edu/plants/amorpha-canescens/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "lingonberry": {
+      "height": "3–12 in",
+      "spread": "1–3 ft; colonies may spread farther",
+      "bloom": "April–May (Missouri Botanical Garden profile)",
+      "spacing": "Allow for a mature spread of 1–3 ft; colonies may spread farther. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Missouri Botanical Garden Plant Finder",
+          "url": "https://plantfinder.mobot.org/PlantFinderDetails.aspx?12=&ht=1&isprofile=0&taxonid=279945"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "lyngbye": {
+      "height": "Up to 0.75 m (30 in) in the UW propagation profile",
+      "spread": null,
+      "bloom": "April–July",
+      "spacing": "For restoration, 3 stems per hole on 0.5 m (20 in) centers (UW propagation sheet).",
+      "sources": [
+        {
+          "label": "University of Washington plant propagation data sheet",
+          "url": "https://depts.washington.edu/propplnt/Plants/Clyngby.htm"
+        }
+      ],
+      "wateringNote": "The propagation sheet recommends fall planting as rains begin and warns against transplanting into soils saltier than the donor site. It gives no timed watering schedule.",
+      "wateringGroup": "wet"
+    },
+    "mamane": {
+      "height": "Variable shrub/tree: 6–10 ft to 30–50 ft",
+      "spread": "3–20 ft",
+      "bloom": "Sporadic Spring Summer Fall July August September October November",
+      "spacing": "3–5 ft for shrubs; 10–15 ft for tree forms",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Sophora chrysophylla",
+          "url": "https://nativeplants.hawaii.edu/plants/sophora-chrysophylla/"
+        }
+      ],
+      "wateringNote": "Low to medium water depending on plant source; no establishment frequency verified.",
+      "wateringGroup": "woody"
+    },
+    "mistflower": {
+      "height": "1 ft 6 in–3 ft",
+      "spread": "1 ft 6 in–3 ft",
+      "bloom": "July–October",
+      "spacing": "Allow for a mature spread of 1 ft 6 in–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Conoclinium coelestinum",
+          "url": "https://plants.ces.ncsu.edu/plants/conoclinium-coelestinum/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "mockOrange": {
+      "height": "6–10 ft",
+      "spread": "6–10 ft",
+      "bloom": "Spring Summer",
+      "spacing": "Allow for a mature spread of 6–10 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/philadelphus-lewisii/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/philadelphus-lewisii/"
+      },
+      "wateringGroup": "woody"
+    },
+    "mossPhlox": {
+      "height": "4–6 in",
+      "spread": "2–3 ft",
+      "bloom": "April–May",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Phlox subulata",
+          "url": "https://plants.ces.ncsu.edu/plants/phlox-subulata/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "mountainMint": {
+      "height": "2–3 ft",
+      "spread": "1–1 ft 6 in",
+      "bloom": "Summer",
+      "spacing": "Allow for a mature spread of 1–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Pycnanthemum virginianum",
+          "url": "https://plants.ces.ncsu.edu/plants/pycnanthemum-virginianum/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "naio": {
+      "height": "Highly variable by form: prostrate shrubs below 2 ft to trees over 50 ft",
+      "spread": "Varies greatly with subspecies and form",
+      "bloom": "Year-round or sporadic, nearly continuous",
+      "spacing": "Shrubs 3–6 ft apart; prostrate naio papa about 2 ft",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Myoporum sandwicense",
+          "url": "https://nativeplants.hawaii.edu/plants/myoporum-sandwicense/"
+        }
+      ],
+      "wateringNote": "Once established, water only during prolonged drought. Establishment frequency is not specified; excess water can encourage sooty mold.",
+      "wateringGroup": "woody"
+    },
+    "narrowleafMilkweed": {
+      "height": "1–3 ft",
+      "spread": "2–3 ft",
+      "bloom": "Summer",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/asclepias-fascicularis/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/asclepias-fascicularis/"
+      },
+      "wateringGroup": "general"
+    },
+    "naupaka": {
+      "height": "Varies by form: below 2 ft to 6–10 ft",
+      "spread": "15 ft or more",
+      "bloom": "Year-round",
+      "spacing": "Allow for a mature spread of 15 ft or more. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants",
+          "url": "https://nativeplants.hawaii.edu/plants/scaevola-sericea/"
+        }
+      ],
+      "wateringNote": "Once established, watering should be minimal. Establishment frequency was not specified.",
+      "wateringGroup": "woody"
+    },
+    "newEnglandAster": {
+      "height": "3–6 ft",
+      "spread": "1–3 ft",
+      "bloom": "August–October",
+      "spacing": "Allow for a mature spread of 1–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Symphyotrichum novae-angliae",
+          "url": "https://plants.ces.ncsu.edu/plants/symphyotrichum-novae-angliae/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "ninebark": {
+      "height": "4–8 ft",
+      "spread": "4–8 ft",
+      "bloom": "Spring Summer",
+      "spacing": "Allow for a mature spread of 4–8 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/physocarpus-capitatus/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/physocarpus-capitatus/"
+      },
+      "wateringGroup": "woody"
+    },
+    "njTea": {
+      "height": "2–3 ft",
+      "spread": "3–5 ft",
+      "bloom": "May–June",
+      "spacing": "Allow for a mature spread of 3–5 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Ceanothus americanus",
+          "url": "https://plants.ces.ncsu.edu/plants/ceanothus-americanus/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "nootkaRose": {
+      "height": "6–8 ft",
+      "spread": "6–8 ft",
+      "bloom": "Summer",
+      "spacing": "Allow for a mature spread of 6–8 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/rosa-nutkana/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/rosa-nutkana/"
+      },
+      "wateringGroup": "woody"
+    },
+    "oceanSpray": {
+      "height": "5–12 ft",
+      "spread": "5–12 ft",
+      "bloom": "Summer",
+      "spacing": "Allow for a mature spread of 5–12 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/holodiscus-discolor/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/holodiscus-discolor/"
+      },
+      "wateringGroup": "general"
+    },
+    "ocotillo": {
+      "height": "About 15 ft; up to 20 ft with irrigation",
+      "spread": null,
+      "bloom": "Late February–March in Phoenix; occasional September flowers after heavy monsoon rain",
+      "spacing": "Allow room for a mature spread of Unknown — mature width not given in retrieved ASU/OSU profiles.; this is a size allowance, not verified center-to-center spacing.",
+      "sources": [
+        {
+          "label": "Arizona State University horticultural profile",
+          "url": "https://www.public.asu.edu/~camartin/plants/Plant%20html%20files/fouquieriasplendens.html"
+        },
+        {
+          "label": "Oregon State University Landscape Plants",
+          "url": "https://landscapeplants.oregonstate.edu/plants/fouquieria-splendens"
+        }
+      ],
+      "wateringNote": "Oregon State says no extra irrigation is needed once established; optional twice-monthly summer irrigation retains leaves. This is not an establishment schedule.",
+      "wateringGroup": "general"
+    },
+    "ohelo": {
+      "height": "Variable shrubs: below 2 ft, 2–6 ft or 6–10 ft",
+      "spread": null,
+      "bloom": "Year-round; strongest April–September",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Vaccinium reticulatum",
+          "url": "https://nativeplants.hawaii.edu/plants/vaccinium-reticulatum/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "ohia": {
+      "height": "Highly variable by local form: shrubs below 2 ft to trees over 50 ft",
+      "spread": "Generally 10–20 ft canopy; larger trees can spread 40 ft or more",
+      "bloom": "Year-round or sporadic",
+      "spacing": "Allow for a mature spread of Generally 10–20 ft canopy; larger trees can spread 40 ft or more. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Metrosideros polymorpha",
+          "url": "https://nativeplants.hawaii.edu/plants/metrosideros-polymorpha/"
+        }
+      ],
+      "wateringNote": "Water needs depend on the origin and planting site; very good drainage is generally required. Establishment frequency not specified.",
+      "wateringGroup": "woody"
+    },
+    "oregonGrape": {
+      "height": "3–6 ft",
+      "spread": "2–5 ft",
+      "bloom": "Spring",
+      "spacing": "Allow for a mature spread of 2–5 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Berberis aquifolium",
+          "url": "https://plants.ces.ncsu.edu/plants/berberis-aquifolium/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "pacificBleedingheart": {
+      "height": "1–2 ft",
+      "spread": "2–4 ft",
+      "bloom": "Spring Summer",
+      "spacing": "Allow for a mature spread of 2–4 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/dicentra-formosa/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery species catalog",
+        "url": "https://www.calfloranursery.com/plants/dicentra-formosa/"
+      },
+      "wateringGroup": "general"
+    },
+    "pecan": {
+      "height": "70–100 ft",
+      "spread": "40–75 ft",
+      "bloom": "April–May",
+      "spacing": "Allow for a mature spread of 40–75 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Carya illinoinensis",
+          "url": "https://plants.ces.ncsu.edu/plants/carya-illinoinensis/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "plainsConeflower": {
+      "height": "Up to 3 ft",
+      "spread": null,
+      "bloom": "Summer",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Ratibida columnifera",
+          "url": "https://plants.ces.ncsu.edu/plants/ratibida-columnifera/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "pohinahina": {
+      "height": "Variable shrubs: below 2 ft to 6–10 ft",
+      "spread": "6–8 ft",
+      "bloom": "Year-round",
+      "spacing": "2–4 ft apart",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Vitex rotundifolia",
+          "url": "https://nativeplants.hawaii.edu/plants/vitex-rotundifolia/"
+        }
+      ],
+      "wateringNote": "Once established, water only during prolonged drought. Excess water can cause leggy growth, leaf rot or mildew; establishment frequency not specified.",
+      "wateringGroup": "woody"
+    },
+    "pohuehue": {
+      "height": "Below 1 ft to 1–3 ft (source growth categories)",
+      "spread": "7–15 ft",
+      "bloom": "Year-round",
+      "spacing": "Give vines room to spread across 7–15 ft; the source gives no fixed center-to-center distance.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants",
+          "url": "https://nativeplants.hawaii.edu/plants/ipomoea-pes-caprae-brasiliensis/"
+        }
+      ],
+      "watering": "The source advises watering new plantings for two weeks, then only during prolonged drought. It does not specify daily frequency or volume."
+    },
+    "poppyMallow": {
+      "height": "6 in–1 ft",
+      "spread": "6 in–3 ft",
+      "bloom": "Spring Summer",
+      "spacing": "Allow for a mature spread of 6 in–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Callirhoe involucrata",
+          "url": "https://plants.ces.ncsu.edu/plants/callirhoe-involucrata/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "postOak": {
+      "height": "35–50 ft",
+      "spread": "35–50 ft",
+      "bloom": "April",
+      "spacing": "Allow for a mature spread of 35–50 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus stellata",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-stellata/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "prairieBlazingStar": {
+      "height": "Usually 2–4 ft; up to 5 ft",
+      "spread": null,
+      "bloom": "Fall Summer",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Liatris pycnostachya",
+          "url": "https://plants.ces.ncsu.edu/plants/liatris-pycnostachya/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "prairieClover": {
+      "height": "1–3 ft",
+      "spread": "1–1 ft 6 in",
+      "bloom": "June–August (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 1–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Dalea purpurea",
+          "url": "https://plants.ces.ncsu.edu/plants/dalea-purpurea/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "prairieSmoke": {
+      "height": "12-30 inches",
+      "spread": "6-12 inches",
+      "bloom": "June-July",
+      "spacing": "Allow for a mature spread of 6-12 inches. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Geum triflorum",
+          "url": "https://westernnativeseed.com/product/geum-triflorum/"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Geum triflorum",
+        "url": "https://westernnativeseed.com/product/geum-triflorum/"
+      },
+      "wateringGroup": "general"
+    },
+    "pukiawe": {
+      "height": "Variable shrub or small tree; 2–10+ ft depending on form.",
+      "spread": "6–8 ft in large wild specimens",
+      "bloom": "Sporadically year-round",
+      "spacing": "3–4 ft apart, per the profile.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi — Native Hawaiʻi Plants",
+          "url": "https://nativeplants.hawaii.edu/plants/leptecophylla-tameiameiae/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "purpleConeflower": {
+      "height": "3–4 ft",
+      "spread": "1–2 ft",
+      "bloom": "June–August (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Echinacea purpurea",
+          "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "purpleLoveGrass": {
+      "height": "8 in–1 ft 2 in",
+      "spread": "10 in–1 ft 4 in",
+      "bloom": "August–October (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 10 in–1 ft 4 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Eragrostis spectabilis",
+          "url": "https://plants.ces.ncsu.edu/plants/eragrostis-spectabilis/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "rabbitbrush": {
+      "height": "3-8 ft",
+      "spread": "4–7 ft",
+      "bloom": "July–October",
+      "spacing": "Allow for a mature spread of 4–7 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Ericameria nauseosa",
+          "url": "https://westernnativeseed.com/product/ericameria-nauseosa/"
+        },
+        {
+          "label": "Missouri Botanical Garden — rubber rabbitbrush",
+          "url": "https://plantfinder.mobot.org/PlantFinderDetails.aspx?taxonid=441949"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Ericameria nauseosa",
+        "url": "https://westernnativeseed.com/product/ericameria-nauseosa/"
+      },
+      "wateringGroup": "general"
+    },
+    "ragwort": {
+      "height": "6 in–2 ft 6 in",
+      "spread": "6 in–1 ft 6 in",
+      "bloom": "Spring–summer",
+      "spacing": "Allow for a mature spread of 6 in–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Packera aurea",
+          "url": "https://plants.ces.ncsu.edu/plants/packera-aurea/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "rattlesnakeMaster": {
+      "height": "4–6 ft",
+      "spread": "3–6 ft",
+      "bloom": "June–August (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 3–6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Eryngium yuccifolium",
+          "url": "https://plants.ces.ncsu.edu/plants/eryngium-yuccifolium/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "redElderberry": {
+      "height": "10-20 ft",
+      "spread": "10 ft (Pacific Northwest nursery example)",
+      "bloom": "Late spring",
+      "spacing": "Allow for a mature spread of 10 ft (Pacific Northwest nursery example). Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Sambucus racemosa",
+          "url": "https://westernnativeseed.com/product/sambucus-racemosa/"
+        },
+        {
+          "label": "Woodbrook Native Plant Nursery — red elderberry",
+          "url": "https://woodbrooknativeplantnursery.com/plant/sambucus-racemosa/"
+        },
+        {
+          "label": "Native Plant Trust — red elderberry",
+          "url": "https://plantfinder.nativeplanttrust.org/plant/Sambucus-racemosa"
+        }
+      ],
+      "catalog": {
+        "label": "Woodbrook Native Plant Nursery — red elderberry",
+        "url": "https://woodbrooknativeplantnursery.com/plant/sambucus-racemosa/"
+      },
+      "wateringGroup": "general"
+    },
+    "redOsier": {
+      "height": "5–9 ft",
+      "spread": "5–10 ft",
+      "bloom": "Spring–summer",
+      "spacing": "Allow for a mature spread of 5–10 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Cornus sericea",
+          "url": "https://plants.ces.ncsu.edu/plants/cornus-sericea/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "redbud": {
+      "height": "20–30 ft",
+      "spread": "25–35 ft",
+      "bloom": "March–May (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 25–35 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Cercis canadensis",
+          "url": "https://plants.ces.ncsu.edu/plants/cercis-canadensis/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "redwoodSorrel": {
+      "height": "6–12 in",
+      "spread": "8–12 in; spreading groundcover",
+      "bloom": "April–September",
+      "spacing": "12–18 in apart.",
+      "sources": [
+        {
+          "label": "T&L Nursery — redwood sorrel",
+          "url": "https://www.tandlnursery.com/detail.php?id=1455"
+        }
+      ],
+      "catalog": {
+        "label": "T&L Nursery — redwood sorrel",
+        "url": "https://www.tandlnursery.com/detail.php?id=1455"
+      },
+      "wateringNote": "Keep soil evenly moist; no fixed establishment frequency is specified.",
+      "wateringGroup": "general"
+    },
+    "ricegrass": {
+      "height": "8-24 inches",
+      "spread": "8-24 inches",
+      "bloom": "May–July, varying with region and rainfall",
+      "spacing": "Allow for a mature spread of 8-24 inches. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Achnatherum hymenoides",
+          "url": "https://westernnativeseed.com/product/achnatherum-hymenoides/"
+        },
+        {
+          "label": "USDA Forest Service FEIS — Indian ricegrass",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/achhym"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Achnatherum hymenoides",
+        "url": "https://westernnativeseed.com/product/achnatherum-hymenoides/"
+      },
+      "wateringGroup": "general"
+    },
+    "rockHibiscus": {
+      "height": "Up to 1 ft",
+      "spread": null,
+      "bloom": "Rain-dependent; almost any month at low elevations, summer at about 4,000 ft",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "Arizona-Sonora Desert Museum — rock hibiscus",
+          "url": "https://www.desertmuseum.org/books/nhsd_malvaceae.php?print=y"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "rockPenstemon": {
+      "height": "1.5 ft",
+      "spread": "1.5 ft",
+      "bloom": "Summer–fall",
+      "spacing": "Allow for a mature spread of 1.5 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Eco Blossom Nursery — rock penstemon",
+          "url": "https://ecoblossom.com/collections/best-sellers/products/rock-penstemon-penstemon-baccharifolius"
+        },
+        {
+          "label": "Central Texas Gardener — penstemon",
+          "url": "https://www.centraltexasgardener.org/resource/penstemon/"
+        }
+      ],
+      "catalog": {
+        "label": "Eco Blossom Nursery — rock penstemon",
+        "url": "https://ecoblossom.com/collections/best-sellers/products/rock-penstemon-penstemon-baccharifolius"
+      },
+      "wateringGroup": "general"
+    },
+    "rockyPenstemon": {
+      "height": "8-30 inches",
+      "spread": "4-30 inches",
+      "bloom": "June-July",
+      "spacing": "Allow for a mature spread of 4-30 inches. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Penstemon strictus",
+          "url": "https://westernnativeseed.com/product/penstemon-strictus/"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Penstemon strictus",
+        "url": "https://westernnativeseed.com/product/penstemon-strictus/"
+      },
+      "wateringGroup": "general"
+    },
+    "roseMallow": {
+      "height": "2–6 ft",
+      "spread": "2–5 ft",
+      "bloom": "June–September (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 2–5 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Hibiscus moscheutos",
+          "url": "https://plants.ces.ncsu.edu/plants/muenchhusia-moscheutos/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "roughBlazingStar": {
+      "height": "3–5 ft",
+      "spread": "1–1 ft 6 in",
+      "bloom": "August–October (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 1–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Liatris aspera",
+          "url": "https://plants.ces.ncsu.edu/plants/liatris-aspera/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "sacaton": {
+      "height": "2–4 ft",
+      "spread": "2–3 ft",
+      "bloom": "Summer",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Sporobolus airoides",
+          "url": "https://plants.ces.ncsu.edu/plants/sporobolus-airoides/"
+        },
+        {
+          "label": "California Flora Nursery — alkali sacaton",
+          "url": "https://www.calfloranursery.com/plants/sporobolus-airoides/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery — alkali sacaton",
+        "url": "https://www.calfloranursery.com/plants/sporobolus-airoides/"
+      },
+      "wateringGroup": "wet"
+    },
+    "sagebrush": {
+      "height": "3–12 ft",
+      "spread": "3–6 ft",
+      "bloom": "August–September (Colorado nursery profile)",
+      "spacing": "Allow for a mature spread of 3–6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Pine Lane Nursery — tall western sagebrush",
+          "url": "https://www.pinelanenursery.com/catalog/product/sage-tall-western/"
+        },
+        {
+          "label": "National Park Service — big sagebrush",
+          "url": "https://home.nps.gov/arch/learn/nature/asteraceae_artemisia_tridentata.htm"
+        }
+      ],
+      "catalog": {
+        "label": "Pine Lane Nursery — tall western sagebrush",
+        "url": "https://www.pinelanenursery.com/catalog/product/sage-tall-western/"
+      },
+      "wateringGroup": "woody"
+    },
+    "saguaro": {
+      "height": "Up to 50 ft",
+      "spread": null,
+      "bloom": "May–June",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "Virginia Tech Dendrology — saguaro",
+          "url": "https://dendro.cnre.vt.edu/DENDROLOGY/syllabus/factsheet.cfm?ID=604"
+        }
+      ],
+      "wateringGroup": "cactus"
+    },
+    "salal": {
+      "height": "4–6 ft",
+      "spread": "3–5 ft",
+      "bloom": "Spring–summer",
+      "spacing": "Allow for a mature spread of 3–5 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Gaultheria shallon",
+          "url": "https://plants.ces.ncsu.edu/plants/gaultheria-shallon/"
+        },
+        {
+          "label": "Woodbrook Native Plant Nursery — salal",
+          "url": "https://woodbrooknativeplantnursery.com/plant/gaultheria-shallon/"
+        }
+      ],
+      "catalog": {
+        "label": "Woodbrook Native Plant Nursery — salal",
+        "url": "https://woodbrooknativeplantnursery.com/plant/gaultheria-shallon/"
+      },
+      "wateringGroup": "general"
+    },
+    "salmonberry": {
+      "height": "3–12 ft",
+      "spread": "6 ft",
+      "bloom": "March–June",
+      "spacing": "Allow for a mature spread of 6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Rubus spectabilis",
+          "url": "https://plants.ces.ncsu.edu/plants/rubus-spectabilis/"
+        },
+        {
+          "label": "NC State Extension — salmonberry",
+          "url": "https://plants.ces.ncsu.edu/plants/rubus-spectabilis/"
+        },
+        {
+          "label": "Woodbrook Native Plant Nursery — salmonberry",
+          "url": "https://woodbrooknativeplantnursery.com/plant/rubus-spectabilis/"
+        }
+      ],
+      "catalog": {
+        "label": "Woodbrook Native Plant Nursery — salmonberry",
+        "url": "https://woodbrooknativeplantnursery.com/plant/rubus-spectabilis/"
+      },
+      "wateringGroup": "woody"
+    },
+    "saltMarshMallow": {
+      "height": "3–6 ft",
+      "spread": "2–4 ft",
+      "bloom": "July–October (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 2–4 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Kosteletzkya virginica",
+          "url": "https://plants.ces.ncsu.edu/plants/kosteletzkya-pentacarpos/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "saltgrass": {
+      "height": "4-16 inches",
+      "spread": "Seeds per lb",
+      "bloom": "August–October (Chesapeake coastal profile)",
+      "spacing": "Allow for a mature spread of Seeds per lb. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Distichlis spicata",
+          "url": "https://westernnativeseed.com/product/distichlis-spicata/"
+        },
+        {
+          "label": "Alliance for the Chesapeake Bay — saltgrass",
+          "url": "https://www.allianceforthebay.org/plants/distichlis-spicata/"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Distichlis spicata",
+        "url": "https://westernnativeseed.com/product/distichlis-spicata/"
+      },
+      "wateringGroup": "wet"
+    },
+    "sandBluestem": {
+      "height": "32-80 inches",
+      "spread": "32-80 inches",
+      "bloom": "August–October (South Dakota State University profile).",
+      "spacing": "Allow for a mature spread of 32-80 inches. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Andropogon hallii",
+          "url": "https://westernnativeseed.com/product/andropogon-hallii/"
+        },
+        {
+          "label": "South Dakota State University — sand bluestem",
+          "url": "https://openprairie.sdstate.edu/nativeplant/481/"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Andropogon hallii",
+        "url": "https://westernnativeseed.com/product/andropogon-hallii/"
+      },
+      "wateringGroup": "general"
+    },
+    "scarletBugler": {
+      "height": "2–4 ft",
+      "spread": "1–2 ft",
+      "bloom": "April–July",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery — scarlet bugler",
+          "url": "https://www.calfloranursery.com/plants/penstemon-centranthifolius/"
+        },
+        {
+          "label": "Las Pilitas Nursery — scarlet bugler",
+          "url": "https://www.laspilitas.com/nature-of-california/plants/462--penstemon-centranthifolius?short_code=seed-packet"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery — scarlet bugler",
+        "url": "https://www.calfloranursery.com/plants/penstemon-centranthifolius/"
+      },
+      "wateringGroup": "general"
+    },
+    "scarletMallow": {
+      "height": "6–8 ft",
+      "spread": "2–3 ft",
+      "bloom": "Summer",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Hibiscus coccineus",
+          "url": "https://plants.ces.ncsu.edu/plants/muenchhusia-coccinea/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "seaOats": {
+      "height": "2–5 ft",
+      "spread": "1–2 ft 6 in",
+      "bloom": "June–October (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 1–2 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Chasmanthium latifolium",
+          "url": "https://plants.ces.ncsu.edu/plants/chasmanthium-latifolium/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "seaPurslane": {
+      "height": "Less than 1 ft",
+      "spread": "1–4+ ft",
+      "bloom": "Year-round (Hawaiʻi profile)",
+      "spacing": "6–12 inches apart for a groundcover, per the Hawaiian profile.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi — sea purslane",
+          "url": "https://nativeplants.leeward.hawaii.edu/plants/sesuvium-portulacastrum/"
+        }
+      ],
+      "wateringNote": "Once established, supplemental watering is only needed during prolonged drought; the plant also tolerates moist or wet conditions.",
+      "wateringGroup": "general"
+    },
+    "seasideGoldenrod": {
+      "height": "2–8 ft flowering stalks",
+      "spread": "Clumps to about 1.6 ft",
+      "bloom": "August–November",
+      "spacing": "Allow for a mature spread of Clumps to about 1.6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Solidago sempervirens",
+          "url": "https://plants.ces.ncsu.edu/plants/solidago-sempervirens/"
+        },
+        {
+          "label": "NC State Extension — seaside goldenrod",
+          "url": "https://plants.ces.ncsu.edu/plants/solidago-sempervirens/"
+        },
+        {
+          "label": "University of Florida IFAS — seaside goldenrod",
+          "url": "https://ask.ifas.ufl.edu/publication/SG185"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "showyGoldeneye": {
+      "height": "10-36 inches",
+      "spread": "10-36 inches",
+      "bloom": "July-September",
+      "spacing": "Allow for a mature spread of 10-36 inches. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Heliomeris multiflora",
+          "url": "https://westernnativeseed.com/product/heliomeris-multiflora/"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Heliomeris multiflora",
+        "url": "https://westernnativeseed.com/product/heliomeris-multiflora/"
+      },
+      "wateringGroup": "general"
+    },
+    "sideoats": {
+      "height": "10-30 inches",
+      "spread": "6-18 inches",
+      "bloom": "July–August (Missouri profile)",
+      "spacing": "Allow for a mature spread of 6-18 inches. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Bouteloua curtipendula",
+          "url": "https://westernnativeseed.com/product/bouteloua-curtipendula/"
+        },
+        {
+          "label": "Missouri Botanical Garden — sideoats grama",
+          "url": "https://plantfinder.mobot.org/PlantFinderDetails.aspx?taxonid=285228"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Bouteloua curtipendula",
+        "url": "https://westernnativeseed.com/product/bouteloua-curtipendula/"
+      },
+      "wateringGroup": "general"
+    },
+    "silkyLupine": {
+      "height": "12-36 inches",
+      "spread": "24-40 inches",
+      "bloom": "July",
+      "spacing": "Allow for a mature spread of 24-40 inches. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Lupinus sericeus",
+          "url": "https://westernnativeseed.com/product/lupinus-sericeus/"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Lupinus sericeus",
+        "url": "https://westernnativeseed.com/product/lupinus-sericeus/"
+      },
+      "wateringGroup": "general"
+    },
+    "sitkaSpruce": {
+      "height": "40–230 ft",
+      "spread": "20–30 ft",
+      "bloom": "Cone-bearing conifer; no true flowers. Cones develop in April–June.",
+      "spacing": "Allow for a mature spread of 20–30 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Picea sitchensis",
+          "url": "https://plants.ces.ncsu.edu/plants/picea-sitchensis/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "sloughSedge": {
+      "height": "2–5 ft",
+      "spread": "4 ft",
+      "bloom": "April–July",
+      "spacing": "Allow for a mature spread of 4 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Meridian Young Plants — slough sedge",
+          "url": "https://meridianyoungplants.com/home/plantdetails?plantid=875"
+        }
+      ],
+      "catalog": {
+        "label": "Meridian Young Plants — slough sedge",
+        "url": "https://meridianyoungplants.com/home/plantdetails?plantid=875"
+      },
+      "wateringGroup": "wet"
+    },
+    "smoothPenstemon": {
+      "height": "20–36 inches (var. alpinus example)",
+      "spread": "12–24 inches (var. alpinus example)",
+      "bloom": "July–August (var. alpinus example)",
+      "spacing": "Allow for a mature spread of 12–24 inches (var. alpinus example). Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Penstemon glaber var. alpinus",
+          "url": "https://westernnativeseed.com/product/penstemon-glaber-v-alpinus/"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Penstemon glaber var. alpinus",
+        "url": "https://westernnativeseed.com/product/penstemon-glaber-v-alpinus/"
+      },
+      "wateringGroup": "general"
+    },
+    "sneezeweed": {
+      "height": "3–5 ft",
+      "spread": "2–3 ft",
+      "bloom": "Summer–fall",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Helenium autumnale",
+          "url": "https://plants.ces.ncsu.edu/plants/helenium-autumnale/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "spicebush": {
+      "height": "8–15 ft",
+      "spread": "6–15 ft",
+      "bloom": "March–April (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 6–15 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Lindera benzoin",
+          "url": "https://plants.ces.ncsu.edu/plants/lindera-benzoin/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "spiderwort": {
+      "height": "2–3 ft",
+      "spread": "1 ft 6 in–2 ft 6 in",
+      "bloom": "Late May–early July (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 1 ft 6 in–2 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Tradescantia ohiensis",
+          "url": "https://plants.ces.ncsu.edu/plants/tradescantia-ohiensis/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "spottedBeebalm": {
+      "height": "1 ft 6 in–2 ft",
+      "spread": "9 in–1 ft",
+      "bloom": "July–September (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 9 in–1 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Monarda punctata",
+          "url": "https://plants.ces.ncsu.edu/plants/monarda-punctata/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "swampMilkweed": {
+      "height": "3–5 ft",
+      "spread": "2–3 ft",
+      "bloom": "July–September (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Asclepias incarnata",
+          "url": "https://plants.ces.ncsu.edu/plants/asclepias-incarnata/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "sweetfern": {
+      "height": "2–5 ft",
+      "spread": "4–8 ft",
+      "bloom": "April–May (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 4–8 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Comptonia peregrina",
+          "url": "https://plants.ces.ncsu.edu/plants/comptonia-peregrina/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "sweetspire": {
+      "height": "4–8 ft",
+      "spread": "3–6 ft",
+      "bloom": "May–June (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 3–6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Itea virginica",
+          "url": "https://plants.ces.ncsu.edu/plants/itea-virginica/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "switchgrass": {
+      "height": "3–7 ft",
+      "spread": "2–3 ft",
+      "bloom": "June–October; seedheads persist in winter",
+      "spacing": "Allow for a mature spread of 2–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Panicum virgatum",
+          "url": "https://plants.ces.ncsu.edu/plants/panicum-virgatum/"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "swordFern": {
+      "height": "3–4 ft",
+      "spread": "2–4 ft",
+      "bloom": "Non-flowering fern; no bloom season.",
+      "spacing": "Allow for a mature spread of 2–4 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Polystichum munitum",
+          "url": "https://plants.ces.ncsu.edu/plants/polystichum-munitum/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "tamarack": {
+      "height": "40–80 ft",
+      "spread": "15–30 ft",
+      "bloom": "Non-flowering conifer; cones rather than true flowers",
+      "spacing": "Allow for a mature spread of 15–30 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "North Dakota State University — American larch",
+          "url": "https://www.ndsu.edu/campus-arboretum/american-larch"
+        },
+        {
+          "label": "Missouri Botanical Garden — tamarack",
+          "url": "https://plantfinder.mobot.org/PlantFinderDetails.aspx?taxonid=284985"
+        }
+      ],
+      "wateringGroup": "wet"
+    },
+    "tansyaster": {
+      "height": "4-20 inches",
+      "spread": "8-18 inches",
+      "bloom": "May-August",
+      "spacing": "Allow for a mature spread of 8-18 inches. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Machaeranthera tanacetifolia",
+          "url": "https://westernnativeseed.com/product/machaeranthera-tanacetifolia/"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Machaeranthera tanacetifolia",
+        "url": "https://westernnativeseed.com/product/machaeranthera-tanacetifolia/"
+      },
+      "wateringGroup": "general"
+    },
+    "texasLantana": {
+      "height": "4–6 ft",
+      "spread": "4–6 ft",
+      "bloom": "March–November (Central Texas profile)",
+      "spacing": "Allow for a mature spread of 4–6 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Dallas County Master Gardeners — Texas lantana",
+          "url": "https://dallascountymastergardeners.org/texas-lantana/"
+        },
+        {
+          "label": "University of Texas at Austin — native prairie plants",
+          "url": "https://sustainability.utexas.edu/prairie-plants-bushes-wildflowers"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "tickseed": {
+      "height": "1–3 ft",
+      "spread": "1–2 ft",
+      "bloom": "April–June (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Coreopsis lanceolata",
+          "url": "https://plants.ces.ncsu.edu/plants/coreopsis-lanceolata/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "tidytips": {
+      "height": "0.5–1.5 ft",
+      "spread": "0.5–2 ft",
+      "bloom": "Spring",
+      "spacing": "Allow for a mature spread of 0.5–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery — tidy tips",
+          "url": "https://www.calfloranursery.com/plants/layia-platyglossa/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery — tidy tips",
+        "url": "https://www.calfloranursery.com/plants/layia-platyglossa/"
+      },
+      "wateringNote": "The nursery says established plants do not need supplemental water; establishment frequency is not specified.",
+      "wateringGroup": "general"
+    },
+    "toyon": {
+      "height": "6–15 ft",
+      "spread": "6–15 ft",
+      "bloom": "Summer",
+      "spacing": "Allow for a mature spread of 6–15 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery — toyon",
+          "url": "https://www.calfloranursery.com/plants/heteromeles-arbutifolia/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery — toyon",
+        "url": "https://www.calfloranursery.com/plants/heteromeles-arbutifolia/"
+      },
+      "wateringGroup": "woody"
+    },
+    "ulei": {
+      "height": "Variable: prostrate groundcover to tall shrub or small tree.",
+      "spread": "4–10 ft",
+      "bloom": "Winter and spring",
+      "spacing": "At least 3–5 ft apart, per the profile.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi — Native Hawaiʻi Plants",
+          "url": "https://nativeplants.hawaii.edu/plants/osteomeles-anthyllidifolia/"
+        }
+      ],
+      "watering": "Water until established; afterward, irrigate only during severe drought. Avoid continually wet soil."
+    },
+    "uluhe": {
+      "height": "Variable climbing fern; wild thickets often exceed 3 m (about 10 ft) deep; not a fixed garden height.",
+      "spread": null,
+      "bloom": "Non-flowering fern; no bloom season.",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "Hawaiʻi DLNR — ʻUluhe",
+          "url": "https://dlnr.hawaii.gov/forestry/plants/uluhe/"
+        },
+        {
+          "label": "USDA Forest Service — PSW-GTR-250, p. 9",
+          "url": "https://www.fs.usda.gov/psw/publications/documents/psw_gtr250/psw_gtr250.pdf#page=25"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "vineMaple": {
+      "height": "10–25 ft",
+      "spread": "15–20 ft",
+      "bloom": "Spring",
+      "spacing": "Allow for a mature spread of 15–20 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Acer circinatum",
+          "url": "https://plants.ces.ncsu.edu/plants/acer-circinatum/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "virginiaBluebells": {
+      "height": "1 ft 6 in–2 ft",
+      "spread": "1–1 ft 6 in",
+      "bloom": "March–May; each plant flowers for about 3 weeks (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 1–1 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Mertensia virginica",
+          "url": "https://plants.ces.ncsu.edu/plants/mertensia-virginica/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "waterSedge": {
+      "height": "Up to 5 ft",
+      "spread": null,
+      "bloom": "June–July",
+      "spacing": null,
+      "sources": [
+        {
+          "label": "Western Native Seed — Carex aquatilis",
+          "url": "https://westernnativeseed.com/product/carex-aquatilis/"
+        },
+        {
+          "label": "Prairie Moon Nursery — water sedge",
+          "url": "https://www.prairiemoon.com/carex-aquatilis-water-sedge"
+        },
+        {
+          "label": "Prairie Moon Nursery — 2025 species table",
+          "url": "https://www.prairiemoon.com/PDF/Prairie-Moon-January-2025-Pricing.pdf"
+        }
+      ],
+      "catalog": {
+        "label": "Prairie Moon Nursery — water sedge",
+        "url": "https://www.prairiemoon.com/carex-aquatilis-water-sedge"
+      },
+      "wateringGroup": "wet"
+    },
+    "waterleaf": {
+      "height": "1–2 ft",
+      "spread": "1–2 ft",
+      "bloom": "March–June (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 1–2 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Hydrophyllum virginianum",
+          "url": "https://plants.ces.ncsu.edu/plants/hydrophyllum-virginianum/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "waxMyrtle": {
+      "height": "20–25 ft (often shorter)",
+      "spread": "8–10 ft",
+      "bloom": "April",
+      "spacing": "Allow for a mature spread of 8–10 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — wax myrtle (Myrica/Morella cerifera)",
+          "url": "https://plants.ces.ncsu.edu/plants/myrica-cerifera/"
+        }
+      ],
+      "watering": "The source recommends constant moisture initially; established plants tolerate a wide range of moisture conditions."
+    },
+    "westernColumbine": {
+      "height": "1.5–3 ft",
+      "spread": "1.5 ft",
+      "bloom": "Spring–summer",
+      "spacing": "Allow for a mature spread of 1.5 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Woodbrook Native Plant Nursery — western columbine",
+          "url": "https://woodbrooknativeplantnursery.com/plant/aquilegia-formosa/"
+        },
+        {
+          "label": "California Flora Nursery — western columbine",
+          "url": "https://www.calfloranursery.com/plants/aquilegia-formosa/"
+        }
+      ],
+      "catalog": {
+        "label": "Woodbrook Native Plant Nursery — western columbine",
+        "url": "https://woodbrooknativeplantnursery.com/plant/aquilegia-formosa/"
+      },
+      "wateringGroup": "general"
+    },
+    "westernRedbud": {
+      "height": "20–30 ft",
+      "spread": "15–25 ft",
+      "bloom": "March–April (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 15–25 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Cercis occidentalis",
+          "url": "https://plants.ces.ncsu.edu/plants/cercis-canadensis-subsp-texensis/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "westernWheat": {
+      "height": "12-32 inches",
+      "spread": "Seeds per lb",
+      "bloom": "June–July (western studies); varies with location",
+      "spacing": "Allow for a mature spread of Seeds per lb. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Pascopyrum smithii",
+          "url": "https://westernnativeseed.com/product/pascopyrum-smithii/"
+        },
+        {
+          "label": "USDA Forest Service FEIS — western wheatgrass",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/passmi"
+        }
+      ],
+      "catalog": {
+        "label": "Western Native Seed — Pascopyrum smithii",
+        "url": "https://westernnativeseed.com/product/pascopyrum-smithii/"
+      },
+      "wateringGroup": "general"
+    },
+    "whiteAster": {
+      "height": "1–3 ft",
+      "spread": "1 ft 6 in–2 ft 6 in",
+      "bloom": "August–October (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 1 ft 6 in–2 ft 6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Eurybia divaricata",
+          "url": "https://plants.ces.ncsu.edu/plants/eurybia-divaricata/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "whiteIndigo": {
+      "height": "2–6 ft",
+      "spread": "2–4 ft",
+      "bloom": "May–June (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 2–4 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Baptisia alba",
+          "url": "https://plants.ces.ncsu.edu/plants/baptisia-alba/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "whiteSpruce": {
+      "height": "40–60 ft",
+      "spread": "10–20 ft",
+      "bloom": "Cone-bearing conifer; no true flowers.",
+      "spacing": "Allow for a mature spread of 10–20 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Picea glauca",
+          "url": "https://plants.ces.ncsu.edu/plants/picea-laxa/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "wildGinger": {
+      "height": "6 in–1 ft",
+      "spread": "4–6 in",
+      "bloom": "April–May",
+      "spacing": "Allow for a mature spread of 4–6 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Asarum canadense",
+          "url": "https://plants.ces.ncsu.edu/plants/asarum-canadense/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "woodPhlox": {
+      "height": "6 in–1 ft",
+      "spread": "10 in–1 ft 8 in",
+      "bloom": "April–May (NC State profile; timing varies by region)",
+      "spacing": "Allow for a mature spread of 10 in–1 ft 8 in. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "NC State Extension — Phlox divaricata",
+          "url": "https://plants.ces.ncsu.edu/plants/phlox-divaricata/"
+        }
+      ],
+      "wateringGroup": "general"
+    },
+    "woolly": {
+      "height": "1.5–3 ft (inland nursery form)",
+      "spread": "2–3 ft (inland nursery form)",
+      "bloom": "Spring–fall",
+      "spacing": "Allow for a mature spread of 2–3 ft (inland nursery form). Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "California Flora Nursery — woolly sunflower, inland form",
+          "url": "https://www.calfloranursery.com/plants/eriophyllum-lanatum-inland-form/"
+        }
+      ],
+      "catalog": {
+        "label": "California Flora Nursery — woolly sunflower, inland form",
+        "url": "https://www.calfloranursery.com/plants/eriophyllum-lanatum-inland-form/"
+      },
+      "wateringGroup": "general"
+    },
+    "zigzagGoldenrod": {
+      "height": "1–3 ft",
+      "spread": "1–3 ft",
+      "bloom": "Late summer",
+      "spacing": "Allow for a mature spread of 1–3 ft. Adjust spacing to your planting layout.",
+      "sources": [
+        {
+          "label": "Missouri Botanical Garden — zigzag goldenrod",
+          "url": "https://plantfinder.mobot.org/PlantFinderDetails.aspx?kempercode=b917"
+        },
+        {
+          "label": "Royal Horticultural Society — zigzag goldenrod",
+          "url": "https://www.rhs.org.uk/plants/17566/solidago-flexicaulis/details"
+        }
+      ],
+      "wateringGroup": "general"
+    }
+  },
+  "wateringGuidance": {
+    "general": {
+      "text": "During the first growing season, check root-ball moisture often. Water slowly and deeply when it begins drying; adjust to rainfall and drainage rather than following a fixed calendar.",
+      "source": {
+        "label": "UMass Extension: watering new plantings",
+        "url": "https://www.umass.edu/agriculture-food-environment/home-lawn-garden/fact-sheets/watering-new-plantings"
+      }
+    },
+    "wet": {
+      "text": "Match the moist or wet conditions listed for this plant. Check the root zone often during establishment and supplement rainfall if it starts drying; ask the grower about the appropriate planting depth.",
+      "source": {
+        "label": "Minnesota DNR: native planting guidance",
+        "url": "https://www.dnr.state.mn.us/rys/st/plantingtips.html"
+      }
+    },
+    "woody": {
+      "text": "Check the original root ball often and water slowly into that root zone as needed. Trees and shrubs may need supplemental water for several growing seasons while roots spread into the surrounding soil.",
+      "source": {
+        "label": "University of Minnesota Extension: new trees and shrubs",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/watering-newly-planted-trees-and-shrubs"
+      }
+    },
+    "cactus": {
+      "text": "Water sparingly just after planting. Once roots are actively growing, water thoroughly and let the soil dry completely before watering again. Ask the grower about transplant timing for your species.",
+      "source": {
+        "label": "UC IPM: cactus establishment",
+        "url": "https://ipm.ucanr.edu/home-and-landscape/cactus/"
+      }
+    }
+  },
+  "planningMetadata": {
+    "checkedOn": "2026-11-23",
+    "species": 209,
+    "counts": {
+      "height": 209,
+      "spread": 189,
+      "bloom": 209,
+      "spacing": 197,
+      "speciesWateringNotes": 23,
+      "catalogs": 58,
+      "bloomMonths": 122
+    },
+    "method": "Primary extension, university, government, botanical and nursery species profiles. Source measurements and regional bloom timing retained; spacing based on mature spread is explicitly an allowance. Missing values remain null. Shared establishment guidance is distinguished from species-specific notes. Nursery catalogs do not establish current inventory."
   }
 }

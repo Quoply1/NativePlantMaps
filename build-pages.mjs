@@ -3,7 +3,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = dirname(fileURLToPath(import.meta.url));
-const [page, seedText, template, guides, directory, favicon, auditText, logoText] = await Promise.all([
+const [page, seedText, template, guides, directory, favicon, auditText, logoText, experience] = await Promise.all([
   readFile(resolve(root, 'index.html'), 'utf8'),
   readFile(resolve(root, 'vendors.json'), 'utf8'),
   readFile(resolve(root, 'runtime-template.js'), 'utf8'),
@@ -12,6 +12,7 @@ const [page, seedText, template, guides, directory, favicon, auditText, logoText
   readFile(resolve(root, 'favicon.svg'), 'utf8'),
   readFile(resolve(root, 'provider-audit.json'), 'utf8'),
   readFile(resolve(root, 'provider-logos.json'), 'utf8'),
+  readFile(resolve(root, 'client-experience.js'), 'utf8'),
 ]);
 const audit = JSON.parse(auditText);
 const logos = JSON.parse(logoText);
@@ -37,7 +38,8 @@ const seed = JSON.parse(seedText).map(vendor => {
 });
 const guideJson = JSON.stringify(JSON.parse(guides)).replaceAll('<', '\\u003c');
 const directoryJson = JSON.stringify(JSON.parse(directory)).replaceAll('<', '\\u003c');
-const html = page.replace('__ECOREGION_GUIDES__', () => guideJson).replace('__ECOREGION_DIRECTORY__', () => directoryJson);
+const html = page.replace('__CLIENT_EXPERIENCE__', () => experience).replace('__ECOREGION_GUIDES__', () => guideJson).replace('__ECOREGION_DIRECTORY__', () => directoryJson);
+if(html.includes('__CLIENT_EXPERIENCE__'))throw new Error('Client experience was not embedded');
 const providerTypes = {webp:'image/webp',png:'image/png',jpg:'image/jpeg',jpeg:'image/jpeg',svg:'image/svg+xml'};
 const providerFiles = (await readdir(resolve(root, 'assets/providers'), {withFileTypes:true}))
   .filter(entry => entry.isFile() && providerTypes[entry.name.split('.').pop().toLowerCase()])

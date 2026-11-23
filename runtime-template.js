@@ -62,7 +62,35 @@ async function approvedRows(env) {
   const {results=[]}=await env.DB.prepare("SELECT id,name,category,region,area,state,address,website,evidence_url,native_description,access FROM community_submissions WHERE status = ? ORDER BY name COLLATE NOCASE LIMIT 500").bind("approved").all();
   return results.map(publicSubmission);
 }
-async function handleCitySuggestions(request){const query=clean(new URL(request.url).searchParams.get("query"),120);if(query.length<2)return json({results:[]},200,{"cache-control":"public, max-age=300"});try{const upstream=new URL("https://geocoding-api.open-meteo.com/v1/search");upstream.searchParams.set("name",query);upstream.searchParams.set("countryCode","US");upstream.searchParams.set("count","10");upstream.searchParams.set("language","en");const response=await fetch(upstream.toString(),{cf:{cacheTtl:86400,cacheEverything:true},headers:{accept:"application/json"}});if(!response.ok)return json({error:"City suggestions are temporarily unavailable."},502);const data=await response.json(),seen=new Set(),results=(data.results||[]).filter(place=>place.country_code==="US"&&/^PPL(?:A[1-4]?|C)?$/.test(String(place.feature_code||""))&&Number.isFinite(Number(place.latitude))&&Number.isFinite(Number(place.longitude))).map(place=>{const label=[place.name,place.admin1].filter(Boolean).join(", "),key=label.toLowerCase();if(seen.has(key))return null;seen.add(key);return {name:place.name,state:place.admin1||"",label,lat:Number(place.latitude),lng:Number(place.longitude),population:Number(place.population)||0}}).filter(Boolean).sort((a,b)=>b.population-a.population).slice(0,8);return json({results},200,{"cache-control":"public, max-age=300"})}catch{return json({error:"City suggestions are temporarily unavailable."},502)}}
+const LOCATION_STATES={AK:'Alaska',AL:'Alabama',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',DC:'District of Columbia'};
+async function handleCitySuggestions(request){
+  const query=clean(new URL(request.url).searchParams.get("query"),120);
+  if(query.length<2)return json({results:[]},200,{"cache-control":"public, max-age=300"});
+  try{
+    const zip=query.match(/^(\d{5})(?:-\d{4})?$/);
+    if(zip){
+      const response=await fetch("https://api.zippopotam.us/us/"+zip[1],{signal:AbortSignal.timeout(8000),cf:{cacheTtl:86400,cacheEverything:true},headers:{accept:"application/json"}});
+      if(response.status===404)return json({results:[]},200,{"cache-control":"public, max-age=300"});
+      if(!response.ok)return json({error:"ZIP lookup is temporarily unavailable. Try a town and state."},502);
+      const data=await response.json(),seen=new Set();
+      const results=(data.places||[]).filter(p=>Number.isFinite(Number(p.latitude))&&Number.isFinite(Number(p.longitude))).map(p=>{const label=p['place name']+", "+p.state+" ("+zip[1]+")";if(seen.has(label))return null;seen.add(label);return {name:p['place name'],state:p.state,stateCode:p['state abbreviation'],label,lat:Number(p.latitude),lng:p['state abbreviation']==='AK'&&Number(p.longitude)>0?Number(p.longitude)-360:Number(p.longitude),postalCode:zip[1]};}).filter(Boolean).slice(0,8);
+      return json({results},200,{"cache-control":"public, max-age=300"});
+    }
+    let name=query,stateWanted='';
+    for(const [code,label]of Object.entries(LOCATION_STATES)){
+      const suffix=[code,label].find(value=>query.toLowerCase().endsWith(' '+value.toLowerCase())||query.toLowerCase().endsWith(','+value.toLowerCase()));
+      if(suffix){name=query.slice(0,-suffix.length).replace(/[,\s]+$/,'').trim();stateWanted=label;break;}
+    }
+    if(name.length<2)return json({results:[]},200,{"cache-control":"public, max-age=300"});
+    const upstream=new URL("https://geocoding-api.open-meteo.com/v1/search");
+    upstream.searchParams.set("name",name);upstream.searchParams.set("countryCode","US");upstream.searchParams.set("count","30");upstream.searchParams.set("language","en");
+    const response=await fetch(upstream.toString(),{signal:AbortSignal.timeout(8000),cf:{cacheTtl:86400,cacheEverything:true},headers:{accept:"application/json"}});
+    if(!response.ok)return json({error:"Town lookup is temporarily unavailable."},502);
+    const data=await response.json(),seen=new Set();
+    const results=(data.results||[]).filter(p=>p.country_code==="US"&&/^PPL(?:A[1-4]?|C)?$/.test(String(p.feature_code||""))&&(!stateWanted||p.admin1===stateWanted)&&Number.isFinite(Number(p.latitude))&&Number.isFinite(Number(p.longitude))).map(p=>{const label=[p.name,p.admin1].filter(Boolean).join(", "),key=label.toLowerCase();if(seen.has(key))return null;seen.add(key);return {name:p.name,state:p.admin1||"",stateCode:Object.keys(LOCATION_STATES).find(code=>LOCATION_STATES[code]===p.admin1)||'',label,lat:Number(p.latitude),lng:p.admin1==='Alaska'&&Number(p.longitude)>0?Number(p.longitude)-360:Number(p.longitude),population:Number(p.population)||0};}).filter(Boolean).sort((a,b)=>b.population-a.population).slice(0,8);
+    return json({results},200,{"cache-control":"public, max-age=300"});
+  }catch{return json({error:"Location lookup is temporarily unavailable. Try again or choose an ecoregion on the map."},502);}
+}
 async function handleCityGeocode(request){const query=clean(new URL(request.url).searchParams.get("query"),120);if(query.length<3)return json({error:"Search for a city and state."},400);const key=query.toLowerCase().replace(/\s+/g," ").trim();if(/^(memphis)(,?\s*(tn|tennessee))?$/.test(key))return json({lat:35.1495,lng:-90.049,label:"Memphis, TN"});try{const url=new URL("https://geocoding.geo.census.gov/geocoder/locations/onelineaddress");url.searchParams.set("address",query);url.searchParams.set("benchmark","Public_AR_Current");url.searchParams.set("format","json");const response=await fetch(url.toString(),{headers:{accept:"application/json"}});if(!response.ok)return json({error:"City lookup is temporarily unavailable."},502);const data=await response.json(),match=data?.result?.addressMatches?.[0],coordinates=match?.coordinates;if(!coordinates||!Number.isFinite(Number(coordinates.y))||!Number.isFinite(Number(coordinates.x)))return json({error:"No city match found. Try adding a state, such as “Memphis, TN.”"},404);return json({lat:Number(coordinates.y),lng:Number(coordinates.x),label:match.matchedAddress||query},200,{"cache-control":"public, max-age=86400"})}catch{return json({error:"City lookup is temporarily unavailable."},502)}}
 async function handleSubmission(request,env) {
   if(!isSameOrigin(request))return json({error:"Cross-site submissions are not accepted."},403);
