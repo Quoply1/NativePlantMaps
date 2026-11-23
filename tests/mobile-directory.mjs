@@ -7,7 +7,7 @@ let compact=true,fullscreen=false,scrollWrites=0,sidebarWrites=0,revealed=null,f
 const sidebar={get scrollTop(){return 120},set scrollTop(value){sidebarWrites++}};
 const card={focus(options){focused=options.preventScroll},scrollIntoView(options){revealed=options}};
 const workspace={classList:{contains(name){return fullscreen&&name==='map-fullscreen'}}};
-const context=vm.createContext({
+const context=vm.createContext({scheduleDirectoryState(){},renderPlantPlanning(){return ""},
  vendors:[{id:'first',lat:null,lng:null},{id:'second',lat:null,lng:null}],
  selectedId:null,currentPage:1,PAGE_SIZE:50,clusterFocusIds:null,clusterFocusCount:0,vendorPopup:null,
  window:{accessMap:null,scrollX:0,scrollY:500,scrollTo(){scrollWrites++},matchMedia(query){return {matches:query.includes('max-width')?compact:true}}},

@@ -21,7 +21,7 @@ class PopupStub {
   setLngLat(){return this} setHTML(value){popupHtml=value;return this} addTo(){return this} remove(){}
 }
 const maplibregl = {Map:MapStub,Popup:PopupStub,NavigationControl:class{},AttributionControl:class{}};
-const context = vm.createContext({
+const context = vm.createContext({frameDirectoryMap(){},scheduleDirectoryState(){},renderPlantPlanning(){return ""},
   vendors:Array.from({length:125},(_,i)=>({id:'vendor-'+i,name:'Nursery '+i,state:'TX',area:'Test town',lat:30,lng:-98,website:'https://nursery.example/',native:'confirmed'})),
   selectedId:null,clusterFocusIds:null,clusterFocusCount:0,currentPage:1,lastPageSignature:'',PAGE_SIZE:50,
   nearbySearch:null,stateSearch:null,ecoregionSearch:null,stateLabels:{},vendorPopup:null,
