@@ -32,7 +32,7 @@ const context = vm.createContext({
     if(id&&node('cards').innerHTML.includes('data-id="'+id+'"'))return {focus(){focused=id},scrollIntoView(){scrolled=id}};
     return null;
   }},
-  saved:()=>({}),html:String,rankListings:items=>[...items],listingDescription:()=>'',nurseryInformation:()=>'',seasonalListing:()=>false,badgeClass:()=>'',
+  saved:()=>({}),html:String,rankListings:items=>[...items],listingDescription:()=>'',nurseryInformation:()=>'',seasonalListing:()=>false,accessLabels:()=>[],badgeClass:()=>'',
   nurseryWebsiteLink:()=>'<a href="https://nursery.example/">Visit website</a>',nurseryPreview:()=>'',nurserySources:()=>'',sourceHost:()=>'',statusLabel:()=>'',
   refreshMapLayers(){},renderPagination(){},addEcoregionLayer(){},vendorFeatureCollection:()=>({type:'FeatureCollection',features:[]}),
   distanceMiles:()=>1200,stateBoundaryUrl:'/api/state-boundaries',nationalBounds:[[-125,25],[-66,49]],

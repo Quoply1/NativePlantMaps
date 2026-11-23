@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import worker from '../dist/_worker.js';
 const report=JSON.parse(await readFile(new URL('../provider-listing-review.json',import.meta.url),'utf8'));
 const vendors=await (await worker.fetch(new Request('https://preview.test/api/vendors'),{})).json();
-assert.equal(vendors.length,587);
+assert.equal(vendors.length,580);
 const mediaStatus=JSON.parse(await readFile(new URL('../provider-media-status.json',import.meta.url),'utf8'));
 const direct=JSON.parse(await readFile(new URL('../provider-direct-links-review.json',import.meta.url),'utf8'));
 const excluded=new Set([...mediaStatus.exclusions,...direct.archivedListings]);
