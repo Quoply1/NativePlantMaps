@@ -21,7 +21,7 @@ class PopupStub {
   setLngLat(){return this} setHTML(value){popupHtml=value;return this} addTo(){return this} remove(){}
 }
 const maplibregl = {Map:MapStub,Popup:PopupStub,NavigationControl:class{},AttributionControl:class{}};
-const context = vm.createContext({frameDirectoryMap(){},scheduleDirectoryState(){},renderPlantPlanning(){return ""},
+const context = vm.createContext({mapArea:null,manualMapPosition:'',URL,location:{href:'https://test/'},setupMapExperience(){},restoreMapPosition(){return false},frameDirectoryMap(){},setDirectoryView(){},clearMapArea(){},clearPlaceConnection(){},connectPlaceToPlants(){},renderPlaceSummary(){},renderTrustDetails(){return ''},bindDirectoryExtras(){},matchesPlantFilters(){return true},renderPlantFilterControls(){return ''},renderPlantActions(){return ''},bindPlantExtras(){},scheduleDirectoryState(){},renderPlantPlanning(){return ""},
   vendors:Array.from({length:125},(_,i)=>({id:'vendor-'+i,name:'Nursery '+i,state:'TX',area:'Test town',lat:30,lng:-98,website:'https://nursery.example/',native:'confirmed'})),
   selectedId:null,clusterFocusIds:null,clusterFocusCount:0,currentPage:1,lastPageSignature:'',PAGE_SIZE:50,
   nearbySearch:null,stateSearch:null,ecoregionSearch:null,stateLabels:{},vendorPopup:null,
