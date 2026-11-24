@@ -51,7 +51,7 @@ function mapWasMoved(){
   else manualMapPosition=['s',sketchView.x.toFixed(3),sketchView.y.toFixed(3),sketchView.w.toFixed(3),sketchView.h.toFixed(3)].join(',');
   document.getElementById('search-map-area').hidden=false;scheduleDirectoryState();
 }
-function setupMapExperience(map){map.on('moveend',event=>{if(event.originalEvent)mapWasMoved();});map.on('dragend',mapWasMoved);map.on('zoomend',event=>{if(event.originalEvent)mapWasMoved();});}
+function setupMapExperience(map){map.addSource('directory-hover',{type:'geojson',data:{type:'FeatureCollection',features:[]}});map.addLayer({id:'directory-hover-ring',type:'circle',source:'directory-hover',paint:{'circle-color':'transparent','circle-radius':13,'circle-stroke-color':'#a34b24','circle-stroke-width':3}});map.on('moveend',event=>{if(event.originalEvent)mapWasMoved();});map.on('dragend',mapWasMoved);map.on('zoomend',event=>{if(event.originalEvent)mapWasMoved();});}
 function areaFromMap(){
   if(window.accessMap){const b=window.accessMap.getBounds();return [b.getWest(),b.getSouth(),b.getEast(),b.getNorth()];}
   // The schematic has separate Alaska and Hawaiʻi insets; never treat those as mainland coordinates.
@@ -61,8 +61,11 @@ function areaFromMap(){
   return [-125+(sketchView.x-350)/600*59,50-(sketchView.y+sketchView.h-65)/535*26,-125+(sketchView.x+sketchView.w-350)/600*59,50-(sketchView.y-65)/535*26];
 }
 function highlightNursery(id,on){
-  if(window.accessMap?.getSource('vendors'))window.accessMap.setFeatureState({source:'vendors',id:String(id)},{hover:on});
-  document.querySelectorAll('#fallback-svg [data-map-id]').forEach(pin=>{if(pin.dataset.mapId===String(id))pin.classList.toggle('hover-point',on)});
+  const v=vendors.find(item=>String(item.id)===String(id));
+  if(window.accessMap?.getSource('directory-hover'))window.accessMap.getSource('directory-hover').setData({type:'FeatureCollection',features:on&&v?.lat!=null&&v?.lng!=null?[{type:'Feature',geometry:{type:'Point',coordinates:[v.lng,v.lat]},properties:{}}]:[]});
+  // A separate ring remains visible even when the nursery belongs to a cluster.
+  const svg=document.querySelector('#fallback-svg');svg?.querySelector('.listing-hover-ring')?.remove();
+  if(svg&&on&&v?.lat!=null&&v?.lng!=null){const [x,y]=sketchProject(v.lat,v.lng,v.state),scale=sketchView.w/Math.max(1,document.getElementById('map').clientWidth||800),ring=document.createElementNS('http://www.w3.org/2000/svg','circle');Object.entries({cx:x,cy:y,r:13*scale,fill:'none',stroke:'#a34b24','stroke-width':3*scale,class:'listing-hover-ring','aria-hidden':'true','pointer-events':'none'}).forEach(([key,value])=>ring.setAttribute(key,String(value)));svg.append(ring);}
 }
 function renderTrustDetails(v){
   const raw=v.sourceReview?.checkedOn||v.lastVerified||v.websiteProfile?.checkedOn||v.operationCheck?.checkedOn,date=/^\d{4}-\d{2}-\d{2}$/.test(raw||'')?raw:'';

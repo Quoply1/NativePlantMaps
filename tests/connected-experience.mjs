@@ -52,3 +52,6 @@ let bound;const fakeDB={prepare(){return {bind(...args){bound=args;return this},
 const submission={name:'Example Native Nursery',category:'retail',region:'greatlakes',area:'Madison',state:'WI',address:'Public nursery pickup area',website:'https://example.org',nativeDescription:'Sells documented native perennial plants.'};
 const submitted=await worker.fetch(new Request('https://test/api/submissions',{method:'POST',headers:{'content-type':'application/json',origin:'https://test'},body:JSON.stringify(submission)}),{DB:fakeDB});assert.equal(submitted.status,201);assert.equal(bound[6],submission.website);assert.equal(bound[7],submission.website);
 console.log('Passed click-only approximate geolocation, denial handling, pending-location race protection, and optional supporting-source fallback in the real submission API.');
+
+let ring;context.document.querySelector=()=>({querySelector(){return null},append(node){ring=node}});context.document.createElementNS=()=>({attributes:{},setAttribute(k,v){this.attributes[k]=v}});context.sketchProject=()=>[50,60];context.highlightNursery(vendors[0].id,true);assert.equal(ring.attributes.class,'listing-hover-ring');assert.equal(ring.attributes.cx,'50');assert.equal(ring.attributes['pointer-events'],'none');
+console.log('Passed a visible list-hover ring even when an individual nursery pin is clustered.');
