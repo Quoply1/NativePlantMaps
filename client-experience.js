@@ -43,7 +43,7 @@ async function restoreDirectoryState(){
     activeFilter=['all','specialist','documented','garden','confirmed','seasonal'].includes(params.get('type'))?params.get('type'):'all';
     stateSearch=stateLabels[params.get('state')]?params.get('state'):null;
     document.getElementById('state-filter').value=stateSearch||'';
-    const radius=Number(params.get('radius')||50);searchRadius=[10,25,50,100,125,200].includes(radius)?radius:50;
+    const radius=Number(params.get('radius')||50);searchRadius=radius===125?100:[10,25,50,100,200].includes(radius)?radius:50;
     document.getElementById('search-radius').value=String(searchRadius);
     nearbySearch=null;ecoregionSearch=null;listingSearch='';clusterFocusIds=null;clusterFocusCount=0;selectedId=null;
     const eco=params.get('eco');

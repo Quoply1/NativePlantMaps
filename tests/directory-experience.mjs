@@ -34,6 +34,7 @@ location.href='https://test/?state=NJ&eco=8.5.4&type=specialist&radius=25&habita
 await context.restoreDirectoryState();assert.equal(context.stateSearch,'NJ');assert.equal(context.activeFilter,'specialist');assert.equal(context.ecoregionSearch.key,'8.5.4');assert.equal(context.searchRadius,25);assert.equal(vm.runInContext('selectedHabitat',context),'wet');assert.ok(context.filtered().every(v=>v.state==='NJ'));
 location.href='https://test/?page=12';await context.restoreDirectoryState();assert.equal(context.currentPage,12);assert.equal(context.lastPageSignature,context.rankListings(context.filtered()).map(v=>v.id).join('|'));
 location.href='https://test/?type=invalid&radius=-1&state=ZZ&eco=not-real&lat=NaN&lng=0&near=invalid&page=999999';await context.restoreDirectoryState();assert.equal(context.activeFilter,'all');assert.equal(context.searchRadius,50);assert.equal(context.stateSearch,null);assert.equal(context.ecoregionSearch,null);assert.equal(context.nearbySearch,null);assert.equal(context.currentPage,12);
+location.href='https://test/?radius=125';await context.restoreDirectoryState();assert.equal(context.searchRadius,100);assert.equal(node('search-radius').value,'100');
 const ring=[[0,0],[10,0],[10,10],[0,10],[0,0]],hole=[[3,3],[7,3],[7,7],[3,7],[3,3]];
 assert.equal(context.pointInRing(5,5,ring),true);assert.equal(context.pointInRing(12,5,ring),false);assert.equal(context.pointInRing(0,5,ring),true);
 assert.equal(context.ecoregionAtPoint({lat:2,lng:2},[{properties:{NA_L3KEY:'8.3.1'},geometry:{type:'Polygon',coordinates:[ring,hole]}}]),'8.3.1');
