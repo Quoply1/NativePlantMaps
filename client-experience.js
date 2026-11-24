@@ -1,6 +1,6 @@
 // Shared directory state, map framing, location lookup and garden planning UI.
 let directoryReady=false,restoringDirectory=false,stateWritePending=false,restoreRequest=0,mapFrameRequest=0,selectedHabitat='all',ecoregionOrigin='';
-const directoryParams=['type','state','eco','q','near','lat','lng','radius','page','listing','garden','habitat','overlay','browse','from'];
+const directoryParams=['type','state','eco','q','near','lat','lng','radius','page','listing','garden','habitat','overlay','browse','from','kind','view','map','area','light','moisture','planttype','wildlife'];
 function syncTypeFilter(){
   document.querySelectorAll('[data-filter]').forEach(button=>{
     const active=button.dataset.filter===activeFilter;
@@ -15,14 +15,14 @@ function directoryStateParams(){
   if(ecoregionSearch){params.set('eco',ecoregionSearch.key);if(ecoregionOrigin)params.set('from',ecoregionOrigin);}
   if(listingSearch)params.set('q',listingSearch);
   if(nearbySearch){params.set('near',nearbySearch.label);params.set('lat',String(nearbySearch.lat));params.set('lng',String(nearbySearch.lng));}
-  if(searchRadius!==100)params.set('radius',String(searchRadius));
+  if(searchRadius!==50)params.set('radius',String(searchRadius));
   if(currentPage>1)params.set('page',String(currentPage));
   if(selectedId)params.set('listing',String(selectedId));
   if(plantingRegion)params.set('browse',plantingRegion);
   if(selectedPlantingKey&&!ecoregionSearch)params.set('garden',selectedPlantingKey);
   if(selectedPlantingKey&&selectedHabitat!=='all')params.set('habitat',selectedHabitat);
   if(document.getElementById('ecoregion-toggle').getAttribute('aria-pressed')==='true')params.set('overlay','1');
-  return params;
+  appendConnectedState(params);return params;
 }
 function scheduleDirectoryState(){
   if(!directoryReady||restoringDirectory||stateWritePending)return;
@@ -43,7 +43,7 @@ async function restoreDirectoryState(){
     activeFilter=['all','specialist','documented','garden','confirmed','seasonal'].includes(params.get('type'))?params.get('type'):'all';
     stateSearch=stateLabels[params.get('state')]?params.get('state'):null;
     document.getElementById('state-filter').value=stateSearch||'';
-    const radius=Number(params.get('radius')||100);searchRadius=[25,50,100,125,200].includes(radius)?radius:100;
+    const radius=Number(params.get('radius')||50);searchRadius=radius===125?100:[10,25,50,100,200].includes(radius)?radius:50;
     document.getElementById('search-radius').value=String(searchRadius);
     nearbySearch=null;ecoregionSearch=null;listingSearch='';clusterFocusIds=null;clusterFocusCount=0;selectedId=null;
     const eco=params.get('eco');
@@ -52,7 +52,7 @@ async function restoreDirectoryState(){
     if(!ecoregionSearch&&params.get('near')&&params.has('lat')&&params.has('lng')&&lat>=18&&lat<=72&&lng>=-200&&lng<=-60){nearbySearch={label:params.get('near').slice(0,160),lat,lng};stateSearch=null;document.getElementById('state-filter').value='';}
     if(!ecoregionSearch&&!nearbySearch)listingSearch=(params.get('q')||'').slice(0,160).toLowerCase();
     document.getElementById('search').value=ecoregionSearch?.name||nearbySearch?.label||listingSearch||(stateSearch?stateLabels[stateSearch]:'');
-    syncTypeFilter();closeCitySuggestions();
+    readConnectedState(params);syncTypeFilter();closeCitySuggestions();
     plantingRegion=plantingRegions[params.get('browse')]?params.get('browse'):'';
     updateEcoregionPicker(stateSearch||'');renderStateResources(stateSearch||'');
     ecoregionOrigin=ecoregionSearch?(params.get('from')||'').slice(0,160):'';
@@ -70,7 +70,7 @@ async function restoreDirectoryState(){
     document.getElementById('search-status').textContent=ecoregionSearch?(ecoregionOrigin?ecoregionOrigin+': ':'Ecoregion: ')+ecoregionSearch.name+'. Filtered by mapped location.':nearbySearch?'Within '+searchRadius+' miles of '+nearbySearch.label:listingSearch?'Showing listings matching “'+listingSearch+'”.':stateSearch?'Showing nurseries in '+stateLabels[stateSearch]+'.':'';
     render();refreshMapLayers();
     restoringDirectory=false;
-    frameDirectoryMap({duration:0});
+    if(!restoreMapPosition(params.get('map')))frameDirectoryMap({duration:0});
     if(request!==restoreRequest)return;
     if(location.hash==='#about')document.getElementById('about-map-tab').click();
     else document.getElementById('state-info-tab').click();
@@ -166,7 +166,7 @@ function setupEcoregionFinder(){
       if(request!==finderRequest||!dialog.open)return;
       if(!response.ok)throw new Error(data.error||'Location lookup unavailable.');
       const results=(data.results||[]).filter(city=>Number.isFinite(city.lat)&&Number.isFinite(city.lng));
-      if(!results.length){status.textContent='No matching U.S. town or ZIP code. Try a five-digit ZIP or add the state, such as Montclair, NJ.';return;}
+      if(!results.length){status.textContent='No matching U.S. town or ZIP code. Try a five-digit ZIP or add the state, such as Madison, WI.';return;}
       if(results.length===1){await locate(results[0],request);return;}
       status.textContent='Choose your town:';
       results.forEach(city=>{const choice=document.createElement('button');choice.type='button';choice.textContent=city.label;choice.addEventListener('click',()=>locate(city,++finderRequest));choices.append(choice);});
@@ -182,7 +182,7 @@ function renderPlantPlanning(id){
   return '<section class="plant-plan"><dl class="planning-summary">'+facts.map(([label,value])=>'<div><dt>'+label+'</dt><dd>'+html(value||'Not listed in these references')+'</dd></div>').join('')+'</dl><details class="plant-planning"><summary>Spacing & establishment care</summary><p><strong>Spacing</strong> '+html(plan.spacing||'Ask the nursery about spacing for its plant form and your planting layout.')+'</p><p><strong>Establishment watering</strong> '+html(plan.watering||water?.text||'Follow the nursery’s establishment guidance for your soil and climate.')+'</p>'+(plan.wateringNote?'<p class="planning-note"><strong>Species water needs</strong> '+html(plan.wateringNote)+'</p>':'')+(water?'<p class="planning-sources"><a href="'+html(water.source.url)+'" target="_blank" rel="noreferrer">'+html(water.source.label)+'</a> · General guidance; adapt to your site.</p>':'')+'<p class="planning-note">Bloom timing varies with climate and elevation. Sizes describe the species or stated local form; cultivars can differ. Spread-based spacing is a planning allowance.</p>'+(sources?'<p class="planning-sources">Growing references: '+sources+'</p>':'')+(catalog?'<p><a href="'+html(catalog.url)+'" target="_blank" rel="noreferrer">'+html(catalog.label||'Nursery plant information')+'</a><br><small>Catalog reference only; current stock and shipping are not confirmed.</small></p>':'')+'</details></section>';
 }
 function setupDirectoryExperience(){
-  setupEcoregionFinder();
-  window.addEventListener('popstate',()=>restoreDirectoryState());
+  setupEcoregionFinder();setupConnectedExperience();
+  window.addEventListener('popstate',async()=>{await restoreDirectoryState();await restoreConnectedState()});
   document.addEventListener('click',event=>{if(event.target.closest('[data-info-tab],a[href^="#"]'))scheduleDirectoryState();});
 }

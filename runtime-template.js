@@ -1,3 +1,4 @@
+const STATIC_PAGES = __STATIC_PAGES__;
 const PAGE = __PAGE__;
 const FAVICON = __FAVICON__;
 const PROVIDER_ASSETS = __PROVIDER_ASSETS__;
@@ -98,7 +99,7 @@ async function handleSubmission(request,env) {
   if(!request.headers.get("content-type")?.includes("application/json"))return json({error:"Send the form as JSON."},415);
   let body;try{body=await request.json()}catch{return json({error:"The submission could not be read."},400)}
   if(clean(body.company,200))return json({ok:true},202);
-  const name=clean(body.name,120),category=clean(body.category,20),region=clean(body.region,30),area=clean(body.area,100),state=clean(body.state,2),address=clean(body.address,240),website=clean(body.website,500),evidenceUrl=clean(body.evidenceUrl,500),nativeDescription=clean(body.nativeDescription,1200),access=clean(body.access,500);
+  const name=clean(body.name,120),category=clean(body.category,20),region=clean(body.region,30),area=clean(body.area,100),state=clean(body.state,2),address=clean(body.address,240),website=clean(body.website,500),evidenceUrl=clean(body.evidenceUrl,500)||website,nativeDescription=clean(body.nativeDescription,1200),access=clean(body.access,500);
   if(name.length<2||area.length<2||address.length<3||nativeDescription.length<12)return json({error:"Please complete the required fields with a little more detail."},400);
   if(!["retail","seasonal","community","delivery"].includes(category))return json({error:"Choose a listed place type."},400);
   const regionStates={northeast:["ME","NH","VT","MA","RI","CT","NY"],midatlantic:["NJ","PA","DE","MD","DC","VA"],greatlakes:["IL","IN","MI","MN","OH","WI"],appalachia:["WV","KY","TN","NC"],south:["SC","GA","FL","AL","MS","LA","AR","TX"],plains:["IA","KS","MO","NE","ND","OK","SD"],mountainwest:["CO","ID","MT","NV","UT","WY"],southwest:["AZ","NM"],pacific:["AK","CA","HI","OR","WA"]};
@@ -137,6 +138,10 @@ export default {
       if(!asset.data)return env.ASSETS?env.ASSETS.fetch(request):new Response('Image assets are unavailable.',{status:503});
       return new Response(request.method==="HEAD"?null:Uint8Array.from(atob(asset.data),c=>c.charCodeAt(0)),{headers:{"content-type":asset.type,"cache-control":"public, max-age=86400","x-content-type-options":"nosniff"}});
     }
+    if(request.method==="GET"&&(path==="/browse"||/^\/[a-z]{2}$/.test(path))){const code=path==='/browse'?'':path.slice(1,3).toUpperCase();return STATIC_PAGES[code]?new Response(STATIC_PAGES[code],{headers:{"content-type":"text/html; charset=utf-8","cache-control":"public, max-age=300","x-content-type-options":"nosniff"}}):json({error:"State not found."},404);}
+    if(request.method==="GET"&&path==="/social-preview.png"&&env.ASSETS)return env.ASSETS.fetch(request);
+    if(request.method==="GET"&&path==="/sitemap.xml")return new Response('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+['/','/browse/',...Object.keys(STATIC_PAGES).filter(Boolean).map(code=>'/'+code.toLowerCase()+'/')].map(p=>'<url><loc>https://nativeplantmaps.pages.dev'+p+'</loc></url>').join('')+'</urlset>',{headers:{'content-type':'application/xml'}});
+    if(request.method==="GET"&&path==="/robots.txt")return new Response('User-agent: *\nAllow: /\nDisallow: /admin\nDisallow: /api/\nSitemap: https://nativeplantmaps.pages.dev/sitemap.xml\n');
     if(request.method==="GET"&&(path==="/"||path==="/index.html"))return new Response(PAGE,{headers:{"content-type":"text/html; charset=utf-8","x-content-type-options":"nosniff"}});
     if((request.method==="GET"||request.method==="HEAD")&&path==="/favicon.svg")return new Response(request.method==="HEAD"?null:FAVICON,{headers:{"content-type":"image/svg+xml","cache-control":"public, max-age=86400","x-content-type-options":"nosniff"}});
     if(request.method==="GET"&&path==="/admin")return await isAdmin(request,env)?new Response(ADMIN_PAGE,{headers:{"content-type":"text/html; charset=utf-8","cache-control":"no-store","x-content-type-options":"nosniff"}}):json({error:"Editor sign-in is required."},401);

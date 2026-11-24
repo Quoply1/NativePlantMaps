@@ -1,0 +1,40 @@
+{
+  "prairie-moon-nursery": [
+    {
+      "label": "Neonicotinoid-free \u00b7 seller policy",
+      "url": "https://www.prairiemoon.com/faqs.html",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "label": "Nursery-grown plants \u00b7 seller statement",
+      "url": "https://www.prairiemoon.com/plants/",
+      "checkedOn": "2026-11-23"
+    }
+  ],
+  "amandas-native-garden": [
+    {
+      "label": "Nursery-propagated perennials \u00b7 seller statement",
+      "url": "https://www.amandasnativeplants.com/amandas",
+      "checkedOn": "2026-11-23"
+    }
+  ],
+  "native-plant-trust-nasami": [
+    {
+      "label": "Regional ecotypic seed \u00b7 grower statement",
+      "url": "https://nativeplanttrust.org/nasami-farm/",
+      "checkedOn": "2026-11-23"
+    },
+    {
+      "label": "No systemic pesticides \u00b7 grower policy",
+      "url": "https://nativeplanttrust.org/nasami-farm/",
+      "checkedOn": "2026-11-23"
+    }
+  ],
+  "dropseed-kentucky": [
+    {
+      "label": "Local genotype plants & seed \u00b7 supplier statement",
+      "url": "https://xerces.org/native-plant-supplier/dropseed-native-plant-nursery",
+      "checkedOn": "2026-11-23"
+    }
+  ]
+}
