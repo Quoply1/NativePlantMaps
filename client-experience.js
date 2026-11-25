@@ -155,7 +155,7 @@ function setupEcoregionFinder(){
       if(city.stateCode){plantingRegion=Object.keys(plantingRegions).find(id=>plantingRegions[id].states.includes(city.stateCode))||plantingRegion;updateEcoregionPicker('');}
       applyNearbyCity(city);document.getElementById('state-info-tab').click();renderPlantingProfile(key,selectedHabitat);ecoregionOrigin=city.label;
       document.getElementById('search-status').textContent=city.label+': '+guideData.regions[key].name+'. Based on the town or ZIP center; check the map if you live near a boundary.';
-      dialog.close();document.getElementById('flora-guide').scrollIntoView({block:'start',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+      dialog.close();revealSearchMap();
     }catch{if(request===finderRequest)status.textContent='Ecoregion boundaries could not load. Try again or choose an ecoregion by name.';}finally{if(request===finderRequest)button.disabled=false;}
   };
   form.addEventListener('submit',async event=>{
