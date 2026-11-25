@@ -26,7 +26,7 @@ const context = vm.createContext({mapArea:null,manualMapPosition:'',URL,location
   selectedId:null,clusterFocusIds:null,clusterFocusCount:0,currentPage:1,lastPageSignature:'',PAGE_SIZE:50,
   nearbySearch:null,stateSearch:null,ecoregionSearch:null,stateLabels:{},vendorPopup:null,
   ecoregionPopup:{remove(){ecoregionRemoved++}},
-  window:{maplibregl,scrollX:0,scrollY:203,scrollTo(position){this.scrollX=position.left;this.scrollY=position.top},matchMedia:()=>({matches:true})},maplibregl,
+  window:{maplibregl,scrollX:0,scrollY:203,scrollTo(position){this.scrollX=position.left;this.scrollY=position.top},matchMedia:query=>({matches:!query.includes('max-width')})},maplibregl,
   document:{getElementById:node,querySelectorAll:()=>[],querySelector(selector){
     const id=selector.match(/^\.card\[data-id="([^"]+)"\]$/)?.[1];
     if(id&&node('cards').innerHTML.includes('data-id="'+id+'"'))return {focus(){focused=id},scrollIntoView(){scrolled=id}};
