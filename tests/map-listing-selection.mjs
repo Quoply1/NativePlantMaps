@@ -26,7 +26,7 @@ const context = vm.createContext({mapArea:null,manualMapPosition:'',URL,location
   selectedId:null,clusterFocusIds:null,clusterFocusCount:0,currentPage:1,lastPageSignature:'',PAGE_SIZE:50,
   nearbySearch:null,stateSearch:null,ecoregionSearch:null,stateLabels:{},vendorPopup:null,
   ecoregionPopup:{remove(){ecoregionRemoved++}},
-  window:{maplibregl,scrollX:0,scrollY:203,scrollTo(position){this.scrollX=position.left;this.scrollY=position.top},matchMedia:()=>({matches:true})},maplibregl,
+  window:{maplibregl,scrollX:0,scrollY:203,scrollTo(position){this.scrollX=position.left;this.scrollY=position.top},matchMedia:query=>({matches:!query.includes('max-width')})},maplibregl,
   document:{getElementById:node,querySelectorAll:()=>[],querySelector(selector){
     const id=selector.match(/^\.card\[data-id="([^"]+)"\]$/)?.[1];
     if(id&&node('cards').innerHTML.includes('data-id="'+id+'"'))return {focus(){focused=id},scrollIntoView(){scrolled=id}};
@@ -63,7 +63,7 @@ assert.equal(node('cards').innerHTML,stableMarkup,'Selecting another visible car
 assert.ok(flyOptions.duration>=1100 && flyOptions.duration<=2600);assert.equal(flyOptions.minZoom,4,'Long-distance flights should pull back before moving across the map');
 assert.equal(flyOptions.zoom,12);
 const before=context.selectedId;pin('missing');assert.equal(context.selectedId,before);
-context.window.accessMap=null;context.selectVendor('vendor-70',{fromMap:true});assert.equal(context.selectedId,'vendor-70');assert.equal(context.currentPage,2);
+context.window.accessMap=null;context.selectVendor('vendor-70',{fromMap:true,confirmed:true});assert.equal(context.selectedId,'vendor-70');assert.equal(context.currentPage,2);
 console.log('Passed: actual map pin handler opens and reveals the correct paginated sidebar card, repeated clicks stay open, cluster transitions work, ecoregion popups close, sidebar toggle and fallback selection remain supported.');
 
 // The SVG map also animates its existing viewBox, and user input cancels an in-flight transition.
