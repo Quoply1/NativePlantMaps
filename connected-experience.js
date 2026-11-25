@@ -10,7 +10,7 @@ async function connectPlaceToPlants(city){
   const request=++placeConnectionRequest;localEcoregion='';connectionStatus='Finding plants suited to this area…';renderPlaceSummary();
   try{const hawaii=city.stateCode==='HI'||city.lat<24&&city.lng< -150;const features=await loadPlantingBoundaries(hawaii?'/api/hawaii-ecoregion-boundaries':'/api/epa-ecoregion-boundaries');if(request!==placeConnectionRequest||!nearbySearch)return;
     localEcoregion=ecoregionAtPoint(city,features);connectionStatus=localEcoregion?'':'The location center is outside the available ecoregion boundaries. Choose an area on the plant map.';
-    if(localEcoregion){plantingState='';plantingRegion=Object.keys(plantingRegions).find(id=>plantingRegions[id].states.includes(city.stateCode))||plantingRegion;renderPlantingProfile(localEcoregion,selectedHabitat);}
+    if(localEcoregion){plantingState='';plantingRegion=Object.keys(plantingRegions).find(id=>plantingRegions[id].states.includes(city.stateCode))||plantingRegion;updateEcoregionPicker('');renderPlantingProfile(localEcoregion,selectedHabitat);const toggle=document.getElementById('ecoregion-toggle');if(!localEcoregion.startsWith('OC')&&toggle.getAttribute('aria-pressed')!=='true')toggle.click();syncMapEcoregionSelection();}
   }catch{if(request!==placeConnectionRequest)return;connectionStatus='Plant boundaries could not load. Nearby nurseries are still available; try Find my ecoregion again.';}
   renderPlaceSummary();scheduleDirectoryState();
 }
@@ -20,8 +20,7 @@ function renderPlaceSummary(){
   root.hidden=!nearbySearch&&!ecoregionSearch;if(root.hidden)return;
   const region=guideData.regions[key],count=filtered().length;
   if(!region){root.innerHTML='<p class="section-kicker">Your local planting guide</p><p>'+html(connectionStatus||'Finding your ecoregion…')+'</p>';return;}
-  const plants=plantOrderForRegion(key).slice(0,10);
-  root.innerHTML='<div class="place-summary-copy"><p class="section-kicker">Your place, plants & nurseries</p><h2>'+html(nearbySearch?'Around '+nearbySearch.label+': '+region.name:'Explore '+region.name)+'</h2><p>An ecoregion is an area with similar climate, soils and natural habitats. '+html(region.scope)+'</p><p>'+plants.length+' starter plants to explore, with '+count+' '+(nearbySearch?'nearby':'mapped')+' native-plant sources matching your filters. Native stock and local seed origin vary; ask each grower.</p><p class="planning-note">'+(nearbySearch?'Based on the town, ZIP or approximate device location; check boundaries near your garden.':'Mapped nursery locations do not establish the native range of every plant sold.')+'</p><a href="#flora-guide">Explore these plants</a> · <a href="#cards">Browse nurseries</a></div><ul class="starter-plants">'+plants.map(id=>'<li><a href="#plant-'+html(id)+'">'+html(guideData.species[id][0])+'</a></li>').join('')+'</ul>';
+  root.innerHTML='<div class="place-summary-copy"><p class="section-kicker">Your ecoregion</p><h2>'+html(region.name)+'</h2><p>'+count+' '+(nearbySearch?'nearby nurseries':'nurseries in this region')+' · Plants for your local habitats.</p><div class="place-summary-actions"><a href="#flora-guide">Explore plants</a><a href="#cards" data-browse-nurseries>Browse nurseries</a></div></div>';
 }
 function appendConnectedState(params){
   if(providerMode!=='all')params.set('kind',providerMode);if(directoryView!=='list')params.set('view',directoryView);
@@ -51,7 +50,7 @@ function mapWasMoved(){
   else manualMapPosition=['s',sketchView.x.toFixed(3),sketchView.y.toFixed(3),sketchView.w.toFixed(3),sketchView.h.toFixed(3)].join(',');
   document.getElementById('search-map-area').hidden=false;scheduleDirectoryState();
 }
-function setupMapExperience(map){map.addSource('directory-hover',{type:'geojson',data:{type:'FeatureCollection',features:[]}});map.addLayer({id:'directory-hover-ring',type:'circle',source:'directory-hover',paint:{'circle-color':'transparent','circle-radius':13,'circle-stroke-color':'#a34b24','circle-stroke-width':3}});map.on('moveend',event=>{if(event.originalEvent)mapWasMoved();});map.on('dragend',mapWasMoved);map.on('zoomend',event=>{if(event.originalEvent)mapWasMoved();});}
+function setupMapExperience(map){syncMapEcoregionSelection();map.addSource('directory-hover',{type:'geojson',data:{type:'FeatureCollection',features:[]}});map.addLayer({id:'directory-hover-ring',type:'circle',source:'directory-hover',paint:{'circle-color':'transparent','circle-radius':13,'circle-stroke-color':'#a34b24','circle-stroke-width':3}});map.on('moveend',event=>{if(event.originalEvent)mapWasMoved();});map.on('dragend',mapWasMoved);map.on('zoomend',event=>{if(event.originalEvent)mapWasMoved();});}
 function areaFromMap(){
   if(window.accessMap){const b=window.accessMap.getBounds();return [b.getWest(),b.getSouth(),b.getEast(),b.getNorth()];}
   // The schematic has separate Alaska and Hawaiʻi insets; never treat those as mainland coordinates.
@@ -131,5 +130,12 @@ function setupConnectedExperience(){
   document.querySelectorAll('[data-directory-view]').forEach(button=>button.addEventListener('click',()=>setDirectoryView(button.dataset.directoryView)));
   document.getElementById('search-map-area').addEventListener('click',()=>{const bounds=areaFromMap();clearPlaceConnection();nearbySearch=null;ecoregionSearch=null;stateSearch=null;listingSearch='';document.getElementById('state-filter').value='';document.getElementById('search').value='';mapArea=bounds;renderPlantingProfile('');selectedId=null;clusterFocusIds=null;currentPage=1;document.getElementById('search-status').textContent='Showing nurseries in the visible map area.';document.getElementById('search-map-area').hidden=true;render();refreshMapLayers();});
   document.getElementById('use-location').addEventListener('click',()=>{const button=document.getElementById('use-location'),status=document.getElementById('search-status');if(!navigator.geolocation){status.textContent='Location is unavailable in this browser. Enter a town or ZIP instead.';return;}button.disabled=true;const generation=placeConnectionRequest;status.textContent='Waiting for browser location permission…';navigator.geolocation.getCurrentPosition(position=>{button.disabled=false;if(generation!==placeConnectionRequest)return;const lat=Math.round(position.coords.latitude*100)/100,lng=Math.round(position.coords.longitude*100)/100;applyNearbyCity({lat,lng,label:'your approximate location'});},error=>{button.disabled=false;status.textContent=error.code===1?'Location permission was declined. Enter a town or ZIP instead.':'Your location could not be found. Enter a town or ZIP instead.';},{enableHighAccuracy:false,timeout:10000,maximumAge:300000});});
-  document.addEventListener('click',event=>{const link=event.target.closest('a[href^="#plant-"]');if(!link)return;const id=link.hash.slice(7);if(guideData.species[id]){Object.keys(plantFilters).forEach(key=>plantFilters[key]='');renderPlantingProfile(localEcoregion||selectedPlantingKey,'all');document.getElementById('state-info-tab').click();}});
+  document.addEventListener('click',event=>{if(event.target.closest('[data-browse-nurseries]'))setDirectoryView('list');const link=event.target.closest('a[href^="#plant-"]');if(!link)return;const id=link.hash.slice(7);if(guideData.species[id]){Object.keys(plantFilters).forEach(key=>plantFilters[key]='');renderPlantingProfile(localEcoregion||selectedPlantingKey,'all');document.getElementById('state-info-tab').click();}});
+}
+
+function revealSearchMap(){setDirectoryView('map');document.getElementById('map-workspace').scrollIntoView({block:'start',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});}
+function syncMapEcoregionSelection(){
+ document.querySelectorAll('#fallback-svg [data-planting-key]').forEach(shape=>{const active=shape.dataset.plantingKey===selectedPlantingKey;shape.classList.toggle('search-ecoregion-selected',active);shape.setAttribute('aria-pressed',String(active));});
+ const map=window.accessMap,key=selectedPlantingKey||'';
+ if(map?.getLayer?.('epa-ecoregions-outline')){const raw=['get','NA_L3KEY'],code=['slice',raw,0,['index-of',' ',raw]];map.setPaintProperty('epa-ecoregions-outline','line-width',['case',['==',code,key],4,1.35]);map.setPaintProperty('epa-ecoregions-outline','line-color',['case',['==',code,key],'#162e24','#607460']);}
 }

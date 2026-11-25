@@ -48,7 +48,7 @@ const node = id => {
 };
 node('ecoregion-guide-data').textContent = JSON.stringify(data);
 node('ecoregion-directory-data').textContent = JSON.stringify(directory);
-const context = vm.createContext({setDirectoryView(){},clearMapArea(){},clearPlaceConnection(){},connectPlaceToPlants(){},renderPlaceSummary(){},renderTrustDetails(){return ''},bindDirectoryExtras(){},matchesPlantFilters(){return true},renderPlantFilterControls(){return ''},renderPlantActions(){return ''},bindPlantExtras(){},scheduleDirectoryState(){},renderPlantPlanning(){return ""},
+const context = vm.createContext({revealSearchMap(){},syncMapEcoregionSelection(){},setDirectoryView(){},clearMapArea(){},clearPlaceConnection(){},connectPlaceToPlants(){},renderPlaceSummary(){},renderTrustDetails(){return ''},bindDirectoryExtras(){},matchesPlantFilters(){return true},renderPlantFilterControls(){return ''},renderPlantActions(){return ''},bindPlantExtras(){},scheduleDirectoryState(){},renderPlantPlanning(){return ""},
   document: {getElementById: node},
   AbortSignal,
   fetch: async url => {
