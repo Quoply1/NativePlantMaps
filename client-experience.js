@@ -141,7 +141,7 @@ function ecoregionAtPoint(city,features){
 let finderRequest=0;
 function setupEcoregionFinder(){
   const dialog=document.getElementById('ecoregion-finder'),form=document.getElementById('finder-form'),input=document.getElementById('finder-place'),status=document.getElementById('finder-status'),choices=document.getElementById('finder-choices'),button=document.getElementById('finder-submit');
-  document.querySelectorAll('[data-find-ecoregion]').forEach(trigger=>trigger.addEventListener('click',()=>{if(!dialog.open)dialog.showModal();input.focus();}));
+  document.querySelectorAll('[data-find-ecoregion]').forEach(trigger=>trigger.addEventListener('click',()=>{status.textContent='';choices.replaceChildren();if(!dialog.open)dialog.showModal();input.focus();}));
   const cancel=()=>{++finderRequest;button.disabled=false;};dialog.addEventListener('close',cancel);
   document.getElementById('finder-cancel').addEventListener('click',()=>dialog.close());
   const locate=async(city,request)=>{
@@ -160,7 +160,7 @@ function setupEcoregionFinder(){
   };
   form.addEventListener('submit',async event=>{
     event.preventDefault();const query=input.value.trim();if(query.length<2)return;
-    const request=++finderRequest;choices.replaceChildren();status.textContent='Looking up towns and ZIP codes…';button.disabled=true;
+    const request=++finderRequest;choices.replaceChildren();status.textContent='Looking up your place…';button.disabled=true;
     try{
       const response=await fetch('/api/city-suggestions?query='+encodeURIComponent(query),{signal:AbortSignal.timeout(10000)}),data=await response.json();
       if(request!==finderRequest||!dialog.open)return;
@@ -168,7 +168,7 @@ function setupEcoregionFinder(){
       const results=(data.results||[]).filter(city=>Number.isFinite(city.lat)&&Number.isFinite(city.lng));
       if(!results.length){status.textContent='No matching U.S. town or ZIP code. Try a five-digit ZIP or add the state, such as Madison, WI.';return;}
       if(results.length===1){await locate(results[0],request);return;}
-      status.textContent='Choose your town:';
+      status.textContent='Choose the matching town:';
       results.forEach(city=>{const choice=document.createElement('button');choice.type='button';choice.textContent=city.label;choice.addEventListener('click',()=>locate(city,++finderRequest));choices.append(choice);});
     }catch(error){if(request===finderRequest)status.textContent=error.message||'Location lookup could not load. Try again.';}finally{if(request===finderRequest)button.disabled=false;}
   });
