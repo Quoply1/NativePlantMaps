@@ -47,3 +47,15 @@ let outsideHandler,closed=0;
 const clickContext=vm.createContext({document:{addEventListener(_,handler){outsideHandler=handler}},closeCitySuggestions(){closed++}});
 const outside=page.match(/document\.addEventListener\('click',event=>\{if\(!event\.target\.closest\('\.city-search,#search-area'\)\)closeCitySuggestions\(\)\}\)/)?.[0];assert.ok(outside);vm.runInContext(outside,clickContext);outsideHandler({target:{closest:()=>true}});assert.equal(closed,0);outsideHandler({target:{closest:()=>false}});assert.equal(closed,1);
 console.log('Passed filter preservation, compatible state/ecoregion intersection, URL refresh restoration, pagination, invalid links, town map framing, Alaska/Hawaii projections, polygon holes and dateline lookup.');
+// ZIP selection uses the actual spherical distance calculation and provider data.
+vm.runInContext(section('distanceMiles','normalizedPlaceQuery'),context);
+context.activeFilter='all';context.searchRadius=50;context.applyNearbyCity({lat:40.8131,lng:-74.2165,label:'ZIP 07042',stateCode:'NJ'});
+assert.ok(context.filtered().length>=15,'ZIP 07042 must show the documented nearby providers');
+assert.ok(context.filtered().some(v=>v.id==='newtown-native-nursery'));
+assert.equal(context.ecoregionSearch,null,'A ZIP radius search must not be narrowed to ecoregion membership');
+assert.equal(context.stateSearch,null);assert.equal(node('state-filter').value,'');
+console.log('Passed ZIP 07042 nearby results using actual distances and clearing geographic restrictions.');
+node('search').value=context.nearbySearch.label;
+context.cityInput=node('search');vm.runInContext(page.slice(page.indexOf('async function submitPlaceSearch(){'),page.indexOf("    cityInput.addEventListener('keydown'")),context);
+await context.submitPlaceSearch();assert.ok(context.nearbySearch);assert.equal(context.listingSearch,'');assert.ok(context.filtered().length>=15);
+console.log('Passed resubmitting a selected ZIP without converting it to a nursery-name query.');

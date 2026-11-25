@@ -37,7 +37,7 @@ function readConnectedState(params){
   Object.keys(plantFilters).forEach(key=>plantFilters[key]=validPlantFilter(key,params.get(key))?params.get(key):'');
   localEcoregion='';manualMapPosition='';
 }
-async function restoreConnectedState(){if(nearbySearch)await connectPlaceToPlants(nearbySearch);else renderPlaceSummary();renderSales();}
+async function restoreConnectedState(){const zip=listingSearch?.match(/,\s*[^()]+\s+\((\d{5})\)$/)?.[1];if(!nearbySearch&&zip){try{const response=await fetch('/api/city-suggestions?query='+zip);const data=await response.json();if(response.ok&&data.results?.length===1){applyNearbyCity(data.results[0]);return;}}catch{}}if(nearbySearch)await connectPlaceToPlants(nearbySearch);else renderPlaceSummary();renderSales();}
 function validPlantFilter(key,value){return ({light:['sun','shade'],moisture:['dry','moist','wet'],planttype:['tree','shrub','grass','fern','vine','cactus','other'],wildlife:['pollinators','birds','host']})[key]?.includes(value);}
 function setDirectoryView(view){directoryView=view==='map'?'map':'list';document.getElementById('map-workspace').dataset.mobileView=directoryView;document.querySelectorAll('[data-directory-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.directoryView===directoryView)));if(directoryView==='map')requestAnimationFrame(()=>window.accessMap?.resize());scheduleDirectoryState();}
 function restoreMapPosition(value){
