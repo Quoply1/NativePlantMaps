@@ -19,7 +19,7 @@ let exportedBlob,downloadName='';const downloadURL={createObjectURL(blob){export
 let base=vendors,features=[],requested=[],profiles=[],frameCount=0;
 const memory=new Map(),context=vm.createContext({URL:Object.assign(URL,downloadURL),URLSearchParams,Math,Number,Date,Set,Map,JSON,Blob,TextEncoder,guideData:guide,baseFiltered:()=>base,seasonalListing:v=>v.category==='seasonal',isGardenStore:v=>/garden center/i.test(v.name),
  rankListings:rows=>rows,vendors,html:value=>String(value??''),publicHttpUrl:value=>/^https?:/.test(value||'')?value:'',nurseryPrimaryUrl:v=>v.websiteStatus==='verified'?v.website:'',
- activeFilter:'all',nearbySearch:{label:'Madison, Wisconsin',lat:43.07,lng:-89.38},ecoregionSearch:null,plantingState:'',plantingRegion:'',selectedHabitat:'all',selectedPlantingKey:'',stateLabels:states,stateSocieties:{},plantingRegions:{greatlakes:{states:['WI']}},
+ listingSearch:'',activeFilter:'all',nearbySearch:{label:'Madison, Wisconsin',lat:43.07,lng:-89.38},ecoregionSearch:null,plantingState:'',plantingRegion:'',selectedHabitat:'all',selectedPlantingKey:'',stateLabels:states,stateSocieties:{},plantingRegions:{greatlakes:{states:['WI']}},
  loadPlantingBoundaries:async url=>{requested.push(url);return features},ecoregionAtPoint:()=>features[0]?.key||'',renderPlantingProfile:(key)=>{profiles.push(key);context.selectedPlantingKey=key},plantOrderForRegion:key=>guide.regions[key].plants,
  document:{getElementById:node,querySelectorAll:()=>[],createElement(){return {click(){downloadName=this.download}}}},window:{accessMap:null},requestAnimationFrame:fn=>fn(),renderSketchMap:()=>frameCount++,scheduleDirectoryState(){},localStorage:{getItem:key=>memory.get(key),setItem:(k,v)=>memory.set(k,v)},sketchView:{x:0,y:0,w:1000,h:650},mapFrameRequest:0,
 });
@@ -55,3 +55,5 @@ console.log('Passed click-only approximate geolocation, denial handling, pending
 
 let ring;context.document.querySelector=()=>({querySelector(){return null},append(node){ring=node}});context.document.createElementNS=()=>({attributes:{},setAttribute(k,v){this.attributes[k]=v}});context.sketchProject=()=>[50,60];context.highlightNursery(vendors[0].id,true);assert.equal(ring.attributes.class,'listing-hover-ring');assert.equal(ring.attributes.cx,'50');assert.equal(ring.attributes['pointer-events'],'none');
 console.log('Passed a visible list-hover ring even when an individual nursery pin is clustered.');
+
+context.nearbySearch=null;context.listingSearch='montclair, new jersey (07042)';context.fetch=async()=>({ok:true,json:async()=>({results:[{label:'ZIP 07042',lat:40.8131,lng:-74.2165}]})});await context.restoreConnectedState();assert.equal(locationCalls.at(-1).label,'ZIP 07042');console.log('Passed recovery of geocoded town labels accidentally stored as nursery-name queries.');

@@ -68,7 +68,7 @@ async function handleCitySuggestions(request){
   const query=clean(new URL(request.url).searchParams.get("query"),120);
   if(query.length<2)return json({results:[]},200,{"cache-control":"public, max-age=300"});
   try{
-    const zip=query.match(/^(\d{5})(?:-\d{4})?$/);
+    const zip=query.match(/^(\d{5})(?:-\d{4})?$/)||query.match(/,\s*[^()]+\s+\((\d{5})\)$/);
     if(zip){
       const response=await fetch("https://api.zippopotam.us/us/"+zip[1],{signal:AbortSignal.timeout(8000),cf:{cacheTtl:86400,cacheEverything:true},headers:{accept:"application/json"}});
       if(response.status===404)return json({results:[]},200,{"cache-control":"public, max-age=300"});
