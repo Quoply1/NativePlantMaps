@@ -580,6 +580,10 @@
 .location-filters{align-items:center;gap:10px!important}.ecoregion-picker>.find-ecoregion{margin-bottom:16px}
 @media(max-width:600px){#ecoregion-finder{padding:22px 20px}#finder-title{font-size:27px}.finder-actions button{flex:1;min-width:0}.find-ecoregion{max-width:100%}.plant-filter-field{flex:1 1 140px;min-width:0}.plant-filter-field select{max-width:100%;width:100%}.starter-plants{columns:1}.place-summary{padding:20px}.location-filters>*{max-width:100%}}
 @media(max-width:1000px){#map-workspace .cards{max-height:none!important;overflow:visible!important}.directory{overflow:visible}}
+
+#mobile-pin-preview{position:absolute;z-index:8;bottom:14px;left:12px;right:12px;display:flex;align-items:center;gap:10px;padding:14px;background:#fffdf7;border:1px solid #9daf96;border-radius:10px;box-shadow:0 5px 20px #152b2433;color:#243e33;font:14px/1.4 Arial,sans-serif}
+#mobile-pin-preview>div{flex:1;min-width:0}#mobile-pin-preview strong{display:block;overflow-wrap:anywhere}#mobile-pin-preview span{display:block;margin-top:4px;color:#4d6050}#mobile-pin-preview button{min-height:44px;padding:8px 12px;border:1px solid #82947e;border-radius:6px;background:#244b38;color:#fff;font:700 14px/1.3 Arial,sans-serif;cursor:pointer}#mobile-pin-preview [data-pin-close]{padding:8px;background:transparent;color:#244b38;font-size:22px}
+@media(max-width:1000px){.filter-row{flex-direction:column!important;align-items:stretch!important;gap:12px!important;height:auto!important;min-height:0!important}.filter-row>.filters,.filter-row>.filters:first-child,.filter-row>.advanced-search{flex:0 0 auto!important;width:100%!important;height:auto!important;min-height:0!important;margin:0!important;padding:10px 0 0!important;align-content:start!important}.filter-row>.filters:first-child{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important}.filter-row>.filters:first-child>.filter-label{grid-column:1/-1;margin:0 0 2px}.filter-row>.filters:first-child>[data-filter=all]{grid-column:1/-1}.filter-row .filter{margin:0!important;min-height:44px!important;padding:9px 10px!important;width:auto!important}.filter-row .advanced-search{padding-top:0!important}.filter-row .location-filters{display:flex!important;flex-wrap:wrap!important;gap:8px!important}.location-filters .statefilter{flex:1 1 100%!important;width:100%!important}.location-filters .explore-ecoregions{white-space:normal!important;overflow-wrap:anywhere}.mapbox:has(#mobile-pin-preview) .maptip{display:none}}
 </style>
 </head>
 <body>
@@ -1239,8 +1243,18 @@
       map.flyTo({center:[v.lng,v.lat],zoom:12,minZoom:Math.min(map.getZoom(),distance>250?4:distance>40?7:10),
         duration:reduced?0:Math.min(2600,Math.max(1100,1100+distance*1.2)),curve:1.5,essential:false});
     }
-    function selectVendor(id,{fromMap=false}={}){
+    function showMobilePinPreview(v){
+      let panel=document.getElementById('mobile-pin-preview');
+      if(!panel){panel=document.createElement('section');panel.id='mobile-pin-preview';panel.setAttribute('aria-label','Selected nursery');panel.setAttribute('aria-live','polite');document.querySelector('.mapbox').append(panel);}
+      panel.innerHTML='<div><strong>'+html(v.name)+'</strong><span>'+html(v.area+' · '+v.state)+'</span></div><button type="button" data-pin-open>View listing</button><button type="button" data-pin-close aria-label="Close nursery preview">×</button>';
+      panel.querySelector('[data-pin-open]').addEventListener('click',()=>selectVendor(v.id,{fromMap:true,confirmed:true}));
+      panel.querySelector('[data-pin-close]').addEventListener('click',()=>panel.remove());
+      vendorPopup?.remove();ecoregionPopup?.remove();
+    }
+    function selectVendor(id,{fromMap=false,confirmed=false}={}){
       const v=vendors.find(item=>String(item.id)===String(id));if(!v)return;
+      if(fromMap&&!confirmed&&window.matchMedia('(max-width:1000px)').matches){showMobilePinPreview(v);return;}
+      document.getElementById('mobile-pin-preview')?.remove?.();
       scheduleDirectoryState();
       if(fromMap&&document.getElementById('map-workspace')?.classList?.contains('map-fullscreen'))toggleMapFullscreen(false);
       const compactDirectory=window.matchMedia('(max-width:1000px)').matches;
