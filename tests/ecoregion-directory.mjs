@@ -28,7 +28,7 @@ context.applyEcoregionSearch('10.2.2',{preserveState:true,openGuide:false});asse
 context.applyEcoregionSearch('10.2.2');assert.equal(context.stateSearch,null);assert.equal(node('state-filter').value,'');assert.ok(context.filtered().every(v=>directory['10.2.2'].vendorIds.includes(v.id)));
 context.applyEcoregionSearch('2.2.1');assert.equal(context.filtered().length,0,'Empty regions must not fall back to nationwide results');
 assert.ok(renders>=4&&refreshes>=4);
-assert.match(page,/plant-hover-label'\),selectEcoregion/);assert.match(page,/if\(button\)selectEcoregion\(button.dataset.plantingKey\)/);
+assert.match(page,/plant-hover-label'\),selectEcoregion/);
 vm.runInContext(slice('seasonalListing','distanceMiles'),context);
 assert.deepEqual([...context.accessLabels({category:'wholesale',websiteProfile:{tradeOnly:true},availability:'Seasonal sales, by appointment.'})],['Wholesale only','Seasonal','By appointment']);
 assert.deepEqual([...context.accessLabels({category:'retail',access:'Retail and wholesale customers; call ahead.'})],['Wholesale available']);

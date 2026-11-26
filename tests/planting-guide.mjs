@@ -48,7 +48,7 @@ const node = id => {
 };
 node('ecoregion-guide-data').textContent = JSON.stringify(data);
 node('ecoregion-directory-data').textContent = JSON.stringify(directory);
-const context = vm.createContext({revealSearchMap(){},syncMapEcoregionSelection(){},setDirectoryView(){},clearMapArea(){},clearPlaceConnection(){},connectPlaceToPlants(){},renderPlaceSummary(){},renderTrustDetails(){return ''},bindDirectoryExtras(){},matchesPlantFilters(){return true},renderPlantFilterControls(){return ''},renderPlantActions(){return ''},bindPlantExtras(){},scheduleDirectoryState(){},renderPlantPlanning(){return ""},
+const context = vm.createContext({revealSearchMap(){},syncMapEcoregionSelection(){},setDirectoryView(){},clearMapArea(){},clearPlaceConnection(){},connectPlaceToPlants(){},renderPlaceSummary(){},renderTrustDetails(){return ''},bindDirectoryExtras(){},matchesPlantFilters(){return true},renderPlantFilterControls(){return '<details id="shopping-list"></details>'},renderPlantActions(){return ''},bindPlantExtras(){},scheduleDirectoryState(){},renderPlantPlanning(){return ""},
   document: {getElementById: node},
   AbortSignal,
   fetch: async url => {
@@ -128,7 +128,11 @@ let prevented=false;
 pineBarrensShape.listeners.keydown({key:'Enter',preventDefault(){prevented=true}});
 assert.equal(prevented,true);
 assert.equal(evalGuide('selectedPlantingKey'),'8.5.4');
-assert.match(node('planting-profile').innerHTML,/Atlantic Coastal Pine Barrens/);
+const profile=node('planting-profile').innerHTML;
+assert.match(profile, /Atlantic Coastal Pine Barrens/);
+assert.match(profile, /<\/h3>\s*<div class="habitat-options"[^>]*>.*?<\/div>\s*<div class="plant-grid">/s);
+assert.ok(profile.indexOf('class="plant-grid"')<profile.indexOf('id="shopping-list"'));
+assert.doesNotMatch(profile, /profile-note|Use these starter plants/);
 await evalGuide("updateEcoregionPicker('NY')");
 assert.equal(evalGuide('selectedPlantingKey'), '8.5.4');
 assert.equal(node('plant-name-picker').open,true);
@@ -150,5 +154,11 @@ assert.equal(evalGuide('plantingRegion'),'midatlantic');
 assert.equal(node('plant-map-panel').hidden,false);
 assert.match(node('plant-map-stage').innerHTML,/Interactive ecoregion map of Mid-Atlantic/);
 assert.equal(node('plant-name-picker').open,true);
+let focusedNamePicker=false;
+node('plant-name-picker').querySelector=()=>({focus(){focusedNamePicker=true}});
+node('plant-ecoregion-names').listeners.click({target:{closest:()=>({dataset:{plantingKey:'8.3.1'}})}});
+assert.equal(evalGuide('selectedPlantingKey'),'8.3.1');
+assert.equal(node('plant-name-picker').open,false);
+assert.equal(focusedNamePicker,true);
 assert.equal(evalGuide("plantingMapExtent([],false,true)(-157,20).every(Number.isFinite)"),true);
 console.log('Passed: region coverage, state filtering, map geometry, name selection, Hawaiʻi, stale requests, and boundary failure fallback.');
