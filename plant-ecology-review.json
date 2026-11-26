@@ -1,0 +1,2608 @@
+{
+  "checkedOn": "2026-11-26",
+  "speciesCount": 215,
+  "method": "Descriptions distinguish recorded larval hosts, adult food, seed dispersal, cover and nesting resources. Numerical statements retain their taxonomic and geographical scope; named examples are not exhaustive totals. Structural garden niches are planting interpretations of the documented habit and habitat. No count is invented where a suitable total was not found. Sources are in each plant’s existing expandable details.",
+  "numericClaims": {
+    "buttonbush": {
+      "value": 19,
+      "unit": "caterpillar species",
+      "taxon": "Cephalanthus occidentalis",
+      "scope": "Species associations listed in SUNY ESF’s New York-oriented guide; not a local garden census.",
+      "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+    },
+    "redbud": {
+      "value": 12,
+      "unit": "butterfly and moth larval users",
+      "taxon": "Cercis canadensis",
+      "scope": "Species association count reported by NC State Extension.",
+      "url": "https://plants.ces.ncsu.edu/plants/cercis-canadensis/"
+    },
+    "spicebush": {
+      "value": 11,
+      "unit": "caterpillar species",
+      "taxon": "Lindera benzoin",
+      "scope": "Species associations listed in SUNY ESF’s regional guide.",
+      "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+    },
+    "creosote": {
+      "value": ">60",
+      "unit": "associated insect species",
+      "taxon": "Larrea tridentata",
+      "scope": "Sonoran Desert associations; includes a nested count of 22 specialist bee species, not 60 insects in every garden.",
+      "url": "https://www.desertmuseum.org/books/nhsd_zygophyllaceae.php"
+    },
+    "whiteAster": {
+      "value": 2,
+      "unit": "named Dichomeris moth larval users",
+      "taxon": "Eurybia divaricata",
+      "scope": "Dichomeris ochripalpella and D. bilobella; not a total of all insects using the plant.",
+      "url": "https://cornellbotanicgardens.org/plant/white-wood-aster"
+    },
+    "ohelo": {
+      "value": 2,
+      "unit": "endemic fruitworm moth associations",
+      "taxon": "ʻŌhelo berries (Vaccinium)",
+      "scope": "Count described for ʻōhelo in the Native Plants Hawaiʻi account; not all fruit-eating insects.",
+      "url": "https://nativeplants.hawaii.edu/plants/vaccinium-reticulatum/"
+    },
+    "joePye": {
+      "value": 4,
+      "unit": "named moth associations",
+      "taxon": "Eutrochium maculatum",
+      "scope": "Four moths named in SUNY ESF guide, not an exhaustive species-richness total.",
+      "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+    },
+    "blueWildIndigo": {
+      "value": 6,
+      "unit": "named butterfly larval users",
+      "taxon": "Baptisia australis",
+      "scope": "Six butterfly species enumerated in NC State profile; not total insect richness.",
+      "url": "https://plants.ces.ncsu.edu/plants/baptisia-australis/"
+    },
+    "whiteOak": {
+      "value": ">550",
+      "unit": "butterfly and moth larval users",
+      "taxon": "Quercus (genus)",
+      "scope": "Native oaks collectively across the eastern U.S., explicitly not a count for Quercus alba or an individual tree.",
+      "url": "https://www.nwf.org/Native-Plant-Habitats/Impact/Wildlife-and-Biodiversity"
+    },
+    "mamane": {
+      "value": "~90%",
+      "unit": "palila diet composed of immature māmane seeds",
+      "taxon": "Sophora chrysophylla",
+      "scope": "Diet share from Hawaiʻi DLNR; not a count of species and not general bird diet.",
+      "url": "https://dlnr.hawaii.gov/wildlife/birds/palila/"
+    }
+  },
+  "species": [
+    {
+      "id": "butterflyMilkweed",
+      "scientificName": "Asclepias tuberosa",
+      "description": "Monarch caterpillars use the leaves as a nursery and food supply, rather than simply visiting the orange flowers. Gray hairstreaks, queen butterflies and milkweed tussock moths are also recorded hosts in NC State’s profile.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Asclepias tuberosa",
+          "url": "https://plants.ces.ncsu.edu/plants/asclepias-tuberosa/"
+        }
+      ]
+    },
+    {
+      "id": "njTea",
+      "scientificName": "Ceanothus americanus",
+      "description": "The leaves feed mottled duskywing, spring azure and summer azure caterpillars; songbirds take the seeds. This compact, white-flowered shrub brings a woody host plant into dry prairie edges and small gardens.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Ceanothus americanus",
+          "url": "https://plants.ces.ncsu.edu/plants/ceanothus-americanus/"
+        }
+      ]
+    },
+    {
+      "id": "columbine",
+      "scientificName": "Aquilegia canadensis",
+      "description": "An early nectar stop for returning ruby-throated hummingbirds, with red-and-yellow spurs that suit their bills. Its foliage also feeds columbine duskywing and columbine borer caterpillars, linking rocky woodland edges to two different insect life cycles.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Aquilegia canadensis",
+          "url": "https://plants.ces.ncsu.edu/plants/aquilegia-canadensis/"
+        },
+        {
+          "label": "SUNY ESF: regional host-plant associations",
+          "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+        }
+      ]
+    },
+    {
+      "id": "swampMilkweed",
+      "scientificName": "Asclepias incarnata",
+      "description": "Pink flower clusters mark a monarch breeding plant for moist meadows and rain gardens. Females lay eggs on the foliage, and the emerging caterpillars eat the leaves; nectar alone cannot replace that host-plant role.",
+      "sources": [
+        {
+          "label": "NC State Extension — Asclepias incarnata",
+          "url": "https://plants.ces.ncsu.edu/plants/asclepias-incarnata/"
+        }
+      ]
+    },
+    {
+      "id": "buttonbush",
+      "scientificName": "Cephalanthus occidentalis",
+      "description": "SUNY ESF’s guide lists 19 caterpillar species associated with buttonbush. Its round white blooms give way to seeds eaten by waterfowl and songbirds, making this shrub useful where a garden meets wet ground.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Cephalanthus occidentalis",
+          "url": "https://plants.ces.ncsu.edu/plants/cephalanthus-occidentalis/"
+        },
+        {
+          "label": "SUNY ESF: regional host-plant associations",
+          "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+        }
+      ]
+    },
+    {
+      "id": "ragwort",
+      "scientificName": "Packera aurea",
+      "description": "A spring-flowering ground layer that spreads beneath deciduous trees, keeping living foliage on the woodland floor. Yellow flower stalks mature into seed for birds, extending its contribution beyond the brief spring bloom.",
+      "sources": [
+        {
+          "label": "NC State Extension — Packera aurea",
+          "url": "https://plants.ces.ncsu.edu/plants/packera-aurea/"
+        }
+      ]
+    },
+    {
+      "id": "mistflower",
+      "scientificName": "Conoclinium coelestinum",
+      "description": "Lavender-blue colonies supply nectar late in the growing season, when some earlier meadow flowers have faded. Leaving the dried heads in place keeps their small seeds available to birds.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Conoclinium coelestinum",
+          "url": "https://plants.ces.ncsu.edu/plants/conoclinium-coelestinum/"
+        }
+      ]
+    },
+    {
+      "id": "bluestem",
+      "scientificName": "Schizachyrium scoparium",
+      "description": "Skipper and common wood-nymph caterpillars feed on the blades, while songbirds take the seeds. Coppery winter clumps also shelter wildlife; retaining the grass bases preserves potential overwintering sites for bumblebee queens.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Schizachyrium scoparium",
+          "url": "https://plants.ces.ncsu.edu/plants/schizachyrium-scoparium/"
+        },
+        {
+          "label": "Xerces Society: bunchgrasses and overwintering habitat",
+          "url": "https://www.xerces.org/blog/5-ways-to-increase-nesting-habitat-for-bees"
+        }
+      ]
+    },
+    {
+      "id": "bergamot",
+      "scientificName": "Monarda fistulosa",
+      "description": "The bee-balm specialist Dufourea monardae collects pollen from Monarda, and hermit sphinx caterpillars use wild bergamot as a host. Its lavender flower heads are only part of the habitat: dead stems can house nesting bees.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Monarda fistulosa",
+          "url": "https://plants.ces.ncsu.edu/plants/monarda-fistulosa/"
+        }
+      ]
+    },
+    {
+      "id": "geranium",
+      "scientificName": "Geranium maculatum",
+      "description": "Spring foliage and pink flowers support the geranium mining bee, Andrena distans, as well as geranium clearwing and white-marked tussock moths. Songbirds also eat the seeds of this woodland-edge perennial.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Geranium maculatum",
+          "url": "https://plants.ces.ncsu.edu/plants/geranium-maculatum/"
+        },
+        {
+          "label": "SUNY ESF: regional host-plant associations",
+          "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+        }
+      ]
+    },
+    {
+      "id": "foxSedge",
+      "scientificName": "Carex vulpinoidea",
+      "description": "Sedge grasshoppers, meadow katydids and several butterfly and moth larvae feed on this wetland sedge. Large colonies also provide sedge wren nesting cover, turning bristly clumps into habitat rather than just an ornamental grass substitute.",
+      "sources": [
+        {
+          "label": "Prairie Moon Nursery: Carex vulpinoidea",
+          "url": "https://www.prairiemoon.com/carex-vulpinoidea-brown-fox-sedge"
+        },
+        {
+          "label": "Illinois Wildflowers: brown fox sedge fauna",
+          "url": "https://www.illinoiswildflowers.info/grasses/plants/brfx_sedge.htm"
+        }
+      ]
+    },
+    {
+      "id": "prairieClover",
+      "scientificName": "Dalea purpurea",
+      "description": "The foliage feeds southern dogface and Reakirt’s blue caterpillars, connecting a low prairie planting to butterfly reproduction. Purple flower spikes sit above finely divided leaves that also provide browse for mammals.",
+      "sources": [
+        {
+          "label": "NC State Extension — Dalea purpurea",
+          "url": "https://plants.ces.ncsu.edu/plants/dalea-purpurea/"
+        }
+      ]
+    },
+    {
+      "id": "bottlebrush",
+      "scientificName": "Elymus hystrix",
+      "description": "Northern pearly-eye caterpillars feed on this woodland grass, and birds and white-footed mice eat its seeds. The open tufts and bristly heads fill the shaded grass layer that a flower-only garden can miss.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Elymus hystrix",
+          "url": "https://plants.ces.ncsu.edu/plants/elymus-hystrix/"
+        }
+      ]
+    },
+    {
+      "id": "waterleaf",
+      "scientificName": "Hydrophyllum virginianum",
+      "description": "Waterleaf supplies pollen to the specialist mining bee Andrena geranii, documented on Hydrophyllum in Illinois. Pale-spotted leaves spread into woodland patches that flower after many of the earliest spring ephemerals finish.",
+      "sources": [
+        {
+          "label": "NC State Extension — Hydrophyllum virginianum",
+          "url": "https://plants.ces.ncsu.edu/plants/hydrophyllum-virginianum/"
+        },
+        {
+          "label": "Illinois Wildflowers: Virginia waterleaf fauna",
+          "url": "https://www.illinoiswildflowers.info/woodland/plants/va_waterleaf.htm"
+        }
+      ]
+    },
+    {
+      "id": "whiteIndigo",
+      "scientificName": "Baptisia alba",
+      "description": "White pea-flower spikes rise above foliage eaten by wild indigo duskywing and Zarucco duskywing caterpillars. This long-lived prairie perennial therefore provides larval food as well as a summer flower display.",
+      "sources": [
+        {
+          "label": "NC State Extension — Baptisia alba",
+          "url": "https://plants.ces.ncsu.edu/plants/baptisia-alba/"
+        }
+      ]
+    },
+    {
+      "id": "coralHoneysuckle",
+      "scientificName": "Lonicera sempervirens",
+      "description": "Ruby-throated hummingbirds feed from the red tubes, songbirds eat the berries, and spring azure and snowberry clearwing caterpillars use the foliage. A trellis or shrub edge gives this vine room to form a vertical habitat layer.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Lonicera sempervirens",
+          "url": "https://plants.ces.ncsu.edu/plants/lonicera-sempervirens/"
+        }
+      ]
+    },
+    {
+      "id": "roseMallow",
+      "scientificName": "Hibiscus moscheutos",
+      "description": "The specialist hibiscus bee, Ptilothrix bombiformis, collects pollen from Hibiscus. Large pink or white flowers rise over stout wetland stems; leaving dead stems can also retain nesting sites for small bees.",
+      "sources": [
+        {
+          "label": "NC State Extension — Hibiscus moscheutos",
+          "url": "https://plants.ces.ncsu.edu/plants/muenchhusia-moscheutos/"
+        }
+      ]
+    },
+    {
+      "id": "spottedBeebalm",
+      "scientificName": "Monarda punctata",
+      "description": "This tiered, pink-bracted mint hosts gray marvel and Pyrausta moth caterpillars. Its shallow flowers also make nectar accessible to wasps, adding a different feeding niche from the long tubes of many other bee balms.",
+      "sources": [
+        {
+          "label": "NC State Extension — Monarda punctata",
+          "url": "https://plants.ces.ncsu.edu/plants/monarda-punctata/"
+        }
+      ]
+    },
+    {
+      "id": "inkberry",
+      "scientificName": "Ilex glabra",
+      "description": "Henry’s elfin caterpillars feed on this evergreen holly, and its dense foliage supplies cover through winter. Pollinated female shrubs produce dark fruit eaten by birds, including bobwhite and wild turkey.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Ilex glabra",
+          "url": "https://plants.ces.ncsu.edu/plants/ilex-glabra/"
+        }
+      ]
+    },
+    {
+      "id": "scarletMallow",
+      "scientificName": "Hibiscus coccineus",
+      "description": "Scarlet flowers supply pollen to hibiscus specialists such as Ptilothrix bombiformis. Tall stems occupy the sunny wetland edge, and dead stalks can offer nesting material for stem-nesting bees after the flowering season.",
+      "sources": [
+        {
+          "label": "NC State Extension — Hibiscus coccineus",
+          "url": "https://plants.ces.ncsu.edu/plants/muenchhusia-coccinea/"
+        }
+      ]
+    },
+    {
+      "id": "blueGrama",
+      "scientificName": "Bouteloua gracilis",
+      "description": "Low, fine-textured clumps make a dry grassland layer beneath taller wildflowers. Their bases can provide sheltered overwintering places for bumblebee queens; the eyelash-shaped seed heads keep the planting recognizable after flowering.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Bouteloua gracilis",
+          "url": "https://plants.ces.ncsu.edu/plants/bouteloua-gracilis/"
+        },
+        {
+          "label": "Xerces Society: bunchgrasses and overwintering habitat",
+          "url": "https://www.xerces.org/blog/5-ways-to-increase-nesting-habitat-for-bees"
+        }
+      ]
+    },
+    {
+      "id": "canadaAnemone",
+      "scientificName": "Anemone canadensis",
+      "description": "White flowers stand above a spreading carpet of divided leaves. Its niche is the ground layer of moist meadows and open woodland edges, where underground stems can occupy space between taller perennials.",
+      "sources": [
+        {
+          "label": "Prairie Moon Nursery: Canada anemone",
+          "url": "https://www.prairiemoon.com/anemone-canadensis-canada-anemone"
+        }
+      ]
+    },
+    {
+      "id": "poppyMallow",
+      "scientificName": "Callirhoe involucrata",
+      "description": "Gray hairstreaks are associated with this sprawling prairie mallow as a host or nectar plant. Magenta cups stay close to the ground, adding a low flowering layer on sunny, freely drained sites.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Callirhoe involucrata",
+          "url": "https://plants.ces.ncsu.edu/plants/callirhoe-involucrata/"
+        }
+      ]
+    },
+    {
+      "id": "sideoats",
+      "scientificName": "Bouteloua curtipendula",
+      "description": "Arching seed stalks form an open grassland layer rather than a dense lawn. As a native grama grass, its retained clump bases can contribute protected overwintering places for bumblebee queens.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Bouteloua curtipendula",
+          "url": "https://westernnativeseed.com/product/bouteloua-curtipendula/"
+        },
+        {
+          "label": "Xerces Society: bunchgrasses and overwintering habitat",
+          "url": "https://www.xerces.org/blog/5-ways-to-increase-nesting-habitat-for-bees"
+        }
+      ]
+    },
+    {
+      "id": "redbud",
+      "scientificName": "Cercis canadensis",
+      "description": "NC State lists 12 butterfly and moth species that use eastern redbud as a larval host, including Henry’s elfin. Leafcutter bees also use its heart-shaped leaves, so neat circular cutouts are evidence of another ecological role.",
+      "sources": [
+        {
+          "label": "NC State Extension — Cercis canadensis",
+          "url": "https://plants.ces.ncsu.edu/plants/cercis-canadensis/"
+        }
+      ]
+    },
+    {
+      "id": "buckwheat",
+      "scientificName": "Eriogonum umbellatum",
+      "description": "Yellow flower clusters mature into rusty seed heads that supply food for birds and other wildlife. Low, persistent leaf mats fit the open spaces of rocky meadows without requiring a tall shrub layer.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Eriogonum umbellatum",
+          "url": "https://plants.ces.ncsu.edu/plants/eriogonum-umbellatum/"
+        }
+      ]
+    },
+    {
+      "id": "blueColumbine",
+      "scientificName": "Aquilegia coerulea",
+      "description": "Long nectar spurs create a feeding niche for long-tongued pollinators in Rocky Mountain meadows and woodland openings. Blue-and-white flowers rise on airy stems above a small foliage clump, fitting between grasses and larger perennials.",
+      "sources": [
+        {
+          "label": "Camp Creek Native Plants: Colorado columbine",
+          "url": "https://www.campcreeknativeplants.com/product-page/colorado-columbine-aquilegia-coerulea"
+        }
+      ]
+    },
+    {
+      "id": "barberry",
+      "scientificName": "Berberis repens",
+      "description": "Blue fruit feeds birds and small mammals, while the low evergreen foliage keeps cover on the woodland floor year-round. Yellow spring flowers appear above leathery, prickly leaves that spread into a ground layer.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Berberis repens",
+          "url": "https://plants.ces.ncsu.edu/plants/berberis-repens/"
+        }
+      ]
+    },
+    {
+      "id": "hairgrass",
+      "scientificName": "Deschampsia cespitosa",
+      "description": "Dense leaf tufts and an airy canopy of seed heads form two distinct layers in a moist meadow. Retaining the tufts preserves low shelter and structure after the flowering stems dry.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Deschampsia cespitosa",
+          "url": "https://plants.ces.ncsu.edu/plants/deschampsia-cespitosa/"
+        }
+      ]
+    },
+    {
+      "id": "desertMarigold",
+      "scientificName": "Baileya multiradiata",
+      "description": "Woolly gray leaves and repeated yellow daisies fit open, drought-prone ground. Its ecological niche is a low flowering patch among desert shrubs, adding seasonal forage without creating a dense, irrigated canopy.",
+      "sources": [
+        {
+          "label": "Utah Department of Agriculture Pollinator Habitat Program",
+          "url": "https://ag.utah.gov/wp-content/uploads/2023/08/Baileya-multiradiata.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fairyDuster",
+      "scientificName": "Calliandra eriophylla",
+      "description": "A fine-branched shrub for rocky washes and arid grassland edges, with pink stamens held like small brushes. Its low woody growth adds a sheltered layer between bare ground and taller desert trees.",
+      "sources": [
+        {
+          "label": "University of Arizona Yavapai native plants",
+          "url": "https://yavapaiplants.extension.arizona.edu/calliandra-eriophylla"
+        }
+      ]
+    },
+    {
+      "id": "desertWillow",
+      "scientificName": "Chilopsis linearis",
+      "description": "Pink trumpets supply nectar to hummingbirds in dry washes and desert gardens. Older, dried stems can also provide nesting material for leafcutter bees, giving this small tree a role beyond its summer flowers.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chilopsis linearis",
+          "url": "https://plants.ces.ncsu.edu/plants/chilopsis-linearis/"
+        },
+        {
+          "label": "Xerces Society: natural nesting and overwintering habitat",
+          "url": "https://xerces.org/sites/default/files/publications/18-014_02_Natural-Nesting-Overwintering-FS_web.pdf"
+        }
+      ]
+    },
+    {
+      "id": "clarkia",
+      "scientificName": "Clarkia amoena",
+      "description": "A reseeding annual that fills sunny openings with satiny pink cups before returning to seed. It fits the seasonal flowering layer of western meadows, leaving room for perennial grasses rather than building a permanent woody canopy.",
+      "sources": [
+        {
+          "label": "Missouri Botanical Garden: Clarkia amoena",
+          "url": "https://plantfinder.mobot.org/PlantFinderDetails.aspx?kempercode=b741"
+        }
+      ]
+    },
+    {
+      "id": "woolly",
+      "scientificName": "Eriophyllum lanatum",
+      "description": "Silver foliage and yellow daisies extend flowering across dry, rocky habitat gardens. Its low basal growth fits open spaces between shrubs, while the raised flowers supply a feeding surface for butterflies.",
+      "sources": [
+        {
+          "label": "California Flora Nursery — woolly sunflower, inland form",
+          "url": "https://www.calfloranursery.com/plants/eriophyllum-lanatum-inland-form/"
+        }
+      ]
+    },
+    {
+      "id": "oregonGrape",
+      "scientificName": "Berberis aquifolium",
+      "description": "Blue berries supply bird food beneath glossy, prickly evergreen leaves. This shrub creates a persistent understory layer in woodland gardens, pairing spring flower clusters with fruit and cover later in the year.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Berberis aquifolium",
+          "url": "https://plants.ces.ncsu.edu/plants/berberis-aquifolium/"
+        }
+      ]
+    },
+    {
+      "id": "salal",
+      "scientificName": "Gaultheria shallon",
+      "description": "Brown elfin caterpillars use the foliage, and birds and mammals eat the dark berries. The broad evergreen leaves form a dense understory that keeps shelter in Pacific Northwest woods through winter.",
+      "sources": [
+        {
+          "label": "NC State Extension — Gaultheria shallon",
+          "url": "https://plants.ces.ncsu.edu/plants/gaultheria-shallon/"
+        }
+      ]
+    },
+    {
+      "id": "camas",
+      "scientificName": "Camassia quamash",
+      "description": "Blue flower spikes use the spring moisture of seasonally wet meadows, then the bulbs retreat into summer dormancy. That timing lets camas share ground with later-growing meadow plants instead of needing summer irrigation to remain visible.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: common camas",
+          "url": "https://www.calfloranursery.com/plants/camassia-quamash/"
+        }
+      ]
+    },
+    {
+      "id": "ninebark",
+      "scientificName": "Physocarpus capitatus",
+      "description": "A vigorous shrub for wooded stream edges, where spreading branches build a mid-height cover layer. White flower clusters are followed by red seed capsules, and the foliage is documented as butterfly and moth host material.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/physocarpus-capitatus/"
+        }
+      ]
+    },
+    {
+      "id": "calBuckwheat",
+      "scientificName": "Eriogonum fasciculatum",
+      "description": "Cream flowers age to rust on a rounded, drought-adapted shrub. Its pioneer growth helps occupy exposed soil and control erosion, while persistent flower clusters extend the feeding season in dry habitat gardens.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: California buckwheat",
+          "url": "https://www.calfloranursery.com/plants/eriogonum-fasciculatum/"
+        }
+      ]
+    },
+    {
+      "id": "calFuchsia",
+      "scientificName": "Epilobium canum",
+      "description": "Red tubes provide a late-season nectar supply for hummingbirds after many spring wildflowers have finished. Low, spreading stems fit sunny banks and open shrubland edges rather than a shaded woodland floor.",
+      "sources": [
+        {
+          "label": "UC Davis Arboretum: California fuchsia",
+          "url": "https://www.arboretum.ucdavis.edu/all-stars/california-fuchsia"
+        }
+      ]
+    },
+    {
+      "id": "coyoteMint",
+      "scientificName": "Monardella villosa",
+      "description": "A low, aromatic shrublet for open California habitat gardens, placing lavender flower heads close to the ground. Its compact evergreen mound supplies a different layer from tall meadow stalks or large woody shrubs.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: coyote mint",
+          "url": "https://www.calfloranursery.com/plants/monardella-villosa/"
+        }
+      ]
+    },
+    {
+      "id": "calRose",
+      "scientificName": "Rosa californica",
+      "description": "Thorny thickets create protected foraging cover, while rosehips feed birds after the pink flowers are gone. Along seasonally moist streams, spreading roots also help hold banks in place; several butterflies use the foliage as larval food.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: California wild rose",
+          "url": "https://www.calfloranursery.com/plants/rosa-californica/"
+        }
+      ]
+    },
+    {
+      "id": "fireweed",
+      "scientificName": "Chamerion angustifolium",
+      "description": "Tall pink spires occupy recently opened ground, including disturbed forest sites. Its leaves feed butterfly and moth larvae, so a recovering patch offers food as well as a conspicuous summer bloom.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chamerion angustifolium",
+          "url": "https://plants.ces.ncsu.edu/plants/chamerion-angustifolium/"
+        }
+      ]
+    },
+    {
+      "id": "bunchberry",
+      "scientificName": "Cornus canadensis",
+      "description": "Red fruits provide food for birds above a very low woodland carpet. Whorled leaves and white bracts fill the ground layer beneath shrubs, bringing a fruiting plant into spaces too small for another woody canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Cornus canadensis",
+          "url": "https://plants.ces.ncsu.edu/plants/cornus-canadensis/"
+        }
+      ]
+    },
+    {
+      "id": "alaskaIris",
+      "scientificName": "Iris setosa",
+      "description": "Clumps of sword-shaped leaves form a low vertical layer in moist northern planting sites. Blue-violet flowers rise above those fans, fitting the edge of a wet meadow rather than dry, exposed gravel.",
+      "sources": [
+        {
+          "label": "Keeping It Green Nursery: Iris setosa",
+          "url": "https://www.keepingitgreennursery.com/products/copy-of-iris-setosa-bristle-pointed-iris"
+        }
+      ]
+    },
+    {
+      "id": "ilima",
+      "scientificName": "Sida fallax",
+      "description": "Native yellow-faced bees use ʻilima flowers; on Nīhoa, flower buds also feed the critically endangered Nihoa finch. Coastal forms spread low over exposed ground, while upland forms can build a small shrub layer.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Sida fallax",
+          "url": "https://nativeplants.hawaii.edu/plants/sida-fallax/"
+        }
+      ]
+    },
+    {
+      "id": "mossPhlox",
+      "scientificName": "Phlox subulata",
+      "description": "A tight mat of needlelike leaves occupies sunny rock ledges and dry banks. Spring flower tubes offer a low nectar source for long-tongued insects before taller summer meadow plants reach full growth.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Phlox subulata",
+          "url": "https://plants.ces.ncsu.edu/plants/phlox-subulata/"
+        }
+      ]
+    },
+    {
+      "id": "spicebush",
+      "scientificName": "Lindera benzoin",
+      "description": "SUNY ESF lists 11 caterpillar species associated with spicebush, including spicebush swallowtail and promethea moth. Pollinated female shrubs also produce red fruit used by migrating songbirds, connecting spring foliage to autumn bird food.",
+      "sources": [
+        {
+          "label": "NC State Extension — Lindera benzoin",
+          "url": "https://plants.ces.ncsu.edu/plants/lindera-benzoin/"
+        },
+        {
+          "label": "SUNY ESF: regional host-plant associations",
+          "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+        }
+      ]
+    },
+    {
+      "id": "blueFlag",
+      "scientificName": "Iris versicolor",
+      "description": "Sword-shaped leaves create cover and vertical structure at freshwater margins. The spreading clumps occupy saturated soil between open water and taller wetland plants, with blue-violet flowers adding a brief early-season display.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Iris versicolor",
+          "url": "https://plants.ces.ncsu.edu/plants/iris-versicolor/"
+        }
+      ]
+    },
+    {
+      "id": "beachPlum",
+      "scientificName": "Prunus maritima",
+      "description": "White spring flowers are followed by purple plums on a dense, often suckering shrub. Its niche is the coastal thicket layer: a fruiting, woody planting that can occupy sandy edges rather than a conventional flower bed.",
+      "sources": [
+        {
+          "label": "Native Plant Trust: beach plum",
+          "url": "https://plantfinder.nativeplanttrust.org/plant/Prunus-maritima"
+        }
+      ]
+    },
+    {
+      "id": "clethra",
+      "scientificName": "Clethra alnifolia",
+      "description": "Fragrant white spikes supply summer nectar, followed by dry fruits eaten by birds and small mammals. Suckering branches create a shrub layer on moist woodland edges where many sun-loving meadow plants struggle.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Clethra alnifolia",
+          "url": "https://plants.ces.ncsu.edu/plants/clethra-alnifolia/"
+        }
+      ]
+    },
+    {
+      "id": "sweetfern",
+      "scientificName": "Comptonia peregrina",
+      "description": "Fernlike leaves belong to a woody shrub, not a fern. Its spreading colonies occupy poor, sandy ground, adding a low shrub layer where exposed soil and dry woodland openings leave gaps between taller plants.",
+      "sources": [
+        {
+          "label": "NC State Extension — Comptonia peregrina",
+          "url": "https://plants.ces.ncsu.edu/plants/comptonia-peregrina/"
+        }
+      ]
+    },
+    {
+      "id": "bayberry",
+      "scientificName": "Morella pensylvanica",
+      "description": "Waxy gray fruit supplies birds with food after much softer fruit has disappeared, while Columbia silkmoth caterpillars use the foliage. Dense, aromatic branches make a persistent coastal shrub layer; fruiting requires female plants and suitable pollination.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Morella pensylvanica",
+          "url": "https://plants.ces.ncsu.edu/plants/myrica-pensylvanica/"
+        }
+      ]
+    },
+    {
+      "id": "arcticWillow",
+      "scientificName": "Salix arctica",
+      "description": "A woody plant scaled to the tundra floor: creeping stems keep leaves and catkins close to sheltered ground. It occupies the low shrub layer of alpine meadows rather than forming a conventional tree canopy.",
+      "sources": [
+        {
+          "label": "University of Washington plant propagation sheet: Salix arctica",
+          "url": "https://depts.washington.edu/propplnt/Plants/salix%20arctica.htm"
+        }
+      ]
+    },
+    {
+      "id": "cottonGrass",
+      "scientificName": "Eriophorum vaginatum",
+      "description": "Tussock cottongrass supplies important spring forage for caribou and supports lemmings and voles in Arctic communities. Its raised leaf clumps create the uneven structure of tussock tundra beneath the familiar white seed tufts.",
+      "sources": [
+        {
+          "label": "US Forest Service FEIS: tussock cottongrass",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/erivag"
+        }
+      ]
+    },
+    {
+      "id": "waterSedge",
+      "scientificName": "Carex aquatilis",
+      "description": "Geese and tundra swans graze the foliage, and northern sedge stands provide nesting cover for waterbirds. Strong spreading roots also bind streambanks, linking the wet meadow food web to protection of the water’s edge.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Carex aquatilis",
+          "url": "https://westernnativeseed.com/product/carex-aquatilis/"
+        },
+        {
+          "label": "US Forest Service: water sedge food and cover",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/caraqu"
+        }
+      ]
+    },
+    {
+      "id": "dryas",
+      "scientificName": "Dryas octopetala",
+      "description": "A low woody mat with cream flowers and feathery seed plumes, fitted to exposed alpine and Arctic ground. Its close-growing leaves form a persistent vegetation layer where taller shrubs cannot establish easily.",
+      "sources": [
+        {
+          "label": "Royal Horticultural Society species profile",
+          "url": "https://www.rhs.org.uk/plants/6152/dryas-octopetala/details"
+        }
+      ]
+    },
+    {
+      "id": "lyngbye",
+      "scientificName": "Carex lyngbyei",
+      "description": "Broad stands of this sedge build the living structure of Pacific tidal marshes. Spreading rhizomes occupy wet, brackish margins, creating a vegetated transition between tidal channels and higher ground.",
+      "sources": [
+        {
+          "label": "University of Washington plant propagation data sheet",
+          "url": "https://depts.washington.edu/propplnt/Plants/Clyngby.htm"
+        }
+      ]
+    },
+    {
+      "id": "crowberry",
+      "scientificName": "Empetrum nigrum",
+      "description": "Black berries supply food for birds above an evergreen carpet of tiny leaves. The low mat occupies acidic northern ground and retains a woody cover layer after seasonal herbs have died back.",
+      "sources": [
+        {
+          "label": "Kwantlen Polytechnic University: crowberry",
+          "url": "https://plantdatabase.kpu.ca/PlantPrint/emni"
+        }
+      ]
+    },
+    {
+      "id": "lingonberry",
+      "scientificName": "Vaccinium vitis-idaea",
+      "description": "Red berries and persistent glossy leaves combine food and low cover on acidic northern sites. The creeping evergreen stems fit the dwarf-shrub layer beneath open boreal woodland rather than the tall forest canopy.",
+      "sources": [
+        {
+          "label": "Missouri Botanical Garden Plant Finder",
+          "url": "https://plantfinder.mobot.org/PlantFinderDetails.aspx?12=&ht=1&isprofile=0&taxonid=279945"
+        }
+      ]
+    },
+    {
+      "id": "beachRye",
+      "scientificName": "Leymus mollis",
+      "description": "Strong rhizomes bind shifting sand, helping build and stabilize coastal dunes. Coarse blue-green blades create a wind-exposed grass layer that protects the ground behind the beach from direct sand movement.",
+      "sources": [
+        {
+          "label": "Sevenoaks Native Nursery: Leymus mollis",
+          "url": "https://sevenoaksnativenursery.com/product/leymus-mollis/"
+        }
+      ]
+    },
+    {
+      "id": "bluebunch",
+      "scientificName": "Pseudoroegneria spicata",
+      "description": "An open bunchgrass of western steppe and foothills, with spaces between clumps for smaller forbs. Its upright leaves and seed stalks build grassland structure without spreading into the continuous sod of a lawn.",
+      "sources": [
+        {
+          "label": "USDA PLANTS: bluebunch wheatgrass",
+          "url": "https://plants.sc.egov.usda.gov/plant-profile/PSSPS/characteristics"
+        }
+      ]
+    },
+    {
+      "id": "switchgrass",
+      "scientificName": "Panicum virgatum",
+      "description": "Skipper and common wood-nymph caterpillars feed on the foliage, and birds take winter seeds. Standing stems keep year-round cover in meadow plantings; retain the bases to preserve sheltered places used by overwintering bumblebee queens.",
+      "sources": [
+        {
+          "label": "NC State Extension — Panicum virgatum",
+          "url": "https://plants.ces.ncsu.edu/plants/panicum-virgatum/"
+        },
+        {
+          "label": "Xerces Society: bunchgrasses and overwintering habitat",
+          "url": "https://www.xerces.org/blog/5-ways-to-increase-nesting-habitat-for-bees"
+        }
+      ]
+    },
+    {
+      "id": "pecan",
+      "scientificName": "Carya illinoinensis",
+      "description": "Luna moth and hickory horned devil caterpillars feed on pecan foliage. The broad canopy produces nuts for birds and small mammals, making a mature tree both a larval food source and an autumn food store.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Carya illinoinensis",
+          "url": "https://plants.ces.ncsu.edu/plants/carya-illinoinensis/"
+        }
+      ]
+    },
+    {
+      "id": "cypress",
+      "scientificName": "Taxodium distichum",
+      "description": "Wood ducks and other wildlife eat the seeds, while old trees develop hollows that offer shelter. Feathery foliage and a broad wetland canopy give bald cypress a lasting role in freshwater swamp habitat.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Taxodium distichum",
+          "url": "https://plants.ces.ncsu.edu/plants/taxodium-distichum/"
+        }
+      ]
+    },
+    {
+      "id": "aspen",
+      "scientificName": "Populus tremuloides",
+      "description": "Root suckers can build whole groves, creating a deciduous canopy rather than a solitary shade tree. Pale trunks and fluttering leaves bring a different forest layer to suitable cool sites, with room needed for the colony to expand.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "id": "burOak",
+      "scientificName": "Quercus macrocarpa",
+      "description": "Large acorns feed turkeys, squirrels and other mammals, while mature branches provide bird nesting sites. Beneath the broad crown, retaining leaf litter preserves the woodland floor needed by insects that leave the canopy to pupate.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        },
+        {
+          "label": "National Wildlife Federation: eastern oak food webs and leaf-layer habitat",
+          "url": "https://www.nwf.org/Native-Plant-Habitats/Impact/Wildlife-and-Biodiversity"
+        }
+      ]
+    },
+    {
+      "id": "westernWheat",
+      "scientificName": "Pascopyrum smithii",
+      "description": "Spreading underground stems knit soil into a dry grassland sod. Blue-green leaves form the lower vegetation layer of prairie and restoration plantings, filling ground between larger shrubs without relying on a showy bloom.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Pascopyrum smithii",
+          "url": "https://westernnativeseed.com/product/pascopyrum-smithii/"
+        }
+      ]
+    },
+    {
+      "id": "cottonwood",
+      "scientificName": "Populus deltoides",
+      "description": "Eastern tiger swallowtail and red-spotted purple caterpillars use the leaves, and beavers use young stems for food and construction. Fast growth builds a tall riparian canopy that belongs in spacious floodplain habitat.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "id": "sandBluestem",
+      "scientificName": "Andropogon hallii",
+      "description": "Rhizomes anchor loose, deep sand while tall stems build a grassland canopy above it. Its niche is sandy prairie, where retaining the grass layer helps keep open ground from becoming mobile.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Andropogon hallii",
+          "url": "https://westernnativeseed.com/product/andropogon-hallii/"
+        }
+      ]
+    },
+    {
+      "id": "saltgrass",
+      "scientificName": "Distichlis spicata",
+      "description": "Dense rhizomes form a low sod on saline or alkaline ground. This grass occupies places where many garden plants fail, building vegetation along salty wetland edges and disturbed coastal or inland flats.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Distichlis spicata",
+          "url": "https://westernnativeseed.com/product/distichlis-spicata/"
+        }
+      ]
+    },
+    {
+      "id": "buffaloGrass",
+      "scientificName": "Bouteloua dactyloides",
+      "description": "Low runners form a dry prairie sod rather than a tall meadow canopy. It can protect sunny soil while keeping vegetation short, making its ground-layer role more important than its inconspicuous flowers.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Bouteloua dactyloides",
+          "url": "https://plants.ces.ncsu.edu/plants/bouteloua-dactyloides/"
+        }
+      ]
+    },
+    {
+      "id": "sacaton",
+      "scientificName": "Sporobolus airoides",
+      "description": "Large, tough clumps protect soil on dry, alkaline or saline ground. Open seed sprays rise above the foliage, adding tall grass structure to restoration sites with limited moisture.",
+      "sources": [
+        {
+          "label": "NC State Extension — Sporobolus airoides",
+          "url": "https://plants.ces.ncsu.edu/plants/sporobolus-airoides/"
+        }
+      ]
+    },
+    {
+      "id": "bigBluestem",
+      "scientificName": "Andropogon gerardii",
+      "description": "Common wood-nymph and skipper caterpillars use its foliage. Tall coppery stems create the vertical framework of a prairie planting, and uncut clump bases can preserve overwintering shelter for bumblebee queens.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Andropogon gerardii",
+          "url": "https://plants.ces.ncsu.edu/plants/andropogon-gerardi/"
+        },
+        {
+          "label": "Xerces Society: bunchgrasses and overwintering habitat",
+          "url": "https://www.xerces.org/blog/5-ways-to-increase-nesting-habitat-for-bees"
+        }
+      ]
+    },
+    {
+      "id": "postOak",
+      "scientificName": "Quercus stellata",
+      "description": "Acorns, caterpillar-bearing foliage and a broad canopy connect this dry-site oak to woodland food webs. Retain a leaf layer beneath the tree so canopy insects have sheltered ground in which to complete their life cycles.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus stellata",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-stellata/"
+        },
+        {
+          "label": "National Wildlife Federation: eastern oak food webs and leaf-layer habitat",
+          "url": "https://www.nwf.org/Native-Plant-Habitats/Impact/Wildlife-and-Biodiversity"
+        }
+      ]
+    },
+    {
+      "id": "escarpmentOak",
+      "scientificName": "Quercus fusiformis",
+      "description": "A broad evergreen crown provides persistent shelter in locally native Texas oak woodland. Acorns add a seasonal food crop, while the low, spreading branches create a woody layer that cannot be replaced by flowers alone.",
+      "sources": [
+        {
+          "label": "UC Davis Arboretum tree database",
+          "url": "https://arboretum.ucdavis.edu/tree-database/escarpment-live-oak-quercus-fusiformis"
+        }
+      ]
+    },
+    {
+      "id": "honeyMesquite",
+      "scientificName": "Prosopis glandulosa",
+      "description": "Thorny branches build a woody canopy in dry landscapes, with cream flower spikes followed by long pods. Its niche is the desert and dry grassland tree layer, where the shade contrasts with surrounding open ground.",
+      "sources": [
+        {
+          "label": "Texas Tech University Woody Plant Finder",
+          "url": "https://www.depts.ttu.edu/plantresources/Pages/directories/landscape-info-sheets/woody-info/Prosopis_glandulosa.php"
+        }
+      ]
+    },
+    {
+      "id": "idahoFescue",
+      "scientificName": "Festuca idahoensis",
+      "description": "Fine evergreen leaves create small, persistent bunches rather than a spreading lawn. In dry western meadows, the spaces between clumps leave room for wildflowers while the bases retain low structural shelter.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/festuca-idahoensis/"
+        }
+      ]
+    },
+    {
+      "id": "bitterbrush",
+      "scientificName": "Purshia tridentata",
+      "description": "Mule deer and pronghorn browse the leaves and twigs, while deer mice and kangaroo rats eat the seeds. This western shrub can be especially important as winter food, giving it a role that a summer flower display cannot fill.",
+      "sources": [
+        {
+          "label": "Oregon State University: Purshia tridentata",
+          "url": "https://landscapeplants.oregonstate.edu/plants/purshia-tridentata"
+        },
+        {
+          "label": "US Forest Service: antelope bitterbrush wildlife use",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/purtri"
+        }
+      ]
+    },
+    {
+      "id": "sagebrush",
+      "scientificName": "Artemisia tridentata",
+      "description": "Greater sage-grouse depend on sagebrush for winter food and cover in intact sagebrush landscapes. Aromatic gray foliage forms the shrub layer of that ecosystem; a garden specimen reflects the plant’s role but cannot replace a large habitat tract.",
+      "sources": [
+        {
+          "label": "Pine Lane Nursery — tall western sagebrush",
+          "url": "https://www.pinelanenursery.com/catalog/product/sage-tall-western/"
+        },
+        {
+          "label": "Bureau of Land Management: sage-grouse seasonal habitat",
+          "url": "https://www.blm.gov/sites/default/files/docs/2022-08/TR6710-1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ricegrass",
+      "scientificName": "Achnatherum hymenoides",
+      "description": "Widely spaced seed heads produce a food crop for birds on dry, sandy ground. Fine leaf tufts occupy the open bunchgrass layer, leaving space for other desert and steppe plants between them.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Achnatherum hymenoides",
+          "url": "https://westernnativeseed.com/product/achnatherum-hymenoides/"
+        }
+      ]
+    },
+    {
+      "id": "fourwing",
+      "scientificName": "Atriplex canescens",
+      "description": "Quail and grouse eat the fruits, while rabbits and larger browsing mammals use the foliage. Gray branching growth supplies shade and roosting cover on dry, saline ground, retaining food and shelter during drought.",
+      "sources": [
+        {
+          "label": "Colorado State University Extension / Jefferson County plant database",
+          "url": "https://coloradoplants.jeffco.us/plant/details/175"
+        },
+        {
+          "label": "US Forest Service: fourwing saltbush wildlife use",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/atrcan"
+        }
+      ]
+    },
+    {
+      "id": "creosote",
+      "scientificName": "Larrea tridentata",
+      "description": "The Arizona-Sonora Desert Museum reports more than 60 associated insect species, including 22 specialist bee species. Yellow flowers, shaded ground and shelter for burrowing animals make this shrub a small habitat hub in Sonoran Desert scrub.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Larrea tridentata",
+          "url": "https://plants.ces.ncsu.edu/plants/larrea-tridentata/"
+        },
+        {
+          "label": "Arizona-Sonora Desert Museum: creosote insect associations",
+          "url": "https://www.desertmuseum.org/books/nhsd_zygophyllaceae.php"
+        }
+      ]
+    },
+    {
+      "id": "blackGrama",
+      "scientificName": "Bouteloua eriopoda",
+      "description": "A spreading grass that supplies forage for wildlife in desert grasslands. Fine, low stems create a ground layer between shrubs, helping maintain grassland structure on dry plains and foothills.",
+      "sources": [
+        {
+          "label": "University of Arizona Extension: black grama",
+          "url": "https://yavapaiplants.extension.arizona.edu/bouteloua-eriopoda"
+        }
+      ]
+    },
+    {
+      "id": "emoryOak",
+      "scientificName": "Quercus emoryi",
+      "description": "A persistent oak canopy in Southwestern woodland, with glossy leaves and an acorn crop. It adds woody cover above the grass and shrub layers on sites within its natural range.",
+      "sources": [
+        {
+          "label": "University of Arizona Yavapai native plants",
+          "url": "https://yavapaiplants.extension.arizona.edu/quercus-emoryi"
+        }
+      ]
+    },
+    {
+      "id": "ohia",
+      "scientificName": "Metrosideros polymorpha",
+      "description": "ʻApapane use ʻōhiʻa for nectar and nesting, while ʻiʻiwi and ʻākohekohe also forage at its flowers. Red lehua blossoms sit on a foundational Hawaiian forest tree whose crown supports far more than a brief floral display.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Metrosideros polymorpha",
+          "url": "https://nativeplants.hawaii.edu/plants/metrosideros-polymorpha/"
+        },
+        {
+          "label": "Cornell Lab of Ornithology: ʻapapane food and nesting",
+          "url": "https://www.allaboutbirds.org/guide/Apapane/lifehistory"
+        },
+        {
+          "label": "National Park Service: native Hawaiian forest birds",
+          "url": "https://www.nps.gov/hale/learn/nature/native-hawaiian-forest-birds.htm"
+        }
+      ]
+    },
+    {
+      "id": "uluhe",
+      "scientificName": "Dicranopteris linearis",
+      "description": "Forking fronds weave a dense vegetation layer across moist Hawaiian slopes. This climbing fern occupies open and forested sites, contributing physical cover even though it produces neither flowers nor fruit.",
+      "sources": [
+        {
+          "label": "Hawaiʻi DLNR — ʻUluhe",
+          "url": "https://dlnr.hawaii.gov/forestry/plants/uluhe/"
+        }
+      ]
+    },
+    {
+      "id": "aalii",
+      "scientificName": "Dodonaea viscosa",
+      "description": "Blackburn’s blue caterpillars feed on ʻaʻaliʻi, and the native koa bug also uses the plant. Winged pink-to-red seed capsules top a resilient pioneer shrub that can recolonize disturbed Hawaiian ground.",
+      "sources": [
+        {
+          "label": "Native Hawaiʻi Plants: Dodonaea viscosa",
+          "url": "https://nativeplants.hawaii.edu/plants/dodonaea-viscosa/"
+        }
+      ]
+    },
+    {
+      "id": "pukiawe",
+      "scientificName": "Leptecophylla tameiameiae",
+      "description": "Nēnē eat the berries and spread the seeds in their droppings. Small, needlelike leaves create a fine-textured shrub layer in Hawaiian upland vegetation, where the white-to-red fruit is more ecologically revealing than the tiny flowers.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi — Native Hawaiʻi Plants",
+          "url": "https://nativeplants.hawaii.edu/plants/leptecophylla-tameiameiae/"
+        }
+      ]
+    },
+    {
+      "id": "ohelo",
+      "scientificName": "Vaccinium reticulatum",
+      "description": "ʻŌhelo berries feed nēnē, which disperse the seeds; two endemic fruitworm moths also depend on ʻōhelo berries for larval development. This low shrub helps colonize exposed lava and cinder in Hawaiian uplands.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Vaccinium reticulatum",
+          "url": "https://nativeplants.hawaii.edu/plants/vaccinium-reticulatum/"
+        }
+      ]
+    },
+    {
+      "id": "naupaka",
+      "scientificName": "Scaevola taccada",
+      "description": "Fleshy leaves and dense branching create a salt-tolerant coastal shrub layer. Pale fruits float on ocean currents, helping this shoreline plant disperse between islands before seeds germinate with fresh water.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants",
+          "url": "https://nativeplants.hawaii.edu/plants/scaevola-sericea/"
+        }
+      ]
+    },
+    {
+      "id": "foamflower",
+      "scientificName": "Tiarella cordifolia",
+      "description": "A living woodland ground layer with pale spring flower spires, including beneath heavy shade. Spreading forms cover soil between shrubs and tree roots, adding low foliage where an open meadow planting would not fit.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Tiarella cordifolia",
+          "url": "https://plants.ces.ncsu.edu/plants/tiarella-cordifolia/"
+        }
+      ]
+    },
+    {
+      "id": "whiteAster",
+      "scientificName": "Eurybia divaricata",
+      "description": "Cornell documents two Dichomeris moth species using white wood aster as a larval host, alongside leaf-mining insects. White autumn flowers rise over a dry-shade ground layer whose seeds also feed birds and small mammals.",
+      "sources": [
+        {
+          "label": "NC State Extension — Eurybia divaricata",
+          "url": "https://plants.ces.ncsu.edu/plants/eurybia-divaricata/"
+        },
+        {
+          "label": "Cornell Botanic Gardens: white wood aster wildlife",
+          "url": "https://cornellbotanicgardens.org/plant/white-wood-aster"
+        }
+      ]
+    },
+    {
+      "id": "blueAster",
+      "scientificName": "Symphyotrichum cordifolium",
+      "description": "Pearl crescent caterpillars use the foliage, and songbirds eat the seeds. Airy pale-blue flower sprays also extend the autumn food season at woodland edges; Symphyotrichum asters support specialist pollen-collecting bees.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Symphyotrichum cordifolium",
+          "url": "https://plants.ces.ncsu.edu/plants/symphyotrichum-cordifolium/"
+        }
+      ]
+    },
+    {
+      "id": "cardinalFlower",
+      "scientificName": "Lobelia cardinalis",
+      "description": "Deep red flower tubes offer a hummingbird feeding niche along freshwater edges. Upright stems fit among sedges and other wetland perennials, helping carry nectar availability into summer rather than spring alone.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Lobelia cardinalis",
+          "url": "https://plants.ces.ncsu.edu/plants/lobelia-cardinalis/"
+        }
+      ]
+    },
+    {
+      "id": "beardtongue",
+      "scientificName": "Penstemon digitalis",
+      "description": "Penstemon foliage and flowers support relationships that include the specialist beardtongue bee, Osmia distincta. White tubes on tall stems add a spring feeding niche above the low leaf rosette in open woodland and meadow edges.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Penstemon digitalis",
+          "url": "https://plants.ces.ncsu.edu/plants/penstemon-digitalis/"
+        }
+      ]
+    },
+    {
+      "id": "crestedIris",
+      "scientificName": "Iris cristata",
+      "description": "Low fans of leaves spread into a woodland ground layer, with blue crested flowers held close above them. Its niche is the sheltered forest edge, where short rhizomatous plants fit below larger shrubs.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Iris cristata",
+          "url": "https://plants.ces.ncsu.edu/plants/iris-cristata/"
+        }
+      ]
+    },
+    {
+      "id": "seaOats",
+      "scientificName": "Chasmanthium latifolium",
+      "description": "Northern pearly-eye and several skipper butterflies use the leaves as caterpillar food; birds and small mammals eat the seeds. Arching stems fill the moist woodland grass layer, with flat bronze heads persisting after summer.",
+      "sources": [
+        {
+          "label": "NC State Extension — Chasmanthium latifolium",
+          "url": "https://plants.ces.ncsu.edu/plants/chasmanthium-latifolium/"
+        }
+      ]
+    },
+    {
+      "id": "boneset",
+      "scientificName": "Eupatorium perfoliatum",
+      "description": "White flower platforms offer an accessible feeding surface for small insects, while several moths use the plant as a larval host. Retaining the seed heads adds a bird-food resource along moist meadow edges.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Eupatorium perfoliatum",
+          "url": "https://plants.ces.ncsu.edu/plants/eupatorium-perfoliatum/"
+        }
+      ]
+    },
+    {
+      "id": "blueVervain",
+      "scientificName": "Verbena hastata",
+      "description": "Verbena moth and common buckeye caterpillars use the foliage, and cardinals, sparrows and juncos eat the seeds. Narrow purple spikes build a vertical layer in rain gardens without the mass of a woody shrub.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Verbena hastata",
+          "url": "https://plants.ces.ncsu.edu/plants/verbena-hastata/"
+        }
+      ]
+    },
+    {
+      "id": "prairieSmoke",
+      "scientificName": "Geum triflorum",
+      "description": "Nodding flowers give way to feathery seed plumes close above a low leaf rosette. This compact prairie perennial fits the short ground layer between bunchgrasses instead of shading out neighboring meadow plants.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Geum triflorum",
+          "url": "https://westernnativeseed.com/product/geum-triflorum/"
+        }
+      ]
+    },
+    {
+      "id": "roughBlazingStar",
+      "scientificName": "Liatris aspera",
+      "description": "Purple flower tufts mature into seed eaten by birds. Upright stems place a late-season nectar source above prairie grasses, then remain useful when the flower color has gone.",
+      "sources": [
+        {
+          "label": "NC State Extension — Liatris aspera",
+          "url": "https://plants.ces.ncsu.edu/plants/liatris-aspera/"
+        }
+      ]
+    },
+    {
+      "id": "rattlesnakeMaster",
+      "scientificName": "Eryngium yuccifolium",
+      "description": "The rattlesnake-master stem-borer moth develops inside the stems of this prairie plant. Spiky white flower heads also feed adult insects, giving the same plant both a larval shelter and a summer feeding role.",
+      "sources": [
+        {
+          "label": "NC State Extension — Eryngium yuccifolium",
+          "url": "https://plants.ces.ncsu.edu/plants/eryngium-yuccifolium/"
+        }
+      ]
+    },
+    {
+      "id": "currant",
+      "scientificName": "Ribes sanguineum",
+      "description": "Spring flower clusters supply nectar for hummingbirds, and dark fruit later feeds birds and small mammals. This shrub also hosts ceanothus silkmoth caterpillars and provides a woody nesting layer in western hedgerows.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Ribes sanguineum",
+          "url": "https://plants.ces.ncsu.edu/plants/ribes-sanguineum/"
+        }
+      ]
+    },
+    {
+      "id": "vineMaple",
+      "scientificName": "Acer circinatum",
+      "description": "Small, often multi-stemmed trees form a lower canopy beneath larger Pacific Northwest forest trees. Rounded leaves and arching branches create an understory layer rather than the deep, high shade of a full-sized canopy maple.",
+      "sources": [
+        {
+          "label": "NC State Extension — Acer circinatum",
+          "url": "https://plants.ces.ncsu.edu/plants/acer-circinatum/"
+        }
+      ]
+    },
+    {
+      "id": "swordFern",
+      "scientificName": "Polystichum munitum",
+      "description": "Evergreen fronds keep shelter on the forest floor through winter, and black bears use them as bedding. The arching crowns add a substantial woodland layer without needing a flower or berry crop.",
+      "sources": [
+        {
+          "label": "NC State Extension — Polystichum munitum",
+          "url": "https://plants.ces.ncsu.edu/plants/polystichum-munitum/"
+        }
+      ]
+    },
+    {
+      "id": "salmonberry",
+      "scientificName": "Rubus spectabilis",
+      "description": "Early magenta flowers supply nectar, followed by soft fruit for birds and small mammals. Spreading, prickly thickets also provide nesting and escape cover, making salmonberry a structural part of moist western woodland edges.",
+      "sources": [
+        {
+          "label": "NC State Extension — Rubus spectabilis",
+          "url": "https://plants.ces.ncsu.edu/plants/rubus-spectabilis/"
+        }
+      ]
+    },
+    {
+      "id": "blanketflower",
+      "scientificName": "Gaillardia aristata",
+      "description": "Red-and-yellow flower heads supply an open feeding surface in sunny meadows, and the plant also attracts birds. Its low clump fits among grasses, adding seasonal flowers without becoming a woody barrier.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Gaillardia aristata",
+          "url": "https://plants.ces.ncsu.edu/plants/gaillardia-aristata/"
+        }
+      ]
+    },
+    {
+      "id": "blueFlax",
+      "scientificName": "Linum lewisii",
+      "description": "Deer mice eat the seeds produced after the delicate blue flowers fall. Slender stems fit open western meadows, contributing a small-seeded food source rather than a dense cover plant.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Linum lewisii",
+          "url": "https://plants.ces.ncsu.edu/plants/linum-lewisii/"
+        }
+      ]
+    },
+    {
+      "id": "rockyPenstemon",
+      "scientificName": "Penstemon strictus",
+      "description": "Blue-violet trumpets sit above a low rosette on sunny, rocky ground. The open flower throats offer a feeding niche for large bees, complementing the narrower hummingbird tubes of red-flowered penstemons.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Penstemon strictus",
+          "url": "https://westernnativeseed.com/product/penstemon-strictus/"
+        }
+      ]
+    },
+    {
+      "id": "junegrass",
+      "scientificName": "Koeleria macrantha",
+      "description": "Dryland grasshoppers and leafhoppers feed on the blades of this short prairie grass. It greens up before many warm-season grasses, adding early living foliage and an insect food source to sparse, sandy meadow habitat.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/koeleria-macrantha/"
+        },
+        {
+          "label": "Illinois Wildflowers: junegrass fauna",
+          "url": "https://www.illinoiswildflowers.info/grasses/plants/june_grass.htm"
+        }
+      ]
+    },
+    {
+      "id": "tansyaster",
+      "scientificName": "Machaeranthera tanacetifolia",
+      "description": "An annual or short-lived component of open, disturbed western ground, with purple daisies above finely divided leaves. It fits the seasonal flowering gaps between longer-lived grasses and shrubs.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Machaeranthera tanacetifolia",
+          "url": "https://westernnativeseed.com/product/machaeranthera-tanacetifolia/"
+        }
+      ]
+    },
+    {
+      "id": "rockHibiscus",
+      "scientificName": "Hibiscus denudatus",
+      "description": "A low desert mallow with pale pink cups and small, drought-adapted leaves. It adds a flowering understory to rocky scrub while keeping an open form suited to sparse desert vegetation.",
+      "sources": [
+        {
+          "label": "Arizona-Sonora Desert Museum — rock hibiscus",
+          "url": "https://www.desertmuseum.org/books/nhsd_malvaceae.php?print=y"
+        }
+      ]
+    },
+    {
+      "id": "antelopeHorns",
+      "scientificName": "Asclepias asperula",
+      "description": "Monarch caterpillars can feed on this low milkweed’s leaves. Greenish flower globes and curved pods bring a host plant into dry southern grassland, where a moisture-loving swamp milkweed would be out of place.",
+      "sources": [
+        {
+          "label": "Utah Department of Agriculture: Asclepias asperula",
+          "url": "https://ag.utah.gov/wp-content/uploads/2024/09/Asclepias-asperula.pdf"
+        }
+      ]
+    },
+    {
+      "id": "globemallow",
+      "scientificName": "Sphaeralcea ambigua",
+      "description": "Apricot flowers supply a long flowering window in dry desert plantings. Silvery foliage forms a small shrub layer above open ground, fitting between cacti and larger desert shrubs rather than requiring a lush meadow.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/sphaeralcea-ambigua/"
+        }
+      ]
+    },
+    {
+      "id": "calPoppy",
+      "scientificName": "Eschscholzia californica",
+      "description": "Orange cups provide pollen rather than a nectar reward. California poppy uses seasonal openings in western grassland, surviving as seed or a dormant perennial according to climate, then renewing its flowers when conditions improve.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Eschscholzia californica",
+          "url": "https://plants.ces.ncsu.edu/plants/eschscholzia-californica/"
+        },
+        {
+          "label": "UC Agriculture and Natural Resources: California poppy pollen",
+          "url": "https://ucanr.edu/blog/bug-squad/article/california-poppy-no-nectar-just-pollen"
+        },
+        {
+          "label": "US Forest Service: California poppy seasonal growth",
+          "url": "https://www.fs.usda.gov/managing-land/wildflowers/plant-of-the-week/eschscholzia-californica"
+        }
+      ]
+    },
+    {
+      "id": "toyon",
+      "scientificName": "Heteromeles arbutifolia",
+      "description": "Winter berries feed cedar waxwings, robins, towhees and band-tailed pigeons. Its dense evergreen crown also creates a lasting shrub or small-tree layer, so the white summer flowers are only one part of its habitat value.",
+      "sources": [
+        {
+          "label": "California Flora Nursery — toyon",
+          "url": "https://www.calfloranursery.com/plants/heteromeles-arbutifolia/"
+        }
+      ]
+    },
+    {
+      "id": "deergrass",
+      "scientificName": "Muhlenbergia rigens",
+      "description": "Songbirds eat the seeds, and butterfly larvae use the foliage. Dense arching clumps and extensive roots also stabilize soil, giving this large bunchgrass a structural role in California meadow and bank plantings.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: deer grass",
+          "url": "https://www.calfloranursery.com/plants/muhlenbergia-rigens/"
+        }
+      ]
+    },
+    {
+      "id": "alaskaLupine",
+      "scientificName": "Lupinus nootkatensis",
+      "description": "Nitrogen-fixing root partners help this pioneer colonize disturbed northern ground. Blue pea-flower spikes and palm-shaped leaves build an herbaceous cover layer on open banks before a closed shrub or forest canopy develops.",
+      "sources": [
+        {
+          "label": "University of Alaska Fairbanks Georgeson Botanical Garden: Nootka lupine",
+          "url": "https://www.uaf.edu/afes/places/gbg/research/files/pdfs/2014.-Holloway.-Note.56-ocr.pdf"
+        },
+        {
+          "label": "University of Washington: Nootka lupine pioneer ecology",
+          "url": "https://depts.washington.edu/propplnt/Plants/lupinusnootkatensis.htm"
+        }
+      ]
+    },
+    {
+      "id": "nootkaRose",
+      "scientificName": "Rosa nutkana",
+      "description": "Prickly thickets offer protected cover for birds and small mammals, while red hips supply food after flowering. The foliage also feeds butterfly larvae, giving this moist-site rose a role throughout the growing season.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/rosa-nutkana/"
+        }
+      ]
+    },
+    {
+      "id": "sitkaSpruce",
+      "scientificName": "Picea sitchensis",
+      "description": "Small birds eat the seeds, woodpeckers forage for insects in bark, and bald eagles may nest in mature crowns. Old tree cavities add another shelter layer in coastal forests where this giant conifer naturally occurs.",
+      "sources": [
+        {
+          "label": "NC State Extension — Picea sitchensis",
+          "url": "https://plants.ces.ncsu.edu/plants/picea-sitchensis/"
+        }
+      ]
+    },
+    {
+      "id": "bearberry",
+      "scientificName": "Arctostaphylos uva-ursi",
+      "description": "Hoary elfin, brown elfin and Freija fritillary caterpillars use bearberry as food. Red fruit feeds birds and mammals above a low evergreen carpet, preserving cover on exposed ground through winter.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Arctostaphylos uva-ursi",
+          "url": "https://plants.ces.ncsu.edu/plants/arctostaphylos-uva-ursi/"
+        }
+      ]
+    },
+    {
+      "id": "cloudberry",
+      "scientificName": "Rubus chamaemorus",
+      "description": "A creeping, amber-fruited plant of bogs and tundra that contributes to the low berry layer. Its leaves and short stems fit beneath dwarf shrubs and open boreal woodland rather than forming a tall bramble thicket.",
+      "sources": [
+        {
+          "label": "US Forest Service FEIS: cloudberry",
+          "url": "https://research.fs.usda.gov/feis/species-reviews/rubcha"
+        }
+      ]
+    },
+    {
+      "id": "labradorTea",
+      "scientificName": "Rhododendron groenlandicum",
+      "description": "Evergreen leaves keep a low shrub layer on acidic bog and boreal sites. White flower clusters stand above the foliage, while the plant’s habitat role persists after the short northern flowering season.",
+      "sources": [
+        {
+          "label": "Native Plant Trust species catalog",
+          "url": "https://plantfinder.nativeplanttrust.org/plant/Rhododendron-groenlandicum"
+        }
+      ]
+    },
+    {
+      "id": "koa",
+      "scientificName": "Acacia koa",
+      "description": "Koa foliage feeds the native koa moth, while the broad canopy helps build Hawaiian forest habitat. Nitrogen-fixing root partners also connect this tree to soil fertility, giving it an ecosystem role beyond its pale flower heads.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Acacia koa",
+          "url": "https://nativeplants.hawaii.edu/plants/acacia-koa/"
+        }
+      ]
+    },
+    {
+      "id": "kupukupu",
+      "scientificName": "Nephrolepis cordifolia",
+      "description": "Runners and underground tubers build an upright fern groundcover beneath or between Hawaiian shrubs and trees. Its contribution is the living ground layer and erosion control, rather than pollen, nectar or fruit.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Nephrolepis cordifolia",
+          "url": "https://nativeplants.hawaii.edu/plants/nephrolepis-cordifolia/"
+        }
+      ]
+    },
+    {
+      "id": "pohuehue",
+      "scientificName": "Ipomoea pes-caprae",
+      "description": "Trailing vines bind beach sand and can host the native Hawaiian dodder kaunaʻoa. Thick leaves and pink-purple trumpets belong to a coastal ground layer shaped by salt spray, wind and shifting sand.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants",
+          "url": "https://nativeplants.hawaii.edu/plants/ipomoea-pes-caprae-brasiliensis/"
+        }
+      ]
+    },
+    {
+      "id": "iliahi",
+      "scientificName": "Santalum haleakalae",
+      "description": "A hemiparasitic sandalwood whose roots draw some resources from neighboring host plants. It belongs in a mixed native upland planting with compatible companions, so its ecological story begins below ground rather than at the flowers.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Santalum haleakalae",
+          "url": "https://nativeplants.hawaii.edu/plants/santalum-haleakalae/"
+        }
+      ]
+    },
+    {
+      "id": "mamane",
+      "scientificName": "Sophora chrysophylla",
+      "description": "Immature māmane seeds make up about 90% of the endangered palila’s diet. Native caterpillars in the pods also feed growing chicks, tying this yellow-flowered upland tree directly to Hawaiian dry-forest bird survival.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Sophora chrysophylla",
+          "url": "https://nativeplants.hawaii.edu/plants/sophora-chrysophylla/"
+        },
+        {
+          "label": "Hawaiʻi DLNR: palila food ecology",
+          "url": "https://dlnr.hawaii.gov/wildlife/birds/palila/"
+        }
+      ]
+    },
+    {
+      "id": "leadplant",
+      "scientificName": "Amorpha canescens",
+      "description": "Birds and butterflies use this low woody prairie plant, while mammals browse the protein-rich foliage. Silvery leaves and purple spikes fit the transition between open grassland and a sparse shrub layer.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Amorpha canescens",
+          "url": "https://plants.ces.ncsu.edu/plants/amorpha-canescens/"
+        }
+      ]
+    },
+    {
+      "id": "dropseed",
+      "scientificName": "Sporobolus heterolepis",
+      "description": "Sparrows and juncos eat its small seeds, and grasshoppers and leafhoppers feed on the foliage. Fountain-shaped clumps also retain protected bases that can shelter overwintering bumblebee queens.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Sporobolus heterolepis",
+          "url": "https://plants.ces.ncsu.edu/plants/sporobolus-heterolepis/"
+        },
+        {
+          "label": "Xerces Society: bunchgrasses and overwintering habitat",
+          "url": "https://www.xerces.org/blog/5-ways-to-increase-nesting-habitat-for-bees"
+        }
+      ]
+    },
+    {
+      "id": "blackEyedSusan",
+      "scientificName": "Rudbeckia hirta",
+      "description": "Silvery checkerspot and wavy-lined emerald caterpillars use the foliage, while American goldfinches eat the seeds. Leaving the dark cones standing preserves a food crop after the golden petals fall.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Rudbeckia hirta",
+          "url": "https://plants.ces.ncsu.edu/plants/rudbeckia-hirta/"
+        }
+      ]
+    },
+    {
+      "id": "wildGinger",
+      "scientificName": "Asarum canadense",
+      "description": "Ants carry the seeds to their nests, eat the attached food bodies and leave the seeds to germinate elsewhere. Broad heart-shaped leaves also create a low woodland carpet, with maroon flowers tucked at soil level.",
+      "sources": [
+        {
+          "label": "NC State Extension — Asarum canadense",
+          "url": "https://plants.ces.ncsu.edu/plants/asarum-canadense/"
+        },
+        {
+          "label": "Illinois DNR: woodland flowers and ant seed dispersal",
+          "url": "https://dnr.illinois.gov/oi/baflowersandants.html"
+        }
+      ]
+    },
+    {
+      "id": "goldenAlexanders",
+      "scientificName": "Zizia aurea",
+      "description": "Black swallowtail caterpillars feed on the foliage, and the specialist mining bee Andrena ziziae uses the yellow spring flowers. Flat umbels bring a small-insect feeding surface into moist meadow and woodland-edge plantings.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Zizia aurea",
+          "url": "https://plants.ces.ncsu.edu/plants/zizia-aurea/"
+        },
+        {
+          "label": "SUNY ESF: regional host-plant associations",
+          "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+        }
+      ]
+    },
+    {
+      "id": "seasideGoldenrod",
+      "scientificName": "Solidago sempervirens",
+      "description": "A coastal autumn nectar source and host for wavy-lined emerald caterpillars. Thick leaves withstand exposed sites, while the golden flower sprays help carry a shoreline planting’s feeding season beyond the spring bloom.",
+      "sources": [
+        {
+          "label": "NC State Extension — Solidago sempervirens",
+          "url": "https://plants.ces.ncsu.edu/plants/solidago-sempervirens/"
+        }
+      ]
+    },
+    {
+      "id": "waxMyrtle",
+      "scientificName": "Morella cerifera",
+      "description": "Yellow-rumped warblers can digest the waxy fruit and use it during fall and winter. Evergreen foliage supplies storm shelter, while red-banded hairstreak caterpillars use this shrub as a host plant.",
+      "sources": [
+        {
+          "label": "NC State Extension — wax myrtle (Myrica/Morella cerifera)",
+          "url": "https://plants.ces.ncsu.edu/plants/myrica-cerifera/"
+        }
+      ]
+    },
+    {
+      "id": "dwarfPalmetto",
+      "scientificName": "Sabal minor",
+      "description": "Dark fruits feed robins and other birds, as well as raccoons. Broad evergreen fans add a low, persistent cover layer in southern woodland gardens, quite different from the fine texture of grasses.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Sabal minor",
+          "url": "https://plants.ces.ncsu.edu/plants/sabal-minor/"
+        }
+      ]
+    },
+    {
+      "id": "blueSage",
+      "scientificName": "Salvia farinacea",
+      "description": "Goldfinches eat the small dry fruits after the blue flower spikes fade. Upright stems add warm-season forage above a low foliage clump, then leave a seed resource for later in the season.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Salvia farinacea",
+          "url": "https://plants.ces.ncsu.edu/plants/salvia-farinacea/"
+        }
+      ]
+    },
+    {
+      "id": "autumnSage",
+      "scientificName": "Salvia greggii",
+      "description": "Red or pink tubes supply hummingbird nectar in a long-lived, dry-site subshrub. Seed-eating birds also use the small seeds, extending the plant’s food value beyond the flowering season.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Salvia greggii",
+          "url": "https://plants.ces.ncsu.edu/plants/salvia-greggii/"
+        }
+      ]
+    },
+    {
+      "id": "blackfootDaisy",
+      "scientificName": "Melampodium leucanthum",
+      "description": "Birds eat the seeds produced after the white daisies fade. Low, spreading mounds occupy sunny, stony ground, adding a small-seeded food source to dry plantings without needing a tall canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Melampodium leucanthum",
+          "url": "https://plants.ces.ncsu.edu/plants/melampodium-leucanthum/"
+        }
+      ]
+    },
+    {
+      "id": "saguaro",
+      "scientificName": "Carnegiea gigantea",
+      "description": "Gila woodpeckers excavate nest holes in living saguaros; elf owls, kestrels and purple martins can reuse abandoned cavities. This tall cactus therefore supplies insulated nesting space as well as flowers and fruit in the Sonoran Desert.",
+      "sources": [
+        {
+          "label": "Virginia Tech Dendrology — saguaro",
+          "url": "https://dendro.cnre.vt.edu/DENDROLOGY/syllabus/factsheet.cfm?ID=604"
+        },
+        {
+          "label": "National Park Service: saguaro nesting birds",
+          "url": "https://www.nps.gov/sagu/learn/nature/birds.htm"
+        }
+      ]
+    },
+    {
+      "id": "desertSage",
+      "scientificName": "Salvia dorrii",
+      "description": "Silver foliage forms a low woody layer on dry western slopes. Violet flowers occupy a short seasonal feeding window above that persistent mound, complementing open bunchgrasses rather than a water-demanding flower border.",
+      "sources": [
+        {
+          "label": "High Country Gardens: Salvia dorrii",
+          "url": "https://www.highcountrygardens.com/products/perennial-salvia-dorrii-desert-purple"
+        }
+      ]
+    },
+    {
+      "id": "mockOrange",
+      "scientificName": "Philadelphus lewisii",
+      "description": "Arching branches make a deciduous shrub layer along western woodland edges. Fragrant white flowers open above that structure in early summer, adding a seasonal food resource while retaining a larger woody framework.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/philadelphus-lewisii/"
+        }
+      ]
+    },
+    {
+      "id": "westernColumbine",
+      "scientificName": "Aquilegia formosa",
+      "description": "Red-and-yellow spurs provide a hummingbird feeding niche in moist western openings. Airy stems fit between taller plants, keeping the nectar-bearing flowers accessible above a small clump of divided leaves.",
+      "sources": [
+        {
+          "label": "Woodbrook Native Plant Nursery — western columbine",
+          "url": "https://woodbrooknativeplantnursery.com/plant/aquilegia-formosa/"
+        }
+      ]
+    },
+    {
+      "id": "insideOutFlower",
+      "scientificName": "Vancouveria hexandra",
+      "description": "Spreading rhizomes create a low, sheltered woodland carpet beneath trees. Backward-folded white petals rise just above the leaves, but the enduring contribution is a ground layer suited to shaded forest gardens.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/vancouveria-hexandra/"
+        }
+      ]
+    },
+    {
+      "id": "redOsier",
+      "scientificName": "Cornus sericea",
+      "description": "Spring azure caterpillars use the foliage, birds eat the pale fruits, and dense branches provide nesting sites. Red winter twigs mark a spreading shrub that connects wetland food and cover through several seasons.",
+      "sources": [
+        {
+          "label": "NC State Extension — Cornus sericea",
+          "url": "https://plants.ces.ncsu.edu/plants/cornus-sericea/"
+        }
+      ]
+    },
+    {
+      "id": "blackSpruce",
+      "scientificName": "Picea mariana",
+      "description": "Crossbills, pine siskins and pine grosbeaks eat the seeds, while red squirrels work the cones. The narrow evergreen crown supplies persistent boreal shelter, and snowshoe hares browse young growth.",
+      "sources": [
+        {
+          "label": "NC State Extension — black spruce",
+          "url": "https://plants.ces.ncsu.edu/plants/picea-mariana/"
+        }
+      ]
+    },
+    {
+      "id": "dwarfBirch",
+      "scientificName": "Betula nana",
+      "description": "Low woody branches create the shrub layer of tundra and cold northern sites. Rounded leaves and catkins stay close to the ground, maintaining vegetation structure where a full-sized tree canopy would be inappropriate.",
+      "sources": [
+        {
+          "label": "Oregon State University Landscape Plants",
+          "url": "https://landscapeplants.oregonstate.edu/plants/betula-nana"
+        }
+      ]
+    },
+    {
+      "id": "alaskaYarrow",
+      "scientificName": "Achillea millefolium",
+      "description": "Flat flower clusters offer a shallow, easily reached feeding surface for small insects. Finely divided leaves form the lower layer of open northern meadows, with upright flowering stems rising above neighboring low plants.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Achillea millefolium",
+          "url": "https://plants.ces.ncsu.edu/plants/achillea-millefolium/"
+        }
+      ]
+    },
+    {
+      "id": "naio",
+      "scientificName": "Myoporum sandwicense",
+      "description": "Naio berries form part of the endangered palila’s diet in Hawaiian dry forest. The shrub or tree adds a second woody food source alongside māmane, with pale fruit following small white flowers.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Myoporum sandwicense",
+          "url": "https://nativeplants.hawaii.edu/plants/myoporum-sandwicense/"
+        },
+        {
+          "label": "Hawaiʻi DLNR: palila food ecology",
+          "url": "https://dlnr.hawaii.gov/wildlife/birds/palila/"
+        }
+      ]
+    },
+    {
+      "id": "ulei",
+      "scientificName": "Osteomeles anthyllidifolia",
+      "description": "A spreading native shrub that can resprout from stem bases after fire. Glossy divided leaves and tough branching growth create a low woody layer across Hawaiian lava, coastal and dry-forest sites.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi — Native Hawaiʻi Plants",
+          "url": "https://nativeplants.hawaii.edu/plants/osteomeles-anthyllidifolia/"
+        }
+      ]
+    },
+    {
+      "id": "denseBlazingStar",
+      "scientificName": "Liatris spicata",
+      "description": "Liatris flower moth larvae eat the flowers and seeds, while Liatris borer moth larvae use the stems. Goldfinches take the mature seeds, so the tall purple spikes remain part of the food web after flowering.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Liatris spicata",
+          "url": "https://plants.ces.ncsu.edu/plants/liatris-spicata/"
+        }
+      ]
+    },
+    {
+      "id": "prairieBlazingStar",
+      "scientificName": "Liatris pycnostachya",
+      "description": "Tall purple wands supply a late-summer feeding layer above prairie grasses. Birds then eat the seeds, making retained flower stalks useful after the dense purple bloom has finished.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Liatris pycnostachya",
+          "url": "https://plants.ces.ncsu.edu/plants/liatris-pycnostachya/"
+        }
+      ]
+    },
+    {
+      "id": "mountainMint",
+      "scientificName": "Pycnanthemum virginianum",
+      "description": "Hermit sphinx caterpillars use the foliage, while many solitary and parasitic wasps feed at the small white flowers. This mint supplies adult insect fuel as well as larval food, adding more than a generic bee attraction.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Pycnanthemum virginianum",
+          "url": "https://plants.ces.ncsu.edu/plants/pycnanthemum-virginianum/"
+        },
+        {
+          "label": "SUNY ESF: regional host-plant associations",
+          "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+        }
+      ]
+    },
+    {
+      "id": "blueLobelia",
+      "scientificName": "Lobelia siphilitica",
+      "description": "Deep blue tubes fit a large-bee feeding niche along moist meadow and wetland edges. The plant can reseed into suitable damp openings, keeping a flowering layer among sedges and taller perennials.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Lobelia siphilitica",
+          "url": "https://plants.ces.ncsu.edu/plants/lobelia-siphilitica/"
+        }
+      ]
+    },
+    {
+      "id": "zigzagGoldenrod",
+      "scientificName": "Solidago flexicaulis",
+      "description": "Yellow flowers tucked along angular stems extend the autumn feeding season under partial shade. This broad-leaved goldenrod occupies a woodland layer, complementing sun-loving meadow goldenrods rather than duplicating their garden niche.",
+      "sources": [
+        {
+          "label": "Missouri Botanical Garden — zigzag goldenrod",
+          "url": "https://plantfinder.mobot.org/PlantFinderDetails.aspx?kempercode=b917"
+        }
+      ]
+    },
+    {
+      "id": "woodPhlox",
+      "scientificName": "Phlox divaricata",
+      "description": "Olive arches and hitched arches moths use woodland phlox as a host plant. Loose blue flower clusters spread through a low spring woodland layer, then leave foliage beneath taller summer growth.",
+      "sources": [
+        {
+          "label": "NC State Extension — Phlox divaricata",
+          "url": "https://plants.ces.ncsu.edu/plants/phlox-divaricata/"
+        },
+        {
+          "label": "SUNY ESF: regional host-plant associations",
+          "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+        }
+      ]
+    },
+    {
+      "id": "bloodroot",
+      "scientificName": "Sanguinaria canadensis",
+      "description": "Ants disperse the seeds, linking this spring ephemeral to the forest-floor food web. A white flower opens beside a lobed leaf before the canopy fills in, using the early light window beneath deciduous trees.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Sanguinaria canadensis",
+          "url": "https://plants.ces.ncsu.edu/plants/sanguinaria-canadensis/"
+        },
+        {
+          "label": "Illinois DNR: woodland flowers and ant seed dispersal",
+          "url": "https://dnr.illinois.gov/oi/baflowersandants.html"
+        }
+      ]
+    },
+    {
+      "id": "jacobsLadder",
+      "scientificName": "Polemonium reptans",
+      "description": "A compact, pale-blue-flowered perennial for the low woodland-edge layer. Its spring bloom overlaps bumblebee activity, adding forage before the taller summer garden takes over.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Polemonium reptans",
+          "url": "https://plants.ces.ncsu.edu/plants/polemonium-reptans/"
+        }
+      ]
+    },
+    {
+      "id": "blueCohosh",
+      "scientificName": "Caulophyllum thalictroides",
+      "description": "Mice eat the fleshy-coated blue seeds, and caterpillars feed on the foliage. Divided leaves build a shaded woodland layer; the conspicuous blue structures are seeds rather than ordinary berries.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Caulophyllum thalictroides",
+          "url": "https://plants.ces.ncsu.edu/plants/caulophyllum-thalictroides/"
+        }
+      ]
+    },
+    {
+      "id": "joePye",
+      "scientificName": "Eutrochium maculatum",
+      "description": "SUNY ESF names four moth hosts, including the clymene and ruby tiger moths, for spotted Joe-Pye weed. Tall pink heads supply late-season nectar, and dried stems can retain nesting places for cavity-nesting bees.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Eutrochium maculatum",
+          "url": "https://plants.ces.ncsu.edu/plants/eutrochium-maculatum/"
+        },
+        {
+          "label": "SUNY ESF: regional host-plant associations",
+          "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+        }
+      ]
+    },
+    {
+      "id": "newEnglandAster",
+      "scientificName": "Symphyotrichum novae-angliae",
+      "description": "Pearl crescent caterpillars use the foliage, migrating monarchs take nectar, and songbirds eat the seeds. Tall purple daisies therefore connect autumn migration, butterfly breeding and winter food in one meadow plant.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Symphyotrichum novae-angliae",
+          "url": "https://plants.ces.ncsu.edu/plants/symphyotrichum-novae-angliae/"
+        }
+      ]
+    },
+    {
+      "id": "heathAster",
+      "scientificName": "Symphyotrichum ericoides",
+      "description": "Masses of small white autumn flowers extend forage when many meadow plants have finished. As a Symphyotrichum aster, it also belongs to a group used by specialist pollen-collecting bees, rather than serving only general flower visitors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Symphyotrichum ericoides",
+          "url": "https://plants.ces.ncsu.edu/plants/symphyotrichum-ericoides/"
+        }
+      ]
+    },
+    {
+      "id": "sneezeweed",
+      "scientificName": "Helenium autumnale",
+      "description": "Late yellow flowers fill the sunny feeding layer of wet meadows and pond margins. Its tall stems occupy moist ground that many dry-prairie perennials cannot use, helping diversify the habitat instead of repeating the same planting conditions.",
+      "sources": [
+        {
+          "label": "NC State Extension — Helenium autumnale",
+          "url": "https://plants.ces.ncsu.edu/plants/helenium-autumnale/"
+        }
+      ]
+    },
+    {
+      "id": "ironweed",
+      "scientificName": "Vernonia fasciculata",
+      "description": "Deep purple flowers supply late-summer forage above sturdy prairie stems. Dead Vernonia stems are documented nesting material for leafcutter bees, so keeping some stalks gives the plant a role after flowering.",
+      "sources": [
+        {
+          "label": "Prairie Moon Nursery: Vernonia fasciculata",
+          "url": "https://www.prairiemoon.com/vernonia-fasciculata-common-ironweed"
+        },
+        {
+          "label": "Xerces Society: natural nesting and overwintering habitat",
+          "url": "https://xerces.org/sites/default/files/publications/18-014_02_Natural-Nesting-Overwintering-FS_web.pdf"
+        },
+        {
+          "label": "NC State Extension: nesting materials used by bees",
+          "url": "https://content.ces.ncsu.edu/how-to-manage-a-successful-bee-hotel/appendix-3-plants-that-produce-hollow-or-pithy-twigs-and-stems-used-by-nesting-bees"
+        }
+      ]
+    },
+    {
+      "id": "indianGrass",
+      "scientificName": "Sorghastrum nutans",
+      "description": "Songbirds eat the seeds, grasshoppers feed on the foliage, and tall standing stems keep winter cover. Its retained clump bases can also provide protected overwintering places for bumblebee queens.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Sorghastrum nutans",
+          "url": "https://plants.ces.ncsu.edu/plants/sorghastrum-nutans/"
+        },
+        {
+          "label": "Xerces Society: bunchgrasses and overwintering habitat",
+          "url": "https://www.xerces.org/blog/5-ways-to-increase-nesting-habitat-for-bees"
+        }
+      ]
+    },
+    {
+      "id": "purpleLoveGrass",
+      "scientificName": "Eragrostis spectabilis",
+      "description": "Low leaf clumps and airy pink seed clouds fill the short grassland layer. Its open form leaves space for neighboring wildflowers, offering a meadow structure quite different from a dense turf lawn.",
+      "sources": [
+        {
+          "label": "NC State Extension — Eragrostis spectabilis",
+          "url": "https://plants.ces.ncsu.edu/plants/eragrostis-spectabilis/"
+        }
+      ]
+    },
+    {
+      "id": "sweetspire",
+      "scientificName": "Itea virginica",
+      "description": "White flower tassels mature into seeds eaten by songbirds. Suckering branches build a low, dense shrub layer on moist ground, carrying structural habitat into the season of red autumn foliage.",
+      "sources": [
+        {
+          "label": "NC State Extension — Itea virginica",
+          "url": "https://plants.ces.ncsu.edu/plants/itea-virginica/"
+        }
+      ]
+    },
+    {
+      "id": "fringeTree",
+      "scientificName": "Chionanthus virginicus",
+      "description": "Pollinated female trees bear dark fruit eaten by songbirds and small mammals. Fringed white flowers sit on a small woodland-edge tree, bringing a fruiting canopy into gardens without room for a large oak.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chionanthus virginicus",
+          "url": "https://plants.ces.ncsu.edu/plants/chionanthus-virginicus/"
+        }
+      ]
+    },
+    {
+      "id": "dwarfFothergilla",
+      "scientificName": "Fothergilla gardenii",
+      "description": "A compact shrub layer for moist woodland edges, with white bottlebrush flowers before the leaves expand. That early bloom supplies forage before many summer perennials begin, while the branching mound fits beneath larger trees.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Fothergilla gardenii",
+          "url": "https://plants.ces.ncsu.edu/plants/fothergilla-gardenii/"
+        }
+      ]
+    },
+    {
+      "id": "greenAndGold",
+      "scientificName": "Chrysogonum virginianum",
+      "description": "A low, spreading woodland mat whose yellow flowers are followed by seed for songbirds. It occupies the ground layer beneath more open shrubs, keeping living cover where a tall meadow would not fit.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chrysogonum virginianum",
+          "url": "https://plants.ces.ncsu.edu/plants/chrysogonum-virginianum/"
+        }
+      ]
+    },
+    {
+      "id": "spiderwort",
+      "scientificName": "Tradescantia ohiensis",
+      "description": "Blue flowers open for a short morning window, making pollen available before the petals close. Long, arching leaves fill the low meadow layer, with each new flower renewing that brief feeding opportunity.",
+      "sources": [
+        {
+          "label": "NC State Extension — Tradescantia ohiensis",
+          "url": "https://plants.ces.ncsu.edu/plants/tradescantia-ohiensis/"
+        }
+      ]
+    },
+    {
+      "id": "blueWildIndigo",
+      "scientificName": "Baptisia australis",
+      "description": "NC State records six butterfly hosts, including wild indigo duskywing, hoary edge and eastern tailed-blue. A broad clump of blue pea flowers and foliage therefore supports caterpillar development as well as adult flower feeding.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Baptisia australis",
+          "url": "https://plants.ces.ncsu.edu/plants/baptisia-australis/"
+        }
+      ]
+    },
+    {
+      "id": "virginiaBluebells",
+      "scientificName": "Mertensia virginica",
+      "description": "Pink buds open into blue nectar-bearing tubes during the bright spring window before tree leaf-out. Summer dormancy lets this woodland ephemeral share ground with later-growing shade plants instead of competing all season.",
+      "sources": [
+        {
+          "label": "NC State Extension — Mertensia virginica",
+          "url": "https://plants.ces.ncsu.edu/plants/mertensia-virginica/"
+        }
+      ]
+    },
+    {
+      "id": "seaPurslane",
+      "scientificName": "Sesuvium portulacastrum",
+      "description": "Succulent mats provide habitat for invertebrates eaten by native Hawaiian waterbirds. Fleshy stems occupy salty coastal and wetland ground, linking a low shoreline plant to the birds feeding above it.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi — sea purslane",
+          "url": "https://nativeplants.leeward.hawaii.edu/plants/sesuvium-portulacastrum/"
+        }
+      ]
+    },
+    {
+      "id": "saltMarshMallow",
+      "scientificName": "Kosteletzkya virginica",
+      "description": "Pink flowers rise from a tall perennial suited to moist coastal margins. It adds an herbaceous flowering layer between low marsh vegetation and woody shrubs, expanding habitat into sites with seasonal wetness.",
+      "sources": [
+        {
+          "label": "NC State Extension — Kosteletzkya virginica",
+          "url": "https://plants.ces.ncsu.edu/plants/kosteletzkya-pentacarpos/"
+        }
+      ]
+    },
+    {
+      "id": "tickseed",
+      "scientificName": "Coreopsis lanceolata",
+      "description": "Gold flower heads mature into seeds eaten by birds. A low foliage clump and upright stems fit open meadows, where allowing some seed to remain extends the plant’s food contribution beyond its bloom.",
+      "sources": [
+        {
+          "label": "NC State Extension — Coreopsis lanceolata",
+          "url": "https://plants.ces.ncsu.edu/plants/coreopsis-lanceolata/"
+        }
+      ]
+    },
+    {
+      "id": "purpleConeflower",
+      "scientificName": "Echinacea purpurea",
+      "description": "Silvery checkerspot and wavy-lined emerald caterpillars use the plant, while goldfinches eat the seeds. Leaving the raised cones and some dead stems preserves both a winter food crop and potential bee nesting sites.",
+      "sources": [
+        {
+          "label": "NC State Extension — Echinacea purpurea",
+          "url": "https://plants.ces.ncsu.edu/plants/echinacea-purpurea/"
+        }
+      ]
+    },
+    {
+      "id": "beeblossom",
+      "scientificName": "Oenothera lindheimeri",
+      "description": "White-lined sphinx caterpillars use this airy perennial as a host. White-to-pink flowers open along slender stems, adding a long flowering layer without the dense shade of a shrub.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Oenothera lindheimeri",
+          "url": "https://plants.ces.ncsu.edu/plants/oenothera-lindheimeri/"
+        }
+      ]
+    },
+    {
+      "id": "plainsConeflower",
+      "scientificName": "Ratibida columnifera",
+      "description": "An upright prairie forb that places raised flower disks above low, divided leaves. Its open structure fits among grasses, adding a summer feeding surface while preserving the light-filled spaces of a meadow.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Ratibida columnifera",
+          "url": "https://plants.ces.ncsu.edu/plants/ratibida-columnifera/"
+        }
+      ]
+    },
+    {
+      "id": "chocolateFlower",
+      "scientificName": "Berlandiera lyrata",
+      "description": "Chocolate-scented yellow daisies sit above a low foliage clump in dry plantings. Birds also use this plant, extending its value beyond the morning flower display in a sunny, open garden.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Berlandiera lyrata",
+          "url": "https://plants.ces.ncsu.edu/plants/berlandiera-lyrata/"
+        }
+      ]
+    },
+    {
+      "id": "texasLantana",
+      "scientificName": "Lantana urticoides",
+      "description": "A woody nectar plant for butterflies on warm, dry southern sites. Orange-to-red flower clusters sit above arching branches, adding a shrub-height feeding layer where lower annual wildflowers may have finished.",
+      "sources": [
+        {
+          "label": "Dallas County Master Gardeners — Texas lantana",
+          "url": "https://dallascountymastergardeners.org/texas-lantana/"
+        }
+      ]
+    },
+    {
+      "id": "rockPenstemon",
+      "scientificName": "Penstemon baccharifolius",
+      "description": "Red tubes provide hummingbird forage on hot, rocky sites with sharp drainage. Its low woody base places that food source among dry crevices and slopes rather than a moist meadow border.",
+      "sources": [
+        {
+          "label": "Eco Blossom Nursery — rock penstemon",
+          "url": "https://ecoblossom.com/collections/best-sellers/products/rock-penstemon-penstemon-baccharifolius"
+        }
+      ]
+    },
+    {
+      "id": "firecracker",
+      "scientificName": "Penstemon eatonii",
+      "description": "Scarlet flowers create a hummingbird feeding station above an evergreen leaf rosette. This dry-site perennial fills an early-summer nectar window on open western slopes and gravelly garden beds.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/penstemon-eatonii/"
+        }
+      ]
+    },
+    {
+      "id": "showyGoldeneye",
+      "scientificName": "Heliomeris multiflora",
+      "description": "Yellow daisies supply a late-summer feeding surface in open western meadows. Slender upright stems fit between bunchgrasses, adding seasonal flowers without forming a dense shrub canopy.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Heliomeris multiflora",
+          "url": "https://westernnativeseed.com/product/heliomeris-multiflora/"
+        }
+      ]
+    },
+    {
+      "id": "silkyLupine",
+      "scientificName": "Lupinus sericeus",
+      "description": "Blue pea flowers and silvery palm-shaped leaves occupy the herbaceous layer of dry western openings. Its compact growth fits between bunchgrasses, adding seasonal forage without the shade of a woody canopy.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Lupinus sericeus",
+          "url": "https://westernnativeseed.com/product/lupinus-sericeus/"
+        }
+      ]
+    },
+    {
+      "id": "beeplant",
+      "scientificName": "Cleomella serrulata",
+      "description": "Becker’s white, western white and checkered white butterflies are documented larval users of Rocky Mountain beeplant. Birds eat the seeds, while the tall annual growth provides seasonal cover on open, disturbed ground.",
+      "sources": [
+        {
+          "label": "Spadefoot Nursery: Rocky Mountain beeplant",
+          "url": "https://www.spadefootnursery.com/perennials-c-d/cleomella-serrulata"
+        }
+      ]
+    },
+    {
+      "id": "smoothPenstemon",
+      "scientificName": "Penstemon glaber",
+      "description": "Blue-to-purple tubes offer an open-throated feeding niche for bees on sunny western sites. Its basal clump fits the lower meadow layer, with flowering stems rising into the spaces between grasses.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Penstemon glaber var. alpinus",
+          "url": "https://westernnativeseed.com/product/penstemon-glaber-v-alpinus/"
+        }
+      ]
+    },
+    {
+      "id": "rabbitbrush",
+      "scientificName": "Ericameria nauseosa",
+      "description": "Yellow autumn flowers extend nectar availability after much of the dryland growing season has passed. Gray-green woody growth preserves a shrub layer between seasonal flower displays on open western ground.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Ericameria nauseosa",
+          "url": "https://westernnativeseed.com/product/ericameria-nauseosa/"
+        }
+      ]
+    },
+    {
+      "id": "ocotillo",
+      "scientificName": "Fouquieria splendens",
+      "description": "Red flowers at the tips of tall, spiny canes supply hummingbird nectar in desert landscapes. Leaves appear after rain and drop in dry periods, leaving an open vertical framework instead of a continuously leafy canopy.",
+      "sources": [
+        {
+          "label": "Arizona State University horticultural profile",
+          "url": "https://www.public.asu.edu/~camartin/plants/Plant%20html%20files/fouquieriasplendens.html"
+        }
+      ]
+    },
+    {
+      "id": "scarletBugler",
+      "scientificName": "Penstemon centranthifolius",
+      "description": "Narrow red tubes supply hummingbird forage from late spring into summer. Waxy blue-green leaves form a low rosette, fitting the sunny openings of chaparral and woodland rather than dense shade.",
+      "sources": [
+        {
+          "label": "California Flora Nursery — scarlet bugler",
+          "url": "https://www.calfloranursery.com/plants/penstemon-centranthifolius/"
+        }
+      ]
+    },
+    {
+      "id": "narrowleafMilkweed",
+      "scientificName": "Asclepias fascicularis",
+      "description": "A western monarch breeding plant: caterpillars eat the narrow leaves, while adults can feed at the pale flower clusters. Seasonal moisture supports colonies that die back in winter, so this is a host-plant patch rather than an evergreen nectar bed.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/asclepias-fascicularis/"
+        }
+      ]
+    },
+    {
+      "id": "blueEyedGrass",
+      "scientificName": "Sisyrinchium bellum",
+      "description": "Small, grasslike fans place blue-violet flowers close to the ground in open western plantings. Its niche is the low seasonal meadow layer, fitting between rocks and other short perennials rather than forming a true grass sod.",
+      "sources": [
+        {
+          "label": "Las Pilitas Nursery: Sisyrinchium bellum",
+          "url": "https://www.laspilitas.com/nature-of-california/plants/642--sisyrinchium-bellum"
+        }
+      ]
+    },
+    {
+      "id": "tidytips",
+      "scientificName": "Layia platyglossa",
+      "description": "Birds eat the seeds after the white-tipped yellow daisies fade. This reseeding annual fills the spring flowering layer of open California ground, then leaves room for later-growing meadow vegetation.",
+      "sources": [
+        {
+          "label": "California Flora Nursery — tidy tips",
+          "url": "https://www.calfloranursery.com/plants/layia-platyglossa/"
+        }
+      ]
+    },
+    {
+      "id": "hummingbirdSage",
+      "scientificName": "Salvia spathacea",
+      "description": "Magenta flower clusters supply hummingbird nectar in the partly shaded layer of California woodland edges. Aromatic leaves spread by rhizomes, building a low foliage patch beneath the tall flower stalks.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/salvia-spathacea/"
+        }
+      ]
+    },
+    {
+      "id": "westernRedbud",
+      "scientificName": "Cercis occidentalis",
+      "description": "Henry’s elfin caterpillars use the foliage, specialized bees collect nesting material, and birds eat the seeds. Magenta spring flowers stand on a small, multi-stemmed tree that adds a woody layer to dry western gardens.",
+      "sources": [
+        {
+          "label": "NC State Extension — Cercis occidentalis",
+          "url": "https://plants.ces.ncsu.edu/plants/cercis-canadensis-subsp-texensis/"
+        }
+      ]
+    },
+    {
+      "id": "redwoodSorrel",
+      "scientificName": "Oxalis oregana",
+      "description": "A low carpet of cloverlike leaves fills the damp, shaded floor of Pacific Northwest woodland. This is a ground-layer plant for sheltered forest conditions, contributing living cover beneath a much taller canopy.",
+      "sources": [
+        {
+          "label": "T&L Nursery — redwood sorrel",
+          "url": "https://www.tandlnursery.com/detail.php?id=1455"
+        }
+      ]
+    },
+    {
+      "id": "fringecup",
+      "scientificName": "Tellima grandiflora",
+      "description": "Rounded leaves create a persistent low woodland mound, with slender fringed flower spikes above it. Its ability to tolerate dry shade gives it a niche beneath trees where many moist-meadow plants would fail.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/tellima-grandiflora/"
+        }
+      ]
+    },
+    {
+      "id": "oceanSpray",
+      "scientificName": "Holodiscus discolor",
+      "description": "Butterfly larvae use this arching western shrub as food, while creamy flower sprays supply adult insect forage. Branching growth builds a deciduous mid-height layer at woodland edges, rather than only a seasonal flower patch.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/holodiscus-discolor/"
+        }
+      ]
+    },
+    {
+      "id": "pacificBleedingheart",
+      "scientificName": "Dicentra formosa",
+      "description": "Pink heart-shaped flowers provide early nectar for bumblebees and hummingbirds. Spreading fernlike foliage builds a low woodland layer, retreating into dormancy when dry shade becomes too severe.",
+      "sources": [
+        {
+          "label": "California Flora Nursery species catalog",
+          "url": "https://www.calfloranursery.com/plants/dicentra-formosa/"
+        }
+      ]
+    },
+    {
+      "id": "sloughSedge",
+      "scientificName": "Carex obnupta",
+      "description": "Coarse evergreen blades and spreading roots build a persistent wetland edge. The dense stands retain low cover between open water and woody vegetation, giving this sedge a structural role beyond its dark seed spikes.",
+      "sources": [
+        {
+          "label": "Meridian Young Plants — slough sedge",
+          "url": "https://meridianyoungplants.com/home/plantdetails?plantid=875"
+        }
+      ]
+    },
+    {
+      "id": "redElderberry",
+      "scientificName": "Sambucus racemosa",
+      "description": "Red fruit supplies bird food after the cream flower clusters finish. A large, branching shrub adds a fruiting layer to moist western woodland edges, connecting summer feeding sites with woody cover.",
+      "sources": [
+        {
+          "label": "Western Native Seed — Sambucus racemosa",
+          "url": "https://westernnativeseed.com/product/sambucus-racemosa/"
+        }
+      ]
+    },
+    {
+      "id": "whiteSpruce",
+      "scientificName": "Picea glauca",
+      "description": "Deer, rabbits and grouse browse the foliage during winter. Short blue-green needles form a persistent boreal canopy, retaining a woody habitat layer after neighboring deciduous plants have lost their leaves.",
+      "sources": [
+        {
+          "label": "NC State Extension — Picea glauca",
+          "url": "https://plants.ces.ncsu.edu/plants/picea-laxa/"
+        }
+      ]
+    },
+    {
+      "id": "dwarfFireweed",
+      "scientificName": "Chamerion latifolium",
+      "description": "Magenta flowers occupy gravel bars, snowmelt margins and other open northern ground. This short perennial adds a seasonal flowering layer on sites that are too exposed or mobile for a dense woodland understory.",
+      "sources": [
+        {
+          "label": "University of Washington Burke Herbarium",
+          "url": "https://burkeherbarium.org/imagecollection/taxon.php?Taxon=Chamaenerion+latifolium"
+        }
+      ]
+    },
+    {
+      "id": "tamarack",
+      "scientificName": "Larix laricina",
+      "description": "Soft needles turn gold and drop, leaving an open winter crown above northern wetland vegetation. Groves add a deciduous conifer layer to bog and swamp edges instead of the year-round shade of spruce.",
+      "sources": [
+        {
+          "label": "North Dakota State University — American larch",
+          "url": "https://www.ndsu.edu/campus-arboretum/american-larch"
+        }
+      ]
+    },
+    {
+      "id": "pohinahina",
+      "scientificName": "Vitex rotundifolia",
+      "description": "Low, spreading branches build a salt- and wind-tolerant coastal groundcover in Hawaiʻi. Gray-green foliage and blue flower spikes occupy exposed shore conditions, where the plant’s erosion-control role continues after flowering.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Vitex rotundifolia",
+          "url": "https://nativeplants.hawaii.edu/plants/vitex-rotundifolia/"
+        }
+      ]
+    },
+    {
+      "id": "akia",
+      "scientificName": "Wikstroemia uva-ursi",
+      "description": "A compact woody layer for dry Hawaiian ridges and coastal sites, with gray-green leaves and orange-red fruits. Its low mound fits exposed ground rather than a moist forest understory; match the local form to the site.",
+      "sources": [
+        {
+          "label": "Native Hawaiʻi Plants: Wikstroemia uva-ursi",
+          "url": "https://nativeplants.hawaii.edu/plants/wikstroemia-uva-ursi/"
+        }
+      ]
+    },
+    {
+      "id": "aweoweo",
+      "scientificName": "Chenopodium oahuense",
+      "description": "A hardy Hawaiian shrub that occupies leeward coastal and upland ground. Pale leaves and branching stems build a dry-site vegetation layer, preserving woody structure where seasonal herbs offer only temporary cover.",
+      "sources": [
+        {
+          "label": "Plant Pono: Chenopodium oahuense",
+          "url": "https://plantpono.org/pono-plants/chenopodium-oahuense-aweoweo/"
+        }
+      ]
+    },
+    {
+      "id": "hapuu",
+      "scientificName": "Cibotium glaucum",
+      "description": "Hawaiian honeycreepers use the golden pulu fibers as nest lining. Long fronds also form a shaded understory canopy, making this tree fern a source of both forest structure and bird nesting material.",
+      "sources": [
+        {
+          "label": "University of Hawaiʻi Native Plants: Cibotium glaucum",
+          "url": "https://nativeplants.hawaii.edu/plants/cibotium-glaucum/"
+        }
+      ]
+    },
+    {
+      "id": "whiteOak",
+      "scientificName": "Quercus alba",
+      "description": "White oak belongs to the native oak group that NWF reports hosts more than 550 butterfly and moth species across the eastern U.S.; that is a regional genus total, not a count for one tree. Acorns and caterpillar-bearing foliage support the wider bird food web.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus alba",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-alba/"
+        },
+        {
+          "label": "National Wildlife Federation: eastern oak food webs and leaf-layer habitat",
+          "url": "https://www.nwf.org/Native-Plant-Habitats/Impact/Wildlife-and-Biodiversity"
+        }
+      ]
+    },
+    {
+      "id": "redMaple",
+      "scientificName": "Acer rubrum",
+      "description": "Rosy maple and imperial moths are among the caterpillars associated with native maples. Red spring flowers and winged seeds add seasonal food, while a broad leafy crown provides a high layer above woodland shrubs.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Acer rubrum",
+          "url": "https://plants.ces.ncsu.edu/plants/acer-rubrum/"
+        },
+        {
+          "label": "SUNY ESF: regional host-plant associations",
+          "url": "https://www.esf.edu/sustainability/initiatives/facilities-operations/campus-grounds/bee-campus-usa/plant-recommendations/index.php"
+        }
+      ]
+    },
+    {
+      "id": "riverBirch",
+      "scientificName": "Betula nigra",
+      "description": "Mourning cloak, dreamy duskywing and eastern tiger swallowtail caterpillars feed on the leaves. Seeds and catkins also feed birds, giving this peeling-barked streamside tree food-web value through several seasons.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Betula nigra",
+          "url": "https://plants.ces.ncsu.edu/plants/betula-nigra/"
+        }
+      ]
+    },
+    {
+      "id": "blackCherry",
+      "scientificName": "Prunus serotina",
+      "description": "Black cherry feeds tiger swallowtail and red-spotted purple caterpillars, among many other insects. Native cherries belong to the highly productive Prunus host group; dark summer fruits add a direct food source for songbirds.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Prunus serotina",
+          "url": "https://plants.ces.ncsu.edu/plants/prunus-serotina/"
+        }
+      ]
+    },
+    {
+      "id": "ponderosaPine",
+      "scientificName": "Pinus ponderosa",
+      "description": "Nutcrackers, quail, squirrels and chipmunks use the seeds in its cones. Long needles and a tall evergreen crown create a persistent woodland layer above the open grasses and shrubs of native western pine habitat.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Pinus ponderosa",
+          "url": "https://plants.ces.ncsu.edu/plants/pinus-ponderosa/"
+        }
+      ]
+    },
+    {
+      "id": "coastLiveOak",
+      "scientificName": "Quercus agrifolia",
+      "description": "Acorns feed wildlife, while butterfly and moth caterpillars use the foliage. A dense evergreen crown also keeps a year-round shelter layer in California oak woodland, including the broad, low branches of older trees.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: Quercus agrifolia",
+          "url": "https://www.calfloranursery.com/plants/quercus-agrifolia/"
+        }
+      ]
+    }
+  ]
+}

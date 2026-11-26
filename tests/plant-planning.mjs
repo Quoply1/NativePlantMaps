@@ -6,7 +6,7 @@ let catalogs=0;
 for(const [id,species]of Object.entries(guide.species)){
  const plan=guide.planning[id];assert.ok(plan,id);assert.ok(plan.height,id+' height');assert.ok(plan.bloom,id+' bloom');assert.ok(plan.sources.length,id+' sources');
  for(const source of plan.sources)assert.ok(/^https?:\/\//.test(source.url),id);
- const markup=context.renderPlantPlanning(id);assert.match(markup,/Mature height/);assert.match(markup,/Mature spread/);assert.match(markup,/Bloom time/);assert.match(markup,/Spacing &amp; establishment care|Spacing & establishment care/);assert.match(markup,/Establishment watering/);
+ const markup=context.renderPlantPlanning(id);assert.ok(guide.ecologySources[id]?.length,id+' ecology references');for(const source of guide.ecologySources[id])assert.ok(markup.includes(source.url.replaceAll('&','&amp;')),id+' rendered ecology reference');assert.match(markup,/Mature height/);assert.match(markup,/Mature spread/);assert.match(markup,/Bloom time/);assert.match(markup,/Spacing &amp; establishment care|Spacing & establishment care/);assert.match(markup,/Establishment watering/);
  if(plan.wateringGroup){assert.ok(guide.wateringGuidance[plan.wateringGroup]);assert.ok(markup.includes(guide.wateringGuidance[plan.wateringGroup].source.url));assert.match(markup,/General guidance; adapt to your site/);}
  if(plan.catalog){catalogs++;assert.match(markup,/current stock and shipping are not confirmed/);assert.ok(markup.includes(plan.catalog.url.replaceAll('&','&amp;')));}
  assert.ok(!/available now|in stock now|inventory confirmed/i.test(markup));
