@@ -37,19 +37,14 @@ const ics=context.saleCalendar({id:'example',name:'Example',address:'Main nurser
 const timed={id:'dated',name:'Dated sale',website:'https://example.org',saleEvents:[{date:'2000-01-01',source:'https://example.org'},{date:'2099-01-01',source:'https://example.org'}]};base=[timed];vm.runInContext("providerMode='all';mapArea=null",context);context.renderSales();assert.ok(!node('sale-results').innerHTML.includes('2000-01-01'));assert.match(node('sale-results').innerHTML,/2099-01-01/);
 assert.match(read('index.html'),/Madison, WI or 53703/);assert.ok(!/Montclair|07042/.test(read('index.html')+read('client-experience.js')));assert.match(read('index.html'),/data-mobile-view=list/);assert.match(read('index.html'),/aria-hidden="true"[^>]*><label for="sub-company"/);assert.match(read('index.html'),/name="evidenceUrl" type="url" maxlength/);
 console.log('Passed real no-JavaScript HTML for 51 state pages and all 580 sources, integrated place-to-plant connection, independent provider filters, URL state, map framing, saved plants, calendar dates and expired-sale suppression.');
-// Browser geolocation is requested on a click only, uses a rounded location,
-// and must not overwrite a town search made while permission was pending.
-const handlers=new Map();for(const id of ['provider-kind','search-map-area','use-location'])node(id).addEventListener=(event,fn)=>handlers.set(id+':'+event,fn);
-context.document.addEventListener=()=>{};context.setInterval=()=>{};
-let success,error,options,locationCalls=[];
-context.navigator={geolocation:{getCurrentPosition(a,b,c){success=a;error=b;options=c;}}};context.applyNearbyCity=city=>locationCalls.push(city);
-context.setupConnectedExperience();assert.equal(success,undefined);handlers.get('use-location:click')();assert.equal(options.enableHighAccuracy,false);success({coords:{latitude:43.0775,longitude:-89.3831}});assert.equal(locationCalls[0].lat,43.08);assert.equal(locationCalls[0].lng,-89.38);
-handlers.get('use-location:click')();error({code:1});assert.match(node('search-status').textContent,/permission was declined/);
-handlers.get('use-location:click')();context.clearPlaceConnection();success({coords:{latitude:43.0775,longitude:-89.3831}});assert.equal(locationCalls.length,1);
+assert.doesNotMatch(read('index.html'), /use-location|Use my location/);
+assert.doesNotMatch(read('connected-experience.js'), /navigator\.geolocation|getCurrentPosition/);
+const locationCalls=[];
+context.applyNearbyCity=city=>locationCalls.push(city);
 let bound;const fakeDB={prepare(){return {bind(...args){bound=args;return this},async run(){return {success:true}}}}};
 const submission={name:'Example Native Nursery',category:'retail',region:'greatlakes',area:'Madison',state:'WI',address:'Public nursery pickup area',website:'https://example.org',nativeDescription:'Sells documented native perennial plants.'};
 const submitted=await worker.fetch(new Request('https://test/api/submissions',{method:'POST',headers:{'content-type':'application/json',origin:'https://test'},body:JSON.stringify(submission)}),{DB:fakeDB});assert.equal(submitted.status,201);assert.equal(bound[6],submission.website);assert.equal(bound[7],submission.website);
-console.log('Passed click-only approximate geolocation, denial handling, pending-location race protection, and optional supporting-source fallback in the real submission API.');
+console.log('Passed removal of device geolocation and optional supporting-source fallback in the real submission API.');
 
 let ring;context.document.querySelector=()=>({querySelector(){return null},append(node){ring=node}});context.document.createElementNS=()=>({attributes:{},setAttribute(k,v){this.attributes[k]=v}});context.sketchProject=()=>[50,60];context.highlightNursery(vendors[0].id,true);assert.equal(ring.attributes.class,'listing-hover-ring');assert.equal(ring.attributes.cx,'50');assert.equal(ring.attributes['pointer-events'],'none');
 console.log('Passed a visible list-hover ring even when an individual nursery pin is clustered.');
