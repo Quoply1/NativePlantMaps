@@ -28,7 +28,7 @@ features=[{key:'8.2.1'}];await context.connectPlaceToPlants({label:'Madison, Wis
 vm.runInContext("providerMode='seasonal'",context);assert.ok(context.filtered().every(v=>v.category==='seasonal'));assert.ok(context.filtered().length>0);
 vm.runInContext("providerMode='all';mapArea=[-90,42,-88,44]",context);assert.ok(context.filtered().every(v=>v.lng>=-90&&v.lng<=-88&&v.lat>=42&&v.lat<=44));
 assert.equal(context.pointWithinArea(179,52,[170,50,-170,60]),true);assert.equal(context.pointWithinArea(0,52,[170,50,-170,60]),false);
-const params=new URLSearchParams('kind=garden&view=map&area=-90,42,-88,44&light=shade&wildlife=host');context.readConnectedState(params);const saved=new URLSearchParams();context.appendConnectedState(saved);assert.equal(saved.get('kind'),'garden');assert.equal(saved.get('wildlife'),'host');assert.equal(saved.get('light'),'shade');assert.equal(saved.get('view'),'map');
+const params=new URLSearchParams('kind=garden&view=map&area=-90,42,-88,44&light=shade&wildlife=host');context.readConnectedState(params);const saved=new URLSearchParams();context.appendConnectedState(saved);assert.equal(saved.get('kind'),'garden');assert.equal(saved.get('wildlife'),null);assert.equal(saved.get('light'),null);assert.equal(saved.get('view'),'map');
 context.readConnectedState(new URLSearchParams('kind=unknown&area=NaN,1,2,3&wildlife=nonsense'));const clean=new URLSearchParams();context.appendConnectedState(clean);assert.equal(clean.get('kind'),null);assert.equal(clean.get('area'),null);assert.equal(clean.get('wildlife'),null);
 assert.equal(context.restoreMapPosition('s,100,200,120,78'),true);assert.equal(context.sketchView.w,120);assert.equal(frameCount,1);assert.equal(context.restoreMapPosition('s,1,2,-10,6'),false);
 vm.runInContext("plantFilters.wildlife='pollinators'",context);assert.equal(context.matchesPlantFilters('buffaloGrass'),false);assert.equal(context.matchesPlantFilters('swampMilkweed'),true);
@@ -57,3 +57,10 @@ let ring;context.document.querySelector=()=>({querySelector(){return null},appen
 console.log('Passed a visible list-hover ring even when an individual nursery pin is clustered.');
 
 context.nearbySearch=null;context.listingSearch='montclair, new jersey (07042)';context.fetch=async()=>({ok:true,json:async()=>({results:[{label:'ZIP 07042',lat:40.8131,lng:-74.2165}]})});await context.restoreConnectedState();assert.equal(locationCalls.at(-1).label,'ZIP 07042');console.log('Passed recovery of geocoded town labels accidentally stored as nursery-name queries.');
+const controls=context.renderPlantFilterControls();assert.ok(!controls.includes('data-plant-filter'));assert.ok(!controls.includes('Clear plant filters'));
+assert.ok(!read('index.html').includes('&&matchesPlantFilters(id)'));
+assert.equal((read('index.html').match(/data-open-suggestion>Suggest a place<\/button>/g)||[]).length,0,'Remove the footer suggestion shortcut');
+assert.ok(read('index.html').indexOf('Find my ecoregion</button><a class="explore-ecoregions"')>0);
+for(const [key,entries] of Object.entries(guide.treeSites||{})){for(const id of Object.keys(entries)){assert.ok(guide.regions[key].plants.includes(id));assert.ok(guide.photos[guide.species[id][1]]);assert.ok(guide.planning[id].sources.length);assert.ok(entries[id].length>40);}}
+for(const key of ['2.2.1','2.2.2','2.2.6'])assert.equal(guide.treeSites?.[key],undefined,'Do not add trees to naturally treeless regions');
+console.log('Passed habitat-only browsing, retired-filter removal, footer cleanup, action order and sourced tree recommendation coverage.');
