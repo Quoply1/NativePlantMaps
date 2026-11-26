@@ -549,6 +549,13 @@
     .pagination-controls>[data-page-step]{min-height:36px;padding:8px;font-size:12px}
     @media(max-width:600px){.pagination .page-number{min-width:36px;min-height:40px}.pagination-controls{flex-wrap:wrap}.page-numbers{order:3;flex-basis:100%}.pagination-controls>[data-page-step="1"]{margin-left:auto}}
 
+    /* Keep each plant fact as a readable label/value row, including on narrow screens. */
+    .planning-summary{margin:14px 0;font:14px/1.6 Arial,sans-serif;color:#405747}
+    .planning-summary>div{margin:5px 0;overflow-wrap:anywhere}
+    .planning-summary dt{display:inline;font-weight:700}
+    .planning-summary dd{display:inline;margin:0}
+    .plant-planning summary{font-size:14px;cursor:pointer}
+
     /* Use document scrolling on small screens instead of nesting a capped list inside the page. */
     @media(max-width:1000px){
       .workspace:not(.map-fullscreen) .directory{display:block;min-height:0;height:auto;overflow:visible}

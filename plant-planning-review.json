@@ -1,15 +1,15 @@
 {
-  "checkedOn": "2026-11-23",
+  "checkedOn": "2026-11-26",
   "metadata": {
-    "checkedOn": "2026-11-23",
-    "species": 209,
+    "checkedOn": "2026-11-26",
+    "species": 215,
     "counts": {
-      "height": 209,
-      "spread": 189,
-      "bloom": 209,
-      "spacing": 197,
-      "speciesWateringNotes": 23,
-      "catalogs": 58,
+      "height": 215,
+      "spread": 195,
+      "bloom": 215,
+      "spacing": 203,
+      "speciesWateringNotes": 18,
+      "catalogs": 59,
       "bloomMonths": 122
     },
     "method": "Primary extension, university, government, botanical and nursery species profiles. Source measurements and regional bloom timing retained; spacing based on mature spread is explicitly an allowance. Missing values remain null. Shared establishment guidance is distinguished from species-specific notes. Nursery catalogs do not establish current inventory."
@@ -373,6 +373,21 @@
         "label": "Montana DNRC nursery: bitterbrush",
         "url": "https://conservationseedlings.mtdnrc.gov/products/bitterbrush"
       },
+      "wateringGroup": "woody"
+    },
+    {
+      "id": "blackCherry",
+      "scientificName": "Prunus serotina",
+      "height": "60–80 ft",
+      "spread": "30–60 ft",
+      "bloom": "Late April–May in North Carolina; later in colder areas.",
+      "spacing": "Allow for a mature spread of 30–60 ft. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Prunus serotina",
+          "url": "https://plants.ces.ncsu.edu/plants/prunus-serotina/"
+        }
+      ],
       "wateringGroup": "woody"
     },
     {
@@ -988,6 +1003,34 @@
         }
       ],
       "wateringGroup": "wet"
+    },
+    {
+      "id": "coastLiveOak",
+      "scientificName": "Quercus agrifolia",
+      "height": "35–70 ft",
+      "spread": "25–60 ft; old trees can spread wider",
+      "bloom": "Spring; inconspicuous yellow catkins.",
+      "spacing": "Allow for a mature spread of 25–60 ft; old trees can spread wider. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: Quercus agrifolia",
+          "url": "https://www.calfloranursery.com/plants/quercus-agrifolia/"
+        },
+        {
+          "label": "Oregon State University Landscape Plants: Quercus agrifolia",
+          "url": "https://landscapeplants.oregonstate.edu/plants/quercus-agrifolia"
+        },
+        {
+          "label": "UC Cooperative Extension: Water Wise Gardening, large trees",
+          "url": "https://ucanr.edu/sites/default/files/2026-04/Water%20Wise%20Gardening%204.20.26-%20Accessible.pdf#page=12"
+        }
+      ],
+      "wateringGroup": "woody",
+      "watering": "Water young trees through establishment according to soil moisture and local nursery guidance. Reduce irrigation as roots establish; established coast live oaks generally need little or no summer water. Avoid keeping the crown and root zone wet in summer.",
+      "catalog": {
+        "label": "California Flora Nursery: coast live oak",
+        "url": "https://www.calfloranursery.com/plants/quercus-agrifolia/"
+      }
     },
     {
       "id": "columbine",
@@ -2285,6 +2328,25 @@
       "watering": "The source advises watering new plantings for two weeks, then only during prolonged drought. It does not specify daily frequency or volume."
     },
     {
+      "id": "ponderosaPine",
+      "scientificName": "Pinus ponderosa",
+      "height": "60–125 ft",
+      "spread": "25–30 ft",
+      "bloom": "Non-flowering conifer; pollen cones in spring.",
+      "spacing": "Allow for a mature spread of 25–30 ft. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Pinus ponderosa",
+          "url": "https://plants.ces.ncsu.edu/plants/pinus-ponderosa/"
+        },
+        {
+          "label": "Oregon State University Landscape Plants: Pinus ponderosa",
+          "url": "https://landscapeplants.oregonstate.edu/plants/pinus-ponderosa"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    {
       "id": "poppyMallow",
       "scientificName": "Callirhoe involucrata",
       "height": "6 in–1 ft",
@@ -2489,6 +2551,21 @@
       "wateringGroup": "general"
     },
     {
+      "id": "redMaple",
+      "scientificName": "Acer rubrum",
+      "height": "40–70 ft; can grow taller",
+      "spread": "30–50 ft",
+      "bloom": "Late winter–early spring; timing varies with latitude.",
+      "spacing": "Allow for a mature spread of 30–50 ft. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Acer rubrum",
+          "url": "https://plants.ces.ncsu.edu/plants/acer-rubrum/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    {
       "id": "redOsier",
       "scientificName": "Cornus sericea",
       "height": "5–9 ft",
@@ -2560,6 +2637,22 @@
         "url": "https://westernnativeseed.com/product/achnatherum-hymenoides/"
       },
       "wateringGroup": "general"
+    },
+    {
+      "id": "riverBirch",
+      "scientificName": "Betula nigra",
+      "height": "30–70 ft",
+      "spread": "40–60 ft",
+      "bloom": "Early spring; wind-pollinated catkins.",
+      "spacing": "Allow for a mature spread of 40–60 ft. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Betula nigra",
+          "url": "https://plants.ces.ncsu.edu/plants/betula-nigra/"
+        }
+      ],
+      "wateringGroup": "woody",
+      "wateringNote": "Maintain consistent soil moisture, including after establishment; this is a streamside species, not a dry-bed tree."
     },
     {
       "id": "rockHibiscus",
@@ -3483,6 +3576,21 @@
         }
       ],
       "wateringGroup": "general"
+    },
+    {
+      "id": "whiteOak",
+      "scientificName": "Quercus alba",
+      "height": "50–135 ft",
+      "spread": "50–80 ft",
+      "bloom": "Spring; often April in North Carolina, later farther north.",
+      "spacing": "Allow for a mature spread of 50–80 ft. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus alba",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-alba/"
+        }
+      ],
+      "wateringGroup": "woody"
     },
     {
       "id": "whiteSpruce",
