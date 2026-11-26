@@ -112,7 +112,8 @@
         "redElderberry",
         "whiteSpruce",
         "dwarfFireweed",
-        "tamarack"
+        "tamarack",
+        "aspen"
       ]
     },
     "3.1.2": {
@@ -130,7 +131,8 @@
         "blackSpruce",
         "whiteSpruce",
         "dwarfFireweed",
-        "tamarack"
+        "tamarack",
+        "aspen"
       ]
     },
     "3.1.3": {
@@ -149,7 +151,8 @@
         "dwarfBirch",
         "whiteSpruce",
         "dwarfFireweed",
-        "tamarack"
+        "tamarack",
+        "aspen"
       ]
     },
     "3.2.1": {
@@ -166,7 +169,8 @@
         "blackSpruce",
         "dwarfBirch",
         "whiteSpruce",
-        "dwarfFireweed"
+        "dwarfFireweed",
+        "aspen"
       ]
     },
     "5.2.1": {
@@ -192,7 +196,8 @@
         "newEnglandAster",
         "redElderberry",
         "whiteSpruce",
-        "tamarack"
+        "tamarack",
+        "aspen"
       ]
     },
     "5.2.2": {
@@ -210,7 +215,8 @@
         "joePye",
         "sneezeweed",
         "whiteSpruce",
-        "tamarack"
+        "tamarack",
+        "aspen"
       ]
     },
     "5.3.1": {
@@ -236,7 +242,8 @@
         "newEnglandAster",
         "redElderberry",
         "whiteSpruce",
-        "tamarack"
+        "tamarack",
+        "aspen"
       ]
     },
     "5.3.3": {
@@ -259,7 +266,8 @@
         "bloodroot",
         "blueCohosh",
         "joePye",
-        "newEnglandAster"
+        "newEnglandAster",
+        "aspen"
       ]
     },
     "6.1.1": {
@@ -277,7 +285,8 @@
         "blackSpruce",
         "dwarfBirch",
         "whiteSpruce",
-        "dwarfFireweed"
+        "dwarfFireweed",
+        "aspen"
       ]
     },
     "6.1.2": {
@@ -293,7 +302,9 @@
         "labradorTea",
         "redOsier",
         "dwarfBirch",
-        "dwarfFireweed"
+        "dwarfFireweed",
+        "whiteSpruce",
+        "aspen"
       ]
     },
     "6.1.3": {
@@ -311,7 +322,8 @@
         "blackSpruce",
         "dwarfBirch",
         "whiteSpruce",
-        "dwarfFireweed"
+        "dwarfFireweed",
+        "aspen"
       ]
     },
     "6.1.4": {
@@ -327,7 +339,9 @@
         "labradorTea",
         "redOsier",
         "dwarfBirch",
-        "dwarfFireweed"
+        "dwarfFireweed",
+        "whiteSpruce",
+        "aspen"
       ]
     },
     "6.2.3": {
@@ -347,7 +361,8 @@
         "redOsier",
         "silkyLupine",
         "oceanSpray",
-        "redElderberry"
+        "redElderberry",
+        "aspen"
       ]
     },
     "6.2.4": {
@@ -365,7 +380,8 @@
         "mockOrange",
         "westernColumbine",
         "redOsier",
-        "silkyLupine"
+        "silkyLupine",
+        "aspen"
       ]
     },
     "6.2.5": {
@@ -388,7 +404,8 @@
         "fringecup",
         "oceanSpray",
         "pacificBleedingheart",
-        "redElderberry"
+        "redElderberry",
+        "aspen"
       ]
     },
     "6.2.7": {
@@ -410,7 +427,8 @@
         "fringecup",
         "oceanSpray",
         "pacificBleedingheart",
-        "redElderberry"
+        "redElderberry",
+        "aspen"
       ]
     },
     "6.2.8": {
@@ -429,7 +447,8 @@
         "redOsier",
         "silkyLupine",
         "rabbitbrush",
-        "oceanSpray"
+        "oceanSpray",
+        "aspen"
       ]
     },
     "6.2.9": {
@@ -449,7 +468,8 @@
         "redOsier",
         "silkyLupine",
         "rabbitbrush",
-        "oceanSpray"
+        "oceanSpray",
+        "aspen"
       ]
     },
     "6.2.10": {
@@ -470,7 +490,8 @@
         "showyGoldeneye",
         "silkyLupine",
         "smoothPenstemon",
-        "rabbitbrush"
+        "rabbitbrush",
+        "aspen"
       ]
     },
     "6.2.11": {
@@ -495,7 +516,8 @@
         "redwoodSorrel",
         "fringecup",
         "oceanSpray",
-        "pacificBleedingheart"
+        "pacificBleedingheart",
+        "aspen"
       ]
     },
     "6.2.12": {
@@ -516,7 +538,8 @@
         "redOsier",
         "narrowleafMilkweed",
         "blueEyedGrass",
-        "westernRedbud"
+        "westernRedbud",
+        "aspen"
       ]
     },
     "6.2.13": {
@@ -535,7 +558,8 @@
         "redOsier",
         "showyGoldeneye",
         "silkyLupine",
-        "rabbitbrush"
+        "rabbitbrush",
+        "aspen"
       ]
     },
     "6.2.14": {
@@ -555,7 +579,8 @@
         "showyGoldeneye",
         "silkyLupine",
         "smoothPenstemon",
-        "rabbitbrush"
+        "rabbitbrush",
+        "aspen"
       ]
     },
     "6.2.15": {
@@ -572,7 +597,8 @@
         "mockOrange",
         "westernColumbine",
         "redOsier",
-        "silkyLupine"
+        "silkyLupine",
+        "aspen"
       ]
     },
     "7.1.1": {
@@ -627,7 +653,8 @@
         "dwarfBirch",
         "redElderberry",
         "whiteSpruce",
-        "dwarfFireweed"
+        "dwarfFireweed",
+        "aspen"
       ]
     },
     "7.1.4": {
@@ -691,7 +718,8 @@
         "oceanSpray",
         "pacificBleedingheart",
         "sloughSedge",
-        "redElderberry"
+        "redElderberry",
+        "sitkaSpruce"
       ]
     },
     "7.1.8": {
@@ -767,7 +795,9 @@
         "bloodroot",
         "blueCohosh",
         "joePye",
-        "newEnglandAster"
+        "newEnglandAster",
+        "aspen",
+        "burOak"
       ]
     },
     "8.1.3": {
@@ -789,7 +819,8 @@
         "woodPhlox",
         "bloodroot",
         "blueCohosh",
-        "virginiaBluebells"
+        "virginiaBluebells",
+        "aspen"
       ]
     },
     "8.1.4": {
@@ -817,7 +848,9 @@
         "bloodroot",
         "joePye",
         "newEnglandAster",
-        "sneezeweed"
+        "sneezeweed",
+        "aspen",
+        "burOak"
       ]
     },
     "8.1.5": {
@@ -852,7 +885,9 @@
         "ironweed",
         "indianGrass",
         "spiderwort",
-        "virginiaBluebells"
+        "virginiaBluebells",
+        "aspen",
+        "burOak"
       ]
     },
     "8.1.6": {
@@ -883,7 +918,9 @@
         "joePye",
         "newEnglandAster",
         "spiderwort",
-        "virginiaBluebells"
+        "virginiaBluebells",
+        "aspen",
+        "burOak"
       ]
     },
     "8.1.7": {
@@ -902,7 +939,8 @@
         "zigzagGoldenrod",
         "bloodroot",
         "newEnglandAster",
-        "purpleLoveGrass"
+        "purpleLoveGrass",
+        "aspen"
       ]
     },
     "8.1.8": {
@@ -927,7 +965,8 @@
         "newEnglandAster",
         "redElderberry",
         "whiteSpruce",
-        "tamarack"
+        "tamarack",
+        "aspen"
       ]
     },
     "8.1.10": {
@@ -951,7 +990,8 @@
         "blueCohosh",
         "joePye",
         "newEnglandAster",
-        "virginiaBluebells"
+        "virginiaBluebells",
+        "aspen"
       ]
     },
     "8.2.1": {
@@ -984,7 +1024,9 @@
         "heathAster",
         "ironweed",
         "indianGrass",
-        "spiderwort"
+        "spiderwort",
+        "aspen",
+        "burOak"
       ]
     },
     "8.2.2": {
@@ -1008,7 +1050,9 @@
         "blueLobelia",
         "joePye",
         "newEnglandAster",
-        "sneezeweed"
+        "sneezeweed",
+        "aspen",
+        "burOak"
       ]
     },
     "8.2.3": {
@@ -1042,7 +1086,9 @@
         "spiderwort",
         "virginiaBluebells",
         "tickseed",
-        "purpleConeflower"
+        "purpleConeflower",
+        "aspen",
+        "burOak"
       ]
     },
     "8.2.4": {
@@ -1072,7 +1118,9 @@
         "jacobsLadder",
         "newEnglandAster",
         "sneezeweed",
-        "virginiaBluebells"
+        "virginiaBluebells",
+        "aspen",
+        "burOak"
       ]
     },
     "8.3.1": {
@@ -1099,7 +1147,8 @@
         "bloodroot",
         "newEnglandAster",
         "purpleLoveGrass",
-        "virginiaBluebells"
+        "virginiaBluebells",
+        "aspen"
       ]
     },
     "8.3.2": {
@@ -1133,7 +1182,10 @@
         "blueWildIndigo",
         "virginiaBluebells",
         "tickseed",
-        "purpleConeflower"
+        "purpleConeflower",
+        "burOak",
+        "cottonwood",
+        "fringeTree"
       ]
     },
     "8.3.3": {
@@ -1212,7 +1264,8 @@
         "sweetspire",
         "fringeTree",
         "greenAndGold",
-        "tickseed"
+        "tickseed",
+        "cypress"
       ]
     },
     "8.3.6": {
@@ -1232,7 +1285,9 @@
         "dwarfPalmetto",
         "sweetspire",
         "fringeTree",
-        "tickseed"
+        "tickseed",
+        "cottonwood",
+        "cypress"
       ]
     },
     "8.3.7": {
@@ -1252,7 +1307,8 @@
         "purpleLoveGrass",
         "sweetspire",
         "fringeTree",
-        "tickseed"
+        "tickseed",
+        "cypress"
       ]
     },
     "8.3.8": {
@@ -1267,7 +1323,8 @@
         "rattlesnakeMaster",
         "blackEyedSusan",
         "dwarfPalmetto",
-        "purpleLoveGrass"
+        "purpleLoveGrass",
+        "fringeTree"
       ]
     },
     "8.4.1": {
@@ -1295,7 +1352,8 @@
         "blueCohosh",
         "newEnglandAster",
         "blueWildIndigo",
-        "virginiaBluebells"
+        "virginiaBluebells",
+        "fringeTree"
       ]
     },
     "8.4.2": {
@@ -1320,7 +1378,8 @@
         "jacobsLadder",
         "blueCohosh",
         "greenAndGold",
-        "virginiaBluebells"
+        "virginiaBluebells",
+        "fringeTree"
       ]
     },
     "8.4.3": {
@@ -1347,7 +1406,8 @@
         "blueCohosh",
         "newEnglandAster",
         "blueWildIndigo",
-        "virginiaBluebells"
+        "virginiaBluebells",
+        "fringeTree"
       ]
     },
     "8.4.4": {
@@ -1400,7 +1460,8 @@
         "blueWildIndigo",
         "virginiaBluebells",
         "tickseed",
-        "purpleConeflower"
+        "purpleConeflower",
+        "fringeTree"
       ]
     },
     "8.4.6": {
@@ -1441,7 +1502,8 @@
         "spiderwort",
         "blueWildIndigo",
         "tickseed",
-        "purpleConeflower"
+        "purpleConeflower",
+        "fringeTree"
       ]
     },
     "8.4.8": {
@@ -1506,7 +1568,8 @@
         "fringeTree",
         "dwarfFothergilla",
         "greenAndGold",
-        "saltMarshMallow"
+        "saltMarshMallow",
+        "cypress"
       ]
     },
     "8.5.2": {
@@ -1525,7 +1588,9 @@
         "waxMyrtle",
         "dwarfPalmetto",
         "sneezeweed",
-        "sweetspire"
+        "sweetspire",
+        "cottonwood",
+        "fringeTree"
       ]
     },
     "8.5.3": {
@@ -1591,7 +1656,8 @@
         "heathAster",
         "ironweed",
         "indianGrass",
-        "plainsConeflower"
+        "plainsConeflower",
+        "burOak"
       ]
     },
     "9.2.2": {
@@ -1612,7 +1678,8 @@
         "newEnglandAster",
         "heathAster",
         "sneezeweed",
-        "ironweed"
+        "ironweed",
+        "cottonwood"
       ]
     },
     "9.2.3": {
@@ -1643,7 +1710,9 @@
         "indianGrass",
         "spiderwort",
         "blueWildIndigo",
-        "plainsConeflower"
+        "plainsConeflower",
+        "burOak",
+        "cottonwood"
       ]
     },
     "9.2.4": {
@@ -1670,7 +1739,8 @@
         "spiderwort",
         "blueWildIndigo",
         "purpleConeflower",
-        "plainsConeflower"
+        "plainsConeflower",
+        "cottonwood"
       ]
     },
     "9.3.1": {
@@ -1691,7 +1761,8 @@
         "redOsier",
         "heathAster",
         "plainsConeflower",
-        "beeplant"
+        "beeplant",
+        "burOak"
       ]
     },
     "9.3.3": {
@@ -1712,7 +1783,8 @@
         "plainsConeflower",
         "beeplant",
         "smoothPenstemon",
-        "rabbitbrush"
+        "rabbitbrush",
+        "burOak"
       ]
     },
     "9.3.4": {
@@ -1730,7 +1802,9 @@
         "heathAster",
         "sneezeweed",
         "plainsConeflower",
-        "beeplant"
+        "beeplant",
+        "burOak",
+        "cottonwood"
       ]
     },
     "9.4.1": {
@@ -1774,7 +1848,9 @@
         "ironweed",
         "indianGrass",
         "plainsConeflower",
-        "beeplant"
+        "beeplant",
+        "burOak",
+        "cottonwood"
       ]
     },
     "9.4.3": {
@@ -1792,7 +1868,8 @@
         "alaskaYarrow",
         "plainsConeflower",
         "chocolateFlower",
-        "beeplant"
+        "beeplant",
+        "cottonwood"
       ]
     },
     "9.4.4": {
@@ -1815,7 +1892,9 @@
         "indianGrass",
         "spiderwort",
         "blueWildIndigo",
-        "plainsConeflower"
+        "plainsConeflower",
+        "burOak",
+        "cottonwood"
       ]
     },
     "9.4.5": {
@@ -1875,7 +1954,8 @@
         "prairieBlazingStar",
         "indianGrass",
         "spiderwort",
-        "plainsConeflower"
+        "plainsConeflower",
+        "cottonwood"
       ]
     },
     "9.5.1": {
@@ -1898,7 +1978,8 @@
         "seaPurslane",
         "saltMarshMallow",
         "beeblossom",
-        "texasLantana"
+        "texasLantana",
+        "cypress"
       ]
     },
     "9.6.1": {
@@ -2188,7 +2269,8 @@
         "firecracker",
         "showyGoldeneye",
         "beeplant",
-        "rabbitbrush"
+        "rabbitbrush",
+        "aspen"
       ]
     },
     "15.4.1": {
@@ -9485,5 +9567,274 @@
       "bloomMonths": 122
     },
     "method": "Primary extension, university, government, botanical and nursery species profiles. Source measurements and regional bloom timing retained; spacing based on mature spread is explicitly an allowance. Missing values remain null. Shared establishment guidance is distinguished from species-specific notes. Nursery catalogs do not establish current inventory."
+  },
+  "treeSites": {
+    "3.1.1": {
+      "whiteSpruce": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "aspen": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy."
+    },
+    "3.1.2": {
+      "whiteSpruce": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "aspen": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy."
+    },
+    "3.1.3": {
+      "whiteSpruce": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "aspen": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy."
+    },
+    "3.2.1": {
+      "whiteSpruce": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "aspen": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy."
+    },
+    "6.1.1": {
+      "whiteSpruce": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "aspen": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy."
+    },
+    "6.1.2": {
+      "whiteSpruce": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "aspen": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy."
+    },
+    "6.1.3": {
+      "whiteSpruce": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "aspen": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy."
+    },
+    "6.1.4": {
+      "whiteSpruce": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "aspen": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy."
+    },
+    "7.1.3": {
+      "whiteSpruce": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "aspen": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy."
+    },
+    "6.2.3": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+    },
+    "6.2.4": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+    },
+    "6.2.5": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "vineMaple": "A small tree for moist, drained forest edges in its Pacific Northwest native range, principally west of the Cascades. Use local nursery-grown stock."
+    },
+    "6.2.7": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "vineMaple": "A small tree for moist, drained forest edges in its Pacific Northwest native range, principally west of the Cascades. Use local nursery-grown stock."
+    },
+    "6.2.8": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+    },
+    "6.2.9": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+    },
+    "6.2.10": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+    },
+    "6.2.11": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "vineMaple": "A small tree for moist, drained forest edges in its Pacific Northwest native range, principally west of the Cascades. Use local nursery-grown stock."
+    },
+    "6.2.12": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+    },
+    "6.2.13": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+    },
+    "6.2.14": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+    },
+    "6.2.15": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+    },
+    "13.1.1": {
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+    },
+    "5.2.1": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+    },
+    "5.2.2": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+    },
+    "5.3.1": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+    },
+    "5.3.3": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+    },
+    "8.1.1": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+    },
+    "8.1.3": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+    },
+    "8.1.4": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+    },
+    "8.1.5": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+    },
+    "8.1.6": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+    },
+    "8.1.7": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+    },
+    "8.1.8": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+    },
+    "8.1.10": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+    },
+    "8.2.1": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+    },
+    "8.2.2": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+    },
+    "8.2.3": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+    },
+    "8.2.4": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+    },
+    "8.3.1": {
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+    },
+    "8.3.2": {
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "9.2.1": {
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+    },
+    "9.2.2": {
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
+    },
+    "9.2.3": {
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
+    },
+    "9.2.4": {
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
+    },
+    "9.3.1": {
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+    },
+    "9.3.3": {
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
+    },
+    "9.3.4": {
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
+    },
+    "9.4.2": {
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
+    },
+    "9.4.4": {
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
+    },
+    "8.3.6": {
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+    },
+    "8.5.2": {
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+    },
+    "9.4.1": {
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
+    },
+    "9.4.3": {
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
+    },
+    "9.4.7": {
+      "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
+    },
+    "8.3.3": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.3.4": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.3.5": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+    },
+    "8.3.7": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+    },
+    "8.3.8": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.4.1": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.4.2": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.4.3": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.4.4": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.4.5": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.4.6": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.4.7": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.4.8": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.4.9": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+    },
+    "8.5.1": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+    },
+    "8.5.3": {
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+    },
+    "9.5.1": {
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+    },
+    "7.1.4": {
+      "sitkaSpruce": "For cool maritime sites within the coastal native range, below treeline. This is a very large tree; avoid dry inland gardens and small yards."
+    },
+    "7.1.5": {
+      "sitkaSpruce": "For cool maritime sites within the coastal native range, below treeline. This is a very large tree; avoid dry inland gardens and small yards."
+    },
+    "7.1.7": {
+      "sitkaSpruce": "For cool maritime sites within the coastal native range, below treeline. This is a very large tree; avoid dry inland gardens and small yards.",
+      "vineMaple": "A small tree for moist, drained forest edges in its Pacific Northwest native range, principally west of the Cascades. Use local nursery-grown stock."
+    },
+    "7.1.8": {
+      "sitkaSpruce": "For cool maritime sites within the coastal native range, below treeline. This is a very large tree; avoid dry inland gardens and small yards.",
+      "vineMaple": "A small tree for moist, drained forest edges in its Pacific Northwest native range, principally west of the Cascades. Use local nursery-grown stock."
+    },
+    "7.1.9": {
+      "vineMaple": "A small tree for moist, drained forest edges in its Pacific Northwest native range, principally west of the Cascades. Use local nursery-grown stock."
+    }
   }
 }

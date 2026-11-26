@@ -25,7 +25,7 @@ function renderPlaceSummary(){
 function appendConnectedState(params){
   if(providerMode!=='all')params.set('kind',providerMode);if(directoryView!=='list')params.set('view',directoryView);
   if(manualMapPosition)params.set('map',manualMapPosition);if(mapArea)params.set('area',mapArea.map(n=>n.toFixed(4)).join(','));
-  Object.entries(plantFilters).forEach(([key,value])=>{if(value)params.set(key,value)});
+
 }
 function readConnectedState(params){
   providerMode=['garden','seasonal'].includes(params.get('kind'))?params.get('kind'):'all';
@@ -33,7 +33,7 @@ function readConnectedState(params){
   document.getElementById('provider-kind').value=providerMode;
   setDirectoryView(params.get('view')==='map'?'map':'list');
   const parts=(params.get('area')||'').split(',').map(Number);mapArea=parts.length===4&&parts.every(Number.isFinite)&&parts[0]>=-200&&parts[0]<=180&&parts[2]>=-200&&parts[2]<=180&&parts[1]>=-90&&parts[3]<=90&&parts[1]<parts[3]?parts:null;
-  Object.keys(plantFilters).forEach(key=>plantFilters[key]=validPlantFilter(key,params.get(key))?params.get(key):'');
+  Object.keys(plantFilters).forEach(key=>plantFilters[key]='');
   localEcoregion='';manualMapPosition='';
 }
 async function restoreConnectedState(){const zip=listingSearch?.match(/,\s*[^()]+\s+\((\d{5})\)$/)?.[1];if(!nearbySearch&&zip){try{const response=await fetch('/api/city-suggestions?query='+zip);const data=await response.json();if(response.ok&&data.results?.length===1){applyNearbyCity(data.results[0]);return;}}catch{}}if(nearbySearch)await connectPlaceToPlants(nearbySearch);else renderPlaceSummary();renderSales();}
@@ -92,8 +92,7 @@ function plantTraits(id){
 }
 function matchesPlantFilters(id){const t=plantTraits(id);return (!plantFilters.light||t.light.includes(plantFilters.light))&&(!plantFilters.moisture||t.moisture.includes(plantFilters.moisture))&&(!plantFilters.planttype||t.type===plantFilters.planttype)&&(!plantFilters.wildlife||({pollinators:/\bbees?\b|butterfl|hummingbird|pollinators|pollinating insects|flower flies/,birds:/\bbirds?\b|hummingbird/,host:/caterpillar|\bhost\b/})[plantFilters.wildlife].test(t.note));}
 function shoppingList(){try{const ids=JSON.parse(localStorage.getItem(shoppingKey)||'[]');return Array.isArray(ids)?ids.filter(id=>guideData.species[id]):[];}catch{return [];}}
-function renderPlantFilterControls(){const choices={light:[['sun','Sun'],['shade','Shade']],moisture:[['dry','Dry'],['moist','Moist'],['wet','Wet']],planttype:[['tree','Trees'],['shrub','Shrubs'],['grass','Grasses & sedges'],['fern','Ferns'],['vine','Vines'],['cactus','Cacti'],['other','Other plants']],wildlife:[['pollinators','Pollinators'],['birds','Birds'],['host','Caterpillar hosts']]},labels={light:'Light',moisture:'Soil moisture',planttype:'Plant type',wildlife:'Wildlife value'};
-  return '<div class="plant-filter-controls">'+Object.entries(choices).map(([key,options])=>'<div class="plant-filter-field"><label for="plant-filter-'+key+'">'+labels[key]+'</label><select id="plant-filter-'+key+'" aria-label="'+labels[key]+'" data-plant-filter="'+key+'"><option value="">All</option>'+options.map(([value,label])=>'<option value="'+value+'" '+(plantFilters[key]===value?'selected':'')+'>'+label+'</option>').join('')+'</select></div>').join('')+'<button type="button" data-clear-plant-filters>Clear plant filters</button></div><p class="planning-note">Filters use the site conditions and wildlife relationships documented in these profiles; they are not a complete trait database.</p><details id="shopping-list"><summary>Saved plants ('+shoppingList().length+')</summary>'+renderShoppingList()+'</details><p><a href="https://nativeplantfinder.nwf.org/" target="_blank" rel="noreferrer">NWF Native Plant Finder</a> · <a href="/browse/">State nursery directories</a></p><details class="society-resources"><summary>State native plant societies</summary><ul>'+Object.entries(stateSocieties).map(([code,society])=>'<li><a href="'+html(society.url)+'" target="_blank" rel="noreferrer">'+html(stateLabels[code])+': '+html(society.name)+'</a></li>').join('')+'</ul></details>';
+function renderPlantFilterControls(){return '<details id="shopping-list"><summary>Saved plants ('+shoppingList().length+')</summary>'+renderShoppingList()+'</details><p><a href="https://nativeplantfinder.nwf.org/" target="_blank" rel="noreferrer">NWF Native Plant Finder</a> · <a href="/browse/">State nursery directories</a></p><details class="society-resources"><summary>State native plant societies</summary><ul>'+Object.entries(stateSocieties).map(([code,society])=>'<li><a href="'+html(society.url)+'" target="_blank" rel="noreferrer">'+html(stateLabels[code])+': '+html(society.name)+'</a></li>').join('')+'</ul></details>';
 }
 function renderPlantActions(id){return '<div class="plant-actions"><button type="button" data-save-plant="'+html(id)+'" aria-pressed="'+shoppingList().includes(id)+'">'+(shoppingList().includes(id)?'Saved':'Save plant')+'</button><button type="button" data-find-plant="'+html(id)+'">Find growers nearby</button></div>';}
 function renderShoppingList(){const ids=shoppingList();return '<p>Saved on this browser. Export includes saved plants and the currently filtered nurseries. Availability is not confirmed.</p>'+(ids.length?'<ul>'+ids.map(id=>'<li>'+html(guideData.species[id][0])+' <button type="button" data-remove-plant="'+html(id)+'">Remove</button></li>').join('')+'</ul><button type="button" data-export-plan>Export shopping CSV</button>':'<p>No saved plants yet.</p>');}

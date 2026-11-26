@@ -1,0 +1,910 @@
+{
+  "checkedOn": "2026-11-26",
+  "method": "Expand existing photographed, sourced tree profiles into appropriate regional habitat examples. Range and habitat are both required; these are not county-level occurrence claims. No trees are added to treeless tundra, alpine zones, or open desert solely to fill a category.",
+  "addedRecommendations": 82,
+  "regionsExpanded": 64,
+  "changes": [
+    {
+      "region": "3.1.1",
+      "species": "aspen",
+      "site": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "3.1.2",
+      "species": "aspen",
+      "site": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "3.1.3",
+      "species": "aspen",
+      "site": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "3.2.1",
+      "species": "aspen",
+      "site": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.1.1",
+      "species": "aspen",
+      "site": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.1.2",
+      "species": "whiteSpruce",
+      "site": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension — Picea glauca",
+          "url": "https://plants.ces.ncsu.edu/plants/picea-laxa/"
+        }
+      ]
+    },
+    {
+      "region": "6.1.2",
+      "species": "aspen",
+      "site": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.1.3",
+      "species": "aspen",
+      "site": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.1.4",
+      "species": "whiteSpruce",
+      "site": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension — Picea glauca",
+          "url": "https://plants.ces.ncsu.edu/plants/picea-laxa/"
+        }
+      ]
+    },
+    {
+      "region": "6.1.4",
+      "species": "aspen",
+      "site": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "7.1.3",
+      "species": "aspen",
+      "site": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.3",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.4",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.5",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.7",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.8",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.9",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.10",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.11",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.12",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.13",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.14",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "6.2.15",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "13.1.1",
+      "species": "aspen",
+      "site": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "5.2.1",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "5.2.2",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "5.3.1",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "5.3.3",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.1",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.3",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.4",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.5",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.6",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.7",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.8",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.10",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.2.1",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.2.2",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.2.3",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.2.4",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.3.1",
+      "species": "aspen",
+      "site": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus tremuloides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-tremuloides/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.1",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.4",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.5",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "8.1.6",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "8.2.1",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "8.2.2",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "8.2.3",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "8.2.4",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "8.3.2",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "9.2.1",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "9.2.3",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "9.3.1",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "9.3.3",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "9.3.4",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "9.4.2",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "9.4.4",
+      "species": "burOak",
+      "site": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus macrocarpa",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-macrocarpa/"
+        }
+      ]
+    },
+    {
+      "region": "8.3.2",
+      "species": "cottonwood",
+      "site": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "region": "8.3.6",
+      "species": "cottonwood",
+      "site": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "region": "8.5.2",
+      "species": "cottonwood",
+      "site": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "region": "9.2.2",
+      "species": "cottonwood",
+      "site": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "region": "9.2.3",
+      "species": "cottonwood",
+      "site": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "region": "9.2.4",
+      "species": "cottonwood",
+      "site": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "region": "9.3.4",
+      "species": "cottonwood",
+      "site": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "region": "9.4.2",
+      "species": "cottonwood",
+      "site": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "region": "9.4.3",
+      "species": "cottonwood",
+      "site": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "region": "9.4.4",
+      "species": "cottonwood",
+      "site": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "region": "9.4.7",
+      "species": "cottonwood",
+      "site": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Populus deltoides",
+          "url": "https://plants.ces.ncsu.edu/plants/populus-deltoides/"
+        }
+      ]
+    },
+    {
+      "region": "8.3.2",
+      "species": "fringeTree",
+      "site": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chionanthus virginicus",
+          "url": "https://plants.ces.ncsu.edu/plants/chionanthus-virginicus/"
+        }
+      ]
+    },
+    {
+      "region": "8.3.8",
+      "species": "fringeTree",
+      "site": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chionanthus virginicus",
+          "url": "https://plants.ces.ncsu.edu/plants/chionanthus-virginicus/"
+        }
+      ]
+    },
+    {
+      "region": "8.4.1",
+      "species": "fringeTree",
+      "site": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chionanthus virginicus",
+          "url": "https://plants.ces.ncsu.edu/plants/chionanthus-virginicus/"
+        }
+      ]
+    },
+    {
+      "region": "8.4.2",
+      "species": "fringeTree",
+      "site": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chionanthus virginicus",
+          "url": "https://plants.ces.ncsu.edu/plants/chionanthus-virginicus/"
+        }
+      ]
+    },
+    {
+      "region": "8.4.3",
+      "species": "fringeTree",
+      "site": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chionanthus virginicus",
+          "url": "https://plants.ces.ncsu.edu/plants/chionanthus-virginicus/"
+        }
+      ]
+    },
+    {
+      "region": "8.4.5",
+      "species": "fringeTree",
+      "site": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chionanthus virginicus",
+          "url": "https://plants.ces.ncsu.edu/plants/chionanthus-virginicus/"
+        }
+      ]
+    },
+    {
+      "region": "8.4.7",
+      "species": "fringeTree",
+      "site": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chionanthus virginicus",
+          "url": "https://plants.ces.ncsu.edu/plants/chionanthus-virginicus/"
+        }
+      ]
+    },
+    {
+      "region": "8.5.2",
+      "species": "fringeTree",
+      "site": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Chionanthus virginicus",
+          "url": "https://plants.ces.ncsu.edu/plants/chionanthus-virginicus/"
+        }
+      ]
+    },
+    {
+      "region": "8.3.5",
+      "species": "cypress",
+      "site": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Taxodium distichum",
+          "url": "https://plants.ces.ncsu.edu/plants/taxodium-distichum/"
+        }
+      ]
+    },
+    {
+      "region": "8.3.6",
+      "species": "cypress",
+      "site": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Taxodium distichum",
+          "url": "https://plants.ces.ncsu.edu/plants/taxodium-distichum/"
+        }
+      ]
+    },
+    {
+      "region": "8.3.7",
+      "species": "cypress",
+      "site": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Taxodium distichum",
+          "url": "https://plants.ces.ncsu.edu/plants/taxodium-distichum/"
+        }
+      ]
+    },
+    {
+      "region": "8.5.1",
+      "species": "cypress",
+      "site": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Taxodium distichum",
+          "url": "https://plants.ces.ncsu.edu/plants/taxodium-distichum/"
+        }
+      ]
+    },
+    {
+      "region": "9.5.1",
+      "species": "cypress",
+      "site": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Taxodium distichum",
+          "url": "https://plants.ces.ncsu.edu/plants/taxodium-distichum/"
+        }
+      ]
+    },
+    {
+      "region": "7.1.7",
+      "species": "sitkaSpruce",
+      "site": "For cool maritime sites within the coastal native range, below treeline. This is a very large tree; avoid dry inland gardens and small yards.",
+      "sources": [
+        {
+          "label": "NC State Extension — Picea sitchensis",
+          "url": "https://plants.ces.ncsu.edu/plants/picea-sitchensis/"
+        }
+      ]
+    }
+  ]
+}
