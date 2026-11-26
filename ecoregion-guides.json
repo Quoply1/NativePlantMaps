@@ -197,7 +197,8 @@
         "redElderberry",
         "whiteSpruce",
         "tamarack",
-        "aspen"
+        "aspen",
+        "redMaple"
       ]
     },
     "5.2.2": {
@@ -243,7 +244,9 @@
         "redElderberry",
         "whiteSpruce",
         "tamarack",
-        "aspen"
+        "aspen",
+        "redMaple",
+        "blackCherry"
       ]
     },
     "5.3.3": {
@@ -267,7 +270,9 @@
         "blueCohosh",
         "joePye",
         "newEnglandAster",
-        "aspen"
+        "aspen",
+        "redMaple",
+        "blackCherry"
       ]
     },
     "6.1.1": {
@@ -362,7 +367,8 @@
         "silkyLupine",
         "oceanSpray",
         "redElderberry",
-        "aspen"
+        "aspen",
+        "ponderosaPine"
       ]
     },
     "6.2.4": {
@@ -448,7 +454,8 @@
         "silkyLupine",
         "rabbitbrush",
         "oceanSpray",
-        "aspen"
+        "aspen",
+        "ponderosaPine"
       ]
     },
     "6.2.9": {
@@ -469,7 +476,8 @@
         "silkyLupine",
         "rabbitbrush",
         "oceanSpray",
-        "aspen"
+        "aspen",
+        "ponderosaPine"
       ]
     },
     "6.2.10": {
@@ -491,7 +499,8 @@
         "silkyLupine",
         "smoothPenstemon",
         "rabbitbrush",
-        "aspen"
+        "aspen",
+        "ponderosaPine"
       ]
     },
     "6.2.11": {
@@ -539,7 +548,8 @@
         "narrowleafMilkweed",
         "blueEyedGrass",
         "westernRedbud",
-        "aspen"
+        "aspen",
+        "ponderosaPine"
       ]
     },
     "6.2.13": {
@@ -580,7 +590,8 @@
         "silkyLupine",
         "smoothPenstemon",
         "rabbitbrush",
-        "aspen"
+        "aspen",
+        "ponderosaPine"
       ]
     },
     "6.2.15": {
@@ -598,7 +609,8 @@
         "westernColumbine",
         "redOsier",
         "silkyLupine",
-        "aspen"
+        "aspen",
+        "ponderosaPine"
       ]
     },
     "7.1.1": {
@@ -797,7 +809,10 @@
         "joePye",
         "newEnglandAster",
         "aspen",
-        "burOak"
+        "burOak",
+        "whiteOak",
+        "redMaple",
+        "blackCherry"
       ]
     },
     "8.1.3": {
@@ -820,7 +835,10 @@
         "bloodroot",
         "blueCohosh",
         "virginiaBluebells",
-        "aspen"
+        "aspen",
+        "whiteOak",
+        "redMaple",
+        "blackCherry"
       ]
     },
     "8.1.4": {
@@ -850,7 +868,8 @@
         "newEnglandAster",
         "sneezeweed",
         "aspen",
-        "burOak"
+        "burOak",
+        "redMaple"
       ]
     },
     "8.1.5": {
@@ -887,7 +906,10 @@
         "spiderwort",
         "virginiaBluebells",
         "aspen",
-        "burOak"
+        "burOak",
+        "whiteOak",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.1.6": {
@@ -920,7 +942,11 @@
         "spiderwort",
         "virginiaBluebells",
         "aspen",
-        "burOak"
+        "burOak",
+        "whiteOak",
+        "redMaple",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.1.7": {
@@ -940,7 +966,10 @@
         "bloodroot",
         "newEnglandAster",
         "purpleLoveGrass",
-        "aspen"
+        "aspen",
+        "whiteOak",
+        "redMaple",
+        "blackCherry"
       ]
     },
     "8.1.8": {
@@ -966,7 +995,9 @@
         "redElderberry",
         "whiteSpruce",
         "tamarack",
-        "aspen"
+        "aspen",
+        "redMaple",
+        "blackCherry"
       ]
     },
     "8.1.10": {
@@ -991,7 +1022,11 @@
         "joePye",
         "newEnglandAster",
         "virginiaBluebells",
-        "aspen"
+        "aspen",
+        "whiteOak",
+        "redMaple",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.2.1": {
@@ -1026,7 +1061,8 @@
         "indianGrass",
         "spiderwort",
         "aspen",
-        "burOak"
+        "burOak",
+        "whiteOak"
       ]
     },
     "8.2.2": {
@@ -1052,7 +1088,11 @@
         "newEnglandAster",
         "sneezeweed",
         "aspen",
-        "burOak"
+        "burOak",
+        "whiteOak",
+        "redMaple",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.2.3": {
@@ -1088,7 +1128,9 @@
         "tickseed",
         "purpleConeflower",
         "aspen",
-        "burOak"
+        "burOak",
+        "whiteOak",
+        "riverBirch"
       ]
     },
     "8.2.4": {
@@ -1120,7 +1162,11 @@
         "sneezeweed",
         "virginiaBluebells",
         "aspen",
-        "burOak"
+        "burOak",
+        "whiteOak",
+        "redMaple",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.3.1": {
@@ -1148,7 +1194,11 @@
         "newEnglandAster",
         "purpleLoveGrass",
         "virginiaBluebells",
-        "aspen"
+        "aspen",
+        "whiteOak",
+        "redMaple",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.3.2": {
@@ -1185,7 +1235,9 @@
         "purpleConeflower",
         "burOak",
         "cottonwood",
-        "fringeTree"
+        "fringeTree",
+        "whiteOak",
+        "riverBirch"
       ]
     },
     "8.3.3": {
@@ -1220,7 +1272,10 @@
         "blueWildIndigo",
         "virginiaBluebells",
         "tickseed",
-        "purpleConeflower"
+        "purpleConeflower",
+        "whiteOak",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.3.4": {
@@ -1242,7 +1297,11 @@
         "sweetspire",
         "fringeTree",
         "greenAndGold",
-        "tickseed"
+        "tickseed",
+        "whiteOak",
+        "redMaple",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.3.5": {
@@ -1265,7 +1324,9 @@
         "fringeTree",
         "greenAndGold",
         "tickseed",
-        "cypress"
+        "cypress",
+        "redMaple",
+        "riverBirch"
       ]
     },
     "8.3.6": {
@@ -1287,7 +1348,8 @@
         "fringeTree",
         "tickseed",
         "cottonwood",
-        "cypress"
+        "cypress",
+        "riverBirch"
       ]
     },
     "8.3.7": {
@@ -1308,7 +1370,8 @@
         "sweetspire",
         "fringeTree",
         "tickseed",
-        "cypress"
+        "cypress",
+        "riverBirch"
       ]
     },
     "8.3.8": {
@@ -1353,7 +1416,11 @@
         "newEnglandAster",
         "blueWildIndigo",
         "virginiaBluebells",
-        "fringeTree"
+        "fringeTree",
+        "whiteOak",
+        "redMaple",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.4.2": {
@@ -1379,7 +1446,10 @@
         "blueCohosh",
         "greenAndGold",
         "virginiaBluebells",
-        "fringeTree"
+        "fringeTree",
+        "whiteOak",
+        "redMaple",
+        "blackCherry"
       ]
     },
     "8.4.3": {
@@ -1407,7 +1477,11 @@
         "newEnglandAster",
         "blueWildIndigo",
         "virginiaBluebells",
-        "fringeTree"
+        "fringeTree",
+        "whiteOak",
+        "redMaple",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.4.4": {
@@ -1429,7 +1503,10 @@
         "bloodroot",
         "blueCohosh",
         "fringeTree",
-        "greenAndGold"
+        "greenAndGold",
+        "whiteOak",
+        "redMaple",
+        "blackCherry"
       ]
     },
     "8.4.5": {
@@ -1461,7 +1538,10 @@
         "virginiaBluebells",
         "tickseed",
         "purpleConeflower",
-        "fringeTree"
+        "fringeTree",
+        "whiteOak",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.4.6": {
@@ -1481,7 +1561,10 @@
         "sneezeweed",
         "fringeTree",
         "blueWildIndigo",
-        "purpleConeflower"
+        "purpleConeflower",
+        "whiteOak",
+        "riverBirch",
+        "blackCherry"
       ]
     },
     "8.4.7": {
@@ -1503,7 +1586,8 @@
         "blueWildIndigo",
         "tickseed",
         "purpleConeflower",
-        "fringeTree"
+        "fringeTree",
+        "riverBirch"
       ]
     },
     "8.4.8": {
@@ -1543,7 +1627,10 @@
         "sweetspire",
         "fringeTree",
         "greenAndGold",
-        "tickseed"
+        "tickseed",
+        "whiteOak",
+        "redMaple",
+        "blackCherry"
       ]
     },
     "8.5.1": {
@@ -1569,7 +1656,9 @@
         "dwarfFothergilla",
         "greenAndGold",
         "saltMarshMallow",
-        "cypress"
+        "cypress",
+        "redMaple",
+        "riverBirch"
       ]
     },
     "8.5.2": {
@@ -1590,7 +1679,8 @@
         "sneezeweed",
         "sweetspire",
         "cottonwood",
-        "fringeTree"
+        "fringeTree",
+        "riverBirch"
       ]
     },
     "8.5.3": {
@@ -1631,7 +1721,8 @@
         "blackEyedSusan",
         "seasideGoldenrod",
         "waxMyrtle",
-        "purpleLoveGrass"
+        "purpleLoveGrass",
+        "redMaple"
       ]
     },
     "9.2.1": {
@@ -2197,7 +2288,8 @@
         "blueEyedGrass",
         "tidytips",
         "hummingbirdSage",
-        "westernRedbud"
+        "westernRedbud",
+        "coastLiveOak"
       ]
     },
     "11.1.2": {
@@ -2270,7 +2362,8 @@
         "showyGoldeneye",
         "beeplant",
         "rabbitbrush",
-        "aspen"
+        "aspen",
+        "ponderosaPine"
       ]
     },
     "15.4.1": {
@@ -3806,6 +3899,48 @@
       "shade",
       "Part sun to shade · moist or wet forest soils",
       "Endemic to Hawaiʻi. Use nursery-propagated plants from the appropriate island."
+    ],
+    "whiteOak": [
+      "White oak",
+      "Quercus alba",
+      "shade",
+      "Sun to part shade · moist, well-drained acidic soil · large canopy tree",
+      "Native to central and eastern North America. Use locally sourced plants within its natural range; avoid waterlogged sites."
+    ],
+    "redMaple": [
+      "Red maple",
+      "Acer rubrum",
+      "wet",
+      "Sun to part shade · moist acidic soil · large canopy tree",
+      "Native across eastern North America, in forests and wetland margins. Match local seed origin and drainage; this is the species, not a named cultivar."
+    ],
+    "riverBirch": [
+      "River birch",
+      "Betula nigra",
+      "wet",
+      "Sun to part shade · consistently moist acidic soil · streamside tree",
+      "Native to central and eastern U.S. floodplains and streambanks. Check local occurrence, especially toward the northern edge of its range."
+    ],
+    "blackCherry": [
+      "Black cherry",
+      "Prunus serotina",
+      "shade",
+      "Sun · moist, well-drained soil · woodland-edge tree",
+      "Native in eastern North America, with other regional forms farther west and south. These suggestions concern eastern woodland populations; ask for local seed origin."
+    ],
+    "ponderosaPine": [
+      "Ponderosa pine",
+      "Pinus ponderosa",
+      "open",
+      "Sun · deep, well-drained soil · large evergreen tree",
+      "Native to western North American forests, chiefly interior slopes and mountain foothills. Regional forms differ; use stock adapted to local elevation and climate."
+    ],
+    "coastLiveOak": [
+      "Coast live oak",
+      "Quercus agrifolia",
+      "shade",
+      "Sun to part shade · well-drained soil · broad evergreen canopy",
+      "Native mainly west of California’s Coast Ranges from Mendocino County south into Baja California. It is not a general recommendation for inland valleys or deserts."
     ]
   },
   "photos": {
@@ -5271,6 +5406,48 @@
       "artist": "Forest & Kim Starr",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    "Quercus alba": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Quercus_alba.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Quercus_alba.jpg",
+      "artist": "Jaknouse",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Acer rubrum": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Acer_rubrum_-_Flickr_-_treegrow.jpg/960px-Acer_rubrum_-_Flickr_-_treegrow.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Acer_rubrum_-_Flickr_-_treegrow.jpg",
+      "artist": "Katja Schulz",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "Betula nigra": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Betula_nigra_-_River_Birch.jpg/960px-Betula_nigra_-_River_Birch.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Betula_nigra_-_River_Birch.jpg",
+      "artist": "Fritzflohrreynolds",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "Prunus serotina": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Prunus_serotina%2C_2015-05-14%2C_Riverview_Park%2C_01.jpg/960px-Prunus_serotina%2C_2015-05-14%2C_Riverview_Park%2C_01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Prunus_serotina,_2015-05-14,_Riverview_Park,_01.jpg",
+      "artist": "Cbaile19",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "Pinus ponderosa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Pinus_ponderosa_tree.jpg/960px-Pinus_ponderosa_tree.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pinus_ponderosa_tree.jpg",
+      "artist": "USDA-NRCS / Herman, D.E. et al., North Dakota tree handbook",
+      "license": "Public domain",
+      "licenseUrl": ""
+    },
+    "Quercus agrifolia": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Quercusagrifolia.jpg/960px-Quercusagrifolia.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Quercusagrifolia.jpg",
+      "artist": "jkirkhart35 / Jerry Kirkhart",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     }
   },
   "plantSources": {
@@ -6386,7 +6563,13 @@
     "pohinahina": "This coastal shrub spreads low with gray-green leaves and spikes of lavender-blue flowers. Insects visit the flowers.",
     "akia": "A small shrub spreads into a mound with gray-green leaves, tiny yellow flowers and orange-red fruit.",
     "aweoweo": "A branching shrub with pale green leaves and tiny green flower clusters. Wind carries its pollen.",
-    "hapuu": "Long, arching fronds rise from a trunk clothed in soft golden fibers. This tree fern reproduces by spores and creates shade and cover."
+    "hapuu": "Long, arching fronds rise from a trunk clothed in soft golden fibers. This tree fern reproduces by spores and creates shade and cover.",
+    "whiteOak": "Rounded leaf lobes and pale bark distinguish this long-lived oak. Its leaves host many butterfly and moth caterpillars, while acorns feed birds and mammals.",
+    "redMaple": "Small red flowers open before the leaves, followed by winged seeds and bright autumn foliage. Early flowers offer food for bees, and the foliage supports moth caterpillars.",
+    "riverBirch": "Peeling cinnamon-colored bark gives this fast-growing tree interest through winter. Its foliage hosts butterfly caterpillars, and small birds eat the seeds.",
+    "blackCherry": "Drooping white flower clusters attract pollinators in spring, and dark fruits feed songbirds later in the year. The leaves host butterflies including tiger swallowtails and red-spotted purples.",
+    "ponderosaPine": "Long needles and orange-brown bark plates give mature trees a distinctive outline. The evergreen crown provides cover, while seeds feed nutcrackers, quail and small mammals.",
+    "coastLiveOak": "Dense, dark evergreen leaves and spreading branches create year-round shelter. Acorns feed birds and other wildlife, and the foliage supports butterfly and moth caterpillars."
   },
   "planning": {
     "aalii": {
@@ -9522,6 +9705,102 @@
         }
       ],
       "wateringGroup": "general"
+    },
+    "whiteOak": {
+      "height": "50–135 ft",
+      "spread": "50–80 ft",
+      "bloom": "Spring; often April in North Carolina, later farther north.",
+      "spacing": "Allow for a mature spread of 50–80 ft. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Quercus alba",
+          "url": "https://plants.ces.ncsu.edu/plants/quercus-alba/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "redMaple": {
+      "height": "40–70 ft; can grow taller",
+      "spread": "30–50 ft",
+      "bloom": "Late winter–early spring; timing varies with latitude.",
+      "spacing": "Allow for a mature spread of 30–50 ft. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Acer rubrum",
+          "url": "https://plants.ces.ncsu.edu/plants/acer-rubrum/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "riverBirch": {
+      "height": "30–70 ft",
+      "spread": "40–60 ft",
+      "bloom": "Early spring; wind-pollinated catkins.",
+      "spacing": "Allow for a mature spread of 40–60 ft. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Betula nigra",
+          "url": "https://plants.ces.ncsu.edu/plants/betula-nigra/"
+        }
+      ],
+      "wateringGroup": "woody",
+      "wateringNote": "Maintain consistent soil moisture, including after establishment; this is a streamside species, not a dry-bed tree."
+    },
+    "blackCherry": {
+      "height": "60–80 ft",
+      "spread": "30–60 ft",
+      "bloom": "Late April–May in North Carolina; later in colder areas.",
+      "spacing": "Allow for a mature spread of 30–60 ft. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Prunus serotina",
+          "url": "https://plants.ces.ncsu.edu/plants/prunus-serotina/"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "ponderosaPine": {
+      "height": "60–125 ft",
+      "spread": "25–30 ft",
+      "bloom": "Non-flowering conifer; pollen cones in spring.",
+      "spacing": "Allow for a mature spread of 25–30 ft. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "NC State Extension Plant Toolbox: Pinus ponderosa",
+          "url": "https://plants.ces.ncsu.edu/plants/pinus-ponderosa/"
+        },
+        {
+          "label": "Oregon State University Landscape Plants: Pinus ponderosa",
+          "url": "https://landscapeplants.oregonstate.edu/plants/pinus-ponderosa"
+        }
+      ],
+      "wateringGroup": "woody"
+    },
+    "coastLiveOak": {
+      "height": "35–70 ft",
+      "spread": "25–60 ft; old trees can spread wider",
+      "bloom": "Spring; inconspicuous yellow catkins.",
+      "spacing": "Allow for a mature spread of 25–60 ft; old trees can spread wider. This is a planning allowance; adjust to the site and keep clear of utilities and structures.",
+      "sources": [
+        {
+          "label": "California Flora Nursery: Quercus agrifolia",
+          "url": "https://www.calfloranursery.com/plants/quercus-agrifolia/"
+        },
+        {
+          "label": "Oregon State University Landscape Plants: Quercus agrifolia",
+          "url": "https://landscapeplants.oregonstate.edu/plants/quercus-agrifolia"
+        },
+        {
+          "label": "UC Cooperative Extension: Water Wise Gardening, large trees",
+          "url": "https://ucanr.edu/sites/default/files/2026-04/Water%20Wise%20Gardening%204.20.26-%20Accessible.pdf#page=12"
+        }
+      ],
+      "wateringGroup": "woody",
+      "watering": "Water young trees through establishment according to soil moisture and local nursery guidance. Reduce irrigation as roots establish; established coast live oaks generally need little or no summer water. Avoid keeping the crown and root zone wet in summer.",
+      "catalog": {
+        "label": "California Flora Nursery: coast live oak",
+        "url": "https://www.calfloranursery.com/plants/quercus-agrifolia/"
+      }
     }
   },
   "wateringGuidance": {
@@ -9555,15 +9834,15 @@
     }
   },
   "planningMetadata": {
-    "checkedOn": "2026-11-23",
-    "species": 209,
+    "checkedOn": "2026-11-26",
+    "species": 215,
     "counts": {
-      "height": 209,
-      "spread": 189,
-      "bloom": 209,
-      "spacing": 197,
-      "speciesWateringNotes": 23,
-      "catalogs": 58,
+      "height": 215,
+      "spread": 195,
+      "bloom": 215,
+      "spacing": 203,
+      "speciesWateringNotes": 18,
+      "catalogs": 59,
       "bloomMonths": 122
     },
     "method": "Primary extension, university, government, botanical and nursery species profiles. Source measurements and regional bloom timing retained; spacing based on mature spread is explicitly an allowance. Missing values remain null. Shared establishment guidance is distinguished from species-specific notes. Nursery catalogs do not establish current inventory."
@@ -9606,7 +9885,8 @@
       "aspen": "Use only on locally forested ground below treeline, with drainage and enough room for mature roots and canopy."
     },
     "6.2.3": {
-      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "ponderosaPine": "For locally native, sunny forest foothills and lower mountain slopes with deep drainage and ample space. Match local seed source and elevation; avoid saturated soils and naturally treeless high ground."
     },
     "6.2.4": {
       "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
@@ -9620,96 +9900,148 @@
       "vineMaple": "A small tree for moist, drained forest edges in its Pacific Northwest native range, principally west of the Cascades. Use local nursery-grown stock."
     },
     "6.2.8": {
-      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "ponderosaPine": "For locally native, sunny forest foothills and lower mountain slopes with deep drainage and ample space. Match local seed source and elevation; avoid saturated soils and naturally treeless high ground."
     },
     "6.2.9": {
-      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "ponderosaPine": "For locally native, sunny forest foothills and lower mountain slopes with deep drainage and ample space. Match local seed source and elevation; avoid saturated soils and naturally treeless high ground."
     },
     "6.2.10": {
-      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "ponderosaPine": "For locally native, sunny forest foothills and lower mountain slopes with deep drainage and ample space. Match local seed source and elevation; avoid saturated soils and naturally treeless high ground."
     },
     "6.2.11": {
       "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
       "vineMaple": "A small tree for moist, drained forest edges in its Pacific Northwest native range, principally west of the Cascades. Use local nursery-grown stock."
     },
     "6.2.12": {
-      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "ponderosaPine": "For locally native, sunny forest foothills and lower mountain slopes with deep drainage and ample space. Match local seed source and elevation; avoid saturated soils and naturally treeless high ground."
     },
     "6.2.13": {
       "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
     },
     "6.2.14": {
-      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "ponderosaPine": "For locally native, sunny forest foothills and lower mountain slopes with deep drainage and ample space. Match local seed source and elevation; avoid saturated soils and naturally treeless high ground."
     },
     "6.2.15": {
-      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "ponderosaPine": "For locally native, sunny forest foothills and lower mountain slopes with deep drainage and ample space. Match local seed source and elevation; avoid saturated soils and naturally treeless high ground."
     },
     "13.1.1": {
-      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors."
+      "aspen": "For cool montane sites where local aspen groves occur, with reliable soil moisture. Keep its suckering roots away from buildings; unsuitable for hot, dry valley floors.",
+      "ponderosaPine": "For locally native, sunny forest foothills and lower mountain slopes with deep drainage and ample space. Match local seed source and elevation; avoid saturated soils and naturally treeless high ground."
     },
     "5.2.1": {
-      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil."
     },
     "5.2.2": {
       "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
     },
     "5.3.1": {
-      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "5.3.3": {
-      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.1.1": {
       "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
-      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.1.3": {
-      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.1.4": {
       "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
-      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil."
     },
     "8.1.5": {
       "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
-      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.1.6": {
       "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
-      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.1.7": {
-      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.1.8": {
-      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.1.10": {
-      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.2.1": {
       "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
-      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground."
     },
     "8.2.2": {
       "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
-      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.2.3": {
       "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
-      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters."
     },
     "8.2.4": {
       "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
-      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
+      "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.3.1": {
-      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy."
+      "aspen": "For cool, locally occurring woodland populations and larger naturalized gardens. Aspen forms suckering colonies; allow room for roots and mature canopy.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.3.2": {
       "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland.",
       "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
-      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters."
     },
     "9.2.1": {
       "burOak": "For locally native oak woodland or savanna sites with ample canopy space. Retain naturally open grassland rather than turning intact prairie into woodland."
@@ -9748,12 +10080,14 @@
     "8.3.6": {
       "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
       "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
-      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters."
     },
     "8.5.2": {
       "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting.",
       "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
-      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters."
     },
     "9.4.1": {
       "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
@@ -9765,52 +10099,88 @@
       "cottonwood": "For moist river terraces and floodplain restoration, using the locally native form. This large, fast-growing tree needs room away from buildings, paving and utilities; not a dry prairie planting."
     },
     "8.3.3": {
-      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.3.4": {
-      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.3.5": {
       "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
-      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters."
     },
     "8.3.7": {
       "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
-      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters."
     },
     "8.3.8": {
       "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
     },
     "8.4.1": {
-      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.4.2": {
-      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.4.3": {
-      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.4.4": {
-      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.4.5": {
-      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.4.6": {
-      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.4.7": {
-      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters."
     },
     "8.4.8": {
       "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
     },
     "8.4.9": {
-      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range."
+      "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
+      "whiteOak": "For well-drained woodland, savanna or a large yard where locally native. Allow a broad mature crown and keep it away from buildings and paving; avoid compacted or waterlogged ground.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "blackCherry": "For a sunny woodland edge or large wildlife garden where locally native. Give the canopy room; leaves, seeds and other plant parts can be toxic, so keep it away from livestock browsing."
     },
     "8.5.1": {
       "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
-      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines."
+      "cypress": "For freshwater lowlands, rain-fed depressions and floodplain gardens where naturally occurring. Allow space for a large tree and buttressed roots; avoid saline shorelines.",
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil.",
+      "riverBirch": "For streambanks, moist floodplain ground or a large rain garden within its native range. Keep the root zone cool and moist; allow for a wide crown and falling twigs away from gutters."
     },
     "8.5.3": {
       "fringeTree": "A small tree or large shrub for locally native woodland edges with moist, well-drained soil. Check county occurrence near the northern and western edges of its range.",
@@ -9835,6 +10205,12 @@
     },
     "7.1.9": {
       "vineMaple": "A small tree for moist, drained forest edges in its Pacific Northwest native range, principally west of the Cascades. Use local nursery-grown stock."
+    },
+    "8.5.4": {
+      "redMaple": "For a moist woodland edge or roomy rain-garden margin within its native range. Surface roots need space away from paving and can make underplanting difficult; avoid alkaline soil."
+    },
+    "11.1.1": {
+      "coastLiveOak": "For locally native coastal oak woodland or a spacious garden on the coastal side of the ranges. Keep established roots out of regularly irrigated lawns and leave room for broad, low branches."
     }
   }
 }
